@@ -1,0 +1,15 @@
+{
+  "name": "sheets-dashboard-builder",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "description": "Build native Google Sheets dashboards from a sheetsmith-style workbook spec via the Sheets API.",
+  "scripts": {
+    "authorize": "node authorize.js",
+    "build": "node build_sheet.js"
+  },
+  "dependencies": {
+    "googleapis": "^144.0.0",
+    "@google-cloud/local-auth": "^3.0.1"
+  }
+}
