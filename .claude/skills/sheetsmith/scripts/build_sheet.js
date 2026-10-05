@@ -274,6 +274,13 @@ async function main() {
         reqs.push({ repeatCell: { range: { sheetId, startRowIndex: 1, endRowIndex: nRows + 1 || 2, startColumnIndex: i, endColumnIndex: i + 1 }, cell: { userEnteredFormat: { numberFormat: { type: numFmtType(c.number_format), pattern: c.number_format } } }, fields: "userEnteredFormat.numberFormat" } });
     });
 
+    // number formats set on individual formulas (override the column's, as in the .xlsx builder)
+    for (const f of tab.formulas || []) {
+      if (!f.number_format) continue;
+      const rng = f.cell ? parseRange(f.cell) : parseRange(`${f.col}${f.range_rows[0]}:${f.col}${f.range_rows[1]}`);
+      reqs.push({ repeatCell: { range: { ...rng, sheetId }, cell: { userEnteredFormat: { numberFormat: { type: numFmtType(f.number_format), pattern: f.number_format } } }, fields: "userEnteredFormat.numberFormat" } });
+    }
+
     // banding
     const band = styles.banding || {};
     if (band.enabled && nRows > 0) {
