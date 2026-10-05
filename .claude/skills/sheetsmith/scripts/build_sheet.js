@@ -177,7 +177,9 @@ async function main() {
   const title = (spec.filename || "Dashboard").replace(/\.xlsx$/i, "");
   const created = await sheets.spreadsheets.create({
     requestBody: {
-      properties: { title },
+      // Spec formulas use en_US syntax (comma separators). Without an explicit locale the sheet takes the
+      // account's, and in comma-decimal locales every formula with a comma becomes #ERROR!.
+      properties: { title, locale: spec.locale || "en_US" },
       sheets: spec.tabs.map((t) => ({
         properties: {
           title: t.name.slice(0, 99),

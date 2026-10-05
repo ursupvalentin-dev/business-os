@@ -7,6 +7,8 @@ The skill drafts a **workbook spec** (JSON) in Phase 2; the QA agents attack it 
 ```json
 { "filename": "budget-2026.xlsx", "tabs": [ <tab>, ... ] }
 ```
+Optional `"locale"` (Google builds only, default `"en_US"`) sets the Google Sheet's locale. Formulas in the
+spec are always written in en_US syntax (comma argument separators), so keep a locale that parses them.
 
 ## Tab
 ```json
