@@ -47,6 +47,9 @@ DEFAULT_THEME = {
     "chart_palette": ["7ED2B6", "F8B6C2", "80D2DA", "B9A4E7", "F6E5A8", "F4C0DB", "A3CEC5", "EAE9F4"],
 }
 CHART_TYPES = {"bar": BarChart, "line": LineChart, "pie": PieChart, "doughnut": DoughnutChart}
+# Styled fonts must be named: an unnamed font renders as a serif fallback in LibreOffice.
+# Calibri matches openpyxl's default body font.
+FONT_NAME = "Calibri"
 
 
 def _fill(hex_color):
@@ -103,10 +106,10 @@ def _add_kpi_card(ws, cfg, theme):
             if border:
                 cell.border = border
     lab = ws.cell(row=r, column=c, value=cfg.get("label", ""))
-    lab.font = Font(bold=True, size=cfg.get("label_size", 10), color=font_color)
+    lab.font = Font(name=FONT_NAME, bold=True, size=cfg.get("label_size", 10), color=font_color)
     lab.alignment = Alignment(horizontal="center", vertical="center")
     val = ws.cell(row=r + 1, column=c, value=cfg.get("value"))
-    val.font = Font(bold=True, size=cfg.get("value_size", 20), color=font_color)
+    val.font = Font(name=FONT_NAME, bold=True, size=cfg.get("value_size", 20), color=font_color)
     val.alignment = Alignment(horizontal="center", vertical="center")
     if cfg.get("number_format"):
         val.number_format = cfg["number_format"]
@@ -124,7 +127,8 @@ def _add_section_bar(ws, cfg, theme, idx):
             cell.fill = _fill(color)
     ws.merge_cells(rng)
     anchor = ws.cell(row=minr, column=minc, value=cfg.get("label", ""))
-    anchor.font = Font(bold=True, size=cfg.get("size", 11), color=cfg.get("font_color", theme["header_font"]))
+    anchor.font = Font(name=FONT_NAME, bold=True, size=cfg.get("size", 11),
+                       color=cfg.get("font_color", theme["header_font"]))
     anchor.alignment = Alignment(horizontal=cfg.get("align", "center"), vertical="center")
 
 
@@ -156,6 +160,10 @@ def _add_chart(wb, ws, cfg, theme):
     else:
         n_points = _vertical_count(cfg["data"]) - (1 if tfd else 0)
     _theme_chart(chart, kind, cfg, n_points, theme["chart_palette"])
+    if kind in ("bar", "line"):
+        # openpyxl 3.1 omits <c:delete> on axes, which Excel reads as "axis deleted" (no labels/scale)
+        chart.x_axis.delete = False
+        chart.y_axis.delete = False
     chart.height = cfg.get("height", 7)
     chart.width = cfg.get("width", 12)
     ws.add_chart(chart, cfg.get("anchor", "A1"))
@@ -260,7 +268,8 @@ def build(spec, out_path):
             if col.get("number_format"):
                 col_fmt[letter] = col["number_format"]
             cell = ws.cell(row=1, column=c, value=col.get("header", ""))
-            cell.font = Font(bold=header_style.get("bold", True), color=header_style.get("font_color", "FFFFFF"))
+            cell.font = Font(name=FONT_NAME, bold=header_style.get("bold", True),
+                             color=header_style.get("font_color", "FFFFFF"))
             if header_style.get("fill"):
                 cell.fill = _fill(header_style["fill"])
             cell.alignment = Alignment(horizontal="center", vertical="center")
