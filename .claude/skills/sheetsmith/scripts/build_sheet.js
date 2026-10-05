@@ -9,18 +9,16 @@
  * and translates it into Google Sheets API batchUpdate requests so charts, merges, banding, number
  * formats, and conditional formats render natively (no .xlsx import drift).
  *
- * Requires token.json (run authorize.js once). See SHEETS_SETUP.md.
+ * Requires Google credentials: token.json (run authorize.js once) or the GOOGLE_CLIENT_ID /
+ * GOOGLE_CLIENT_SECRET / GOOGLE_REFRESH_TOKEN environment variables. See SHEETS_SETUP.md.
  *
  * Known Sheets-API constraints (vs the .xlsx builder):
  *   - data_bar and icon_set conditional formats are NOT supported by the Sheets API → skipped with a warning.
  *   - pie/doughnut per-slice colors aren't settable via the API → Sheets auto-colors those (bar/line/column ARE themed).
  */
 const fs = require("fs");
-const path = require("path");
 const { google } = require("googleapis");
-
-const HERE = __dirname;
-const TOKEN = path.join(HERE, "token.json");
+const { loadAuth } = require("./google_auth");
 
 const DEFAULT_THEME = {
   accent: "EAC6B8",
@@ -79,14 +77,6 @@ function columnsOf(gr) {
 }
 const q = (title) => `'${String(title).replace(/'/g, "''")}'`;
 const numFmtType = (p) => (/%/.test(p) ? "PERCENT" : /[ymd]/i.test(p) ? "DATE" : "NUMBER");
-
-function loadAuth() {
-  if (!fs.existsSync(TOKEN)) {
-    console.error("No token.json — run `node authorize.js` first (see SHEETS_SETUP.md).");
-    process.exit(1);
-  }
-  return google.auth.fromJSON(JSON.parse(fs.readFileSync(TOKEN, "utf8")));
-}
 
 // ---------- request builders ----------
 function chartRequest(cfg, sheetId, idByTitle, defaultTitle, palette) {

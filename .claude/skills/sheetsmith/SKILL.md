@@ -30,8 +30,11 @@ feeds two renderers: a native **Google Sheet** (default) or a local **.xlsx** fi
 
 ### Phase 0 — Gate: choose the output surface  ← always first
 Ask once, up front: **"Live Google Sheet (shareable, renders natively) or a local .xlsx file?"**
-- **Google Sheet (default / recommended).** Requires the one-time OAuth setup. If `scripts/token.json`
-  is missing, walk the user through `scripts/SHEETS_SETUP.md` first (or offer `.xlsx` now and Google later).
+- **Google Sheet (default / recommended).** Requires Google credentials: `scripts/token.json` (from
+  `node authorize.js` on the user's computer) or the `GOOGLE_CLIENT_ID` / `GOOGLE_CLIENT_SECRET` /
+  `GOOGLE_REFRESH_TOKEN` environment variables (cloud sessions). If neither is present, walk the user through
+  `scripts/SHEETS_SETUP.md` first (or offer `.xlsx` now and Google later). Run `npm ci` in `scripts/` if
+  `node_modules` is missing.
 - **.xlsx file.** Works immediately, no setup; offline/portable.
 Record the choice — it only changes the *build* + *validation* steps; everything else is shared.
 
@@ -86,8 +89,8 @@ spacer-grid, banding, number formats, merges, conditional formats, freezes, and 
 Confirm formulas evaluated (no `#REF!`/`#DIV/0!`) and **independently recompute a sample** (≥3 formula cells).
 - **Google:** read back via the API in `scripts/`:
   ```js
-  const fs=require("fs"),{google}=require("googleapis");
-  const sheets=google.sheets({version:"v4",auth:google.auth.fromJSON(JSON.parse(fs.readFileSync("token.json","utf8")))});
+  const {google}=require("googleapis"),{loadAuth}=require("./google_auth");
+  const sheets=google.sheets({version:"v4",auth:loadAuth()});
   sheets.spreadsheets.values.get({spreadsheetId:"<ID>",range:"Data!A1:Z60",valueRenderOption:"FORMATTED_VALUE"}).then(r=>console.log(r.data.values));
   ```
 - **.xlsx:** parse with openpyxl and inspect formula cells:
@@ -113,8 +116,10 @@ Ask: *would the user trust and use this as-is?* Fix what doesn't pass.
 Hand over the **Sheet URL** (Google) or **.xlsx path**, plus the QA report.
 
 ## Google output: prerequisite & constraints
-- **One-time OAuth** (`scripts/SHEETS_SETUP.md`): create a Desktop OAuth client → `scripts/credentials.json` →
-  `node authorize.js` → `token.json`. Don't attempt a Google build before `token.json` exists.
+- **One-time OAuth** (`scripts/SHEETS_SETUP.md`): on the user's computer, a Desktop OAuth client →
+  `scripts/credentials.json` → `node authorize.js` → `token.json`; in cloud sessions, the three `GOOGLE_*`
+  environment variables. Don't attempt a Google build before one of them exists, and never ask for these
+  secrets in chat.
 - **Sheets-API limits (vs .xlsx):** `data_bar`/`icon_set` conditional formats aren't supported (the builder
   skips them with a warning — use `color_scale`/`cell_is`); pie/doughnut slice colors auto-assign (bar/line ARE themed).
 
@@ -148,11 +153,13 @@ Delivered: <URL or path>
 - **Cosmetic QA.** Agents must attack specific formulas or be re-run.
 - **Unverified formulas / charts on default colors** — the `[!GENERIC]` failure; theme charts and recompute formulas.
 - **Building before the interview**, or **silent fixes** (every correction goes in the QA report).
-- **A Google build before `token.json` exists** — do the one-time setup first, or fall back to .xlsx.
+- **A Google build without credentials** (`token.json` or the `GOOGLE_*` env vars) — do the one-time setup first,
+  or fall back to .xlsx.
 
 ## Assets
 - `scripts/build_sheet.js` — spec → native Google Sheet (Sheets API; themed charts, cards, formats).
 - `scripts/build_xlsx.py` — spec → local styled `.xlsx` (openpyxl).
 - `scripts/authorize.js` + `scripts/SHEETS_SETUP.md` — one-time Google OAuth.
+- `scripts/google_auth.js` — loads Google credentials from `token.json` or the `GOOGLE_*` env vars.
 - `references/spec-schema.md` — the shared workbook-spec format (both renderers).
 - `references/dashboard-layout.md` — the dashboard layout & color system (from "Budget by Paycheck").
