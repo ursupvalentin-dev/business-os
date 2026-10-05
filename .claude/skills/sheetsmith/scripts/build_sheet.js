@@ -155,8 +155,9 @@ function conditionalRequest(cf, sheetId) {
   }
   let condition;
   if (t === "formula") {
-    const f = Array.isArray(cf.formula) ? cf.formula[0] : cf.formula;
-    condition = { type: "CUSTOM_FORMULA", values: [{ userEnteredValue: f }] };
+    const f = String(Array.isArray(cf.formula) ? cf.formula[0] : cf.formula);
+    // spec formulas follow the openpyxl convention (no leading "="); the Sheets API needs one
+    condition = { type: "CUSTOM_FORMULA", values: [{ userEnteredValue: f.startsWith("=") ? f : "=" + f }] };
   } else {
     const opMap = {
       lessThan: "NUMBER_LESS", greaterThan: "NUMBER_GREATER",
