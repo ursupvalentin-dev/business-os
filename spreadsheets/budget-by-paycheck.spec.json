@@ -1,0 +1,1098 @@
+{
+  "filename": "budget-by-paycheck.xlsx",
+  "theme": {
+    "header_font": "4A3B35"
+  },
+  "tabs": [
+    {
+      "name": "Start Here",
+      "columns": [],
+      "hide_gridlines": true,
+      "row_height": 18,
+      "column_widths": {
+        "A": 2.5,
+        "B": 72,
+        "C": 20,
+        "D": 2.5
+      },
+      "section_bars": [
+        {
+          "range": "B2:C2",
+          "label": "B U D G E T   B Y   P A Y C H E C K",
+          "size": 14
+        },
+        {
+          "range": "B4:C4",
+          "label": "YOUR PAYDAYS",
+          "align": "left"
+        },
+        {
+          "range": "B9:C9",
+          "label": "HOW TO USE",
+          "align": "left"
+        }
+      ],
+      "fills": [
+        {
+          "range": "B5:C7",
+          "color": "FAF1F3"
+        },
+        {
+          "range": "C5:C5",
+          "color": "FFF4CC"
+        },
+        {
+          "range": "B10:C19",
+          "color": "FDFBF3"
+        }
+      ],
+      "formulas": [
+        {
+          "cell": "B5",
+          "formula": "First payday (type your own date here)"
+        },
+        {
+          "cell": "C5",
+          "formula": "=DATE(2026,10,9)",
+          "number_format": "mmm d, yyyy"
+        },
+        {
+          "cell": "B6",
+          "formula": "Last payday in this tracker"
+        },
+        {
+          "cell": "C6",
+          "formula": "=IF(AND(ISNUMBER(C5),C5>=DATE(2000,1,1)),MAX(Paychecks!$B$2:$B$27),\"\")",
+          "number_format": "mmm d, yyyy"
+        },
+        {
+          "cell": "B7",
+          "formula": "Extra paychecks in this window (3rd payday in a month)"
+        },
+        {
+          "cell": "C7",
+          "formula": "=IF(AND(ISNUMBER(C5),C5>=DATE(2000,1,1)),COUNTIF(Paychecks!$C$2:$C$27,3),\"\")",
+          "number_format": "0"
+        },
+        {
+          "cell": "B10",
+          "formula": "1. Set your first payday above; the other 25 paydays fill in every 14 days."
+        },
+        {
+          "cell": "B11",
+          "formula": "2. Bills tab: list each monthly bill with its category, due day and amount."
+        },
+        {
+          "cell": "B12",
+          "formula": "3. Tag each bill 1 or 2, the paycheck that arrives before it's due:"
+        },
+        {
+          "cell": "B13",
+          "formula": "      1 = first payday of the month (1st-14th), 2 = second payday (15th-28th)."
+        },
+        {
+          "cell": "B14",
+          "formula": "      Bills due the 1st-14th usually come out of the previous month's check 2."
+        },
+        {
+          "cell": "B15",
+          "formula": "      A 3rd payday in a month is an extra paycheck: no bills come out of it."
+        },
+        {
+          "cell": "B16",
+          "formula": "4. Paychecks tab: yellow cells are yours. Enter Take-Home Pay and Savings in dollars,"
+        },
+        {
+          "cell": "B17",
+          "formula": "      and log what you actually spend in Spent as each pay period goes by."
+        },
+        {
+          "cell": "B18",
+          "formula": "5. Red cells flag something to fix. Keep the # column as is: it sets each date."
+        },
+        {
+          "cell": "B19",
+          "formula": "6. Dashboard tab: totals for all 26 paychecks and your monthly bills by category."
+        }
+      ],
+      "conditional_formats": [
+        {
+          "range": "C5",
+          "type": "formula",
+          "formula": [
+            "NOT(AND(ISNUMBER($C$5),$C$5>=DATE(2000,1,1)))"
+          ],
+          "fill": "FFC7CE"
+        }
+      ]
+    },
+    {
+      "name": "Bills",
+      "freeze": "A2",
+      "columns": [
+        {
+          "header": "Bill",
+          "key": "bill",
+          "width": 24
+        },
+        {
+          "header": "Category",
+          "key": "category",
+          "width": 18
+        },
+        {
+          "header": "Due Day",
+          "key": "due",
+          "width": 11,
+          "number_format": "0"
+        },
+        {
+          "header": "Monthly Amount",
+          "key": "amount",
+          "width": 17,
+          "number_format": "$#,##0.00"
+        },
+        {
+          "header": "Paid From Check #",
+          "key": "check",
+          "width": 20
+        }
+      ],
+      "rows": [
+        {
+          "bill": "Rent",
+          "category": "Housing",
+          "due": 1,
+          "amount": 1300,
+          "check": 2
+        },
+        {
+          "bill": "Internet",
+          "category": "Phone & Internet",
+          "due": 5,
+          "amount": 70,
+          "check": 2
+        },
+        {
+          "bill": "Streaming services",
+          "category": "Subscriptions",
+          "due": 8,
+          "amount": 25,
+          "check": 2
+        },
+        {
+          "bill": "Student loan",
+          "category": "Debt",
+          "due": 10,
+          "amount": 180,
+          "check": 2
+        },
+        {
+          "bill": "Car payment",
+          "category": "Transportation",
+          "due": 15,
+          "amount": 340,
+          "check": 1
+        },
+        {
+          "bill": "Electric",
+          "category": "Utilities",
+          "due": 18,
+          "amount": 110,
+          "check": 1
+        },
+        {
+          "bill": "Phone",
+          "category": "Phone & Internet",
+          "due": 20,
+          "amount": 65,
+          "check": 1
+        },
+        {
+          "bill": "Water & trash",
+          "category": "Utilities",
+          "due": 22,
+          "amount": 55,
+          "check": 1
+        },
+        {
+          "bill": "Car insurance",
+          "category": "Insurance",
+          "due": 25,
+          "amount": 145,
+          "check": 1
+        },
+        {
+          "bill": "Credit card",
+          "category": "Debt",
+          "due": 28,
+          "amount": 150,
+          "check": 1
+        },
+        {
+          "bill": "Gym",
+          "category": "Subscriptions",
+          "due": 28,
+          "amount": 35,
+          "check": 1
+        },
+        {
+          "bill": null,
+          "category": null,
+          "due": null,
+          "amount": null,
+          "check": null
+        },
+        {
+          "bill": null,
+          "category": null,
+          "due": null,
+          "amount": null,
+          "check": null
+        },
+        {
+          "bill": null,
+          "category": null,
+          "due": null,
+          "amount": null,
+          "check": null
+        },
+        {
+          "bill": null,
+          "category": null,
+          "due": null,
+          "amount": null,
+          "check": null
+        },
+        {
+          "bill": null,
+          "category": null,
+          "due": null,
+          "amount": null,
+          "check": null
+        },
+        {
+          "bill": null,
+          "category": null,
+          "due": null,
+          "amount": null,
+          "check": null
+        },
+        {
+          "bill": null,
+          "category": null,
+          "due": null,
+          "amount": null,
+          "check": null
+        },
+        {
+          "bill": null,
+          "category": null,
+          "due": null,
+          "amount": null,
+          "check": null
+        },
+        {
+          "bill": null,
+          "category": null,
+          "due": null,
+          "amount": null,
+          "check": null
+        },
+        {
+          "bill": null,
+          "category": null,
+          "due": null,
+          "amount": null,
+          "check": null
+        },
+        {
+          "bill": null,
+          "category": null,
+          "due": null,
+          "amount": null,
+          "check": null
+        },
+        {
+          "bill": null,
+          "category": null,
+          "due": null,
+          "amount": null,
+          "check": null
+        },
+        {
+          "bill": null,
+          "category": null,
+          "due": null,
+          "amount": null,
+          "check": null
+        },
+        {
+          "bill": null,
+          "category": null,
+          "due": null,
+          "amount": null,
+          "check": null
+        },
+        {
+          "bill": null,
+          "category": null,
+          "due": null,
+          "amount": null,
+          "check": null
+        },
+        {
+          "bill": null,
+          "category": null,
+          "due": null,
+          "amount": null,
+          "check": null
+        },
+        {
+          "bill": null,
+          "category": null,
+          "due": null,
+          "amount": null,
+          "check": null
+        },
+        {
+          "bill": null,
+          "category": null,
+          "due": null,
+          "amount": null,
+          "check": null
+        },
+        {
+          "bill": null,
+          "category": null,
+          "due": null,
+          "amount": null,
+          "check": null
+        },
+        {
+          "bill": null,
+          "category": null,
+          "due": null,
+          "amount": null,
+          "check": null
+        },
+        {
+          "bill": null,
+          "category": null,
+          "due": null,
+          "amount": null,
+          "check": null
+        },
+        {
+          "bill": null,
+          "category": null,
+          "due": null,
+          "amount": null,
+          "check": null
+        },
+        {
+          "bill": null,
+          "category": null,
+          "due": null,
+          "amount": null,
+          "check": null
+        },
+        {
+          "bill": null,
+          "category": null,
+          "due": null,
+          "amount": null,
+          "check": null
+        },
+        {
+          "bill": null,
+          "category": null,
+          "due": null,
+          "amount": null,
+          "check": null
+        },
+        {
+          "bill": null,
+          "category": null,
+          "due": null,
+          "amount": null,
+          "check": null
+        },
+        {
+          "bill": null,
+          "category": null,
+          "due": null,
+          "amount": null,
+          "check": null
+        },
+        {
+          "bill": null,
+          "category": null,
+          "due": null,
+          "amount": null,
+          "check": null
+        },
+        {
+          "bill": null,
+          "category": null,
+          "due": null,
+          "amount": null,
+          "check": null
+        }
+      ],
+      "conditional_formats": [
+        {
+          "range": "E1:E5000",
+          "type": "formula",
+          "formula": [
+            "AND(ISNUMBER($D1),COUNTIF($E1,1)+COUNTIF($E1,2)=0)"
+          ],
+          "fill": "FFC7CE"
+        },
+        {
+          "range": "D1:D5000",
+          "type": "formula",
+          "formula": [
+            "OR(AND(ROW()>ROW($D$1),$D1<>\"\",NOT(ISNUMBER($D1))),AND(ISNUMBER($D1),$D1<0))"
+          ],
+          "fill": "FFC7CE"
+        }
+      ],
+      "styles": {
+        "header": {
+          "bold": true,
+          "fill": "EAC6B8",
+          "font_color": "4A3B35"
+        },
+        "banding": {
+          "enabled": true,
+          "color": "FAF1F3"
+        }
+      }
+    },
+    {
+      "name": "Paychecks",
+      "freeze": "A2",
+      "columns": [
+        {
+          "header": "#",
+          "key": "num",
+          "width": 5,
+          "number_format": "0"
+        },
+        {
+          "header": "Payday",
+          "key": "payday",
+          "width": 15,
+          "number_format": "mmm d, yyyy"
+        },
+        {
+          "header": "Check # in Month",
+          "key": "check",
+          "width": 19,
+          "number_format": "0"
+        },
+        {
+          "header": "Take-Home Pay",
+          "key": "pay",
+          "width": 16,
+          "number_format": "$#,##0.00"
+        },
+        {
+          "header": "Bills Due",
+          "key": "bills",
+          "width": 13,
+          "number_format": "$#,##0.00"
+        },
+        {
+          "header": "Savings",
+          "key": "savings",
+          "width": 12,
+          "number_format": "$#,##0.00"
+        },
+        {
+          "header": "Left to Spend",
+          "key": "left",
+          "width": 15,
+          "number_format": "$#,##0.00"
+        },
+        {
+          "header": "Spent",
+          "key": "spent",
+          "width": 12,
+          "number_format": "$#,##0.00"
+        },
+        {
+          "header": "Remaining",
+          "key": "remaining",
+          "width": 13,
+          "number_format": "$#,##0.00"
+        },
+        {
+          "header": "Note",
+          "key": "note",
+          "width": 46
+        }
+      ],
+      "rows": [
+        {
+          "num": 1,
+          "pay": 2250,
+          "savings": 150,
+          "spent": null
+        },
+        {
+          "num": 2,
+          "pay": 2250,
+          "savings": 150,
+          "spent": null
+        },
+        {
+          "num": 3,
+          "pay": 2250,
+          "savings": 150,
+          "spent": null
+        },
+        {
+          "num": 4,
+          "pay": 2250,
+          "savings": 150,
+          "spent": null
+        },
+        {
+          "num": 5,
+          "pay": 2250,
+          "savings": 150,
+          "spent": null
+        },
+        {
+          "num": 6,
+          "pay": 2250,
+          "savings": 150,
+          "spent": null
+        },
+        {
+          "num": 7,
+          "pay": 2250,
+          "savings": 150,
+          "spent": null
+        },
+        {
+          "num": 8,
+          "pay": 2250,
+          "savings": 150,
+          "spent": null
+        },
+        {
+          "num": 9,
+          "pay": 2250,
+          "savings": 150,
+          "spent": null
+        },
+        {
+          "num": 10,
+          "pay": 2250,
+          "savings": 150,
+          "spent": null
+        },
+        {
+          "num": 11,
+          "pay": 2250,
+          "savings": 150,
+          "spent": null
+        },
+        {
+          "num": 12,
+          "pay": 2250,
+          "savings": 150,
+          "spent": null
+        },
+        {
+          "num": 13,
+          "pay": 2250,
+          "savings": 150,
+          "spent": null
+        },
+        {
+          "num": 14,
+          "pay": 2250,
+          "savings": 150,
+          "spent": null
+        },
+        {
+          "num": 15,
+          "pay": 2250,
+          "savings": 150,
+          "spent": null
+        },
+        {
+          "num": 16,
+          "pay": 2250,
+          "savings": 150,
+          "spent": null
+        },
+        {
+          "num": 17,
+          "pay": 2250,
+          "savings": 150,
+          "spent": null
+        },
+        {
+          "num": 18,
+          "pay": 2250,
+          "savings": 150,
+          "spent": null
+        },
+        {
+          "num": 19,
+          "pay": 2250,
+          "savings": 150,
+          "spent": null
+        },
+        {
+          "num": 20,
+          "pay": 2250,
+          "savings": 150,
+          "spent": null
+        },
+        {
+          "num": 21,
+          "pay": 2250,
+          "savings": 150,
+          "spent": null
+        },
+        {
+          "num": 22,
+          "pay": 2250,
+          "savings": 150,
+          "spent": null
+        },
+        {
+          "num": 23,
+          "pay": 2250,
+          "savings": 150,
+          "spent": null
+        },
+        {
+          "num": 24,
+          "pay": 2250,
+          "savings": 150,
+          "spent": null
+        },
+        {
+          "num": 25,
+          "pay": 2250,
+          "savings": 150,
+          "spent": null
+        },
+        {
+          "num": 26,
+          "pay": 2250,
+          "savings": 150,
+          "spent": null
+        }
+      ],
+      "formulas": [
+        {
+          "col": "B",
+          "range_rows": [
+            2,
+            27
+          ],
+          "formula": "=IF(AND(ISNUMBER('Start Here'!$C$5),'Start Here'!$C$5>=DATE(2000,1,1)),'Start Here'!$C$5+14*(A{row}-1),\"\")"
+        },
+        {
+          "col": "C",
+          "range_rows": [
+            2,
+            27
+          ],
+          "formula": "=IF(B{row}=\"\",\"\",INT((DAY(B{row})-1)/14)+1)"
+        },
+        {
+          "col": "E",
+          "range_rows": [
+            2,
+            27
+          ],
+          "formula": "=IF(OR(C{row}=\"\",C{row}=3),0,SUMIF(Bills!$E:$E,C{row},Bills!$D:$D))"
+        },
+        {
+          "col": "G",
+          "range_rows": [
+            2,
+            27
+          ],
+          "formula": "=IF(ISNUMBER(D{row}),D{row},0)-E{row}-IF(ISNUMBER(F{row}),F{row},0)"
+        },
+        {
+          "col": "I",
+          "range_rows": [
+            2,
+            27
+          ],
+          "formula": "=IF(H{row}=\"\",\"\",IF(ISNUMBER(H{row}),ROUND(G{row}-H{row},2),\"Not a number\"))"
+        },
+        {
+          "col": "J",
+          "range_rows": [
+            2,
+            27
+          ],
+          "formula": "=IF(B{row}=\"\",\"Set your first payday on Start Here\",IF(D{row}=\"\",\"Enter take-home pay\",IF(OR(NOT(ISNUMBER(D{row})),D{row}<0,AND(F{row}<>\"\",NOT(ISNUMBER(F{row}))),AND(ISNUMBER(F{row}),F{row}<0)),\"Pay and savings must be numbers, not text or negatives\",IF(ROUND(G{row},2)<0,\"Short: bills + savings exceed pay\",IF(C{row}=3,\"Extra paycheck: no bills due\",\"\")))))"
+        }
+      ],
+      "conditional_formats": [
+        {
+          "range": "G2:G27",
+          "type": "formula",
+          "formula": [
+            "AND(ISNUMBER($D2),ROUND($G2,2)<0)"
+          ],
+          "fill": "FFC7CE"
+        },
+        {
+          "range": "I2:I27",
+          "type": "cell_is",
+          "operator": "lessThan",
+          "formula": [
+            "0"
+          ],
+          "fill": "FFC7CE"
+        },
+        {
+          "range": "A2:C27",
+          "type": "formula",
+          "formula": [
+            "$C2=3"
+          ],
+          "fill": "D4F1E8"
+        },
+        {
+          "range": "D2:D27",
+          "type": "formula",
+          "formula": [
+            "OR(AND($D2<>\"\",NOT(ISNUMBER($D2))),AND(ISNUMBER($D2),$D2<0))"
+          ],
+          "fill": "FFC7CE"
+        },
+        {
+          "range": "F2:F27",
+          "type": "formula",
+          "formula": [
+            "OR(AND($F2<>\"\",NOT(ISNUMBER($F2))),AND(ISNUMBER($F2),$F2<0))"
+          ],
+          "fill": "FFC7CE"
+        },
+        {
+          "range": "H2:H27",
+          "type": "formula",
+          "formula": [
+            "OR(AND($H2<>\"\",NOT(ISNUMBER($H2))),AND(ISNUMBER($H2),$H2<0))"
+          ],
+          "fill": "FFC7CE"
+        }
+      ],
+      "fills": [
+        {
+          "range": "D2:D27",
+          "color": "FFF4CC"
+        },
+        {
+          "range": "F2:F27",
+          "color": "FFF4CC"
+        },
+        {
+          "range": "H2:H27",
+          "color": "FFF4CC"
+        }
+      ],
+      "styles": {
+        "header": {
+          "bold": true,
+          "fill": "EAC6B8",
+          "font_color": "4A3B35"
+        },
+        "banding": {
+          "enabled": true,
+          "color": "FAF1F3"
+        }
+      }
+    },
+    {
+      "name": "Dashboard",
+      "columns": [],
+      "hide_gridlines": true,
+      "row_height": 18,
+      "column_widths": {
+        "A": 2.5,
+        "B": 11,
+        "C": 11,
+        "D": 2.5,
+        "E": 11,
+        "F": 11,
+        "G": 2.5,
+        "H": 11,
+        "I": 11,
+        "J": 2.5,
+        "K": 11,
+        "L": 11,
+        "M": 2.5
+      },
+      "section_bars": [
+        {
+          "range": "B2:L2",
+          "label": "2 6   P A Y C H E C K S   A T   A   G L A N C E"
+        },
+        {
+          "range": "B8:L8",
+          "label": "P A Y   V S .   B I L L S   B Y   P A Y C H E C K   #"
+        },
+        {
+          "range": "B26:L26",
+          "label": "M O N T H L Y   B I L L S"
+        }
+      ],
+      "fills": [
+        {
+          "range": "B3:L7",
+          "color": "FDFBF3"
+        },
+        {
+          "range": "B27:F42",
+          "color": "FAF1F3"
+        },
+        {
+          "range": "B36:F36",
+          "color": "EAC6B8"
+        }
+      ],
+      "conditional_formats": [
+        {
+          "range": "B7:L7",
+          "type": "formula",
+          "formula": [
+            "$B$7<>\"\""
+          ],
+          "fill": "FFC7CE"
+        },
+        {
+          "range": "B40:F40",
+          "type": "formula",
+          "formula": [
+            "$F$40<>0"
+          ],
+          "fill": "FFC7CE"
+        },
+        {
+          "range": "B41:F41",
+          "type": "formula",
+          "formula": [
+            "$F$41<>0"
+          ],
+          "fill": "FFC7CE"
+        },
+        {
+          "range": "F35",
+          "type": "cell_is",
+          "operator": "lessThan",
+          "formula": [
+            "0"
+          ],
+          "fill": "FFC7CE"
+        }
+      ],
+      "kpi_cards": [
+        {
+          "anchor": "B4",
+          "span": [
+            3,
+            2
+          ],
+          "label": "TAKE-HOME PAY",
+          "value": "=SUM(Paychecks!D2:D27)",
+          "number_format": "$#,##0.00",
+          "value_size": 18,
+          "fill": "7ED2B6"
+        },
+        {
+          "anchor": "E4",
+          "span": [
+            3,
+            2
+          ],
+          "label": "BILLS",
+          "value": "=SUM(Paychecks!E2:E27)",
+          "number_format": "$#,##0.00",
+          "value_size": 18,
+          "fill": "F8B6C2"
+        },
+        {
+          "anchor": "H4",
+          "span": [
+            3,
+            2
+          ],
+          "label": "SAVINGS",
+          "value": "=SUM(Paychecks!F2:F27)",
+          "number_format": "$#,##0.00",
+          "value_size": 18,
+          "fill": "80D2DA"
+        },
+        {
+          "anchor": "K4",
+          "span": [
+            3,
+            2
+          ],
+          "label": "LEFT TO SPEND",
+          "value": "=SUM(Paychecks!G2:G27)",
+          "number_format": "$#,##0.00",
+          "value_size": 18,
+          "fill": "B9A4E7"
+        }
+      ],
+      "formulas": [
+        {
+          "cell": "B28",
+          "formula": "Housing"
+        },
+        {
+          "cell": "F28",
+          "formula": "=SUMIF(Bills!$B:$B,B28,Bills!$D:$D)",
+          "number_format": "$#,##0.00"
+        },
+        {
+          "cell": "B29",
+          "formula": "Transportation"
+        },
+        {
+          "cell": "F29",
+          "formula": "=SUMIF(Bills!$B:$B,B29,Bills!$D:$D)",
+          "number_format": "$#,##0.00"
+        },
+        {
+          "cell": "B30",
+          "formula": "Debt"
+        },
+        {
+          "cell": "F30",
+          "formula": "=SUMIF(Bills!$B:$B,B30,Bills!$D:$D)",
+          "number_format": "$#,##0.00"
+        },
+        {
+          "cell": "B31",
+          "formula": "Utilities"
+        },
+        {
+          "cell": "F31",
+          "formula": "=SUMIF(Bills!$B:$B,B31,Bills!$D:$D)",
+          "number_format": "$#,##0.00"
+        },
+        {
+          "cell": "B32",
+          "formula": "Insurance"
+        },
+        {
+          "cell": "F32",
+          "formula": "=SUMIF(Bills!$B:$B,B32,Bills!$D:$D)",
+          "number_format": "$#,##0.00"
+        },
+        {
+          "cell": "B33",
+          "formula": "Phone & Internet"
+        },
+        {
+          "cell": "F33",
+          "formula": "=SUMIF(Bills!$B:$B,B33,Bills!$D:$D)",
+          "number_format": "$#,##0.00"
+        },
+        {
+          "cell": "B34",
+          "formula": "Subscriptions"
+        },
+        {
+          "cell": "F34",
+          "formula": "=SUMIF(Bills!$B:$B,B34,Bills!$D:$D)",
+          "number_format": "$#,##0.00"
+        },
+        {
+          "cell": "B35",
+          "formula": "Other / not listed"
+        },
+        {
+          "cell": "F35",
+          "formula": "=ROUND(SUM(Bills!$D:$D)-SUM(F28:F34),2)",
+          "number_format": "$#,##0.00"
+        },
+        {
+          "cell": "B36",
+          "formula": "Total"
+        },
+        {
+          "cell": "F36",
+          "formula": "=SUM(F28:F35)",
+          "number_format": "$#,##0.00"
+        },
+        {
+          "cell": "B38",
+          "formula": "Paid from check 1"
+        },
+        {
+          "cell": "F38",
+          "formula": "=SUMIF(Bills!$E:$E,1,Bills!$D:$D)",
+          "number_format": "$#,##0.00"
+        },
+        {
+          "cell": "B39",
+          "formula": "Paid from check 2"
+        },
+        {
+          "cell": "F39",
+          "formula": "=SUMIF(Bills!$E:$E,2,Bills!$D:$D)",
+          "number_format": "$#,##0.00"
+        },
+        {
+          "cell": "B40",
+          "formula": "Not tagged 1 or 2 (should be $0)"
+        },
+        {
+          "cell": "F40",
+          "formula": "=ROUND(SUM(Bills!$D:$D)-F38-F39,2)",
+          "number_format": "$#,##0.00"
+        },
+        {
+          "cell": "B41",
+          "formula": "Non-number amounts (should be 0)"
+        },
+        {
+          "cell": "F41",
+          "formula": "=COUNTA(Bills!$D:$D)-COUNT(Bills!$D:$D)-(COUNTA(Bills!$D$1)-COUNT(Bills!$D$1))",
+          "number_format": "0"
+        },
+        {
+          "cell": "B7",
+          "formula": "=IF(NOT(AND(ISNUMBER('Start Here'!$C$5),'Start Here'!$C$5>=DATE(2000,1,1))),\"Set your first payday on Start Here: no bills are scheduled until you do.\",IF(OR(F40<>0,F41<>0),\"Check the Bills tab: a bill has no 1/2 tag or a non-number amount, so it's left out of these totals.\",IF(COUNTA(Paychecks!$D$2:$D$27,Paychecks!$F$2:$F$27)-COUNT(Paychecks!$D$2:$D$27,Paychecks!$F$2:$F$27)>0,\"Check the Paychecks tab: a pay or savings entry isn't a number, so it's left out of these totals.\",\"\")))"
+        }
+      ],
+      "charts": [
+        {
+          "type": "bar",
+          "anchor": "B9",
+          "data": "Paychecks!D1:E27",
+          "categories": "Paychecks!A2:A27",
+          "width": 17.5,
+          "height": 10.1
+        },
+        {
+          "type": "pie",
+          "anchor": "H27",
+          "data": "Dashboard!F28:F35",
+          "categories": "Dashboard!B28:B35",
+          "width": 8.5,
+          "height": 10.0
+        }
+      ]
+    }
+  ]
+}
