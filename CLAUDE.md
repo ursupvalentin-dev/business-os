@@ -13,3 +13,7 @@
   without asking.
 - Never ask for these credentials in chat, print them, or commit `credentials.json` / `token.json`.
 - Keep each workbook's spec at `spreadsheets/<name>.spec.json` so it can be rebuilt or edited later.
+- The user builds many niche budget spreadsheets. For each one: interview first with clickable multiple-choice
+  questions (as sheetsmith's Phase 1 does), then make it rich: more tabs and more information than a minimal
+  version (for example a Start Here guide, the core tracker tabs, monthly and yearly summaries, goals, and a
+  dashboard with charts), and hand over the Google Sheets link. Keep replies to the user short and simple.
