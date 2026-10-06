@@ -87,6 +87,12 @@ function chartRequest(cfg, sheetId, idByTitle, defaultTitle, palette) {
   const kind = cfg.type || "bar";
   const dataGr = gridRange(cfg.data, idByTitle, defaultTitle);
   const catGr = cfg.categories ? gridRange(cfg.categories, idByTitle, defaultTitle) : null;
+  // basicChart's headerCount applies to the domain too: when the categories start one row below the
+  // series' header row (the usual spec shape), start them on that header row so labels line up with bars
+  if (catGr && kind !== "pie" && kind !== "doughnut" && catGr.sheetId === dataGr.sheetId &&
+      catGr.startRowIndex === dataGr.startRowIndex + 1) {
+    catGr.startRowIndex = dataGr.startRowIndex;
+  }
   const a = parseRange(cfg.anchor || "A1");
   const position = {
     overlayPosition: {
