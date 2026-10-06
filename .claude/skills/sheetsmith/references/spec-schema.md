@@ -105,7 +105,8 @@ Sets the palette used for KPI-card fills, section bars, and **chart colors**. Om
   "row_height": 18,                 // uniform row height
   "hide_gridlines": true,           // canvas look (recommended on dashboard tabs)
   "fills":   [ { "range": "B3:G18", "color": "FDFBF3" } ],   // paint a panel background
-  "borders": [ { "range": "B5:C6", "color": "E8DAD3", "style": "thin" } ],  // outline cells
+  "borders": [ { "range": "B5:C6", "color": "E8DAD3", "style": "thin", "inner_vertical": true } ],  // outline cells;
+                                // inner_vertical: false = horizontal rules only (text can spill across columns)
   "section_bars": [ { "range": "B2:G2", "label": "M O N T H L Y  O V E R V I E W", "color": null } ]
 }
 ```
@@ -123,6 +124,7 @@ Sets the palette used for KPI-card fills, section bars, and **chart colors**. Om
                    { "range": "B2:B40", "type": "list", "values": ["Needs", "Wants", "Savings"] } ]
 }
 ```
+- `"tab_color": "F8B6C2"` (tab-level) colors the sheet tab.
 - `text_styles` styles labels anywhere (e.g. table headers on a free-form tab). Apply them to cells that are
   not part of a section bar or KPI card.
 - `checkbox` renders a tick box in Google Sheets (TRUE when ticked, blank when not) and a TRUE/FALSE dropdown

@@ -362,9 +362,14 @@ def build(spec, out_path):
             for cell in _cells(ws, fcfg["range"]):
                 cell.fill = fill
         for bcfg in tab.get("borders", []):
-            bd = _border(bcfg.get("color", theme["border"]), bcfg.get("style", "thin"))
+            side = Side(style=bcfg.get("style", "thin"), color=bcfg.get("color", theme["border"]))
+            min_col, _, max_col, _ = range_boundaries(bcfg["range"])
             for cell in _cells(ws, bcfg["range"]):
-                cell.border = bd
+                if bcfg.get("inner_vertical", True):
+                    cell.border = Border(left=side, right=side, top=side, bottom=side)
+                else:  # horizontal rules only, boxed at the outer edges: text can spill across columns
+                    cell.border = Border(left=side if cell.column == min_col else None,
+                                         right=side if cell.column == max_col else None, top=side, bottom=side)
         for tcfg in tab.get("text_styles", []):
             _add_text_style(ws, tcfg)
         for vcfg in tab.get("validations", []):
@@ -383,6 +388,8 @@ def build(spec, out_path):
             ws.freeze_panes = tab["freeze"]
         if tab.get("hide_gridlines"):
             ws.sheet_view.showGridLines = False
+        if tab.get("tab_color"):
+            ws.sheet_properties.tabColor = tab["tab_color"]
 
         summary.append(
             f"{tab['name']}: {len(cols)} cols, {len(rows)} rows, "

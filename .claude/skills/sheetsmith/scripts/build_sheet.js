@@ -76,7 +76,11 @@ function columnsOf(gr) {
   return out;
 }
 const q = (title) => `'${String(title).replace(/'/g, "''")}'`;
-const numFmtType = (p) => (/%/.test(p) ? "PERCENT" : /[ymd]/i.test(p) ? "DATE" : "NUMBER");
+// ignore quoted literals: '0" months"' is a number format, not a date
+const numFmtType = (p) => {
+  const bare = String(p).replace(/"[^"]*"/g, "");
+  return /%/.test(bare) ? "PERCENT" : /[ymd]/i.test(bare) ? "DATE" : "NUMBER";
+};
 
 // ---------- request builders ----------
 function chartRequest(cfg, sheetId, idByTitle, defaultTitle, palette) {
@@ -184,6 +188,7 @@ async function main() {
         properties: {
           title: t.name.slice(0, 99),
           gridProperties: { rowCount: 200, columnCount: 30, hideGridlines: !!t.hide_gridlines },
+          ...(t.tab_color ? { tabColorStyle: { rgbColor: hexToColor(t.tab_color) } } : {}),
         },
       })),
     },
@@ -320,7 +325,8 @@ async function main() {
     // borders
     for (const b of tab.borders || []) {
       const side = { style: (b.style || "thin") === "thin" ? "SOLID" : "SOLID_MEDIUM", colorStyle: { rgbColor: hexToColor(b.color || theme.border) } };
-      reqs.push({ updateBorders: { range: { ...parseRange(b.range), sheetId }, top: side, bottom: side, left: side, right: side, innerHorizontal: side, innerVertical: side } });
+      const inner = b.inner_vertical === false ? { innerHorizontal: side } : { innerHorizontal: side, innerVertical: side };
+      reqs.push({ updateBorders: { range: { ...parseRange(b.range), sheetId }, top: side, bottom: side, left: side, right: side, ...inner } });
     }
 
     // text styles on any range (labels and table headers outside a columns table)
