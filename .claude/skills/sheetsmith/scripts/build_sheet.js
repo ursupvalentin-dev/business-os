@@ -323,6 +323,23 @@ async function main() {
       reqs.push({ updateBorders: { range: { ...parseRange(b.range), sheetId }, top: side, bottom: side, left: side, right: side, innerHorizontal: side, innerVertical: side } });
     }
 
+    // text styles on any range (labels and table headers outside a columns table)
+    for (const t of tab.text_styles || []) {
+      const fmt = { verticalAlignment: "MIDDLE", textFormat: { bold: !!t.bold, italic: !!t.italic, fontSize: t.size || 10, foregroundColorStyle: { rgbColor: hexToColor(t.color || "000000") } } };
+      let fields = "userEnteredFormat(textFormat,verticalAlignment";
+      if (t.align) { fmt.horizontalAlignment = t.align.toUpperCase(); fields += ",horizontalAlignment"; }
+      if (t.wrap) { fmt.wrapStrategy = "WRAP"; fields += ",wrapStrategy"; }
+      reqs.push({ repeatCell: { range: { ...parseRange(t.range), sheetId }, cell: { userEnteredFormat: fmt }, fields: fields + ")" } });
+    }
+
+    // data validation: tick boxes and dropdown lists
+    for (const v of tab.validations || []) {
+      const condition = v.type === "checkbox"
+        ? { type: "BOOLEAN" }
+        : { type: "ONE_OF_LIST", values: v.values.map((x) => ({ userEnteredValue: String(x) })) };
+      reqs.push({ setDataValidation: { range: { ...parseRange(v.range), sheetId }, rule: { condition, strict: true, showCustomUi: true } } });
+    }
+
     // conditional formats
     for (const cf of tab.conditional_formats || []) {
       const r = conditionalRequest(cf, sheetId);

@@ -114,7 +114,22 @@ Sets the palette used for KPI-card fills, section bars, and **chart colors**. Om
 - Charts are auto-colored from `theme.chart_palette`; pass `"colors": [...]` on a chart to override. Chart
   `type` may be `bar | line | pie | doughnut`. Omit a chart `title` and use a `section_bar` above it instead.
 
+## Text styles and validations (tab-level, optional)
+```json
+{
+  "text_styles": [ { "range": "B9:I9", "bold": true, "italic": false, "size": 10, "color": "4A3B35",
+                     "align": "center", "wrap": false } ],
+  "validations": [ { "range": "E2:P12", "type": "checkbox" },
+                   { "range": "B2:B40", "type": "list", "values": ["Needs", "Wants", "Savings"] } ]
+}
+```
+- `text_styles` styles labels anywhere (e.g. table headers on a free-form tab). Apply them to cells that are
+  not part of a section bar or KPI card.
+- `checkbox` renders a tick box in Google Sheets (TRUE when ticked, blank when not) and a TRUE/FALSE dropdown
+  in .xlsx. Count ticks with `COUNTIF(range,TRUE)`.
+
 ## Notes / guardrails for the spec author
+- Never give a KPI card or section bar a single-cell range: merging one cell fails in the Sheets API.
 - Colors are 6-digit hex **without** `#`.
 - Keep formula cell refs consistent with the data layout (header is row 1, data starts row 2).
 - The QA agents specifically check: ranges that don't match the data height, off-by-one in `range_rows`,

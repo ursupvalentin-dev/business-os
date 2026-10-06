@@ -32,6 +32,7 @@ try:
     from openpyxl.chart.shapes import GraphicalProperties
     from openpyxl.utils import get_column_letter
     from openpyxl.utils.cell import coordinate_to_tuple, range_boundaries
+    from openpyxl.worksheet.datavalidation import DataValidation
 except ImportError:
     sys.exit("build_xlsx.py needs openpyxl — install it with:  pip install openpyxl")
 
@@ -59,6 +60,33 @@ def _fill(hex_color):
 def _border(color, style="thin"):
     s = Side(style=style, color=color)
     return Border(left=s, right=s, top=s, bottom=s)
+
+
+def _cells(ws, rng):
+    """Every cell in an A1 range ('B2' or 'B2:D9'); ws['B2'] alone returns a bare Cell, not rows."""
+    min_col, min_row, max_col, max_row = range_boundaries(rng)
+    for row in ws.iter_rows(min_row=min_row, max_row=max_row, min_col=min_col, max_col=max_col):
+        yield from row
+
+
+def _add_text_style(ws, cfg):
+    """Font/alignment for any range: bold labels, table headers, notes outside a columns table."""
+    for cell in _cells(ws, cfg["range"]):
+        cell.font = Font(name=FONT_NAME, bold=cfg.get("bold", False), italic=cfg.get("italic", False),
+                         size=cfg.get("size", 11), color=cfg.get("color", "000000"))
+        if cfg.get("align") or cfg.get("wrap"):
+            cell.alignment = Alignment(horizontal=cfg.get("align"), vertical="center",
+                                       wrap_text=bool(cfg.get("wrap")))
+
+
+def _add_validation(ws, cfg):
+    """Checkbox (Google renders a tick box; .xlsx gets a TRUE/FALSE dropdown) or a dropdown list."""
+    if cfg.get("type") == "checkbox":
+        dv = DataValidation(type="list", formula1='"TRUE,FALSE"', allow_blank=True)
+    else:
+        dv = DataValidation(type="list", formula1='"' + ",".join(cfg["values"]) + '"', allow_blank=True)
+    ws.add_data_validation(dv)
+    dv.add(cfg["range"])
 
 
 def _as_list(value):
@@ -241,7 +269,7 @@ def validate(spec):
         for card in tab.get("kpi_cards", []):
             if "anchor" not in card:
                 raise ValueError(f"tab '{name}': a kpi_card is missing its 'anchor' cell")
-        for key in ("fills", "borders", "section_bars"):
+        for key in ("fills", "borders", "section_bars", "text_styles", "validations"):
             for item in tab.get(key, []):
                 if "range" not in item:
                     raise ValueError(f"tab '{name}': a '{key}' entry is missing its 'range'")
@@ -255,8 +283,12 @@ def build(spec, out_path):
     wb.remove(wb.active)  # drop the default empty sheet
     summary = []
 
+    # create every tab first so charts can reference tabs that come later in the spec
     for tab in spec["tabs"]:
-        ws = wb.create_sheet(title=tab["name"][:31])  # Excel caps tab names at 31 chars
+        wb.create_sheet(title=tab["name"][:31])  # Excel caps tab names at 31 chars
+
+    for tab in spec["tabs"]:
+        ws = wb[tab["name"][:31]]
         cols = tab.get("columns", [])
         styles = tab.get("styles", {})
         header_style = styles.get("header", {})
@@ -327,14 +359,16 @@ def build(spec, out_path):
         # --- range fills + borders (apply BEFORE merges to avoid read-only MergedCell) ---
         for fcfg in tab.get("fills", []):
             fill = _fill(fcfg["color"])
-            for row in ws[fcfg["range"]]:
-                for cell in row:
-                    cell.fill = fill
+            for cell in _cells(ws, fcfg["range"]):
+                cell.fill = fill
         for bcfg in tab.get("borders", []):
             bd = _border(bcfg.get("color", theme["border"]), bcfg.get("style", "thin"))
-            for row in ws[bcfg["range"]]:
-                for cell in row:
-                    cell.border = bd
+            for cell in _cells(ws, bcfg["range"]):
+                cell.border = bd
+        for tcfg in tab.get("text_styles", []):
+            _add_text_style(ws, tcfg)
+        for vcfg in tab.get("validations", []):
+            _add_validation(ws, vcfg)
 
         # --- dashboard components ---
         for idx, bar in enumerate(tab.get("section_bars", [])):
