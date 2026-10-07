@@ -124,6 +124,13 @@ Sets the palette used for KPI-card fills, section bars, and **chart colors**. Om
                    { "range": "B2:B40", "type": "list", "values": ["Needs", "Wants", "Savings"] } ]
 }
 ```
+- A dropdown can also take its choices from a range on any tab, so renaming a category there updates the
+  dropdown: `{ "range": "B2:B1501", "type": "list_range", "source": "'Budget Plan'!$B$5:$B$54", "strict": false }`.
+  `strict: false` (Google) warns about a value outside the list instead of rejecting it (handy for pasted data).
+- `"number_formats": [ { "range": "D2:D1501", "format": "$#,##0.00" } ]` formats any range, including empty
+  input cells, in one request (cheaper than a format on every formula cell).
+- `"grid_rows": 1600` / `"grid_cols": 40` (Google) size a tab's grid (default 200 x 30); `row_height` covers it.
+- `"hidden_columns": ["U"]` hides helper columns.
 - `"tab_color": "F8B6C2"` (tab-level) colors the sheet tab.
 - `text_styles` styles labels anywhere (e.g. table headers on a free-form tab). Apply them to cells that are
   not part of a section bar or KPI card.

@@ -113,14 +113,19 @@ function chartRequest(cfg, sheetId, idByTitle, defaultTitle, palette) {
     };
   } else {
     const colors = cfg.colors || palette;
-    const series = columnsOf(dataGr).map((s, i) => ({
-      series: { sourceRange: { sources: [s] } },
-      colorStyle: { rgbColor: hexToColor(colors[i % colors.length]) },
-    }));
+    const series = columnsOf(dataGr).map((s, i) => {
+      const out = { series: { sourceRange: { sources: [s] } }, colorStyle: { rgbColor: hexToColor(colors[i % colors.length]) } };
+      // point_colors: one color per bar (a single-series chart that reads like a themed pie)
+      if (cfg.point_colors) {
+        const n = dataGr.endRowIndex - dataGr.startRowIndex - 1;
+        out.styleOverrides = Array.from({ length: n }, (_, k) => ({ index: k, colorStyle: { rgbColor: hexToColor(colors[k % colors.length]) } }));
+      }
+      return out;
+    });
     spec = {
       basicChart: {
         chartType: kind === "line" ? "LINE" : kind === "barh" ? "BAR" : "COLUMN",
-        legendPosition: "BOTTOM_LEGEND",
+        legendPosition: cfg.legend === false ? "NO_LEGEND" : "BOTTOM_LEGEND",
         headerCount: 1,
         domains: catGr ? [{ domain: { sourceRange: { sources: [catGr] } } }] : [],
         series,
@@ -193,7 +198,7 @@ async function main() {
       sheets: spec.tabs.map((t) => ({
         properties: {
           title: t.name.slice(0, 99),
-          gridProperties: { rowCount: 200, columnCount: 30, hideGridlines: !!t.hide_gridlines },
+          gridProperties: { rowCount: t.grid_rows || 200, columnCount: t.grid_cols || 30, hideGridlines: !!t.hide_gridlines },
           ...(t.tab_color ? { tabColorStyle: { rgbColor: hexToColor(t.tab_color) } } : {}),
         },
       })),
@@ -234,10 +239,11 @@ async function main() {
       valueData.push({ range: `${T}!${colL}${a.startRowIndex + 2}`, values: [[card.value ?? ""]] });
     }
   }
-  if (valueData.length) {
+  // sent in chunks so a large workbook stays under the API's request-size limit
+  for (let i = 0; i < valueData.length; i += 2000) {
     await sheets.spreadsheets.values.batchUpdate({
       spreadsheetId: ssId,
-      requestBody: { valueInputOption: "USER_ENTERED", data: valueData },
+      requestBody: { valueInputOption: "USER_ENTERED", data: valueData.slice(i, i + 2000) },
     });
   }
 
@@ -259,7 +265,11 @@ async function main() {
       reqs.push({ updateDimensionProperties: { range: { sheetId, dimension: "COLUMNS", startIndex: idx, endIndex: idx + 1 }, properties: { pixelSize: colWidthPx(w) }, fields: "pixelSize" } });
     }
     if (tab.row_height)
-      reqs.push({ updateDimensionProperties: { range: { sheetId, dimension: "ROWS", startIndex: 0, endIndex: 60 }, properties: { pixelSize: rowHeightPx(tab.row_height) }, fields: "pixelSize" } });
+      reqs.push({ updateDimensionProperties: { range: { sheetId, dimension: "ROWS", startIndex: 0, endIndex: tab.grid_rows || 200 }, properties: { pixelSize: rowHeightPx(tab.row_height) }, fields: "pixelSize" } });
+    for (const letter of tab.hidden_columns || []) {
+      const idx = colToIdx(letter);
+      reqs.push({ updateDimensionProperties: { range: { sheetId, dimension: "COLUMNS", startIndex: idx, endIndex: idx + 1 }, properties: { hiddenByUser: true }, fields: "hiddenByUser" } });
+    }
 
     // freeze (e.g. "A2" → 1 frozen row)
     if (tab.freeze) {
@@ -290,6 +300,11 @@ async function main() {
       if (!f.number_format) continue;
       const rng = f.cell ? parseRange(f.cell) : parseRange(`${f.col}${f.range_rows[0]}:${f.col}${f.range_rows[1]}`);
       reqs.push({ repeatCell: { range: { ...rng, sheetId }, cell: { userEnteredFormat: { numberFormat: { type: numFmtType(f.number_format), pattern: f.number_format } } }, fields: "userEnteredFormat.numberFormat" } });
+    }
+
+    // number formats on any range (e.g. empty input cells that should show $ once typed in)
+    for (const nf of tab.number_formats || []) {
+      reqs.push({ repeatCell: { range: { ...parseRange(nf.range), sheetId }, cell: { userEnteredFormat: { numberFormat: { type: numFmtType(nf.format), pattern: nf.format } } }, fields: "userEnteredFormat.numberFormat" } });
     }
 
     // banding
@@ -344,12 +359,14 @@ async function main() {
       reqs.push({ repeatCell: { range: { ...parseRange(t.range), sheetId }, cell: { userEnteredFormat: fmt }, fields: fields + ")" } });
     }
 
-    // data validation: tick boxes and dropdown lists
+    // data validation: tick boxes, dropdown lists, and dropdowns fed by a range ("list_range")
     for (const v of tab.validations || []) {
       const condition = v.type === "checkbox"
         ? { type: "BOOLEAN" }
-        : { type: "ONE_OF_LIST", values: v.values.map((x) => ({ userEnteredValue: String(x) })) };
-      reqs.push({ setDataValidation: { range: { ...parseRange(v.range), sheetId }, rule: { condition, strict: true, showCustomUi: true } } });
+        : v.type === "list_range"
+          ? { type: "ONE_OF_RANGE", values: [{ userEnteredValue: "=" + v.source }] }
+          : { type: "ONE_OF_LIST", values: v.values.map((x) => ({ userEnteredValue: String(x) })) };
+      reqs.push({ setDataValidation: { range: { ...parseRange(v.range), sheetId }, rule: { condition, strict: v.strict !== false, showCustomUi: true } } });
     }
 
     // conditional formats
@@ -362,7 +379,9 @@ async function main() {
     for (const ch of tab.charts || []) reqs.push(chartRequest(ch, sheetId, idByTitle, tab.name.slice(0, 99), theme.chart_palette));
   }
 
-  if (reqs.length) await sheets.spreadsheets.batchUpdate({ spreadsheetId: ssId, requestBody: { requests: reqs } });
+  for (let i = 0; i < reqs.length; i += 1500) {
+    await sheets.spreadsheets.batchUpdate({ spreadsheetId: ssId, requestBody: { requests: reqs.slice(i, i + 1500) } });
+  }
 
   const url = `https://docs.google.com/spreadsheets/d/${ssId}/edit`;
   console.log("Built ✓  " + title);

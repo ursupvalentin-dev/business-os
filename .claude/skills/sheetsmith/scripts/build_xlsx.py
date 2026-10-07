@@ -47,7 +47,7 @@ DEFAULT_THEME = {
     "body_tints": ["ECF3F1", "FAF1F3", "FDFBF3", "E6F3F4", "EDE8F8"],
     "chart_palette": ["7ED2B6", "F8B6C2", "80D2DA", "B9A4E7", "F6E5A8", "F4C0DB", "A3CEC5", "EAE9F4"],
 }
-CHART_TYPES = {"bar": BarChart, "line": LineChart, "pie": PieChart, "doughnut": DoughnutChart}
+CHART_TYPES = {"bar": BarChart, "barh": BarChart, "line": LineChart, "pie": PieChart, "doughnut": DoughnutChart}
 # Styled fonts must be named: an unnamed font renders as a serif fallback in LibreOffice.
 # Calibri matches openpyxl's default body font.
 FONT_NAME = "Calibri"
@@ -80,9 +80,12 @@ def _add_text_style(ws, cfg):
 
 
 def _add_validation(ws, cfg):
-    """Checkbox (Google renders a tick box; .xlsx gets a TRUE/FALSE dropdown) or a dropdown list."""
+    """Checkbox (Google renders a tick box; .xlsx gets a TRUE/FALSE dropdown), a dropdown list, or a
+    dropdown fed by a range on any tab ("list_range")."""
     if cfg.get("type") == "checkbox":
         dv = DataValidation(type="list", formula1='"TRUE,FALSE"', allow_blank=True)
+    elif cfg.get("type") == "list_range":
+        dv = DataValidation(type="list", formula1=cfg["source"], allow_blank=True)
     else:
         dv = DataValidation(type="list", formula1='"' + ",".join(cfg["values"]) + '"', allow_blank=True)
     ws.add_data_validation(dv)
@@ -163,10 +166,15 @@ def _add_section_bar(ws, cfg, theme, idx):
 def _theme_chart(chart, kind, cfg, n_points, palette):
     """Color series (bar/line) or individual slices (pie/doughnut) from the theme palette."""
     colors = cfg.get("colors") or palette
-    if kind in ("bar", "line"):
+    if kind == "line":
+        for i, s in enumerate(chart.series):
+            s.graphicalProperties.line.solidFill = colors[i % len(colors)]
+            s.graphicalProperties.line.width = 28575  # 2.25pt
+            s.smooth = False
+    elif kind in ("bar", "barh") and not cfg.get("point_colors"):
         for i, s in enumerate(chart.series):
             s.graphicalProperties = GraphicalProperties(solidFill=colors[i % len(colors)])
-    elif chart.series:  # pie / doughnut → color each slice
+    elif chart.series:  # pie / doughnut / point_colors bars → color each slice or bar
         ser = chart.series[0]
         for i in range(max(n_points, 0)):
             dp = DataPoint(idx=i)
@@ -178,9 +186,12 @@ def _add_chart(wb, ws, cfg, theme):
     """Bar/line/pie/doughnut chart anchored on `ws`, data optionally drawn from another tab."""
     kind = cfg.get("type", "bar")
     chart = CHART_TYPES[kind]()
+    if kind == "barh":
+        chart.type = "bar"                  # horizontal bars
+        chart.x_axis.scaling.orientation = "maxMin"   # first category on top, as in Google Sheets
     if cfg.get("title"):
         chart.title = cfg["title"]
-    tfd = cfg.get("titles_from_data", kind in ("bar", "line"))
+    tfd = cfg.get("titles_from_data", kind in ("bar", "barh", "line"))
     chart.add_data(_reference(wb, ws, cfg["data"]), titles_from_data=tfd)
     if cfg.get("categories"):
         chart.set_categories(_reference(wb, ws, cfg["categories"]))
@@ -188,10 +199,12 @@ def _add_chart(wb, ws, cfg, theme):
     else:
         n_points = _vertical_count(cfg["data"]) - (1 if tfd else 0)
     _theme_chart(chart, kind, cfg, n_points, theme["chart_palette"])
-    if kind in ("bar", "line"):
+    if kind in ("bar", "barh", "line"):
         # openpyxl 3.1 omits <c:delete> on axes, which Excel reads as "axis deleted" (no labels/scale)
         chart.x_axis.delete = False
         chart.y_axis.delete = False
+    if cfg.get("legend") is False:
+        chart.legend = None
     chart.height = cfg.get("height", 7)
     chart.width = cfg.get("width", 12)
     ws.add_chart(chart, cfg.get("anchor", "A1"))
@@ -269,7 +282,7 @@ def validate(spec):
         for card in tab.get("kpi_cards", []):
             if "anchor" not in card:
                 raise ValueError(f"tab '{name}': a kpi_card is missing its 'anchor' cell")
-        for key in ("fills", "borders", "section_bars", "text_styles", "validations"):
+        for key in ("fills", "borders", "section_bars", "text_styles", "validations", "number_formats"):
             for item in tab.get(key, []):
                 if "range" not in item:
                     raise ValueError(f"tab '{name}': a '{key}' entry is missing its 'range'")
@@ -345,6 +358,11 @@ def build(spec, out_path):
                     if fmt:
                         ws[ref].number_format = fmt
 
+        # --- number formats on any range (e.g. empty input cells) ---
+        for nf in tab.get("number_formats", []):
+            for cell in _cells(ws, nf["range"]):
+                cell.number_format = nf["format"]
+
         # --- conditional formats ---
         for cf in tab.get("conditional_formats", []):
             _add_conditional_format(ws, cf)
@@ -390,6 +408,8 @@ def build(spec, out_path):
             ws.sheet_view.showGridLines = False
         if tab.get("tab_color"):
             ws.sheet_properties.tabColor = tab["tab_color"]
+        for letter in tab.get("hidden_columns", []):
+            ws.column_dimensions[letter.upper()].hidden = True
 
         summary.append(
             f"{tab['name']}: {len(cols)} cols, {len(rows)} rows, "
