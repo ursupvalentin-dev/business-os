@@ -281,6 +281,9 @@ async function main() {
     }
     if (tab.row_height)
       reqs.push({ updateDimensionProperties: { range: { sheetId, dimension: "ROWS", startIndex: 0, endIndex: tab.grid_rows || 200 }, properties: { pixelSize: rowHeightPx(tab.row_height) }, fields: "pixelSize" } });
+    for (const row of tab.hidden_rows || []) {
+      reqs.push({ updateDimensionProperties: { range: { sheetId, dimension: "ROWS", startIndex: row - 1, endIndex: row }, properties: { hiddenByUser: true }, fields: "hiddenByUser" } });
+    }
     for (const letter of tab.hidden_columns || []) {
       const idx = colToIdx(letter);
       reqs.push({ updateDimensionProperties: { range: { sheetId, dimension: "COLUMNS", startIndex: idx, endIndex: idx + 1 }, properties: { hiddenByUser: true }, fields: "hiddenByUser" } });

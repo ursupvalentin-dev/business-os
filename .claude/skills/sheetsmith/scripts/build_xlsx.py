@@ -414,6 +414,8 @@ def build(spec, out_path):
             ws.sheet_properties.tabColor = tab["tab_color"]
         for letter in tab.get("hidden_columns", []):
             ws.column_dimensions[letter.upper()].hidden = True
+        for row in tab.get("hidden_rows", []):
+            ws.row_dimensions[row].hidden = True
 
         summary.append(
             f"{tab['name']}: {len(cols)} cols, {len(rows)} rows, "

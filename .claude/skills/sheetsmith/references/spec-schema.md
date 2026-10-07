@@ -130,7 +130,7 @@ Sets the palette used for KPI-card fills, section bars, and **chart colors**. Om
 - `"number_formats": [ { "range": "D2:D1501", "format": "$#,##0.00" } ]` formats any range, including empty
   input cells, in one request (cheaper than a format on every formula cell).
 - `"grid_rows": 1600` / `"grid_cols": 40` (Google) size a tab's grid (default 200 x 30); `row_height` covers it.
-- `"hidden_columns": ["U"]` hides helper columns. A chart drawn from a hidden column needs `"plot_hidden": true`.
+- `"hidden_columns": ["U"]` / `"hidden_rows": [1]` hide helper columns or rows. A chart drawn from a hidden column needs `"plot_hidden": true`.
 - Chart extras: `"legend": false`; `"point_colors": true` gives each bar of a one-series bar/barh chart its own
   palette color (a themed stand-in for a pie, whose slice colors the Sheets API can't set).
 - `"tab_color": "F8B6C2"` (tab-level) colors the sheet tab.
