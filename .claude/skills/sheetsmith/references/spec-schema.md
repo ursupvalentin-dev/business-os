@@ -106,7 +106,8 @@ Sets the palette used for KPI-card fills, section bars, and **chart colors**. Om
   "hide_gridlines": true,           // canvas look (recommended on dashboard tabs)
   "fills":   [ { "range": "B3:G18", "color": "FDFBF3" } ],   // paint a panel background
   "borders": [ { "range": "B5:C6", "color": "E8DAD3", "style": "thin", "inner_vertical": true } ],  // outline cells;
-                                // inner_vertical: false = horizontal rules only (text can spill across columns)
+                                // inner_vertical: false = horizontal rules only (text can spill across columns);
+                                // inner_horizontal: false = vertical rules only (e.g. a two-row calendar day box)
   "section_bars": [ { "range": "B2:G2", "label": "M O N T H L Y  O V E R V I E W", "color": null } ]
 }
 ```
@@ -130,6 +131,8 @@ Sets the palette used for KPI-card fills, section bars, and **chart colors**. Om
 - `"number_formats": [ { "range": "D2:D1501", "format": "$#,##0.00" } ]` formats any range, including empty
   input cells, in one request (cheaper than a format on every formula cell).
 - `"grid_rows": 1600` / `"grid_cols": 40` (Google) size a tab's grid (default 200 x 30); `row_height` covers it.
+- `"row_heights": { "11": 58, "13": 58 }` sets single rows taller (points), after `row_height` (e.g. calendar day
+  boxes). A text style's `"valign": "top"` (or `"middle"`, `"bottom"`) pins wrapped text to the top of a tall cell.
 - `"hidden_columns": ["U"]` / `"hidden_rows": [1]` hide helper columns or rows. A chart drawn from a hidden column needs `"plot_hidden": true`.
 - Chart extras: `"legend": false`; `"point_colors": true` gives each bar of a one-series bar/barh chart its own
   palette color (a themed stand-in for a pie, whose slice colors the Sheets API can't set).

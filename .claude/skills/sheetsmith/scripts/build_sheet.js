@@ -281,6 +281,11 @@ async function main() {
     }
     if (tab.row_height)
       reqs.push({ updateDimensionProperties: { range: { sheetId, dimension: "ROWS", startIndex: 0, endIndex: tab.grid_rows || 200 }, properties: { pixelSize: rowHeightPx(tab.row_height) }, fields: "pixelSize" } });
+    // taller rows one by one (e.g. calendar day boxes), after the uniform height
+    for (const [row, h] of Object.entries(tab.row_heights || {})) {
+      const r = Number(row);
+      reqs.push({ updateDimensionProperties: { range: { sheetId, dimension: "ROWS", startIndex: r - 1, endIndex: r }, properties: { pixelSize: rowHeightPx(h) }, fields: "pixelSize" } });
+    }
     for (const row of tab.hidden_rows || []) {
       reqs.push({ updateDimensionProperties: { range: { sheetId, dimension: "ROWS", startIndex: row - 1, endIndex: row }, properties: { hiddenByUser: true }, fields: "hiddenByUser" } });
     }
@@ -366,13 +371,15 @@ async function main() {
     // borders
     for (const b of tab.borders || []) {
       const side = { style: (b.style || "thin") === "thin" ? "SOLID" : "SOLID_MEDIUM", colorStyle: { rgbColor: hexToColor(b.color || theme.border) } };
-      const inner = b.inner_vertical === false ? { innerHorizontal: side } : { innerHorizontal: side, innerVertical: side };
+      const inner = {};
+      if (b.inner_horizontal !== false) inner.innerHorizontal = side;
+      if (b.inner_vertical !== false) inner.innerVertical = side;
       reqs.push({ updateBorders: { range: { ...parseRange(b.range), sheetId }, top: side, bottom: side, left: side, right: side, ...inner } });
     }
 
     // text styles on any range (labels and table headers outside a columns table)
     for (const t of tab.text_styles || []) {
-      const fmt = { verticalAlignment: "MIDDLE", textFormat: { bold: !!t.bold, italic: !!t.italic, fontSize: t.size || 10, foregroundColorStyle: { rgbColor: hexToColor(t.color || "000000") } } };
+      const fmt = { verticalAlignment: (t.valign || "middle").toUpperCase(), textFormat: { bold: !!t.bold, italic: !!t.italic, fontSize: t.size || 10, foregroundColorStyle: { rgbColor: hexToColor(t.color || "000000") } } };
       let fields = "userEnteredFormat(textFormat,verticalAlignment";
       if (t.align) { fmt.horizontalAlignment = t.align.toUpperCase(); fields += ",horizontalAlignment"; }
       if (t.wrap) { fmt.wrapStrategy = "WRAP"; fields += ",wrapStrategy"; }

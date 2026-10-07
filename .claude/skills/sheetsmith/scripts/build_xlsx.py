@@ -74,8 +74,9 @@ def _add_text_style(ws, cfg):
     for cell in _cells(ws, cfg["range"]):
         cell.font = Font(name=FONT_NAME, bold=cfg.get("bold", False), italic=cfg.get("italic", False),
                          size=cfg.get("size", 11), color=cfg.get("color", "000000"))
-        if cfg.get("align") or cfg.get("wrap"):
-            cell.alignment = Alignment(horizontal=cfg.get("align"), vertical="center",
+        if cfg.get("align") or cfg.get("wrap") or cfg.get("valign"):
+            valign = {"middle": "center"}.get(cfg.get("valign", "middle"), cfg.get("valign"))
+            cell.alignment = Alignment(horizontal=cfg.get("align"), vertical=valign,
                                        wrap_text=bool(cfg.get("wrap")))
 
 
@@ -377,6 +378,8 @@ def build(spec, out_path):
         if tab.get("row_height"):
             ws.sheet_format.defaultRowHeight = tab["row_height"]
             ws.sheet_format.customHeight = True
+        for row, h in tab.get("row_heights", {}).items():
+            ws.row_dimensions[int(row)].height = h
 
         # --- range fills + borders (apply BEFORE merges to avoid read-only MergedCell) ---
         for fcfg in tab.get("fills", []):
@@ -385,13 +388,14 @@ def build(spec, out_path):
                 cell.fill = fill
         for bcfg in tab.get("borders", []):
             side = Side(style=bcfg.get("style", "thin"), color=bcfg.get("color", theme["border"]))
-            min_col, _, max_col, _ = range_boundaries(bcfg["range"])
+            min_col, min_row, max_col, max_row = range_boundaries(bcfg["range"])
+            inner_v, inner_h = bcfg.get("inner_vertical", True), bcfg.get("inner_horizontal", True)
             for cell in _cells(ws, bcfg["range"]):
-                if bcfg.get("inner_vertical", True):
-                    cell.border = Border(left=side, right=side, top=side, bottom=side)
-                else:  # horizontal rules only, boxed at the outer edges: text can spill across columns
-                    cell.border = Border(left=side if cell.column == min_col else None,
-                                         right=side if cell.column == max_col else None, top=side, bottom=side)
+                # inner_vertical / inner_horizontal: false = no inner lines that way, only the outer box
+                cell.border = Border(left=side if inner_v or cell.column == min_col else None,
+                                     right=side if inner_v or cell.column == max_col else None,
+                                     top=side if inner_h or cell.row == min_row else None,
+                                     bottom=side if inner_h or cell.row == max_row else None)
         for tcfg in tab.get("text_styles", []):
             _add_text_style(ws, tcfg)
         for vcfg in tab.get("validations", []):
