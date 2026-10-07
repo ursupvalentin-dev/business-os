@@ -138,7 +138,8 @@ function chartRequest(cfg, sheetId, idByTitle, defaultTitle, palette) {
   return { addChart: { chart: { spec, position } } };
 }
 
-function conditionalRequest(cf, sheetId) {
+// index: rules are added in spec order at a running index, so the first rule wins, as in Excel
+function conditionalRequest(cf, sheetId, index = 0) {
   const gr = { ...parseRange(cf.range), sheetId };
   const t = cf.type || "cell_is";
   if (t === "data_bar" || t === "icon_set") {
@@ -148,7 +149,7 @@ function conditionalRequest(cf, sheetId) {
   if (t === "color_scale") {
     return {
       addConditionalFormatRule: {
-        index: 0,
+        index,
         rule: {
           ranges: [gr],
           gradientRule: {
@@ -177,7 +178,7 @@ function conditionalRequest(cf, sheetId) {
   }
   return {
     addConditionalFormatRule: {
-      index: 0,
+      index,
       rule: { ranges: [gr], booleanRule: { condition, format: { backgroundColor: hexToColor(cf.fill || "FFC7CE") } } },
     },
   };
@@ -372,9 +373,10 @@ async function main() {
     }
 
     // conditional formats
+    let cfIndex = 0;
     for (const cf of tab.conditional_formats || []) {
-      const r = conditionalRequest(cf, sheetId);
-      if (r) reqs.push(r);
+      const r = conditionalRequest(cf, sheetId, cfIndex);
+      if (r) { reqs.push(r); cfIndex++; }
     }
 
     // charts
