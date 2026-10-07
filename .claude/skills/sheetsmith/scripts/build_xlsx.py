@@ -88,6 +88,8 @@ def _add_validation(ws, cfg):
         dv = DataValidation(type="list", formula1=cfg["source"], allow_blank=True)
     else:
         dv = DataValidation(type="list", formula1='"' + ",".join(cfg["values"]) + '"', allow_blank=True)
+    # strict (the default, as in Google Sheets): reject a typed value that isn't on the list
+    dv.showErrorMessage = cfg.get("strict", True)
     ws.add_data_validation(dv)
     dv.add(cfg["range"])
 
@@ -205,6 +207,8 @@ def _add_chart(wb, ws, cfg, theme):
         chart.y_axis.delete = False
     if cfg.get("legend") is False:
         chart.legend = None
+    if cfg.get("plot_hidden"):
+        chart.visible_cells_only = False   # chart a hidden helper column
     chart.height = cfg.get("height", 7)
     chart.width = cfg.get("width", 12)
     ws.add_chart(chart, cfg.get("anchor", "A1"))

@@ -133,6 +133,8 @@ function chartRequest(cfg, sheetId, idByTitle, defaultTitle, palette) {
     };
   }
   if (cfg.title) spec.title = cfg.title;
+  // plot_hidden: chart a hidden helper column (charts skip hidden data by default)
+  if (cfg.plot_hidden) spec.hiddenDimensionStrategy = "SHOW_ALL";
   return { addChart: { chart: { spec, position } } };
 }
 
