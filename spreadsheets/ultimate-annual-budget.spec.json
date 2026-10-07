@@ -38022,7 +38022,7 @@
     },
     {
      "range": "B87:K87",
-     "label": "INCOME, SPENDING & SAVINGS BY MONTH",
+     "label": "INCOME, SPENDING & SAVINGS",
      "color": "E2B8A3"
     }
    ],
@@ -46282,7 +46282,7 @@
    ],
    "section_bars": [
     {
-     "range": "A21:H21",
+     "range": "B21:I21",
      "label": "NET WORTH THROUGH THE YEAR",
      "color": "C9CBA3"
     }
@@ -46290,7 +46290,7 @@
    "charts": [
     {
      "type": "line",
-     "anchor": "A22",
+     "anchor": "B22",
      "data": "Net Worth!R1:R13",
      "categories": "Net Worth!A2:A13",
      "width": 16,

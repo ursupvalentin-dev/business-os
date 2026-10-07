@@ -82,6 +82,18 @@ const numFmtType = (p) => {
   return /%/.test(bare) ? "PERCENT" : /[ymd]/i.test(bare) ? "DATE" : "NUMBER";
 };
 
+// Sheets can't merge across the frozen-pane edge (Excel can): split a merge at the frozen row/column
+// boundaries and merge each piece that still covers more than one cell.
+function mergeRequests(gr, frozenRows, frozenCols) {
+  const cut = (a, b, at) => (at > a && at < b ? [[a, at], [at, b]] : [[a, b]]);
+  const out = [];
+  for (const [r0, r1] of cut(gr.startRowIndex, gr.endRowIndex, frozenRows))
+    for (const [c0, c1] of cut(gr.startColumnIndex, gr.endColumnIndex, frozenCols))
+      if ((r1 - r0) * (c1 - c0) > 1)
+        out.push({ mergeCells: { range: { sheetId: gr.sheetId, startRowIndex: r0, endRowIndex: r1, startColumnIndex: c0, endColumnIndex: c1 }, mergeType: "MERGE_ALL" } });
+  return out;
+}
+
 // ---------- request builders ----------
 function chartRequest(cfg, sheetId, idByTitle, defaultTitle, palette) {
   const kind = cfg.type || "bar";
@@ -275,6 +287,8 @@ async function main() {
     }
 
     // freeze (e.g. "A2" → 1 frozen row)
+    const frozen = tab.freeze ? parseRange(tab.freeze) : { startRowIndex: 0, startColumnIndex: 0 };
+    const merge = (range) => reqs.push(...mergeRequests(range, frozen.startRowIndex, frozen.startColumnIndex));
     if (tab.freeze) {
       const f = parseRange(tab.freeze);
       reqs.push({ updateSheetProperties: { properties: { sheetId, gridProperties: { frozenRowCount: f.startRowIndex, frozenColumnCount: f.startColumnIndex } }, fields: "gridProperties.frozenRowCount,gridProperties.frozenColumnCount" } });
@@ -326,7 +340,7 @@ async function main() {
       const gr = { ...parseRange(splitRef(bar.range).rng), sheetId };
       const color = bar.color || theme.section_colors[i % theme.section_colors.length];
       reqs.push({ repeatCell: { range: gr, cell: { userEnteredFormat: { backgroundColor: hexToColor(color), horizontalAlignment: bar.align ? bar.align.toUpperCase() : "CENTER", verticalAlignment: "MIDDLE", textFormat: { bold: true, fontSize: bar.size || 11, foregroundColorStyle: { rgbColor: hexToColor(bar.font_color || theme.header_font) } } } }, fields: "userEnteredFormat(backgroundColor,horizontalAlignment,verticalAlignment,textFormat)" } });
-      reqs.push({ mergeCells: { range: gr, mergeType: "MERGE_ALL" } });
+      merge(gr);
     });
 
     // KPI cards (fill + label/value formats + merges)
@@ -342,8 +356,8 @@ async function main() {
       const valFmt = { horizontalAlignment: "CENTER", verticalAlignment: "MIDDLE", textFormat: { bold: true, fontSize: card.value_size || 20, foregroundColorStyle: fg } };
       if (card.number_format) valFmt.numberFormat = { type: numFmtType(card.number_format), pattern: card.number_format };
       reqs.push({ repeatCell: { range: { sheetId, startRowIndex: sr + 1, endRowIndex: sr + span, startColumnIndex: sc, endColumnIndex: sc + colsN }, cell: { userEnteredFormat: valFmt }, fields: "userEnteredFormat(horizontalAlignment,verticalAlignment,textFormat,numberFormat)" } });
-      reqs.push({ mergeCells: { range: { sheetId, startRowIndex: sr, endRowIndex: sr + 1, startColumnIndex: sc, endColumnIndex: sc + colsN }, mergeType: "MERGE_ALL" } });
-      reqs.push({ mergeCells: { range: { sheetId, startRowIndex: sr + 1, endRowIndex: sr + span, startColumnIndex: sc, endColumnIndex: sc + colsN }, mergeType: "MERGE_ALL" } });
+      merge({ sheetId, startRowIndex: sr, endRowIndex: sr + 1, startColumnIndex: sc, endColumnIndex: sc + colsN });
+      merge({ sheetId, startRowIndex: sr + 1, endRowIndex: sr + span, startColumnIndex: sc, endColumnIndex: sc + colsN });
     }
 
     // borders
