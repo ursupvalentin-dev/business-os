@@ -95,7 +95,7 @@ function mergeRequests(gr, frozenRows, frozenCols) {
 }
 
 // ---------- request builders ----------
-function chartRequest(cfg, sheetId, idByTitle, defaultTitle, palette) {
+function chartRequest(cfg, sheetId, idByTitle, defaultTitle, palette, theme = {}) {
   const kind = cfg.type || "bar";
   const dataGr = gridRange(cfg.data, idByTitle, defaultTitle);
   const catGr = cfg.categories ? gridRange(cfg.categories, idByTitle, defaultTitle) : null;
@@ -145,6 +145,13 @@ function chartRequest(cfg, sheetId, idByTitle, defaultTitle, palette) {
     };
   }
   if (cfg.title) spec.title = cfg.title;
+  // dark mode: chart background and light axis/title text (Sheets can't recolor legend text: use legend: false)
+  if (theme.chart_bg) {
+    spec.backgroundColorStyle = { rgbColor: hexToColor(theme.chart_bg) };
+    const txt = { foregroundColorStyle: { rgbColor: hexToColor(theme.chart_text || "FFFFFF") } };
+    spec.titleTextFormat = txt;
+    if (spec.basicChart) spec.basicChart.axis = [{ position: "BOTTOM_AXIS", format: txt }, { position: "LEFT_AXIS", format: txt }];
+  }
   // plot_hidden: chart a hidden helper column (charts skip hidden data by default)
   if (cfg.plot_hidden) spec.hiddenDimensionStrategy = "SHOW_ALL";
   return { addChart: { chart: { spec, position } } };
@@ -269,6 +276,10 @@ async function main() {
     const cols = tab.columns || [];
     const nRows = (tab.rows || []).length;
     const styles = tab.styles || {};
+    const base = tab.base || null;
+    // dark mode / base look: paint the whole grid and set the default text color first
+    if (base)
+      reqs.push({ repeatCell: { range: { sheetId, startRowIndex: 0, endRowIndex: tab.grid_rows || 200, startColumnIndex: 0, endColumnIndex: tab.grid_cols || 30 }, cell: { userEnteredFormat: { backgroundColor: hexToColor(base.fill), textFormat: { foregroundColorStyle: { rgbColor: hexToColor(base.font_color || "FFFFFF") } } } }, fields: "userEnteredFormat(backgroundColor,textFormat.foregroundColorStyle)" } });
 
     // column widths: per-column `width` (data tabs) + tab-level column_widths map
     cols.forEach((c, i) => {
@@ -335,7 +346,7 @@ async function main() {
     // banding
     const band = styles.banding || {};
     if (band.enabled && nRows > 0) {
-      reqs.push({ addBanding: { bandedRange: { range: { sheetId, startRowIndex: 1, endRowIndex: nRows + 1, startColumnIndex: 0, endColumnIndex: cols.length }, rowProperties: { firstBandColorStyle: { rgbColor: hexToColor("FFFFFF") }, secondBandColorStyle: { rgbColor: hexToColor(band.color || "F2F2F2") } } } } });
+      reqs.push({ addBanding: { bandedRange: { range: { sheetId, startRowIndex: 1, endRowIndex: nRows + 1, startColumnIndex: 0, endColumnIndex: cols.length }, rowProperties: { firstBandColorStyle: { rgbColor: hexToColor(band.first || (base ? base.fill : "FFFFFF")) }, secondBandColorStyle: { rgbColor: hexToColor(band.color || "F2F2F2") } } } } });
     }
 
     // panel fills
@@ -379,7 +390,7 @@ async function main() {
 
     // text styles on any range (labels and table headers outside a columns table)
     for (const t of tab.text_styles || []) {
-      const fmt = { verticalAlignment: (t.valign || "middle").toUpperCase(), textFormat: { bold: !!t.bold, italic: !!t.italic, fontSize: t.size || 10, foregroundColorStyle: { rgbColor: hexToColor(t.color || "000000") } } };
+      const fmt = { verticalAlignment: (t.valign || "middle").toUpperCase(), textFormat: { bold: !!t.bold, italic: !!t.italic, fontSize: t.size || 10, foregroundColorStyle: { rgbColor: hexToColor(t.color || (base && base.font_color) || "000000") } } };
       let fields = "userEnteredFormat(textFormat,verticalAlignment";
       if (t.align) { fmt.horizontalAlignment = t.align.toUpperCase(); fields += ",horizontalAlignment"; }
       if (t.wrap) { fmt.wrapStrategy = "WRAP"; fields += ",wrapStrategy"; }
@@ -404,7 +415,7 @@ async function main() {
     }
 
     // charts
-    for (const ch of tab.charts || []) reqs.push(chartRequest(ch, sheetId, idByTitle, tab.name.slice(0, 99), theme.chart_palette));
+    for (const ch of tab.charts || []) reqs.push(chartRequest(ch, sheetId, idByTitle, tab.name.slice(0, 99), theme.chart_palette, theme));
   }
 
   for (let i = 0; i < reqs.length; i += 1500) {

@@ -30,6 +30,9 @@ try:
     from openpyxl.chart import BarChart, DoughnutChart, LineChart, PieChart, Reference
     from openpyxl.chart.series import DataPoint
     from openpyxl.chart.shapes import GraphicalProperties
+    from openpyxl.chart.text import RichText
+    from openpyxl.drawing.line import LineProperties
+    from openpyxl.drawing.text import CharacterProperties, Paragraph, ParagraphProperties
     from openpyxl.utils import get_column_letter
     from openpyxl.utils.cell import coordinate_to_tuple, range_boundaries
     from openpyxl.worksheet.datavalidation import DataValidation
@@ -69,11 +72,11 @@ def _cells(ws, rng):
         yield from row
 
 
-def _add_text_style(ws, cfg):
+def _add_text_style(ws, cfg, default_color="000000"):
     """Font/alignment for any range: bold labels, table headers, notes outside a columns table."""
     for cell in _cells(ws, cfg["range"]):
         cell.font = Font(name=FONT_NAME, bold=cfg.get("bold", False), italic=cfg.get("italic", False),
-                         size=cfg.get("size", 11), color=cfg.get("color", "000000"))
+                         size=cfg.get("size", 11), color=cfg.get("color", default_color))
         if cfg.get("align") or cfg.get("wrap") or cfg.get("valign"):
             valign = {"middle": "center"}.get(cfg.get("valign", "middle"), cfg.get("valign"))
             cell.alignment = Alignment(horizontal=cfg.get("align"), vertical=valign,
@@ -185,6 +188,24 @@ def _theme_chart(chart, kind, cfg, n_points, palette):
             ser.data_points.append(dp)
 
 
+def _dark_chart(chart, theme):
+    """Dark mode: chart and plot background, light axis and legend text, subtle gridlines."""
+    bg, txt = theme["chart_bg"], theme.get("chart_text", "FFFFFF")
+    chart.graphical_properties = GraphicalProperties(solidFill=bg, ln=LineProperties(noFill=True))
+    chart.plot_area.graphicalProperties = GraphicalProperties(solidFill=bg)
+
+    def rich():
+        return RichText(p=[Paragraph(pPr=ParagraphProperties(defRPr=CharacterProperties(solidFill=txt)),
+                                     endParaRPr=CharacterProperties())])
+    for ax in (getattr(chart, "x_axis", None), getattr(chart, "y_axis", None)):
+        if ax is not None:
+            ax.txPr = rich()
+            if ax.majorGridlines is not None:
+                ax.majorGridlines.spPr = GraphicalProperties(ln=LineProperties(solidFill=theme.get("chart_grid", "3A4152")))
+    if chart.legend is not None:
+        chart.legend.txPr = rich()
+
+
 def _add_chart(wb, ws, cfg, theme):
     """Bar/line/pie/doughnut chart anchored on `ws`, data optionally drawn from another tab."""
     kind = cfg.get("type", "bar")
@@ -202,6 +223,8 @@ def _add_chart(wb, ws, cfg, theme):
     else:
         n_points = _vertical_count(cfg["data"]) - (1 if tfd else 0)
     _theme_chart(chart, kind, cfg, n_points, theme["chart_palette"])
+    if theme.get("chart_bg"):
+        _dark_chart(chart, theme)
     if kind in ("bar", "barh", "line"):
         # openpyxl 3.1 omits <c:delete> on axes, which Excel reads as "axis deleted" (no labels/scale)
         chart.x_axis.delete = False
@@ -308,6 +331,14 @@ def build(spec, out_path):
     for tab in spec["tabs"]:
         ws = wb[tab["name"][:31]]
         cols = tab.get("columns", [])
+        # dark mode / base look: paint the grid and set the default text color before anything else
+        if tab.get("base"):
+            bfill = _fill(tab["base"]["fill"])
+            bfont = Font(name=FONT_NAME, color=tab["base"].get("font_color", "FFFFFF"))
+            for row in ws.iter_rows(min_row=1, max_row=tab.get("grid_rows", 200), min_col=1,
+                                    max_col=max(tab.get("grid_cols", 30), 26)):
+                for c in row:
+                    c.fill, c.font = bfill, bfont
         styles = tab.get("styles", {})
         header_style = styles.get("header", {})
         col_fmt = {}  # column-letter -> number_format, so formula cells can inherit it
@@ -397,7 +428,7 @@ def build(spec, out_path):
                                      top=side if inner_h or cell.row == min_row else None,
                                      bottom=side if inner_h or cell.row == max_row else None)
         for tcfg in tab.get("text_styles", []):
-            _add_text_style(ws, tcfg)
+            _add_text_style(ws, tcfg, (tab.get("base") or {}).get("font_color", "000000"))
         for vcfg in tab.get("validations", []):
             _add_validation(ws, vcfg)
 
