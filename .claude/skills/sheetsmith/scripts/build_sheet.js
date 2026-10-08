@@ -245,7 +245,7 @@ async function main() {
       else {
         const [s, e] = f.range_rows;
         const col = [];
-        for (let row = s; row <= e; row++) col.push([f.formula.replace(/\{row\}/g, String(row))]);
+        for (let row = s; row <= e; row++) col.push([f.formula.replace(/\{row([+-]\d+)?\}/g, (_, d) => String(row + Number(d || 0)))]);
         valueData.push({ range: `${T}!${f.col.toUpperCase()}${s}`, values: col });
       }
     }

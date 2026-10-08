@@ -390,7 +390,7 @@ def build(spec, out_path):
                 fmt = f.get("number_format") or col_fmt.get(col_letter)
                 for row in range(start, end + 1):
                     ref = f"{col_letter}{row}"
-                    ws[ref] = f["formula"].replace("{row}", str(row))
+                    ws[ref] = re.sub(r"\{row([+-]\d+)?\}", lambda m: str(row + int(m.group(1) or 0)), f["formula"])  # {row}, {row-1}
                     if fmt:
                         ws[ref].number_format = fmt
 
