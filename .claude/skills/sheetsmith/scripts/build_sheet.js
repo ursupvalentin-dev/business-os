@@ -117,7 +117,7 @@ function chartRequest(cfg, sheetId, idByTitle, defaultTitle, palette, theme = {}
   if (kind === "pie" || kind === "doughnut") {
     spec = {
       pieChart: {
-        legendPosition: "RIGHT_LEGEND",
+        legendPosition: cfg.legend === false || theme.chart_bg ? "NO_LEGEND" : "RIGHT_LEGEND",
         pieHole: kind === "doughnut" ? 0.5 : 0,
         domain: { sourceRange: { sources: [catGr || dataGr] } },
         series: { sourceRange: { sources: [dataGr] } },
@@ -346,6 +346,9 @@ async function main() {
     // banding
     const band = styles.banding || {};
     if (band.enabled && nRows > 0) {
+      // a cell fill hides banding: clear the base fill under the banded rows (the first band is the base color)
+      if (base)
+        reqs.push({ repeatCell: { range: { sheetId, startRowIndex: 1, endRowIndex: nRows + 1, startColumnIndex: 0, endColumnIndex: cols.length }, cell: { userEnteredFormat: {} }, fields: "userEnteredFormat.backgroundColor" } });
       reqs.push({ addBanding: { bandedRange: { range: { sheetId, startRowIndex: 1, endRowIndex: nRows + 1, startColumnIndex: 0, endColumnIndex: cols.length }, rowProperties: { firstBandColorStyle: { rgbColor: hexToColor(band.first || (base ? base.fill : "FFFFFF")) }, secondBandColorStyle: { rgbColor: hexToColor(band.color || "F2F2F2") } } } } });
     }
 
@@ -390,7 +393,7 @@ async function main() {
 
     // text styles on any range (labels and table headers outside a columns table)
     for (const t of tab.text_styles || []) {
-      const fmt = { verticalAlignment: (t.valign || "middle").toUpperCase(), textFormat: { bold: !!t.bold, italic: !!t.italic, fontSize: t.size || 10, foregroundColorStyle: { rgbColor: hexToColor(t.color || (base && base.font_color) || "000000") } } };
+      const fmt = { verticalAlignment: (t.valign || "middle").toUpperCase(), textFormat: { bold: !!t.bold, italic: !!t.italic, fontSize: t.size || 10, foregroundColorStyle: { rgbColor: hexToColor(t.color || (base ? base.font_color || "FFFFFF" : "000000")) } } };
       let fields = "userEnteredFormat(textFormat,verticalAlignment";
       if (t.align) { fmt.horizontalAlignment = t.align.toUpperCase(); fields += ",horizontalAlignment"; }
       if (t.wrap) { fmt.wrapStrategy = "WRAP"; fields += ",wrapStrategy"; }

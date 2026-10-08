@@ -428,7 +428,8 @@ def build(spec, out_path):
                                      top=side if inner_h or cell.row == min_row else None,
                                      bottom=side if inner_h or cell.row == max_row else None)
         for tcfg in tab.get("text_styles", []):
-            _add_text_style(ws, tcfg, (tab.get("base") or {}).get("font_color", "000000"))
+            _add_text_style(ws, tcfg, (tab.get("base") or {}).get("font_color", "FFFFFF") if tab.get("base")
+                            else "000000")
         for vcfg in tab.get("validations", []):
             _add_validation(ws, vcfg)
 
@@ -451,6 +452,16 @@ def build(spec, out_path):
             ws.column_dimensions[letter.upper()].hidden = True
         for row in tab.get("hidden_rows", []):
             ws.row_dimensions[row].hidden = True
+        if tab.get("base"):
+            # Excel shows white cells past the painted area: hide the columns and rows beyond it, as in Google
+            last_col = max(tab.get("grid_cols", 30), 26)
+            ws.column_dimensions.group(get_column_letter(last_col + 1), "XFD", hidden=True)
+            ws.sheet_format.zeroHeight = True
+            default_h = tab.get("row_height") or 15
+            for r in range(1, tab.get("grid_rows", 200) + 1):
+                rd = ws.row_dimensions[r]
+                if rd.height is None:
+                    rd.height = default_h
 
         summary.append(
             f"{tab['name']}: {len(cols)} cols, {len(rows)} rows, "
