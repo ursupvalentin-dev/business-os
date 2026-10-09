@@ -1,0 +1,5912 @@
+{
+ "filename": "Travel Planner & Trip Budget",
+ "locale": "en_US",
+ "theme": {
+  "header_font": "FFFFFF",
+  "border": "D3DDE3",
+  "accent": "2B6F8E",
+  "section_colors": [
+   "2B6F8E",
+   "D6E9F2",
+   "F2E6D0"
+  ],
+  "chart_palette": [
+   "2B6F8E",
+   "E28A6B",
+   "E9C46A",
+   "7FB7BE",
+   "1F5068",
+   "C9A27E",
+   "9AB8C9",
+   "F4A582"
+  ]
+ },
+ "tabs": [
+  {
+   "name": "Start Here",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "2B6F8E",
+   "grid_rows": 32,
+   "column_widths": {
+    "A": 2.5,
+    "B": 18,
+    "C": 100,
+    "D": 2.5
+   },
+   "section_bars": [
+    {
+     "range": "B2:C2",
+     "label": "TRAVEL PLANNER & TRIP BUDGET",
+     "size": 18,
+     "color": "2B6F8E",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "B5:C5",
+     "label": "HOW TO USE IT",
+     "color": "D6E9F2",
+     "font_color": "23394A",
+     "align": "left"
+    },
+    {
+     "range": "B15:C15",
+     "label": "GOOD TO KNOW",
+     "color": "D6E9F2",
+     "font_color": "23394A",
+     "align": "left"
+    },
+    {
+     "range": "B21:C21",
+     "label": "COLOR GUIDE",
+     "color": "D6E9F2",
+     "font_color": "23394A",
+     "align": "left"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Plan your trip, track your budget and spending, and pack with confidence."
+    },
+    {
+     "cell": "B6",
+     "formula": "1. Trip Details: name, dates, who's going, each stop, the currencies you'll use and your documents."
+    },
+    {
+     "cell": "B7",
+     "formula": "2. Budget: plan an amount per category in your home currency."
+    },
+    {
+     "cell": "B8",
+     "formula": "3. Itinerary: the dates and cities fill in. Add plans for morning, afternoon and evening."
+    },
+    {
+     "cell": "B9",
+     "formula": "4. Bookings: flights, hotels, trains and tours with confirmation numbers and costs."
+    },
+    {
+     "cell": "B10",
+     "formula": "5. Expenses: log spending in any currency. It's converted to your home currency for you."
+    },
+    {
+     "cell": "B11",
+     "formula": "6. Group Split: see who paid what and who owes whom."
+    },
+    {
+     "cell": "B12",
+     "formula": "7. Packing List: tick items as you pack."
+    },
+    {
+     "cell": "B13",
+     "formula": "8. Dashboard: countdown, budget left, spending per day and what's next."
+    },
+    {
+     "cell": "B16",
+     "formula": "Currencies"
+    },
+    {
+     "cell": "C16",
+     "formula": "On Trip Details, type each currency code and its rate: 1 EUR = 1.08 USD means 1.08."
+    },
+    {
+     "cell": "B17",
+     "formula": "Split"
+    },
+    {
+     "cell": "C17",
+     "formula": "Leave Split blank (or Everyone) to share a cost; type a name for a personal cost."
+    },
+    {
+     "cell": "B18",
+     "formula": "Passports"
+    },
+    {
+     "cell": "C18",
+     "formula": "Many countries need 6 months left on your passport: Trip Details flags it."
+    },
+    {
+     "cell": "B19",
+     "formula": "Offline"
+    },
+    {
+     "cell": "C19",
+     "formula": "Download offline maps and save confirmations before you go."
+    },
+    {
+     "cell": "C22",
+     "formula": "White cells: type here."
+    },
+    {
+     "cell": "C23",
+     "formula": "Tinted cells: these calculate for you."
+    },
+    {
+     "cell": "C24",
+     "formula": "Green: paid, packed or under budget."
+    },
+    {
+     "cell": "C25",
+     "formula": "Yellow: still to pay or coming up."
+    },
+    {
+     "cell": "C26",
+     "formula": "Red: over budget, an unknown currency, or a passport expiring too soon."
+    },
+    {
+     "cell": "B28",
+     "formula": "Thank you for your purchase! Bon voyage!"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B16:C19",
+     "color": "FBF6EC"
+    },
+    {
+     "range": "B22",
+     "color": "FFFFFF"
+    },
+    {
+     "range": "B23",
+     "color": "F5F8FA"
+    },
+    {
+     "range": "B24",
+     "color": "DAEFDF"
+    },
+    {
+     "range": "B25",
+     "color": "FFF1C2"
+    },
+    {
+     "range": "B26",
+     "color": "F6CACA"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B22",
+     "color": "D3DDE3"
+    },
+    {
+     "range": "B23",
+     "color": "D3DDE3"
+    },
+    {
+     "range": "B24",
+     "color": "D3DDE3"
+    },
+    {
+     "range": "B25",
+     "color": "D3DDE3"
+    },
+    {
+     "range": "B26",
+     "color": "D3DDE3"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 11,
+     "color": "23394A"
+    },
+    {
+     "range": "B16:B19",
+     "bold": true,
+     "size": 11,
+     "color": "23394A"
+    },
+    {
+     "range": "B28",
+     "italic": true,
+     "bold": true,
+     "size": 11,
+     "color": "2B6F8E"
+    }
+   ]
+  },
+  {
+   "name": "Dashboard",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "2B6F8E",
+   "grid_rows": 56,
+   "grid_cols": 12,
+   "row_height": 20,
+   "column_widths": {
+    "A": 2.5,
+    "B": 26,
+    "C": 13,
+    "D": 13,
+    "E": 13,
+    "F": 13,
+    "G": 13,
+    "H": 13,
+    "I": 13,
+    "J": 2.5
+   },
+   "section_bars": [
+    {
+     "range": "B2:I2",
+     "label": "=UPPER(IF(TRIM('Trip Details'!C5&\"\")=\"\",\"MY TRIP\",'Trip Details'!C5))",
+     "size": 16,
+     "color": "2B6F8E",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "B13:D13",
+     "label": "BUDGET BY CATEGORY",
+     "color": "D6E9F2",
+     "font_color": "23394A",
+     "align": "center"
+    },
+    {
+     "range": "E13:I13",
+     "label": "PLANNED VS. USED",
+     "color": "D6E9F2",
+     "font_color": "23394A",
+     "align": "center"
+    },
+    {
+     "range": "B28:E28",
+     "label": "COMING UP",
+     "color": "D6E9F2",
+     "font_color": "23394A",
+     "align": "center"
+    },
+    {
+     "range": "F28:I28",
+     "label": "",
+     "color": "D6E9F2",
+     "font_color": "23394A",
+     "align": "center"
+    },
+    {
+     "range": "B37:I37",
+     "label": "SPENDING BY DAY",
+     "color": "D6E9F2",
+     "font_color": "23394A",
+     "align": "center"
+    }
+   ],
+   "kpi_cards": [
+    {
+     "anchor": "B5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "DAYS TO GO",
+     "value": "=IF('Trip Details'!$L$5=\"\",\"-\",IF(('Trip Details'!$L$5-TODAY())>0,('Trip Details'!$L$5-TODAY()),IF(TODAY()<='Trip Details'!$L$5+'Trip Details'!$L$7-1,\"On the trip!\",\"Welcome home\")))",
+     "fill": "2B6F8E",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "0"
+    },
+    {
+     "anchor": "D5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "TRIP LENGTH",
+     "value": "=IF('Trip Details'!$L$7=0,\"-\",'Trip Details'!$L$7&\" days\")",
+     "fill": "D6E9F2",
+     "font_color": "23394A",
+     "value_size": 16
+    },
+    {
+     "anchor": "F5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "STOPS",
+     "value": "=COUNTIF('Trip Details'!$B$23:$B$32,\"?*\")",
+     "fill": "F2E6D0",
+     "font_color": "23394A",
+     "value_size": 16,
+     "number_format": "0"
+    },
+    {
+     "anchor": "H5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "TRAVELERS",
+     "value": "='Trip Details'!$L$8",
+     "fill": "FBF6EC",
+     "font_color": "23394A",
+     "value_size": 16,
+     "number_format": "0"
+    },
+    {
+     "anchor": "B9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "TRIP BUDGET",
+     "value": "=Budget!C22",
+     "fill": "FBF6EC",
+     "font_color": "23394A",
+     "value_size": 16,
+     "number_format": "#,##0.00"
+    },
+    {
+     "anchor": "D9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "USED SO FAR",
+     "value": "=Budget!F22",
+     "fill": "E28A6B",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "#,##0.00"
+    },
+    {
+     "anchor": "F9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "LEFT",
+     "value": "=Budget!G22",
+     "fill": "D6E9F2",
+     "font_color": "23394A",
+     "value_size": 16,
+     "number_format": "#,##0.00;-#,##0.00;0.00"
+    },
+    {
+     "anchor": "H9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "PACKED",
+     "value": "='Packing List'!G19",
+     "fill": "2B6F8E",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "0%"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "=IF('Trip Details'!$L$5=\"\",\"Add your dates on Trip Details.\",TEXT('Trip Details'!$L$5,\"mmm d\")&\" to \"&TEXT('Trip Details'!$L$5+MAX(1,'Trip Details'!$L$7)-1,\"mmm d, yyyy\")&\"   |   \"&'Trip Details'!C9)"
+    },
+    {
+     "cell": "B14",
+     "formula": "Category"
+    },
+    {
+     "cell": "C14",
+     "formula": "Planned"
+    },
+    {
+     "cell": "D14",
+     "formula": "Used"
+    },
+    {
+     "cell": "B15",
+     "formula": "=IF(TRIM(Budget!B10&\"\")=\"\",\"\",Budget!B10)"
+    },
+    {
+     "cell": "C15",
+     "formula": "=IF(B15=\"\",\"\",N(Budget!C10))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "D15",
+     "formula": "=IF(B15=\"\",\"\",Budget!F10)",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "B16",
+     "formula": "=IF(TRIM(Budget!B11&\"\")=\"\",\"\",Budget!B11)"
+    },
+    {
+     "cell": "C16",
+     "formula": "=IF(B16=\"\",\"\",N(Budget!C11))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "D16",
+     "formula": "=IF(B16=\"\",\"\",Budget!F11)",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "B17",
+     "formula": "=IF(TRIM(Budget!B12&\"\")=\"\",\"\",Budget!B12)"
+    },
+    {
+     "cell": "C17",
+     "formula": "=IF(B17=\"\",\"\",N(Budget!C12))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "D17",
+     "formula": "=IF(B17=\"\",\"\",Budget!F12)",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "B18",
+     "formula": "=IF(TRIM(Budget!B13&\"\")=\"\",\"\",Budget!B13)"
+    },
+    {
+     "cell": "C18",
+     "formula": "=IF(B18=\"\",\"\",N(Budget!C13))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "D18",
+     "formula": "=IF(B18=\"\",\"\",Budget!F13)",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "B19",
+     "formula": "=IF(TRIM(Budget!B14&\"\")=\"\",\"\",Budget!B14)"
+    },
+    {
+     "cell": "C19",
+     "formula": "=IF(B19=\"\",\"\",N(Budget!C14))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "D19",
+     "formula": "=IF(B19=\"\",\"\",Budget!F14)",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "B20",
+     "formula": "=IF(TRIM(Budget!B15&\"\")=\"\",\"\",Budget!B15)"
+    },
+    {
+     "cell": "C20",
+     "formula": "=IF(B20=\"\",\"\",N(Budget!C15))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "D20",
+     "formula": "=IF(B20=\"\",\"\",Budget!F15)",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "B21",
+     "formula": "=IF(TRIM(Budget!B16&\"\")=\"\",\"\",Budget!B16)"
+    },
+    {
+     "cell": "C21",
+     "formula": "=IF(B21=\"\",\"\",N(Budget!C16))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "D21",
+     "formula": "=IF(B21=\"\",\"\",Budget!F16)",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "B22",
+     "formula": "=IF(TRIM(Budget!B17&\"\")=\"\",\"\",Budget!B17)"
+    },
+    {
+     "cell": "C22",
+     "formula": "=IF(B22=\"\",\"\",N(Budget!C17))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "D22",
+     "formula": "=IF(B22=\"\",\"\",Budget!F17)",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "B23",
+     "formula": "=IF(TRIM(Budget!B18&\"\")=\"\",\"\",Budget!B18)"
+    },
+    {
+     "cell": "C23",
+     "formula": "=IF(B23=\"\",\"\",N(Budget!C18))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "D23",
+     "formula": "=IF(B23=\"\",\"\",Budget!F18)",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "B24",
+     "formula": "=IF(TRIM(Budget!B19&\"\")=\"\",\"\",Budget!B19)"
+    },
+    {
+     "cell": "C24",
+     "formula": "=IF(B24=\"\",\"\",N(Budget!C19))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "D24",
+     "formula": "=IF(B24=\"\",\"\",Budget!F19)",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "B25",
+     "formula": "=IF(TRIM(Budget!B20&\"\")=\"\",\"\",Budget!B20)"
+    },
+    {
+     "cell": "C25",
+     "formula": "=IF(B25=\"\",\"\",N(Budget!C20))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "D25",
+     "formula": "=IF(B25=\"\",\"\",Budget!F20)",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "B26",
+     "formula": "=IF(TRIM(Budget!B21&\"\")=\"\",\"\",Budget!B21)"
+    },
+    {
+     "cell": "C26",
+     "formula": "=IF(B26=\"\",\"\",N(Budget!C21))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "D26",
+     "formula": "=IF(B26=\"\",\"\",Budget!F21)",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "B29",
+     "formula": "Next Bookings"
+    },
+    {
+     "cell": "D29",
+     "formula": "Date"
+    },
+    {
+     "cell": "E29",
+     "formula": "Status"
+    },
+    {
+     "cell": "B30",
+     "formula": "=IFERROR(INDEX(Bookings!$B$8:$B$57,MATCH(SMALL(Bookings!$X$8:$X$57,1),Bookings!$X$8:$X$57,0))&\": \"&INDEX(Bookings!$C$8:$C$57,MATCH(SMALL(Bookings!$X$8:$X$57,1),Bookings!$X$8:$X$57,0)),\"\")"
+    },
+    {
+     "cell": "D30",
+     "formula": "=IFERROR(INDEX(Bookings!$E$8:$E$57,MATCH(SMALL(Bookings!$X$8:$X$57,1),Bookings!$X$8:$X$57,0)),\"\")",
+     "number_format": "ddd, mmm d"
+    },
+    {
+     "cell": "E30",
+     "formula": "=IFERROR(INDEX(Bookings!$O$8:$O$57,MATCH(SMALL(Bookings!$X$8:$X$57,1),Bookings!$X$8:$X$57,0))&\"\",\"\")"
+    },
+    {
+     "cell": "B31",
+     "formula": "=IFERROR(INDEX(Bookings!$B$8:$B$57,MATCH(SMALL(Bookings!$X$8:$X$57,2),Bookings!$X$8:$X$57,0))&\": \"&INDEX(Bookings!$C$8:$C$57,MATCH(SMALL(Bookings!$X$8:$X$57,2),Bookings!$X$8:$X$57,0)),\"\")"
+    },
+    {
+     "cell": "D31",
+     "formula": "=IFERROR(INDEX(Bookings!$E$8:$E$57,MATCH(SMALL(Bookings!$X$8:$X$57,2),Bookings!$X$8:$X$57,0)),\"\")",
+     "number_format": "ddd, mmm d"
+    },
+    {
+     "cell": "E31",
+     "formula": "=IFERROR(INDEX(Bookings!$O$8:$O$57,MATCH(SMALL(Bookings!$X$8:$X$57,2),Bookings!$X$8:$X$57,0))&\"\",\"\")"
+    },
+    {
+     "cell": "B32",
+     "formula": "=IFERROR(INDEX(Bookings!$B$8:$B$57,MATCH(SMALL(Bookings!$X$8:$X$57,3),Bookings!$X$8:$X$57,0))&\": \"&INDEX(Bookings!$C$8:$C$57,MATCH(SMALL(Bookings!$X$8:$X$57,3),Bookings!$X$8:$X$57,0)),\"\")"
+    },
+    {
+     "cell": "D32",
+     "formula": "=IFERROR(INDEX(Bookings!$E$8:$E$57,MATCH(SMALL(Bookings!$X$8:$X$57,3),Bookings!$X$8:$X$57,0)),\"\")",
+     "number_format": "ddd, mmm d"
+    },
+    {
+     "cell": "E32",
+     "formula": "=IFERROR(INDEX(Bookings!$O$8:$O$57,MATCH(SMALL(Bookings!$X$8:$X$57,3),Bookings!$X$8:$X$57,0))&\"\",\"\")"
+    },
+    {
+     "cell": "B33",
+     "formula": "=IFERROR(INDEX(Bookings!$B$8:$B$57,MATCH(SMALL(Bookings!$X$8:$X$57,4),Bookings!$X$8:$X$57,0))&\": \"&INDEX(Bookings!$C$8:$C$57,MATCH(SMALL(Bookings!$X$8:$X$57,4),Bookings!$X$8:$X$57,0)),\"\")"
+    },
+    {
+     "cell": "D33",
+     "formula": "=IFERROR(INDEX(Bookings!$E$8:$E$57,MATCH(SMALL(Bookings!$X$8:$X$57,4),Bookings!$X$8:$X$57,0)),\"\")",
+     "number_format": "ddd, mmm d"
+    },
+    {
+     "cell": "E33",
+     "formula": "=IFERROR(INDEX(Bookings!$O$8:$O$57,MATCH(SMALL(Bookings!$X$8:$X$57,4),Bookings!$X$8:$X$57,0))&\"\",\"\")"
+    },
+    {
+     "cell": "B34",
+     "formula": "=IFERROR(INDEX(Bookings!$B$8:$B$57,MATCH(SMALL(Bookings!$X$8:$X$57,5),Bookings!$X$8:$X$57,0))&\": \"&INDEX(Bookings!$C$8:$C$57,MATCH(SMALL(Bookings!$X$8:$X$57,5),Bookings!$X$8:$X$57,0)),\"\")"
+    },
+    {
+     "cell": "D34",
+     "formula": "=IFERROR(INDEX(Bookings!$E$8:$E$57,MATCH(SMALL(Bookings!$X$8:$X$57,5),Bookings!$X$8:$X$57,0)),\"\")",
+     "number_format": "ddd, mmm d"
+    },
+    {
+     "cell": "E34",
+     "formula": "=IFERROR(INDEX(Bookings!$O$8:$O$57,MATCH(SMALL(Bookings!$X$8:$X$57,5),Bookings!$X$8:$X$57,0))&\"\",\"\")"
+    },
+    {
+     "cell": "B35",
+     "formula": "=IFERROR(INDEX(Bookings!$B$8:$B$57,MATCH(SMALL(Bookings!$X$8:$X$57,6),Bookings!$X$8:$X$57,0))&\": \"&INDEX(Bookings!$C$8:$C$57,MATCH(SMALL(Bookings!$X$8:$X$57,6),Bookings!$X$8:$X$57,0)),\"\")"
+    },
+    {
+     "cell": "D35",
+     "formula": "=IFERROR(INDEX(Bookings!$E$8:$E$57,MATCH(SMALL(Bookings!$X$8:$X$57,6),Bookings!$X$8:$X$57,0)),\"\")",
+     "number_format": "ddd, mmm d"
+    },
+    {
+     "cell": "E35",
+     "formula": "=IFERROR(INDEX(Bookings!$O$8:$O$57,MATCH(SMALL(Bookings!$X$8:$X$57,6),Bookings!$X$8:$X$57,0))&\"\",\"\")"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "E30:E35",
+     "type": "formula",
+     "formula": [
+      "$E30=\"Paid\""
+     ],
+     "fill": "DAEFDF"
+    },
+    {
+     "range": "E30:E35",
+     "type": "formula",
+     "formula": [
+      "$E30=\"To pay\""
+     ],
+     "fill": "FFF1C2"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:C7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "D5:E7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "F5:G7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "H5:I7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "B9:C11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "D9:E11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "F9:G11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "H9:I11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "B14:D26",
+     "color": "D3DDE3"
+    },
+    {
+     "range": "B29:E35",
+     "color": "D3DDE3"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B14:D14",
+     "color": "F2E6D0"
+    },
+    {
+     "range": "C15:D26",
+     "color": "F5F8FA"
+    },
+    {
+     "range": "B29:E29",
+     "color": "F2E6D0"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 12,
+     "color": "1F5068"
+    },
+    {
+     "range": "B14:D14",
+     "bold": true,
+     "size": 10,
+     "color": "23394A",
+     "align": "center"
+    },
+    {
+     "range": "C15:D26",
+     "size": 10,
+     "color": "23394A",
+     "align": "center"
+    },
+    {
+     "range": "B29:E29",
+     "bold": true,
+     "size": 10,
+     "color": "23394A",
+     "align": "center"
+    },
+    {
+     "range": "D30:E35",
+     "size": 10,
+     "color": "23394A",
+     "align": "center"
+    }
+   ],
+   "charts": [
+    {
+     "type": "barh",
+     "anchor": "E14",
+     "data": "Dashboard!C14:D26",
+     "categories": "Dashboard!B15:B26",
+     "width": 13,
+     "height": 7,
+     "colors": [
+      "D6E9F2",
+      "2B6F8E"
+     ]
+    },
+    {
+     "type": "bar",
+     "anchor": "B38",
+     "data": "Itinerary!H7:I37",
+     "categories": "Itinerary!C8:C37",
+     "width": 22,
+     "height": 7,
+     "colors": [
+      "D6E9F2",
+      "E28A6B"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Trip Details",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "1F5068",
+   "grid_rows": 58,
+   "grid_cols": 14,
+   "row_height": 20,
+   "column_widths": {
+    "A": 2.5,
+    "B": 22,
+    "C": 18,
+    "D": 14,
+    "E": 26,
+    "F": 9,
+    "G": 24,
+    "H": 2.5,
+    "L": 10
+   },
+   "hidden_columns": [
+    "L"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:G2",
+     "label": "TRIP DETAILS",
+     "size": 16,
+     "color": "2B6F8E",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "B4:G4",
+     "label": "THE TRIP",
+     "color": "D6E9F2",
+     "font_color": "23394A",
+     "align": "left"
+    },
+    {
+     "range": "B12:G12",
+     "label": "WHO'S GOING",
+     "color": "D6E9F2",
+     "font_color": "23394A",
+     "align": "left"
+    },
+    {
+     "range": "B21:G21",
+     "label": "STOPS (IN ORDER)",
+     "color": "D6E9F2",
+     "font_color": "23394A",
+     "align": "left"
+    },
+    {
+     "range": "B34:G34",
+     "label": "CURRENCIES",
+     "color": "D6E9F2",
+     "font_color": "23394A",
+     "align": "left"
+    },
+    {
+     "range": "B45:G45",
+     "label": "DOCUMENTS (PASSPORTS, VISAS, INSURANCE)",
+     "color": "D6E9F2",
+     "font_color": "23394A",
+     "align": "left"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "The basics of your trip. Everything else builds on this page."
+    },
+    {
+     "cell": "B5",
+     "formula": "Trip name"
+    },
+    {
+     "cell": "B6",
+     "formula": "First day"
+    },
+    {
+     "cell": "B7",
+     "formula": "Last day"
+    },
+    {
+     "cell": "B8",
+     "formula": "Home currency"
+    },
+    {
+     "cell": "D6",
+     "formula": "The itinerary has a row for each day (up to 30)."
+    },
+    {
+     "cell": "D8",
+     "formula": "A code like USD. Budget and totals are in this currency."
+    },
+    {
+     "cell": "B13",
+     "formula": "Traveler"
+    },
+    {
+     "cell": "C13",
+     "formula": "Notes"
+    },
+    {
+     "cell": "B22",
+     "formula": "City"
+    },
+    {
+     "cell": "C22",
+     "formula": "Country"
+    },
+    {
+     "cell": "D22",
+     "formula": "Arrive"
+    },
+    {
+     "cell": "E22",
+     "formula": "Leave"
+    },
+    {
+     "cell": "F22",
+     "formula": "Nights"
+    },
+    {
+     "cell": "G22",
+     "formula": "Where You Stay"
+    },
+    {
+     "cell": "B35",
+     "formula": "Currency Code"
+    },
+    {
+     "cell": "C35",
+     "formula": "1 Unit = ? Home"
+    },
+    {
+     "cell": "D35",
+     "formula": "Name"
+    },
+    {
+     "cell": "B46",
+     "formula": "Document"
+    },
+    {
+     "cell": "C46",
+     "formula": "For"
+    },
+    {
+     "cell": "D46",
+     "formula": "Expires"
+    },
+    {
+     "cell": "E46",
+     "formula": "Status"
+    },
+    {
+     "cell": "C5",
+     "formula": "Italy Getaway"
+    },
+    {
+     "cell": "C6",
+     "formula": "=DATE(2027,5,14)",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "C7",
+     "formula": "=DATE(2027,5,23)",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "C8",
+     "formula": "USD"
+    },
+    {
+     "cell": "B14",
+     "formula": "Sam"
+    },
+    {
+     "cell": "B15",
+     "formula": "Alex"
+    },
+    {
+     "cell": "B23",
+     "formula": "Rome"
+    },
+    {
+     "cell": "C23",
+     "formula": "Italy"
+    },
+    {
+     "cell": "D23",
+     "formula": "=DATE(2027,5,14)"
+    },
+    {
+     "cell": "E23",
+     "formula": "=DATE(2027,5,17)"
+    },
+    {
+     "cell": "G23",
+     "formula": "Hotel Artemide"
+    },
+    {
+     "cell": "F23",
+     "formula": "=IF(AND(ISNUMBER(D23),ISNUMBER(E23)),MAX(0,E23-D23),\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "B24",
+     "formula": "Florence"
+    },
+    {
+     "cell": "C24",
+     "formula": "Italy"
+    },
+    {
+     "cell": "D24",
+     "formula": "=DATE(2027,5,17)"
+    },
+    {
+     "cell": "E24",
+     "formula": "=DATE(2027,5,20)"
+    },
+    {
+     "cell": "G24",
+     "formula": "Casa Fiorentina"
+    },
+    {
+     "cell": "F24",
+     "formula": "=IF(AND(ISNUMBER(D24),ISNUMBER(E24)),MAX(0,E24-D24),\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "B25",
+     "formula": "Venice"
+    },
+    {
+     "cell": "C25",
+     "formula": "Italy"
+    },
+    {
+     "cell": "D25",
+     "formula": "=DATE(2027,5,20)"
+    },
+    {
+     "cell": "E25",
+     "formula": "=DATE(2027,5,23)"
+    },
+    {
+     "cell": "G25",
+     "formula": "Ca' Venezia"
+    },
+    {
+     "cell": "F25",
+     "formula": "=IF(AND(ISNUMBER(D25),ISNUMBER(E25)),MAX(0,E25-D25),\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "F26",
+     "formula": "=IF(AND(ISNUMBER(D26),ISNUMBER(E26)),MAX(0,E26-D26),\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "F27",
+     "formula": "=IF(AND(ISNUMBER(D27),ISNUMBER(E27)),MAX(0,E27-D27),\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "F28",
+     "formula": "=IF(AND(ISNUMBER(D28),ISNUMBER(E28)),MAX(0,E28-D28),\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "F29",
+     "formula": "=IF(AND(ISNUMBER(D29),ISNUMBER(E29)),MAX(0,E29-D29),\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "F30",
+     "formula": "=IF(AND(ISNUMBER(D30),ISNUMBER(E30)),MAX(0,E30-D30),\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "F31",
+     "formula": "=IF(AND(ISNUMBER(D31),ISNUMBER(E31)),MAX(0,E31-D31),\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "F32",
+     "formula": "=IF(AND(ISNUMBER(D32),ISNUMBER(E32)),MAX(0,E32-D32),\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "B36",
+     "formula": "USD"
+    },
+    {
+     "cell": "C36",
+     "formula": 1
+    },
+    {
+     "cell": "D36",
+     "formula": "Home currency"
+    },
+    {
+     "cell": "B37",
+     "formula": "EUR"
+    },
+    {
+     "cell": "C37",
+     "formula": 1.08
+    },
+    {
+     "cell": "D37",
+     "formula": "Euro"
+    },
+    {
+     "cell": "B38",
+     "formula": "GBP"
+    },
+    {
+     "cell": "C38",
+     "formula": 1.27
+    },
+    {
+     "cell": "D38",
+     "formula": "If you stop in London"
+    },
+    {
+     "cell": "B47",
+     "formula": "Passport"
+    },
+    {
+     "cell": "C47",
+     "formula": "Sam"
+    },
+    {
+     "cell": "D47",
+     "formula": "=DATE(2031,3,2)"
+    },
+    {
+     "cell": "E47",
+     "formula": "=IF(NOT(ISNUMBER(D47)),\"\",IF($L$6=\"\",IF(D47<TODAY(),\"Expired\",\"OK\"),IF(D47<$L$6,\"Expires before you're home!\",IF(AND(ISNUMBER(SEARCH(\"passport\",B47)),D47<$L$6+182),\"Renew: under 6 months left\",\"OK\"))))"
+    },
+    {
+     "cell": "B48",
+     "formula": "Passport"
+    },
+    {
+     "cell": "C48",
+     "formula": "Alex"
+    },
+    {
+     "cell": "D48",
+     "formula": "=DATE(2027,9,30)"
+    },
+    {
+     "cell": "E48",
+     "formula": "=IF(NOT(ISNUMBER(D48)),\"\",IF($L$6=\"\",IF(D48<TODAY(),\"Expired\",\"OK\"),IF(D48<$L$6,\"Expires before you're home!\",IF(AND(ISNUMBER(SEARCH(\"passport\",B48)),D48<$L$6+182),\"Renew: under 6 months left\",\"OK\"))))"
+    },
+    {
+     "cell": "B49",
+     "formula": "Travel insurance"
+    },
+    {
+     "cell": "C49",
+     "formula": "Both"
+    },
+    {
+     "cell": "D49",
+     "formula": "=DATE(2027,5,24)"
+    },
+    {
+     "cell": "E49",
+     "formula": "=IF(NOT(ISNUMBER(D49)),\"\",IF($L$6=\"\",IF(D49<TODAY(),\"Expired\",\"OK\"),IF(D49<$L$6,\"Expires before you're home!\",IF(AND(ISNUMBER(SEARCH(\"passport\",B49)),D49<$L$6+182),\"Renew: under 6 months left\",\"OK\"))))"
+    },
+    {
+     "cell": "B50",
+     "formula": "Driver's license"
+    },
+    {
+     "cell": "C50",
+     "formula": "Sam"
+    },
+    {
+     "cell": "D50",
+     "formula": "=DATE(2029,6,1)"
+    },
+    {
+     "cell": "E50",
+     "formula": "=IF(NOT(ISNUMBER(D50)),\"\",IF($L$6=\"\",IF(D50<TODAY(),\"Expired\",\"OK\"),IF(D50<$L$6,\"Expires before you're home!\",IF(AND(ISNUMBER(SEARCH(\"passport\",B50)),D50<$L$6+182),\"Renew: under 6 months left\",\"OK\"))))"
+    },
+    {
+     "cell": "E51",
+     "formula": "=IF(NOT(ISNUMBER(D51)),\"\",IF($L$6=\"\",IF(D51<TODAY(),\"Expired\",\"OK\"),IF(D51<$L$6,\"Expires before you're home!\",IF(AND(ISNUMBER(SEARCH(\"passport\",B51)),D51<$L$6+182),\"Renew: under 6 months left\",\"OK\"))))"
+    },
+    {
+     "cell": "E52",
+     "formula": "=IF(NOT(ISNUMBER(D52)),\"\",IF($L$6=\"\",IF(D52<TODAY(),\"Expired\",\"OK\"),IF(D52<$L$6,\"Expires before you're home!\",IF(AND(ISNUMBER(SEARCH(\"passport\",B52)),D52<$L$6+182),\"Renew: under 6 months left\",\"OK\"))))"
+    },
+    {
+     "cell": "E53",
+     "formula": "=IF(NOT(ISNUMBER(D53)),\"\",IF($L$6=\"\",IF(D53<TODAY(),\"Expired\",\"OK\"),IF(D53<$L$6,\"Expires before you're home!\",IF(AND(ISNUMBER(SEARCH(\"passport\",B53)),D53<$L$6+182),\"Renew: under 6 months left\",\"OK\"))))"
+    },
+    {
+     "cell": "E54",
+     "formula": "=IF(NOT(ISNUMBER(D54)),\"\",IF($L$6=\"\",IF(D54<TODAY(),\"Expired\",\"OK\"),IF(D54<$L$6,\"Expires before you're home!\",IF(AND(ISNUMBER(SEARCH(\"passport\",B54)),D54<$L$6+182),\"Renew: under 6 months left\",\"OK\"))))"
+    },
+    {
+     "cell": "L5",
+     "formula": "=IF(AND(ISNUMBER(C6),N(C6)>=1),INT(C6),\"\")",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "L6",
+     "formula": "=IF(AND(ISNUMBER(C7),N(C7)>=1),INT(C7),\"\")",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "L7",
+     "formula": "=IF(OR(L5=\"\",L6=\"\"),0,IF(L6<L5,0,MIN(30,L6-L5+1)))"
+    },
+    {
+     "cell": "L8",
+     "formula": "=SUMPRODUCT(--(TRIM(B14:B19&\"\")<>\"\"))"
+    },
+    {
+     "cell": "L9",
+     "formula": "=UPPER(TRIM(C8&\"\"))"
+    },
+    {
+     "cell": "C9",
+     "formula": "=IF(L7=0,\"\",L7&\" days, \"&MAX(0,L7-1)&\" nights\")"
+    },
+    {
+     "cell": "B9",
+     "formula": "Trip length"
+    },
+    {
+     "cell": "F33",
+     "formula": "=SUM(F23:F32)",
+     "number_format": "0"
+    },
+    {
+     "cell": "E33",
+     "formula": "Total nights"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "C6",
+     "type": "formula",
+     "formula": [
+      "AND(C6<>\"\",OR(NOT(ISNUMBER(C6)),N(C6)<1))"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C7",
+     "type": "formula",
+     "formula": [
+      "AND(C7<>\"\",OR(NOT(ISNUMBER(C7)),N(C7)<1))"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C7",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER(C6),ISNUMBER(C7),C7<C6)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C9",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER(C6),ISNUMBER(C7),C7-C6+1>30)"
+     ],
+     "fill": "FFF1C2"
+    },
+    {
+     "range": "D23:E32",
+     "type": "formula",
+     "formula": [
+      "AND(D23<>\"\",OR(NOT(ISNUMBER(D23)),N(D23)<1))"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "E23:E32",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER(D23),ISNUMBER(E23),E23<D23)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C36:C43",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C36<>\"\",NOT(ISNUMBER(C36))),N(C36)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "D47:D54",
+     "type": "formula",
+     "formula": [
+      "AND(D47<>\"\",OR(NOT(ISNUMBER(D47)),N(D47)<1))"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "E47:E54",
+     "type": "formula",
+     "formula": [
+      "$E47=\"OK\""
+     ],
+     "fill": "DAEFDF"
+    },
+    {
+     "range": "E47:E54",
+     "type": "formula",
+     "formula": [
+      "AND($E47<>\"\",$E47<>\"OK\")"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B13:C13",
+     "color": "F2E6D0"
+    },
+    {
+     "range": "B22:G22",
+     "color": "F2E6D0"
+    },
+    {
+     "range": "B35:D35",
+     "color": "F2E6D0"
+    },
+    {
+     "range": "B46:E46",
+     "color": "F2E6D0"
+    },
+    {
+     "range": "F23:F33",
+     "color": "F5F8FA"
+    },
+    {
+     "range": "E47:E54",
+     "color": "F5F8FA"
+    },
+    {
+     "range": "C9",
+     "color": "F5F8FA"
+    }
+   ],
+   "borders": [
+    {
+     "range": "C5:C8",
+     "color": "D3DDE3",
+     "style": "medium"
+    },
+    {
+     "range": "B13:C19",
+     "color": "D3DDE3"
+    },
+    {
+     "range": "B22:G32",
+     "color": "D3DDE3"
+    },
+    {
+     "range": "B35:D43",
+     "color": "D3DDE3"
+    },
+    {
+     "range": "B46:E54",
+     "color": "D3DDE3"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "23394A"
+    },
+    {
+     "range": "B5:B9",
+     "bold": true,
+     "size": 10,
+     "color": "23394A"
+    },
+    {
+     "range": "D5:D8",
+     "italic": true,
+     "size": 9,
+     "color": "23394A"
+    },
+    {
+     "range": "C5:C9",
+     "bold": true,
+     "size": 11,
+     "color": "23394A",
+     "align": "center"
+    },
+    {
+     "range": "B13:C13",
+     "bold": true,
+     "size": 10,
+     "color": "23394A",
+     "align": "center"
+    },
+    {
+     "range": "B22:G22",
+     "bold": true,
+     "size": 10,
+     "color": "23394A",
+     "align": "center"
+    },
+    {
+     "range": "B35:D35",
+     "bold": true,
+     "size": 10,
+     "color": "23394A",
+     "align": "center"
+    },
+    {
+     "range": "B46:E46",
+     "bold": true,
+     "size": 10,
+     "color": "23394A",
+     "align": "center"
+    },
+    {
+     "range": "D23:F33",
+     "size": 10,
+     "color": "23394A",
+     "align": "center"
+    },
+    {
+     "range": "B36:C43",
+     "size": 10,
+     "color": "23394A",
+     "align": "center"
+    },
+    {
+     "range": "D47:E54",
+     "size": 10,
+     "color": "23394A",
+     "align": "center"
+    },
+    {
+     "range": "E33:F33",
+     "bold": true,
+     "size": 10,
+     "color": "23394A"
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "D23:E32",
+     "format": "mmm d, yyyy"
+    },
+    {
+     "range": "C36:C43",
+     "format": "0.0000"
+    },
+    {
+     "range": "D47:D54",
+     "format": "mmm d, yyyy"
+    }
+   ]
+  },
+  {
+   "name": "Itinerary",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "E28A6B",
+   "grid_rows": 41,
+   "grid_cols": 11,
+   "row_height": 34,
+   "freeze": "A8",
+   "column_widths": {
+    "A": 2.5,
+    "B": 6,
+    "C": 12,
+    "D": 14,
+    "E": 28,
+    "F": 28,
+    "G": 28,
+    "H": 12,
+    "I": 12,
+    "J": 24
+   },
+   "section_bars": [
+    {
+     "range": "B2:J2",
+     "label": "=UPPER(IF(TRIM('Trip Details'!C5&\"\")=\"\",\"ITINERARY\",'Trip Details'!C5&\"  -  ITINERARY\"))",
+     "size": 16,
+     "color": "2B6F8E",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "One row per day. Date and city fill in from Trip Details; Spent comes from Expenses."
+    },
+    {
+     "cell": "B7",
+     "formula": "Day"
+    },
+    {
+     "cell": "C7",
+     "formula": "Date"
+    },
+    {
+     "cell": "D7",
+     "formula": "City"
+    },
+    {
+     "cell": "E7",
+     "formula": "Morning"
+    },
+    {
+     "cell": "F7",
+     "formula": "Afternoon"
+    },
+    {
+     "cell": "G7",
+     "formula": "Evening"
+    },
+    {
+     "cell": "H7",
+     "formula": "Planned Cost"
+    },
+    {
+     "cell": "I7",
+     "formula": "Spent"
+    },
+    {
+     "cell": "J7",
+     "formula": "Notes"
+    },
+    {
+     "cell": "B8",
+     "formula": "=IF(1<='Trip Details'!$L$7,1,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C8",
+     "formula": "=IF(B8=\"\",\"\",'Trip Details'!$L$5+0)",
+     "number_format": "ddd, mmm d"
+    },
+    {
+     "cell": "D8",
+     "formula": "=IF(B8=\"\",\"\",IFERROR(INDEX('Trip Details'!$B$23:$B$32,MATCH(C8,'Trip Details'!$D$23:$D$32,1))&\"\",\"\"))"
+    },
+    {
+     "cell": "I8",
+     "formula": "=IF(B8=\"\",\"\",ROUND(SUMIFS(Expenses!$I$8:$I$407,Expenses!$B$8:$B$407,C8),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "E8",
+     "formula": "Arrive, check in"
+    },
+    {
+     "cell": "F8",
+     "formula": "Walk to the Pantheon"
+    },
+    {
+     "cell": "G8",
+     "formula": "Dinner in Trastevere"
+    },
+    {
+     "cell": "H8",
+     "formula": 60
+    },
+    {
+     "cell": "B9",
+     "formula": "=IF(2<='Trip Details'!$L$7,2,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C9",
+     "formula": "=IF(B9=\"\",\"\",'Trip Details'!$L$5+1)",
+     "number_format": "ddd, mmm d"
+    },
+    {
+     "cell": "D9",
+     "formula": "=IF(B9=\"\",\"\",IFERROR(INDEX('Trip Details'!$B$23:$B$32,MATCH(C9,'Trip Details'!$D$23:$D$32,1))&\"\",\"\"))"
+    },
+    {
+     "cell": "I9",
+     "formula": "=IF(B9=\"\",\"\",ROUND(SUMIFS(Expenses!$I$8:$I$407,Expenses!$B$8:$B$407,C9),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "E9",
+     "formula": "Colosseum & Forum tour"
+    },
+    {
+     "cell": "F9",
+     "formula": "Palatine Hill"
+    },
+    {
+     "cell": "G9",
+     "formula": "Gelato + Spanish Steps"
+    },
+    {
+     "cell": "H9",
+     "formula": 120
+    },
+    {
+     "cell": "B10",
+     "formula": "=IF(3<='Trip Details'!$L$7,3,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C10",
+     "formula": "=IF(B10=\"\",\"\",'Trip Details'!$L$5+2)",
+     "number_format": "ddd, mmm d"
+    },
+    {
+     "cell": "D10",
+     "formula": "=IF(B10=\"\",\"\",IFERROR(INDEX('Trip Details'!$B$23:$B$32,MATCH(C10,'Trip Details'!$D$23:$D$32,1))&\"\",\"\"))"
+    },
+    {
+     "cell": "I10",
+     "formula": "=IF(B10=\"\",\"\",ROUND(SUMIFS(Expenses!$I$8:$I$407,Expenses!$B$8:$B$407,C10),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "E10",
+     "formula": "Vatican Museums"
+    },
+    {
+     "cell": "F10",
+     "formula": "St. Peter's Basilica"
+    },
+    {
+     "cell": "G10",
+     "formula": "Cooking class"
+    },
+    {
+     "cell": "H10",
+     "formula": 210
+    },
+    {
+     "cell": "B11",
+     "formula": "=IF(4<='Trip Details'!$L$7,4,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C11",
+     "formula": "=IF(B11=\"\",\"\",'Trip Details'!$L$5+3)",
+     "number_format": "ddd, mmm d"
+    },
+    {
+     "cell": "D11",
+     "formula": "=IF(B11=\"\",\"\",IFERROR(INDEX('Trip Details'!$B$23:$B$32,MATCH(C11,'Trip Details'!$D$23:$D$32,1))&\"\",\"\"))"
+    },
+    {
+     "cell": "I11",
+     "formula": "=IF(B11=\"\",\"\",ROUND(SUMIFS(Expenses!$I$8:$I$407,Expenses!$B$8:$B$407,C11),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "E11",
+     "formula": "Train to Florence"
+    },
+    {
+     "cell": "F11",
+     "formula": "Duomo climb"
+    },
+    {
+     "cell": "G11",
+     "formula": "Sunset at Piazzale Michelangelo"
+    },
+    {
+     "cell": "H11",
+     "formula": 70
+    },
+    {
+     "cell": "B12",
+     "formula": "=IF(5<='Trip Details'!$L$7,5,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C12",
+     "formula": "=IF(B12=\"\",\"\",'Trip Details'!$L$5+4)",
+     "number_format": "ddd, mmm d"
+    },
+    {
+     "cell": "D12",
+     "formula": "=IF(B12=\"\",\"\",IFERROR(INDEX('Trip Details'!$B$23:$B$32,MATCH(C12,'Trip Details'!$D$23:$D$32,1))&\"\",\"\"))"
+    },
+    {
+     "cell": "I12",
+     "formula": "=IF(B12=\"\",\"\",ROUND(SUMIFS(Expenses!$I$8:$I$407,Expenses!$B$8:$B$407,C12),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "E12",
+     "formula": "Uffizi Gallery"
+    },
+    {
+     "cell": "F12",
+     "formula": "Ponte Vecchio shopping"
+    },
+    {
+     "cell": "G12",
+     "formula": "Steak dinner"
+    },
+    {
+     "cell": "H12",
+     "formula": 150
+    },
+    {
+     "cell": "B13",
+     "formula": "=IF(6<='Trip Details'!$L$7,6,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C13",
+     "formula": "=IF(B13=\"\",\"\",'Trip Details'!$L$5+5)",
+     "number_format": "ddd, mmm d"
+    },
+    {
+     "cell": "D13",
+     "formula": "=IF(B13=\"\",\"\",IFERROR(INDEX('Trip Details'!$B$23:$B$32,MATCH(C13,'Trip Details'!$D$23:$D$32,1))&\"\",\"\"))"
+    },
+    {
+     "cell": "I13",
+     "formula": "=IF(B13=\"\",\"\",ROUND(SUMIFS(Expenses!$I$8:$I$407,Expenses!$B$8:$B$407,C13),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "E13",
+     "formula": "Day trip: Chianti wine tour"
+    },
+    {
+     "cell": "G13",
+     "formula": "Rest"
+    },
+    {
+     "cell": "H13",
+     "formula": 190
+    },
+    {
+     "cell": "B14",
+     "formula": "=IF(7<='Trip Details'!$L$7,7,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C14",
+     "formula": "=IF(B14=\"\",\"\",'Trip Details'!$L$5+6)",
+     "number_format": "ddd, mmm d"
+    },
+    {
+     "cell": "D14",
+     "formula": "=IF(B14=\"\",\"\",IFERROR(INDEX('Trip Details'!$B$23:$B$32,MATCH(C14,'Trip Details'!$D$23:$D$32,1))&\"\",\"\"))"
+    },
+    {
+     "cell": "I14",
+     "formula": "=IF(B14=\"\",\"\",ROUND(SUMIFS(Expenses!$I$8:$I$407,Expenses!$B$8:$B$407,C14),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "E14",
+     "formula": "Train to Venice"
+    },
+    {
+     "cell": "F14",
+     "formula": "Grand Canal by vaporetto"
+    },
+    {
+     "cell": "G14",
+     "formula": "Cicchetti crawl"
+    },
+    {
+     "cell": "H14",
+     "formula": 80
+    },
+    {
+     "cell": "B15",
+     "formula": "=IF(8<='Trip Details'!$L$7,8,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C15",
+     "formula": "=IF(B15=\"\",\"\",'Trip Details'!$L$5+7)",
+     "number_format": "ddd, mmm d"
+    },
+    {
+     "cell": "D15",
+     "formula": "=IF(B15=\"\",\"\",IFERROR(INDEX('Trip Details'!$B$23:$B$32,MATCH(C15,'Trip Details'!$D$23:$D$32,1))&\"\",\"\"))"
+    },
+    {
+     "cell": "I15",
+     "formula": "=IF(B15=\"\",\"\",ROUND(SUMIFS(Expenses!$I$8:$I$407,Expenses!$B$8:$B$407,C15),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "E15",
+     "formula": "St. Mark's & Doge's Palace"
+    },
+    {
+     "cell": "F15",
+     "formula": "Gondola ride"
+    },
+    {
+     "cell": "G15",
+     "formula": "Dinner by the canal"
+    },
+    {
+     "cell": "H15",
+     "formula": 230
+    },
+    {
+     "cell": "B16",
+     "formula": "=IF(9<='Trip Details'!$L$7,9,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C16",
+     "formula": "=IF(B16=\"\",\"\",'Trip Details'!$L$5+8)",
+     "number_format": "ddd, mmm d"
+    },
+    {
+     "cell": "D16",
+     "formula": "=IF(B16=\"\",\"\",IFERROR(INDEX('Trip Details'!$B$23:$B$32,MATCH(C16,'Trip Details'!$D$23:$D$32,1))&\"\",\"\"))"
+    },
+    {
+     "cell": "I16",
+     "formula": "=IF(B16=\"\",\"\",ROUND(SUMIFS(Expenses!$I$8:$I$407,Expenses!$B$8:$B$407,C16),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "E16",
+     "formula": "Murano & Burano islands"
+    },
+    {
+     "cell": "G16",
+     "formula": "Farewell dinner"
+    },
+    {
+     "cell": "H16",
+     "formula": 120
+    },
+    {
+     "cell": "B17",
+     "formula": "=IF(10<='Trip Details'!$L$7,10,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C17",
+     "formula": "=IF(B17=\"\",\"\",'Trip Details'!$L$5+9)",
+     "number_format": "ddd, mmm d"
+    },
+    {
+     "cell": "D17",
+     "formula": "=IF(B17=\"\",\"\",IFERROR(INDEX('Trip Details'!$B$23:$B$32,MATCH(C17,'Trip Details'!$D$23:$D$32,1))&\"\",\"\"))"
+    },
+    {
+     "cell": "I17",
+     "formula": "=IF(B17=\"\",\"\",ROUND(SUMIFS(Expenses!$I$8:$I$407,Expenses!$B$8:$B$407,C17),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "E17",
+     "formula": "Pack, airport"
+    },
+    {
+     "cell": "H17",
+     "formula": 40
+    },
+    {
+     "cell": "B18",
+     "formula": "=IF(11<='Trip Details'!$L$7,11,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C18",
+     "formula": "=IF(B18=\"\",\"\",'Trip Details'!$L$5+10)",
+     "number_format": "ddd, mmm d"
+    },
+    {
+     "cell": "D18",
+     "formula": "=IF(B18=\"\",\"\",IFERROR(INDEX('Trip Details'!$B$23:$B$32,MATCH(C18,'Trip Details'!$D$23:$D$32,1))&\"\",\"\"))"
+    },
+    {
+     "cell": "I18",
+     "formula": "=IF(B18=\"\",\"\",ROUND(SUMIFS(Expenses!$I$8:$I$407,Expenses!$B$8:$B$407,C18),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "B19",
+     "formula": "=IF(12<='Trip Details'!$L$7,12,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C19",
+     "formula": "=IF(B19=\"\",\"\",'Trip Details'!$L$5+11)",
+     "number_format": "ddd, mmm d"
+    },
+    {
+     "cell": "D19",
+     "formula": "=IF(B19=\"\",\"\",IFERROR(INDEX('Trip Details'!$B$23:$B$32,MATCH(C19,'Trip Details'!$D$23:$D$32,1))&\"\",\"\"))"
+    },
+    {
+     "cell": "I19",
+     "formula": "=IF(B19=\"\",\"\",ROUND(SUMIFS(Expenses!$I$8:$I$407,Expenses!$B$8:$B$407,C19),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "B20",
+     "formula": "=IF(13<='Trip Details'!$L$7,13,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C20",
+     "formula": "=IF(B20=\"\",\"\",'Trip Details'!$L$5+12)",
+     "number_format": "ddd, mmm d"
+    },
+    {
+     "cell": "D20",
+     "formula": "=IF(B20=\"\",\"\",IFERROR(INDEX('Trip Details'!$B$23:$B$32,MATCH(C20,'Trip Details'!$D$23:$D$32,1))&\"\",\"\"))"
+    },
+    {
+     "cell": "I20",
+     "formula": "=IF(B20=\"\",\"\",ROUND(SUMIFS(Expenses!$I$8:$I$407,Expenses!$B$8:$B$407,C20),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "B21",
+     "formula": "=IF(14<='Trip Details'!$L$7,14,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C21",
+     "formula": "=IF(B21=\"\",\"\",'Trip Details'!$L$5+13)",
+     "number_format": "ddd, mmm d"
+    },
+    {
+     "cell": "D21",
+     "formula": "=IF(B21=\"\",\"\",IFERROR(INDEX('Trip Details'!$B$23:$B$32,MATCH(C21,'Trip Details'!$D$23:$D$32,1))&\"\",\"\"))"
+    },
+    {
+     "cell": "I21",
+     "formula": "=IF(B21=\"\",\"\",ROUND(SUMIFS(Expenses!$I$8:$I$407,Expenses!$B$8:$B$407,C21),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "B22",
+     "formula": "=IF(15<='Trip Details'!$L$7,15,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C22",
+     "formula": "=IF(B22=\"\",\"\",'Trip Details'!$L$5+14)",
+     "number_format": "ddd, mmm d"
+    },
+    {
+     "cell": "D22",
+     "formula": "=IF(B22=\"\",\"\",IFERROR(INDEX('Trip Details'!$B$23:$B$32,MATCH(C22,'Trip Details'!$D$23:$D$32,1))&\"\",\"\"))"
+    },
+    {
+     "cell": "I22",
+     "formula": "=IF(B22=\"\",\"\",ROUND(SUMIFS(Expenses!$I$8:$I$407,Expenses!$B$8:$B$407,C22),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "B23",
+     "formula": "=IF(16<='Trip Details'!$L$7,16,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C23",
+     "formula": "=IF(B23=\"\",\"\",'Trip Details'!$L$5+15)",
+     "number_format": "ddd, mmm d"
+    },
+    {
+     "cell": "D23",
+     "formula": "=IF(B23=\"\",\"\",IFERROR(INDEX('Trip Details'!$B$23:$B$32,MATCH(C23,'Trip Details'!$D$23:$D$32,1))&\"\",\"\"))"
+    },
+    {
+     "cell": "I23",
+     "formula": "=IF(B23=\"\",\"\",ROUND(SUMIFS(Expenses!$I$8:$I$407,Expenses!$B$8:$B$407,C23),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "B24",
+     "formula": "=IF(17<='Trip Details'!$L$7,17,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C24",
+     "formula": "=IF(B24=\"\",\"\",'Trip Details'!$L$5+16)",
+     "number_format": "ddd, mmm d"
+    },
+    {
+     "cell": "D24",
+     "formula": "=IF(B24=\"\",\"\",IFERROR(INDEX('Trip Details'!$B$23:$B$32,MATCH(C24,'Trip Details'!$D$23:$D$32,1))&\"\",\"\"))"
+    },
+    {
+     "cell": "I24",
+     "formula": "=IF(B24=\"\",\"\",ROUND(SUMIFS(Expenses!$I$8:$I$407,Expenses!$B$8:$B$407,C24),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "B25",
+     "formula": "=IF(18<='Trip Details'!$L$7,18,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C25",
+     "formula": "=IF(B25=\"\",\"\",'Trip Details'!$L$5+17)",
+     "number_format": "ddd, mmm d"
+    },
+    {
+     "cell": "D25",
+     "formula": "=IF(B25=\"\",\"\",IFERROR(INDEX('Trip Details'!$B$23:$B$32,MATCH(C25,'Trip Details'!$D$23:$D$32,1))&\"\",\"\"))"
+    },
+    {
+     "cell": "I25",
+     "formula": "=IF(B25=\"\",\"\",ROUND(SUMIFS(Expenses!$I$8:$I$407,Expenses!$B$8:$B$407,C25),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "B26",
+     "formula": "=IF(19<='Trip Details'!$L$7,19,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C26",
+     "formula": "=IF(B26=\"\",\"\",'Trip Details'!$L$5+18)",
+     "number_format": "ddd, mmm d"
+    },
+    {
+     "cell": "D26",
+     "formula": "=IF(B26=\"\",\"\",IFERROR(INDEX('Trip Details'!$B$23:$B$32,MATCH(C26,'Trip Details'!$D$23:$D$32,1))&\"\",\"\"))"
+    },
+    {
+     "cell": "I26",
+     "formula": "=IF(B26=\"\",\"\",ROUND(SUMIFS(Expenses!$I$8:$I$407,Expenses!$B$8:$B$407,C26),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "B27",
+     "formula": "=IF(20<='Trip Details'!$L$7,20,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C27",
+     "formula": "=IF(B27=\"\",\"\",'Trip Details'!$L$5+19)",
+     "number_format": "ddd, mmm d"
+    },
+    {
+     "cell": "D27",
+     "formula": "=IF(B27=\"\",\"\",IFERROR(INDEX('Trip Details'!$B$23:$B$32,MATCH(C27,'Trip Details'!$D$23:$D$32,1))&\"\",\"\"))"
+    },
+    {
+     "cell": "I27",
+     "formula": "=IF(B27=\"\",\"\",ROUND(SUMIFS(Expenses!$I$8:$I$407,Expenses!$B$8:$B$407,C27),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "B28",
+     "formula": "=IF(21<='Trip Details'!$L$7,21,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C28",
+     "formula": "=IF(B28=\"\",\"\",'Trip Details'!$L$5+20)",
+     "number_format": "ddd, mmm d"
+    },
+    {
+     "cell": "D28",
+     "formula": "=IF(B28=\"\",\"\",IFERROR(INDEX('Trip Details'!$B$23:$B$32,MATCH(C28,'Trip Details'!$D$23:$D$32,1))&\"\",\"\"))"
+    },
+    {
+     "cell": "I28",
+     "formula": "=IF(B28=\"\",\"\",ROUND(SUMIFS(Expenses!$I$8:$I$407,Expenses!$B$8:$B$407,C28),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "B29",
+     "formula": "=IF(22<='Trip Details'!$L$7,22,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C29",
+     "formula": "=IF(B29=\"\",\"\",'Trip Details'!$L$5+21)",
+     "number_format": "ddd, mmm d"
+    },
+    {
+     "cell": "D29",
+     "formula": "=IF(B29=\"\",\"\",IFERROR(INDEX('Trip Details'!$B$23:$B$32,MATCH(C29,'Trip Details'!$D$23:$D$32,1))&\"\",\"\"))"
+    },
+    {
+     "cell": "I29",
+     "formula": "=IF(B29=\"\",\"\",ROUND(SUMIFS(Expenses!$I$8:$I$407,Expenses!$B$8:$B$407,C29),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "B30",
+     "formula": "=IF(23<='Trip Details'!$L$7,23,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C30",
+     "formula": "=IF(B30=\"\",\"\",'Trip Details'!$L$5+22)",
+     "number_format": "ddd, mmm d"
+    },
+    {
+     "cell": "D30",
+     "formula": "=IF(B30=\"\",\"\",IFERROR(INDEX('Trip Details'!$B$23:$B$32,MATCH(C30,'Trip Details'!$D$23:$D$32,1))&\"\",\"\"))"
+    },
+    {
+     "cell": "I30",
+     "formula": "=IF(B30=\"\",\"\",ROUND(SUMIFS(Expenses!$I$8:$I$407,Expenses!$B$8:$B$407,C30),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "B31",
+     "formula": "=IF(24<='Trip Details'!$L$7,24,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C31",
+     "formula": "=IF(B31=\"\",\"\",'Trip Details'!$L$5+23)",
+     "number_format": "ddd, mmm d"
+    },
+    {
+     "cell": "D31",
+     "formula": "=IF(B31=\"\",\"\",IFERROR(INDEX('Trip Details'!$B$23:$B$32,MATCH(C31,'Trip Details'!$D$23:$D$32,1))&\"\",\"\"))"
+    },
+    {
+     "cell": "I31",
+     "formula": "=IF(B31=\"\",\"\",ROUND(SUMIFS(Expenses!$I$8:$I$407,Expenses!$B$8:$B$407,C31),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "B32",
+     "formula": "=IF(25<='Trip Details'!$L$7,25,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C32",
+     "formula": "=IF(B32=\"\",\"\",'Trip Details'!$L$5+24)",
+     "number_format": "ddd, mmm d"
+    },
+    {
+     "cell": "D32",
+     "formula": "=IF(B32=\"\",\"\",IFERROR(INDEX('Trip Details'!$B$23:$B$32,MATCH(C32,'Trip Details'!$D$23:$D$32,1))&\"\",\"\"))"
+    },
+    {
+     "cell": "I32",
+     "formula": "=IF(B32=\"\",\"\",ROUND(SUMIFS(Expenses!$I$8:$I$407,Expenses!$B$8:$B$407,C32),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "B33",
+     "formula": "=IF(26<='Trip Details'!$L$7,26,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C33",
+     "formula": "=IF(B33=\"\",\"\",'Trip Details'!$L$5+25)",
+     "number_format": "ddd, mmm d"
+    },
+    {
+     "cell": "D33",
+     "formula": "=IF(B33=\"\",\"\",IFERROR(INDEX('Trip Details'!$B$23:$B$32,MATCH(C33,'Trip Details'!$D$23:$D$32,1))&\"\",\"\"))"
+    },
+    {
+     "cell": "I33",
+     "formula": "=IF(B33=\"\",\"\",ROUND(SUMIFS(Expenses!$I$8:$I$407,Expenses!$B$8:$B$407,C33),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "B34",
+     "formula": "=IF(27<='Trip Details'!$L$7,27,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C34",
+     "formula": "=IF(B34=\"\",\"\",'Trip Details'!$L$5+26)",
+     "number_format": "ddd, mmm d"
+    },
+    {
+     "cell": "D34",
+     "formula": "=IF(B34=\"\",\"\",IFERROR(INDEX('Trip Details'!$B$23:$B$32,MATCH(C34,'Trip Details'!$D$23:$D$32,1))&\"\",\"\"))"
+    },
+    {
+     "cell": "I34",
+     "formula": "=IF(B34=\"\",\"\",ROUND(SUMIFS(Expenses!$I$8:$I$407,Expenses!$B$8:$B$407,C34),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "B35",
+     "formula": "=IF(28<='Trip Details'!$L$7,28,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C35",
+     "formula": "=IF(B35=\"\",\"\",'Trip Details'!$L$5+27)",
+     "number_format": "ddd, mmm d"
+    },
+    {
+     "cell": "D35",
+     "formula": "=IF(B35=\"\",\"\",IFERROR(INDEX('Trip Details'!$B$23:$B$32,MATCH(C35,'Trip Details'!$D$23:$D$32,1))&\"\",\"\"))"
+    },
+    {
+     "cell": "I35",
+     "formula": "=IF(B35=\"\",\"\",ROUND(SUMIFS(Expenses!$I$8:$I$407,Expenses!$B$8:$B$407,C35),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "B36",
+     "formula": "=IF(29<='Trip Details'!$L$7,29,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C36",
+     "formula": "=IF(B36=\"\",\"\",'Trip Details'!$L$5+28)",
+     "number_format": "ddd, mmm d"
+    },
+    {
+     "cell": "D36",
+     "formula": "=IF(B36=\"\",\"\",IFERROR(INDEX('Trip Details'!$B$23:$B$32,MATCH(C36,'Trip Details'!$D$23:$D$32,1))&\"\",\"\"))"
+    },
+    {
+     "cell": "I36",
+     "formula": "=IF(B36=\"\",\"\",ROUND(SUMIFS(Expenses!$I$8:$I$407,Expenses!$B$8:$B$407,C36),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "B37",
+     "formula": "=IF(30<='Trip Details'!$L$7,30,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C37",
+     "formula": "=IF(B37=\"\",\"\",'Trip Details'!$L$5+29)",
+     "number_format": "ddd, mmm d"
+    },
+    {
+     "cell": "D37",
+     "formula": "=IF(B37=\"\",\"\",IFERROR(INDEX('Trip Details'!$B$23:$B$32,MATCH(C37,'Trip Details'!$D$23:$D$32,1))&\"\",\"\"))"
+    },
+    {
+     "cell": "I37",
+     "formula": "=IF(B37=\"\",\"\",ROUND(SUMIFS(Expenses!$I$8:$I$407,Expenses!$B$8:$B$407,C37),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "B38",
+     "formula": "TOTAL"
+    },
+    {
+     "cell": "H38",
+     "formula": "=ROUND(SUM(H8:H37),2)",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "I38",
+     "formula": "=ROUND(SUM(I8:I37),2)",
+     "number_format": "#,##0.00"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "H8:H37",
+     "type": "formula",
+     "formula": [
+      "OR(AND(H8<>\"\",NOT(ISNUMBER(H8))),N(H8)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "B8:J37",
+     "type": "formula",
+     "formula": [
+      "AND($C8<>\"\",$C8=TODAY())"
+     ],
+     "fill": "FFF1C2"
+    },
+    {
+     "range": "I8:I37",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER(I8),ISNUMBER(H8),I8>H8)"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B7:J7",
+     "color": "F2E6D0"
+    },
+    {
+     "range": "B8:D37",
+     "color": "F5F8FA"
+    },
+    {
+     "range": "I8:I37",
+     "color": "F5F8FA"
+    },
+    {
+     "range": "B38:J38",
+     "color": "F2E6D0"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B7:J38",
+     "color": "D3DDE3"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "23394A"
+    },
+    {
+     "range": "B7:J7",
+     "bold": true,
+     "size": 10,
+     "color": "23394A",
+     "align": "center"
+    },
+    {
+     "range": "B8:D37",
+     "bold": true,
+     "size": 10,
+     "color": "1F5068",
+     "align": "center"
+    },
+    {
+     "range": "E8:G37",
+     "size": 10,
+     "color": "23394A",
+     "wrap": true,
+     "valign": "middle"
+    },
+    {
+     "range": "H8:I38",
+     "size": 10,
+     "color": "23394A",
+     "align": "center"
+    },
+    {
+     "range": "B38:J38",
+     "bold": true,
+     "size": 10,
+     "color": "23394A"
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "H8:H37",
+     "format": "#,##0.00"
+    }
+   ]
+  },
+  {
+   "name": "Bookings",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "2B6F8E",
+   "grid_rows": 60,
+   "grid_cols": 26,
+   "row_height": 20,
+   "freeze": "C8",
+   "column_widths": {
+    "A": 2.5,
+    "B": 11,
+    "C": 20,
+    "D": 24,
+    "E": 12,
+    "F": 8,
+    "G": 15,
+    "H": 18,
+    "I": 11,
+    "J": 9,
+    "K": 12,
+    "L": 10,
+    "M": 10,
+    "N": 7,
+    "O": 9
+   },
+   "hidden_columns": [
+    "Q",
+    "R",
+    "S",
+    "T",
+    "U",
+    "V",
+    "W",
+    "X"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:O2",
+     "label": "BOOKINGS",
+     "size": 16,
+     "color": "2B6F8E",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "kpi_cards": [
+    {
+     "anchor": "B4",
+     "span": [
+      2,
+      2
+     ],
+     "label": "BOOKED",
+     "value": "=ROUND(SUM(K8:K57),2)",
+     "fill": "2B6F8E",
+     "font_color": "FFFFFF",
+     "value_size": 13,
+     "number_format": "#,##0.00"
+    },
+    {
+     "anchor": "D4",
+     "span": [
+      2,
+      2
+     ],
+     "label": "PAID",
+     "value": "=ROUND(SUMIFS(K8:K57,O8:O57,\"Paid\"),2)",
+     "fill": "D6E9F2",
+     "font_color": "23394A",
+     "value_size": 13,
+     "number_format": "#,##0.00"
+    },
+    {
+     "anchor": "F4",
+     "span": [
+      2,
+      2
+     ],
+     "label": "STILL TO PAY",
+     "value": "=ROUND(SUMIFS(K8:K57,O8:O57,\"To pay\"),2)",
+     "fill": "F2E6D0",
+     "font_color": "23394A",
+     "value_size": 13,
+     "number_format": "#,##0.00"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Every reservation in one place. Cost converts to your home currency. Tick Paid once it's paid."
+    },
+    {
+     "cell": "B7",
+     "formula": "Type"
+    },
+    {
+     "cell": "C7",
+     "formula": "Company / Place"
+    },
+    {
+     "cell": "D7",
+     "formula": "Details"
+    },
+    {
+     "cell": "E7",
+     "formula": "Date"
+    },
+    {
+     "cell": "F7",
+     "formula": "Time"
+    },
+    {
+     "cell": "G7",
+     "formula": "Confirmation #"
+    },
+    {
+     "cell": "H7",
+     "formula": "Category"
+    },
+    {
+     "cell": "I7",
+     "formula": "Cost"
+    },
+    {
+     "cell": "J7",
+     "formula": "Currency"
+    },
+    {
+     "cell": "K7",
+     "formula": "Cost (Home)"
+    },
+    {
+     "cell": "L7",
+     "formula": "Paid By"
+    },
+    {
+     "cell": "M7",
+     "formula": "Split"
+    },
+    {
+     "cell": "N7",
+     "formula": "Paid"
+    },
+    {
+     "cell": "O7",
+     "formula": "Status"
+    },
+    {
+     "cell": "B8",
+     "formula": "Flight"
+    },
+    {
+     "cell": "C8",
+     "formula": "SkyAir"
+    },
+    {
+     "cell": "D8",
+     "formula": "JFK -> FCO, flight 214"
+    },
+    {
+     "cell": "E8",
+     "formula": "=DATE(2027,5,13)"
+    },
+    {
+     "cell": "F8",
+     "formula": "18:40"
+    },
+    {
+     "cell": "G8",
+     "formula": "SKY8XQ"
+    },
+    {
+     "cell": "H8",
+     "formula": "Flights"
+    },
+    {
+     "cell": "I8",
+     "formula": 1640
+    },
+    {
+     "cell": "J8",
+     "formula": "USD"
+    },
+    {
+     "cell": "L8",
+     "formula": "Sam"
+    },
+    {
+     "cell": "M8",
+     "formula": "Everyone"
+    },
+    {
+     "cell": "N8",
+     "formula": true
+    },
+    {
+     "cell": "B9",
+     "formula": "Hotel"
+    },
+    {
+     "cell": "C9",
+     "formula": "Hotel Artemide"
+    },
+    {
+     "cell": "D9",
+     "formula": "3 nights, Rome"
+    },
+    {
+     "cell": "E9",
+     "formula": "=DATE(2027,5,14)"
+    },
+    {
+     "cell": "F9",
+     "formula": "15:00"
+    },
+    {
+     "cell": "G9",
+     "formula": "ART-55102"
+    },
+    {
+     "cell": "H9",
+     "formula": "Lodging"
+    },
+    {
+     "cell": "I9",
+     "formula": 690
+    },
+    {
+     "cell": "J9",
+     "formula": "EUR"
+    },
+    {
+     "cell": "L9",
+     "formula": "Alex"
+    },
+    {
+     "cell": "M9",
+     "formula": "Everyone"
+    },
+    {
+     "cell": "N9",
+     "formula": true
+    },
+    {
+     "cell": "B10",
+     "formula": "Train"
+    },
+    {
+     "cell": "C10",
+     "formula": "Italo"
+    },
+    {
+     "cell": "D10",
+     "formula": "Rome -> Florence"
+    },
+    {
+     "cell": "E10",
+     "formula": "=DATE(2027,5,17)"
+    },
+    {
+     "cell": "F10",
+     "formula": "09:15"
+    },
+    {
+     "cell": "G10",
+     "formula": "IT77KD2"
+    },
+    {
+     "cell": "H10",
+     "formula": "Local Transport"
+    },
+    {
+     "cell": "I10",
+     "formula": 78
+    },
+    {
+     "cell": "J10",
+     "formula": "EUR"
+    },
+    {
+     "cell": "L10",
+     "formula": "Sam"
+    },
+    {
+     "cell": "M10",
+     "formula": "Everyone"
+    },
+    {
+     "cell": "N10",
+     "formula": true
+    },
+    {
+     "cell": "B11",
+     "formula": "Hotel"
+    },
+    {
+     "cell": "C11",
+     "formula": "Casa Fiorentina"
+    },
+    {
+     "cell": "D11",
+     "formula": "3 nights, Florence"
+    },
+    {
+     "cell": "E11",
+     "formula": "=DATE(2027,5,17)"
+    },
+    {
+     "cell": "F11",
+     "formula": "14:00"
+    },
+    {
+     "cell": "G11",
+     "formula": "CF-2209"
+    },
+    {
+     "cell": "H11",
+     "formula": "Lodging"
+    },
+    {
+     "cell": "I11",
+     "formula": 585
+    },
+    {
+     "cell": "J11",
+     "formula": "EUR"
+    },
+    {
+     "cell": "L11",
+     "formula": "Sam"
+    },
+    {
+     "cell": "M11",
+     "formula": "Everyone"
+    },
+    {
+     "cell": "B12",
+     "formula": "Tour"
+    },
+    {
+     "cell": "C12",
+     "formula": "Chianti Wine Tours"
+    },
+    {
+     "cell": "D12",
+     "formula": "Full day, 2 people"
+    },
+    {
+     "cell": "E12",
+     "formula": "=DATE(2027,5,19)"
+    },
+    {
+     "cell": "F12",
+     "formula": "08:30"
+    },
+    {
+     "cell": "G12",
+     "formula": "CWT-118"
+    },
+    {
+     "cell": "H12",
+     "formula": "Activities & Tours"
+    },
+    {
+     "cell": "I12",
+     "formula": 240
+    },
+    {
+     "cell": "J12",
+     "formula": "EUR"
+    },
+    {
+     "cell": "L12",
+     "formula": "Alex"
+    },
+    {
+     "cell": "M12",
+     "formula": "Everyone"
+    },
+    {
+     "cell": "N12",
+     "formula": true
+    },
+    {
+     "cell": "B13",
+     "formula": "Train"
+    },
+    {
+     "cell": "C13",
+     "formula": "Trenitalia"
+    },
+    {
+     "cell": "D13",
+     "formula": "Florence -> Venice"
+    },
+    {
+     "cell": "E13",
+     "formula": "=DATE(2027,5,20)"
+    },
+    {
+     "cell": "F13",
+     "formula": "10:05"
+    },
+    {
+     "cell": "G13",
+     "formula": "TR5521"
+    },
+    {
+     "cell": "H13",
+     "formula": "Local Transport"
+    },
+    {
+     "cell": "I13",
+     "formula": 66
+    },
+    {
+     "cell": "J13",
+     "formula": "EUR"
+    },
+    {
+     "cell": "L13",
+     "formula": "Alex"
+    },
+    {
+     "cell": "M13",
+     "formula": "Everyone"
+    },
+    {
+     "cell": "B14",
+     "formula": "Hotel"
+    },
+    {
+     "cell": "C14",
+     "formula": "Ca' Venezia"
+    },
+    {
+     "cell": "D14",
+     "formula": "3 nights, Venice"
+    },
+    {
+     "cell": "E14",
+     "formula": "=DATE(2027,5,20)"
+    },
+    {
+     "cell": "F14",
+     "formula": "15:00"
+    },
+    {
+     "cell": "G14",
+     "formula": "CV-7781"
+    },
+    {
+     "cell": "H14",
+     "formula": "Lodging"
+    },
+    {
+     "cell": "I14",
+     "formula": 720
+    },
+    {
+     "cell": "J14",
+     "formula": "EUR"
+    },
+    {
+     "cell": "L14",
+     "formula": "Alex"
+    },
+    {
+     "cell": "M14",
+     "formula": "Everyone"
+    },
+    {
+     "cell": "B15",
+     "formula": "Insurance"
+    },
+    {
+     "cell": "C15",
+     "formula": "SafeTrip"
+    },
+    {
+     "cell": "D15",
+     "formula": "Two travelers"
+    },
+    {
+     "cell": "E15",
+     "formula": "=DATE(2027,5,1)"
+    },
+    {
+     "cell": "G15",
+     "formula": "ST-449201"
+    },
+    {
+     "cell": "H15",
+     "formula": "Insurance & Visas"
+    },
+    {
+     "cell": "I15",
+     "formula": 118
+    },
+    {
+     "cell": "J15",
+     "formula": "USD"
+    },
+    {
+     "cell": "L15",
+     "formula": "Sam"
+    },
+    {
+     "cell": "M15",
+     "formula": "Everyone"
+    },
+    {
+     "cell": "N15",
+     "formula": true
+    },
+    {
+     "col": "W",
+     "range_rows": [
+      8,
+      57
+     ],
+     "formula": "=IF(TRIM(J{row}&\"\")=\"\",1,IFERROR(INDEX('Trip Details'!$C$36:$C$43,MATCH(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(TRIM(J{row}&\"\"),\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"),'Trip Details'!$B$36:$B$43,0)),\"?\"))"
+    },
+    {
+     "col": "K",
+     "range_rows": [
+      8,
+      57
+     ],
+     "formula": "=IF(OR(NOT(ISNUMBER(I{row})),W{row}=\"?\"),\"\",ROUND(I{row}*W{row},2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "col": "O",
+     "range_rows": [
+      8,
+      57
+     ],
+     "formula": "=IF(AND(TRIM(B{row}&C{row}&\"\")=\"\",NOT(ISNUMBER(I{row}))),\"\",IF(N{row}=TRUE,\"Paid\",\"To pay\"))"
+    },
+    {
+     "col": "X",
+     "range_rows": [
+      8,
+      57
+     ],
+     "formula": "=IF(AND(ISNUMBER(E{row}),N(E{row})>=1),E{row}+ROW()/100000,\"\")"
+    },
+    {
+     "col": "Q",
+     "range_rows": [
+      8,
+      57
+     ],
+     "formula": "=IF(OR(K{row}=\"\",TRIM('Trip Details'!$B$14&\"\")=\"\"),0,IF(OR(TRIM(M{row}&\"\")=\"\",LOWER(TRIM(M{row}&\"\"))=\"everyone\"),ROUND(K{row}/MAX(1,'Trip Details'!$L$8),4),IF(LOWER(TRIM(M{row}&\"\"))=LOWER(TRIM('Trip Details'!$B$14&\"\")),K{row},0)))"
+    },
+    {
+     "col": "R",
+     "range_rows": [
+      8,
+      57
+     ],
+     "formula": "=IF(OR(K{row}=\"\",TRIM('Trip Details'!$B$15&\"\")=\"\"),0,IF(OR(TRIM(M{row}&\"\")=\"\",LOWER(TRIM(M{row}&\"\"))=\"everyone\"),ROUND(K{row}/MAX(1,'Trip Details'!$L$8),4),IF(LOWER(TRIM(M{row}&\"\"))=LOWER(TRIM('Trip Details'!$B$15&\"\")),K{row},0)))"
+    },
+    {
+     "col": "S",
+     "range_rows": [
+      8,
+      57
+     ],
+     "formula": "=IF(OR(K{row}=\"\",TRIM('Trip Details'!$B$16&\"\")=\"\"),0,IF(OR(TRIM(M{row}&\"\")=\"\",LOWER(TRIM(M{row}&\"\"))=\"everyone\"),ROUND(K{row}/MAX(1,'Trip Details'!$L$8),4),IF(LOWER(TRIM(M{row}&\"\"))=LOWER(TRIM('Trip Details'!$B$16&\"\")),K{row},0)))"
+    },
+    {
+     "col": "T",
+     "range_rows": [
+      8,
+      57
+     ],
+     "formula": "=IF(OR(K{row}=\"\",TRIM('Trip Details'!$B$17&\"\")=\"\"),0,IF(OR(TRIM(M{row}&\"\")=\"\",LOWER(TRIM(M{row}&\"\"))=\"everyone\"),ROUND(K{row}/MAX(1,'Trip Details'!$L$8),4),IF(LOWER(TRIM(M{row}&\"\"))=LOWER(TRIM('Trip Details'!$B$17&\"\")),K{row},0)))"
+    },
+    {
+     "col": "U",
+     "range_rows": [
+      8,
+      57
+     ],
+     "formula": "=IF(OR(K{row}=\"\",TRIM('Trip Details'!$B$18&\"\")=\"\"),0,IF(OR(TRIM(M{row}&\"\")=\"\",LOWER(TRIM(M{row}&\"\"))=\"everyone\"),ROUND(K{row}/MAX(1,'Trip Details'!$L$8),4),IF(LOWER(TRIM(M{row}&\"\"))=LOWER(TRIM('Trip Details'!$B$18&\"\")),K{row},0)))"
+    },
+    {
+     "col": "V",
+     "range_rows": [
+      8,
+      57
+     ],
+     "formula": "=IF(OR(K{row}=\"\",TRIM('Trip Details'!$B$19&\"\")=\"\"),0,IF(OR(TRIM(M{row}&\"\")=\"\",LOWER(TRIM(M{row}&\"\"))=\"everyone\"),ROUND(K{row}/MAX(1,'Trip Details'!$L$8),4),IF(LOWER(TRIM(M{row}&\"\"))=LOWER(TRIM('Trip Details'!$B$19&\"\")),K{row},0)))"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "O8:O57",
+     "type": "formula",
+     "formula": [
+      "$O8=\"Paid\""
+     ],
+     "fill": "DAEFDF"
+    },
+    {
+     "range": "O8:O57",
+     "type": "formula",
+     "formula": [
+      "$O8=\"To pay\""
+     ],
+     "fill": "FFF1C2"
+    },
+    {
+     "range": "I8:I57",
+     "type": "formula",
+     "formula": [
+      "OR(AND(I8<>\"\",NOT(ISNUMBER(I8))),N(I8)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "E8:E57",
+     "type": "formula",
+     "formula": [
+      "AND(E8<>\"\",OR(NOT(ISNUMBER(E8)),N(E8)<1))"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "J8:J57",
+     "type": "formula",
+     "formula": [
+      "$W8=\"?\""
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "validations": [
+    {
+     "range": "B8:B57",
+     "type": "list",
+     "strict": false,
+     "values": [
+      "Flight",
+      "Hotel",
+      "Rental",
+      "Car",
+      "Train",
+      "Bus",
+      "Ferry",
+      "Tour",
+      "Restaurant",
+      "Insurance",
+      "Other"
+     ]
+    },
+    {
+     "range": "H8:H57",
+     "type": "list_range",
+     "source": "Budget!$B$10:$B$21",
+     "strict": false
+    },
+    {
+     "range": "J8:J57",
+     "type": "list_range",
+     "source": "'Trip Details'!$B$36:$B$43",
+     "strict": false
+    },
+    {
+     "range": "L8:L57",
+     "type": "list_range",
+     "source": "'Trip Details'!$B$14:$B$19",
+     "strict": false
+    },
+    {
+     "range": "N8:N57",
+     "type": "checkbox"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B7:O7",
+     "color": "F2E6D0"
+    },
+    {
+     "range": "K8:K57",
+     "color": "F5F8FA"
+    },
+    {
+     "range": "O8:O57",
+     "color": "F5F8FA"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B7:O57",
+     "color": "D3DDE3"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "23394A"
+    },
+    {
+     "range": "B7:O7",
+     "bold": true,
+     "size": 9,
+     "color": "23394A",
+     "align": "center"
+    },
+    {
+     "range": "E8:G57",
+     "size": 10,
+     "color": "23394A",
+     "align": "center"
+    },
+    {
+     "range": "I8:O57",
+     "size": 10,
+     "color": "23394A",
+     "align": "center"
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "E8:E57",
+     "format": "ddd, mmm d"
+    },
+    {
+     "range": "I8:I57",
+     "format": "#,##0.00"
+    }
+   ]
+  },
+  {
+   "name": "Expenses",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "E28A6B",
+   "grid_rows": 410,
+   "grid_cols": 26,
+   "row_height": 19,
+   "freeze": "A8",
+   "column_widths": {
+    "A": 2.5,
+    "B": 12,
+    "C": 26,
+    "D": 20,
+    "E": 11,
+    "F": 9,
+    "G": 11,
+    "H": 11,
+    "I": 14
+   },
+   "hidden_columns": [
+    "Q",
+    "R",
+    "S",
+    "T",
+    "U",
+    "V",
+    "W",
+    "X"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:I2",
+     "label": "EXPENSES",
+     "size": 16,
+     "color": "2B6F8E",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "kpi_cards": [
+    {
+     "anchor": "B4",
+     "span": [
+      2,
+      2
+     ],
+     "label": "SPENT ON THE TRIP",
+     "value": "=ROUND(SUM(I8:I407),2)",
+     "fill": "2B6F8E",
+     "font_color": "FFFFFF",
+     "value_size": 13,
+     "number_format": "#,##0.00"
+    },
+    {
+     "anchor": "D4",
+     "span": [
+      2,
+      2
+     ],
+     "label": "EXPENSES LOGGED",
+     "value": "=COUNT(I8:I407)",
+     "fill": "D6E9F2",
+     "font_color": "23394A",
+     "value_size": 13,
+     "number_format": "0"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Log spending as you go, in any currency. Split: blank or Everyone = shared; a name = that person only."
+    },
+    {
+     "cell": "B7",
+     "formula": "Date"
+    },
+    {
+     "cell": "C7",
+     "formula": "What"
+    },
+    {
+     "cell": "D7",
+     "formula": "Category"
+    },
+    {
+     "cell": "E7",
+     "formula": "Amount"
+    },
+    {
+     "cell": "F7",
+     "formula": "Currency"
+    },
+    {
+     "cell": "G7",
+     "formula": "Paid By"
+    },
+    {
+     "cell": "H7",
+     "formula": "Split"
+    },
+    {
+     "cell": "I7",
+     "formula": "Amount (Home)"
+    },
+    {
+     "cell": "B8",
+     "formula": "=DATE(2027,5,14)"
+    },
+    {
+     "cell": "C8",
+     "formula": "Taxi from airport"
+    },
+    {
+     "cell": "D8",
+     "formula": "Local Transport"
+    },
+    {
+     "cell": "E8",
+     "formula": 55
+    },
+    {
+     "cell": "F8",
+     "formula": "EUR"
+    },
+    {
+     "cell": "G8",
+     "formula": "Sam"
+    },
+    {
+     "cell": "B9",
+     "formula": "=DATE(2027,5,14)"
+    },
+    {
+     "cell": "C9",
+     "formula": "Dinner in Trastevere"
+    },
+    {
+     "cell": "D9",
+     "formula": "Food & Drinks"
+    },
+    {
+     "cell": "E9",
+     "formula": 68.5
+    },
+    {
+     "cell": "F9",
+     "formula": "EUR"
+    },
+    {
+     "cell": "G9",
+     "formula": "Alex"
+    },
+    {
+     "cell": "B10",
+     "formula": "=DATE(2027,5,15)"
+    },
+    {
+     "cell": "C10",
+     "formula": "Colosseum tickets"
+    },
+    {
+     "cell": "D10",
+     "formula": "Activities & Tours"
+    },
+    {
+     "cell": "E10",
+     "formula": 48
+    },
+    {
+     "cell": "F10",
+     "formula": "EUR"
+    },
+    {
+     "cell": "G10",
+     "formula": "Sam"
+    },
+    {
+     "cell": "B11",
+     "formula": "=DATE(2027,5,15)"
+    },
+    {
+     "cell": "C11",
+     "formula": "Lunch"
+    },
+    {
+     "cell": "D11",
+     "formula": "Food & Drinks"
+    },
+    {
+     "cell": "E11",
+     "formula": 31.2
+    },
+    {
+     "cell": "F11",
+     "formula": "EUR"
+    },
+    {
+     "cell": "G11",
+     "formula": "Sam"
+    },
+    {
+     "cell": "B12",
+     "formula": "=DATE(2027,5,15)"
+    },
+    {
+     "cell": "C12",
+     "formula": "Gelato"
+    },
+    {
+     "cell": "D12",
+     "formula": "Food & Drinks"
+    },
+    {
+     "cell": "E12",
+     "formula": 9
+    },
+    {
+     "cell": "F12",
+     "formula": "EUR"
+    },
+    {
+     "cell": "G12",
+     "formula": "Alex"
+    },
+    {
+     "cell": "B13",
+     "formula": "=DATE(2027,5,16)"
+    },
+    {
+     "cell": "C13",
+     "formula": "Vatican Museums"
+    },
+    {
+     "cell": "D13",
+     "formula": "Activities & Tours"
+    },
+    {
+     "cell": "E13",
+     "formula": 40
+    },
+    {
+     "cell": "F13",
+     "formula": "EUR"
+    },
+    {
+     "cell": "G13",
+     "formula": "Alex"
+    },
+    {
+     "cell": "B14",
+     "formula": "=DATE(2027,5,16)"
+    },
+    {
+     "cell": "C14",
+     "formula": "Cooking class"
+    },
+    {
+     "cell": "D14",
+     "formula": "Activities & Tours"
+    },
+    {
+     "cell": "E14",
+     "formula": 150
+    },
+    {
+     "cell": "F14",
+     "formula": "EUR"
+    },
+    {
+     "cell": "G14",
+     "formula": "Sam"
+    },
+    {
+     "cell": "B15",
+     "formula": "=DATE(2027,5,16)"
+    },
+    {
+     "cell": "C15",
+     "formula": "Leather wallet"
+    },
+    {
+     "cell": "D15",
+     "formula": "Shopping & Souvenirs"
+    },
+    {
+     "cell": "E15",
+     "formula": 45
+    },
+    {
+     "cell": "F15",
+     "formula": "EUR"
+    },
+    {
+     "cell": "G15",
+     "formula": "Alex"
+    },
+    {
+     "cell": "H15",
+     "formula": "Alex"
+    },
+    {
+     "cell": "B16",
+     "formula": "=DATE(2027,5,17)"
+    },
+    {
+     "cell": "C16",
+     "formula": "Duomo climb"
+    },
+    {
+     "cell": "D16",
+     "formula": "Activities & Tours"
+    },
+    {
+     "cell": "E16",
+     "formula": 40
+    },
+    {
+     "cell": "F16",
+     "formula": "EUR"
+    },
+    {
+     "cell": "G16",
+     "formula": "Sam"
+    },
+    {
+     "cell": "B17",
+     "formula": "=DATE(2027,5,17)"
+    },
+    {
+     "cell": "C17",
+     "formula": "Dinner"
+    },
+    {
+     "cell": "D17",
+     "formula": "Food & Drinks"
+    },
+    {
+     "cell": "E17",
+     "formula": 74
+    },
+    {
+     "cell": "F17",
+     "formula": "EUR"
+    },
+    {
+     "cell": "G17",
+     "formula": "Alex"
+    },
+    {
+     "cell": "B18",
+     "formula": "=DATE(2027,5,18)"
+    },
+    {
+     "cell": "C18",
+     "formula": "Uffizi Gallery"
+    },
+    {
+     "cell": "D18",
+     "formula": "Activities & Tours"
+    },
+    {
+     "cell": "E18",
+     "formula": 50
+    },
+    {
+     "cell": "F18",
+     "formula": "EUR"
+    },
+    {
+     "cell": "G18",
+     "formula": "Alex"
+    },
+    {
+     "cell": "B19",
+     "formula": "=DATE(2027,5,18)"
+    },
+    {
+     "cell": "C19",
+     "formula": "Steak dinner"
+    },
+    {
+     "cell": "D19",
+     "formula": "Food & Drinks"
+    },
+    {
+     "cell": "E19",
+     "formula": 112
+    },
+    {
+     "cell": "F19",
+     "formula": "EUR"
+    },
+    {
+     "cell": "G19",
+     "formula": "Sam"
+    },
+    {
+     "cell": "B20",
+     "formula": "=DATE(2027,5,18)"
+    },
+    {
+     "cell": "C20",
+     "formula": "Silk scarf"
+    },
+    {
+     "cell": "D20",
+     "formula": "Shopping & Souvenirs"
+    },
+    {
+     "cell": "E20",
+     "formula": 35
+    },
+    {
+     "cell": "F20",
+     "formula": "EUR"
+    },
+    {
+     "cell": "G20",
+     "formula": "Sam"
+    },
+    {
+     "cell": "H20",
+     "formula": "Sam"
+    },
+    {
+     "cell": "B21",
+     "formula": "=DATE(2027,5,20)"
+    },
+    {
+     "cell": "C21",
+     "formula": "Vaporetto passes"
+    },
+    {
+     "cell": "D21",
+     "formula": "Local Transport"
+    },
+    {
+     "cell": "E21",
+     "formula": 50
+    },
+    {
+     "cell": "F21",
+     "formula": "EUR"
+    },
+    {
+     "cell": "G21",
+     "formula": "Alex"
+    },
+    {
+     "cell": "B22",
+     "formula": "=DATE(2027,5,20)"
+    },
+    {
+     "cell": "C22",
+     "formula": "Cicchetti crawl"
+    },
+    {
+     "cell": "D22",
+     "formula": "Food & Drinks"
+    },
+    {
+     "cell": "E22",
+     "formula": 46
+    },
+    {
+     "cell": "F22",
+     "formula": "EUR"
+    },
+    {
+     "cell": "G22",
+     "formula": "Sam"
+    },
+    {
+     "cell": "B23",
+     "formula": "=DATE(2027,5,21)"
+    },
+    {
+     "cell": "C23",
+     "formula": "Gondola ride"
+    },
+    {
+     "cell": "D23",
+     "formula": "Activities & Tours"
+    },
+    {
+     "cell": "E23",
+     "formula": 90
+    },
+    {
+     "cell": "F23",
+     "formula": "EUR"
+    },
+    {
+     "cell": "G23",
+     "formula": "Alex"
+    },
+    {
+     "cell": "B24",
+     "formula": "=DATE(2027,5,21)"
+    },
+    {
+     "cell": "C24",
+     "formula": "Doge's Palace"
+    },
+    {
+     "cell": "D24",
+     "formula": "Activities & Tours"
+    },
+    {
+     "cell": "E24",
+     "formula": 60
+    },
+    {
+     "cell": "F24",
+     "formula": "EUR"
+    },
+    {
+     "cell": "G24",
+     "formula": "Sam"
+    },
+    {
+     "cell": "B25",
+     "formula": "=DATE(2027,5,22)"
+    },
+    {
+     "cell": "C25",
+     "formula": "Murano glass"
+    },
+    {
+     "cell": "D25",
+     "formula": "Shopping & Souvenirs"
+    },
+    {
+     "cell": "E25",
+     "formula": 80
+    },
+    {
+     "cell": "F25",
+     "formula": "EUR"
+    },
+    {
+     "cell": "G25",
+     "formula": "Alex"
+    },
+    {
+     "cell": "B26",
+     "formula": "=DATE(2027,5,22)"
+    },
+    {
+     "cell": "C26",
+     "formula": "Farewell dinner"
+    },
+    {
+     "cell": "D26",
+     "formula": "Food & Drinks"
+    },
+    {
+     "cell": "E26",
+     "formula": 128
+    },
+    {
+     "cell": "F26",
+     "formula": "EUR"
+    },
+    {
+     "cell": "G26",
+     "formula": "Sam"
+    },
+    {
+     "cell": "B27",
+     "formula": "=DATE(2027,5,23)"
+    },
+    {
+     "cell": "C27",
+     "formula": "Water taxi to airport"
+    },
+    {
+     "cell": "D27",
+     "formula": "Local Transport"
+    },
+    {
+     "cell": "E27",
+     "formula": 120
+    },
+    {
+     "cell": "F27",
+     "formula": "EUR"
+    },
+    {
+     "cell": "G27",
+     "formula": "Alex"
+    },
+    {
+     "cell": "B28",
+     "formula": "=DATE(2027,5,13)"
+    },
+    {
+     "cell": "C28",
+     "formula": "Airport snacks"
+    },
+    {
+     "cell": "D28",
+     "formula": "Food & Drinks"
+    },
+    {
+     "cell": "E28",
+     "formula": 24.5
+    },
+    {
+     "cell": "F28",
+     "formula": "USD"
+    },
+    {
+     "cell": "G28",
+     "formula": "Sam"
+    },
+    {
+     "col": "W",
+     "range_rows": [
+      8,
+      407
+     ],
+     "formula": "=IF(TRIM(F{row}&\"\")=\"\",1,IFERROR(INDEX('Trip Details'!$C$36:$C$43,MATCH(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(TRIM(F{row}&\"\"),\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"),'Trip Details'!$B$36:$B$43,0)),\"?\"))"
+    },
+    {
+     "col": "I",
+     "range_rows": [
+      8,
+      407
+     ],
+     "formula": "=IF(OR(NOT(ISNUMBER(E{row})),W{row}=\"?\"),\"\",ROUND(E{row}*W{row},2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "col": "Q",
+     "range_rows": [
+      8,
+      407
+     ],
+     "formula": "=IF(OR(I{row}=\"\",TRIM('Trip Details'!$B$14&\"\")=\"\"),0,IF(OR(TRIM(H{row}&\"\")=\"\",LOWER(TRIM(H{row}&\"\"))=\"everyone\"),ROUND(I{row}/MAX(1,'Trip Details'!$L$8),4),IF(LOWER(TRIM(H{row}&\"\"))=LOWER(TRIM('Trip Details'!$B$14&\"\")),I{row},0)))"
+    },
+    {
+     "col": "R",
+     "range_rows": [
+      8,
+      407
+     ],
+     "formula": "=IF(OR(I{row}=\"\",TRIM('Trip Details'!$B$15&\"\")=\"\"),0,IF(OR(TRIM(H{row}&\"\")=\"\",LOWER(TRIM(H{row}&\"\"))=\"everyone\"),ROUND(I{row}/MAX(1,'Trip Details'!$L$8),4),IF(LOWER(TRIM(H{row}&\"\"))=LOWER(TRIM('Trip Details'!$B$15&\"\")),I{row},0)))"
+    },
+    {
+     "col": "S",
+     "range_rows": [
+      8,
+      407
+     ],
+     "formula": "=IF(OR(I{row}=\"\",TRIM('Trip Details'!$B$16&\"\")=\"\"),0,IF(OR(TRIM(H{row}&\"\")=\"\",LOWER(TRIM(H{row}&\"\"))=\"everyone\"),ROUND(I{row}/MAX(1,'Trip Details'!$L$8),4),IF(LOWER(TRIM(H{row}&\"\"))=LOWER(TRIM('Trip Details'!$B$16&\"\")),I{row},0)))"
+    },
+    {
+     "col": "T",
+     "range_rows": [
+      8,
+      407
+     ],
+     "formula": "=IF(OR(I{row}=\"\",TRIM('Trip Details'!$B$17&\"\")=\"\"),0,IF(OR(TRIM(H{row}&\"\")=\"\",LOWER(TRIM(H{row}&\"\"))=\"everyone\"),ROUND(I{row}/MAX(1,'Trip Details'!$L$8),4),IF(LOWER(TRIM(H{row}&\"\"))=LOWER(TRIM('Trip Details'!$B$17&\"\")),I{row},0)))"
+    },
+    {
+     "col": "U",
+     "range_rows": [
+      8,
+      407
+     ],
+     "formula": "=IF(OR(I{row}=\"\",TRIM('Trip Details'!$B$18&\"\")=\"\"),0,IF(OR(TRIM(H{row}&\"\")=\"\",LOWER(TRIM(H{row}&\"\"))=\"everyone\"),ROUND(I{row}/MAX(1,'Trip Details'!$L$8),4),IF(LOWER(TRIM(H{row}&\"\"))=LOWER(TRIM('Trip Details'!$B$18&\"\")),I{row},0)))"
+    },
+    {
+     "col": "V",
+     "range_rows": [
+      8,
+      407
+     ],
+     "formula": "=IF(OR(I{row}=\"\",TRIM('Trip Details'!$B$19&\"\")=\"\"),0,IF(OR(TRIM(H{row}&\"\")=\"\",LOWER(TRIM(H{row}&\"\"))=\"everyone\"),ROUND(I{row}/MAX(1,'Trip Details'!$L$8),4),IF(LOWER(TRIM(H{row}&\"\"))=LOWER(TRIM('Trip Details'!$B$19&\"\")),I{row},0)))"
+    },
+    {
+     "col": "X",
+     "range_rows": [
+      8,
+      407
+     ],
+     "formula": "=IF(TRIM(D{row}&\"\")=\"\",1,COUNTIF(Budget!$B$10:$B$21,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(D{row},\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\")))"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "E8:E407",
+     "type": "formula",
+     "formula": [
+      "OR(AND(E8<>\"\",NOT(ISNUMBER(E8))),N(E8)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "B8:B407",
+     "type": "formula",
+     "formula": [
+      "AND(B8<>\"\",OR(NOT(ISNUMBER(B8)),N(B8)<1))"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "F8:F407",
+     "type": "formula",
+     "formula": [
+      "$W8=\"?\""
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "D8:D407",
+     "type": "formula",
+     "formula": [
+      "AND(TRIM($D8&\"\")<>\"\",$X8=0)"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "validations": [
+    {
+     "range": "D8:D407",
+     "type": "list_range",
+     "source": "Budget!$B$10:$B$21",
+     "strict": false
+    },
+    {
+     "range": "F8:F407",
+     "type": "list_range",
+     "source": "'Trip Details'!$B$36:$B$43",
+     "strict": false
+    },
+    {
+     "range": "G8:G407",
+     "type": "list_range",
+     "source": "'Trip Details'!$B$14:$B$19",
+     "strict": false
+    }
+   ],
+   "fills": [
+    {
+     "range": "B7:I7",
+     "color": "F2E6D0"
+    },
+    {
+     "range": "I8:I407",
+     "color": "F5F8FA"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B7:I407",
+     "color": "D3DDE3"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "23394A"
+    },
+    {
+     "range": "B7:I7",
+     "bold": true,
+     "size": 10,
+     "color": "23394A",
+     "align": "center"
+    },
+    {
+     "range": "B8:B407",
+     "size": 10,
+     "color": "23394A",
+     "align": "center"
+    },
+    {
+     "range": "E8:I407",
+     "size": 10,
+     "color": "23394A",
+     "align": "center"
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "B8:B407",
+     "format": "ddd, mmm d"
+    },
+    {
+     "range": "E8:E407",
+     "format": "#,##0.00"
+    }
+   ]
+  },
+  {
+   "name": "Budget",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "1F5068",
+   "grid_rows": 43,
+   "grid_cols": 16,
+   "row_height": 20,
+   "column_widths": {
+    "A": 2.5,
+    "B": 24,
+    "C": 13,
+    "D": 13,
+    "E": 13,
+    "F": 13,
+    "G": 13,
+    "H": 9,
+    "I": 13,
+    "J": 2.5,
+    "L": 6,
+    "N": 8,
+    "O": 8
+   },
+   "hidden_columns": [
+    "L",
+    "M",
+    "N",
+    "O"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:I2",
+     "label": "=\"TRIP BUDGET (\"&'Trip Details'!$L$9&\")\"",
+     "size": 16,
+     "color": "2B6F8E",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "B8:I8",
+     "label": "BY CATEGORY",
+     "color": "D6E9F2",
+     "font_color": "23394A",
+     "align": "center"
+    },
+    {
+     "range": "B24:I24",
+     "label": "PLANNED VS. USED",
+     "color": "D6E9F2",
+     "font_color": "23394A",
+     "align": "center"
+    }
+   ],
+   "kpi_cards": [
+    {
+     "anchor": "B5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "TRIP BUDGET",
+     "value": "=C22",
+     "fill": "2B6F8E",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "#,##0.00"
+    },
+    {
+     "anchor": "D5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "USED SO FAR",
+     "value": "=F22",
+     "fill": "E28A6B",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "#,##0.00"
+    },
+    {
+     "anchor": "F5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "LEFT",
+     "value": "=G22",
+     "fill": "D6E9F2",
+     "font_color": "23394A",
+     "value_size": 16,
+     "number_format": "#,##0.00;-#,##0.00;0.00"
+    },
+    {
+     "anchor": "H5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "LEFT PER DAY",
+     "value": "=IF($L$4=0,\"-\",ROUND(G22/$L$4,2))",
+     "fill": "F2E6D0",
+     "font_color": "23394A",
+     "value_size": 16,
+     "number_format": "#,##0.00"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "=\"Plan each category in your home currency (\"&'Trip Details'!$L$9&\"). Booked comes from Bookings, Spent from Expenses.\""
+    },
+    {
+     "cell": "B9",
+     "formula": "Category"
+    },
+    {
+     "cell": "C9",
+     "formula": "Planned"
+    },
+    {
+     "cell": "D9",
+     "formula": "Booked"
+    },
+    {
+     "cell": "E9",
+     "formula": "Spent"
+    },
+    {
+     "cell": "F9",
+     "formula": "Total Used"
+    },
+    {
+     "cell": "G9",
+     "formula": "Left"
+    },
+    {
+     "cell": "H9",
+     "formula": "Used"
+    },
+    {
+     "cell": "B10",
+     "formula": "Flights"
+    },
+    {
+     "cell": "C10",
+     "formula": 1700
+    },
+    {
+     "cell": "D10",
+     "formula": "=IF(TRIM(B10&\"\")=\"\",\"\",ROUND(SUMIFS(Bookings!$K$8:$K$57,Bookings!$H$8:$H$57,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE($B10,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\")),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "E10",
+     "formula": "=IF(TRIM(B10&\"\")=\"\",\"\",ROUND(SUMIFS(Expenses!$I$8:$I$407,Expenses!$D$8:$D$407,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE($B10,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\")),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "F10",
+     "formula": "=IF(TRIM(B10&\"\")=\"\",\"\",ROUND(D10+E10,2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "G10",
+     "formula": "=IF(TRIM(B10&\"\")=\"\",\"\",ROUND(N(C10)-F10,2))",
+     "number_format": "#,##0.00;-#,##0.00;0.00"
+    },
+    {
+     "cell": "H10",
+     "formula": "=IF(OR(TRIM(B10&\"\")=\"\",N(C10)<=0),\"\",F10/C10)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "I10",
+     "formula": "=IF(H10=\"\",\"\",REPT(\"█\",ROUND(MAX(0,MIN(1,H10))*10,0))&REPT(\"░\",10-ROUND(MAX(0,MIN(1,H10))*10,0)))"
+    },
+    {
+     "cell": "N10",
+     "formula": "=IF(TRIM(B10&\"\")=\"\",\"\",N(C10))"
+    },
+    {
+     "cell": "O10",
+     "formula": "=F10"
+    },
+    {
+     "cell": "B11",
+     "formula": "Lodging"
+    },
+    {
+     "cell": "C11",
+     "formula": 2200
+    },
+    {
+     "cell": "D11",
+     "formula": "=IF(TRIM(B11&\"\")=\"\",\"\",ROUND(SUMIFS(Bookings!$K$8:$K$57,Bookings!$H$8:$H$57,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE($B11,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\")),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "E11",
+     "formula": "=IF(TRIM(B11&\"\")=\"\",\"\",ROUND(SUMIFS(Expenses!$I$8:$I$407,Expenses!$D$8:$D$407,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE($B11,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\")),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "F11",
+     "formula": "=IF(TRIM(B11&\"\")=\"\",\"\",ROUND(D11+E11,2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "G11",
+     "formula": "=IF(TRIM(B11&\"\")=\"\",\"\",ROUND(N(C11)-F11,2))",
+     "number_format": "#,##0.00;-#,##0.00;0.00"
+    },
+    {
+     "cell": "H11",
+     "formula": "=IF(OR(TRIM(B11&\"\")=\"\",N(C11)<=0),\"\",F11/C11)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "I11",
+     "formula": "=IF(H11=\"\",\"\",REPT(\"█\",ROUND(MAX(0,MIN(1,H11))*10,0))&REPT(\"░\",10-ROUND(MAX(0,MIN(1,H11))*10,0)))"
+    },
+    {
+     "cell": "N11",
+     "formula": "=IF(TRIM(B11&\"\")=\"\",\"\",N(C11))"
+    },
+    {
+     "cell": "O11",
+     "formula": "=F11"
+    },
+    {
+     "cell": "B12",
+     "formula": "Food & Drinks"
+    },
+    {
+     "cell": "C12",
+     "formula": 900
+    },
+    {
+     "cell": "D12",
+     "formula": "=IF(TRIM(B12&\"\")=\"\",\"\",ROUND(SUMIFS(Bookings!$K$8:$K$57,Bookings!$H$8:$H$57,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE($B12,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\")),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "E12",
+     "formula": "=IF(TRIM(B12&\"\")=\"\",\"\",ROUND(SUMIFS(Expenses!$I$8:$I$407,Expenses!$D$8:$D$407,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE($B12,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\")),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "F12",
+     "formula": "=IF(TRIM(B12&\"\")=\"\",\"\",ROUND(D12+E12,2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "G12",
+     "formula": "=IF(TRIM(B12&\"\")=\"\",\"\",ROUND(N(C12)-F12,2))",
+     "number_format": "#,##0.00;-#,##0.00;0.00"
+    },
+    {
+     "cell": "H12",
+     "formula": "=IF(OR(TRIM(B12&\"\")=\"\",N(C12)<=0),\"\",F12/C12)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "I12",
+     "formula": "=IF(H12=\"\",\"\",REPT(\"█\",ROUND(MAX(0,MIN(1,H12))*10,0))&REPT(\"░\",10-ROUND(MAX(0,MIN(1,H12))*10,0)))"
+    },
+    {
+     "cell": "N12",
+     "formula": "=IF(TRIM(B12&\"\")=\"\",\"\",N(C12))"
+    },
+    {
+     "cell": "O12",
+     "formula": "=F12"
+    },
+    {
+     "cell": "B13",
+     "formula": "Local Transport"
+    },
+    {
+     "cell": "C13",
+     "formula": 450
+    },
+    {
+     "cell": "D13",
+     "formula": "=IF(TRIM(B13&\"\")=\"\",\"\",ROUND(SUMIFS(Bookings!$K$8:$K$57,Bookings!$H$8:$H$57,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE($B13,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\")),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "E13",
+     "formula": "=IF(TRIM(B13&\"\")=\"\",\"\",ROUND(SUMIFS(Expenses!$I$8:$I$407,Expenses!$D$8:$D$407,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE($B13,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\")),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "F13",
+     "formula": "=IF(TRIM(B13&\"\")=\"\",\"\",ROUND(D13+E13,2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "G13",
+     "formula": "=IF(TRIM(B13&\"\")=\"\",\"\",ROUND(N(C13)-F13,2))",
+     "number_format": "#,##0.00;-#,##0.00;0.00"
+    },
+    {
+     "cell": "H13",
+     "formula": "=IF(OR(TRIM(B13&\"\")=\"\",N(C13)<=0),\"\",F13/C13)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "I13",
+     "formula": "=IF(H13=\"\",\"\",REPT(\"█\",ROUND(MAX(0,MIN(1,H13))*10,0))&REPT(\"░\",10-ROUND(MAX(0,MIN(1,H13))*10,0)))"
+    },
+    {
+     "cell": "N13",
+     "formula": "=IF(TRIM(B13&\"\")=\"\",\"\",N(C13))"
+    },
+    {
+     "cell": "O13",
+     "formula": "=F13"
+    },
+    {
+     "cell": "B14",
+     "formula": "Activities & Tours"
+    },
+    {
+     "cell": "C14",
+     "formula": 800
+    },
+    {
+     "cell": "D14",
+     "formula": "=IF(TRIM(B14&\"\")=\"\",\"\",ROUND(SUMIFS(Bookings!$K$8:$K$57,Bookings!$H$8:$H$57,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE($B14,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\")),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "E14",
+     "formula": "=IF(TRIM(B14&\"\")=\"\",\"\",ROUND(SUMIFS(Expenses!$I$8:$I$407,Expenses!$D$8:$D$407,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE($B14,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\")),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "F14",
+     "formula": "=IF(TRIM(B14&\"\")=\"\",\"\",ROUND(D14+E14,2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "G14",
+     "formula": "=IF(TRIM(B14&\"\")=\"\",\"\",ROUND(N(C14)-F14,2))",
+     "number_format": "#,##0.00;-#,##0.00;0.00"
+    },
+    {
+     "cell": "H14",
+     "formula": "=IF(OR(TRIM(B14&\"\")=\"\",N(C14)<=0),\"\",F14/C14)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "I14",
+     "formula": "=IF(H14=\"\",\"\",REPT(\"█\",ROUND(MAX(0,MIN(1,H14))*10,0))&REPT(\"░\",10-ROUND(MAX(0,MIN(1,H14))*10,0)))"
+    },
+    {
+     "cell": "N14",
+     "formula": "=IF(TRIM(B14&\"\")=\"\",\"\",N(C14))"
+    },
+    {
+     "cell": "O14",
+     "formula": "=F14"
+    },
+    {
+     "cell": "B15",
+     "formula": "Shopping & Souvenirs"
+    },
+    {
+     "cell": "C15",
+     "formula": 300
+    },
+    {
+     "cell": "D15",
+     "formula": "=IF(TRIM(B15&\"\")=\"\",\"\",ROUND(SUMIFS(Bookings!$K$8:$K$57,Bookings!$H$8:$H$57,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE($B15,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\")),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "E15",
+     "formula": "=IF(TRIM(B15&\"\")=\"\",\"\",ROUND(SUMIFS(Expenses!$I$8:$I$407,Expenses!$D$8:$D$407,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE($B15,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\")),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "F15",
+     "formula": "=IF(TRIM(B15&\"\")=\"\",\"\",ROUND(D15+E15,2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "G15",
+     "formula": "=IF(TRIM(B15&\"\")=\"\",\"\",ROUND(N(C15)-F15,2))",
+     "number_format": "#,##0.00;-#,##0.00;0.00"
+    },
+    {
+     "cell": "H15",
+     "formula": "=IF(OR(TRIM(B15&\"\")=\"\",N(C15)<=0),\"\",F15/C15)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "I15",
+     "formula": "=IF(H15=\"\",\"\",REPT(\"█\",ROUND(MAX(0,MIN(1,H15))*10,0))&REPT(\"░\",10-ROUND(MAX(0,MIN(1,H15))*10,0)))"
+    },
+    {
+     "cell": "N15",
+     "formula": "=IF(TRIM(B15&\"\")=\"\",\"\",N(C15))"
+    },
+    {
+     "cell": "O15",
+     "formula": "=F15"
+    },
+    {
+     "cell": "B16",
+     "formula": "Insurance & Visas"
+    },
+    {
+     "cell": "C16",
+     "formula": 150
+    },
+    {
+     "cell": "D16",
+     "formula": "=IF(TRIM(B16&\"\")=\"\",\"\",ROUND(SUMIFS(Bookings!$K$8:$K$57,Bookings!$H$8:$H$57,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE($B16,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\")),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "E16",
+     "formula": "=IF(TRIM(B16&\"\")=\"\",\"\",ROUND(SUMIFS(Expenses!$I$8:$I$407,Expenses!$D$8:$D$407,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE($B16,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\")),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "F16",
+     "formula": "=IF(TRIM(B16&\"\")=\"\",\"\",ROUND(D16+E16,2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "G16",
+     "formula": "=IF(TRIM(B16&\"\")=\"\",\"\",ROUND(N(C16)-F16,2))",
+     "number_format": "#,##0.00;-#,##0.00;0.00"
+    },
+    {
+     "cell": "H16",
+     "formula": "=IF(OR(TRIM(B16&\"\")=\"\",N(C16)<=0),\"\",F16/C16)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "I16",
+     "formula": "=IF(H16=\"\",\"\",REPT(\"█\",ROUND(MAX(0,MIN(1,H16))*10,0))&REPT(\"░\",10-ROUND(MAX(0,MIN(1,H16))*10,0)))"
+    },
+    {
+     "cell": "N16",
+     "formula": "=IF(TRIM(B16&\"\")=\"\",\"\",N(C16))"
+    },
+    {
+     "cell": "O16",
+     "formula": "=F16"
+    },
+    {
+     "cell": "B17",
+     "formula": "Other"
+    },
+    {
+     "cell": "C17",
+     "formula": 200
+    },
+    {
+     "cell": "D17",
+     "formula": "=IF(TRIM(B17&\"\")=\"\",\"\",ROUND(SUMIFS(Bookings!$K$8:$K$57,Bookings!$H$8:$H$57,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE($B17,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\")),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "E17",
+     "formula": "=IF(TRIM(B17&\"\")=\"\",\"\",ROUND(SUMIFS(Expenses!$I$8:$I$407,Expenses!$D$8:$D$407,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE($B17,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\")),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "F17",
+     "formula": "=IF(TRIM(B17&\"\")=\"\",\"\",ROUND(D17+E17,2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "G17",
+     "formula": "=IF(TRIM(B17&\"\")=\"\",\"\",ROUND(N(C17)-F17,2))",
+     "number_format": "#,##0.00;-#,##0.00;0.00"
+    },
+    {
+     "cell": "H17",
+     "formula": "=IF(OR(TRIM(B17&\"\")=\"\",N(C17)<=0),\"\",F17/C17)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "I17",
+     "formula": "=IF(H17=\"\",\"\",REPT(\"█\",ROUND(MAX(0,MIN(1,H17))*10,0))&REPT(\"░\",10-ROUND(MAX(0,MIN(1,H17))*10,0)))"
+    },
+    {
+     "cell": "N17",
+     "formula": "=IF(TRIM(B17&\"\")=\"\",\"\",N(C17))"
+    },
+    {
+     "cell": "O17",
+     "formula": "=F17"
+    },
+    {
+     "cell": "D18",
+     "formula": "=IF(TRIM(B18&\"\")=\"\",\"\",ROUND(SUMIFS(Bookings!$K$8:$K$57,Bookings!$H$8:$H$57,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE($B18,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\")),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "E18",
+     "formula": "=IF(TRIM(B18&\"\")=\"\",\"\",ROUND(SUMIFS(Expenses!$I$8:$I$407,Expenses!$D$8:$D$407,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE($B18,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\")),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "F18",
+     "formula": "=IF(TRIM(B18&\"\")=\"\",\"\",ROUND(D18+E18,2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "G18",
+     "formula": "=IF(TRIM(B18&\"\")=\"\",\"\",ROUND(N(C18)-F18,2))",
+     "number_format": "#,##0.00;-#,##0.00;0.00"
+    },
+    {
+     "cell": "H18",
+     "formula": "=IF(OR(TRIM(B18&\"\")=\"\",N(C18)<=0),\"\",F18/C18)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "I18",
+     "formula": "=IF(H18=\"\",\"\",REPT(\"█\",ROUND(MAX(0,MIN(1,H18))*10,0))&REPT(\"░\",10-ROUND(MAX(0,MIN(1,H18))*10,0)))"
+    },
+    {
+     "cell": "N18",
+     "formula": "=IF(TRIM(B18&\"\")=\"\",\"\",N(C18))"
+    },
+    {
+     "cell": "O18",
+     "formula": "=F18"
+    },
+    {
+     "cell": "D19",
+     "formula": "=IF(TRIM(B19&\"\")=\"\",\"\",ROUND(SUMIFS(Bookings!$K$8:$K$57,Bookings!$H$8:$H$57,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE($B19,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\")),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "E19",
+     "formula": "=IF(TRIM(B19&\"\")=\"\",\"\",ROUND(SUMIFS(Expenses!$I$8:$I$407,Expenses!$D$8:$D$407,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE($B19,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\")),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "F19",
+     "formula": "=IF(TRIM(B19&\"\")=\"\",\"\",ROUND(D19+E19,2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "G19",
+     "formula": "=IF(TRIM(B19&\"\")=\"\",\"\",ROUND(N(C19)-F19,2))",
+     "number_format": "#,##0.00;-#,##0.00;0.00"
+    },
+    {
+     "cell": "H19",
+     "formula": "=IF(OR(TRIM(B19&\"\")=\"\",N(C19)<=0),\"\",F19/C19)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "I19",
+     "formula": "=IF(H19=\"\",\"\",REPT(\"█\",ROUND(MAX(0,MIN(1,H19))*10,0))&REPT(\"░\",10-ROUND(MAX(0,MIN(1,H19))*10,0)))"
+    },
+    {
+     "cell": "N19",
+     "formula": "=IF(TRIM(B19&\"\")=\"\",\"\",N(C19))"
+    },
+    {
+     "cell": "O19",
+     "formula": "=F19"
+    },
+    {
+     "cell": "D20",
+     "formula": "=IF(TRIM(B20&\"\")=\"\",\"\",ROUND(SUMIFS(Bookings!$K$8:$K$57,Bookings!$H$8:$H$57,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE($B20,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\")),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "E20",
+     "formula": "=IF(TRIM(B20&\"\")=\"\",\"\",ROUND(SUMIFS(Expenses!$I$8:$I$407,Expenses!$D$8:$D$407,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE($B20,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\")),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "F20",
+     "formula": "=IF(TRIM(B20&\"\")=\"\",\"\",ROUND(D20+E20,2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "G20",
+     "formula": "=IF(TRIM(B20&\"\")=\"\",\"\",ROUND(N(C20)-F20,2))",
+     "number_format": "#,##0.00;-#,##0.00;0.00"
+    },
+    {
+     "cell": "H20",
+     "formula": "=IF(OR(TRIM(B20&\"\")=\"\",N(C20)<=0),\"\",F20/C20)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "I20",
+     "formula": "=IF(H20=\"\",\"\",REPT(\"█\",ROUND(MAX(0,MIN(1,H20))*10,0))&REPT(\"░\",10-ROUND(MAX(0,MIN(1,H20))*10,0)))"
+    },
+    {
+     "cell": "N20",
+     "formula": "=IF(TRIM(B20&\"\")=\"\",\"\",N(C20))"
+    },
+    {
+     "cell": "O20",
+     "formula": "=F20"
+    },
+    {
+     "cell": "D21",
+     "formula": "=IF(TRIM(B21&\"\")=\"\",\"\",ROUND(SUMIFS(Bookings!$K$8:$K$57,Bookings!$H$8:$H$57,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE($B21,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\")),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "E21",
+     "formula": "=IF(TRIM(B21&\"\")=\"\",\"\",ROUND(SUMIFS(Expenses!$I$8:$I$407,Expenses!$D$8:$D$407,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE($B21,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\")),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "F21",
+     "formula": "=IF(TRIM(B21&\"\")=\"\",\"\",ROUND(D21+E21,2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "G21",
+     "formula": "=IF(TRIM(B21&\"\")=\"\",\"\",ROUND(N(C21)-F21,2))",
+     "number_format": "#,##0.00;-#,##0.00;0.00"
+    },
+    {
+     "cell": "H21",
+     "formula": "=IF(OR(TRIM(B21&\"\")=\"\",N(C21)<=0),\"\",F21/C21)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "I21",
+     "formula": "=IF(H21=\"\",\"\",REPT(\"█\",ROUND(MAX(0,MIN(1,H21))*10,0))&REPT(\"░\",10-ROUND(MAX(0,MIN(1,H21))*10,0)))"
+    },
+    {
+     "cell": "N21",
+     "formula": "=IF(TRIM(B21&\"\")=\"\",\"\",N(C21))"
+    },
+    {
+     "cell": "O21",
+     "formula": "=F21"
+    },
+    {
+     "cell": "N9",
+     "formula": "Planned"
+    },
+    {
+     "cell": "O9",
+     "formula": "Used"
+    },
+    {
+     "cell": "B22",
+     "formula": "TOTAL"
+    },
+    {
+     "cell": "C22",
+     "formula": "=ROUND(SUM(C10:C21),2)",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "D22",
+     "formula": "=ROUND(SUM(D10:D21),2)",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "E22",
+     "formula": "=ROUND(SUM(E10:E21),2)",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "F22",
+     "formula": "=ROUND(SUM(F10:F21),2)",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "G22",
+     "formula": "=ROUND(SUM(G10:G21),2)",
+     "number_format": "#,##0.00;-#,##0.00;0.00"
+    },
+    {
+     "cell": "H22",
+     "formula": "=IF(N(C22)<=0,\"\",F22/C22)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "I22",
+     "formula": "=IF(H22=\"\",\"\",REPT(\"█\",ROUND(MAX(0,MIN(1,H22))*10,0))&REPT(\"░\",10-ROUND(MAX(0,MIN(1,H22))*10,0)))"
+    },
+    {
+     "cell": "L4",
+     "formula": "=IF('Trip Details'!$L$7=0,0,IF(TODAY()<'Trip Details'!$L$5,'Trip Details'!$L$7,IF(TODAY()>'Trip Details'!$L$5+'Trip Details'!$L$7-1,0,'Trip Details'!$L$5+'Trip Details'!$L$7-TODAY())))"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "C10:C21",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C10<>\"\",NOT(ISNUMBER(C10))),N(C10)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "G10:G22",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER(G10),G10<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "G10:G22",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER(G10),G10>=0)"
+     ],
+     "fill": "DAEFDF"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B9:I9",
+     "color": "F2E6D0"
+    },
+    {
+     "range": "D10:I21",
+     "color": "F5F8FA"
+    },
+    {
+     "range": "B22:I22",
+     "color": "D6E9F2"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:C7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "D5:E7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "F5:G7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "H5:I7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "B9:I22",
+     "color": "D3DDE3"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "23394A"
+    },
+    {
+     "range": "B9:I9",
+     "bold": true,
+     "size": 10,
+     "color": "23394A",
+     "align": "center"
+    },
+    {
+     "range": "C10:H22",
+     "size": 10,
+     "color": "23394A",
+     "align": "center"
+    },
+    {
+     "range": "I10:I22",
+     "size": 10,
+     "color": "2B6F8E"
+    },
+    {
+     "range": "B22:H22",
+     "bold": true,
+     "size": 10,
+     "color": "23394A",
+     "align": "center"
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "C10:C21",
+     "format": "#,##0.00"
+    }
+   ],
+   "charts": [
+    {
+     "type": "bar",
+     "anchor": "B25",
+     "data": "Budget!N9:O21",
+     "categories": "Budget!B10:B21",
+     "width": 18,
+     "height": 7,
+     "colors": [
+      "D6E9F2",
+      "2B6F8E"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Group Split",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "E28A6B",
+   "grid_rows": 19,
+   "grid_cols": 8,
+   "row_height": 22,
+   "column_widths": {
+    "A": 2.5,
+    "B": 18,
+    "C": 14,
+    "D": 14,
+    "E": 14,
+    "F": 34,
+    "G": 2.5
+   },
+   "section_bars": [
+    {
+     "range": "B2:F2",
+     "label": "GROUP SPLIT",
+     "size": 16,
+     "color": "2B6F8E",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "B5:F5",
+     "label": "WHO OWES WHOM",
+     "color": "D6E9F2",
+     "font_color": "23394A",
+     "align": "center"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Who paid what, and who owes whom (bookings + expenses, in your home currency)."
+    },
+    {
+     "cell": "B6",
+     "formula": "Traveler"
+    },
+    {
+     "cell": "C6",
+     "formula": "Paid"
+    },
+    {
+     "cell": "D6",
+     "formula": "Their Share"
+    },
+    {
+     "cell": "E6",
+     "formula": "Balance"
+    },
+    {
+     "cell": "F6",
+     "formula": "Settle Up"
+    },
+    {
+     "cell": "B7",
+     "formula": "=IF(TRIM('Trip Details'!$B$14&\"\")=\"\",\"\",'Trip Details'!$B$14)"
+    },
+    {
+     "cell": "C7",
+     "formula": "=IF(B7=\"\",\"\",ROUND(SUMIFS(Bookings!$K$8:$K$57,Bookings!$L$8:$L$57,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B7,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"))+SUMIFS(Expenses!$I$8:$I$407,Expenses!$G$8:$G$407,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B7,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\")),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "D7",
+     "formula": "=IF(B7=\"\",\"\",ROUND(SUM(Bookings!Q$8:Q$57)+SUM(Expenses!Q$8:Q$407),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "E7",
+     "formula": "=IF(B7=\"\",\"\",ROUND(C7-D7,2))",
+     "number_format": "#,##0.00;-#,##0.00;0.00"
+    },
+    {
+     "cell": "F7",
+     "formula": "=IF(B7=\"\",\"\",IF(ABS(E7)<0.01,\"All square\",IF(E7>0,B7&\" gets back \"&FIXED(E7,2),B7&\" owes \"&FIXED(-E7,2))))"
+    },
+    {
+     "cell": "B8",
+     "formula": "=IF(TRIM('Trip Details'!$B$15&\"\")=\"\",\"\",'Trip Details'!$B$15)"
+    },
+    {
+     "cell": "C8",
+     "formula": "=IF(B8=\"\",\"\",ROUND(SUMIFS(Bookings!$K$8:$K$57,Bookings!$L$8:$L$57,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B8,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"))+SUMIFS(Expenses!$I$8:$I$407,Expenses!$G$8:$G$407,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B8,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\")),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "D8",
+     "formula": "=IF(B8=\"\",\"\",ROUND(SUM(Bookings!R$8:R$57)+SUM(Expenses!R$8:R$407),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "E8",
+     "formula": "=IF(B8=\"\",\"\",ROUND(C8-D8,2))",
+     "number_format": "#,##0.00;-#,##0.00;0.00"
+    },
+    {
+     "cell": "F8",
+     "formula": "=IF(B8=\"\",\"\",IF(ABS(E8)<0.01,\"All square\",IF(E8>0,B8&\" gets back \"&FIXED(E8,2),B8&\" owes \"&FIXED(-E8,2))))"
+    },
+    {
+     "cell": "B9",
+     "formula": "=IF(TRIM('Trip Details'!$B$16&\"\")=\"\",\"\",'Trip Details'!$B$16)"
+    },
+    {
+     "cell": "C9",
+     "formula": "=IF(B9=\"\",\"\",ROUND(SUMIFS(Bookings!$K$8:$K$57,Bookings!$L$8:$L$57,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B9,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"))+SUMIFS(Expenses!$I$8:$I$407,Expenses!$G$8:$G$407,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B9,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\")),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "D9",
+     "formula": "=IF(B9=\"\",\"\",ROUND(SUM(Bookings!S$8:S$57)+SUM(Expenses!S$8:S$407),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "E9",
+     "formula": "=IF(B9=\"\",\"\",ROUND(C9-D9,2))",
+     "number_format": "#,##0.00;-#,##0.00;0.00"
+    },
+    {
+     "cell": "F9",
+     "formula": "=IF(B9=\"\",\"\",IF(ABS(E9)<0.01,\"All square\",IF(E9>0,B9&\" gets back \"&FIXED(E9,2),B9&\" owes \"&FIXED(-E9,2))))"
+    },
+    {
+     "cell": "B10",
+     "formula": "=IF(TRIM('Trip Details'!$B$17&\"\")=\"\",\"\",'Trip Details'!$B$17)"
+    },
+    {
+     "cell": "C10",
+     "formula": "=IF(B10=\"\",\"\",ROUND(SUMIFS(Bookings!$K$8:$K$57,Bookings!$L$8:$L$57,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B10,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"))+SUMIFS(Expenses!$I$8:$I$407,Expenses!$G$8:$G$407,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B10,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\")),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "D10",
+     "formula": "=IF(B10=\"\",\"\",ROUND(SUM(Bookings!T$8:T$57)+SUM(Expenses!T$8:T$407),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "E10",
+     "formula": "=IF(B10=\"\",\"\",ROUND(C10-D10,2))",
+     "number_format": "#,##0.00;-#,##0.00;0.00"
+    },
+    {
+     "cell": "F10",
+     "formula": "=IF(B10=\"\",\"\",IF(ABS(E10)<0.01,\"All square\",IF(E10>0,B10&\" gets back \"&FIXED(E10,2),B10&\" owes \"&FIXED(-E10,2))))"
+    },
+    {
+     "cell": "B11",
+     "formula": "=IF(TRIM('Trip Details'!$B$18&\"\")=\"\",\"\",'Trip Details'!$B$18)"
+    },
+    {
+     "cell": "C11",
+     "formula": "=IF(B11=\"\",\"\",ROUND(SUMIFS(Bookings!$K$8:$K$57,Bookings!$L$8:$L$57,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B11,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"))+SUMIFS(Expenses!$I$8:$I$407,Expenses!$G$8:$G$407,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B11,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\")),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "D11",
+     "formula": "=IF(B11=\"\",\"\",ROUND(SUM(Bookings!U$8:U$57)+SUM(Expenses!U$8:U$407),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "E11",
+     "formula": "=IF(B11=\"\",\"\",ROUND(C11-D11,2))",
+     "number_format": "#,##0.00;-#,##0.00;0.00"
+    },
+    {
+     "cell": "F11",
+     "formula": "=IF(B11=\"\",\"\",IF(ABS(E11)<0.01,\"All square\",IF(E11>0,B11&\" gets back \"&FIXED(E11,2),B11&\" owes \"&FIXED(-E11,2))))"
+    },
+    {
+     "cell": "B12",
+     "formula": "=IF(TRIM('Trip Details'!$B$19&\"\")=\"\",\"\",'Trip Details'!$B$19)"
+    },
+    {
+     "cell": "C12",
+     "formula": "=IF(B12=\"\",\"\",ROUND(SUMIFS(Bookings!$K$8:$K$57,Bookings!$L$8:$L$57,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B12,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"))+SUMIFS(Expenses!$I$8:$I$407,Expenses!$G$8:$G$407,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B12,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\")),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "D12",
+     "formula": "=IF(B12=\"\",\"\",ROUND(SUM(Bookings!V$8:V$57)+SUM(Expenses!V$8:V$407),2))",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "E12",
+     "formula": "=IF(B12=\"\",\"\",ROUND(C12-D12,2))",
+     "number_format": "#,##0.00;-#,##0.00;0.00"
+    },
+    {
+     "cell": "F12",
+     "formula": "=IF(B12=\"\",\"\",IF(ABS(E12)<0.01,\"All square\",IF(E12>0,B12&\" gets back \"&FIXED(E12,2),B12&\" owes \"&FIXED(-E12,2))))"
+    },
+    {
+     "cell": "B13",
+     "formula": "TOTAL"
+    },
+    {
+     "cell": "C13",
+     "formula": "=ROUND(SUM(C7:C12),2)",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "D13",
+     "formula": "=ROUND(SUM(D7:D12),2)",
+     "number_format": "#,##0.00"
+    },
+    {
+     "cell": "B15",
+     "formula": "=IF(ABS(C13-D13)>0.05,\"Note: \"&FIXED(C13-D13,2)&\" was paid by someone not on the traveler list, or has a personal split name that doesn't match.\",\"Everything is shared out.\")"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "E7:F12",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER($E7),$E7>=0.01)"
+     ],
+     "fill": "DAEFDF"
+    },
+    {
+     "range": "E7:F12",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER($E7),$E7<=-0.01)"
+     ],
+     "fill": "FFF1C2"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B6:F6",
+     "color": "F2E6D0"
+    },
+    {
+     "range": "C7:F12",
+     "color": "F5F8FA"
+    },
+    {
+     "range": "B13:F13",
+     "color": "D6E9F2"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B6:F13",
+     "color": "D3DDE3"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "23394A"
+    },
+    {
+     "range": "B6:F6",
+     "bold": true,
+     "size": 10,
+     "color": "23394A",
+     "align": "center"
+    },
+    {
+     "range": "C7:E13",
+     "size": 11,
+     "color": "23394A",
+     "align": "center"
+    },
+    {
+     "range": "F7:F12",
+     "bold": true,
+     "size": 11,
+     "color": "23394A"
+    },
+    {
+     "range": "B7:B13",
+     "bold": true,
+     "size": 11,
+     "color": "23394A"
+    },
+    {
+     "range": "B15",
+     "italic": true,
+     "size": 9,
+     "color": "23394A"
+    }
+   ]
+  },
+  {
+   "name": "Packing List",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "D6E9F2",
+   "grid_rows": 130,
+   "grid_cols": 15,
+   "row_height": 19,
+   "freeze": "A8",
+   "column_widths": {
+    "A": 2.5,
+    "B": 28,
+    "C": 18,
+    "D": 10,
+    "E": 8,
+    "F": 3,
+    "G": 18,
+    "H": 9,
+    "I": 9,
+    "J": 14,
+    "M": 4,
+    "N": 4
+   },
+   "hidden_columns": [
+    "M",
+    "N"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:J2",
+     "label": "PACKING LIST",
+     "size": 16,
+     "color": "2B6F8E",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "G6:J6",
+     "label": "PROGRESS",
+     "color": "D6E9F2",
+     "font_color": "23394A",
+     "align": "center"
+    }
+   ],
+   "kpi_cards": [
+    {
+     "anchor": "G18",
+     "span": [
+      3,
+      2
+     ],
+     "label": "PACKED",
+     "value": "=IF(H16=0,0,I16/H16)",
+     "fill": "2B6F8E",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "0%"
+    },
+    {
+     "anchor": "I18",
+     "span": [
+      3,
+      2
+     ],
+     "label": "STILL TO PACK",
+     "value": "=H16-I16",
+     "fill": "F2E6D0",
+     "font_color": "23394A",
+     "value_size": 16,
+     "number_format": "0"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Tick each item as it goes in the bag. Add your own at the bottom."
+    },
+    {
+     "cell": "B7",
+     "formula": "Item"
+    },
+    {
+     "cell": "C7",
+     "formula": "Category"
+    },
+    {
+     "cell": "D7",
+     "formula": "For"
+    },
+    {
+     "cell": "E7",
+     "formula": "Packed"
+    },
+    {
+     "cell": "B8",
+     "formula": "Passports"
+    },
+    {
+     "cell": "C8",
+     "formula": "Documents"
+    },
+    {
+     "cell": "E8",
+     "formula": true
+    },
+    {
+     "cell": "B9",
+     "formula": "Flight & hotel confirmations"
+    },
+    {
+     "cell": "C9",
+     "formula": "Documents"
+    },
+    {
+     "cell": "E9",
+     "formula": true
+    },
+    {
+     "cell": "B10",
+     "formula": "Travel insurance card"
+    },
+    {
+     "cell": "C10",
+     "formula": "Documents"
+    },
+    {
+     "cell": "B11",
+     "formula": "Credit cards & some cash"
+    },
+    {
+     "cell": "C11",
+     "formula": "Documents"
+    },
+    {
+     "cell": "E11",
+     "formula": true
+    },
+    {
+     "cell": "B12",
+     "formula": "Driver's license"
+    },
+    {
+     "cell": "C12",
+     "formula": "Documents"
+    },
+    {
+     "cell": "E12",
+     "formula": true
+    },
+    {
+     "cell": "B13",
+     "formula": "Copies of documents"
+    },
+    {
+     "cell": "C13",
+     "formula": "Documents"
+    },
+    {
+     "cell": "B14",
+     "formula": "T-shirts"
+    },
+    {
+     "cell": "C14",
+     "formula": "Clothes"
+    },
+    {
+     "cell": "E14",
+     "formula": true
+    },
+    {
+     "cell": "B15",
+     "formula": "Pants / shorts"
+    },
+    {
+     "cell": "C15",
+     "formula": "Clothes"
+    },
+    {
+     "cell": "E15",
+     "formula": true
+    },
+    {
+     "cell": "B16",
+     "formula": "Dress / nice outfit"
+    },
+    {
+     "cell": "C16",
+     "formula": "Clothes"
+    },
+    {
+     "cell": "B17",
+     "formula": "Light jacket"
+    },
+    {
+     "cell": "C17",
+     "formula": "Clothes"
+    },
+    {
+     "cell": "E17",
+     "formula": true
+    },
+    {
+     "cell": "B18",
+     "formula": "Sweater"
+    },
+    {
+     "cell": "C18",
+     "formula": "Clothes"
+    },
+    {
+     "cell": "E18",
+     "formula": true
+    },
+    {
+     "cell": "B19",
+     "formula": "Pajamas"
+    },
+    {
+     "cell": "C19",
+     "formula": "Clothes"
+    },
+    {
+     "cell": "B20",
+     "formula": "Underwear"
+    },
+    {
+     "cell": "C20",
+     "formula": "Clothes"
+    },
+    {
+     "cell": "E20",
+     "formula": true
+    },
+    {
+     "cell": "B21",
+     "formula": "Socks"
+    },
+    {
+     "cell": "C21",
+     "formula": "Clothes"
+    },
+    {
+     "cell": "E21",
+     "formula": true
+    },
+    {
+     "cell": "B22",
+     "formula": "Walking shoes"
+    },
+    {
+     "cell": "C22",
+     "formula": "Clothes"
+    },
+    {
+     "cell": "B23",
+     "formula": "Sandals"
+    },
+    {
+     "cell": "C23",
+     "formula": "Clothes"
+    },
+    {
+     "cell": "E23",
+     "formula": true
+    },
+    {
+     "cell": "B24",
+     "formula": "Toothbrush & toothpaste"
+    },
+    {
+     "cell": "C24",
+     "formula": "Toiletries"
+    },
+    {
+     "cell": "E24",
+     "formula": true
+    },
+    {
+     "cell": "B25",
+     "formula": "Shampoo & conditioner"
+    },
+    {
+     "cell": "C25",
+     "formula": "Toiletries"
+    },
+    {
+     "cell": "E25",
+     "formula": true
+    },
+    {
+     "cell": "B26",
+     "formula": "Deodorant"
+    },
+    {
+     "cell": "C26",
+     "formula": "Toiletries"
+    },
+    {
+     "cell": "B27",
+     "formula": "Sunscreen"
+    },
+    {
+     "cell": "C27",
+     "formula": "Toiletries"
+    },
+    {
+     "cell": "E27",
+     "formula": true
+    },
+    {
+     "cell": "B28",
+     "formula": "Hairbrush"
+    },
+    {
+     "cell": "C28",
+     "formula": "Toiletries"
+    },
+    {
+     "cell": "E28",
+     "formula": true
+    },
+    {
+     "cell": "B29",
+     "formula": "Razor"
+    },
+    {
+     "cell": "C29",
+     "formula": "Toiletries"
+    },
+    {
+     "cell": "B30",
+     "formula": "Makeup"
+    },
+    {
+     "cell": "C30",
+     "formula": "Toiletries"
+    },
+    {
+     "cell": "E30",
+     "formula": true
+    },
+    {
+     "cell": "B31",
+     "formula": "Prescriptions"
+    },
+    {
+     "cell": "C31",
+     "formula": "Health"
+    },
+    {
+     "cell": "E31",
+     "formula": true
+    },
+    {
+     "cell": "B32",
+     "formula": "Pain relievers"
+    },
+    {
+     "cell": "C32",
+     "formula": "Health"
+    },
+    {
+     "cell": "E32",
+     "formula": true
+    },
+    {
+     "cell": "B33",
+     "formula": "Band-aids"
+    },
+    {
+     "cell": "C33",
+     "formula": "Health"
+    },
+    {
+     "cell": "B34",
+     "formula": "Hand sanitizer"
+    },
+    {
+     "cell": "C34",
+     "formula": "Health"
+    },
+    {
+     "cell": "E34",
+     "formula": true
+    },
+    {
+     "cell": "B35",
+     "formula": "Phone & charger"
+    },
+    {
+     "cell": "C35",
+     "formula": "Tech"
+    },
+    {
+     "cell": "E35",
+     "formula": true
+    },
+    {
+     "cell": "B36",
+     "formula": "Power bank"
+    },
+    {
+     "cell": "C36",
+     "formula": "Tech"
+    },
+    {
+     "cell": "E36",
+     "formula": true
+    },
+    {
+     "cell": "B37",
+     "formula": "Travel adapter"
+    },
+    {
+     "cell": "C37",
+     "formula": "Tech"
+    },
+    {
+     "cell": "B38",
+     "formula": "Headphones"
+    },
+    {
+     "cell": "C38",
+     "formula": "Tech"
+    },
+    {
+     "cell": "E38",
+     "formula": true
+    },
+    {
+     "cell": "B39",
+     "formula": "Camera"
+    },
+    {
+     "cell": "C39",
+     "formula": "Tech"
+    },
+    {
+     "cell": "E39",
+     "formula": true
+    },
+    {
+     "cell": "B40",
+     "formula": "Neck pillow"
+    },
+    {
+     "cell": "C40",
+     "formula": "Travel Comfort"
+    },
+    {
+     "cell": "E40",
+     "formula": true
+    },
+    {
+     "cell": "B41",
+     "formula": "Eye mask & earplugs"
+    },
+    {
+     "cell": "C41",
+     "formula": "Travel Comfort"
+    },
+    {
+     "cell": "E41",
+     "formula": true
+    },
+    {
+     "cell": "B42",
+     "formula": "Reusable water bottle"
+    },
+    {
+     "cell": "C42",
+     "formula": "Travel Comfort"
+    },
+    {
+     "cell": "B43",
+     "formula": "Snacks"
+    },
+    {
+     "cell": "C43",
+     "formula": "Travel Comfort"
+    },
+    {
+     "cell": "E43",
+     "formula": true
+    },
+    {
+     "cell": "B44",
+     "formula": "Day bag"
+    },
+    {
+     "cell": "C44",
+     "formula": "Travel Comfort"
+    },
+    {
+     "cell": "E44",
+     "formula": true
+    },
+    {
+     "cell": "B45",
+     "formula": "Sunglasses"
+    },
+    {
+     "cell": "C45",
+     "formula": "Beach & Outdoors"
+    },
+    {
+     "cell": "E45",
+     "formula": true
+    },
+    {
+     "cell": "B46",
+     "formula": "Hat"
+    },
+    {
+     "cell": "C46",
+     "formula": "Beach & Outdoors"
+    },
+    {
+     "cell": "E46",
+     "formula": true
+    },
+    {
+     "cell": "B47",
+     "formula": "Swimsuit"
+    },
+    {
+     "cell": "C47",
+     "formula": "Beach & Outdoors"
+    },
+    {
+     "cell": "B48",
+     "formula": "Guidebook / offline maps"
+    },
+    {
+     "cell": "C48",
+     "formula": "Other"
+    },
+    {
+     "cell": "E48",
+     "formula": true
+    },
+    {
+     "cell": "B49",
+     "formula": "Small umbrella"
+    },
+    {
+     "cell": "C49",
+     "formula": "Other"
+    },
+    {
+     "cell": "E49",
+     "formula": true
+    },
+    {
+     "cell": "B50",
+     "formula": "Laundry bag"
+    },
+    {
+     "cell": "C50",
+     "formula": "Other"
+    },
+    {
+     "col": "M",
+     "range_rows": [
+      8,
+      127
+     ],
+     "formula": "=IF(TRIM(B{row}&\"\")=\"\",0,1)"
+    },
+    {
+     "col": "N",
+     "range_rows": [
+      8,
+      127
+     ],
+     "formula": "=IF(AND(M{row}=1,E{row}=TRUE),1,0)"
+    },
+    {
+     "cell": "G7",
+     "formula": "Category"
+    },
+    {
+     "cell": "H7",
+     "formula": "Items"
+    },
+    {
+     "cell": "I7",
+     "formula": "Packed"
+    },
+    {
+     "cell": "J7",
+     "formula": "Progress"
+    },
+    {
+     "cell": "G8",
+     "formula": "Documents"
+    },
+    {
+     "cell": "H8",
+     "formula": "=SUMIFS(M8:M127,C8:C127,G8)",
+     "number_format": "0"
+    },
+    {
+     "cell": "I8",
+     "formula": "=SUMIFS(N8:N127,C8:C127,G8)",
+     "number_format": "0"
+    },
+    {
+     "cell": "J8",
+     "formula": "=IF(H8=0,\"\",REPT(\"█\",ROUND(MAX(0,MIN(1,I8/H8))*10,0))&REPT(\"░\",10-ROUND(MAX(0,MIN(1,I8/H8))*10,0)))"
+    },
+    {
+     "cell": "G9",
+     "formula": "Clothes"
+    },
+    {
+     "cell": "H9",
+     "formula": "=SUMIFS(M8:M127,C8:C127,G9)",
+     "number_format": "0"
+    },
+    {
+     "cell": "I9",
+     "formula": "=SUMIFS(N8:N127,C8:C127,G9)",
+     "number_format": "0"
+    },
+    {
+     "cell": "J9",
+     "formula": "=IF(H9=0,\"\",REPT(\"█\",ROUND(MAX(0,MIN(1,I9/H9))*10,0))&REPT(\"░\",10-ROUND(MAX(0,MIN(1,I9/H9))*10,0)))"
+    },
+    {
+     "cell": "G10",
+     "formula": "Toiletries"
+    },
+    {
+     "cell": "H10",
+     "formula": "=SUMIFS(M8:M127,C8:C127,G10)",
+     "number_format": "0"
+    },
+    {
+     "cell": "I10",
+     "formula": "=SUMIFS(N8:N127,C8:C127,G10)",
+     "number_format": "0"
+    },
+    {
+     "cell": "J10",
+     "formula": "=IF(H10=0,\"\",REPT(\"█\",ROUND(MAX(0,MIN(1,I10/H10))*10,0))&REPT(\"░\",10-ROUND(MAX(0,MIN(1,I10/H10))*10,0)))"
+    },
+    {
+     "cell": "G11",
+     "formula": "Health"
+    },
+    {
+     "cell": "H11",
+     "formula": "=SUMIFS(M8:M127,C8:C127,G11)",
+     "number_format": "0"
+    },
+    {
+     "cell": "I11",
+     "formula": "=SUMIFS(N8:N127,C8:C127,G11)",
+     "number_format": "0"
+    },
+    {
+     "cell": "J11",
+     "formula": "=IF(H11=0,\"\",REPT(\"█\",ROUND(MAX(0,MIN(1,I11/H11))*10,0))&REPT(\"░\",10-ROUND(MAX(0,MIN(1,I11/H11))*10,0)))"
+    },
+    {
+     "cell": "G12",
+     "formula": "Tech"
+    },
+    {
+     "cell": "H12",
+     "formula": "=SUMIFS(M8:M127,C8:C127,G12)",
+     "number_format": "0"
+    },
+    {
+     "cell": "I12",
+     "formula": "=SUMIFS(N8:N127,C8:C127,G12)",
+     "number_format": "0"
+    },
+    {
+     "cell": "J12",
+     "formula": "=IF(H12=0,\"\",REPT(\"█\",ROUND(MAX(0,MIN(1,I12/H12))*10,0))&REPT(\"░\",10-ROUND(MAX(0,MIN(1,I12/H12))*10,0)))"
+    },
+    {
+     "cell": "G13",
+     "formula": "Travel Comfort"
+    },
+    {
+     "cell": "H13",
+     "formula": "=SUMIFS(M8:M127,C8:C127,G13)",
+     "number_format": "0"
+    },
+    {
+     "cell": "I13",
+     "formula": "=SUMIFS(N8:N127,C8:C127,G13)",
+     "number_format": "0"
+    },
+    {
+     "cell": "J13",
+     "formula": "=IF(H13=0,\"\",REPT(\"█\",ROUND(MAX(0,MIN(1,I13/H13))*10,0))&REPT(\"░\",10-ROUND(MAX(0,MIN(1,I13/H13))*10,0)))"
+    },
+    {
+     "cell": "G14",
+     "formula": "Beach & Outdoors"
+    },
+    {
+     "cell": "H14",
+     "formula": "=SUMIFS(M8:M127,C8:C127,G14)",
+     "number_format": "0"
+    },
+    {
+     "cell": "I14",
+     "formula": "=SUMIFS(N8:N127,C8:C127,G14)",
+     "number_format": "0"
+    },
+    {
+     "cell": "J14",
+     "formula": "=IF(H14=0,\"\",REPT(\"█\",ROUND(MAX(0,MIN(1,I14/H14))*10,0))&REPT(\"░\",10-ROUND(MAX(0,MIN(1,I14/H14))*10,0)))"
+    },
+    {
+     "cell": "G15",
+     "formula": "Other"
+    },
+    {
+     "cell": "H15",
+     "formula": "=SUMIFS(M8:M127,C8:C127,G15)",
+     "number_format": "0"
+    },
+    {
+     "cell": "I15",
+     "formula": "=SUMIFS(N8:N127,C8:C127,G15)",
+     "number_format": "0"
+    },
+    {
+     "cell": "J15",
+     "formula": "=IF(H15=0,\"\",REPT(\"█\",ROUND(MAX(0,MIN(1,I15/H15))*10,0))&REPT(\"░\",10-ROUND(MAX(0,MIN(1,I15/H15))*10,0)))"
+    },
+    {
+     "cell": "G16",
+     "formula": "ALL"
+    },
+    {
+     "cell": "H16",
+     "formula": "=SUM(M8:M127)",
+     "number_format": "0"
+    },
+    {
+     "cell": "I16",
+     "formula": "=SUM(N8:N127)",
+     "number_format": "0"
+    },
+    {
+     "cell": "J16",
+     "formula": "=IF(H16=0,\"\",REPT(\"█\",ROUND(MAX(0,MIN(1,I16/H16))*10,0))&REPT(\"░\",10-ROUND(MAX(0,MIN(1,I16/H16))*10,0)))"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "B8:D127",
+     "type": "formula",
+     "formula": [
+      "$E8=TRUE"
+     ],
+     "fill": "DAEFDF"
+    }
+   ],
+   "validations": [
+    {
+     "range": "E8:E127",
+     "type": "checkbox"
+    },
+    {
+     "range": "C8:C127",
+     "type": "list",
+     "values": [
+      "Documents",
+      "Clothes",
+      "Toiletries",
+      "Health",
+      "Tech",
+      "Travel Comfort",
+      "Beach & Outdoors",
+      "Other"
+     ],
+     "strict": false
+    }
+   ],
+   "fills": [
+    {
+     "range": "B7:E7",
+     "color": "F2E6D0"
+    },
+    {
+     "range": "G7:J7",
+     "color": "F2E6D0"
+    },
+    {
+     "range": "H8:J15",
+     "color": "F5F8FA"
+    },
+    {
+     "range": "G16:J16",
+     "color": "D6E9F2"
+    }
+   ],
+   "borders": [
+    {
+     "range": "G18:H20",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "I18:J20",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "B7:E127",
+     "color": "D3DDE3"
+    },
+    {
+     "range": "G7:J16",
+     "color": "D3DDE3"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "23394A"
+    },
+    {
+     "range": "B7:E7",
+     "bold": true,
+     "size": 10,
+     "color": "23394A",
+     "align": "center"
+    },
+    {
+     "range": "C8:E127",
+     "size": 10,
+     "color": "23394A",
+     "align": "center"
+    },
+    {
+     "range": "G7:J7",
+     "bold": true,
+     "size": 10,
+     "color": "23394A",
+     "align": "center"
+    },
+    {
+     "range": "H8:I16",
+     "size": 10,
+     "color": "23394A",
+     "align": "center"
+    },
+    {
+     "range": "J8:J16",
+     "size": 10,
+     "color": "2B6F8E"
+    },
+    {
+     "range": "G16:I16",
+     "bold": true,
+     "size": 10,
+     "color": "23394A"
+    }
+   ]
+  }
+ ]
+}
