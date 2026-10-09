@@ -1,0 +1,6313 @@
+{
+ "filename": "Mortgage Amortization Schedule",
+ "locale": "en_US",
+ "theme": {
+  "header_font": "FFFFFF",
+  "border": "E5D5C5",
+  "accent": "B5583B",
+  "section_colors": [
+   "B5583B",
+   "EBC6B3",
+   "F3E7D8"
+  ],
+  "chart_palette": [
+   "B5583B",
+   "7A8B6F",
+   "D9A441",
+   "8C6A5A",
+   "D98B6E",
+   "B8A48E"
+  ]
+ },
+ "tabs": [
+  {
+   "name": "Start Here",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "B5583B",
+   "grid_rows": 32,
+   "column_widths": {
+    "A": 2.5,
+    "B": 20,
+    "C": 100,
+    "D": 2.5
+   },
+   "section_bars": [
+    {
+     "range": "B2:C2",
+     "label": "MORTGAGE AMORTIZATION SCHEDULE",
+     "size": 18,
+     "color": "B5583B",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "B5:C5",
+     "label": "HOW TO USE IT",
+     "color": "EBC6B3",
+     "font_color": "3E2C23",
+     "align": "left"
+    },
+    {
+     "range": "B15:C15",
+     "label": "GOOD TO KNOW",
+     "color": "EBC6B3",
+     "font_color": "3E2C23",
+     "align": "left"
+    },
+    {
+     "range": "B21:C21",
+     "label": "COLOR GUIDE",
+     "color": "EBC6B3",
+     "font_color": "3E2C23",
+     "align": "left"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "See every payment of your mortgage, what extra payments save, and when your home is all yours."
+    },
+    {
+     "cell": "B6",
+     "formula": "1. Loan Details: type the home price, down payment, rate, term and first payment date."
+    },
+    {
+     "cell": "B7",
+     "formula": "2. Add property tax, home insurance, PMI and HOA to see your full monthly payment (PITI)."
+    },
+    {
+     "cell": "B8",
+     "formula": "3. Paying extra? Add a monthly extra, a yearly extra (like a tax refund) or one-time payments."
+    },
+    {
+     "cell": "B9",
+     "formula": "4. Amortization: every payment, month by month: principal, interest, PMI and the balance left."
+    },
+    {
+     "cell": "B10",
+     "formula": "5. Yearly Summary: each year's principal, interest and balance (handy at tax time), with charts."
+    },
+    {
+     "cell": "B11",
+     "formula": "6. 15 vs 30 Years: compare three terms and rates side by side."
+    },
+    {
+     "cell": "B12",
+     "formula": "7. Refinance: see the new payment, the monthly savings and how long until it pays off."
+    },
+    {
+     "cell": "B13",
+     "formula": "8. Payment Tracker: log what you really pay each month and see your real balance vs. the plan."
+    },
+    {
+     "cell": "B16",
+     "formula": "PITI"
+    },
+    {
+     "cell": "C16",
+     "formula": "Principal, Interest, Taxes and Insurance: the full monthly payment (plus PMI and HOA)."
+    },
+    {
+     "cell": "B17",
+     "formula": "PMI"
+    },
+    {
+     "cell": "C17",
+     "formula": "Mortgage insurance when you put down less than 20%. It stops automatically at 78% of the home price."
+    },
+    {
+     "cell": "B18",
+     "formula": "Extra payments"
+    },
+    {
+     "cell": "C18",
+     "formula": "Every extra dollar goes straight to principal, so you pay less interest and finish sooner."
+    },
+    {
+     "cell": "B19",
+     "formula": "Equity"
+    },
+    {
+     "cell": "C19",
+     "formula": "What your home is worth minus what you still owe."
+    },
+    {
+     "cell": "C22",
+     "formula": "White cells: type here."
+    },
+    {
+     "cell": "C23",
+     "formula": "Tinted cells: these calculate for you."
+    },
+    {
+     "cell": "C24",
+     "formula": "Green: savings, ahead of plan, or the best option."
+    },
+    {
+     "cell": "C25",
+     "formula": "Red: something to check (a typo, or behind the plan)."
+    },
+    {
+     "cell": "B27",
+     "formula": "Estimates for planning: your lender's figures can differ a little (escrow changes, rounding, rate changes)."
+    },
+    {
+     "cell": "B29",
+     "formula": "Thank you for your purchase! Here's to the day your home is all yours."
+    }
+   ],
+   "fills": [
+    {
+     "range": "B16:C19",
+     "color": "FBF6EF"
+    },
+    {
+     "range": "B22",
+     "color": "FFFFFF"
+    },
+    {
+     "range": "B23",
+     "color": "FAF4EE"
+    },
+    {
+     "range": "B24",
+     "color": "DCEFD9"
+    },
+    {
+     "range": "B25",
+     "color": "F6CACA"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B22",
+     "color": "E5D5C5"
+    },
+    {
+     "range": "B23",
+     "color": "E5D5C5"
+    },
+    {
+     "range": "B24",
+     "color": "E5D5C5"
+    },
+    {
+     "range": "B25",
+     "color": "E5D5C5"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 11,
+     "color": "3E2C23"
+    },
+    {
+     "range": "B16:B19",
+     "bold": true,
+     "size": 11,
+     "color": "3E2C23"
+    },
+    {
+     "range": "B27",
+     "italic": true,
+     "size": 9,
+     "color": "3E2C23"
+    },
+    {
+     "range": "B29",
+     "italic": true,
+     "bold": true,
+     "size": 11,
+     "color": "B5583B"
+    }
+   ]
+  },
+  {
+   "name": "Dashboard",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "B5583B",
+   "grid_rows": 43,
+   "grid_cols": 12,
+   "row_height": 20,
+   "column_widths": {
+    "A": 2.5,
+    "B": 22,
+    "C": 14,
+    "D": 14,
+    "E": 14,
+    "F": 14,
+    "G": 14,
+    "H": 14,
+    "I": 14,
+    "J": 2.5
+   },
+   "section_bars": [
+    {
+     "range": "B2:I2",
+     "label": "MORTGAGE DASHBOARD",
+     "size": 16,
+     "color": "B5583B",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "B13:D13",
+     "label": "WHERE YOUR PAYMENT GOES",
+     "color": "EBC6B3",
+     "font_color": "3E2C23",
+     "align": "center"
+    },
+    {
+     "range": "B24:I24",
+     "label": "BALANCE OVER THE YEARS: WITH EXTRA VS. WITHOUT",
+     "color": "EBC6B3",
+     "font_color": "3E2C23",
+     "align": "center"
+    }
+   ],
+   "kpi_cards": [
+    {
+     "anchor": "B5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "MONTHLY PAYMENT",
+     "value": "=IF('Loan Details'!$L$23,ROUND('Loan Details'!$L$11+'Loan Details'!$L$24+'Loan Details'!$L$15,2),\"-\")",
+     "fill": "B5583B",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "D5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "LOAN AMOUNT",
+     "value": "='Loan Details'!$L$8",
+     "fill": "7A8B6F",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "F5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "PAID OFF BY",
+     "value": "=IF('Loan Details'!$L$23,EDATE('Loan Details'!$L$12,'Amortization'!$AB$4-1),\"-\")",
+     "fill": "EBC6B3",
+     "font_color": "3E2C23",
+     "value_size": 16,
+     "number_format": "mmm yyyy"
+    },
+    {
+     "anchor": "H5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "TOTAL INTEREST",
+     "value": "=IF('Loan Details'!$L$23,'Amortization'!$AB$5,\"-\")",
+     "fill": "F3E7D8",
+     "font_color": "3E2C23",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "B9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "INTEREST SAVED",
+     "value": "=IF('Loan Details'!$L$23,ROUND('Amortization'!$AB$7-'Amortization'!$AB$5,2),\"-\")",
+     "fill": "F3E7D8",
+     "font_color": "3E2C23",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "D9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "TIME SAVED",
+     "value": "=IF('Loan Details'!$L$23,IF(('Amortization'!$AB$6-'Amortization'!$AB$4)>=12,INT(('Amortization'!$AB$6-'Amortization'!$AB$4)/12)&\" yr \"&MOD(('Amortization'!$AB$6-'Amortization'!$AB$4),12)&\" mo\",('Amortization'!$AB$6-'Amortization'!$AB$4)&\" mo\"),\"-\")",
+     "fill": "EBC6B3",
+     "font_color": "3E2C23",
+     "value_size": 14
+    },
+    {
+     "anchor": "F9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "BALANCE NOW",
+     "value": "='Payment Tracker'!$Q$5",
+     "fill": "7A8B6F",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "H9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "MY EQUITY",
+     "value": "='Payment Tracker'!H6",
+     "fill": "B5583B",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "0%"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Your mortgage at a glance. Change anything on Loan Details and it all updates."
+    },
+    {
+     "cell": "B14",
+     "formula": "Part"
+    },
+    {
+     "cell": "C14",
+     "formula": "Per Month"
+    },
+    {
+     "cell": "D14",
+     "formula": "Share"
+    },
+    {
+     "cell": "B15",
+     "formula": "Principal & interest"
+    },
+    {
+     "cell": "C15",
+     "formula": "='Loan Details'!$L$11",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D15",
+     "formula": "=IF($C$20>0,C15/$C$20,\"\")",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B16",
+     "formula": "Property tax"
+    },
+    {
+     "cell": "C16",
+     "formula": "='Loan Details'!$L$13",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D16",
+     "formula": "=IF($C$20>0,C16/$C$20,\"\")",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B17",
+     "formula": "Home insurance"
+    },
+    {
+     "cell": "C17",
+     "formula": "='Loan Details'!$L$14",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D17",
+     "formula": "=IF($C$20>0,C17/$C$20,\"\")",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B18",
+     "formula": "PMI"
+    },
+    {
+     "cell": "C18",
+     "formula": "='Loan Details'!$L$15",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D18",
+     "formula": "=IF($C$20>0,C18/$C$20,\"\")",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B19",
+     "formula": "HOA"
+    },
+    {
+     "cell": "C19",
+     "formula": "='Loan Details'!$L$16",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D19",
+     "formula": "=IF($C$20>0,C19/$C$20,\"\")",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B20",
+     "formula": "TOTAL"
+    },
+    {
+     "cell": "C20",
+     "formula": "=ROUND(SUM(C15:C19),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B22",
+     "formula": "=IF('Loan Details'!$L$23,\"Equity bar:  \"&REPT(\"█\",ROUND(MAX(0,MIN(1,N('Payment Tracker'!H6)))*30,0))&REPT(\"░\",30-ROUND(MAX(0,MIN(1,N('Payment Tracker'!H6)))*30,0))&\"  \"&TEXT(N('Payment Tracker'!H6),\"0%\"),\"\")"
+    }
+   ],
+   "conditional_formats": [],
+   "borders": [
+    {
+     "range": "B5:C7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "D5:E7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "F5:G7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "H5:I7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "B9:C11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "D9:E11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "F9:G11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "H9:I11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "B14:D20",
+     "color": "E5D5C5"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B14:D14",
+     "color": "F3E7D8"
+    },
+    {
+     "range": "B20:D20",
+     "color": "F3E7D8"
+    },
+    {
+     "range": "C15:D19",
+     "color": "FAF4EE"
+    },
+    {
+     "range": "B22:I22",
+     "color": "FBF6EF"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "3E2C23"
+    },
+    {
+     "range": "B14:D14",
+     "bold": true,
+     "size": 10,
+     "color": "3E2C23",
+     "align": "center"
+    },
+    {
+     "range": "C15:D20",
+     "size": 10,
+     "color": "3E2C23",
+     "align": "center"
+    },
+    {
+     "range": "B20:D20",
+     "bold": true,
+     "size": 10,
+     "color": "3E2C23",
+     "align": "center"
+    },
+    {
+     "range": "B22",
+     "bold": true,
+     "size": 11,
+     "color": "B5583B"
+    }
+   ],
+   "charts": [
+    {
+     "type": "doughnut",
+     "anchor": "F13",
+     "data": "Dashboard!C15:C19",
+     "categories": "Dashboard!B15:B19",
+     "width": 12,
+     "height": 6.2,
+     "titles_from_data": false
+    },
+    {
+     "type": "line",
+     "anchor": "B25",
+     "data": "Yearly Summary!J11:K52",
+     "categories": "Yearly Summary!B12:B52",
+     "width": 22,
+     "height": 7.5,
+     "colors": [
+      "B5583B",
+      "7A8B6F"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Loan Details",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "B5583B",
+   "grid_rows": 43,
+   "grid_cols": 15,
+   "row_height": 20,
+   "column_widths": {
+    "A": 2.5,
+    "B": 24,
+    "C": 15,
+    "D": 44,
+    "E": 2.5,
+    "F": 24,
+    "G": 2.5,
+    "H": 16,
+    "I": 2.5,
+    "J": 8,
+    "K": 2.5,
+    "L": 10,
+    "M": 2.5,
+    "N": 10
+   },
+   "hidden_columns": [
+    "J",
+    "K",
+    "L",
+    "M",
+    "N"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:H2",
+     "label": "MY MORTGAGE",
+     "size": 16,
+     "color": "B5583B",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "B5:D5",
+     "label": "THE HOME & LOAN",
+     "color": "EBC6B3",
+     "font_color": "3E2C23",
+     "align": "left"
+    },
+    {
+     "range": "B13:D13",
+     "label": "MONTHLY COSTS",
+     "color": "EBC6B3",
+     "font_color": "3E2C23",
+     "align": "left"
+    },
+    {
+     "range": "B19:D19",
+     "label": "EXTRA PAYMENTS",
+     "color": "EBC6B3",
+     "font_color": "3E2C23",
+     "align": "left"
+    },
+    {
+     "range": "B25:D25",
+     "label": "ONE-TIME EXTRA PAYMENTS (A BONUS, AN INHERITANCE...)",
+     "color": "EBC6B3",
+     "font_color": "3E2C23",
+     "align": "left"
+    },
+    {
+     "range": "F5:H5",
+     "label": "YOUR RESULTS",
+     "color": "B5583B",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Type your numbers in the white cells. Everything else in the workbook updates from here."
+    },
+    {
+     "cell": "B6",
+     "formula": "Home price"
+    },
+    {
+     "cell": "C6",
+     "formula": 400000,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D6",
+     "formula": "The purchase price."
+    },
+    {
+     "cell": "B7",
+     "formula": "Down payment"
+    },
+    {
+     "cell": "C7",
+     "formula": 40000,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D7",
+     "formula": "An amount, or a percent like 10%."
+    },
+    {
+     "cell": "B8",
+     "formula": "Interest rate"
+    },
+    {
+     "cell": "C8",
+     "formula": 6.75,
+     "number_format": "[<1]0.00%;0.00\"%\""
+    },
+    {
+     "cell": "D8",
+     "formula": "The yearly rate: type 6.75 or 6.75%."
+    },
+    {
+     "cell": "B9",
+     "formula": "Loan term (years)"
+    },
+    {
+     "cell": "C9",
+     "formula": 30,
+     "number_format": "0"
+    },
+    {
+     "cell": "D9",
+     "formula": "Usually 30, 20 or 15."
+    },
+    {
+     "cell": "B10",
+     "formula": "First payment date"
+    },
+    {
+     "cell": "C10",
+     "formula": "=DATE(2027,2,1)",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "D10",
+     "formula": "Blank = this month."
+    },
+    {
+     "cell": "B11",
+     "formula": "Home value today"
+    },
+    {
+     "cell": "C11",
+     "formula": 415000,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D11",
+     "formula": "Optional, for your equity. Blank = the price."
+    },
+    {
+     "cell": "B14",
+     "formula": "Property tax per year"
+    },
+    {
+     "cell": "C14",
+     "formula": 4800,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D14",
+     "formula": "From your tax bill or listing."
+    },
+    {
+     "cell": "B15",
+     "formula": "Home insurance per year"
+    },
+    {
+     "cell": "C15",
+     "formula": 1800,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D15",
+     "formula": "Your yearly premium."
+    },
+    {
+     "cell": "B16",
+     "formula": "PMI per year"
+    },
+    {
+     "cell": "C16",
+     "formula": 0.5,
+     "number_format": "[<0.05]0.00%;0.00\"%\""
+    },
+    {
+     "cell": "D16",
+     "formula": "% of the loan if under 20% down: type 0.5 or 0.5%."
+    },
+    {
+     "cell": "B17",
+     "formula": "HOA per month"
+    },
+    {
+     "cell": "C17",
+     "formula": 0,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D17",
+     "formula": "Homeowners association dues, if any."
+    },
+    {
+     "cell": "B20",
+     "formula": "Extra each month"
+    },
+    {
+     "cell": "C20",
+     "formula": 100,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D20",
+     "formula": "Extra principal with every payment."
+    },
+    {
+     "cell": "B21",
+     "formula": "...starting with payment #"
+    },
+    {
+     "cell": "C21",
+     "formula": 1,
+     "number_format": "0"
+    },
+    {
+     "cell": "D21",
+     "formula": "1 = from the first payment."
+    },
+    {
+     "cell": "B22",
+     "formula": "Yearly extra payment"
+    },
+    {
+     "cell": "C22",
+     "formula": 2000,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D22",
+     "formula": "Like a tax refund or bonus, once a year."
+    },
+    {
+     "cell": "B23",
+     "formula": "...paid in"
+    },
+    {
+     "cell": "C23",
+     "formula": "April"
+    },
+    {
+     "cell": "D23",
+     "formula": "A month: April, or 4."
+    },
+    {
+     "cell": "B26",
+     "formula": "Date"
+    },
+    {
+     "cell": "C26",
+     "formula": "Amount"
+    },
+    {
+     "cell": "D26",
+     "formula": "What it is"
+    },
+    {
+     "cell": "B27",
+     "formula": "=DATE(2028,12,1)"
+    },
+    {
+     "cell": "C27",
+     "formula": 5000
+    },
+    {
+     "cell": "D27",
+     "formula": "Year-end bonus"
+    },
+    {
+     "cell": "J27",
+     "formula": "=IF(AND(ISNUMBER(B27),N(B27)>=1,ISNUMBER(C27)),YEAR(B27)*12+MONTH(B27),\"\")"
+    },
+    {
+     "cell": "J28",
+     "formula": "=IF(AND(ISNUMBER(B28),N(B28)>=1,ISNUMBER(C28)),YEAR(B28)*12+MONTH(B28),\"\")"
+    },
+    {
+     "cell": "J29",
+     "formula": "=IF(AND(ISNUMBER(B29),N(B29)>=1,ISNUMBER(C29)),YEAR(B29)*12+MONTH(B29),\"\")"
+    },
+    {
+     "cell": "J30",
+     "formula": "=IF(AND(ISNUMBER(B30),N(B30)>=1,ISNUMBER(C30)),YEAR(B30)*12+MONTH(B30),\"\")"
+    },
+    {
+     "cell": "J31",
+     "formula": "=IF(AND(ISNUMBER(B31),N(B31)>=1,ISNUMBER(C31)),YEAR(B31)*12+MONTH(B31),\"\")"
+    },
+    {
+     "cell": "J32",
+     "formula": "=IF(AND(ISNUMBER(B32),N(B32)>=1,ISNUMBER(C32)),YEAR(B32)*12+MONTH(B32),\"\")"
+    },
+    {
+     "cell": "J33",
+     "formula": "=IF(AND(ISNUMBER(B33),N(B33)>=1,ISNUMBER(C33)),YEAR(B33)*12+MONTH(B33),\"\")"
+    },
+    {
+     "cell": "J34",
+     "formula": "=IF(AND(ISNUMBER(B34),N(B34)>=1,ISNUMBER(C34)),YEAR(B34)*12+MONTH(B34),\"\")"
+    },
+    {
+     "cell": "J35",
+     "formula": "=IF(AND(ISNUMBER(B35),N(B35)>=1,ISNUMBER(C35)),YEAR(B35)*12+MONTH(B35),\"\")"
+    },
+    {
+     "cell": "J36",
+     "formula": "=IF(AND(ISNUMBER(B36),N(B36)>=1,ISNUMBER(C36)),YEAR(B36)*12+MONTH(B36),\"\")"
+    },
+    {
+     "cell": "J37",
+     "formula": "=IF(AND(ISNUMBER(B37),N(B37)>=1,ISNUMBER(C37)),YEAR(B37)*12+MONTH(B37),\"\")"
+    },
+    {
+     "cell": "J38",
+     "formula": "=IF(AND(ISNUMBER(B38),N(B38)>=1,ISNUMBER(C38)),YEAR(B38)*12+MONTH(B38),\"\")"
+    },
+    {
+     "cell": "N6",
+     "formula": "January"
+    },
+    {
+     "cell": "N7",
+     "formula": "February"
+    },
+    {
+     "cell": "N8",
+     "formula": "March"
+    },
+    {
+     "cell": "N9",
+     "formula": "April"
+    },
+    {
+     "cell": "N10",
+     "formula": "May"
+    },
+    {
+     "cell": "N11",
+     "formula": "June"
+    },
+    {
+     "cell": "N12",
+     "formula": "July"
+    },
+    {
+     "cell": "N13",
+     "formula": "August"
+    },
+    {
+     "cell": "N14",
+     "formula": "September"
+    },
+    {
+     "cell": "N15",
+     "formula": "October"
+    },
+    {
+     "cell": "N16",
+     "formula": "November"
+    },
+    {
+     "cell": "N17",
+     "formula": "December"
+    },
+    {
+     "cell": "L6",
+     "formula": "=ROUND(MAX(0,N(C6)),2)"
+    },
+    {
+     "cell": "L7",
+     "formula": "=MIN(L6,ROUND(IF(N(C7)<1,MAX(0,N(C7))*L6,N(C7)),2))"
+    },
+    {
+     "cell": "L8",
+     "formula": "=MAX(0,ROUND(L6-L7,2))"
+    },
+    {
+     "cell": "L9",
+     "formula": "=MAX(0,IF(N(C8)>=1,N(C8)/100,N(C8)))/12"
+    },
+    {
+     "cell": "L10",
+     "formula": "=MIN(480,MAX(0,ROUND(N(C9)*12,0)))"
+    },
+    {
+     "cell": "L11",
+     "formula": "=IF(OR(L8=0,L10=0),0,ROUND(PMT(L9,L10,-L8),2))"
+    },
+    {
+     "cell": "L12",
+     "formula": "=IF(AND(ISNUMBER(C10),N(C10)>=1,N(C10)<=2958465),C10,DATE(YEAR(TODAY()),MONTH(TODAY()),1))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "L13",
+     "formula": "=ROUND(MAX(0,N(C14))/12,2)"
+    },
+    {
+     "cell": "L14",
+     "formula": "=ROUND(MAX(0,N(C15))/12,2)"
+    },
+    {
+     "cell": "L15",
+     "formula": "=IF(AND(L6>0,L8>0.8*L6),ROUND(L8*MAX(0,IF(N(C16)>=0.05,N(C16)/100,N(C16)))/12,2),0)"
+    },
+    {
+     "cell": "L16",
+     "formula": "=ROUND(MAX(0,N(C17)),2)"
+    },
+    {
+     "cell": "L17",
+     "formula": "=ROUND(0.78*L6,2)"
+    },
+    {
+     "cell": "L18",
+     "formula": "=MAX(0,N(C20))"
+    },
+    {
+     "cell": "L19",
+     "formula": "=MAX(1,INT(N(C21)))"
+    },
+    {
+     "cell": "L20",
+     "formula": "=MAX(0,N(C22))"
+    },
+    {
+     "cell": "L21",
+     "formula": "=IF(AND(ISNUMBER(C23),N(C23)>=1,N(C23)<13),INT(C23),IF(TRIM(C23&\"\")=\"\",0,IFERROR(MATCH(LEFT(TRIM(C23),3)&\"*\",$N$6:$N$17,0),0)))"
+    },
+    {
+     "cell": "L22",
+     "formula": "=IF(N(C11)>0,C11,L6)"
+    },
+    {
+     "cell": "L23",
+     "formula": "=L11>0"
+    },
+    {
+     "cell": "L24",
+     "formula": "=ROUND(L13+L14+L16,2)"
+    },
+    {
+     "cell": "F6",
+     "formula": "Down payment %"
+    },
+    {
+     "cell": "H6",
+     "formula": "=IF($L$6>0,$L$7/$L$6,\"\")",
+     "number_format": "0.0%"
+    },
+    {
+     "cell": "F7",
+     "formula": "Loan amount"
+    },
+    {
+     "cell": "H7",
+     "formula": "=$L$8",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F8",
+     "formula": "Principal & interest"
+    },
+    {
+     "cell": "H8",
+     "formula": "=$L$11",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F9",
+     "formula": "Property tax"
+    },
+    {
+     "cell": "H9",
+     "formula": "=$L$13",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F10",
+     "formula": "Home insurance"
+    },
+    {
+     "cell": "H10",
+     "formula": "=$L$14",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F11",
+     "formula": "PMI"
+    },
+    {
+     "cell": "H11",
+     "formula": "=$L$15",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F12",
+     "formula": "HOA"
+    },
+    {
+     "cell": "H12",
+     "formula": "=$L$16",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F13",
+     "formula": "MONTHLY PAYMENT"
+    },
+    {
+     "cell": "H13",
+     "formula": "=ROUND($L$11+$L$13+$L$14+$L$15+$L$16,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F14",
+     "formula": "PMI ends"
+    },
+    {
+     "cell": "H14",
+     "formula": "=IF(N('Amortization'!$AB$10)=0,\"No PMI\",EDATE($L$12,'Amortization'!$AB$10))",
+     "number_format": "mmm yyyy"
+    },
+    {
+     "cell": "F15",
+     "formula": "Paid off (no extra)"
+    },
+    {
+     "cell": "H15",
+     "formula": "=IF($L$23,EDATE($L$12,'Amortization'!$AB$6-1),\"-\")",
+     "number_format": "mmm yyyy"
+    },
+    {
+     "cell": "F16",
+     "formula": "Paid off (with extra)"
+    },
+    {
+     "cell": "H16",
+     "formula": "=IF($L$23,EDATE($L$12,'Amortization'!$AB$4-1),\"-\")",
+     "number_format": "mmm yyyy"
+    },
+    {
+     "cell": "F17",
+     "formula": "Total interest (no extra)"
+    },
+    {
+     "cell": "H17",
+     "formula": "=IF($L$23,'Amortization'!$AB$7,\"-\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F18",
+     "formula": "Total interest (with extra)"
+    },
+    {
+     "cell": "H18",
+     "formula": "=IF($L$23,'Amortization'!$AB$5,\"-\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F19",
+     "formula": "Interest saved"
+    },
+    {
+     "cell": "H19",
+     "formula": "=IF($L$23,ROUND('Amortization'!$AB$7-'Amortization'!$AB$5,2),\"-\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F20",
+     "formula": "Time saved"
+    },
+    {
+     "cell": "H20",
+     "formula": "=IF($L$23,IF(('Amortization'!$AB$6-'Amortization'!$AB$4)>=12,INT(('Amortization'!$AB$6-'Amortization'!$AB$4)/12)&\" yr \"&MOD(('Amortization'!$AB$6-'Amortization'!$AB$4),12)&\" mo\",('Amortization'!$AB$6-'Amortization'!$AB$4)&\" mo\"),\"-\")"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "C6",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C6<>\"\",NOT(ISNUMBER(C6))),N(C6)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C7",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C7<>\"\",NOT(ISNUMBER(C7))),N(C7)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C8",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C8<>\"\",NOT(ISNUMBER(C8))),N(C8)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C9",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C9<>\"\",NOT(ISNUMBER(C9))),N(C9)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C11",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C11<>\"\",NOT(ISNUMBER(C11))),N(C11)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C14",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C14<>\"\",NOT(ISNUMBER(C14))),N(C14)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C15",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C15<>\"\",NOT(ISNUMBER(C15))),N(C15)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C16",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C16<>\"\",NOT(ISNUMBER(C16))),N(C16)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C17",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C17<>\"\",NOT(ISNUMBER(C17))),N(C17)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C20",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C20<>\"\",NOT(ISNUMBER(C20))),N(C20)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C21",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C21<>\"\",NOT(ISNUMBER(C21))),N(C21)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C22",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C22<>\"\",NOT(ISNUMBER(C22))),N(C22)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C10",
+     "type": "formula",
+     "formula": [
+      "AND(C10<>\"\",OR(NOT(ISNUMBER(C10)),N(C10)<1))"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C27:C38",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C27<>\"\",NOT(ISNUMBER(C27))),N(C27)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "B27:B38",
+     "type": "formula",
+     "formula": [
+      "AND(B27<>\"\",OR(NOT(ISNUMBER(B27)),N(B27)<1))"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C23",
+     "type": "formula",
+     "formula": [
+      "AND(TRIM(C23&\"\")<>\"\",$L$21=0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C7",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER(C7),N(C7)>=1,N(C7)>N(C6))"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "F19:H20",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER($H$19),$H$19>0)"
+     ],
+     "fill": "DCEFD9"
+    }
+   ],
+   "validations": [
+    {
+     "range": "C23",
+     "type": "list",
+     "values": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+     ],
+     "strict": false
+    }
+   ],
+   "fills": [
+    {
+     "range": "F6:H20",
+     "color": "FAF4EE"
+    },
+    {
+     "range": "F13:H13",
+     "color": "EBC6B3"
+    },
+    {
+     "range": "B26:D26",
+     "color": "F3E7D8"
+    }
+   ],
+   "borders": [
+    {
+     "range": "C6:C11",
+     "color": "E5D5C5"
+    },
+    {
+     "range": "C14:C17",
+     "color": "E5D5C5"
+    },
+    {
+     "range": "C20:C23",
+     "color": "E5D5C5"
+    },
+    {
+     "range": "B26:D38",
+     "color": "E5D5C5"
+    },
+    {
+     "range": "F6:H20",
+     "color": "E5D5C5",
+     "inner_vertical": false
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "3E2C23"
+    },
+    {
+     "range": "B6:B23",
+     "bold": true,
+     "size": 10,
+     "color": "3E2C23"
+    },
+    {
+     "range": "D6:D23",
+     "italic": true,
+     "size": 9,
+     "color": "3E2C23"
+    },
+    {
+     "range": "C6:C23",
+     "bold": true,
+     "size": 11,
+     "color": "3E2C23",
+     "align": "center"
+    },
+    {
+     "range": "B26:D26",
+     "bold": true,
+     "size": 10,
+     "color": "3E2C23",
+     "align": "center"
+    },
+    {
+     "range": "B27:C38",
+     "size": 10,
+     "color": "3E2C23",
+     "align": "center"
+    },
+    {
+     "range": "F6:F20",
+     "size": 10,
+     "color": "3E2C23"
+    },
+    {
+     "range": "H6:H20",
+     "size": 11,
+     "color": "3E2C23",
+     "align": "right"
+    },
+    {
+     "range": "F13:H13",
+     "bold": true,
+     "size": 12,
+     "color": "3E2C23"
+    },
+    {
+     "range": "H19:H20",
+     "bold": true,
+     "size": 11,
+     "color": "3E2C23",
+     "align": "right"
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "B27:B38",
+     "format": "mmm d, yyyy"
+    },
+    {
+     "range": "C27:C38",
+     "format": "$#,##0.00"
+    }
+   ]
+  },
+  {
+   "name": "Amortization",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "7A8B6F",
+   "grid_rows": 493,
+   "grid_cols": 30,
+   "row_height": 19,
+   "freeze": "A11",
+   "column_widths": {
+    "A": 2.5,
+    "B": 7,
+    "C": 11,
+    "D": 14,
+    "E": 14,
+    "F": 11,
+    "G": 12,
+    "H": 12,
+    "I": 14,
+    "J": 10,
+    "K": 13,
+    "L": 13,
+    "M": 14,
+    "N": 2.5
+   },
+   "hidden_columns": [
+    "O",
+    "P",
+    "Q",
+    "R",
+    "S",
+    "T",
+    "U",
+    "V",
+    "W",
+    "X",
+    "Y",
+    "Z",
+    "AA",
+    "AB",
+    "AC"
+   ],
+   "row_heights": {
+    "10": 32
+   },
+   "section_bars": [
+    {
+     "range": "B2:M2",
+     "label": "AMORTIZATION SCHEDULE",
+     "size": 16,
+     "color": "B5583B",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "B9:M9",
+     "label": "MONTH BY MONTH",
+     "color": "EBC6B3",
+     "font_color": "3E2C23",
+     "align": "center"
+    }
+   ],
+   "kpi_cards": [
+    {
+     "anchor": "B5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "MONTHLY PAYMENT",
+     "value": "=IF('Loan Details'!$L$23,ROUND('Loan Details'!$L$11+'Loan Details'!$L$24+'Loan Details'!$L$15,2),\"-\")",
+     "fill": "B5583B",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "D5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "PAID OFF BY",
+     "value": "=IF('Loan Details'!$L$23,EDATE('Loan Details'!$L$12,AB4-1),\"-\")",
+     "fill": "7A8B6F",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "mmm yyyy"
+    },
+    {
+     "anchor": "F5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "TOTAL INTEREST",
+     "value": "=IF('Loan Details'!$L$23,AB5,\"-\")",
+     "fill": "EBC6B3",
+     "font_color": "3E2C23",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "H5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "EXTRA PAID",
+     "value": "=IF('Loan Details'!$L$23,AB8,\"-\")",
+     "fill": "F3E7D8",
+     "font_color": "3E2C23",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "J5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "TOTAL PMI",
+     "value": "=IF('Loan Details'!$L$23,AB9,\"-\")",
+     "fill": "FBF6EF",
+     "font_color": "3E2C23",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Every payment until the loan is paid off, including your extra payments. Tax, insurance and HOA are shown so you see the full monthly cost."
+    },
+    {
+     "col": "O",
+     "range_rows": [
+      11,
+      490
+     ],
+     "formula": "=EDATE('Loan Details'!$L$12,(ROW()-10)-1)",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "col": "P",
+     "range_rows": [
+      11,
+      490
+     ],
+     "formula": "=YEAR(O{row})"
+    },
+    {
+     "col": "Q",
+     "range_rows": [
+      11,
+      490
+     ],
+     "formula": "=P{row}*12+MONTH(O{row})"
+    },
+    {
+     "col": "R",
+     "range_rows": [
+      11,
+      490
+     ],
+     "formula": "=IF(ROW()=11,'Loan Details'!$L$8,V{row-1})"
+    },
+    {
+     "col": "S",
+     "range_rows": [
+      11,
+      490
+     ],
+     "formula": "=ROUND(R{row}*'Loan Details'!$L$9,2)"
+    },
+    {
+     "col": "T",
+     "range_rows": [
+      11,
+      490
+     ],
+     "formula": "=IF(R{row}<=0,0,IF((ROW()-10)>='Loan Details'!$L$10,R{row},MIN(R{row},'Loan Details'!$L$11-S{row})))"
+    },
+    {
+     "col": "U",
+     "range_rows": [
+      11,
+      490
+     ],
+     "formula": "=IF(R{row}-T{row}<=0,0,MIN(R{row}-T{row},IF((ROW()-10)>='Loan Details'!$L$19,'Loan Details'!$L$18,0)+IF(MONTH(O{row})='Loan Details'!$L$21,'Loan Details'!$L$20,0)+SUMIFS('Loan Details'!$C$27:$C$38,'Loan Details'!$J$27:$J$38,Q{row})))"
+    },
+    {
+     "col": "V",
+     "range_rows": [
+      11,
+      490
+     ],
+     "formula": "=ROUND(R{row}-T{row}-U{row},2)"
+    },
+    {
+     "col": "W",
+     "range_rows": [
+      11,
+      490
+     ],
+     "formula": "=ROUND(IF(ROW()=11,'Loan Details'!$L$8,X{row-1})*'Loan Details'!$L$9,2)"
+    },
+    {
+     "col": "Y",
+     "range_rows": [
+      11,
+      490
+     ],
+     "formula": "=IF(IF(ROW()=11,'Loan Details'!$L$8,X{row-1})<=0,0,IF((ROW()-10)>='Loan Details'!$L$10,IF(ROW()=11,'Loan Details'!$L$8,X{row-1})+W{row},MIN('Loan Details'!$L$11,IF(ROW()=11,'Loan Details'!$L$8,X{row-1})+W{row})))"
+    },
+    {
+     "col": "X",
+     "range_rows": [
+      11,
+      490
+     ],
+     "formula": "=ROUND(IF(ROW()=11,'Loan Details'!$L$8,X{row-1})+W{row}-Y{row},2)"
+    },
+    {
+     "col": "Z",
+     "range_rows": [
+      11,
+      490
+     ],
+     "formula": "=IF(AND(R{row}>0,'Loan Details'!$L$15>0,R{row}>'Loan Details'!$L$17),'Loan Details'!$L$15,0)"
+    },
+    {
+     "col": "B",
+     "range_rows": [
+      11,
+      490
+     ],
+     "formula": "=IF(AND('Loan Details'!$L$23,R{row}>0),(ROW()-10),\"\")",
+     "number_format": "0"
+    },
+    {
+     "col": "C",
+     "range_rows": [
+      11,
+      490
+     ],
+     "formula": "=IF(B{row}=\"\",\"\",O{row})",
+     "number_format": "mmm yyyy"
+    },
+    {
+     "col": "D",
+     "range_rows": [
+      11,
+      490
+     ],
+     "formula": "=IF(B{row}=\"\",\"\",R{row})",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "E",
+     "range_rows": [
+      11,
+      490
+     ],
+     "formula": "=IF(B{row}=\"\",\"\",ROUND(T{row}+S{row},2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "F",
+     "range_rows": [
+      11,
+      490
+     ],
+     "formula": "=IF(B{row}=\"\",\"\",U{row})",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "G",
+     "range_rows": [
+      11,
+      490
+     ],
+     "formula": "=IF(B{row}=\"\",\"\",T{row})",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "H",
+     "range_rows": [
+      11,
+      490
+     ],
+     "formula": "=IF(B{row}=\"\",\"\",S{row})",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "I",
+     "range_rows": [
+      11,
+      490
+     ],
+     "formula": "=IF(B{row}=\"\",\"\",V{row})",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "J",
+     "range_rows": [
+      11,
+      490
+     ],
+     "formula": "=IF(B{row}=\"\",\"\",Z{row})",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "K",
+     "range_rows": [
+      11,
+      490
+     ],
+     "formula": "=IF(B{row}=\"\",\"\",'Loan Details'!$L$24)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "L",
+     "range_rows": [
+      11,
+      490
+     ],
+     "formula": "=IF(B{row}=\"\",\"\",ROUND(E{row}+F{row}+J{row}+K{row},2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "M",
+     "range_rows": [
+      11,
+      490
+     ],
+     "formula": "=IF(B{row}=\"\",\"\",ROUND(SUM(S$11:S{row}),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "AB4",
+     "formula": "=COUNTIF(R11:R490,\">0\")"
+    },
+    {
+     "cell": "AB5",
+     "formula": "=ROUND(SUM(S11:S490),2)"
+    },
+    {
+     "cell": "AB6",
+     "formula": "=COUNTIF(Y11:Y490,\">0\")"
+    },
+    {
+     "cell": "AB7",
+     "formula": "=ROUND(SUM(W11:W490),2)"
+    },
+    {
+     "cell": "AB8",
+     "formula": "=ROUND(SUM(U11:U490),2)"
+    },
+    {
+     "cell": "AB9",
+     "formula": "=ROUND(SUM(Z11:Z490),2)"
+    },
+    {
+     "cell": "AB10",
+     "formula": "=COUNTIF(Z11:Z490,\">0\")"
+    },
+    {
+     "cell": "B10",
+     "formula": "#"
+    },
+    {
+     "cell": "C10",
+     "formula": "Date"
+    },
+    {
+     "cell": "D10",
+     "formula": "Start Balance"
+    },
+    {
+     "cell": "E10",
+     "formula": "Principal & Interest"
+    },
+    {
+     "cell": "F10",
+     "formula": "Extra"
+    },
+    {
+     "cell": "G10",
+     "formula": "Principal"
+    },
+    {
+     "cell": "H10",
+     "formula": "Interest"
+    },
+    {
+     "cell": "I10",
+     "formula": "End Balance"
+    },
+    {
+     "cell": "J10",
+     "formula": "PMI"
+    },
+    {
+     "cell": "K10",
+     "formula": "Tax, Ins. & HOA"
+    },
+    {
+     "cell": "L10",
+     "formula": "Total Paid"
+    },
+    {
+     "cell": "M10",
+     "formula": "Interest So Far"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "B11:M490",
+     "type": "formula",
+     "formula": [
+      "AND($B11<>\"\",MOD($B11,12)=0)"
+     ],
+     "fill": "F3E7D8"
+    },
+    {
+     "range": "F11:F490",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER(F11),F11>0)"
+     ],
+     "fill": "DCEFD9"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:C7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "D5:E7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "F5:G7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "H5:I7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "J5:K7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "B10:M10",
+     "color": "E5D5C5"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B10:M10",
+     "color": "F3E7D8"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "3E2C23"
+    },
+    {
+     "range": "B10:M10",
+     "bold": true,
+     "size": 9,
+     "color": "3E2C23",
+     "align": "center",
+     "wrap": true
+    },
+    {
+     "range": "B11:C490",
+     "size": 9,
+     "color": "3E2C23",
+     "align": "center"
+    },
+    {
+     "range": "D11:M490",
+     "size": 9,
+     "color": "3E2C23",
+     "align": "right"
+    }
+   ]
+  },
+  {
+   "name": "Yearly Summary",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "D98B6E",
+   "grid_rows": 76,
+   "grid_cols": 16,
+   "row_height": 19,
+   "column_widths": {
+    "A": 2.5,
+    "B": 8,
+    "C": 10,
+    "D": 13,
+    "E": 13,
+    "F": 13,
+    "G": 13,
+    "H": 13,
+    "I": 13,
+    "J": 13,
+    "K": 13,
+    "L": 9,
+    "M": 2.5,
+    "N": 7,
+    "O": 7
+   },
+   "hidden_columns": [
+    "N",
+    "O"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:L2",
+     "label": "YEARLY SUMMARY",
+     "size": 16,
+     "color": "B5583B",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "B10:L10",
+     "label": "YEAR BY YEAR",
+     "color": "EBC6B3",
+     "font_color": "3E2C23",
+     "align": "center"
+    },
+    {
+     "range": "B55:L55",
+     "label": "BALANCE: WITH EXTRA (TERRACOTTA) VS. WITHOUT (SAGE)  |  PRINCIPAL VS. INTEREST",
+     "color": "EBC6B3",
+     "font_color": "3E2C23",
+     "align": "center"
+    }
+   ],
+   "kpi_cards": [
+    {
+     "anchor": "B5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "INTEREST IN YEAR 1",
+     "value": "=IF(B12=\"\",\"-\",E12)",
+     "fill": "B5583B",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "D5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "TOTAL INTEREST",
+     "value": "=IF(B12=\"\",\"-\",E53)",
+     "fill": "7A8B6F",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "F5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "TOTAL PAID",
+     "value": "=IF(B12=\"\",\"-\",I53)",
+     "fill": "EBC6B3",
+     "font_color": "3E2C23",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "H5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "MORTGAGE-FREE IN",
+     "value": "=IF('Loan Details'!$L$23,YEAR(EDATE('Loan Details'!$L$12,'Amortization'!$AB$4-1)),\"-\")",
+     "fill": "F3E7D8",
+     "font_color": "3E2C23",
+     "value_size": 16,
+     "number_format": "0"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Each calendar year of your loan. Interest paid per year is handy at tax time."
+    },
+    {
+     "cell": "O4",
+     "formula": "=IF('Loan Details'!$L$23,YEAR(EDATE('Loan Details'!$L$12,MAX('Amortization'!$AB$4,'Amortization'!$AB$6)-1)),0)"
+    },
+    {
+     "cell": "B11",
+     "formula": "Year"
+    },
+    {
+     "cell": "C11",
+     "formula": "Payments"
+    },
+    {
+     "cell": "D11",
+     "formula": "Principal Paid"
+    },
+    {
+     "cell": "E11",
+     "formula": "Interest"
+    },
+    {
+     "cell": "F11",
+     "formula": "Extra (in Principal)"
+    },
+    {
+     "cell": "G11",
+     "formula": "PMI"
+    },
+    {
+     "cell": "H11",
+     "formula": "Tax, Ins. & HOA"
+    },
+    {
+     "cell": "I11",
+     "formula": "Total Paid"
+    },
+    {
+     "cell": "J11",
+     "formula": "End Balance"
+    },
+    {
+     "cell": "K11",
+     "formula": "Without Extra"
+    },
+    {
+     "cell": "L11",
+     "formula": "Equity"
+    },
+    {
+     "cell": "N12",
+     "formula": "=YEAR('Loan Details'!$L$12)+0"
+    },
+    {
+     "cell": "B12",
+     "formula": "=IF(AND('Loan Details'!$L$23,$N12<=$O$4),$N12,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C12",
+     "formula": "=IF(B12=\"\",\"\",COUNTIFS('Amortization'!$P$11:$P$490,$N12,'Amortization'!$R$11:$R$490,\">0\"))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D12",
+     "formula": "=IF(B12=\"\",\"\",ROUND(ROUND(SUMIFS('Amortization'!$T$11:$T$490,'Amortization'!$P$11:$P$490,$N12),2)+ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N12),2),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E12",
+     "formula": "=IF(B12=\"\",\"\",ROUND(SUMIFS('Amortization'!$S$11:$S$490,'Amortization'!$P$11:$P$490,$N12),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F12",
+     "formula": "=IF(B12=\"\",\"\",ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N12),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G12",
+     "formula": "=IF(B12=\"\",\"\",ROUND(SUMIFS('Amortization'!$Z$11:$Z$490,'Amortization'!$P$11:$P$490,$N12),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H12",
+     "formula": "=IF(B12=\"\",\"\",ROUND(C12*'Loan Details'!$L$24,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I12",
+     "formula": "=IF(B12=\"\",\"\",ROUND(D12+E12+G12+H12,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J12",
+     "formula": "=IF(B12=\"\",\"\",INDEX('Amortization'!$V$11:$V$490,MATCH($N12,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K12",
+     "formula": "=IF(B12=\"\",\"\",INDEX('Amortization'!$X$11:$X$490,MATCH($N12,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L12",
+     "formula": "=IF(OR(B12=\"\",N('Loan Details'!$L$22)<=0),\"\",MAX(0,MIN(1,('Loan Details'!$L$22-J12)/'Loan Details'!$L$22)))",
+     "number_format": "0%"
+    },
+    {
+     "cell": "N13",
+     "formula": "=YEAR('Loan Details'!$L$12)+1"
+    },
+    {
+     "cell": "B13",
+     "formula": "=IF(AND('Loan Details'!$L$23,$N13<=$O$4),$N13,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C13",
+     "formula": "=IF(B13=\"\",\"\",COUNTIFS('Amortization'!$P$11:$P$490,$N13,'Amortization'!$R$11:$R$490,\">0\"))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D13",
+     "formula": "=IF(B13=\"\",\"\",ROUND(ROUND(SUMIFS('Amortization'!$T$11:$T$490,'Amortization'!$P$11:$P$490,$N13),2)+ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N13),2),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E13",
+     "formula": "=IF(B13=\"\",\"\",ROUND(SUMIFS('Amortization'!$S$11:$S$490,'Amortization'!$P$11:$P$490,$N13),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F13",
+     "formula": "=IF(B13=\"\",\"\",ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N13),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G13",
+     "formula": "=IF(B13=\"\",\"\",ROUND(SUMIFS('Amortization'!$Z$11:$Z$490,'Amortization'!$P$11:$P$490,$N13),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H13",
+     "formula": "=IF(B13=\"\",\"\",ROUND(C13*'Loan Details'!$L$24,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I13",
+     "formula": "=IF(B13=\"\",\"\",ROUND(D13+E13+G13+H13,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J13",
+     "formula": "=IF(B13=\"\",\"\",INDEX('Amortization'!$V$11:$V$490,MATCH($N13,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K13",
+     "formula": "=IF(B13=\"\",\"\",INDEX('Amortization'!$X$11:$X$490,MATCH($N13,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L13",
+     "formula": "=IF(OR(B13=\"\",N('Loan Details'!$L$22)<=0),\"\",MAX(0,MIN(1,('Loan Details'!$L$22-J13)/'Loan Details'!$L$22)))",
+     "number_format": "0%"
+    },
+    {
+     "cell": "N14",
+     "formula": "=YEAR('Loan Details'!$L$12)+2"
+    },
+    {
+     "cell": "B14",
+     "formula": "=IF(AND('Loan Details'!$L$23,$N14<=$O$4),$N14,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C14",
+     "formula": "=IF(B14=\"\",\"\",COUNTIFS('Amortization'!$P$11:$P$490,$N14,'Amortization'!$R$11:$R$490,\">0\"))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D14",
+     "formula": "=IF(B14=\"\",\"\",ROUND(ROUND(SUMIFS('Amortization'!$T$11:$T$490,'Amortization'!$P$11:$P$490,$N14),2)+ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N14),2),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E14",
+     "formula": "=IF(B14=\"\",\"\",ROUND(SUMIFS('Amortization'!$S$11:$S$490,'Amortization'!$P$11:$P$490,$N14),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F14",
+     "formula": "=IF(B14=\"\",\"\",ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N14),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G14",
+     "formula": "=IF(B14=\"\",\"\",ROUND(SUMIFS('Amortization'!$Z$11:$Z$490,'Amortization'!$P$11:$P$490,$N14),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H14",
+     "formula": "=IF(B14=\"\",\"\",ROUND(C14*'Loan Details'!$L$24,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I14",
+     "formula": "=IF(B14=\"\",\"\",ROUND(D14+E14+G14+H14,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J14",
+     "formula": "=IF(B14=\"\",\"\",INDEX('Amortization'!$V$11:$V$490,MATCH($N14,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K14",
+     "formula": "=IF(B14=\"\",\"\",INDEX('Amortization'!$X$11:$X$490,MATCH($N14,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L14",
+     "formula": "=IF(OR(B14=\"\",N('Loan Details'!$L$22)<=0),\"\",MAX(0,MIN(1,('Loan Details'!$L$22-J14)/'Loan Details'!$L$22)))",
+     "number_format": "0%"
+    },
+    {
+     "cell": "N15",
+     "formula": "=YEAR('Loan Details'!$L$12)+3"
+    },
+    {
+     "cell": "B15",
+     "formula": "=IF(AND('Loan Details'!$L$23,$N15<=$O$4),$N15,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C15",
+     "formula": "=IF(B15=\"\",\"\",COUNTIFS('Amortization'!$P$11:$P$490,$N15,'Amortization'!$R$11:$R$490,\">0\"))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D15",
+     "formula": "=IF(B15=\"\",\"\",ROUND(ROUND(SUMIFS('Amortization'!$T$11:$T$490,'Amortization'!$P$11:$P$490,$N15),2)+ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N15),2),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E15",
+     "formula": "=IF(B15=\"\",\"\",ROUND(SUMIFS('Amortization'!$S$11:$S$490,'Amortization'!$P$11:$P$490,$N15),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F15",
+     "formula": "=IF(B15=\"\",\"\",ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N15),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G15",
+     "formula": "=IF(B15=\"\",\"\",ROUND(SUMIFS('Amortization'!$Z$11:$Z$490,'Amortization'!$P$11:$P$490,$N15),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H15",
+     "formula": "=IF(B15=\"\",\"\",ROUND(C15*'Loan Details'!$L$24,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I15",
+     "formula": "=IF(B15=\"\",\"\",ROUND(D15+E15+G15+H15,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J15",
+     "formula": "=IF(B15=\"\",\"\",INDEX('Amortization'!$V$11:$V$490,MATCH($N15,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K15",
+     "formula": "=IF(B15=\"\",\"\",INDEX('Amortization'!$X$11:$X$490,MATCH($N15,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L15",
+     "formula": "=IF(OR(B15=\"\",N('Loan Details'!$L$22)<=0),\"\",MAX(0,MIN(1,('Loan Details'!$L$22-J15)/'Loan Details'!$L$22)))",
+     "number_format": "0%"
+    },
+    {
+     "cell": "N16",
+     "formula": "=YEAR('Loan Details'!$L$12)+4"
+    },
+    {
+     "cell": "B16",
+     "formula": "=IF(AND('Loan Details'!$L$23,$N16<=$O$4),$N16,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C16",
+     "formula": "=IF(B16=\"\",\"\",COUNTIFS('Amortization'!$P$11:$P$490,$N16,'Amortization'!$R$11:$R$490,\">0\"))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D16",
+     "formula": "=IF(B16=\"\",\"\",ROUND(ROUND(SUMIFS('Amortization'!$T$11:$T$490,'Amortization'!$P$11:$P$490,$N16),2)+ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N16),2),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E16",
+     "formula": "=IF(B16=\"\",\"\",ROUND(SUMIFS('Amortization'!$S$11:$S$490,'Amortization'!$P$11:$P$490,$N16),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F16",
+     "formula": "=IF(B16=\"\",\"\",ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N16),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G16",
+     "formula": "=IF(B16=\"\",\"\",ROUND(SUMIFS('Amortization'!$Z$11:$Z$490,'Amortization'!$P$11:$P$490,$N16),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H16",
+     "formula": "=IF(B16=\"\",\"\",ROUND(C16*'Loan Details'!$L$24,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I16",
+     "formula": "=IF(B16=\"\",\"\",ROUND(D16+E16+G16+H16,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J16",
+     "formula": "=IF(B16=\"\",\"\",INDEX('Amortization'!$V$11:$V$490,MATCH($N16,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K16",
+     "formula": "=IF(B16=\"\",\"\",INDEX('Amortization'!$X$11:$X$490,MATCH($N16,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L16",
+     "formula": "=IF(OR(B16=\"\",N('Loan Details'!$L$22)<=0),\"\",MAX(0,MIN(1,('Loan Details'!$L$22-J16)/'Loan Details'!$L$22)))",
+     "number_format": "0%"
+    },
+    {
+     "cell": "N17",
+     "formula": "=YEAR('Loan Details'!$L$12)+5"
+    },
+    {
+     "cell": "B17",
+     "formula": "=IF(AND('Loan Details'!$L$23,$N17<=$O$4),$N17,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C17",
+     "formula": "=IF(B17=\"\",\"\",COUNTIFS('Amortization'!$P$11:$P$490,$N17,'Amortization'!$R$11:$R$490,\">0\"))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D17",
+     "formula": "=IF(B17=\"\",\"\",ROUND(ROUND(SUMIFS('Amortization'!$T$11:$T$490,'Amortization'!$P$11:$P$490,$N17),2)+ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N17),2),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E17",
+     "formula": "=IF(B17=\"\",\"\",ROUND(SUMIFS('Amortization'!$S$11:$S$490,'Amortization'!$P$11:$P$490,$N17),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F17",
+     "formula": "=IF(B17=\"\",\"\",ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N17),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G17",
+     "formula": "=IF(B17=\"\",\"\",ROUND(SUMIFS('Amortization'!$Z$11:$Z$490,'Amortization'!$P$11:$P$490,$N17),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H17",
+     "formula": "=IF(B17=\"\",\"\",ROUND(C17*'Loan Details'!$L$24,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I17",
+     "formula": "=IF(B17=\"\",\"\",ROUND(D17+E17+G17+H17,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J17",
+     "formula": "=IF(B17=\"\",\"\",INDEX('Amortization'!$V$11:$V$490,MATCH($N17,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K17",
+     "formula": "=IF(B17=\"\",\"\",INDEX('Amortization'!$X$11:$X$490,MATCH($N17,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L17",
+     "formula": "=IF(OR(B17=\"\",N('Loan Details'!$L$22)<=0),\"\",MAX(0,MIN(1,('Loan Details'!$L$22-J17)/'Loan Details'!$L$22)))",
+     "number_format": "0%"
+    },
+    {
+     "cell": "N18",
+     "formula": "=YEAR('Loan Details'!$L$12)+6"
+    },
+    {
+     "cell": "B18",
+     "formula": "=IF(AND('Loan Details'!$L$23,$N18<=$O$4),$N18,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C18",
+     "formula": "=IF(B18=\"\",\"\",COUNTIFS('Amortization'!$P$11:$P$490,$N18,'Amortization'!$R$11:$R$490,\">0\"))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D18",
+     "formula": "=IF(B18=\"\",\"\",ROUND(ROUND(SUMIFS('Amortization'!$T$11:$T$490,'Amortization'!$P$11:$P$490,$N18),2)+ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N18),2),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E18",
+     "formula": "=IF(B18=\"\",\"\",ROUND(SUMIFS('Amortization'!$S$11:$S$490,'Amortization'!$P$11:$P$490,$N18),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F18",
+     "formula": "=IF(B18=\"\",\"\",ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N18),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G18",
+     "formula": "=IF(B18=\"\",\"\",ROUND(SUMIFS('Amortization'!$Z$11:$Z$490,'Amortization'!$P$11:$P$490,$N18),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H18",
+     "formula": "=IF(B18=\"\",\"\",ROUND(C18*'Loan Details'!$L$24,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I18",
+     "formula": "=IF(B18=\"\",\"\",ROUND(D18+E18+G18+H18,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J18",
+     "formula": "=IF(B18=\"\",\"\",INDEX('Amortization'!$V$11:$V$490,MATCH($N18,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K18",
+     "formula": "=IF(B18=\"\",\"\",INDEX('Amortization'!$X$11:$X$490,MATCH($N18,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L18",
+     "formula": "=IF(OR(B18=\"\",N('Loan Details'!$L$22)<=0),\"\",MAX(0,MIN(1,('Loan Details'!$L$22-J18)/'Loan Details'!$L$22)))",
+     "number_format": "0%"
+    },
+    {
+     "cell": "N19",
+     "formula": "=YEAR('Loan Details'!$L$12)+7"
+    },
+    {
+     "cell": "B19",
+     "formula": "=IF(AND('Loan Details'!$L$23,$N19<=$O$4),$N19,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C19",
+     "formula": "=IF(B19=\"\",\"\",COUNTIFS('Amortization'!$P$11:$P$490,$N19,'Amortization'!$R$11:$R$490,\">0\"))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D19",
+     "formula": "=IF(B19=\"\",\"\",ROUND(ROUND(SUMIFS('Amortization'!$T$11:$T$490,'Amortization'!$P$11:$P$490,$N19),2)+ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N19),2),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E19",
+     "formula": "=IF(B19=\"\",\"\",ROUND(SUMIFS('Amortization'!$S$11:$S$490,'Amortization'!$P$11:$P$490,$N19),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F19",
+     "formula": "=IF(B19=\"\",\"\",ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N19),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G19",
+     "formula": "=IF(B19=\"\",\"\",ROUND(SUMIFS('Amortization'!$Z$11:$Z$490,'Amortization'!$P$11:$P$490,$N19),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H19",
+     "formula": "=IF(B19=\"\",\"\",ROUND(C19*'Loan Details'!$L$24,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I19",
+     "formula": "=IF(B19=\"\",\"\",ROUND(D19+E19+G19+H19,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J19",
+     "formula": "=IF(B19=\"\",\"\",INDEX('Amortization'!$V$11:$V$490,MATCH($N19,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K19",
+     "formula": "=IF(B19=\"\",\"\",INDEX('Amortization'!$X$11:$X$490,MATCH($N19,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L19",
+     "formula": "=IF(OR(B19=\"\",N('Loan Details'!$L$22)<=0),\"\",MAX(0,MIN(1,('Loan Details'!$L$22-J19)/'Loan Details'!$L$22)))",
+     "number_format": "0%"
+    },
+    {
+     "cell": "N20",
+     "formula": "=YEAR('Loan Details'!$L$12)+8"
+    },
+    {
+     "cell": "B20",
+     "formula": "=IF(AND('Loan Details'!$L$23,$N20<=$O$4),$N20,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C20",
+     "formula": "=IF(B20=\"\",\"\",COUNTIFS('Amortization'!$P$11:$P$490,$N20,'Amortization'!$R$11:$R$490,\">0\"))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D20",
+     "formula": "=IF(B20=\"\",\"\",ROUND(ROUND(SUMIFS('Amortization'!$T$11:$T$490,'Amortization'!$P$11:$P$490,$N20),2)+ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N20),2),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E20",
+     "formula": "=IF(B20=\"\",\"\",ROUND(SUMIFS('Amortization'!$S$11:$S$490,'Amortization'!$P$11:$P$490,$N20),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F20",
+     "formula": "=IF(B20=\"\",\"\",ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N20),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G20",
+     "formula": "=IF(B20=\"\",\"\",ROUND(SUMIFS('Amortization'!$Z$11:$Z$490,'Amortization'!$P$11:$P$490,$N20),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H20",
+     "formula": "=IF(B20=\"\",\"\",ROUND(C20*'Loan Details'!$L$24,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I20",
+     "formula": "=IF(B20=\"\",\"\",ROUND(D20+E20+G20+H20,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J20",
+     "formula": "=IF(B20=\"\",\"\",INDEX('Amortization'!$V$11:$V$490,MATCH($N20,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K20",
+     "formula": "=IF(B20=\"\",\"\",INDEX('Amortization'!$X$11:$X$490,MATCH($N20,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L20",
+     "formula": "=IF(OR(B20=\"\",N('Loan Details'!$L$22)<=0),\"\",MAX(0,MIN(1,('Loan Details'!$L$22-J20)/'Loan Details'!$L$22)))",
+     "number_format": "0%"
+    },
+    {
+     "cell": "N21",
+     "formula": "=YEAR('Loan Details'!$L$12)+9"
+    },
+    {
+     "cell": "B21",
+     "formula": "=IF(AND('Loan Details'!$L$23,$N21<=$O$4),$N21,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C21",
+     "formula": "=IF(B21=\"\",\"\",COUNTIFS('Amortization'!$P$11:$P$490,$N21,'Amortization'!$R$11:$R$490,\">0\"))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D21",
+     "formula": "=IF(B21=\"\",\"\",ROUND(ROUND(SUMIFS('Amortization'!$T$11:$T$490,'Amortization'!$P$11:$P$490,$N21),2)+ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N21),2),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E21",
+     "formula": "=IF(B21=\"\",\"\",ROUND(SUMIFS('Amortization'!$S$11:$S$490,'Amortization'!$P$11:$P$490,$N21),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F21",
+     "formula": "=IF(B21=\"\",\"\",ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N21),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G21",
+     "formula": "=IF(B21=\"\",\"\",ROUND(SUMIFS('Amortization'!$Z$11:$Z$490,'Amortization'!$P$11:$P$490,$N21),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H21",
+     "formula": "=IF(B21=\"\",\"\",ROUND(C21*'Loan Details'!$L$24,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I21",
+     "formula": "=IF(B21=\"\",\"\",ROUND(D21+E21+G21+H21,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J21",
+     "formula": "=IF(B21=\"\",\"\",INDEX('Amortization'!$V$11:$V$490,MATCH($N21,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K21",
+     "formula": "=IF(B21=\"\",\"\",INDEX('Amortization'!$X$11:$X$490,MATCH($N21,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L21",
+     "formula": "=IF(OR(B21=\"\",N('Loan Details'!$L$22)<=0),\"\",MAX(0,MIN(1,('Loan Details'!$L$22-J21)/'Loan Details'!$L$22)))",
+     "number_format": "0%"
+    },
+    {
+     "cell": "N22",
+     "formula": "=YEAR('Loan Details'!$L$12)+10"
+    },
+    {
+     "cell": "B22",
+     "formula": "=IF(AND('Loan Details'!$L$23,$N22<=$O$4),$N22,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C22",
+     "formula": "=IF(B22=\"\",\"\",COUNTIFS('Amortization'!$P$11:$P$490,$N22,'Amortization'!$R$11:$R$490,\">0\"))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D22",
+     "formula": "=IF(B22=\"\",\"\",ROUND(ROUND(SUMIFS('Amortization'!$T$11:$T$490,'Amortization'!$P$11:$P$490,$N22),2)+ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N22),2),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E22",
+     "formula": "=IF(B22=\"\",\"\",ROUND(SUMIFS('Amortization'!$S$11:$S$490,'Amortization'!$P$11:$P$490,$N22),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F22",
+     "formula": "=IF(B22=\"\",\"\",ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N22),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G22",
+     "formula": "=IF(B22=\"\",\"\",ROUND(SUMIFS('Amortization'!$Z$11:$Z$490,'Amortization'!$P$11:$P$490,$N22),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H22",
+     "formula": "=IF(B22=\"\",\"\",ROUND(C22*'Loan Details'!$L$24,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I22",
+     "formula": "=IF(B22=\"\",\"\",ROUND(D22+E22+G22+H22,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J22",
+     "formula": "=IF(B22=\"\",\"\",INDEX('Amortization'!$V$11:$V$490,MATCH($N22,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K22",
+     "formula": "=IF(B22=\"\",\"\",INDEX('Amortization'!$X$11:$X$490,MATCH($N22,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L22",
+     "formula": "=IF(OR(B22=\"\",N('Loan Details'!$L$22)<=0),\"\",MAX(0,MIN(1,('Loan Details'!$L$22-J22)/'Loan Details'!$L$22)))",
+     "number_format": "0%"
+    },
+    {
+     "cell": "N23",
+     "formula": "=YEAR('Loan Details'!$L$12)+11"
+    },
+    {
+     "cell": "B23",
+     "formula": "=IF(AND('Loan Details'!$L$23,$N23<=$O$4),$N23,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C23",
+     "formula": "=IF(B23=\"\",\"\",COUNTIFS('Amortization'!$P$11:$P$490,$N23,'Amortization'!$R$11:$R$490,\">0\"))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D23",
+     "formula": "=IF(B23=\"\",\"\",ROUND(ROUND(SUMIFS('Amortization'!$T$11:$T$490,'Amortization'!$P$11:$P$490,$N23),2)+ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N23),2),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E23",
+     "formula": "=IF(B23=\"\",\"\",ROUND(SUMIFS('Amortization'!$S$11:$S$490,'Amortization'!$P$11:$P$490,$N23),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F23",
+     "formula": "=IF(B23=\"\",\"\",ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N23),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G23",
+     "formula": "=IF(B23=\"\",\"\",ROUND(SUMIFS('Amortization'!$Z$11:$Z$490,'Amortization'!$P$11:$P$490,$N23),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H23",
+     "formula": "=IF(B23=\"\",\"\",ROUND(C23*'Loan Details'!$L$24,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I23",
+     "formula": "=IF(B23=\"\",\"\",ROUND(D23+E23+G23+H23,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J23",
+     "formula": "=IF(B23=\"\",\"\",INDEX('Amortization'!$V$11:$V$490,MATCH($N23,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K23",
+     "formula": "=IF(B23=\"\",\"\",INDEX('Amortization'!$X$11:$X$490,MATCH($N23,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L23",
+     "formula": "=IF(OR(B23=\"\",N('Loan Details'!$L$22)<=0),\"\",MAX(0,MIN(1,('Loan Details'!$L$22-J23)/'Loan Details'!$L$22)))",
+     "number_format": "0%"
+    },
+    {
+     "cell": "N24",
+     "formula": "=YEAR('Loan Details'!$L$12)+12"
+    },
+    {
+     "cell": "B24",
+     "formula": "=IF(AND('Loan Details'!$L$23,$N24<=$O$4),$N24,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C24",
+     "formula": "=IF(B24=\"\",\"\",COUNTIFS('Amortization'!$P$11:$P$490,$N24,'Amortization'!$R$11:$R$490,\">0\"))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D24",
+     "formula": "=IF(B24=\"\",\"\",ROUND(ROUND(SUMIFS('Amortization'!$T$11:$T$490,'Amortization'!$P$11:$P$490,$N24),2)+ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N24),2),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E24",
+     "formula": "=IF(B24=\"\",\"\",ROUND(SUMIFS('Amortization'!$S$11:$S$490,'Amortization'!$P$11:$P$490,$N24),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F24",
+     "formula": "=IF(B24=\"\",\"\",ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N24),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G24",
+     "formula": "=IF(B24=\"\",\"\",ROUND(SUMIFS('Amortization'!$Z$11:$Z$490,'Amortization'!$P$11:$P$490,$N24),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H24",
+     "formula": "=IF(B24=\"\",\"\",ROUND(C24*'Loan Details'!$L$24,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I24",
+     "formula": "=IF(B24=\"\",\"\",ROUND(D24+E24+G24+H24,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J24",
+     "formula": "=IF(B24=\"\",\"\",INDEX('Amortization'!$V$11:$V$490,MATCH($N24,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K24",
+     "formula": "=IF(B24=\"\",\"\",INDEX('Amortization'!$X$11:$X$490,MATCH($N24,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L24",
+     "formula": "=IF(OR(B24=\"\",N('Loan Details'!$L$22)<=0),\"\",MAX(0,MIN(1,('Loan Details'!$L$22-J24)/'Loan Details'!$L$22)))",
+     "number_format": "0%"
+    },
+    {
+     "cell": "N25",
+     "formula": "=YEAR('Loan Details'!$L$12)+13"
+    },
+    {
+     "cell": "B25",
+     "formula": "=IF(AND('Loan Details'!$L$23,$N25<=$O$4),$N25,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C25",
+     "formula": "=IF(B25=\"\",\"\",COUNTIFS('Amortization'!$P$11:$P$490,$N25,'Amortization'!$R$11:$R$490,\">0\"))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D25",
+     "formula": "=IF(B25=\"\",\"\",ROUND(ROUND(SUMIFS('Amortization'!$T$11:$T$490,'Amortization'!$P$11:$P$490,$N25),2)+ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N25),2),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E25",
+     "formula": "=IF(B25=\"\",\"\",ROUND(SUMIFS('Amortization'!$S$11:$S$490,'Amortization'!$P$11:$P$490,$N25),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F25",
+     "formula": "=IF(B25=\"\",\"\",ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N25),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G25",
+     "formula": "=IF(B25=\"\",\"\",ROUND(SUMIFS('Amortization'!$Z$11:$Z$490,'Amortization'!$P$11:$P$490,$N25),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H25",
+     "formula": "=IF(B25=\"\",\"\",ROUND(C25*'Loan Details'!$L$24,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I25",
+     "formula": "=IF(B25=\"\",\"\",ROUND(D25+E25+G25+H25,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J25",
+     "formula": "=IF(B25=\"\",\"\",INDEX('Amortization'!$V$11:$V$490,MATCH($N25,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K25",
+     "formula": "=IF(B25=\"\",\"\",INDEX('Amortization'!$X$11:$X$490,MATCH($N25,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L25",
+     "formula": "=IF(OR(B25=\"\",N('Loan Details'!$L$22)<=0),\"\",MAX(0,MIN(1,('Loan Details'!$L$22-J25)/'Loan Details'!$L$22)))",
+     "number_format": "0%"
+    },
+    {
+     "cell": "N26",
+     "formula": "=YEAR('Loan Details'!$L$12)+14"
+    },
+    {
+     "cell": "B26",
+     "formula": "=IF(AND('Loan Details'!$L$23,$N26<=$O$4),$N26,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C26",
+     "formula": "=IF(B26=\"\",\"\",COUNTIFS('Amortization'!$P$11:$P$490,$N26,'Amortization'!$R$11:$R$490,\">0\"))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D26",
+     "formula": "=IF(B26=\"\",\"\",ROUND(ROUND(SUMIFS('Amortization'!$T$11:$T$490,'Amortization'!$P$11:$P$490,$N26),2)+ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N26),2),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E26",
+     "formula": "=IF(B26=\"\",\"\",ROUND(SUMIFS('Amortization'!$S$11:$S$490,'Amortization'!$P$11:$P$490,$N26),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F26",
+     "formula": "=IF(B26=\"\",\"\",ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N26),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G26",
+     "formula": "=IF(B26=\"\",\"\",ROUND(SUMIFS('Amortization'!$Z$11:$Z$490,'Amortization'!$P$11:$P$490,$N26),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H26",
+     "formula": "=IF(B26=\"\",\"\",ROUND(C26*'Loan Details'!$L$24,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I26",
+     "formula": "=IF(B26=\"\",\"\",ROUND(D26+E26+G26+H26,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J26",
+     "formula": "=IF(B26=\"\",\"\",INDEX('Amortization'!$V$11:$V$490,MATCH($N26,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K26",
+     "formula": "=IF(B26=\"\",\"\",INDEX('Amortization'!$X$11:$X$490,MATCH($N26,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L26",
+     "formula": "=IF(OR(B26=\"\",N('Loan Details'!$L$22)<=0),\"\",MAX(0,MIN(1,('Loan Details'!$L$22-J26)/'Loan Details'!$L$22)))",
+     "number_format": "0%"
+    },
+    {
+     "cell": "N27",
+     "formula": "=YEAR('Loan Details'!$L$12)+15"
+    },
+    {
+     "cell": "B27",
+     "formula": "=IF(AND('Loan Details'!$L$23,$N27<=$O$4),$N27,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C27",
+     "formula": "=IF(B27=\"\",\"\",COUNTIFS('Amortization'!$P$11:$P$490,$N27,'Amortization'!$R$11:$R$490,\">0\"))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D27",
+     "formula": "=IF(B27=\"\",\"\",ROUND(ROUND(SUMIFS('Amortization'!$T$11:$T$490,'Amortization'!$P$11:$P$490,$N27),2)+ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N27),2),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E27",
+     "formula": "=IF(B27=\"\",\"\",ROUND(SUMIFS('Amortization'!$S$11:$S$490,'Amortization'!$P$11:$P$490,$N27),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F27",
+     "formula": "=IF(B27=\"\",\"\",ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N27),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G27",
+     "formula": "=IF(B27=\"\",\"\",ROUND(SUMIFS('Amortization'!$Z$11:$Z$490,'Amortization'!$P$11:$P$490,$N27),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H27",
+     "formula": "=IF(B27=\"\",\"\",ROUND(C27*'Loan Details'!$L$24,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I27",
+     "formula": "=IF(B27=\"\",\"\",ROUND(D27+E27+G27+H27,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J27",
+     "formula": "=IF(B27=\"\",\"\",INDEX('Amortization'!$V$11:$V$490,MATCH($N27,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K27",
+     "formula": "=IF(B27=\"\",\"\",INDEX('Amortization'!$X$11:$X$490,MATCH($N27,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L27",
+     "formula": "=IF(OR(B27=\"\",N('Loan Details'!$L$22)<=0),\"\",MAX(0,MIN(1,('Loan Details'!$L$22-J27)/'Loan Details'!$L$22)))",
+     "number_format": "0%"
+    },
+    {
+     "cell": "N28",
+     "formula": "=YEAR('Loan Details'!$L$12)+16"
+    },
+    {
+     "cell": "B28",
+     "formula": "=IF(AND('Loan Details'!$L$23,$N28<=$O$4),$N28,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C28",
+     "formula": "=IF(B28=\"\",\"\",COUNTIFS('Amortization'!$P$11:$P$490,$N28,'Amortization'!$R$11:$R$490,\">0\"))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D28",
+     "formula": "=IF(B28=\"\",\"\",ROUND(ROUND(SUMIFS('Amortization'!$T$11:$T$490,'Amortization'!$P$11:$P$490,$N28),2)+ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N28),2),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E28",
+     "formula": "=IF(B28=\"\",\"\",ROUND(SUMIFS('Amortization'!$S$11:$S$490,'Amortization'!$P$11:$P$490,$N28),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F28",
+     "formula": "=IF(B28=\"\",\"\",ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N28),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G28",
+     "formula": "=IF(B28=\"\",\"\",ROUND(SUMIFS('Amortization'!$Z$11:$Z$490,'Amortization'!$P$11:$P$490,$N28),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H28",
+     "formula": "=IF(B28=\"\",\"\",ROUND(C28*'Loan Details'!$L$24,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I28",
+     "formula": "=IF(B28=\"\",\"\",ROUND(D28+E28+G28+H28,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J28",
+     "formula": "=IF(B28=\"\",\"\",INDEX('Amortization'!$V$11:$V$490,MATCH($N28,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K28",
+     "formula": "=IF(B28=\"\",\"\",INDEX('Amortization'!$X$11:$X$490,MATCH($N28,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L28",
+     "formula": "=IF(OR(B28=\"\",N('Loan Details'!$L$22)<=0),\"\",MAX(0,MIN(1,('Loan Details'!$L$22-J28)/'Loan Details'!$L$22)))",
+     "number_format": "0%"
+    },
+    {
+     "cell": "N29",
+     "formula": "=YEAR('Loan Details'!$L$12)+17"
+    },
+    {
+     "cell": "B29",
+     "formula": "=IF(AND('Loan Details'!$L$23,$N29<=$O$4),$N29,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C29",
+     "formula": "=IF(B29=\"\",\"\",COUNTIFS('Amortization'!$P$11:$P$490,$N29,'Amortization'!$R$11:$R$490,\">0\"))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D29",
+     "formula": "=IF(B29=\"\",\"\",ROUND(ROUND(SUMIFS('Amortization'!$T$11:$T$490,'Amortization'!$P$11:$P$490,$N29),2)+ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N29),2),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E29",
+     "formula": "=IF(B29=\"\",\"\",ROUND(SUMIFS('Amortization'!$S$11:$S$490,'Amortization'!$P$11:$P$490,$N29),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F29",
+     "formula": "=IF(B29=\"\",\"\",ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N29),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G29",
+     "formula": "=IF(B29=\"\",\"\",ROUND(SUMIFS('Amortization'!$Z$11:$Z$490,'Amortization'!$P$11:$P$490,$N29),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H29",
+     "formula": "=IF(B29=\"\",\"\",ROUND(C29*'Loan Details'!$L$24,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I29",
+     "formula": "=IF(B29=\"\",\"\",ROUND(D29+E29+G29+H29,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J29",
+     "formula": "=IF(B29=\"\",\"\",INDEX('Amortization'!$V$11:$V$490,MATCH($N29,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K29",
+     "formula": "=IF(B29=\"\",\"\",INDEX('Amortization'!$X$11:$X$490,MATCH($N29,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L29",
+     "formula": "=IF(OR(B29=\"\",N('Loan Details'!$L$22)<=0),\"\",MAX(0,MIN(1,('Loan Details'!$L$22-J29)/'Loan Details'!$L$22)))",
+     "number_format": "0%"
+    },
+    {
+     "cell": "N30",
+     "formula": "=YEAR('Loan Details'!$L$12)+18"
+    },
+    {
+     "cell": "B30",
+     "formula": "=IF(AND('Loan Details'!$L$23,$N30<=$O$4),$N30,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C30",
+     "formula": "=IF(B30=\"\",\"\",COUNTIFS('Amortization'!$P$11:$P$490,$N30,'Amortization'!$R$11:$R$490,\">0\"))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D30",
+     "formula": "=IF(B30=\"\",\"\",ROUND(ROUND(SUMIFS('Amortization'!$T$11:$T$490,'Amortization'!$P$11:$P$490,$N30),2)+ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N30),2),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E30",
+     "formula": "=IF(B30=\"\",\"\",ROUND(SUMIFS('Amortization'!$S$11:$S$490,'Amortization'!$P$11:$P$490,$N30),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F30",
+     "formula": "=IF(B30=\"\",\"\",ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N30),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G30",
+     "formula": "=IF(B30=\"\",\"\",ROUND(SUMIFS('Amortization'!$Z$11:$Z$490,'Amortization'!$P$11:$P$490,$N30),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H30",
+     "formula": "=IF(B30=\"\",\"\",ROUND(C30*'Loan Details'!$L$24,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I30",
+     "formula": "=IF(B30=\"\",\"\",ROUND(D30+E30+G30+H30,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J30",
+     "formula": "=IF(B30=\"\",\"\",INDEX('Amortization'!$V$11:$V$490,MATCH($N30,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K30",
+     "formula": "=IF(B30=\"\",\"\",INDEX('Amortization'!$X$11:$X$490,MATCH($N30,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L30",
+     "formula": "=IF(OR(B30=\"\",N('Loan Details'!$L$22)<=0),\"\",MAX(0,MIN(1,('Loan Details'!$L$22-J30)/'Loan Details'!$L$22)))",
+     "number_format": "0%"
+    },
+    {
+     "cell": "N31",
+     "formula": "=YEAR('Loan Details'!$L$12)+19"
+    },
+    {
+     "cell": "B31",
+     "formula": "=IF(AND('Loan Details'!$L$23,$N31<=$O$4),$N31,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C31",
+     "formula": "=IF(B31=\"\",\"\",COUNTIFS('Amortization'!$P$11:$P$490,$N31,'Amortization'!$R$11:$R$490,\">0\"))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D31",
+     "formula": "=IF(B31=\"\",\"\",ROUND(ROUND(SUMIFS('Amortization'!$T$11:$T$490,'Amortization'!$P$11:$P$490,$N31),2)+ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N31),2),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E31",
+     "formula": "=IF(B31=\"\",\"\",ROUND(SUMIFS('Amortization'!$S$11:$S$490,'Amortization'!$P$11:$P$490,$N31),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F31",
+     "formula": "=IF(B31=\"\",\"\",ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N31),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G31",
+     "formula": "=IF(B31=\"\",\"\",ROUND(SUMIFS('Amortization'!$Z$11:$Z$490,'Amortization'!$P$11:$P$490,$N31),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H31",
+     "formula": "=IF(B31=\"\",\"\",ROUND(C31*'Loan Details'!$L$24,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I31",
+     "formula": "=IF(B31=\"\",\"\",ROUND(D31+E31+G31+H31,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J31",
+     "formula": "=IF(B31=\"\",\"\",INDEX('Amortization'!$V$11:$V$490,MATCH($N31,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K31",
+     "formula": "=IF(B31=\"\",\"\",INDEX('Amortization'!$X$11:$X$490,MATCH($N31,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L31",
+     "formula": "=IF(OR(B31=\"\",N('Loan Details'!$L$22)<=0),\"\",MAX(0,MIN(1,('Loan Details'!$L$22-J31)/'Loan Details'!$L$22)))",
+     "number_format": "0%"
+    },
+    {
+     "cell": "N32",
+     "formula": "=YEAR('Loan Details'!$L$12)+20"
+    },
+    {
+     "cell": "B32",
+     "formula": "=IF(AND('Loan Details'!$L$23,$N32<=$O$4),$N32,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C32",
+     "formula": "=IF(B32=\"\",\"\",COUNTIFS('Amortization'!$P$11:$P$490,$N32,'Amortization'!$R$11:$R$490,\">0\"))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D32",
+     "formula": "=IF(B32=\"\",\"\",ROUND(ROUND(SUMIFS('Amortization'!$T$11:$T$490,'Amortization'!$P$11:$P$490,$N32),2)+ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N32),2),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E32",
+     "formula": "=IF(B32=\"\",\"\",ROUND(SUMIFS('Amortization'!$S$11:$S$490,'Amortization'!$P$11:$P$490,$N32),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F32",
+     "formula": "=IF(B32=\"\",\"\",ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N32),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G32",
+     "formula": "=IF(B32=\"\",\"\",ROUND(SUMIFS('Amortization'!$Z$11:$Z$490,'Amortization'!$P$11:$P$490,$N32),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H32",
+     "formula": "=IF(B32=\"\",\"\",ROUND(C32*'Loan Details'!$L$24,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I32",
+     "formula": "=IF(B32=\"\",\"\",ROUND(D32+E32+G32+H32,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J32",
+     "formula": "=IF(B32=\"\",\"\",INDEX('Amortization'!$V$11:$V$490,MATCH($N32,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K32",
+     "formula": "=IF(B32=\"\",\"\",INDEX('Amortization'!$X$11:$X$490,MATCH($N32,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L32",
+     "formula": "=IF(OR(B32=\"\",N('Loan Details'!$L$22)<=0),\"\",MAX(0,MIN(1,('Loan Details'!$L$22-J32)/'Loan Details'!$L$22)))",
+     "number_format": "0%"
+    },
+    {
+     "cell": "N33",
+     "formula": "=YEAR('Loan Details'!$L$12)+21"
+    },
+    {
+     "cell": "B33",
+     "formula": "=IF(AND('Loan Details'!$L$23,$N33<=$O$4),$N33,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C33",
+     "formula": "=IF(B33=\"\",\"\",COUNTIFS('Amortization'!$P$11:$P$490,$N33,'Amortization'!$R$11:$R$490,\">0\"))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D33",
+     "formula": "=IF(B33=\"\",\"\",ROUND(ROUND(SUMIFS('Amortization'!$T$11:$T$490,'Amortization'!$P$11:$P$490,$N33),2)+ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N33),2),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E33",
+     "formula": "=IF(B33=\"\",\"\",ROUND(SUMIFS('Amortization'!$S$11:$S$490,'Amortization'!$P$11:$P$490,$N33),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F33",
+     "formula": "=IF(B33=\"\",\"\",ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N33),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G33",
+     "formula": "=IF(B33=\"\",\"\",ROUND(SUMIFS('Amortization'!$Z$11:$Z$490,'Amortization'!$P$11:$P$490,$N33),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H33",
+     "formula": "=IF(B33=\"\",\"\",ROUND(C33*'Loan Details'!$L$24,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I33",
+     "formula": "=IF(B33=\"\",\"\",ROUND(D33+E33+G33+H33,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J33",
+     "formula": "=IF(B33=\"\",\"\",INDEX('Amortization'!$V$11:$V$490,MATCH($N33,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K33",
+     "formula": "=IF(B33=\"\",\"\",INDEX('Amortization'!$X$11:$X$490,MATCH($N33,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L33",
+     "formula": "=IF(OR(B33=\"\",N('Loan Details'!$L$22)<=0),\"\",MAX(0,MIN(1,('Loan Details'!$L$22-J33)/'Loan Details'!$L$22)))",
+     "number_format": "0%"
+    },
+    {
+     "cell": "N34",
+     "formula": "=YEAR('Loan Details'!$L$12)+22"
+    },
+    {
+     "cell": "B34",
+     "formula": "=IF(AND('Loan Details'!$L$23,$N34<=$O$4),$N34,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C34",
+     "formula": "=IF(B34=\"\",\"\",COUNTIFS('Amortization'!$P$11:$P$490,$N34,'Amortization'!$R$11:$R$490,\">0\"))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D34",
+     "formula": "=IF(B34=\"\",\"\",ROUND(ROUND(SUMIFS('Amortization'!$T$11:$T$490,'Amortization'!$P$11:$P$490,$N34),2)+ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N34),2),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E34",
+     "formula": "=IF(B34=\"\",\"\",ROUND(SUMIFS('Amortization'!$S$11:$S$490,'Amortization'!$P$11:$P$490,$N34),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F34",
+     "formula": "=IF(B34=\"\",\"\",ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N34),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G34",
+     "formula": "=IF(B34=\"\",\"\",ROUND(SUMIFS('Amortization'!$Z$11:$Z$490,'Amortization'!$P$11:$P$490,$N34),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H34",
+     "formula": "=IF(B34=\"\",\"\",ROUND(C34*'Loan Details'!$L$24,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I34",
+     "formula": "=IF(B34=\"\",\"\",ROUND(D34+E34+G34+H34,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J34",
+     "formula": "=IF(B34=\"\",\"\",INDEX('Amortization'!$V$11:$V$490,MATCH($N34,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K34",
+     "formula": "=IF(B34=\"\",\"\",INDEX('Amortization'!$X$11:$X$490,MATCH($N34,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L34",
+     "formula": "=IF(OR(B34=\"\",N('Loan Details'!$L$22)<=0),\"\",MAX(0,MIN(1,('Loan Details'!$L$22-J34)/'Loan Details'!$L$22)))",
+     "number_format": "0%"
+    },
+    {
+     "cell": "N35",
+     "formula": "=YEAR('Loan Details'!$L$12)+23"
+    },
+    {
+     "cell": "B35",
+     "formula": "=IF(AND('Loan Details'!$L$23,$N35<=$O$4),$N35,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C35",
+     "formula": "=IF(B35=\"\",\"\",COUNTIFS('Amortization'!$P$11:$P$490,$N35,'Amortization'!$R$11:$R$490,\">0\"))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D35",
+     "formula": "=IF(B35=\"\",\"\",ROUND(ROUND(SUMIFS('Amortization'!$T$11:$T$490,'Amortization'!$P$11:$P$490,$N35),2)+ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N35),2),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E35",
+     "formula": "=IF(B35=\"\",\"\",ROUND(SUMIFS('Amortization'!$S$11:$S$490,'Amortization'!$P$11:$P$490,$N35),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F35",
+     "formula": "=IF(B35=\"\",\"\",ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N35),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G35",
+     "formula": "=IF(B35=\"\",\"\",ROUND(SUMIFS('Amortization'!$Z$11:$Z$490,'Amortization'!$P$11:$P$490,$N35),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H35",
+     "formula": "=IF(B35=\"\",\"\",ROUND(C35*'Loan Details'!$L$24,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I35",
+     "formula": "=IF(B35=\"\",\"\",ROUND(D35+E35+G35+H35,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J35",
+     "formula": "=IF(B35=\"\",\"\",INDEX('Amortization'!$V$11:$V$490,MATCH($N35,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K35",
+     "formula": "=IF(B35=\"\",\"\",INDEX('Amortization'!$X$11:$X$490,MATCH($N35,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L35",
+     "formula": "=IF(OR(B35=\"\",N('Loan Details'!$L$22)<=0),\"\",MAX(0,MIN(1,('Loan Details'!$L$22-J35)/'Loan Details'!$L$22)))",
+     "number_format": "0%"
+    },
+    {
+     "cell": "N36",
+     "formula": "=YEAR('Loan Details'!$L$12)+24"
+    },
+    {
+     "cell": "B36",
+     "formula": "=IF(AND('Loan Details'!$L$23,$N36<=$O$4),$N36,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C36",
+     "formula": "=IF(B36=\"\",\"\",COUNTIFS('Amortization'!$P$11:$P$490,$N36,'Amortization'!$R$11:$R$490,\">0\"))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D36",
+     "formula": "=IF(B36=\"\",\"\",ROUND(ROUND(SUMIFS('Amortization'!$T$11:$T$490,'Amortization'!$P$11:$P$490,$N36),2)+ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N36),2),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E36",
+     "formula": "=IF(B36=\"\",\"\",ROUND(SUMIFS('Amortization'!$S$11:$S$490,'Amortization'!$P$11:$P$490,$N36),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F36",
+     "formula": "=IF(B36=\"\",\"\",ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N36),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G36",
+     "formula": "=IF(B36=\"\",\"\",ROUND(SUMIFS('Amortization'!$Z$11:$Z$490,'Amortization'!$P$11:$P$490,$N36),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H36",
+     "formula": "=IF(B36=\"\",\"\",ROUND(C36*'Loan Details'!$L$24,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I36",
+     "formula": "=IF(B36=\"\",\"\",ROUND(D36+E36+G36+H36,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J36",
+     "formula": "=IF(B36=\"\",\"\",INDEX('Amortization'!$V$11:$V$490,MATCH($N36,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K36",
+     "formula": "=IF(B36=\"\",\"\",INDEX('Amortization'!$X$11:$X$490,MATCH($N36,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L36",
+     "formula": "=IF(OR(B36=\"\",N('Loan Details'!$L$22)<=0),\"\",MAX(0,MIN(1,('Loan Details'!$L$22-J36)/'Loan Details'!$L$22)))",
+     "number_format": "0%"
+    },
+    {
+     "cell": "N37",
+     "formula": "=YEAR('Loan Details'!$L$12)+25"
+    },
+    {
+     "cell": "B37",
+     "formula": "=IF(AND('Loan Details'!$L$23,$N37<=$O$4),$N37,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C37",
+     "formula": "=IF(B37=\"\",\"\",COUNTIFS('Amortization'!$P$11:$P$490,$N37,'Amortization'!$R$11:$R$490,\">0\"))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D37",
+     "formula": "=IF(B37=\"\",\"\",ROUND(ROUND(SUMIFS('Amortization'!$T$11:$T$490,'Amortization'!$P$11:$P$490,$N37),2)+ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N37),2),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E37",
+     "formula": "=IF(B37=\"\",\"\",ROUND(SUMIFS('Amortization'!$S$11:$S$490,'Amortization'!$P$11:$P$490,$N37),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F37",
+     "formula": "=IF(B37=\"\",\"\",ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N37),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G37",
+     "formula": "=IF(B37=\"\",\"\",ROUND(SUMIFS('Amortization'!$Z$11:$Z$490,'Amortization'!$P$11:$P$490,$N37),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H37",
+     "formula": "=IF(B37=\"\",\"\",ROUND(C37*'Loan Details'!$L$24,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I37",
+     "formula": "=IF(B37=\"\",\"\",ROUND(D37+E37+G37+H37,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J37",
+     "formula": "=IF(B37=\"\",\"\",INDEX('Amortization'!$V$11:$V$490,MATCH($N37,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K37",
+     "formula": "=IF(B37=\"\",\"\",INDEX('Amortization'!$X$11:$X$490,MATCH($N37,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L37",
+     "formula": "=IF(OR(B37=\"\",N('Loan Details'!$L$22)<=0),\"\",MAX(0,MIN(1,('Loan Details'!$L$22-J37)/'Loan Details'!$L$22)))",
+     "number_format": "0%"
+    },
+    {
+     "cell": "N38",
+     "formula": "=YEAR('Loan Details'!$L$12)+26"
+    },
+    {
+     "cell": "B38",
+     "formula": "=IF(AND('Loan Details'!$L$23,$N38<=$O$4),$N38,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C38",
+     "formula": "=IF(B38=\"\",\"\",COUNTIFS('Amortization'!$P$11:$P$490,$N38,'Amortization'!$R$11:$R$490,\">0\"))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D38",
+     "formula": "=IF(B38=\"\",\"\",ROUND(ROUND(SUMIFS('Amortization'!$T$11:$T$490,'Amortization'!$P$11:$P$490,$N38),2)+ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N38),2),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E38",
+     "formula": "=IF(B38=\"\",\"\",ROUND(SUMIFS('Amortization'!$S$11:$S$490,'Amortization'!$P$11:$P$490,$N38),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F38",
+     "formula": "=IF(B38=\"\",\"\",ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N38),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G38",
+     "formula": "=IF(B38=\"\",\"\",ROUND(SUMIFS('Amortization'!$Z$11:$Z$490,'Amortization'!$P$11:$P$490,$N38),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H38",
+     "formula": "=IF(B38=\"\",\"\",ROUND(C38*'Loan Details'!$L$24,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I38",
+     "formula": "=IF(B38=\"\",\"\",ROUND(D38+E38+G38+H38,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J38",
+     "formula": "=IF(B38=\"\",\"\",INDEX('Amortization'!$V$11:$V$490,MATCH($N38,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K38",
+     "formula": "=IF(B38=\"\",\"\",INDEX('Amortization'!$X$11:$X$490,MATCH($N38,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L38",
+     "formula": "=IF(OR(B38=\"\",N('Loan Details'!$L$22)<=0),\"\",MAX(0,MIN(1,('Loan Details'!$L$22-J38)/'Loan Details'!$L$22)))",
+     "number_format": "0%"
+    },
+    {
+     "cell": "N39",
+     "formula": "=YEAR('Loan Details'!$L$12)+27"
+    },
+    {
+     "cell": "B39",
+     "formula": "=IF(AND('Loan Details'!$L$23,$N39<=$O$4),$N39,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C39",
+     "formula": "=IF(B39=\"\",\"\",COUNTIFS('Amortization'!$P$11:$P$490,$N39,'Amortization'!$R$11:$R$490,\">0\"))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D39",
+     "formula": "=IF(B39=\"\",\"\",ROUND(ROUND(SUMIFS('Amortization'!$T$11:$T$490,'Amortization'!$P$11:$P$490,$N39),2)+ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N39),2),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E39",
+     "formula": "=IF(B39=\"\",\"\",ROUND(SUMIFS('Amortization'!$S$11:$S$490,'Amortization'!$P$11:$P$490,$N39),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F39",
+     "formula": "=IF(B39=\"\",\"\",ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N39),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G39",
+     "formula": "=IF(B39=\"\",\"\",ROUND(SUMIFS('Amortization'!$Z$11:$Z$490,'Amortization'!$P$11:$P$490,$N39),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H39",
+     "formula": "=IF(B39=\"\",\"\",ROUND(C39*'Loan Details'!$L$24,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I39",
+     "formula": "=IF(B39=\"\",\"\",ROUND(D39+E39+G39+H39,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J39",
+     "formula": "=IF(B39=\"\",\"\",INDEX('Amortization'!$V$11:$V$490,MATCH($N39,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K39",
+     "formula": "=IF(B39=\"\",\"\",INDEX('Amortization'!$X$11:$X$490,MATCH($N39,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L39",
+     "formula": "=IF(OR(B39=\"\",N('Loan Details'!$L$22)<=0),\"\",MAX(0,MIN(1,('Loan Details'!$L$22-J39)/'Loan Details'!$L$22)))",
+     "number_format": "0%"
+    },
+    {
+     "cell": "N40",
+     "formula": "=YEAR('Loan Details'!$L$12)+28"
+    },
+    {
+     "cell": "B40",
+     "formula": "=IF(AND('Loan Details'!$L$23,$N40<=$O$4),$N40,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C40",
+     "formula": "=IF(B40=\"\",\"\",COUNTIFS('Amortization'!$P$11:$P$490,$N40,'Amortization'!$R$11:$R$490,\">0\"))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D40",
+     "formula": "=IF(B40=\"\",\"\",ROUND(ROUND(SUMIFS('Amortization'!$T$11:$T$490,'Amortization'!$P$11:$P$490,$N40),2)+ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N40),2),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E40",
+     "formula": "=IF(B40=\"\",\"\",ROUND(SUMIFS('Amortization'!$S$11:$S$490,'Amortization'!$P$11:$P$490,$N40),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F40",
+     "formula": "=IF(B40=\"\",\"\",ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N40),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G40",
+     "formula": "=IF(B40=\"\",\"\",ROUND(SUMIFS('Amortization'!$Z$11:$Z$490,'Amortization'!$P$11:$P$490,$N40),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H40",
+     "formula": "=IF(B40=\"\",\"\",ROUND(C40*'Loan Details'!$L$24,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I40",
+     "formula": "=IF(B40=\"\",\"\",ROUND(D40+E40+G40+H40,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J40",
+     "formula": "=IF(B40=\"\",\"\",INDEX('Amortization'!$V$11:$V$490,MATCH($N40,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K40",
+     "formula": "=IF(B40=\"\",\"\",INDEX('Amortization'!$X$11:$X$490,MATCH($N40,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L40",
+     "formula": "=IF(OR(B40=\"\",N('Loan Details'!$L$22)<=0),\"\",MAX(0,MIN(1,('Loan Details'!$L$22-J40)/'Loan Details'!$L$22)))",
+     "number_format": "0%"
+    },
+    {
+     "cell": "N41",
+     "formula": "=YEAR('Loan Details'!$L$12)+29"
+    },
+    {
+     "cell": "B41",
+     "formula": "=IF(AND('Loan Details'!$L$23,$N41<=$O$4),$N41,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C41",
+     "formula": "=IF(B41=\"\",\"\",COUNTIFS('Amortization'!$P$11:$P$490,$N41,'Amortization'!$R$11:$R$490,\">0\"))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D41",
+     "formula": "=IF(B41=\"\",\"\",ROUND(ROUND(SUMIFS('Amortization'!$T$11:$T$490,'Amortization'!$P$11:$P$490,$N41),2)+ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N41),2),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E41",
+     "formula": "=IF(B41=\"\",\"\",ROUND(SUMIFS('Amortization'!$S$11:$S$490,'Amortization'!$P$11:$P$490,$N41),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F41",
+     "formula": "=IF(B41=\"\",\"\",ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N41),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G41",
+     "formula": "=IF(B41=\"\",\"\",ROUND(SUMIFS('Amortization'!$Z$11:$Z$490,'Amortization'!$P$11:$P$490,$N41),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H41",
+     "formula": "=IF(B41=\"\",\"\",ROUND(C41*'Loan Details'!$L$24,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I41",
+     "formula": "=IF(B41=\"\",\"\",ROUND(D41+E41+G41+H41,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J41",
+     "formula": "=IF(B41=\"\",\"\",INDEX('Amortization'!$V$11:$V$490,MATCH($N41,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K41",
+     "formula": "=IF(B41=\"\",\"\",INDEX('Amortization'!$X$11:$X$490,MATCH($N41,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L41",
+     "formula": "=IF(OR(B41=\"\",N('Loan Details'!$L$22)<=0),\"\",MAX(0,MIN(1,('Loan Details'!$L$22-J41)/'Loan Details'!$L$22)))",
+     "number_format": "0%"
+    },
+    {
+     "cell": "N42",
+     "formula": "=YEAR('Loan Details'!$L$12)+30"
+    },
+    {
+     "cell": "B42",
+     "formula": "=IF(AND('Loan Details'!$L$23,$N42<=$O$4),$N42,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C42",
+     "formula": "=IF(B42=\"\",\"\",COUNTIFS('Amortization'!$P$11:$P$490,$N42,'Amortization'!$R$11:$R$490,\">0\"))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D42",
+     "formula": "=IF(B42=\"\",\"\",ROUND(ROUND(SUMIFS('Amortization'!$T$11:$T$490,'Amortization'!$P$11:$P$490,$N42),2)+ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N42),2),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E42",
+     "formula": "=IF(B42=\"\",\"\",ROUND(SUMIFS('Amortization'!$S$11:$S$490,'Amortization'!$P$11:$P$490,$N42),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F42",
+     "formula": "=IF(B42=\"\",\"\",ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N42),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G42",
+     "formula": "=IF(B42=\"\",\"\",ROUND(SUMIFS('Amortization'!$Z$11:$Z$490,'Amortization'!$P$11:$P$490,$N42),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H42",
+     "formula": "=IF(B42=\"\",\"\",ROUND(C42*'Loan Details'!$L$24,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I42",
+     "formula": "=IF(B42=\"\",\"\",ROUND(D42+E42+G42+H42,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J42",
+     "formula": "=IF(B42=\"\",\"\",INDEX('Amortization'!$V$11:$V$490,MATCH($N42,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K42",
+     "formula": "=IF(B42=\"\",\"\",INDEX('Amortization'!$X$11:$X$490,MATCH($N42,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L42",
+     "formula": "=IF(OR(B42=\"\",N('Loan Details'!$L$22)<=0),\"\",MAX(0,MIN(1,('Loan Details'!$L$22-J42)/'Loan Details'!$L$22)))",
+     "number_format": "0%"
+    },
+    {
+     "cell": "N43",
+     "formula": "=YEAR('Loan Details'!$L$12)+31"
+    },
+    {
+     "cell": "B43",
+     "formula": "=IF(AND('Loan Details'!$L$23,$N43<=$O$4),$N43,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C43",
+     "formula": "=IF(B43=\"\",\"\",COUNTIFS('Amortization'!$P$11:$P$490,$N43,'Amortization'!$R$11:$R$490,\">0\"))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D43",
+     "formula": "=IF(B43=\"\",\"\",ROUND(ROUND(SUMIFS('Amortization'!$T$11:$T$490,'Amortization'!$P$11:$P$490,$N43),2)+ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N43),2),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E43",
+     "formula": "=IF(B43=\"\",\"\",ROUND(SUMIFS('Amortization'!$S$11:$S$490,'Amortization'!$P$11:$P$490,$N43),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F43",
+     "formula": "=IF(B43=\"\",\"\",ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N43),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G43",
+     "formula": "=IF(B43=\"\",\"\",ROUND(SUMIFS('Amortization'!$Z$11:$Z$490,'Amortization'!$P$11:$P$490,$N43),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H43",
+     "formula": "=IF(B43=\"\",\"\",ROUND(C43*'Loan Details'!$L$24,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I43",
+     "formula": "=IF(B43=\"\",\"\",ROUND(D43+E43+G43+H43,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J43",
+     "formula": "=IF(B43=\"\",\"\",INDEX('Amortization'!$V$11:$V$490,MATCH($N43,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K43",
+     "formula": "=IF(B43=\"\",\"\",INDEX('Amortization'!$X$11:$X$490,MATCH($N43,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L43",
+     "formula": "=IF(OR(B43=\"\",N('Loan Details'!$L$22)<=0),\"\",MAX(0,MIN(1,('Loan Details'!$L$22-J43)/'Loan Details'!$L$22)))",
+     "number_format": "0%"
+    },
+    {
+     "cell": "N44",
+     "formula": "=YEAR('Loan Details'!$L$12)+32"
+    },
+    {
+     "cell": "B44",
+     "formula": "=IF(AND('Loan Details'!$L$23,$N44<=$O$4),$N44,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C44",
+     "formula": "=IF(B44=\"\",\"\",COUNTIFS('Amortization'!$P$11:$P$490,$N44,'Amortization'!$R$11:$R$490,\">0\"))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D44",
+     "formula": "=IF(B44=\"\",\"\",ROUND(ROUND(SUMIFS('Amortization'!$T$11:$T$490,'Amortization'!$P$11:$P$490,$N44),2)+ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N44),2),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E44",
+     "formula": "=IF(B44=\"\",\"\",ROUND(SUMIFS('Amortization'!$S$11:$S$490,'Amortization'!$P$11:$P$490,$N44),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F44",
+     "formula": "=IF(B44=\"\",\"\",ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N44),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G44",
+     "formula": "=IF(B44=\"\",\"\",ROUND(SUMIFS('Amortization'!$Z$11:$Z$490,'Amortization'!$P$11:$P$490,$N44),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H44",
+     "formula": "=IF(B44=\"\",\"\",ROUND(C44*'Loan Details'!$L$24,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I44",
+     "formula": "=IF(B44=\"\",\"\",ROUND(D44+E44+G44+H44,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J44",
+     "formula": "=IF(B44=\"\",\"\",INDEX('Amortization'!$V$11:$V$490,MATCH($N44,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K44",
+     "formula": "=IF(B44=\"\",\"\",INDEX('Amortization'!$X$11:$X$490,MATCH($N44,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L44",
+     "formula": "=IF(OR(B44=\"\",N('Loan Details'!$L$22)<=0),\"\",MAX(0,MIN(1,('Loan Details'!$L$22-J44)/'Loan Details'!$L$22)))",
+     "number_format": "0%"
+    },
+    {
+     "cell": "N45",
+     "formula": "=YEAR('Loan Details'!$L$12)+33"
+    },
+    {
+     "cell": "B45",
+     "formula": "=IF(AND('Loan Details'!$L$23,$N45<=$O$4),$N45,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C45",
+     "formula": "=IF(B45=\"\",\"\",COUNTIFS('Amortization'!$P$11:$P$490,$N45,'Amortization'!$R$11:$R$490,\">0\"))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D45",
+     "formula": "=IF(B45=\"\",\"\",ROUND(ROUND(SUMIFS('Amortization'!$T$11:$T$490,'Amortization'!$P$11:$P$490,$N45),2)+ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N45),2),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E45",
+     "formula": "=IF(B45=\"\",\"\",ROUND(SUMIFS('Amortization'!$S$11:$S$490,'Amortization'!$P$11:$P$490,$N45),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F45",
+     "formula": "=IF(B45=\"\",\"\",ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N45),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G45",
+     "formula": "=IF(B45=\"\",\"\",ROUND(SUMIFS('Amortization'!$Z$11:$Z$490,'Amortization'!$P$11:$P$490,$N45),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H45",
+     "formula": "=IF(B45=\"\",\"\",ROUND(C45*'Loan Details'!$L$24,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I45",
+     "formula": "=IF(B45=\"\",\"\",ROUND(D45+E45+G45+H45,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J45",
+     "formula": "=IF(B45=\"\",\"\",INDEX('Amortization'!$V$11:$V$490,MATCH($N45,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K45",
+     "formula": "=IF(B45=\"\",\"\",INDEX('Amortization'!$X$11:$X$490,MATCH($N45,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L45",
+     "formula": "=IF(OR(B45=\"\",N('Loan Details'!$L$22)<=0),\"\",MAX(0,MIN(1,('Loan Details'!$L$22-J45)/'Loan Details'!$L$22)))",
+     "number_format": "0%"
+    },
+    {
+     "cell": "N46",
+     "formula": "=YEAR('Loan Details'!$L$12)+34"
+    },
+    {
+     "cell": "B46",
+     "formula": "=IF(AND('Loan Details'!$L$23,$N46<=$O$4),$N46,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C46",
+     "formula": "=IF(B46=\"\",\"\",COUNTIFS('Amortization'!$P$11:$P$490,$N46,'Amortization'!$R$11:$R$490,\">0\"))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D46",
+     "formula": "=IF(B46=\"\",\"\",ROUND(ROUND(SUMIFS('Amortization'!$T$11:$T$490,'Amortization'!$P$11:$P$490,$N46),2)+ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N46),2),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E46",
+     "formula": "=IF(B46=\"\",\"\",ROUND(SUMIFS('Amortization'!$S$11:$S$490,'Amortization'!$P$11:$P$490,$N46),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F46",
+     "formula": "=IF(B46=\"\",\"\",ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N46),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G46",
+     "formula": "=IF(B46=\"\",\"\",ROUND(SUMIFS('Amortization'!$Z$11:$Z$490,'Amortization'!$P$11:$P$490,$N46),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H46",
+     "formula": "=IF(B46=\"\",\"\",ROUND(C46*'Loan Details'!$L$24,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I46",
+     "formula": "=IF(B46=\"\",\"\",ROUND(D46+E46+G46+H46,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J46",
+     "formula": "=IF(B46=\"\",\"\",INDEX('Amortization'!$V$11:$V$490,MATCH($N46,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K46",
+     "formula": "=IF(B46=\"\",\"\",INDEX('Amortization'!$X$11:$X$490,MATCH($N46,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L46",
+     "formula": "=IF(OR(B46=\"\",N('Loan Details'!$L$22)<=0),\"\",MAX(0,MIN(1,('Loan Details'!$L$22-J46)/'Loan Details'!$L$22)))",
+     "number_format": "0%"
+    },
+    {
+     "cell": "N47",
+     "formula": "=YEAR('Loan Details'!$L$12)+35"
+    },
+    {
+     "cell": "B47",
+     "formula": "=IF(AND('Loan Details'!$L$23,$N47<=$O$4),$N47,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C47",
+     "formula": "=IF(B47=\"\",\"\",COUNTIFS('Amortization'!$P$11:$P$490,$N47,'Amortization'!$R$11:$R$490,\">0\"))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D47",
+     "formula": "=IF(B47=\"\",\"\",ROUND(ROUND(SUMIFS('Amortization'!$T$11:$T$490,'Amortization'!$P$11:$P$490,$N47),2)+ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N47),2),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E47",
+     "formula": "=IF(B47=\"\",\"\",ROUND(SUMIFS('Amortization'!$S$11:$S$490,'Amortization'!$P$11:$P$490,$N47),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F47",
+     "formula": "=IF(B47=\"\",\"\",ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N47),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G47",
+     "formula": "=IF(B47=\"\",\"\",ROUND(SUMIFS('Amortization'!$Z$11:$Z$490,'Amortization'!$P$11:$P$490,$N47),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H47",
+     "formula": "=IF(B47=\"\",\"\",ROUND(C47*'Loan Details'!$L$24,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I47",
+     "formula": "=IF(B47=\"\",\"\",ROUND(D47+E47+G47+H47,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J47",
+     "formula": "=IF(B47=\"\",\"\",INDEX('Amortization'!$V$11:$V$490,MATCH($N47,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K47",
+     "formula": "=IF(B47=\"\",\"\",INDEX('Amortization'!$X$11:$X$490,MATCH($N47,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L47",
+     "formula": "=IF(OR(B47=\"\",N('Loan Details'!$L$22)<=0),\"\",MAX(0,MIN(1,('Loan Details'!$L$22-J47)/'Loan Details'!$L$22)))",
+     "number_format": "0%"
+    },
+    {
+     "cell": "N48",
+     "formula": "=YEAR('Loan Details'!$L$12)+36"
+    },
+    {
+     "cell": "B48",
+     "formula": "=IF(AND('Loan Details'!$L$23,$N48<=$O$4),$N48,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C48",
+     "formula": "=IF(B48=\"\",\"\",COUNTIFS('Amortization'!$P$11:$P$490,$N48,'Amortization'!$R$11:$R$490,\">0\"))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D48",
+     "formula": "=IF(B48=\"\",\"\",ROUND(ROUND(SUMIFS('Amortization'!$T$11:$T$490,'Amortization'!$P$11:$P$490,$N48),2)+ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N48),2),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E48",
+     "formula": "=IF(B48=\"\",\"\",ROUND(SUMIFS('Amortization'!$S$11:$S$490,'Amortization'!$P$11:$P$490,$N48),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F48",
+     "formula": "=IF(B48=\"\",\"\",ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N48),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G48",
+     "formula": "=IF(B48=\"\",\"\",ROUND(SUMIFS('Amortization'!$Z$11:$Z$490,'Amortization'!$P$11:$P$490,$N48),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H48",
+     "formula": "=IF(B48=\"\",\"\",ROUND(C48*'Loan Details'!$L$24,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I48",
+     "formula": "=IF(B48=\"\",\"\",ROUND(D48+E48+G48+H48,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J48",
+     "formula": "=IF(B48=\"\",\"\",INDEX('Amortization'!$V$11:$V$490,MATCH($N48,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K48",
+     "formula": "=IF(B48=\"\",\"\",INDEX('Amortization'!$X$11:$X$490,MATCH($N48,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L48",
+     "formula": "=IF(OR(B48=\"\",N('Loan Details'!$L$22)<=0),\"\",MAX(0,MIN(1,('Loan Details'!$L$22-J48)/'Loan Details'!$L$22)))",
+     "number_format": "0%"
+    },
+    {
+     "cell": "N49",
+     "formula": "=YEAR('Loan Details'!$L$12)+37"
+    },
+    {
+     "cell": "B49",
+     "formula": "=IF(AND('Loan Details'!$L$23,$N49<=$O$4),$N49,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C49",
+     "formula": "=IF(B49=\"\",\"\",COUNTIFS('Amortization'!$P$11:$P$490,$N49,'Amortization'!$R$11:$R$490,\">0\"))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D49",
+     "formula": "=IF(B49=\"\",\"\",ROUND(ROUND(SUMIFS('Amortization'!$T$11:$T$490,'Amortization'!$P$11:$P$490,$N49),2)+ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N49),2),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E49",
+     "formula": "=IF(B49=\"\",\"\",ROUND(SUMIFS('Amortization'!$S$11:$S$490,'Amortization'!$P$11:$P$490,$N49),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F49",
+     "formula": "=IF(B49=\"\",\"\",ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N49),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G49",
+     "formula": "=IF(B49=\"\",\"\",ROUND(SUMIFS('Amortization'!$Z$11:$Z$490,'Amortization'!$P$11:$P$490,$N49),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H49",
+     "formula": "=IF(B49=\"\",\"\",ROUND(C49*'Loan Details'!$L$24,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I49",
+     "formula": "=IF(B49=\"\",\"\",ROUND(D49+E49+G49+H49,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J49",
+     "formula": "=IF(B49=\"\",\"\",INDEX('Amortization'!$V$11:$V$490,MATCH($N49,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K49",
+     "formula": "=IF(B49=\"\",\"\",INDEX('Amortization'!$X$11:$X$490,MATCH($N49,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L49",
+     "formula": "=IF(OR(B49=\"\",N('Loan Details'!$L$22)<=0),\"\",MAX(0,MIN(1,('Loan Details'!$L$22-J49)/'Loan Details'!$L$22)))",
+     "number_format": "0%"
+    },
+    {
+     "cell": "N50",
+     "formula": "=YEAR('Loan Details'!$L$12)+38"
+    },
+    {
+     "cell": "B50",
+     "formula": "=IF(AND('Loan Details'!$L$23,$N50<=$O$4),$N50,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C50",
+     "formula": "=IF(B50=\"\",\"\",COUNTIFS('Amortization'!$P$11:$P$490,$N50,'Amortization'!$R$11:$R$490,\">0\"))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D50",
+     "formula": "=IF(B50=\"\",\"\",ROUND(ROUND(SUMIFS('Amortization'!$T$11:$T$490,'Amortization'!$P$11:$P$490,$N50),2)+ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N50),2),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E50",
+     "formula": "=IF(B50=\"\",\"\",ROUND(SUMIFS('Amortization'!$S$11:$S$490,'Amortization'!$P$11:$P$490,$N50),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F50",
+     "formula": "=IF(B50=\"\",\"\",ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N50),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G50",
+     "formula": "=IF(B50=\"\",\"\",ROUND(SUMIFS('Amortization'!$Z$11:$Z$490,'Amortization'!$P$11:$P$490,$N50),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H50",
+     "formula": "=IF(B50=\"\",\"\",ROUND(C50*'Loan Details'!$L$24,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I50",
+     "formula": "=IF(B50=\"\",\"\",ROUND(D50+E50+G50+H50,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J50",
+     "formula": "=IF(B50=\"\",\"\",INDEX('Amortization'!$V$11:$V$490,MATCH($N50,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K50",
+     "formula": "=IF(B50=\"\",\"\",INDEX('Amortization'!$X$11:$X$490,MATCH($N50,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L50",
+     "formula": "=IF(OR(B50=\"\",N('Loan Details'!$L$22)<=0),\"\",MAX(0,MIN(1,('Loan Details'!$L$22-J50)/'Loan Details'!$L$22)))",
+     "number_format": "0%"
+    },
+    {
+     "cell": "N51",
+     "formula": "=YEAR('Loan Details'!$L$12)+39"
+    },
+    {
+     "cell": "B51",
+     "formula": "=IF(AND('Loan Details'!$L$23,$N51<=$O$4),$N51,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C51",
+     "formula": "=IF(B51=\"\",\"\",COUNTIFS('Amortization'!$P$11:$P$490,$N51,'Amortization'!$R$11:$R$490,\">0\"))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D51",
+     "formula": "=IF(B51=\"\",\"\",ROUND(ROUND(SUMIFS('Amortization'!$T$11:$T$490,'Amortization'!$P$11:$P$490,$N51),2)+ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N51),2),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E51",
+     "formula": "=IF(B51=\"\",\"\",ROUND(SUMIFS('Amortization'!$S$11:$S$490,'Amortization'!$P$11:$P$490,$N51),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F51",
+     "formula": "=IF(B51=\"\",\"\",ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N51),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G51",
+     "formula": "=IF(B51=\"\",\"\",ROUND(SUMIFS('Amortization'!$Z$11:$Z$490,'Amortization'!$P$11:$P$490,$N51),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H51",
+     "formula": "=IF(B51=\"\",\"\",ROUND(C51*'Loan Details'!$L$24,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I51",
+     "formula": "=IF(B51=\"\",\"\",ROUND(D51+E51+G51+H51,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J51",
+     "formula": "=IF(B51=\"\",\"\",INDEX('Amortization'!$V$11:$V$490,MATCH($N51,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K51",
+     "formula": "=IF(B51=\"\",\"\",INDEX('Amortization'!$X$11:$X$490,MATCH($N51,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L51",
+     "formula": "=IF(OR(B51=\"\",N('Loan Details'!$L$22)<=0),\"\",MAX(0,MIN(1,('Loan Details'!$L$22-J51)/'Loan Details'!$L$22)))",
+     "number_format": "0%"
+    },
+    {
+     "cell": "N52",
+     "formula": "=YEAR('Loan Details'!$L$12)+40"
+    },
+    {
+     "cell": "B52",
+     "formula": "=IF(AND('Loan Details'!$L$23,$N52<=$O$4),$N52,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C52",
+     "formula": "=IF(B52=\"\",\"\",COUNTIFS('Amortization'!$P$11:$P$490,$N52,'Amortization'!$R$11:$R$490,\">0\"))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D52",
+     "formula": "=IF(B52=\"\",\"\",ROUND(ROUND(SUMIFS('Amortization'!$T$11:$T$490,'Amortization'!$P$11:$P$490,$N52),2)+ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N52),2),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E52",
+     "formula": "=IF(B52=\"\",\"\",ROUND(SUMIFS('Amortization'!$S$11:$S$490,'Amortization'!$P$11:$P$490,$N52),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F52",
+     "formula": "=IF(B52=\"\",\"\",ROUND(SUMIFS('Amortization'!$U$11:$U$490,'Amortization'!$P$11:$P$490,$N52),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G52",
+     "formula": "=IF(B52=\"\",\"\",ROUND(SUMIFS('Amortization'!$Z$11:$Z$490,'Amortization'!$P$11:$P$490,$N52),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H52",
+     "formula": "=IF(B52=\"\",\"\",ROUND(C52*'Loan Details'!$L$24,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I52",
+     "formula": "=IF(B52=\"\",\"\",ROUND(D52+E52+G52+H52,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J52",
+     "formula": "=IF(B52=\"\",\"\",INDEX('Amortization'!$V$11:$V$490,MATCH($N52,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K52",
+     "formula": "=IF(B52=\"\",\"\",INDEX('Amortization'!$X$11:$X$490,MATCH($N52,'Amortization'!$P$11:$P$490,1)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L52",
+     "formula": "=IF(OR(B52=\"\",N('Loan Details'!$L$22)<=0),\"\",MAX(0,MIN(1,('Loan Details'!$L$22-J52)/'Loan Details'!$L$22)))",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B53",
+     "formula": "TOTAL"
+    },
+    {
+     "cell": "C53",
+     "formula": "=SUM(C12:C52)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D53",
+     "formula": "=ROUND(SUM(D12:D52),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E53",
+     "formula": "=ROUND(SUM(E12:E52),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F53",
+     "formula": "=ROUND(SUM(F12:F52),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G53",
+     "formula": "=ROUND(SUM(G12:G52),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H53",
+     "formula": "=ROUND(SUM(H12:H52),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I53",
+     "formula": "=ROUND(SUM(I12:I52),2)",
+     "number_format": "$#,##0.00"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "B12:L52",
+     "type": "formula",
+     "formula": [
+      "AND($B12<>\"\",$J12=0)"
+     ],
+     "fill": "DCEFD9"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:C7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "D5:E7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "F5:G7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "H5:I7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "B11:L53",
+     "color": "E5D5C5"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B11:L11",
+     "color": "F3E7D8"
+    },
+    {
+     "range": "B53:L53",
+     "color": "F3E7D8"
+    },
+    {
+     "range": "B12:L52",
+     "color": "FAF4EE"
+    }
+   ],
+   "row_heights": {
+    "11": 30
+   },
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "3E2C23"
+    },
+    {
+     "range": "B11:L11",
+     "bold": true,
+     "size": 9,
+     "color": "3E2C23",
+     "align": "center",
+     "wrap": true
+    },
+    {
+     "range": "B12:L52",
+     "size": 9,
+     "color": "3E2C23",
+     "align": "center"
+    },
+    {
+     "range": "B53:L53",
+     "bold": true,
+     "size": 9,
+     "color": "3E2C23",
+     "align": "center"
+    }
+   ],
+   "charts": [
+    {
+     "type": "line",
+     "anchor": "B56",
+     "data": "Yearly Summary!J11:K52",
+     "categories": "Yearly Summary!B12:B52",
+     "width": 14,
+     "height": 7,
+     "colors": [
+      "B5583B",
+      "7A8B6F"
+     ]
+    },
+    {
+     "type": "bar",
+     "anchor": "H56",
+     "data": "Yearly Summary!D11:E52",
+     "categories": "Yearly Summary!B12:B52",
+     "width": 14,
+     "height": 7,
+     "colors": [
+      "7A8B6F",
+      "B5583B"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "15 vs 30 Years",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "7A8B6F",
+   "grid_rows": 512,
+   "grid_cols": 26,
+   "row_height": 21,
+   "column_widths": {
+    "A": 2.5,
+    "B": 36,
+    "C": 17,
+    "D": 17,
+    "E": 17,
+    "F": 2.5
+   },
+   "hidden_columns": [
+    "P",
+    "Q",
+    "R",
+    "S",
+    "T",
+    "U",
+    "V",
+    "W",
+    "X",
+    "Y"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:K2",
+     "label": "15 VS 30 YEARS: COMPARE TERMS",
+     "size": 16,
+     "color": "B5583B",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "B19:C19",
+     "label": "TOTAL INTEREST BY OPTION",
+     "color": "EBC6B3",
+     "font_color": "3E2C23",
+     "align": "center"
+    },
+    {
+     "range": "B24:K24",
+     "label": "THE VERDICT",
+     "color": "EBC6B3",
+     "font_color": "3E2C23",
+     "align": "left"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Same loan, three terms. A shorter term costs more each month but saves a lot of interest."
+    },
+    {
+     "cell": "C5",
+     "formula": "Option 1"
+    },
+    {
+     "cell": "D5",
+     "formula": "Option 2"
+    },
+    {
+     "cell": "E5",
+     "formula": "Option 3"
+    },
+    {
+     "cell": "B6",
+     "formula": "Loan amount"
+    },
+    {
+     "cell": "B7",
+     "formula": "Term (years)"
+    },
+    {
+     "cell": "B8",
+     "formula": "Interest rate"
+    },
+    {
+     "cell": "B11",
+     "formula": "Principal & interest"
+    },
+    {
+     "cell": "B12",
+     "formula": "Monthly payment (with tax, ins., PMI, HOA)"
+    },
+    {
+     "cell": "B13",
+     "formula": "Total interest"
+    },
+    {
+     "cell": "B14",
+     "formula": "Total paid"
+    },
+    {
+     "cell": "B15",
+     "formula": "Paid off by"
+    },
+    {
+     "cell": "B16",
+     "formula": "Interest vs. Option 1 (- = less)"
+    },
+    {
+     "cell": "B17",
+     "formula": "Monthly vs. Option 1"
+    },
+    {
+     "cell": "B10",
+     "formula": "RESULTS"
+    },
+    {
+     "cell": "C10",
+     "formula": "=C5"
+    },
+    {
+     "cell": "C6",
+     "formula": "='Loan Details'!$L$8",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "C7",
+     "formula": 30
+    },
+    {
+     "cell": "C8",
+     "formula": 6.75
+    },
+    {
+     "cell": "P4",
+     "formula": "=MAX(0,IF(N(C8)>=1,N(C8)/100,N(C8)))/12"
+    },
+    {
+     "cell": "P5",
+     "formula": "=MIN(480,MAX(0,ROUND(N(C7)*12,0)))"
+    },
+    {
+     "cell": "P6",
+     "formula": "=IF(OR(C6<=0,P5=0),0,ROUND(PMT(P4,P5,-C6),2))"
+    },
+    {
+     "cell": "P7",
+     "formula": "=P6>0"
+    },
+    {
+     "col": "Q",
+     "range_rows": [
+      30,
+      509
+     ],
+     "formula": "=ROUND(IF(ROW()=30,$C$6,R{row-1})*$P$4,2)"
+    },
+    {
+     "col": "P",
+     "range_rows": [
+      30,
+      509
+     ],
+     "formula": "=IF(IF(ROW()=30,$C$6,R{row-1})<=0,0,IF(ROW()-29>=$P$5,IF(ROW()=30,$C$6,R{row-1})+Q{row},MIN($P$6,IF(ROW()=30,$C$6,R{row-1})+Q{row})))"
+    },
+    {
+     "col": "R",
+     "range_rows": [
+      30,
+      509
+     ],
+     "formula": "=ROUND(IF(ROW()=30,$C$6,R{row-1})+Q{row}-P{row},2)"
+    },
+    {
+     "cell": "Q4",
+     "formula": "=COUNTIF(P30:P509,\">0\")"
+    },
+    {
+     "cell": "Q5",
+     "formula": "=ROUND(SUM(Q30:Q509),2)"
+    },
+    {
+     "cell": "C11",
+     "formula": "=IF($P$7,$P$6,\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "C12",
+     "formula": "=IF($P$7,ROUND($P$6+'Loan Details'!$L$24+IF(AND('Loan Details'!$L$6>0,C6>0.8*'Loan Details'!$L$6),ROUND(C6*MAX(0,IF(N('Loan Details'!$C$16)>=0.05,N('Loan Details'!$C$16)/100,N('Loan Details'!$C$16)))/12,2),0),2),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "C13",
+     "formula": "=IF($P$7,Q5,\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "C14",
+     "formula": "=IF($P$7,ROUND(C6+Q5,2),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "C15",
+     "formula": "=IF($P$7,EDATE('Loan Details'!$L$12,Q4-1),\"\")",
+     "number_format": "mmm yyyy"
+    },
+    {
+     "cell": "C16",
+     "formula": "=IF(AND($P$7,ISNUMBER($C$13)),ROUND(C13-$C$13,2),\"\")",
+     "number_format": "+$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "C17",
+     "formula": "=IF(AND($P$7,ISNUMBER($C$11)),ROUND(C11-$C$11,2),\"\")",
+     "number_format": "+$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "B21",
+     "formula": "=\"Option 1: \"&N(C7)&\" years\""
+    },
+    {
+     "cell": "C21",
+     "formula": "=IF($P$7,C13,0)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D10",
+     "formula": "=D5"
+    },
+    {
+     "cell": "D6",
+     "formula": "='Loan Details'!$L$8",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D7",
+     "formula": 20
+    },
+    {
+     "cell": "D8",
+     "formula": 6.5
+    },
+    {
+     "cell": "S4",
+     "formula": "=MAX(0,IF(N(D8)>=1,N(D8)/100,N(D8)))/12"
+    },
+    {
+     "cell": "S5",
+     "formula": "=MIN(480,MAX(0,ROUND(N(D7)*12,0)))"
+    },
+    {
+     "cell": "S6",
+     "formula": "=IF(OR(D6<=0,S5=0),0,ROUND(PMT(S4,S5,-D6),2))"
+    },
+    {
+     "cell": "S7",
+     "formula": "=S6>0"
+    },
+    {
+     "col": "T",
+     "range_rows": [
+      30,
+      509
+     ],
+     "formula": "=ROUND(IF(ROW()=30,$D$6,U{row-1})*$S$4,2)"
+    },
+    {
+     "col": "S",
+     "range_rows": [
+      30,
+      509
+     ],
+     "formula": "=IF(IF(ROW()=30,$D$6,U{row-1})<=0,0,IF(ROW()-29>=$S$5,IF(ROW()=30,$D$6,U{row-1})+T{row},MIN($S$6,IF(ROW()=30,$D$6,U{row-1})+T{row})))"
+    },
+    {
+     "col": "U",
+     "range_rows": [
+      30,
+      509
+     ],
+     "formula": "=ROUND(IF(ROW()=30,$D$6,U{row-1})+T{row}-S{row},2)"
+    },
+    {
+     "cell": "T4",
+     "formula": "=COUNTIF(S30:S509,\">0\")"
+    },
+    {
+     "cell": "T5",
+     "formula": "=ROUND(SUM(T30:T509),2)"
+    },
+    {
+     "cell": "D11",
+     "formula": "=IF($S$7,$S$6,\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D12",
+     "formula": "=IF($S$7,ROUND($S$6+'Loan Details'!$L$24+IF(AND('Loan Details'!$L$6>0,D6>0.8*'Loan Details'!$L$6),ROUND(D6*MAX(0,IF(N('Loan Details'!$C$16)>=0.05,N('Loan Details'!$C$16)/100,N('Loan Details'!$C$16)))/12,2),0),2),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D13",
+     "formula": "=IF($S$7,T5,\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D14",
+     "formula": "=IF($S$7,ROUND(D6+T5,2),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D15",
+     "formula": "=IF($S$7,EDATE('Loan Details'!$L$12,T4-1),\"\")",
+     "number_format": "mmm yyyy"
+    },
+    {
+     "cell": "D16",
+     "formula": "=IF(AND($S$7,ISNUMBER($C$13)),ROUND(D13-$C$13,2),\"\")",
+     "number_format": "+$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "D17",
+     "formula": "=IF(AND($S$7,ISNUMBER($C$11)),ROUND(D11-$C$11,2),\"\")",
+     "number_format": "+$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "B22",
+     "formula": "=\"Option 2: \"&N(D7)&\" years\""
+    },
+    {
+     "cell": "C22",
+     "formula": "=IF($S$7,D13,0)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E10",
+     "formula": "=E5"
+    },
+    {
+     "cell": "E6",
+     "formula": "='Loan Details'!$L$8",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E7",
+     "formula": 15
+    },
+    {
+     "cell": "E8",
+     "formula": 6.0
+    },
+    {
+     "cell": "V4",
+     "formula": "=MAX(0,IF(N(E8)>=1,N(E8)/100,N(E8)))/12"
+    },
+    {
+     "cell": "V5",
+     "formula": "=MIN(480,MAX(0,ROUND(N(E7)*12,0)))"
+    },
+    {
+     "cell": "V6",
+     "formula": "=IF(OR(E6<=0,V5=0),0,ROUND(PMT(V4,V5,-E6),2))"
+    },
+    {
+     "cell": "V7",
+     "formula": "=V6>0"
+    },
+    {
+     "col": "W",
+     "range_rows": [
+      30,
+      509
+     ],
+     "formula": "=ROUND(IF(ROW()=30,$E$6,X{row-1})*$V$4,2)"
+    },
+    {
+     "col": "V",
+     "range_rows": [
+      30,
+      509
+     ],
+     "formula": "=IF(IF(ROW()=30,$E$6,X{row-1})<=0,0,IF(ROW()-29>=$V$5,IF(ROW()=30,$E$6,X{row-1})+W{row},MIN($V$6,IF(ROW()=30,$E$6,X{row-1})+W{row})))"
+    },
+    {
+     "col": "X",
+     "range_rows": [
+      30,
+      509
+     ],
+     "formula": "=ROUND(IF(ROW()=30,$E$6,X{row-1})+W{row}-V{row},2)"
+    },
+    {
+     "cell": "W4",
+     "formula": "=COUNTIF(V30:V509,\">0\")"
+    },
+    {
+     "cell": "W5",
+     "formula": "=ROUND(SUM(W30:W509),2)"
+    },
+    {
+     "cell": "E11",
+     "formula": "=IF($V$7,$V$6,\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E12",
+     "formula": "=IF($V$7,ROUND($V$6+'Loan Details'!$L$24+IF(AND('Loan Details'!$L$6>0,E6>0.8*'Loan Details'!$L$6),ROUND(E6*MAX(0,IF(N('Loan Details'!$C$16)>=0.05,N('Loan Details'!$C$16)/100,N('Loan Details'!$C$16)))/12,2),0),2),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E13",
+     "formula": "=IF($V$7,W5,\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E14",
+     "formula": "=IF($V$7,ROUND(E6+W5,2),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E15",
+     "formula": "=IF($V$7,EDATE('Loan Details'!$L$12,W4-1),\"\")",
+     "number_format": "mmm yyyy"
+    },
+    {
+     "cell": "E16",
+     "formula": "=IF(AND($V$7,ISNUMBER($C$13)),ROUND(E13-$C$13,2),\"\")",
+     "number_format": "+$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "E17",
+     "formula": "=IF(AND($V$7,ISNUMBER($C$11)),ROUND(E11-$C$11,2),\"\")",
+     "number_format": "+$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "B23",
+     "formula": "=\"Option 3: \"&N(E7)&\" years\""
+    },
+    {
+     "cell": "C23",
+     "formula": "=IF($V$7,E13,0)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B20",
+     "formula": "Option"
+    },
+    {
+     "cell": "C20",
+     "formula": "Total Interest"
+    },
+    {
+     "cell": "B25",
+     "formula": "=IF(COUNT($C$13:$E$13)<2,\"Fill in at least two options.\",\"Least interest: Option \"&MATCH(MIN($C$13:$E$13),$C$13:$E$13,0)&\" (\"&INDEX($C$7:$E$7,MATCH(MIN($C$13:$E$13),$C$13:$E$13,0))&\" years), saving $\"&FIXED(MAX($C$13:$E$13)-MIN($C$13:$E$13),2)&\" vs. the most expensive. It costs $\"&FIXED(INDEX($C$11:$E$11,MATCH(MIN($C$13:$E$13),$C$13:$E$13,0))-MIN($C$11:$E$11),2)&\" more a month than the lowest payment.\")"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "C10:C17",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER(C$13),C$13=MIN($C$13:$E$13))"
+     ],
+     "fill": "DCEFD9"
+    },
+    {
+     "range": "D10:D17",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER(D$13),D$13=MIN($C$13:$E$13))"
+     ],
+     "fill": "DCEFD9"
+    },
+    {
+     "range": "E10:E17",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER(E$13),E$13=MIN($C$13:$E$13))"
+     ],
+     "fill": "DCEFD9"
+    },
+    {
+     "range": "C7:E8",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C7<>\"\",NOT(ISNUMBER(C7))),N(C7)<0)"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B5:E5",
+     "color": "F3E7D8"
+    },
+    {
+     "range": "C6:E6",
+     "color": "FAF4EE"
+    },
+    {
+     "range": "B10:E10",
+     "color": "F3E7D8"
+    },
+    {
+     "range": "C11:E17",
+     "color": "FAF4EE"
+    },
+    {
+     "range": "B20:C20",
+     "color": "F3E7D8"
+    },
+    {
+     "range": "B21:C23",
+     "color": "FAF4EE"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:E8",
+     "color": "E5D5C5"
+    },
+    {
+     "range": "B10:E17",
+     "color": "E5D5C5"
+    },
+    {
+     "range": "B20:C23",
+     "color": "E5D5C5"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "3E2C23"
+    },
+    {
+     "range": "B5:E5",
+     "bold": true,
+     "size": 10,
+     "color": "3E2C23",
+     "align": "center"
+    },
+    {
+     "range": "B6:B8",
+     "bold": true,
+     "size": 10,
+     "color": "3E2C23"
+    },
+    {
+     "range": "C6:E8",
+     "size": 11,
+     "color": "3E2C23",
+     "align": "center"
+    },
+    {
+     "range": "B10:E10",
+     "bold": true,
+     "size": 10,
+     "color": "3E2C23",
+     "align": "center"
+    },
+    {
+     "range": "B11:B17",
+     "bold": true,
+     "size": 10,
+     "color": "3E2C23"
+    },
+    {
+     "range": "C11:E17",
+     "size": 11,
+     "color": "3E2C23",
+     "align": "center"
+    },
+    {
+     "range": "C12:E13",
+     "bold": true,
+     "size": 11,
+     "color": "3E2C23",
+     "align": "center"
+    },
+    {
+     "range": "B20:C20",
+     "bold": true,
+     "size": 10,
+     "color": "3E2C23",
+     "align": "center"
+    },
+    {
+     "range": "B21:C23",
+     "size": 10,
+     "color": "3E2C23",
+     "align": "center"
+    },
+    {
+     "range": "B25",
+     "bold": true,
+     "size": 11,
+     "color": "B5583B"
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "C7:E7",
+     "format": "0"
+    },
+    {
+     "range": "C8:E8",
+     "format": "[<1]0.00%;0.00\"%\""
+    }
+   ],
+   "charts": [
+    {
+     "type": "bar",
+     "anchor": "G5",
+     "data": "15 vs 30 Years!C20:C23",
+     "categories": "15 vs 30 Years!B21:B23",
+     "width": 12,
+     "height": 7,
+     "legend": false,
+     "colors": [
+      "B5583B"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Refinance",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "D98B6E",
+   "grid_rows": 40,
+   "grid_cols": 14,
+   "row_height": 21,
+   "column_widths": {
+    "A": 2.5,
+    "B": 28,
+    "C": 15,
+    "D": 38,
+    "E": 2.5,
+    "F": 30,
+    "G": 2.5,
+    "H": 16,
+    "I": 2.5,
+    "L": 10
+   },
+   "hidden_columns": [
+    "L"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:H2",
+     "label": "REFINANCE CALCULATOR",
+     "size": 16,
+     "color": "B5583B",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "B5:D5",
+     "label": "CURRENT LOAN",
+     "color": "EBC6B3",
+     "font_color": "3E2C23",
+     "align": "left"
+    },
+    {
+     "range": "B9:D9",
+     "label": "NEW LOAN",
+     "color": "EBC6B3",
+     "font_color": "3E2C23",
+     "align": "left"
+    },
+    {
+     "range": "F5:H5",
+     "label": "RESULTS",
+     "color": "B5583B",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "B16:H16",
+     "label": "THE VERDICT",
+     "color": "EBC6B3",
+     "font_color": "3E2C23",
+     "align": "left"
+    },
+    {
+     "range": "B20:C20",
+     "label": "TOTAL COST",
+     "color": "EBC6B3",
+     "font_color": "3E2C23",
+     "align": "center"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Is refinancing worth it? Compare your current loan with a new one, closing costs included."
+    },
+    {
+     "cell": "B6",
+     "formula": "Current balance"
+    },
+    {
+     "cell": "C6",
+     "formula": 355000,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D6",
+     "formula": "What you still owe (see Payment Tracker)."
+    },
+    {
+     "cell": "B7",
+     "formula": "Current rate"
+    },
+    {
+     "cell": "C7",
+     "formula": 6.75,
+     "number_format": "[<1]0.00%;0.00\"%\""
+    },
+    {
+     "cell": "B8",
+     "formula": "Years left on current loan"
+    },
+    {
+     "cell": "C8",
+     "formula": 28,
+     "number_format": "0"
+    },
+    {
+     "cell": "B10",
+     "formula": "New rate"
+    },
+    {
+     "cell": "C10",
+     "formula": 5.5,
+     "number_format": "[<1]0.00%;0.00\"%\""
+    },
+    {
+     "cell": "B11",
+     "formula": "New term (years)"
+    },
+    {
+     "cell": "C11",
+     "formula": 30,
+     "number_format": "0"
+    },
+    {
+     "cell": "B12",
+     "formula": "Closing costs"
+    },
+    {
+     "cell": "C12",
+     "formula": 6000,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D12",
+     "formula": "Fees, points and other costs to refinance."
+    },
+    {
+     "cell": "L6",
+     "formula": "=ROUND(MAX(0,N(C6)),2)"
+    },
+    {
+     "cell": "L7",
+     "formula": "=MAX(0,IF(N(C7)>=1,N(C7)/100,N(C7)))/12"
+    },
+    {
+     "cell": "L8",
+     "formula": "=MIN(480,MAX(0,ROUND(N(C8)*12,0)))"
+    },
+    {
+     "cell": "L10",
+     "formula": "=MAX(0,IF(N(C10)>=1,N(C10)/100,N(C10)))/12"
+    },
+    {
+     "cell": "L11",
+     "formula": "=MIN(480,MAX(0,ROUND(N(C11)*12,0)))"
+    },
+    {
+     "cell": "L12",
+     "formula": "=ROUND(MAX(0,N(C12)),2)"
+    },
+    {
+     "cell": "L13",
+     "formula": "=AND(L6>0,L8>0,L11>0)"
+    },
+    {
+     "cell": "L14",
+     "formula": "=IF(L13,ROUND(PMT(L7,L8,-L6),2),0)"
+    },
+    {
+     "cell": "L15",
+     "formula": "=IF(L13,ROUND(PMT(L10,L11,-L6),2),0)"
+    },
+    {
+     "cell": "F6",
+     "formula": "Current monthly payment (P&I)"
+    },
+    {
+     "cell": "H6",
+     "formula": "=IF(L13,L14,\"-\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F7",
+     "formula": "New monthly payment (P&I)"
+    },
+    {
+     "cell": "H7",
+     "formula": "=IF(L13,L15,\"-\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F8",
+     "formula": "Monthly savings"
+    },
+    {
+     "cell": "H8",
+     "formula": "=IF(L13,ROUND(L14-L15,2),\"-\")",
+     "number_format": "+$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "F9",
+     "formula": "Break-even"
+    },
+    {
+     "cell": "H9",
+     "formula": "=IF(NOT(L13),\"-\",IF(L14-L15<=0,\"Never\",ROUNDUP(L12/(L14-L15),0)&\" months\"))"
+    },
+    {
+     "cell": "F10",
+     "formula": "Interest left: current loan"
+    },
+    {
+     "cell": "H10",
+     "formula": "=IF(L13,MAX(0,ROUND(L14*L8-L6,2)),\"-\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F11",
+     "formula": "Interest: new loan"
+    },
+    {
+     "cell": "H11",
+     "formula": "=IF(L13,MAX(0,ROUND(L15*L11-L6,2)),\"-\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F12",
+     "formula": "Total cost: current loan"
+    },
+    {
+     "cell": "H12",
+     "formula": "=IF(L13,ROUND(L14*L8,2),\"-\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F13",
+     "formula": "Total cost: new loan + closing"
+    },
+    {
+     "cell": "H13",
+     "formula": "=IF(L13,ROUND(L15*L11+L12,2),\"-\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F14",
+     "formula": "Lifetime savings"
+    },
+    {
+     "cell": "H14",
+     "formula": "=IF(L13,ROUND(L14*L8-(L15*L11+L12),2),\"-\")",
+     "number_format": "+$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "B17",
+     "formula": "=IF(NOT(L13),\"Fill in the balance, years left and the new term.\",IF(L14-L15<=0,\"The new payment isn't lower: refinancing only makes sense for a shorter term or cash out.\",\"You save $\"&FIXED(L14-L15,2)&\" a month and earn back the closing costs in \"&ROUNDUP(L12/(L14-L15),0)&\" months. \"&IF(ROUND(L14*L8-(L15*L11+L12),2)>=0,\"Over the life of the loan you come out $\"&FIXED(L14*L8-(L15*L11+L12),2)&\" ahead.\",\"But a longer loan costs $\"&FIXED((L15*L11+L12)-L14*L8,2)&\" more in total: stay put, or pay extra to finish sooner.\")))"
+    },
+    {
+     "cell": "B18",
+     "formula": "Planning to move before the break-even point? Then refinancing probably isn't worth it."
+    },
+    {
+     "cell": "B21",
+     "formula": "Loan"
+    },
+    {
+     "cell": "C21",
+     "formula": "Total Cost"
+    },
+    {
+     "cell": "B22",
+     "formula": "Current loan"
+    },
+    {
+     "cell": "B23",
+     "formula": "New loan + closing"
+    },
+    {
+     "cell": "C22",
+     "formula": "=IF(L13,H12,0)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "C23",
+     "formula": "=IF(L13,H13,0)",
+     "number_format": "$#,##0.00"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "C6",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C6<>\"\",NOT(ISNUMBER(C6))),N(C6)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C7",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C7<>\"\",NOT(ISNUMBER(C7))),N(C7)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C8",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C8<>\"\",NOT(ISNUMBER(C8))),N(C8)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C10",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C10<>\"\",NOT(ISNUMBER(C10))),N(C10)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C11",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C11<>\"\",NOT(ISNUMBER(C11))),N(C11)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C12",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C12<>\"\",NOT(ISNUMBER(C12))),N(C12)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "F8:H8",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER($H$8),$H$8>0)"
+     ],
+     "fill": "DCEFD9"
+    },
+    {
+     "range": "F14:H14",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER($H$14),$H$14>0)"
+     ],
+     "fill": "DCEFD9"
+    },
+    {
+     "range": "F14:H14",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER($H$14),$H$14<0)"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "F6:H14",
+     "color": "FAF4EE"
+    },
+    {
+     "range": "B21:C21",
+     "color": "F3E7D8"
+    },
+    {
+     "range": "B22:C23",
+     "color": "FAF4EE"
+    }
+   ],
+   "borders": [
+    {
+     "range": "C6:C8",
+     "color": "E5D5C5"
+    },
+    {
+     "range": "C10:C12",
+     "color": "E5D5C5"
+    },
+    {
+     "range": "F6:H14",
+     "color": "E5D5C5",
+     "inner_vertical": false
+    },
+    {
+     "range": "B21:C23",
+     "color": "E5D5C5"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "3E2C23"
+    },
+    {
+     "range": "B6:B12",
+     "bold": true,
+     "size": 10,
+     "color": "3E2C23"
+    },
+    {
+     "range": "D6:D12",
+     "italic": true,
+     "size": 9,
+     "color": "3E2C23"
+    },
+    {
+     "range": "C6:C12",
+     "bold": true,
+     "size": 11,
+     "color": "3E2C23",
+     "align": "center"
+    },
+    {
+     "range": "F6:F14",
+     "size": 10,
+     "color": "3E2C23"
+    },
+    {
+     "range": "H6:H14",
+     "size": 11,
+     "color": "3E2C23",
+     "align": "right"
+    },
+    {
+     "range": "F8:H9",
+     "bold": true,
+     "size": 11,
+     "color": "3E2C23"
+    },
+    {
+     "range": "F14:H14",
+     "bold": true,
+     "size": 11,
+     "color": "3E2C23"
+    },
+    {
+     "range": "B17",
+     "bold": true,
+     "size": 11,
+     "color": "B5583B"
+    },
+    {
+     "range": "B18",
+     "italic": true,
+     "size": 10,
+     "color": "3E2C23"
+    },
+    {
+     "range": "B21:C21",
+     "bold": true,
+     "size": 10,
+     "color": "3E2C23",
+     "align": "center"
+    },
+    {
+     "range": "B22:C23",
+     "size": 10,
+     "color": "3E2C23",
+     "align": "center"
+    }
+   ],
+   "charts": [
+    {
+     "type": "bar",
+     "anchor": "E20",
+     "data": "Refinance!C21:C23",
+     "categories": "Refinance!B22:B23",
+     "width": 11,
+     "height": 6,
+     "legend": false,
+     "colors": [
+      "7A8B6F"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Payment Tracker",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "EBC6B3",
+   "grid_rows": 493,
+   "grid_cols": 18,
+   "row_height": 19,
+   "freeze": "A11",
+   "column_widths": {
+    "A": 2.5,
+    "B": 7,
+    "C": 11,
+    "D": 14,
+    "E": 13,
+    "F": 14,
+    "G": 12,
+    "H": 12,
+    "I": 14,
+    "J": 14,
+    "K": 14,
+    "L": 2.5
+   },
+   "hidden_columns": [
+    "M",
+    "N",
+    "O",
+    "P",
+    "Q"
+   ],
+   "row_heights": {
+    "10": 32
+   },
+   "section_bars": [
+    {
+     "range": "B2:K2",
+     "label": "PAYMENT TRACKER",
+     "size": 16,
+     "color": "B5583B",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "B9:K9",
+     "label": "MONTH BY MONTH",
+     "color": "EBC6B3",
+     "font_color": "3E2C23",
+     "align": "center"
+    }
+   ],
+   "kpi_cards": [
+    {
+     "anchor": "B5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "PAYMENTS LOGGED",
+     "value": "=$Q$4&\" of \"&'Loan Details'!$L$10",
+     "fill": "B5583B",
+     "font_color": "FFFFFF",
+     "value_size": 14
+    },
+    {
+     "anchor": "D5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "BALANCE NOW",
+     "value": "=$Q$5",
+     "fill": "7A8B6F",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "F5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "VS. ORIGINAL PLAN",
+     "value": "=IF($Q$4=0,\"Log a payment\",IF($Q$6>=0,\"Ahead by $\"&FIXED($Q$6,2),\"Behind by $\"&FIXED(-$Q$6,2)))",
+     "fill": "EBC6B3",
+     "font_color": "3E2C23",
+     "value_size": 13
+    },
+    {
+     "anchor": "H5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "MY EQUITY",
+     "value": "=IF(N('Loan Details'!$L$22)<=0,\"-\",MAX(0,MIN(1,('Loan Details'!$L$22-$Q$5)/'Loan Details'!$L$22)))",
+     "fill": "F3E7D8",
+     "font_color": "3E2C23",
+     "value_size": 16,
+     "number_format": "0%"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Each month, type what you paid toward principal & interest, plus any extra principal. Your real balance updates and is compared with the original plan (no extra payments)."
+    },
+    {
+     "cell": "E11",
+     "formula": 2334.95
+    },
+    {
+     "cell": "F11",
+     "formula": 100
+    },
+    {
+     "cell": "E12",
+     "formula": 2334.95
+    },
+    {
+     "cell": "F12",
+     "formula": 100
+    },
+    {
+     "cell": "E13",
+     "formula": 2334.95
+    },
+    {
+     "cell": "F13",
+     "formula": 2100
+    },
+    {
+     "cell": "E14",
+     "formula": 2334.95
+    },
+    {
+     "cell": "F14",
+     "formula": 100
+    },
+    {
+     "cell": "E15",
+     "formula": 2334.95
+    },
+    {
+     "cell": "F15",
+     "formula": 100
+    },
+    {
+     "cell": "E16",
+     "formula": 2334.95
+    },
+    {
+     "cell": "F16",
+     "formula": 100
+    },
+    {
+     "cell": "E17",
+     "formula": 2334.95
+    },
+    {
+     "cell": "F17",
+     "formula": 100
+    },
+    {
+     "cell": "E18",
+     "formula": 2334.95
+    },
+    {
+     "cell": "F18",
+     "formula": 100
+    },
+    {
+     "cell": "E19",
+     "formula": 2334.95
+    },
+    {
+     "cell": "F19",
+     "formula": 100
+    },
+    {
+     "cell": "E20",
+     "formula": 2334.95
+    },
+    {
+     "cell": "F20",
+     "formula": 100
+    },
+    {
+     "cell": "E21",
+     "formula": 2334.95
+    },
+    {
+     "cell": "F21",
+     "formula": 100
+    },
+    {
+     "cell": "E22",
+     "formula": 2334.95
+    },
+    {
+     "cell": "F22",
+     "formula": 100
+    },
+    {
+     "cell": "E23",
+     "formula": 2334.95
+    },
+    {
+     "cell": "F23",
+     "formula": 100
+    },
+    {
+     "cell": "E24",
+     "formula": 2334.95
+    },
+    {
+     "cell": "F24",
+     "formula": 100
+    },
+    {
+     "cell": "E25",
+     "formula": 2334.95
+    },
+    {
+     "cell": "F25",
+     "formula": 100
+    },
+    {
+     "cell": "E26",
+     "formula": 2334.95
+    },
+    {
+     "cell": "F26",
+     "formula": 100
+    },
+    {
+     "cell": "E27",
+     "formula": 2334.95
+    },
+    {
+     "cell": "F27",
+     "formula": 100
+    },
+    {
+     "cell": "E28",
+     "formula": 2334.95
+    },
+    {
+     "cell": "F28",
+     "formula": 100
+    },
+    {
+     "col": "M",
+     "range_rows": [
+      11,
+      490
+     ],
+     "formula": "=IF(OR(ISNUMBER(E{row}),ISNUMBER(F{row})),(ROW()-10),0)"
+    },
+    {
+     "col": "N",
+     "range_rows": [
+      11,
+      490
+     ],
+     "formula": "=ROUND(IF(ROW()=11,'Loan Details'!$L$8,O{row-1})*'Loan Details'!$L$9,2)"
+    },
+    {
+     "col": "O",
+     "range_rows": [
+      11,
+      490
+     ],
+     "formula": "=MAX(0,ROUND(IF(ROW()=11,'Loan Details'!$L$8,O{row-1})-(N(E{row})+N(F{row})-N{row}),2))"
+    },
+    {
+     "col": "B",
+     "range_rows": [
+      11,
+      490
+     ],
+     "formula": "=IF(AND('Loan Details'!$L$23,(ROW()-10)<='Loan Details'!$L$10),(ROW()-10),\"\")",
+     "number_format": "0"
+    },
+    {
+     "col": "C",
+     "range_rows": [
+      11,
+      490
+     ],
+     "formula": "=IF(B{row}=\"\",\"\",EDATE('Loan Details'!$L$12,(ROW()-10)-1))",
+     "number_format": "mmm yyyy"
+    },
+    {
+     "col": "D",
+     "range_rows": [
+      11,
+      490
+     ],
+     "formula": "=IF(B{row}=\"\",\"\",'Amortization'!Y{row})",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "G",
+     "range_rows": [
+      11,
+      490
+     ],
+     "formula": "=IF((ROW()-10)>$Q$4,\"\",N{row})",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "H",
+     "range_rows": [
+      11,
+      490
+     ],
+     "formula": "=IF((ROW()-10)>$Q$4,\"\",ROUND(N(E{row})+N(F{row})-N{row},2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "I",
+     "range_rows": [
+      11,
+      490
+     ],
+     "formula": "=IF((ROW()-10)>$Q$4,\"\",O{row})",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "J",
+     "range_rows": [
+      11,
+      490
+     ],
+     "formula": "=IF((ROW()-10)>$Q$4,\"\",'Amortization'!X{row})",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "K",
+     "range_rows": [
+      11,
+      490
+     ],
+     "formula": "=IF((ROW()-10)>$Q$4,\"\",ROUND(J{row}-I{row},2))",
+     "number_format": "+$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "Q4",
+     "formula": "=MAX(M11:M490)"
+    },
+    {
+     "cell": "Q5",
+     "formula": "=IF(Q4=0,'Loan Details'!$L$8,INDEX(O11:O490,Q4))"
+    },
+    {
+     "cell": "Q6",
+     "formula": "=IF(Q4=0,0,INDEX(K11:K490,Q4))"
+    },
+    {
+     "cell": "B10",
+     "formula": "#"
+    },
+    {
+     "cell": "C10",
+     "formula": "Due Date"
+    },
+    {
+     "cell": "D10",
+     "formula": "Scheduled P&I"
+    },
+    {
+     "cell": "E10",
+     "formula": "P&I Paid"
+    },
+    {
+     "cell": "F10",
+     "formula": "Extra Principal"
+    },
+    {
+     "cell": "G10",
+     "formula": "Interest"
+    },
+    {
+     "cell": "H10",
+     "formula": "Principal"
+    },
+    {
+     "cell": "I10",
+     "formula": "My Balance"
+    },
+    {
+     "cell": "J10",
+     "formula": "Plan Balance"
+    },
+    {
+     "cell": "K10",
+     "formula": "Ahead / Behind"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "E11:F490",
+     "type": "formula",
+     "formula": [
+      "OR(AND(E11<>\"\",NOT(ISNUMBER(E11))),N(E11)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "K11:K490",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER(K11),K11>=0)"
+     ],
+     "fill": "DCEFD9"
+    },
+    {
+     "range": "K11:K490",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER(K11),K11<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "E11:E490",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER(E11),ISNUMBER(D11),E11<D11)"
+     ],
+     "fill": "FFF1C2"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:C7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "D5:E7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "F5:G7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "H5:I7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "B10:K10",
+     "color": "E5D5C5"
+    },
+    {
+     "range": "E11:F490",
+     "color": "E5D5C5"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B10:K10",
+     "color": "F3E7D8"
+    },
+    {
+     "range": "G11:K490",
+     "color": "FAF4EE"
+    },
+    {
+     "range": "B11:D490",
+     "color": "FAF4EE"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "3E2C23"
+    },
+    {
+     "range": "B10:K10",
+     "bold": true,
+     "size": 9,
+     "color": "3E2C23",
+     "align": "center",
+     "wrap": true
+    },
+    {
+     "range": "B11:C490",
+     "size": 9,
+     "color": "3E2C23",
+     "align": "center"
+    },
+    {
+     "range": "D11:K490",
+     "size": 9,
+     "color": "3E2C23",
+     "align": "right"
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "E11:F490",
+     "format": "$#,##0.00"
+    }
+   ]
+  }
+ ]
+}
