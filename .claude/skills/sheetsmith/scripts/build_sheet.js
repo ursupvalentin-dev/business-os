@@ -424,6 +424,12 @@ async function main() {
   for (let i = 0; i < reqs.length; i += 1500) {
     await sheets.spreadsheets.batchUpdate({ spreadsheetId: ssId, requestBody: { requests: reqs.slice(i, i + 1500) } });
   }
+  // A non-English workbook is built in en_US (so the formulas parse), then switched to its own locale: formulas
+  // stay valid, and numbers, dates and currency show the local way (for example fr_FR: 1 234,56 €).
+  if (spec.display_locale) {
+    await sheets.spreadsheets.batchUpdate({ spreadsheetId: ssId, requestBody: { requests: [
+      { updateSpreadsheetProperties: { properties: { locale: spec.display_locale }, fields: "locale" } }] } });
+  }
 
   const url = `https://docs.google.com/spreadsheets/d/${ssId}/edit`;
   console.log("Built ✓  " + title);
