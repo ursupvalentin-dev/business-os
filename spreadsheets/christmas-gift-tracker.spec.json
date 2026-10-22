@@ -1,0 +1,5081 @@
+{
+ "filename": "Christmas Gift Tracker",
+ "locale": "en_US",
+ "theme": {
+  "header_font": "FFFFFF",
+  "border": "EADDD3",
+  "accent": "8C1C3A",
+  "section_colors": [
+   "8C1C3A",
+   "E4EDE5",
+   "FBF8F3"
+  ],
+  "chart_palette": [
+   "8C1C3A",
+   "6B8F71",
+   "E2C48A",
+   "B5566E",
+   "9DB8A1",
+   "C9A55C",
+   "5E1226"
+  ]
+ },
+ "tabs": [
+  {
+   "name": "Start Here",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "8C1C3A",
+   "grid_rows": 30,
+   "column_widths": {
+    "A": 2.5,
+    "B": 22,
+    "C": 100,
+    "D": 2.5
+   },
+   "section_bars": [
+    {
+     "range": "B2:C2",
+     "label": "CHRISTMAS GIFT TRACKER",
+     "size": 18,
+     "color": "8C1C3A",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "B5:C5",
+     "label": "HOW TO USE IT",
+     "color": "E4EDE5",
+     "font_color": "2B1A1F",
+     "align": "left"
+    },
+    {
+     "range": "B12:C12",
+     "label": "GOOD TO KNOW",
+     "color": "6B8F71",
+     "font_color": "FFFFFF",
+     "align": "left"
+    },
+    {
+     "range": "B19:C19",
+     "label": "COLOR GUIDE",
+     "color": "E4EDE5",
+     "font_color": "2B1A1F",
+     "align": "left"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Everyone on your list, every gift, and every dollar."
+    },
+    {
+     "cell": "B6",
+     "formula": "1. People: everyone on your list, their group and how much you want to spend on them. Add sizes and wish-list ideas."
+    },
+    {
+     "cell": "B7",
+     "formula": "2. Gift List: one row per gift. Start as an Idea with a price, then update the status: Ordered, Bought, Wrapped, Given. Type what you actually paid."
+    },
+    {
+     "cell": "B8",
+     "formula": "3. People shows what's spent and left for each person, and who's ready."
+    },
+    {
+     "cell": "B9",
+     "formula": "4. To Do lists what's still to buy, what's on its way, and what still needs wrapping."
+    },
+    {
+     "cell": "B10",
+     "formula": "5. Thank-Yous: gifts you receive and whether the thank-you note went out."
+    },
+    {
+     "cell": "B13",
+     "formula": "What counts as spent"
+    },
+    {
+     "cell": "C13",
+     "formula": "Gifts that are Ordered, Bought, Wrapped or Given. Ideas only count as Planned."
+    },
+    {
+     "cell": "B14",
+     "formula": "Paid vs price"
+    },
+    {
+     "cell": "C14",
+     "formula": "Type the actual price in Paid. If it's blank, the planned price is used."
+    },
+    {
+     "cell": "B15",
+     "formula": "Arriving"
+    },
+    {
+     "cell": "C15",
+     "formula": "Add an Arrives By date for online orders. Late ones turn red on To Do."
+    },
+    {
+     "cell": "B16",
+     "formula": "Group gifts"
+    },
+    {
+     "cell": "C16",
+     "formula": "Buying one gift for a family or a team? Make that one person on the list."
+    },
+    {
+     "cell": "B17",
+     "formula": "Start fresh"
+    },
+    {
+     "cell": "C17",
+     "formula": "Clear the white cells on Gift List and Thank-Yous and update your People list."
+    },
+    {
+     "cell": "C20",
+     "formula": "White cells: type here."
+    },
+    {
+     "cell": "C21",
+     "formula": "Tinted cells: these calculate for you."
+    },
+    {
+     "cell": "C22",
+     "formula": "Green: ready, wrapped or under budget."
+    },
+    {
+     "cell": "C23",
+     "formula": "Yellow: still shopping, or close to the limit."
+    },
+    {
+     "cell": "C24",
+     "formula": "Red: over budget, late, or something to check."
+    },
+    {
+     "cell": "B26",
+     "formula": "Thank you for your purchase! Happy gifting."
+    }
+   ],
+   "fills": [
+    {
+     "range": "B13:C17",
+     "color": "E4EDE5"
+    },
+    {
+     "range": "B20",
+     "color": "FFFFFF"
+    },
+    {
+     "range": "B21",
+     "color": "FDFBF8"
+    },
+    {
+     "range": "B22",
+     "color": "D7EFDD"
+    },
+    {
+     "range": "B23",
+     "color": "FFF1C2"
+    },
+    {
+     "range": "B24",
+     "color": "F6CACA"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B20",
+     "color": "EADDD3"
+    },
+    {
+     "range": "B21",
+     "color": "EADDD3"
+    },
+    {
+     "range": "B22",
+     "color": "EADDD3"
+    },
+    {
+     "range": "B23",
+     "color": "EADDD3"
+    },
+    {
+     "range": "B24",
+     "color": "EADDD3"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 11,
+     "color": "2B1A1F"
+    },
+    {
+     "range": "B13:B17",
+     "bold": true,
+     "size": 11,
+     "color": "2B1A1F"
+    },
+    {
+     "range": "B26",
+     "italic": true,
+     "bold": true,
+     "size": 11,
+     "color": "8C1C3A"
+    }
+   ]
+  },
+  {
+   "name": "Dashboard",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "8C1C3A",
+   "grid_rows": 44,
+   "grid_cols": 11,
+   "row_height": 20,
+   "column_widths": {
+    "A": 2.5,
+    "B": 16,
+    "C": 10,
+    "D": 14,
+    "E": 14,
+    "F": 14,
+    "G": 14,
+    "H": 15,
+    "I": 15,
+    "J": 2.5
+   },
+   "section_bars": [
+    {
+     "range": "B2:I2",
+     "label": "=\"GIFT DASHBOARD  -  \"&'People'!$R$4",
+     "size": 16,
+     "color": "8C1C3A",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "B13:G13",
+     "label": "BY GROUP",
+     "color": "E4EDE5",
+     "font_color": "2B1A1F",
+     "align": "center"
+    },
+    {
+     "range": "B24:I24",
+     "label": "BUDGET VS. SPENT BY GROUP",
+     "color": "E4EDE5",
+     "font_color": "2B1A1F",
+     "align": "center"
+    }
+   ],
+   "kpi_cards": [
+    {
+     "anchor": "B5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "DAYS TO CHRISTMAS",
+     "value": "=IF('People'!$R$5>'People'!$R$6,\"Merry Christmas!\",MAX(0,'People'!$R$6-'People'!$R$5))",
+     "fill": "8C1C3A",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "0"
+    },
+    {
+     "anchor": "D5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "GIFT BUDGET",
+     "value": "=D22",
+     "fill": "6B8F71",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "F5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "SPENT",
+     "value": "=E22",
+     "fill": "F6ECD6",
+     "font_color": "2B1A1F",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "H5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "LEFT",
+     "value": "=F22",
+     "fill": "E4EDE5",
+     "font_color": "2B1A1F",
+     "value_size": 16,
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "anchor": "B9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "PEOPLE READY",
+     "value": "=COUNTIF('People'!$K$9:$K$58,\"Ready\")&\" of \"&C22",
+     "fill": "FBF8F3",
+     "font_color": "2B1A1F",
+     "value_size": 16
+    },
+    {
+     "anchor": "D9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "GIFTS WRAPPED / GIVEN",
+     "value": "=(COUNTIF('Gift List'!$M$6:$M$305,\"Wrapped\")+COUNTIF('Gift List'!$M$6:$M$305,\"Given\"))&\" of \"&COUNTIF('Gift List'!$L$6:$L$305,\"OK\")",
+     "fill": "FBF8F3",
+     "font_color": "2B1A1F",
+     "value_size": 16
+    },
+    {
+     "anchor": "F9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "AVG PER PERSON",
+     "value": "=IF(C22=0,\"-\",ROUND(E22/C22,2))",
+     "fill": "FBF8F3",
+     "font_color": "2B1A1F",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "H9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "VS. TOTAL BUDGET",
+     "value": "=IF(ISNUMBER('People'!C6),ROUND('People'!C6-E22,2),\"-\")",
+     "fill": "FBF8F3",
+     "font_color": "2B1A1F",
+     "value_size": 16,
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "=\"Gifts for Christmas \"&'People'!$R$4&\", as of \"&TEXT('People'!$R$5,\"mmmm d\")&\".\""
+    },
+    {
+     "cell": "B14",
+     "formula": "Group"
+    },
+    {
+     "cell": "C14",
+     "formula": "People"
+    },
+    {
+     "cell": "D14",
+     "formula": "Budget"
+    },
+    {
+     "cell": "E14",
+     "formula": "Spent"
+    },
+    {
+     "cell": "F14",
+     "formula": "Left"
+    },
+    {
+     "cell": "G14",
+     "formula": "Used"
+    },
+    {
+     "cell": "B15",
+     "formula": "Family"
+    },
+    {
+     "cell": "C15",
+     "formula": "=COUNTIFS('People'!$C$9:$C$58,B15,'People'!$L$9:$L$58,\"?*\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "D15",
+     "formula": "=ROUND(SUMIFS('People'!$D$9:$D$58,'People'!$C$9:$C$58,B15),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E15",
+     "formula": "=ROUND(SUMIFS('People'!$H$9:$H$58,'People'!$C$9:$C$58,B15),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F15",
+     "formula": "=ROUND(D15-E15,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "G15",
+     "formula": "=IF(D15<=0,\"\",REPT(\"█\",ROUND(MIN(1,MAX(0,E15/D15))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,E15/D15))*10,0)))"
+    },
+    {
+     "cell": "B16",
+     "formula": "Kids"
+    },
+    {
+     "cell": "C16",
+     "formula": "=COUNTIFS('People'!$C$9:$C$58,B16,'People'!$L$9:$L$58,\"?*\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "D16",
+     "formula": "=ROUND(SUMIFS('People'!$D$9:$D$58,'People'!$C$9:$C$58,B16),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E16",
+     "formula": "=ROUND(SUMIFS('People'!$H$9:$H$58,'People'!$C$9:$C$58,B16),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F16",
+     "formula": "=ROUND(D16-E16,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "G16",
+     "formula": "=IF(D16<=0,\"\",REPT(\"█\",ROUND(MIN(1,MAX(0,E16/D16))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,E16/D16))*10,0)))"
+    },
+    {
+     "cell": "B17",
+     "formula": "Friends"
+    },
+    {
+     "cell": "C17",
+     "formula": "=COUNTIFS('People'!$C$9:$C$58,B17,'People'!$L$9:$L$58,\"?*\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "D17",
+     "formula": "=ROUND(SUMIFS('People'!$D$9:$D$58,'People'!$C$9:$C$58,B17),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E17",
+     "formula": "=ROUND(SUMIFS('People'!$H$9:$H$58,'People'!$C$9:$C$58,B17),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F17",
+     "formula": "=ROUND(D17-E17,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "G17",
+     "formula": "=IF(D17<=0,\"\",REPT(\"█\",ROUND(MIN(1,MAX(0,E17/D17))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,E17/D17))*10,0)))"
+    },
+    {
+     "cell": "B18",
+     "formula": "Coworkers"
+    },
+    {
+     "cell": "C18",
+     "formula": "=COUNTIFS('People'!$C$9:$C$58,B18,'People'!$L$9:$L$58,\"?*\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "D18",
+     "formula": "=ROUND(SUMIFS('People'!$D$9:$D$58,'People'!$C$9:$C$58,B18),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E18",
+     "formula": "=ROUND(SUMIFS('People'!$H$9:$H$58,'People'!$C$9:$C$58,B18),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F18",
+     "formula": "=ROUND(D18-E18,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "G18",
+     "formula": "=IF(D18<=0,\"\",REPT(\"█\",ROUND(MIN(1,MAX(0,E18/D18))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,E18/D18))*10,0)))"
+    },
+    {
+     "cell": "B19",
+     "formula": "Teachers"
+    },
+    {
+     "cell": "C19",
+     "formula": "=COUNTIFS('People'!$C$9:$C$58,B19,'People'!$L$9:$L$58,\"?*\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "D19",
+     "formula": "=ROUND(SUMIFS('People'!$D$9:$D$58,'People'!$C$9:$C$58,B19),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E19",
+     "formula": "=ROUND(SUMIFS('People'!$H$9:$H$58,'People'!$C$9:$C$58,B19),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F19",
+     "formula": "=ROUND(D19-E19,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "G19",
+     "formula": "=IF(D19<=0,\"\",REPT(\"█\",ROUND(MIN(1,MAX(0,E19/D19))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,E19/D19))*10,0)))"
+    },
+    {
+     "cell": "B20",
+     "formula": "Neighbors"
+    },
+    {
+     "cell": "C20",
+     "formula": "=COUNTIFS('People'!$C$9:$C$58,B20,'People'!$L$9:$L$58,\"?*\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "D20",
+     "formula": "=ROUND(SUMIFS('People'!$D$9:$D$58,'People'!$C$9:$C$58,B20),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E20",
+     "formula": "=ROUND(SUMIFS('People'!$H$9:$H$58,'People'!$C$9:$C$58,B20),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F20",
+     "formula": "=ROUND(D20-E20,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "G20",
+     "formula": "=IF(D20<=0,\"\",REPT(\"█\",ROUND(MIN(1,MAX(0,E20/D20))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,E20/D20))*10,0)))"
+    },
+    {
+     "cell": "B21",
+     "formula": "Other"
+    },
+    {
+     "cell": "C21",
+     "formula": "=COUNTIFS('People'!$C$9:$C$58,B21,'People'!$L$9:$L$58,\"?*\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "D21",
+     "formula": "=ROUND(SUMIFS('People'!$D$9:$D$58,'People'!$C$9:$C$58,B21),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E21",
+     "formula": "=ROUND(SUMIFS('People'!$H$9:$H$58,'People'!$C$9:$C$58,B21),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F21",
+     "formula": "=ROUND(D21-E21,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "G21",
+     "formula": "=IF(D21<=0,\"\",REPT(\"█\",ROUND(MIN(1,MAX(0,E21/D21))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,E21/D21))*10,0)))"
+    },
+    {
+     "cell": "B22",
+     "formula": "TOTAL"
+    },
+    {
+     "cell": "C22",
+     "formula": "=COUNTIF('People'!$L$9:$L$58,\"?*\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "D22",
+     "formula": "='People'!D59",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E22",
+     "formula": "='People'!H59",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F22",
+     "formula": "=ROUND(D22-E22,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "G22",
+     "formula": "=IF(D22<=0,\"\",REPT(\"█\",ROUND(MIN(1,MAX(0,E22/D22))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,E22/D22))*10,0)))"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "F15:F22",
+     "type": "formula",
+     "formula": [
+      "F15<0"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "H6:I7",
+     "type": "formula",
+     "formula": [
+      "$H$6<0"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "H10:I11",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER($H$10),$H$10<0)"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:C7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "D5:E7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "F5:G7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "H5:I7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "B9:C11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "D9:E11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "F9:G11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "H9:I11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "B14:G22",
+     "color": "EADDD3"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B14:G14",
+     "color": "E4EDE5"
+    },
+    {
+     "range": "C15:G21",
+     "color": "FDFBF8"
+    },
+    {
+     "range": "B22:G22",
+     "color": "E4EDE5"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "2B1A1F"
+    },
+    {
+     "range": "B14:G14",
+     "bold": true,
+     "size": 10,
+     "color": "2B1A1F",
+     "align": "center"
+    },
+    {
+     "range": "B15:F22",
+     "size": 10,
+     "color": "2B1A1F",
+     "align": "center"
+    },
+    {
+     "range": "G15:G22",
+     "size": 9,
+     "color": "8C1C3A"
+    },
+    {
+     "range": "B22:G22",
+     "bold": true,
+     "size": 10,
+     "color": "2B1A1F",
+     "align": "center"
+    }
+   ],
+   "charts": [
+    {
+     "type": "doughnut",
+     "anchor": "H13",
+     "data": "Dashboard!E15:E21",
+     "categories": "Dashboard!B15:B21",
+     "width": 8,
+     "height": 5.5,
+     "titles_from_data": false
+    },
+    {
+     "type": "bar",
+     "anchor": "B25",
+     "data": "Dashboard!D14:E21",
+     "categories": "Dashboard!B15:B21",
+     "width": 24,
+     "height": 7,
+     "colors": [
+      "6B8F71",
+      "8C1C3A"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "People",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "8C1C3A",
+   "grid_rows": 62,
+   "grid_cols": 19,
+   "row_height": 21,
+   "freeze": "C9",
+   "column_widths": {
+    "A": 2.5,
+    "B": 22,
+    "C": 12,
+    "D": 11,
+    "E": 30,
+    "F": 8,
+    "G": 11,
+    "H": 11,
+    "I": 11,
+    "J": 13,
+    "K": 12,
+    "L": 3,
+    "M": 3,
+    "N": 3,
+    "O": 2.5,
+    "R": 10
+   },
+   "hidden_columns": [
+    "L",
+    "M",
+    "N",
+    "R"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:K2",
+     "label": "=\"CHRISTMAS GIFT LIST  -  \"&R4",
+     "size": 16,
+     "color": "8C1C3A",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "B7:E7",
+     "label": "WHO'S ON YOUR LIST",
+     "color": "E4EDE5",
+     "font_color": "2B1A1F",
+     "align": "left"
+    },
+    {
+     "range": "F7:K7",
+     "label": "AUTOMATIC",
+     "color": "6B8F71",
+     "font_color": "FFFFFF",
+     "align": "left"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Your gift list, one row per person (or family). Spent and status fill in from the Gift List."
+    },
+    {
+     "cell": "B4",
+     "formula": "Year"
+    },
+    {
+     "cell": "D4",
+     "formula": "Blank = this year."
+    },
+    {
+     "cell": "B5",
+     "formula": "Today's date"
+    },
+    {
+     "cell": "D5",
+     "formula": "Optional. Blank = today."
+    },
+    {
+     "cell": "B6",
+     "formula": "Total gift budget"
+    },
+    {
+     "cell": "D6",
+     "formula": "Optional: your overall limit for gifts."
+    },
+    {
+     "cell": "R4",
+     "formula": "=IF(AND(ISNUMBER(C4),N(C4)>=1900,N(C4)<=9999),INT(C4),YEAR(TODAY()))"
+    },
+    {
+     "cell": "R5",
+     "formula": "=IF(AND(ISNUMBER(C5),N(C5)>=1),INT(C5),TODAY())"
+    },
+    {
+     "cell": "R6",
+     "formula": "=DATE(R4,12,25)"
+    },
+    {
+     "cell": "C4",
+     "formula": 2027
+    },
+    {
+     "cell": "C5",
+     "formula": "=DATE(2027,12,8)"
+    },
+    {
+     "cell": "C6",
+     "formula": 1300
+    },
+    {
+     "cell": "B8",
+     "formula": "Person"
+    },
+    {
+     "cell": "C8",
+     "formula": "Group"
+    },
+    {
+     "cell": "D8",
+     "formula": "Budget"
+    },
+    {
+     "cell": "E8",
+     "formula": "Wish List / Sizes"
+    },
+    {
+     "cell": "F8",
+     "formula": "Gifts"
+    },
+    {
+     "cell": "G8",
+     "formula": "Planned"
+    },
+    {
+     "cell": "H8",
+     "formula": "Spent"
+    },
+    {
+     "cell": "I8",
+     "formula": "Left"
+    },
+    {
+     "cell": "J8",
+     "formula": "Progress"
+    },
+    {
+     "cell": "K8",
+     "formula": "Status"
+    },
+    {
+     "cell": "B9",
+     "formula": "Mom"
+    },
+    {
+     "cell": "C9",
+     "formula": "Family"
+    },
+    {
+     "cell": "D9",
+     "formula": 150
+    },
+    {
+     "cell": "E9",
+     "formula": "Loves gardening; size M"
+    },
+    {
+     "cell": "B10",
+     "formula": "Dad"
+    },
+    {
+     "cell": "C10",
+     "formula": "Family"
+    },
+    {
+     "cell": "D10",
+     "formula": 150
+    },
+    {
+     "cell": "E10",
+     "formula": "Grilling, history books"
+    },
+    {
+     "cell": "B11",
+     "formula": "Grandma Rose"
+    },
+    {
+     "cell": "C11",
+     "formula": "Family"
+    },
+    {
+     "cell": "D11",
+     "formula": 80
+    },
+    {
+     "cell": "E11",
+     "formula": "Puzzles, warm socks"
+    },
+    {
+     "cell": "B12",
+     "formula": "Uncle Mike"
+    },
+    {
+     "cell": "C12",
+     "formula": "Family"
+    },
+    {
+     "cell": "D12",
+     "formula": 50
+    },
+    {
+     "cell": "E12",
+     "formula": "Coffee"
+    },
+    {
+     "cell": "B13",
+     "formula": "Sister Amy"
+    },
+    {
+     "cell": "C13",
+     "formula": "Family"
+    },
+    {
+     "cell": "D13",
+     "formula": 100
+    },
+    {
+     "cell": "E13",
+     "formula": "Skincare, size S"
+    },
+    {
+     "cell": "B14",
+     "formula": "Brother-in-law Tom"
+    },
+    {
+     "cell": "C14",
+     "formula": "Family"
+    },
+    {
+     "cell": "D14",
+     "formula": 60
+    },
+    {
+     "cell": "E14",
+     "formula": "Golf"
+    },
+    {
+     "cell": "B15",
+     "formula": "Lily (8)"
+    },
+    {
+     "cell": "C15",
+     "formula": "Kids"
+    },
+    {
+     "cell": "D15",
+     "formula": 120
+    },
+    {
+     "cell": "E15",
+     "formula": "LEGO Friends, art"
+    },
+    {
+     "cell": "B16",
+     "formula": "Max (5)"
+    },
+    {
+     "cell": "C16",
+     "formula": "Kids"
+    },
+    {
+     "cell": "D16",
+     "formula": 120
+    },
+    {
+     "cell": "E16",
+     "formula": "Dinosaurs, trucks"
+    },
+    {
+     "cell": "B17",
+     "formula": "Niece Ava (12)"
+    },
+    {
+     "cell": "C17",
+     "formula": "Kids"
+    },
+    {
+     "cell": "D17",
+     "formula": 70
+    },
+    {
+     "cell": "E17",
+     "formula": "Books, slime"
+    },
+    {
+     "cell": "B18",
+     "formula": "Nephew Leo (15)"
+    },
+    {
+     "cell": "C18",
+     "formula": "Kids"
+    },
+    {
+     "cell": "D18",
+     "formula": 70
+    },
+    {
+     "cell": "E18",
+     "formula": "Gaming gift cards"
+    },
+    {
+     "cell": "B19",
+     "formula": "Best friend Jess"
+    },
+    {
+     "cell": "C19",
+     "formula": "Friends"
+    },
+    {
+     "cell": "D19",
+     "formula": 50
+    },
+    {
+     "cell": "E19",
+     "formula": "Candles, wine"
+    },
+    {
+     "cell": "B20",
+     "formula": "Book club"
+    },
+    {
+     "cell": "C20",
+     "formula": "Friends"
+    },
+    {
+     "cell": "D20",
+     "formula": 40
+    },
+    {
+     "cell": "E20",
+     "formula": "Bookmarks"
+    },
+    {
+     "cell": "B21",
+     "formula": "Team (6 people)"
+    },
+    {
+     "cell": "C21",
+     "formula": "Coworkers"
+    },
+    {
+     "cell": "D21",
+     "formula": 60
+    },
+    {
+     "cell": "E21",
+     "formula": "Small treats"
+    },
+    {
+     "cell": "B22",
+     "formula": "Ms. Carter"
+    },
+    {
+     "cell": "C22",
+     "formula": "Teachers"
+    },
+    {
+     "cell": "D22",
+     "formula": 25
+    },
+    {
+     "cell": "E22",
+     "formula": "Coffee shop card"
+    },
+    {
+     "cell": "B23",
+     "formula": "Mr. Ruiz"
+    },
+    {
+     "cell": "C23",
+     "formula": "Teachers"
+    },
+    {
+     "cell": "D23",
+     "formula": 25
+    },
+    {
+     "cell": "E23",
+     "formula": "Plants"
+    },
+    {
+     "cell": "B24",
+     "formula": "Neighbors (Kims)"
+    },
+    {
+     "cell": "C24",
+     "formula": "Neighbors"
+    },
+    {
+     "cell": "D24",
+     "formula": 20
+    },
+    {
+     "cell": "E24",
+     "formula": "Cookies"
+    },
+    {
+     "col": "F",
+     "range_rows": [
+      9,
+      58
+     ],
+     "formula": "=IF(TRIM($B{row}&\"\")=\"\",\"\",COUNTIFS('Gift List'!$N$6:$N$305,ROW()-8))",
+     "number_format": "0"
+    },
+    {
+     "col": "G",
+     "range_rows": [
+      9,
+      58
+     ],
+     "formula": "=IF(TRIM($B{row}&\"\")=\"\",\"\",ROUND(SUMIFS('Gift List'!$E$6:$E$305,'Gift List'!$N$6:$N$305,ROW()-8),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "H",
+     "range_rows": [
+      9,
+      58
+     ],
+     "formula": "=IF(TRIM($B{row}&\"\")=\"\",\"\",ROUND(SUMIFS('Gift List'!$K$6:$K$305,'Gift List'!$N$6:$N$305,ROW()-8),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "I",
+     "range_rows": [
+      9,
+      58
+     ],
+     "formula": "=IF(TRIM($B{row}&\"\")=\"\",\"\",ROUND(N(D{row})-H{row},2))",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "col": "J",
+     "range_rows": [
+      9,
+      58
+     ],
+     "formula": "=IF(OR(TRIM($B{row}&\"\")=\"\",N(D{row})<=0),\"\",REPT(\"█\",ROUND(MIN(1,MAX(0,H{row}/D{row}))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,H{row}/D{row}))*10,0)))"
+    },
+    {
+     "col": "M",
+     "range_rows": [
+      9,
+      58
+     ],
+     "formula": "=IF(TRIM($B{row}&\"\")=\"\",0,COUNTIFS('Gift List'!$N$6:$N$305,ROW()-8,'Gift List'!$M$6:$M$305,\"Wrapped\")+COUNTIFS('Gift List'!$N$6:$N$305,ROW()-8,'Gift List'!$M$6:$M$305,\"Given\"))"
+    },
+    {
+     "col": "N",
+     "range_rows": [
+      9,
+      58
+     ],
+     "formula": "=IF(TRIM($B{row}&\"\")=\"\",0,COUNTIFS('Gift List'!$N$6:$N$305,ROW()-8,'Gift List'!$M$6:$M$305,\"Idea\"))"
+    },
+    {
+     "col": "K",
+     "range_rows": [
+      9,
+      58
+     ],
+     "formula": "=IF(TRIM($B{row}&\"\")=\"\",\"\",IF(F{row}=0,\"Not started\",IF(M{row}=F{row},\"Ready\",IF(N{row}=F{row},\"Ideas only\",\"Shopping\"))))"
+    },
+    {
+     "col": "L",
+     "range_rows": [
+      9,
+      58
+     ],
+     "formula": "=IF(TRIM($B{row}&\"\")=\"\",\"\",LOWER(TRIM(B{row}&\"\")))"
+    },
+    {
+     "cell": "B59",
+     "formula": "TOTAL"
+    },
+    {
+     "cell": "F59",
+     "formula": "=SUM(F9:F58)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D59",
+     "formula": "=ROUND(SUM(D9:D58),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G59",
+     "formula": "=ROUND(SUM(G9:G58),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H59",
+     "formula": "=ROUND(SUM(H9:H58),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I59",
+     "formula": "=ROUND(SUM(I9:I58),2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "J59",
+     "formula": "=IF(N(D59)<=0,\"\",REPT(\"█\",ROUND(MIN(1,MAX(0,H59/D59))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,H59/D59))*10,0)))"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "D9:D58",
+     "type": "formula",
+     "formula": [
+      "OR(AND(D9<>\"\",NOT(ISNUMBER(D9))),N(D9)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C6:C6",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C6<>\"\",NOT(ISNUMBER(C6))),N(C6)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "K9:K58",
+     "type": "formula",
+     "formula": [
+      "$K9=\"Ready\""
+     ],
+     "fill": "D7EFDD"
+    },
+    {
+     "range": "K9:K58",
+     "type": "formula",
+     "formula": [
+      "$K9=\"Shopping\""
+     ],
+     "fill": "FFF1C2"
+    },
+    {
+     "range": "K9:K58",
+     "type": "formula",
+     "formula": [
+      "$K9=\"Ideas only\""
+     ],
+     "fill": "F6ECD6"
+    },
+    {
+     "range": "K9:K58",
+     "type": "formula",
+     "formula": [
+      "$K9=\"Not started\""
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "I9:I59",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER(I9),I9<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "B9:B58",
+     "type": "formula",
+     "formula": [
+      "AND($L9<>\"\",COUNTIF($L$9:$L$58,$L9)>1)"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B8:E8",
+     "color": "E4EDE5"
+    },
+    {
+     "range": "F8:K8",
+     "color": "F6ECD6"
+    },
+    {
+     "range": "F9:K58",
+     "color": "FDFBF8"
+    },
+    {
+     "range": "B59:K59",
+     "color": "E4EDE5"
+    }
+   ],
+   "borders": [
+    {
+     "range": "C4:C6",
+     "color": "EADDD3",
+     "style": "medium"
+    },
+    {
+     "range": "B8:K59",
+     "color": "EADDD3"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "2B1A1F"
+    },
+    {
+     "range": "B4:B6",
+     "bold": true,
+     "size": 10,
+     "color": "2B1A1F"
+    },
+    {
+     "range": "D4:D6",
+     "italic": true,
+     "size": 9,
+     "color": "2B1A1F"
+    },
+    {
+     "range": "C4:C6",
+     "bold": true,
+     "size": 11,
+     "color": "2B1A1F",
+     "align": "center"
+    },
+    {
+     "range": "B8:K8",
+     "bold": true,
+     "size": 10,
+     "color": "2B1A1F",
+     "align": "center"
+    },
+    {
+     "range": "C9:D59",
+     "size": 10,
+     "color": "2B1A1F",
+     "align": "center"
+    },
+    {
+     "range": "E9:E58",
+     "size": 9,
+     "color": "2B1A1F"
+    },
+    {
+     "range": "F9:K59",
+     "size": 10,
+     "color": "2B1A1F",
+     "align": "center"
+    },
+    {
+     "range": "J9:J59",
+     "size": 9,
+     "color": "8C1C3A"
+    },
+    {
+     "range": "B59:K59",
+     "bold": true,
+     "size": 10,
+     "color": "2B1A1F",
+     "align": "center"
+    }
+   ],
+   "validations": [
+    {
+     "range": "C9:C58",
+     "type": "list",
+     "values": [
+      "Family",
+      "Kids",
+      "Friends",
+      "Coworkers",
+      "Teachers",
+      "Neighbors",
+      "Other"
+     ],
+     "strict": false
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "C5",
+     "format": "mmm d, yyyy"
+    },
+    {
+     "range": "C6",
+     "format": "$#,##0.00"
+    },
+    {
+     "range": "D9:D58",
+     "format": "$#,##0.00"
+    }
+   ]
+  },
+  {
+   "name": "Gift List",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "6B8F71",
+   "grid_rows": 308,
+   "grid_cols": 19,
+   "row_height": 19,
+   "freeze": "A6",
+   "column_widths": {
+    "A": 2.5,
+    "B": 20,
+    "C": 26,
+    "D": 16,
+    "E": 10,
+    "F": 10,
+    "G": 11,
+    "H": 12,
+    "I": 12,
+    "J": 22,
+    "K": 11,
+    "L": 8,
+    "M": 3
+   },
+   "hidden_columns": [
+    "M",
+    "N",
+    "O",
+    "P",
+    "Q"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:L2",
+     "label": "=\"GIFT LIST  -  \"&'People'!$R$4",
+     "size": 16,
+     "color": "8C1C3A",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "One row per gift. Status: Idea, Ordered, Bought, Wrapped or Given (blank = Idea)."
+    },
+    {
+     "cell": "B5",
+     "formula": "For"
+    },
+    {
+     "cell": "C5",
+     "formula": "Gift"
+    },
+    {
+     "cell": "D5",
+     "formula": "Store / Link"
+    },
+    {
+     "cell": "E5",
+     "formula": "Price"
+    },
+    {
+     "cell": "F5",
+     "formula": "Paid"
+    },
+    {
+     "cell": "G5",
+     "formula": "Status"
+    },
+    {
+     "cell": "H5",
+     "formula": "Order Date"
+    },
+    {
+     "cell": "I5",
+     "formula": "Arrives By"
+    },
+    {
+     "cell": "J5",
+     "formula": "Notes"
+    },
+    {
+     "cell": "K5",
+     "formula": "Counts As"
+    },
+    {
+     "cell": "L5",
+     "formula": "Check"
+    },
+    {
+     "cell": "B6",
+     "formula": "Mom"
+    },
+    {
+     "cell": "C6",
+     "formula": "Garden tool set"
+    },
+    {
+     "cell": "D6",
+     "formula": "Etsy"
+    },
+    {
+     "cell": "E6",
+     "formula": 55
+    },
+    {
+     "cell": "F6",
+     "formula": 52.99
+    },
+    {
+     "cell": "G6",
+     "formula": "Wrapped"
+    },
+    {
+     "cell": "H6",
+     "formula": "=DATE(2027,11,3)"
+    },
+    {
+     "cell": "B7",
+     "formula": "Mom"
+    },
+    {
+     "cell": "C7",
+     "formula": "Cashmere-blend scarf"
+    },
+    {
+     "cell": "D7",
+     "formula": "Nordstrom"
+    },
+    {
+     "cell": "E7",
+     "formula": 60
+    },
+    {
+     "cell": "F7",
+     "formula": 58.0
+    },
+    {
+     "cell": "G7",
+     "formula": "Bought"
+    },
+    {
+     "cell": "H7",
+     "formula": "=DATE(2027,11,28)"
+    },
+    {
+     "cell": "J7",
+     "formula": "Black Friday"
+    },
+    {
+     "cell": "B8",
+     "formula": "Mom"
+    },
+    {
+     "cell": "C8",
+     "formula": "Photo calendar"
+    },
+    {
+     "cell": "D8",
+     "formula": "Shutterfly"
+    },
+    {
+     "cell": "E8",
+     "formula": 30
+    },
+    {
+     "cell": "G8",
+     "formula": "Ordered"
+    },
+    {
+     "cell": "H8",
+     "formula": "=DATE(2027,12,2)"
+    },
+    {
+     "cell": "I8",
+     "formula": "=DATE(2027,12,12)"
+    },
+    {
+     "cell": "J8",
+     "formula": "Order #SF4471"
+    },
+    {
+     "cell": "B9",
+     "formula": "Dad"
+    },
+    {
+     "cell": "C9",
+     "formula": "Grill thermometer"
+    },
+    {
+     "cell": "D9",
+     "formula": "Amazon"
+    },
+    {
+     "cell": "E9",
+     "formula": 45
+    },
+    {
+     "cell": "F9",
+     "formula": 39.99
+    },
+    {
+     "cell": "G9",
+     "formula": "Wrapped"
+    },
+    {
+     "cell": "H9",
+     "formula": "=DATE(2027,11,10)"
+    },
+    {
+     "cell": "B10",
+     "formula": "Dad"
+    },
+    {
+     "cell": "C10",
+     "formula": "WWII history book"
+    },
+    {
+     "cell": "D10",
+     "formula": "Barnes & Noble"
+    },
+    {
+     "cell": "E10",
+     "formula": 30
+    },
+    {
+     "cell": "F10",
+     "formula": 28.0
+    },
+    {
+     "cell": "G10",
+     "formula": "Bought"
+    },
+    {
+     "cell": "H10",
+     "formula": "=DATE(2027,11,20)"
+    },
+    {
+     "cell": "B11",
+     "formula": "Dad"
+    },
+    {
+     "cell": "C11",
+     "formula": "BBQ rub sampler"
+    },
+    {
+     "cell": "D11",
+     "formula": "Etsy"
+    },
+    {
+     "cell": "E11",
+     "formula": 35
+    },
+    {
+     "cell": "G11",
+     "formula": "Idea"
+    },
+    {
+     "cell": "B12",
+     "formula": "Grandma Rose"
+    },
+    {
+     "cell": "C12",
+     "formula": "1000-piece puzzle"
+    },
+    {
+     "cell": "D12",
+     "formula": "Target"
+    },
+    {
+     "cell": "E12",
+     "formula": 25
+    },
+    {
+     "cell": "F12",
+     "formula": 22.99
+    },
+    {
+     "cell": "G12",
+     "formula": "Wrapped"
+    },
+    {
+     "cell": "H12",
+     "formula": "=DATE(2027,11,15)"
+    },
+    {
+     "cell": "B13",
+     "formula": "Grandma Rose"
+    },
+    {
+     "cell": "C13",
+     "formula": "Wool socks (2 pairs)"
+    },
+    {
+     "cell": "D13",
+     "formula": "REI"
+    },
+    {
+     "cell": "E13",
+     "formula": 30
+    },
+    {
+     "cell": "F13",
+     "formula": 30.0
+    },
+    {
+     "cell": "G13",
+     "formula": "Bought"
+    },
+    {
+     "cell": "H13",
+     "formula": "=DATE(2027,11,28)"
+    },
+    {
+     "cell": "B14",
+     "formula": "Uncle Mike"
+    },
+    {
+     "cell": "C14",
+     "formula": "Local coffee beans + mug"
+    },
+    {
+     "cell": "D14",
+     "formula": "Coffee shop"
+    },
+    {
+     "cell": "E14",
+     "formula": 40
+    },
+    {
+     "cell": "G14",
+     "formula": "Idea"
+    },
+    {
+     "cell": "B15",
+     "formula": "Sister Amy"
+    },
+    {
+     "cell": "C15",
+     "formula": "Skincare set"
+    },
+    {
+     "cell": "D15",
+     "formula": "Sephora"
+    },
+    {
+     "cell": "E15",
+     "formula": 65
+    },
+    {
+     "cell": "F15",
+     "formula": 62.0
+    },
+    {
+     "cell": "G15",
+     "formula": "Ordered"
+    },
+    {
+     "cell": "H15",
+     "formula": "=DATE(2027,12,1)"
+    },
+    {
+     "cell": "I15",
+     "formula": "=DATE(2027,12,6)"
+    },
+    {
+     "cell": "J15",
+     "formula": "Late? check tracking"
+    },
+    {
+     "cell": "B16",
+     "formula": "Sister Amy"
+    },
+    {
+     "cell": "C16",
+     "formula": "Candle"
+    },
+    {
+     "cell": "D16",
+     "formula": "Bath & Body Works"
+    },
+    {
+     "cell": "E16",
+     "formula": 25
+    },
+    {
+     "cell": "F16",
+     "formula": 14.5
+    },
+    {
+     "cell": "G16",
+     "formula": "Bought"
+    },
+    {
+     "cell": "H16",
+     "formula": "=DATE(2027,11,28)"
+    },
+    {
+     "cell": "J16",
+     "formula": "On sale"
+    },
+    {
+     "cell": "B17",
+     "formula": "Brother-in-law Tom"
+    },
+    {
+     "cell": "C17",
+     "formula": "Golf balls"
+    },
+    {
+     "cell": "D17",
+     "formula": "Dick's"
+    },
+    {
+     "cell": "E17",
+     "formula": 40
+    },
+    {
+     "cell": "F17",
+     "formula": 44.99
+    },
+    {
+     "cell": "G17",
+     "formula": "Wrapped"
+    },
+    {
+     "cell": "H17",
+     "formula": "=DATE(2027,11,22)"
+    },
+    {
+     "cell": "B18",
+     "formula": "Lily (8)"
+    },
+    {
+     "cell": "C18",
+     "formula": "LEGO Friends set"
+    },
+    {
+     "cell": "D18",
+     "formula": "Target"
+    },
+    {
+     "cell": "E18",
+     "formula": 60
+    },
+    {
+     "cell": "F18",
+     "formula": 59.99
+    },
+    {
+     "cell": "G18",
+     "formula": "Wrapped"
+    },
+    {
+     "cell": "H18",
+     "formula": "=DATE(2027,11,5)"
+    },
+    {
+     "cell": "J18",
+     "formula": "Hidden in closet"
+    },
+    {
+     "cell": "B19",
+     "formula": "Lily (8)"
+    },
+    {
+     "cell": "C19",
+     "formula": "Art kit"
+    },
+    {
+     "cell": "D19",
+     "formula": "Michaels"
+    },
+    {
+     "cell": "E19",
+     "formula": 35
+    },
+    {
+     "cell": "F19",
+     "formula": 31.5
+    },
+    {
+     "cell": "G19",
+     "formula": "Bought"
+    },
+    {
+     "cell": "H19",
+     "formula": "=DATE(2027,11,28)"
+    },
+    {
+     "cell": "B20",
+     "formula": "Lily (8)"
+    },
+    {
+     "cell": "C20",
+     "formula": "Pajamas"
+    },
+    {
+     "cell": "D20",
+     "formula": "Old Navy"
+    },
+    {
+     "cell": "E20",
+     "formula": 20
+    },
+    {
+     "cell": "G20",
+     "formula": "Idea"
+    },
+    {
+     "cell": "B21",
+     "formula": "Max (5)"
+    },
+    {
+     "cell": "C21",
+     "formula": "Dinosaur excavation kit"
+    },
+    {
+     "cell": "D21",
+     "formula": "Amazon"
+    },
+    {
+     "cell": "E21",
+     "formula": 30
+    },
+    {
+     "cell": "F21",
+     "formula": 27.99
+    },
+    {
+     "cell": "G21",
+     "formula": "Ordered"
+    },
+    {
+     "cell": "H21",
+     "formula": "=DATE(2027,12,3)"
+    },
+    {
+     "cell": "I21",
+     "formula": "=DATE(2027,12,10)"
+    },
+    {
+     "cell": "B22",
+     "formula": "Max (5)"
+    },
+    {
+     "cell": "C22",
+     "formula": "Remote control truck"
+    },
+    {
+     "cell": "D22",
+     "formula": "Walmart"
+    },
+    {
+     "cell": "E22",
+     "formula": 50
+    },
+    {
+     "cell": "F22",
+     "formula": 54.0
+    },
+    {
+     "cell": "G22",
+     "formula": "Bought"
+    },
+    {
+     "cell": "H22",
+     "formula": "=DATE(2027,11,28)"
+    },
+    {
+     "cell": "B23",
+     "formula": "Max (5)"
+    },
+    {
+     "cell": "C23",
+     "formula": "Dino books"
+    },
+    {
+     "cell": "D23",
+     "formula": "Bookstore"
+    },
+    {
+     "cell": "E23",
+     "formula": 25
+    },
+    {
+     "cell": "G23",
+     "formula": "Idea"
+    },
+    {
+     "cell": "B24",
+     "formula": "Niece Ava (12)"
+    },
+    {
+     "cell": "C24",
+     "formula": "Book series box set"
+    },
+    {
+     "cell": "D24",
+     "formula": "Amazon"
+    },
+    {
+     "cell": "E24",
+     "formula": 45
+    },
+    {
+     "cell": "F24",
+     "formula": 41.0
+    },
+    {
+     "cell": "G24",
+     "formula": "Given"
+    },
+    {
+     "cell": "H24",
+     "formula": "=DATE(2027,11,12)"
+    },
+    {
+     "cell": "J24",
+     "formula": "Gave early at visit"
+    },
+    {
+     "cell": "B25",
+     "formula": "Niece Ava (12)"
+    },
+    {
+     "cell": "C25",
+     "formula": "Slime kit"
+    },
+    {
+     "cell": "D25",
+     "formula": "Target"
+    },
+    {
+     "cell": "E25",
+     "formula": 20
+    },
+    {
+     "cell": "F25",
+     "formula": 18.0
+    },
+    {
+     "cell": "G25",
+     "formula": "Wrapped"
+    },
+    {
+     "cell": "H25",
+     "formula": "=DATE(2027,11,20)"
+    },
+    {
+     "cell": "B26",
+     "formula": "Nephew Leo (15)"
+    },
+    {
+     "cell": "C26",
+     "formula": "Gaming gift card"
+    },
+    {
+     "cell": "D26",
+     "formula": "Best Buy"
+    },
+    {
+     "cell": "E26",
+     "formula": 50
+    },
+    {
+     "cell": "F26",
+     "formula": 50.0
+    },
+    {
+     "cell": "G26",
+     "formula": "Bought"
+    },
+    {
+     "cell": "H26",
+     "formula": "=DATE(2027,12,1)"
+    },
+    {
+     "cell": "B27",
+     "formula": "Nephew Leo (15)"
+    },
+    {
+     "cell": "C27",
+     "formula": "Hoodie"
+    },
+    {
+     "cell": "D27",
+     "formula": "Target"
+    },
+    {
+     "cell": "E27",
+     "formula": 25
+    },
+    {
+     "cell": "G27",
+     "formula": "Idea"
+    },
+    {
+     "cell": "B28",
+     "formula": "Best friend Jess"
+    },
+    {
+     "cell": "C28",
+     "formula": "Wine + candle basket"
+    },
+    {
+     "cell": "D28",
+     "formula": "Local shop"
+    },
+    {
+     "cell": "E28",
+     "formula": 50
+    },
+    {
+     "cell": "F28",
+     "formula": 56.0
+    },
+    {
+     "cell": "G28",
+     "formula": "Bought"
+    },
+    {
+     "cell": "H28",
+     "formula": "=DATE(2027,12,4)"
+    },
+    {
+     "cell": "B29",
+     "formula": "Book club"
+    },
+    {
+     "cell": "C29",
+     "formula": "Leather bookmarks (x5)"
+    },
+    {
+     "cell": "D29",
+     "formula": "Etsy"
+    },
+    {
+     "cell": "E29",
+     "formula": 40
+    },
+    {
+     "cell": "G29",
+     "formula": "Ordered"
+    },
+    {
+     "cell": "H29",
+     "formula": "=DATE(2027,12,1)"
+    },
+    {
+     "cell": "I29",
+     "formula": "=DATE(2027,12,14)"
+    },
+    {
+     "cell": "B30",
+     "formula": "Team (6 people)"
+    },
+    {
+     "cell": "C30",
+     "formula": "Cookie tins"
+    },
+    {
+     "cell": "D30",
+     "formula": "Homemade"
+    },
+    {
+     "cell": "E30",
+     "formula": 45
+    },
+    {
+     "cell": "F30",
+     "formula": 38.0
+    },
+    {
+     "cell": "G30",
+     "formula": "Bought"
+    },
+    {
+     "cell": "H30",
+     "formula": "=DATE(2027,12,5)"
+    },
+    {
+     "cell": "J30",
+     "formula": "Bake Dec 18"
+    },
+    {
+     "cell": "B31",
+     "formula": "Ms. Carter"
+    },
+    {
+     "cell": "C31",
+     "formula": "Coffee shop gift card"
+    },
+    {
+     "cell": "D31",
+     "formula": "Starbucks"
+    },
+    {
+     "cell": "E31",
+     "formula": 25
+    },
+    {
+     "cell": "G31",
+     "formula": "Idea"
+    },
+    {
+     "cell": "B32",
+     "formula": "Mr. Ruiz"
+    },
+    {
+     "cell": "C32",
+     "formula": "Succulent + pot"
+    },
+    {
+     "cell": "D32",
+     "formula": "Garden center"
+    },
+    {
+     "cell": "E32",
+     "formula": 25
+    },
+    {
+     "cell": "G32",
+     "formula": "Idea"
+    },
+    {
+     "cell": "B33",
+     "formula": "Neighbors (Kims)"
+    },
+    {
+     "cell": "C33",
+     "formula": "Cookie plate"
+    },
+    {
+     "cell": "D33",
+     "formula": "Homemade"
+    },
+    {
+     "cell": "E33",
+     "formula": 15
+    },
+    {
+     "cell": "G33",
+     "formula": "Idea"
+    },
+    {
+     "col": "N",
+     "range_rows": [
+      6,
+      305
+     ],
+     "formula": "=IF(TRIM(B{row}&\"\")=\"\",0,IFERROR(MATCH(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(LOWER(TRIM(B{row}&\"\")),\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"),'People'!$L$9:$L$58,0),0))"
+    },
+    {
+     "col": "M",
+     "range_rows": [
+      6,
+      305
+     ],
+     "formula": "=IF(AND(TRIM(B{row}&\"\")=\"\",TRIM(C{row}&\"\")=\"\"),\"\",IF(LOWER(TRIM(G{row}&\"\"))=\"\",\"Idea\",IF(LOWER(TRIM(G{row}&\"\"))=\"idea\",\"Idea\",IF(LOWER(TRIM(G{row}&\"\"))=\"ordered\",\"Ordered\",IF(LOWER(TRIM(G{row}&\"\"))=\"bought\",\"Bought\",IF(LOWER(TRIM(G{row}&\"\"))=\"wrapped\",\"Wrapped\",IF(LOWER(TRIM(G{row}&\"\"))=\"given\",\"Given\",\"?\")))))))"
+    },
+    {
+     "col": "K",
+     "range_rows": [
+      6,
+      305
+     ],
+     "formula": "=IF(M{row}=\"\",\"\",IF(OR(M{row}=\"Idea\",M{row}=\"?\"),0,ROUND(IF(ISNUMBER(F{row}),F{row},N(E{row})),2)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "L",
+     "range_rows": [
+      6,
+      305
+     ],
+     "formula": "=IF(AND(TRIM(B{row}&\"\")=\"\",TRIM(C{row}&\"\")=\"\"),\"\",IF(OR(N{row}=0,M{row}=\"?\"),\"?\",\"OK\"))"
+    },
+    {
+     "col": "O",
+     "range_rows": [
+      6,
+      305
+     ],
+     "formula": "=IF(AND(L{row}=\"OK\",M{row}=\"Idea\"),ROW()-5,\"\")"
+    },
+    {
+     "col": "P",
+     "range_rows": [
+      6,
+      305
+     ],
+     "formula": "=IF(AND(L{row}=\"OK\",M{row}=\"Ordered\"),ROW()-5,\"\")"
+    },
+    {
+     "col": "Q",
+     "range_rows": [
+      6,
+      305
+     ],
+     "formula": "=IF(AND(L{row}=\"OK\",M{row}=\"Bought\"),ROW()-5,\"\")"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "L6:L305",
+     "type": "formula",
+     "formula": [
+      "$L6=\"?\""
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "L6:L305",
+     "type": "formula",
+     "formula": [
+      "$L6=\"OK\""
+     ],
+     "fill": "D7EFDD"
+    },
+    {
+     "range": "B6:B305",
+     "type": "formula",
+     "formula": [
+      "AND(TRIM($B6&\"\")<>\"\",$N6=0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "G6:G305",
+     "type": "formula",
+     "formula": [
+      "$M6=\"?\""
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "G6:G305",
+     "type": "formula",
+     "formula": [
+      "OR($M6=\"Wrapped\",$M6=\"Given\")"
+     ],
+     "fill": "D7EFDD"
+    },
+    {
+     "range": "G6:G305",
+     "type": "formula",
+     "formula": [
+      "OR($M6=\"Ordered\",$M6=\"Bought\")"
+     ],
+     "fill": "FFF1C2"
+    },
+    {
+     "range": "E6:F305",
+     "type": "formula",
+     "formula": [
+      "OR(AND(E6<>\"\",NOT(ISNUMBER(E6))),N(E6)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "H6:I305",
+     "type": "formula",
+     "formula": [
+      "AND(H6<>\"\",OR(NOT(ISNUMBER(H6)),N(H6)<1))"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B5:J5",
+     "color": "E4EDE5"
+    },
+    {
+     "range": "K5:L5",
+     "color": "F6ECD6"
+    },
+    {
+     "range": "K6:L305",
+     "color": "FDFBF8"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:L305",
+     "color": "EADDD3"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "2B1A1F"
+    },
+    {
+     "range": "B5:L5",
+     "bold": true,
+     "size": 10,
+     "color": "2B1A1F",
+     "align": "center"
+    },
+    {
+     "range": "E6:I305",
+     "size": 10,
+     "color": "2B1A1F",
+     "align": "center"
+    },
+    {
+     "range": "K6:L305",
+     "size": 9,
+     "color": "2B1A1F",
+     "align": "center"
+    }
+   ],
+   "validations": [
+    {
+     "range": "B6:B305",
+     "type": "list_range",
+     "source": "'People'!$B$9:$B$58",
+     "strict": false
+    },
+    {
+     "range": "G6:G305",
+     "type": "list",
+     "values": [
+      "Idea",
+      "Ordered",
+      "Bought",
+      "Wrapped",
+      "Given"
+     ],
+     "strict": false
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "E6:F305",
+     "format": "$#,##0.00"
+    },
+    {
+     "range": "H6:I305",
+     "format": "mmm d, yyyy"
+    }
+   ]
+  },
+  {
+   "name": "To Do",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "E2C48A",
+   "grid_rows": 44,
+   "grid_cols": 21,
+   "row_height": 20,
+   "column_widths": {
+    "A": 2.5,
+    "B": 18,
+    "C": 24,
+    "D": 14,
+    "E": 3,
+    "F": 18,
+    "G": 24,
+    "H": 13,
+    "I": 3,
+    "J": 18,
+    "K": 24,
+    "L": 11,
+    "M": 2.5
+   },
+   "hidden_columns": [
+    "R",
+    "S",
+    "T"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:L2",
+     "label": "=\"TO DO  -  \"&'People'!$R$4",
+     "size": 16,
+     "color": "8C1C3A",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "B9:D9",
+     "label": "TO BUY",
+     "color": "8C1C3A",
+     "font_color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "F9:H9",
+     "label": "ON THE WAY",
+     "color": "6B8F71",
+     "font_color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "J9:L9",
+     "label": "TO WRAP",
+     "color": "E2C48A",
+     "font_color": "2B1A1F",
+     "align": "center"
+    }
+   ],
+   "kpi_cards": [
+    {
+     "anchor": "B5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "TO BUY",
+     "value": "=COUNT('Gift List'!$O$6:$O$305)",
+     "fill": "8C1C3A",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "0"
+    },
+    {
+     "anchor": "D5",
+     "span": [
+      3,
+      1
+     ],
+     "label": "STILL TO SPEND",
+     "value": "=D41",
+     "fill": "F6ECD6",
+     "font_color": "2B1A1F",
+     "value_size": 14,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "F5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "ON THE WAY",
+     "value": "=COUNT('Gift List'!$P$6:$P$305)",
+     "fill": "6B8F71",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "0"
+    },
+    {
+     "anchor": "H5",
+     "span": [
+      3,
+      1
+     ],
+     "label": "LATE",
+     "value": "=COUNTIFS(H11:H40,\"<\"&'People'!$R$5)",
+     "fill": "F6ECD6",
+     "font_color": "2B1A1F",
+     "value_size": 16,
+     "number_format": "0"
+    },
+    {
+     "anchor": "J5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "TO WRAP",
+     "value": "=COUNT('Gift List'!$Q$6:$Q$305)",
+     "fill": "E4EDE5",
+     "font_color": "2B1A1F",
+     "value_size": 16,
+     "number_format": "0"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "What's left: ideas to buy, orders on the way, and gifts that still need wrapping."
+    },
+    {
+     "cell": "B10",
+     "formula": "For"
+    },
+    {
+     "cell": "C10",
+     "formula": "Gift"
+    },
+    {
+     "cell": "D10",
+     "formula": "Price"
+    },
+    {
+     "cell": "R11",
+     "formula": "=IFERROR(SMALL('Gift List'!$O$6:$O$305,1),\"\")"
+    },
+    {
+     "cell": "B11",
+     "formula": "=IF($R11=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$R11)&\"\")"
+    },
+    {
+     "cell": "C11",
+     "formula": "=IF($R11=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$R11)&\"\")"
+    },
+    {
+     "cell": "D11",
+     "formula": "=IF($R11=\"\",\"\",N(INDEX('Gift List'!$E$6:$E$305,$R11)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R12",
+     "formula": "=IFERROR(SMALL('Gift List'!$O$6:$O$305,2),\"\")"
+    },
+    {
+     "cell": "B12",
+     "formula": "=IF($R12=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$R12)&\"\")"
+    },
+    {
+     "cell": "C12",
+     "formula": "=IF($R12=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$R12)&\"\")"
+    },
+    {
+     "cell": "D12",
+     "formula": "=IF($R12=\"\",\"\",N(INDEX('Gift List'!$E$6:$E$305,$R12)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R13",
+     "formula": "=IFERROR(SMALL('Gift List'!$O$6:$O$305,3),\"\")"
+    },
+    {
+     "cell": "B13",
+     "formula": "=IF($R13=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$R13)&\"\")"
+    },
+    {
+     "cell": "C13",
+     "formula": "=IF($R13=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$R13)&\"\")"
+    },
+    {
+     "cell": "D13",
+     "formula": "=IF($R13=\"\",\"\",N(INDEX('Gift List'!$E$6:$E$305,$R13)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R14",
+     "formula": "=IFERROR(SMALL('Gift List'!$O$6:$O$305,4),\"\")"
+    },
+    {
+     "cell": "B14",
+     "formula": "=IF($R14=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$R14)&\"\")"
+    },
+    {
+     "cell": "C14",
+     "formula": "=IF($R14=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$R14)&\"\")"
+    },
+    {
+     "cell": "D14",
+     "formula": "=IF($R14=\"\",\"\",N(INDEX('Gift List'!$E$6:$E$305,$R14)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R15",
+     "formula": "=IFERROR(SMALL('Gift List'!$O$6:$O$305,5),\"\")"
+    },
+    {
+     "cell": "B15",
+     "formula": "=IF($R15=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$R15)&\"\")"
+    },
+    {
+     "cell": "C15",
+     "formula": "=IF($R15=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$R15)&\"\")"
+    },
+    {
+     "cell": "D15",
+     "formula": "=IF($R15=\"\",\"\",N(INDEX('Gift List'!$E$6:$E$305,$R15)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R16",
+     "formula": "=IFERROR(SMALL('Gift List'!$O$6:$O$305,6),\"\")"
+    },
+    {
+     "cell": "B16",
+     "formula": "=IF($R16=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$R16)&\"\")"
+    },
+    {
+     "cell": "C16",
+     "formula": "=IF($R16=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$R16)&\"\")"
+    },
+    {
+     "cell": "D16",
+     "formula": "=IF($R16=\"\",\"\",N(INDEX('Gift List'!$E$6:$E$305,$R16)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R17",
+     "formula": "=IFERROR(SMALL('Gift List'!$O$6:$O$305,7),\"\")"
+    },
+    {
+     "cell": "B17",
+     "formula": "=IF($R17=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$R17)&\"\")"
+    },
+    {
+     "cell": "C17",
+     "formula": "=IF($R17=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$R17)&\"\")"
+    },
+    {
+     "cell": "D17",
+     "formula": "=IF($R17=\"\",\"\",N(INDEX('Gift List'!$E$6:$E$305,$R17)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R18",
+     "formula": "=IFERROR(SMALL('Gift List'!$O$6:$O$305,8),\"\")"
+    },
+    {
+     "cell": "B18",
+     "formula": "=IF($R18=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$R18)&\"\")"
+    },
+    {
+     "cell": "C18",
+     "formula": "=IF($R18=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$R18)&\"\")"
+    },
+    {
+     "cell": "D18",
+     "formula": "=IF($R18=\"\",\"\",N(INDEX('Gift List'!$E$6:$E$305,$R18)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R19",
+     "formula": "=IFERROR(SMALL('Gift List'!$O$6:$O$305,9),\"\")"
+    },
+    {
+     "cell": "B19",
+     "formula": "=IF($R19=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$R19)&\"\")"
+    },
+    {
+     "cell": "C19",
+     "formula": "=IF($R19=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$R19)&\"\")"
+    },
+    {
+     "cell": "D19",
+     "formula": "=IF($R19=\"\",\"\",N(INDEX('Gift List'!$E$6:$E$305,$R19)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R20",
+     "formula": "=IFERROR(SMALL('Gift List'!$O$6:$O$305,10),\"\")"
+    },
+    {
+     "cell": "B20",
+     "formula": "=IF($R20=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$R20)&\"\")"
+    },
+    {
+     "cell": "C20",
+     "formula": "=IF($R20=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$R20)&\"\")"
+    },
+    {
+     "cell": "D20",
+     "formula": "=IF($R20=\"\",\"\",N(INDEX('Gift List'!$E$6:$E$305,$R20)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R21",
+     "formula": "=IFERROR(SMALL('Gift List'!$O$6:$O$305,11),\"\")"
+    },
+    {
+     "cell": "B21",
+     "formula": "=IF($R21=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$R21)&\"\")"
+    },
+    {
+     "cell": "C21",
+     "formula": "=IF($R21=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$R21)&\"\")"
+    },
+    {
+     "cell": "D21",
+     "formula": "=IF($R21=\"\",\"\",N(INDEX('Gift List'!$E$6:$E$305,$R21)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R22",
+     "formula": "=IFERROR(SMALL('Gift List'!$O$6:$O$305,12),\"\")"
+    },
+    {
+     "cell": "B22",
+     "formula": "=IF($R22=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$R22)&\"\")"
+    },
+    {
+     "cell": "C22",
+     "formula": "=IF($R22=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$R22)&\"\")"
+    },
+    {
+     "cell": "D22",
+     "formula": "=IF($R22=\"\",\"\",N(INDEX('Gift List'!$E$6:$E$305,$R22)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R23",
+     "formula": "=IFERROR(SMALL('Gift List'!$O$6:$O$305,13),\"\")"
+    },
+    {
+     "cell": "B23",
+     "formula": "=IF($R23=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$R23)&\"\")"
+    },
+    {
+     "cell": "C23",
+     "formula": "=IF($R23=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$R23)&\"\")"
+    },
+    {
+     "cell": "D23",
+     "formula": "=IF($R23=\"\",\"\",N(INDEX('Gift List'!$E$6:$E$305,$R23)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R24",
+     "formula": "=IFERROR(SMALL('Gift List'!$O$6:$O$305,14),\"\")"
+    },
+    {
+     "cell": "B24",
+     "formula": "=IF($R24=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$R24)&\"\")"
+    },
+    {
+     "cell": "C24",
+     "formula": "=IF($R24=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$R24)&\"\")"
+    },
+    {
+     "cell": "D24",
+     "formula": "=IF($R24=\"\",\"\",N(INDEX('Gift List'!$E$6:$E$305,$R24)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R25",
+     "formula": "=IFERROR(SMALL('Gift List'!$O$6:$O$305,15),\"\")"
+    },
+    {
+     "cell": "B25",
+     "formula": "=IF($R25=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$R25)&\"\")"
+    },
+    {
+     "cell": "C25",
+     "formula": "=IF($R25=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$R25)&\"\")"
+    },
+    {
+     "cell": "D25",
+     "formula": "=IF($R25=\"\",\"\",N(INDEX('Gift List'!$E$6:$E$305,$R25)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R26",
+     "formula": "=IFERROR(SMALL('Gift List'!$O$6:$O$305,16),\"\")"
+    },
+    {
+     "cell": "B26",
+     "formula": "=IF($R26=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$R26)&\"\")"
+    },
+    {
+     "cell": "C26",
+     "formula": "=IF($R26=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$R26)&\"\")"
+    },
+    {
+     "cell": "D26",
+     "formula": "=IF($R26=\"\",\"\",N(INDEX('Gift List'!$E$6:$E$305,$R26)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R27",
+     "formula": "=IFERROR(SMALL('Gift List'!$O$6:$O$305,17),\"\")"
+    },
+    {
+     "cell": "B27",
+     "formula": "=IF($R27=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$R27)&\"\")"
+    },
+    {
+     "cell": "C27",
+     "formula": "=IF($R27=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$R27)&\"\")"
+    },
+    {
+     "cell": "D27",
+     "formula": "=IF($R27=\"\",\"\",N(INDEX('Gift List'!$E$6:$E$305,$R27)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R28",
+     "formula": "=IFERROR(SMALL('Gift List'!$O$6:$O$305,18),\"\")"
+    },
+    {
+     "cell": "B28",
+     "formula": "=IF($R28=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$R28)&\"\")"
+    },
+    {
+     "cell": "C28",
+     "formula": "=IF($R28=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$R28)&\"\")"
+    },
+    {
+     "cell": "D28",
+     "formula": "=IF($R28=\"\",\"\",N(INDEX('Gift List'!$E$6:$E$305,$R28)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R29",
+     "formula": "=IFERROR(SMALL('Gift List'!$O$6:$O$305,19),\"\")"
+    },
+    {
+     "cell": "B29",
+     "formula": "=IF($R29=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$R29)&\"\")"
+    },
+    {
+     "cell": "C29",
+     "formula": "=IF($R29=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$R29)&\"\")"
+    },
+    {
+     "cell": "D29",
+     "formula": "=IF($R29=\"\",\"\",N(INDEX('Gift List'!$E$6:$E$305,$R29)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R30",
+     "formula": "=IFERROR(SMALL('Gift List'!$O$6:$O$305,20),\"\")"
+    },
+    {
+     "cell": "B30",
+     "formula": "=IF($R30=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$R30)&\"\")"
+    },
+    {
+     "cell": "C30",
+     "formula": "=IF($R30=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$R30)&\"\")"
+    },
+    {
+     "cell": "D30",
+     "formula": "=IF($R30=\"\",\"\",N(INDEX('Gift List'!$E$6:$E$305,$R30)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R31",
+     "formula": "=IFERROR(SMALL('Gift List'!$O$6:$O$305,21),\"\")"
+    },
+    {
+     "cell": "B31",
+     "formula": "=IF($R31=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$R31)&\"\")"
+    },
+    {
+     "cell": "C31",
+     "formula": "=IF($R31=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$R31)&\"\")"
+    },
+    {
+     "cell": "D31",
+     "formula": "=IF($R31=\"\",\"\",N(INDEX('Gift List'!$E$6:$E$305,$R31)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R32",
+     "formula": "=IFERROR(SMALL('Gift List'!$O$6:$O$305,22),\"\")"
+    },
+    {
+     "cell": "B32",
+     "formula": "=IF($R32=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$R32)&\"\")"
+    },
+    {
+     "cell": "C32",
+     "formula": "=IF($R32=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$R32)&\"\")"
+    },
+    {
+     "cell": "D32",
+     "formula": "=IF($R32=\"\",\"\",N(INDEX('Gift List'!$E$6:$E$305,$R32)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R33",
+     "formula": "=IFERROR(SMALL('Gift List'!$O$6:$O$305,23),\"\")"
+    },
+    {
+     "cell": "B33",
+     "formula": "=IF($R33=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$R33)&\"\")"
+    },
+    {
+     "cell": "C33",
+     "formula": "=IF($R33=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$R33)&\"\")"
+    },
+    {
+     "cell": "D33",
+     "formula": "=IF($R33=\"\",\"\",N(INDEX('Gift List'!$E$6:$E$305,$R33)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R34",
+     "formula": "=IFERROR(SMALL('Gift List'!$O$6:$O$305,24),\"\")"
+    },
+    {
+     "cell": "B34",
+     "formula": "=IF($R34=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$R34)&\"\")"
+    },
+    {
+     "cell": "C34",
+     "formula": "=IF($R34=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$R34)&\"\")"
+    },
+    {
+     "cell": "D34",
+     "formula": "=IF($R34=\"\",\"\",N(INDEX('Gift List'!$E$6:$E$305,$R34)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R35",
+     "formula": "=IFERROR(SMALL('Gift List'!$O$6:$O$305,25),\"\")"
+    },
+    {
+     "cell": "B35",
+     "formula": "=IF($R35=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$R35)&\"\")"
+    },
+    {
+     "cell": "C35",
+     "formula": "=IF($R35=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$R35)&\"\")"
+    },
+    {
+     "cell": "D35",
+     "formula": "=IF($R35=\"\",\"\",N(INDEX('Gift List'!$E$6:$E$305,$R35)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R36",
+     "formula": "=IFERROR(SMALL('Gift List'!$O$6:$O$305,26),\"\")"
+    },
+    {
+     "cell": "B36",
+     "formula": "=IF($R36=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$R36)&\"\")"
+    },
+    {
+     "cell": "C36",
+     "formula": "=IF($R36=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$R36)&\"\")"
+    },
+    {
+     "cell": "D36",
+     "formula": "=IF($R36=\"\",\"\",N(INDEX('Gift List'!$E$6:$E$305,$R36)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R37",
+     "formula": "=IFERROR(SMALL('Gift List'!$O$6:$O$305,27),\"\")"
+    },
+    {
+     "cell": "B37",
+     "formula": "=IF($R37=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$R37)&\"\")"
+    },
+    {
+     "cell": "C37",
+     "formula": "=IF($R37=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$R37)&\"\")"
+    },
+    {
+     "cell": "D37",
+     "formula": "=IF($R37=\"\",\"\",N(INDEX('Gift List'!$E$6:$E$305,$R37)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R38",
+     "formula": "=IFERROR(SMALL('Gift List'!$O$6:$O$305,28),\"\")"
+    },
+    {
+     "cell": "B38",
+     "formula": "=IF($R38=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$R38)&\"\")"
+    },
+    {
+     "cell": "C38",
+     "formula": "=IF($R38=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$R38)&\"\")"
+    },
+    {
+     "cell": "D38",
+     "formula": "=IF($R38=\"\",\"\",N(INDEX('Gift List'!$E$6:$E$305,$R38)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R39",
+     "formula": "=IFERROR(SMALL('Gift List'!$O$6:$O$305,29),\"\")"
+    },
+    {
+     "cell": "B39",
+     "formula": "=IF($R39=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$R39)&\"\")"
+    },
+    {
+     "cell": "C39",
+     "formula": "=IF($R39=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$R39)&\"\")"
+    },
+    {
+     "cell": "D39",
+     "formula": "=IF($R39=\"\",\"\",N(INDEX('Gift List'!$E$6:$E$305,$R39)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R40",
+     "formula": "=IFERROR(SMALL('Gift List'!$O$6:$O$305,30),\"\")"
+    },
+    {
+     "cell": "B40",
+     "formula": "=IF($R40=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$R40)&\"\")"
+    },
+    {
+     "cell": "C40",
+     "formula": "=IF($R40=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$R40)&\"\")"
+    },
+    {
+     "cell": "D40",
+     "formula": "=IF($R40=\"\",\"\",N(INDEX('Gift List'!$E$6:$E$305,$R40)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F10",
+     "formula": "For"
+    },
+    {
+     "cell": "G10",
+     "formula": "Gift"
+    },
+    {
+     "cell": "H10",
+     "formula": "Arrives By"
+    },
+    {
+     "cell": "S11",
+     "formula": "=IFERROR(SMALL('Gift List'!$P$6:$P$305,1),\"\")"
+    },
+    {
+     "cell": "F11",
+     "formula": "=IF($S11=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$S11)&\"\")"
+    },
+    {
+     "cell": "G11",
+     "formula": "=IF($S11=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$S11)&\"\")"
+    },
+    {
+     "cell": "H11",
+     "formula": "=IF($S11=\"\",\"\",IF(ISNUMBER(INDEX('Gift List'!$I$6:$I$305,$S11)),INDEX('Gift List'!$I$6:$I$305,$S11),\"-\"))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "S12",
+     "formula": "=IFERROR(SMALL('Gift List'!$P$6:$P$305,2),\"\")"
+    },
+    {
+     "cell": "F12",
+     "formula": "=IF($S12=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$S12)&\"\")"
+    },
+    {
+     "cell": "G12",
+     "formula": "=IF($S12=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$S12)&\"\")"
+    },
+    {
+     "cell": "H12",
+     "formula": "=IF($S12=\"\",\"\",IF(ISNUMBER(INDEX('Gift List'!$I$6:$I$305,$S12)),INDEX('Gift List'!$I$6:$I$305,$S12),\"-\"))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "S13",
+     "formula": "=IFERROR(SMALL('Gift List'!$P$6:$P$305,3),\"\")"
+    },
+    {
+     "cell": "F13",
+     "formula": "=IF($S13=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$S13)&\"\")"
+    },
+    {
+     "cell": "G13",
+     "formula": "=IF($S13=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$S13)&\"\")"
+    },
+    {
+     "cell": "H13",
+     "formula": "=IF($S13=\"\",\"\",IF(ISNUMBER(INDEX('Gift List'!$I$6:$I$305,$S13)),INDEX('Gift List'!$I$6:$I$305,$S13),\"-\"))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "S14",
+     "formula": "=IFERROR(SMALL('Gift List'!$P$6:$P$305,4),\"\")"
+    },
+    {
+     "cell": "F14",
+     "formula": "=IF($S14=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$S14)&\"\")"
+    },
+    {
+     "cell": "G14",
+     "formula": "=IF($S14=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$S14)&\"\")"
+    },
+    {
+     "cell": "H14",
+     "formula": "=IF($S14=\"\",\"\",IF(ISNUMBER(INDEX('Gift List'!$I$6:$I$305,$S14)),INDEX('Gift List'!$I$6:$I$305,$S14),\"-\"))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "S15",
+     "formula": "=IFERROR(SMALL('Gift List'!$P$6:$P$305,5),\"\")"
+    },
+    {
+     "cell": "F15",
+     "formula": "=IF($S15=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$S15)&\"\")"
+    },
+    {
+     "cell": "G15",
+     "formula": "=IF($S15=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$S15)&\"\")"
+    },
+    {
+     "cell": "H15",
+     "formula": "=IF($S15=\"\",\"\",IF(ISNUMBER(INDEX('Gift List'!$I$6:$I$305,$S15)),INDEX('Gift List'!$I$6:$I$305,$S15),\"-\"))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "S16",
+     "formula": "=IFERROR(SMALL('Gift List'!$P$6:$P$305,6),\"\")"
+    },
+    {
+     "cell": "F16",
+     "formula": "=IF($S16=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$S16)&\"\")"
+    },
+    {
+     "cell": "G16",
+     "formula": "=IF($S16=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$S16)&\"\")"
+    },
+    {
+     "cell": "H16",
+     "formula": "=IF($S16=\"\",\"\",IF(ISNUMBER(INDEX('Gift List'!$I$6:$I$305,$S16)),INDEX('Gift List'!$I$6:$I$305,$S16),\"-\"))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "S17",
+     "formula": "=IFERROR(SMALL('Gift List'!$P$6:$P$305,7),\"\")"
+    },
+    {
+     "cell": "F17",
+     "formula": "=IF($S17=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$S17)&\"\")"
+    },
+    {
+     "cell": "G17",
+     "formula": "=IF($S17=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$S17)&\"\")"
+    },
+    {
+     "cell": "H17",
+     "formula": "=IF($S17=\"\",\"\",IF(ISNUMBER(INDEX('Gift List'!$I$6:$I$305,$S17)),INDEX('Gift List'!$I$6:$I$305,$S17),\"-\"))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "S18",
+     "formula": "=IFERROR(SMALL('Gift List'!$P$6:$P$305,8),\"\")"
+    },
+    {
+     "cell": "F18",
+     "formula": "=IF($S18=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$S18)&\"\")"
+    },
+    {
+     "cell": "G18",
+     "formula": "=IF($S18=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$S18)&\"\")"
+    },
+    {
+     "cell": "H18",
+     "formula": "=IF($S18=\"\",\"\",IF(ISNUMBER(INDEX('Gift List'!$I$6:$I$305,$S18)),INDEX('Gift List'!$I$6:$I$305,$S18),\"-\"))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "S19",
+     "formula": "=IFERROR(SMALL('Gift List'!$P$6:$P$305,9),\"\")"
+    },
+    {
+     "cell": "F19",
+     "formula": "=IF($S19=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$S19)&\"\")"
+    },
+    {
+     "cell": "G19",
+     "formula": "=IF($S19=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$S19)&\"\")"
+    },
+    {
+     "cell": "H19",
+     "formula": "=IF($S19=\"\",\"\",IF(ISNUMBER(INDEX('Gift List'!$I$6:$I$305,$S19)),INDEX('Gift List'!$I$6:$I$305,$S19),\"-\"))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "S20",
+     "formula": "=IFERROR(SMALL('Gift List'!$P$6:$P$305,10),\"\")"
+    },
+    {
+     "cell": "F20",
+     "formula": "=IF($S20=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$S20)&\"\")"
+    },
+    {
+     "cell": "G20",
+     "formula": "=IF($S20=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$S20)&\"\")"
+    },
+    {
+     "cell": "H20",
+     "formula": "=IF($S20=\"\",\"\",IF(ISNUMBER(INDEX('Gift List'!$I$6:$I$305,$S20)),INDEX('Gift List'!$I$6:$I$305,$S20),\"-\"))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "S21",
+     "formula": "=IFERROR(SMALL('Gift List'!$P$6:$P$305,11),\"\")"
+    },
+    {
+     "cell": "F21",
+     "formula": "=IF($S21=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$S21)&\"\")"
+    },
+    {
+     "cell": "G21",
+     "formula": "=IF($S21=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$S21)&\"\")"
+    },
+    {
+     "cell": "H21",
+     "formula": "=IF($S21=\"\",\"\",IF(ISNUMBER(INDEX('Gift List'!$I$6:$I$305,$S21)),INDEX('Gift List'!$I$6:$I$305,$S21),\"-\"))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "S22",
+     "formula": "=IFERROR(SMALL('Gift List'!$P$6:$P$305,12),\"\")"
+    },
+    {
+     "cell": "F22",
+     "formula": "=IF($S22=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$S22)&\"\")"
+    },
+    {
+     "cell": "G22",
+     "formula": "=IF($S22=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$S22)&\"\")"
+    },
+    {
+     "cell": "H22",
+     "formula": "=IF($S22=\"\",\"\",IF(ISNUMBER(INDEX('Gift List'!$I$6:$I$305,$S22)),INDEX('Gift List'!$I$6:$I$305,$S22),\"-\"))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "S23",
+     "formula": "=IFERROR(SMALL('Gift List'!$P$6:$P$305,13),\"\")"
+    },
+    {
+     "cell": "F23",
+     "formula": "=IF($S23=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$S23)&\"\")"
+    },
+    {
+     "cell": "G23",
+     "formula": "=IF($S23=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$S23)&\"\")"
+    },
+    {
+     "cell": "H23",
+     "formula": "=IF($S23=\"\",\"\",IF(ISNUMBER(INDEX('Gift List'!$I$6:$I$305,$S23)),INDEX('Gift List'!$I$6:$I$305,$S23),\"-\"))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "S24",
+     "formula": "=IFERROR(SMALL('Gift List'!$P$6:$P$305,14),\"\")"
+    },
+    {
+     "cell": "F24",
+     "formula": "=IF($S24=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$S24)&\"\")"
+    },
+    {
+     "cell": "G24",
+     "formula": "=IF($S24=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$S24)&\"\")"
+    },
+    {
+     "cell": "H24",
+     "formula": "=IF($S24=\"\",\"\",IF(ISNUMBER(INDEX('Gift List'!$I$6:$I$305,$S24)),INDEX('Gift List'!$I$6:$I$305,$S24),\"-\"))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "S25",
+     "formula": "=IFERROR(SMALL('Gift List'!$P$6:$P$305,15),\"\")"
+    },
+    {
+     "cell": "F25",
+     "formula": "=IF($S25=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$S25)&\"\")"
+    },
+    {
+     "cell": "G25",
+     "formula": "=IF($S25=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$S25)&\"\")"
+    },
+    {
+     "cell": "H25",
+     "formula": "=IF($S25=\"\",\"\",IF(ISNUMBER(INDEX('Gift List'!$I$6:$I$305,$S25)),INDEX('Gift List'!$I$6:$I$305,$S25),\"-\"))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "S26",
+     "formula": "=IFERROR(SMALL('Gift List'!$P$6:$P$305,16),\"\")"
+    },
+    {
+     "cell": "F26",
+     "formula": "=IF($S26=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$S26)&\"\")"
+    },
+    {
+     "cell": "G26",
+     "formula": "=IF($S26=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$S26)&\"\")"
+    },
+    {
+     "cell": "H26",
+     "formula": "=IF($S26=\"\",\"\",IF(ISNUMBER(INDEX('Gift List'!$I$6:$I$305,$S26)),INDEX('Gift List'!$I$6:$I$305,$S26),\"-\"))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "S27",
+     "formula": "=IFERROR(SMALL('Gift List'!$P$6:$P$305,17),\"\")"
+    },
+    {
+     "cell": "F27",
+     "formula": "=IF($S27=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$S27)&\"\")"
+    },
+    {
+     "cell": "G27",
+     "formula": "=IF($S27=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$S27)&\"\")"
+    },
+    {
+     "cell": "H27",
+     "formula": "=IF($S27=\"\",\"\",IF(ISNUMBER(INDEX('Gift List'!$I$6:$I$305,$S27)),INDEX('Gift List'!$I$6:$I$305,$S27),\"-\"))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "S28",
+     "formula": "=IFERROR(SMALL('Gift List'!$P$6:$P$305,18),\"\")"
+    },
+    {
+     "cell": "F28",
+     "formula": "=IF($S28=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$S28)&\"\")"
+    },
+    {
+     "cell": "G28",
+     "formula": "=IF($S28=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$S28)&\"\")"
+    },
+    {
+     "cell": "H28",
+     "formula": "=IF($S28=\"\",\"\",IF(ISNUMBER(INDEX('Gift List'!$I$6:$I$305,$S28)),INDEX('Gift List'!$I$6:$I$305,$S28),\"-\"))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "S29",
+     "formula": "=IFERROR(SMALL('Gift List'!$P$6:$P$305,19),\"\")"
+    },
+    {
+     "cell": "F29",
+     "formula": "=IF($S29=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$S29)&\"\")"
+    },
+    {
+     "cell": "G29",
+     "formula": "=IF($S29=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$S29)&\"\")"
+    },
+    {
+     "cell": "H29",
+     "formula": "=IF($S29=\"\",\"\",IF(ISNUMBER(INDEX('Gift List'!$I$6:$I$305,$S29)),INDEX('Gift List'!$I$6:$I$305,$S29),\"-\"))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "S30",
+     "formula": "=IFERROR(SMALL('Gift List'!$P$6:$P$305,20),\"\")"
+    },
+    {
+     "cell": "F30",
+     "formula": "=IF($S30=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$S30)&\"\")"
+    },
+    {
+     "cell": "G30",
+     "formula": "=IF($S30=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$S30)&\"\")"
+    },
+    {
+     "cell": "H30",
+     "formula": "=IF($S30=\"\",\"\",IF(ISNUMBER(INDEX('Gift List'!$I$6:$I$305,$S30)),INDEX('Gift List'!$I$6:$I$305,$S30),\"-\"))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "S31",
+     "formula": "=IFERROR(SMALL('Gift List'!$P$6:$P$305,21),\"\")"
+    },
+    {
+     "cell": "F31",
+     "formula": "=IF($S31=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$S31)&\"\")"
+    },
+    {
+     "cell": "G31",
+     "formula": "=IF($S31=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$S31)&\"\")"
+    },
+    {
+     "cell": "H31",
+     "formula": "=IF($S31=\"\",\"\",IF(ISNUMBER(INDEX('Gift List'!$I$6:$I$305,$S31)),INDEX('Gift List'!$I$6:$I$305,$S31),\"-\"))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "S32",
+     "formula": "=IFERROR(SMALL('Gift List'!$P$6:$P$305,22),\"\")"
+    },
+    {
+     "cell": "F32",
+     "formula": "=IF($S32=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$S32)&\"\")"
+    },
+    {
+     "cell": "G32",
+     "formula": "=IF($S32=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$S32)&\"\")"
+    },
+    {
+     "cell": "H32",
+     "formula": "=IF($S32=\"\",\"\",IF(ISNUMBER(INDEX('Gift List'!$I$6:$I$305,$S32)),INDEX('Gift List'!$I$6:$I$305,$S32),\"-\"))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "S33",
+     "formula": "=IFERROR(SMALL('Gift List'!$P$6:$P$305,23),\"\")"
+    },
+    {
+     "cell": "F33",
+     "formula": "=IF($S33=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$S33)&\"\")"
+    },
+    {
+     "cell": "G33",
+     "formula": "=IF($S33=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$S33)&\"\")"
+    },
+    {
+     "cell": "H33",
+     "formula": "=IF($S33=\"\",\"\",IF(ISNUMBER(INDEX('Gift List'!$I$6:$I$305,$S33)),INDEX('Gift List'!$I$6:$I$305,$S33),\"-\"))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "S34",
+     "formula": "=IFERROR(SMALL('Gift List'!$P$6:$P$305,24),\"\")"
+    },
+    {
+     "cell": "F34",
+     "formula": "=IF($S34=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$S34)&\"\")"
+    },
+    {
+     "cell": "G34",
+     "formula": "=IF($S34=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$S34)&\"\")"
+    },
+    {
+     "cell": "H34",
+     "formula": "=IF($S34=\"\",\"\",IF(ISNUMBER(INDEX('Gift List'!$I$6:$I$305,$S34)),INDEX('Gift List'!$I$6:$I$305,$S34),\"-\"))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "S35",
+     "formula": "=IFERROR(SMALL('Gift List'!$P$6:$P$305,25),\"\")"
+    },
+    {
+     "cell": "F35",
+     "formula": "=IF($S35=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$S35)&\"\")"
+    },
+    {
+     "cell": "G35",
+     "formula": "=IF($S35=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$S35)&\"\")"
+    },
+    {
+     "cell": "H35",
+     "formula": "=IF($S35=\"\",\"\",IF(ISNUMBER(INDEX('Gift List'!$I$6:$I$305,$S35)),INDEX('Gift List'!$I$6:$I$305,$S35),\"-\"))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "S36",
+     "formula": "=IFERROR(SMALL('Gift List'!$P$6:$P$305,26),\"\")"
+    },
+    {
+     "cell": "F36",
+     "formula": "=IF($S36=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$S36)&\"\")"
+    },
+    {
+     "cell": "G36",
+     "formula": "=IF($S36=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$S36)&\"\")"
+    },
+    {
+     "cell": "H36",
+     "formula": "=IF($S36=\"\",\"\",IF(ISNUMBER(INDEX('Gift List'!$I$6:$I$305,$S36)),INDEX('Gift List'!$I$6:$I$305,$S36),\"-\"))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "S37",
+     "formula": "=IFERROR(SMALL('Gift List'!$P$6:$P$305,27),\"\")"
+    },
+    {
+     "cell": "F37",
+     "formula": "=IF($S37=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$S37)&\"\")"
+    },
+    {
+     "cell": "G37",
+     "formula": "=IF($S37=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$S37)&\"\")"
+    },
+    {
+     "cell": "H37",
+     "formula": "=IF($S37=\"\",\"\",IF(ISNUMBER(INDEX('Gift List'!$I$6:$I$305,$S37)),INDEX('Gift List'!$I$6:$I$305,$S37),\"-\"))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "S38",
+     "formula": "=IFERROR(SMALL('Gift List'!$P$6:$P$305,28),\"\")"
+    },
+    {
+     "cell": "F38",
+     "formula": "=IF($S38=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$S38)&\"\")"
+    },
+    {
+     "cell": "G38",
+     "formula": "=IF($S38=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$S38)&\"\")"
+    },
+    {
+     "cell": "H38",
+     "formula": "=IF($S38=\"\",\"\",IF(ISNUMBER(INDEX('Gift List'!$I$6:$I$305,$S38)),INDEX('Gift List'!$I$6:$I$305,$S38),\"-\"))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "S39",
+     "formula": "=IFERROR(SMALL('Gift List'!$P$6:$P$305,29),\"\")"
+    },
+    {
+     "cell": "F39",
+     "formula": "=IF($S39=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$S39)&\"\")"
+    },
+    {
+     "cell": "G39",
+     "formula": "=IF($S39=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$S39)&\"\")"
+    },
+    {
+     "cell": "H39",
+     "formula": "=IF($S39=\"\",\"\",IF(ISNUMBER(INDEX('Gift List'!$I$6:$I$305,$S39)),INDEX('Gift List'!$I$6:$I$305,$S39),\"-\"))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "S40",
+     "formula": "=IFERROR(SMALL('Gift List'!$P$6:$P$305,30),\"\")"
+    },
+    {
+     "cell": "F40",
+     "formula": "=IF($S40=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$S40)&\"\")"
+    },
+    {
+     "cell": "G40",
+     "formula": "=IF($S40=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$S40)&\"\")"
+    },
+    {
+     "cell": "H40",
+     "formula": "=IF($S40=\"\",\"\",IF(ISNUMBER(INDEX('Gift List'!$I$6:$I$305,$S40)),INDEX('Gift List'!$I$6:$I$305,$S40),\"-\"))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "J10",
+     "formula": "For"
+    },
+    {
+     "cell": "K10",
+     "formula": "Gift"
+    },
+    {
+     "cell": "L10",
+     "formula": "Paid"
+    },
+    {
+     "cell": "T11",
+     "formula": "=IFERROR(SMALL('Gift List'!$Q$6:$Q$305,1),\"\")"
+    },
+    {
+     "cell": "J11",
+     "formula": "=IF($T11=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$T11)&\"\")"
+    },
+    {
+     "cell": "K11",
+     "formula": "=IF($T11=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$T11)&\"\")"
+    },
+    {
+     "cell": "L11",
+     "formula": "=IF($T11=\"\",\"\",N(INDEX('Gift List'!$K$6:$K$305,$T11)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "T12",
+     "formula": "=IFERROR(SMALL('Gift List'!$Q$6:$Q$305,2),\"\")"
+    },
+    {
+     "cell": "J12",
+     "formula": "=IF($T12=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$T12)&\"\")"
+    },
+    {
+     "cell": "K12",
+     "formula": "=IF($T12=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$T12)&\"\")"
+    },
+    {
+     "cell": "L12",
+     "formula": "=IF($T12=\"\",\"\",N(INDEX('Gift List'!$K$6:$K$305,$T12)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "T13",
+     "formula": "=IFERROR(SMALL('Gift List'!$Q$6:$Q$305,3),\"\")"
+    },
+    {
+     "cell": "J13",
+     "formula": "=IF($T13=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$T13)&\"\")"
+    },
+    {
+     "cell": "K13",
+     "formula": "=IF($T13=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$T13)&\"\")"
+    },
+    {
+     "cell": "L13",
+     "formula": "=IF($T13=\"\",\"\",N(INDEX('Gift List'!$K$6:$K$305,$T13)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "T14",
+     "formula": "=IFERROR(SMALL('Gift List'!$Q$6:$Q$305,4),\"\")"
+    },
+    {
+     "cell": "J14",
+     "formula": "=IF($T14=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$T14)&\"\")"
+    },
+    {
+     "cell": "K14",
+     "formula": "=IF($T14=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$T14)&\"\")"
+    },
+    {
+     "cell": "L14",
+     "formula": "=IF($T14=\"\",\"\",N(INDEX('Gift List'!$K$6:$K$305,$T14)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "T15",
+     "formula": "=IFERROR(SMALL('Gift List'!$Q$6:$Q$305,5),\"\")"
+    },
+    {
+     "cell": "J15",
+     "formula": "=IF($T15=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$T15)&\"\")"
+    },
+    {
+     "cell": "K15",
+     "formula": "=IF($T15=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$T15)&\"\")"
+    },
+    {
+     "cell": "L15",
+     "formula": "=IF($T15=\"\",\"\",N(INDEX('Gift List'!$K$6:$K$305,$T15)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "T16",
+     "formula": "=IFERROR(SMALL('Gift List'!$Q$6:$Q$305,6),\"\")"
+    },
+    {
+     "cell": "J16",
+     "formula": "=IF($T16=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$T16)&\"\")"
+    },
+    {
+     "cell": "K16",
+     "formula": "=IF($T16=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$T16)&\"\")"
+    },
+    {
+     "cell": "L16",
+     "formula": "=IF($T16=\"\",\"\",N(INDEX('Gift List'!$K$6:$K$305,$T16)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "T17",
+     "formula": "=IFERROR(SMALL('Gift List'!$Q$6:$Q$305,7),\"\")"
+    },
+    {
+     "cell": "J17",
+     "formula": "=IF($T17=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$T17)&\"\")"
+    },
+    {
+     "cell": "K17",
+     "formula": "=IF($T17=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$T17)&\"\")"
+    },
+    {
+     "cell": "L17",
+     "formula": "=IF($T17=\"\",\"\",N(INDEX('Gift List'!$K$6:$K$305,$T17)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "T18",
+     "formula": "=IFERROR(SMALL('Gift List'!$Q$6:$Q$305,8),\"\")"
+    },
+    {
+     "cell": "J18",
+     "formula": "=IF($T18=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$T18)&\"\")"
+    },
+    {
+     "cell": "K18",
+     "formula": "=IF($T18=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$T18)&\"\")"
+    },
+    {
+     "cell": "L18",
+     "formula": "=IF($T18=\"\",\"\",N(INDEX('Gift List'!$K$6:$K$305,$T18)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "T19",
+     "formula": "=IFERROR(SMALL('Gift List'!$Q$6:$Q$305,9),\"\")"
+    },
+    {
+     "cell": "J19",
+     "formula": "=IF($T19=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$T19)&\"\")"
+    },
+    {
+     "cell": "K19",
+     "formula": "=IF($T19=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$T19)&\"\")"
+    },
+    {
+     "cell": "L19",
+     "formula": "=IF($T19=\"\",\"\",N(INDEX('Gift List'!$K$6:$K$305,$T19)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "T20",
+     "formula": "=IFERROR(SMALL('Gift List'!$Q$6:$Q$305,10),\"\")"
+    },
+    {
+     "cell": "J20",
+     "formula": "=IF($T20=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$T20)&\"\")"
+    },
+    {
+     "cell": "K20",
+     "formula": "=IF($T20=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$T20)&\"\")"
+    },
+    {
+     "cell": "L20",
+     "formula": "=IF($T20=\"\",\"\",N(INDEX('Gift List'!$K$6:$K$305,$T20)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "T21",
+     "formula": "=IFERROR(SMALL('Gift List'!$Q$6:$Q$305,11),\"\")"
+    },
+    {
+     "cell": "J21",
+     "formula": "=IF($T21=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$T21)&\"\")"
+    },
+    {
+     "cell": "K21",
+     "formula": "=IF($T21=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$T21)&\"\")"
+    },
+    {
+     "cell": "L21",
+     "formula": "=IF($T21=\"\",\"\",N(INDEX('Gift List'!$K$6:$K$305,$T21)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "T22",
+     "formula": "=IFERROR(SMALL('Gift List'!$Q$6:$Q$305,12),\"\")"
+    },
+    {
+     "cell": "J22",
+     "formula": "=IF($T22=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$T22)&\"\")"
+    },
+    {
+     "cell": "K22",
+     "formula": "=IF($T22=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$T22)&\"\")"
+    },
+    {
+     "cell": "L22",
+     "formula": "=IF($T22=\"\",\"\",N(INDEX('Gift List'!$K$6:$K$305,$T22)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "T23",
+     "formula": "=IFERROR(SMALL('Gift List'!$Q$6:$Q$305,13),\"\")"
+    },
+    {
+     "cell": "J23",
+     "formula": "=IF($T23=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$T23)&\"\")"
+    },
+    {
+     "cell": "K23",
+     "formula": "=IF($T23=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$T23)&\"\")"
+    },
+    {
+     "cell": "L23",
+     "formula": "=IF($T23=\"\",\"\",N(INDEX('Gift List'!$K$6:$K$305,$T23)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "T24",
+     "formula": "=IFERROR(SMALL('Gift List'!$Q$6:$Q$305,14),\"\")"
+    },
+    {
+     "cell": "J24",
+     "formula": "=IF($T24=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$T24)&\"\")"
+    },
+    {
+     "cell": "K24",
+     "formula": "=IF($T24=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$T24)&\"\")"
+    },
+    {
+     "cell": "L24",
+     "formula": "=IF($T24=\"\",\"\",N(INDEX('Gift List'!$K$6:$K$305,$T24)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "T25",
+     "formula": "=IFERROR(SMALL('Gift List'!$Q$6:$Q$305,15),\"\")"
+    },
+    {
+     "cell": "J25",
+     "formula": "=IF($T25=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$T25)&\"\")"
+    },
+    {
+     "cell": "K25",
+     "formula": "=IF($T25=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$T25)&\"\")"
+    },
+    {
+     "cell": "L25",
+     "formula": "=IF($T25=\"\",\"\",N(INDEX('Gift List'!$K$6:$K$305,$T25)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "T26",
+     "formula": "=IFERROR(SMALL('Gift List'!$Q$6:$Q$305,16),\"\")"
+    },
+    {
+     "cell": "J26",
+     "formula": "=IF($T26=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$T26)&\"\")"
+    },
+    {
+     "cell": "K26",
+     "formula": "=IF($T26=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$T26)&\"\")"
+    },
+    {
+     "cell": "L26",
+     "formula": "=IF($T26=\"\",\"\",N(INDEX('Gift List'!$K$6:$K$305,$T26)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "T27",
+     "formula": "=IFERROR(SMALL('Gift List'!$Q$6:$Q$305,17),\"\")"
+    },
+    {
+     "cell": "J27",
+     "formula": "=IF($T27=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$T27)&\"\")"
+    },
+    {
+     "cell": "K27",
+     "formula": "=IF($T27=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$T27)&\"\")"
+    },
+    {
+     "cell": "L27",
+     "formula": "=IF($T27=\"\",\"\",N(INDEX('Gift List'!$K$6:$K$305,$T27)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "T28",
+     "formula": "=IFERROR(SMALL('Gift List'!$Q$6:$Q$305,18),\"\")"
+    },
+    {
+     "cell": "J28",
+     "formula": "=IF($T28=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$T28)&\"\")"
+    },
+    {
+     "cell": "K28",
+     "formula": "=IF($T28=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$T28)&\"\")"
+    },
+    {
+     "cell": "L28",
+     "formula": "=IF($T28=\"\",\"\",N(INDEX('Gift List'!$K$6:$K$305,$T28)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "T29",
+     "formula": "=IFERROR(SMALL('Gift List'!$Q$6:$Q$305,19),\"\")"
+    },
+    {
+     "cell": "J29",
+     "formula": "=IF($T29=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$T29)&\"\")"
+    },
+    {
+     "cell": "K29",
+     "formula": "=IF($T29=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$T29)&\"\")"
+    },
+    {
+     "cell": "L29",
+     "formula": "=IF($T29=\"\",\"\",N(INDEX('Gift List'!$K$6:$K$305,$T29)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "T30",
+     "formula": "=IFERROR(SMALL('Gift List'!$Q$6:$Q$305,20),\"\")"
+    },
+    {
+     "cell": "J30",
+     "formula": "=IF($T30=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$T30)&\"\")"
+    },
+    {
+     "cell": "K30",
+     "formula": "=IF($T30=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$T30)&\"\")"
+    },
+    {
+     "cell": "L30",
+     "formula": "=IF($T30=\"\",\"\",N(INDEX('Gift List'!$K$6:$K$305,$T30)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "T31",
+     "formula": "=IFERROR(SMALL('Gift List'!$Q$6:$Q$305,21),\"\")"
+    },
+    {
+     "cell": "J31",
+     "formula": "=IF($T31=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$T31)&\"\")"
+    },
+    {
+     "cell": "K31",
+     "formula": "=IF($T31=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$T31)&\"\")"
+    },
+    {
+     "cell": "L31",
+     "formula": "=IF($T31=\"\",\"\",N(INDEX('Gift List'!$K$6:$K$305,$T31)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "T32",
+     "formula": "=IFERROR(SMALL('Gift List'!$Q$6:$Q$305,22),\"\")"
+    },
+    {
+     "cell": "J32",
+     "formula": "=IF($T32=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$T32)&\"\")"
+    },
+    {
+     "cell": "K32",
+     "formula": "=IF($T32=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$T32)&\"\")"
+    },
+    {
+     "cell": "L32",
+     "formula": "=IF($T32=\"\",\"\",N(INDEX('Gift List'!$K$6:$K$305,$T32)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "T33",
+     "formula": "=IFERROR(SMALL('Gift List'!$Q$6:$Q$305,23),\"\")"
+    },
+    {
+     "cell": "J33",
+     "formula": "=IF($T33=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$T33)&\"\")"
+    },
+    {
+     "cell": "K33",
+     "formula": "=IF($T33=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$T33)&\"\")"
+    },
+    {
+     "cell": "L33",
+     "formula": "=IF($T33=\"\",\"\",N(INDEX('Gift List'!$K$6:$K$305,$T33)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "T34",
+     "formula": "=IFERROR(SMALL('Gift List'!$Q$6:$Q$305,24),\"\")"
+    },
+    {
+     "cell": "J34",
+     "formula": "=IF($T34=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$T34)&\"\")"
+    },
+    {
+     "cell": "K34",
+     "formula": "=IF($T34=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$T34)&\"\")"
+    },
+    {
+     "cell": "L34",
+     "formula": "=IF($T34=\"\",\"\",N(INDEX('Gift List'!$K$6:$K$305,$T34)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "T35",
+     "formula": "=IFERROR(SMALL('Gift List'!$Q$6:$Q$305,25),\"\")"
+    },
+    {
+     "cell": "J35",
+     "formula": "=IF($T35=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$T35)&\"\")"
+    },
+    {
+     "cell": "K35",
+     "formula": "=IF($T35=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$T35)&\"\")"
+    },
+    {
+     "cell": "L35",
+     "formula": "=IF($T35=\"\",\"\",N(INDEX('Gift List'!$K$6:$K$305,$T35)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "T36",
+     "formula": "=IFERROR(SMALL('Gift List'!$Q$6:$Q$305,26),\"\")"
+    },
+    {
+     "cell": "J36",
+     "formula": "=IF($T36=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$T36)&\"\")"
+    },
+    {
+     "cell": "K36",
+     "formula": "=IF($T36=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$T36)&\"\")"
+    },
+    {
+     "cell": "L36",
+     "formula": "=IF($T36=\"\",\"\",N(INDEX('Gift List'!$K$6:$K$305,$T36)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "T37",
+     "formula": "=IFERROR(SMALL('Gift List'!$Q$6:$Q$305,27),\"\")"
+    },
+    {
+     "cell": "J37",
+     "formula": "=IF($T37=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$T37)&\"\")"
+    },
+    {
+     "cell": "K37",
+     "formula": "=IF($T37=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$T37)&\"\")"
+    },
+    {
+     "cell": "L37",
+     "formula": "=IF($T37=\"\",\"\",N(INDEX('Gift List'!$K$6:$K$305,$T37)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "T38",
+     "formula": "=IFERROR(SMALL('Gift List'!$Q$6:$Q$305,28),\"\")"
+    },
+    {
+     "cell": "J38",
+     "formula": "=IF($T38=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$T38)&\"\")"
+    },
+    {
+     "cell": "K38",
+     "formula": "=IF($T38=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$T38)&\"\")"
+    },
+    {
+     "cell": "L38",
+     "formula": "=IF($T38=\"\",\"\",N(INDEX('Gift List'!$K$6:$K$305,$T38)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "T39",
+     "formula": "=IFERROR(SMALL('Gift List'!$Q$6:$Q$305,29),\"\")"
+    },
+    {
+     "cell": "J39",
+     "formula": "=IF($T39=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$T39)&\"\")"
+    },
+    {
+     "cell": "K39",
+     "formula": "=IF($T39=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$T39)&\"\")"
+    },
+    {
+     "cell": "L39",
+     "formula": "=IF($T39=\"\",\"\",N(INDEX('Gift List'!$K$6:$K$305,$T39)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "T40",
+     "formula": "=IFERROR(SMALL('Gift List'!$Q$6:$Q$305,30),\"\")"
+    },
+    {
+     "cell": "J40",
+     "formula": "=IF($T40=\"\",\"\",INDEX('Gift List'!$B$6:$B$305,$T40)&\"\")"
+    },
+    {
+     "cell": "K40",
+     "formula": "=IF($T40=\"\",\"\",INDEX('Gift List'!$C$6:$C$305,$T40)&\"\")"
+    },
+    {
+     "cell": "L40",
+     "formula": "=IF($T40=\"\",\"\",N(INDEX('Gift List'!$K$6:$K$305,$T40)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B41",
+     "formula": "Still to buy (planned)"
+    },
+    {
+     "cell": "D41",
+     "formula": "=ROUND(SUMIFS('Gift List'!$E$6:$E$305,'Gift List'!$M$6:$M$305,\"Idea\",'Gift List'!$L$6:$L$305,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R5",
+     "formula": "='People'!$R$5"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "F11:H40",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER($H11),$H11<$R$5)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "H6:H7",
+     "type": "formula",
+     "formula": [
+      "$H$6>0"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B10:D10",
+     "color": "F6ECD6"
+    },
+    {
+     "range": "F10:H10",
+     "color": "E4EDE5"
+    },
+    {
+     "range": "J10:L10",
+     "color": "F6ECD6"
+    },
+    {
+     "range": "B11:D40",
+     "color": "FDFBF8"
+    },
+    {
+     "range": "F11:H40",
+     "color": "FDFBF8"
+    },
+    {
+     "range": "J11:L40",
+     "color": "FDFBF8"
+    },
+    {
+     "range": "B41:D41",
+     "color": "F6ECD6"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:C7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "D5:D7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "F5:G7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "H5:H7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "J5:K7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "B10:D41",
+     "color": "EADDD3"
+    },
+    {
+     "range": "F10:H40",
+     "color": "EADDD3"
+    },
+    {
+     "range": "J10:L40",
+     "color": "EADDD3"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "2B1A1F"
+    },
+    {
+     "range": "B10:L10",
+     "bold": true,
+     "size": 10,
+     "color": "2B1A1F",
+     "align": "center"
+    },
+    {
+     "range": "D11:D41",
+     "size": 10,
+     "color": "2B1A1F",
+     "align": "center"
+    },
+    {
+     "range": "H11:H40",
+     "size": 10,
+     "color": "2B1A1F",
+     "align": "center"
+    },
+    {
+     "range": "L11:L40",
+     "size": 10,
+     "color": "2B1A1F",
+     "align": "center"
+    },
+    {
+     "range": "B41:D41",
+     "bold": true,
+     "size": 10,
+     "color": "2B1A1F"
+    }
+   ]
+  },
+  {
+   "name": "Thank-Yous",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "6B8F71",
+   "grid_rows": 72,
+   "grid_cols": 9,
+   "row_height": 20,
+   "column_widths": {
+    "A": 2.5,
+    "B": 22,
+    "C": 26,
+    "D": 13,
+    "E": 10,
+    "F": 26,
+    "G": 11,
+    "H": 2.5
+   },
+   "section_bars": [
+    {
+     "range": "B2:G2",
+     "label": "=\"THANK-YOUS  -  \"&'People'!$R$4",
+     "size": 16,
+     "color": "8C1C3A",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "B8:G8",
+     "label": "GIFTS YOU RECEIVED",
+     "color": "E4EDE5",
+     "font_color": "2B1A1F",
+     "align": "center"
+    }
+   ],
+   "kpi_cards": [
+    {
+     "anchor": "B5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "GIFTS RECEIVED",
+     "value": "=COUNTIF(G10:G69,\"Sent\")+COUNTIF(G10:G69,\"To send\")",
+     "fill": "6B8F71",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "0"
+    },
+    {
+     "anchor": "D5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "THANK-YOUS SENT",
+     "value": "=COUNTIF(G10:G69,\"Sent\")",
+     "fill": "F6ECD6",
+     "font_color": "2B1A1F",
+     "value_size": 16,
+     "number_format": "0"
+    },
+    {
+     "anchor": "F5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "STILL TO SEND",
+     "value": "=COUNTIF(G10:G69,\"To send\")",
+     "fill": "8C1C3A",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "0"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Gifts you received. Tick Sent when the thank-you note (or text!) goes out."
+    },
+    {
+     "cell": "B9",
+     "formula": "From"
+    },
+    {
+     "cell": "C9",
+     "formula": "Gift"
+    },
+    {
+     "cell": "D9",
+     "formula": "Received"
+    },
+    {
+     "cell": "E9",
+     "formula": "Thank-You Sent"
+    },
+    {
+     "cell": "F9",
+     "formula": "Notes"
+    },
+    {
+     "cell": "G9",
+     "formula": "Status"
+    },
+    {
+     "cell": "B10",
+     "formula": "Aunt Linda"
+    },
+    {
+     "cell": "C10",
+     "formula": "Cozy blanket"
+    },
+    {
+     "cell": "D10",
+     "formula": "=DATE(2027,12,4)"
+    },
+    {
+     "cell": "F10",
+     "formula": "Mailed"
+    },
+    {
+     "cell": "E10",
+     "formula": true
+    },
+    {
+     "cell": "G10",
+     "formula": "=IF(AND(TRIM(B10&\"\")=\"\",TRIM(C10&\"\")=\"\"),\"\",IF(E10=TRUE,\"Sent\",\"To send\"))"
+    },
+    {
+     "cell": "B11",
+     "formula": "Work Secret Santa"
+    },
+    {
+     "cell": "C11",
+     "formula": "Mug"
+    },
+    {
+     "cell": "D11",
+     "formula": "=DATE(2027,12,6)"
+    },
+    {
+     "cell": "E11",
+     "formula": false
+    },
+    {
+     "cell": "G11",
+     "formula": "=IF(AND(TRIM(B11&\"\")=\"\",TRIM(C11&\"\")=\"\"),\"\",IF(E11=TRUE,\"Sent\",\"To send\"))"
+    },
+    {
+     "cell": "B12",
+     "formula": "The Kims"
+    },
+    {
+     "cell": "C12",
+     "formula": "Fudge"
+    },
+    {
+     "cell": "D12",
+     "formula": "=DATE(2027,12,7)"
+    },
+    {
+     "cell": "E12",
+     "formula": false
+    },
+    {
+     "cell": "G12",
+     "formula": "=IF(AND(TRIM(B12&\"\")=\"\",TRIM(C12&\"\")=\"\"),\"\",IF(E12=TRUE,\"Sent\",\"To send\"))"
+    },
+    {
+     "cell": "E13",
+     "formula": false
+    },
+    {
+     "cell": "G13",
+     "formula": "=IF(AND(TRIM(B13&\"\")=\"\",TRIM(C13&\"\")=\"\"),\"\",IF(E13=TRUE,\"Sent\",\"To send\"))"
+    },
+    {
+     "cell": "E14",
+     "formula": false
+    },
+    {
+     "cell": "G14",
+     "formula": "=IF(AND(TRIM(B14&\"\")=\"\",TRIM(C14&\"\")=\"\"),\"\",IF(E14=TRUE,\"Sent\",\"To send\"))"
+    },
+    {
+     "cell": "E15",
+     "formula": false
+    },
+    {
+     "cell": "G15",
+     "formula": "=IF(AND(TRIM(B15&\"\")=\"\",TRIM(C15&\"\")=\"\"),\"\",IF(E15=TRUE,\"Sent\",\"To send\"))"
+    },
+    {
+     "cell": "E16",
+     "formula": false
+    },
+    {
+     "cell": "G16",
+     "formula": "=IF(AND(TRIM(B16&\"\")=\"\",TRIM(C16&\"\")=\"\"),\"\",IF(E16=TRUE,\"Sent\",\"To send\"))"
+    },
+    {
+     "cell": "E17",
+     "formula": false
+    },
+    {
+     "cell": "G17",
+     "formula": "=IF(AND(TRIM(B17&\"\")=\"\",TRIM(C17&\"\")=\"\"),\"\",IF(E17=TRUE,\"Sent\",\"To send\"))"
+    },
+    {
+     "cell": "E18",
+     "formula": false
+    },
+    {
+     "cell": "G18",
+     "formula": "=IF(AND(TRIM(B18&\"\")=\"\",TRIM(C18&\"\")=\"\"),\"\",IF(E18=TRUE,\"Sent\",\"To send\"))"
+    },
+    {
+     "cell": "E19",
+     "formula": false
+    },
+    {
+     "cell": "G19",
+     "formula": "=IF(AND(TRIM(B19&\"\")=\"\",TRIM(C19&\"\")=\"\"),\"\",IF(E19=TRUE,\"Sent\",\"To send\"))"
+    },
+    {
+     "cell": "E20",
+     "formula": false
+    },
+    {
+     "cell": "G20",
+     "formula": "=IF(AND(TRIM(B20&\"\")=\"\",TRIM(C20&\"\")=\"\"),\"\",IF(E20=TRUE,\"Sent\",\"To send\"))"
+    },
+    {
+     "cell": "E21",
+     "formula": false
+    },
+    {
+     "cell": "G21",
+     "formula": "=IF(AND(TRIM(B21&\"\")=\"\",TRIM(C21&\"\")=\"\"),\"\",IF(E21=TRUE,\"Sent\",\"To send\"))"
+    },
+    {
+     "cell": "E22",
+     "formula": false
+    },
+    {
+     "cell": "G22",
+     "formula": "=IF(AND(TRIM(B22&\"\")=\"\",TRIM(C22&\"\")=\"\"),\"\",IF(E22=TRUE,\"Sent\",\"To send\"))"
+    },
+    {
+     "cell": "E23",
+     "formula": false
+    },
+    {
+     "cell": "G23",
+     "formula": "=IF(AND(TRIM(B23&\"\")=\"\",TRIM(C23&\"\")=\"\"),\"\",IF(E23=TRUE,\"Sent\",\"To send\"))"
+    },
+    {
+     "cell": "E24",
+     "formula": false
+    },
+    {
+     "cell": "G24",
+     "formula": "=IF(AND(TRIM(B24&\"\")=\"\",TRIM(C24&\"\")=\"\"),\"\",IF(E24=TRUE,\"Sent\",\"To send\"))"
+    },
+    {
+     "cell": "E25",
+     "formula": false
+    },
+    {
+     "cell": "G25",
+     "formula": "=IF(AND(TRIM(B25&\"\")=\"\",TRIM(C25&\"\")=\"\"),\"\",IF(E25=TRUE,\"Sent\",\"To send\"))"
+    },
+    {
+     "cell": "E26",
+     "formula": false
+    },
+    {
+     "cell": "G26",
+     "formula": "=IF(AND(TRIM(B26&\"\")=\"\",TRIM(C26&\"\")=\"\"),\"\",IF(E26=TRUE,\"Sent\",\"To send\"))"
+    },
+    {
+     "cell": "E27",
+     "formula": false
+    },
+    {
+     "cell": "G27",
+     "formula": "=IF(AND(TRIM(B27&\"\")=\"\",TRIM(C27&\"\")=\"\"),\"\",IF(E27=TRUE,\"Sent\",\"To send\"))"
+    },
+    {
+     "cell": "E28",
+     "formula": false
+    },
+    {
+     "cell": "G28",
+     "formula": "=IF(AND(TRIM(B28&\"\")=\"\",TRIM(C28&\"\")=\"\"),\"\",IF(E28=TRUE,\"Sent\",\"To send\"))"
+    },
+    {
+     "cell": "E29",
+     "formula": false
+    },
+    {
+     "cell": "G29",
+     "formula": "=IF(AND(TRIM(B29&\"\")=\"\",TRIM(C29&\"\")=\"\"),\"\",IF(E29=TRUE,\"Sent\",\"To send\"))"
+    },
+    {
+     "cell": "E30",
+     "formula": false
+    },
+    {
+     "cell": "G30",
+     "formula": "=IF(AND(TRIM(B30&\"\")=\"\",TRIM(C30&\"\")=\"\"),\"\",IF(E30=TRUE,\"Sent\",\"To send\"))"
+    },
+    {
+     "cell": "E31",
+     "formula": false
+    },
+    {
+     "cell": "G31",
+     "formula": "=IF(AND(TRIM(B31&\"\")=\"\",TRIM(C31&\"\")=\"\"),\"\",IF(E31=TRUE,\"Sent\",\"To send\"))"
+    },
+    {
+     "cell": "E32",
+     "formula": false
+    },
+    {
+     "cell": "G32",
+     "formula": "=IF(AND(TRIM(B32&\"\")=\"\",TRIM(C32&\"\")=\"\"),\"\",IF(E32=TRUE,\"Sent\",\"To send\"))"
+    },
+    {
+     "cell": "E33",
+     "formula": false
+    },
+    {
+     "cell": "G33",
+     "formula": "=IF(AND(TRIM(B33&\"\")=\"\",TRIM(C33&\"\")=\"\"),\"\",IF(E33=TRUE,\"Sent\",\"To send\"))"
+    },
+    {
+     "cell": "E34",
+     "formula": false
+    },
+    {
+     "cell": "G34",
+     "formula": "=IF(AND(TRIM(B34&\"\")=\"\",TRIM(C34&\"\")=\"\"),\"\",IF(E34=TRUE,\"Sent\",\"To send\"))"
+    },
+    {
+     "cell": "E35",
+     "formula": false
+    },
+    {
+     "cell": "G35",
+     "formula": "=IF(AND(TRIM(B35&\"\")=\"\",TRIM(C35&\"\")=\"\"),\"\",IF(E35=TRUE,\"Sent\",\"To send\"))"
+    },
+    {
+     "cell": "E36",
+     "formula": false
+    },
+    {
+     "cell": "G36",
+     "formula": "=IF(AND(TRIM(B36&\"\")=\"\",TRIM(C36&\"\")=\"\"),\"\",IF(E36=TRUE,\"Sent\",\"To send\"))"
+    },
+    {
+     "cell": "E37",
+     "formula": false
+    },
+    {
+     "cell": "G37",
+     "formula": "=IF(AND(TRIM(B37&\"\")=\"\",TRIM(C37&\"\")=\"\"),\"\",IF(E37=TRUE,\"Sent\",\"To send\"))"
+    },
+    {
+     "cell": "E38",
+     "formula": false
+    },
+    {
+     "cell": "G38",
+     "formula": "=IF(AND(TRIM(B38&\"\")=\"\",TRIM(C38&\"\")=\"\"),\"\",IF(E38=TRUE,\"Sent\",\"To send\"))"
+    },
+    {
+     "cell": "E39",
+     "formula": false
+    },
+    {
+     "cell": "G39",
+     "formula": "=IF(AND(TRIM(B39&\"\")=\"\",TRIM(C39&\"\")=\"\"),\"\",IF(E39=TRUE,\"Sent\",\"To send\"))"
+    },
+    {
+     "cell": "E40",
+     "formula": false
+    },
+    {
+     "cell": "G40",
+     "formula": "=IF(AND(TRIM(B40&\"\")=\"\",TRIM(C40&\"\")=\"\"),\"\",IF(E40=TRUE,\"Sent\",\"To send\"))"
+    },
+    {
+     "cell": "E41",
+     "formula": false
+    },
+    {
+     "cell": "G41",
+     "formula": "=IF(AND(TRIM(B41&\"\")=\"\",TRIM(C41&\"\")=\"\"),\"\",IF(E41=TRUE,\"Sent\",\"To send\"))"
+    },
+    {
+     "cell": "E42",
+     "formula": false
+    },
+    {
+     "cell": "G42",
+     "formula": "=IF(AND(TRIM(B42&\"\")=\"\",TRIM(C42&\"\")=\"\"),\"\",IF(E42=TRUE,\"Sent\",\"To send\"))"
+    },
+    {
+     "cell": "E43",
+     "formula": false
+    },
+    {
+     "cell": "G43",
+     "formula": "=IF(AND(TRIM(B43&\"\")=\"\",TRIM(C43&\"\")=\"\"),\"\",IF(E43=TRUE,\"Sent\",\"To send\"))"
+    },
+    {
+     "cell": "E44",
+     "formula": false
+    },
+    {
+     "cell": "G44",
+     "formula": "=IF(AND(TRIM(B44&\"\")=\"\",TRIM(C44&\"\")=\"\"),\"\",IF(E44=TRUE,\"Sent\",\"To send\"))"
+    },
+    {
+     "cell": "E45",
+     "formula": false
+    },
+    {
+     "cell": "G45",
+     "formula": "=IF(AND(TRIM(B45&\"\")=\"\",TRIM(C45&\"\")=\"\"),\"\",IF(E45=TRUE,\"Sent\",\"To send\"))"
+    },
+    {
+     "cell": "E46",
+     "formula": false
+    },
+    {
+     "cell": "G46",
+     "formula": "=IF(AND(TRIM(B46&\"\")=\"\",TRIM(C46&\"\")=\"\"),\"\",IF(E46=TRUE,\"Sent\",\"To send\"))"
+    },
+    {
+     "cell": "E47",
+     "formula": false
+    },
+    {
+     "cell": "G47",
+     "formula": "=IF(AND(TRIM(B47&\"\")=\"\",TRIM(C47&\"\")=\"\"),\"\",IF(E47=TRUE,\"Sent\",\"To send\"))"
+    },
+    {
+     "cell": "E48",
+     "formula": false
+    },
+    {
+     "cell": "G48",
+     "formula": "=IF(AND(TRIM(B48&\"\")=\"\",TRIM(C48&\"\")=\"\"),\"\",IF(E48=TRUE,\"Sent\",\"To send\"))"
+    },
+    {
+     "cell": "E49",
+     "formula": false
+    },
+    {
+     "cell": "G49",
+     "formula": "=IF(AND(TRIM(B49&\"\")=\"\",TRIM(C49&\"\")=\"\"),\"\",IF(E49=TRUE,\"Sent\",\"To send\"))"
+    },
+    {
+     "cell": "E50",
+     "formula": false
+    },
+    {
+     "cell": "G50",
+     "formula": "=IF(AND(TRIM(B50&\"\")=\"\",TRIM(C50&\"\")=\"\"),\"\",IF(E50=TRUE,\"Sent\",\"To send\"))"
+    },
+    {
+     "cell": "E51",
+     "formula": false
+    },
+    {
+     "cell": "G51",
+     "formula": "=IF(AND(TRIM(B51&\"\")=\"\",TRIM(C51&\"\")=\"\"),\"\",IF(E51=TRUE,\"Sent\",\"To send\"))"
+    },
+    {
+     "cell": "E52",
+     "formula": false
+    },
+    {
+     "cell": "G52",
+     "formula": "=IF(AND(TRIM(B52&\"\")=\"\",TRIM(C52&\"\")=\"\"),\"\",IF(E52=TRUE,\"Sent\",\"To send\"))"
+    },
+    {
+     "cell": "E53",
+     "formula": false
+    },
+    {
+     "cell": "G53",
+     "formula": "=IF(AND(TRIM(B53&\"\")=\"\",TRIM(C53&\"\")=\"\"),\"\",IF(E53=TRUE,\"Sent\",\"To send\"))"
+    },
+    {
+     "cell": "E54",
+     "formula": false
+    },
+    {
+     "cell": "G54",
+     "formula": "=IF(AND(TRIM(B54&\"\")=\"\",TRIM(C54&\"\")=\"\"),\"\",IF(E54=TRUE,\"Sent\",\"To send\"))"
+    },
+    {
+     "cell": "E55",
+     "formula": false
+    },
+    {
+     "cell": "G55",
+     "formula": "=IF(AND(TRIM(B55&\"\")=\"\",TRIM(C55&\"\")=\"\"),\"\",IF(E55=TRUE,\"Sent\",\"To send\"))"
+    },
+    {
+     "cell": "E56",
+     "formula": false
+    },
+    {
+     "cell": "G56",
+     "formula": "=IF(AND(TRIM(B56&\"\")=\"\",TRIM(C56&\"\")=\"\"),\"\",IF(E56=TRUE,\"Sent\",\"To send\"))"
+    },
+    {
+     "cell": "E57",
+     "formula": false
+    },
+    {
+     "cell": "G57",
+     "formula": "=IF(AND(TRIM(B57&\"\")=\"\",TRIM(C57&\"\")=\"\"),\"\",IF(E57=TRUE,\"Sent\",\"To send\"))"
+    },
+    {
+     "cell": "E58",
+     "formula": false
+    },
+    {
+     "cell": "G58",
+     "formula": "=IF(AND(TRIM(B58&\"\")=\"\",TRIM(C58&\"\")=\"\"),\"\",IF(E58=TRUE,\"Sent\",\"To send\"))"
+    },
+    {
+     "cell": "E59",
+     "formula": false
+    },
+    {
+     "cell": "G59",
+     "formula": "=IF(AND(TRIM(B59&\"\")=\"\",TRIM(C59&\"\")=\"\"),\"\",IF(E59=TRUE,\"Sent\",\"To send\"))"
+    },
+    {
+     "cell": "E60",
+     "formula": false
+    },
+    {
+     "cell": "G60",
+     "formula": "=IF(AND(TRIM(B60&\"\")=\"\",TRIM(C60&\"\")=\"\"),\"\",IF(E60=TRUE,\"Sent\",\"To send\"))"
+    },
+    {
+     "cell": "E61",
+     "formula": false
+    },
+    {
+     "cell": "G61",
+     "formula": "=IF(AND(TRIM(B61&\"\")=\"\",TRIM(C61&\"\")=\"\"),\"\",IF(E61=TRUE,\"Sent\",\"To send\"))"
+    },
+    {
+     "cell": "E62",
+     "formula": false
+    },
+    {
+     "cell": "G62",
+     "formula": "=IF(AND(TRIM(B62&\"\")=\"\",TRIM(C62&\"\")=\"\"),\"\",IF(E62=TRUE,\"Sent\",\"To send\"))"
+    },
+    {
+     "cell": "E63",
+     "formula": false
+    },
+    {
+     "cell": "G63",
+     "formula": "=IF(AND(TRIM(B63&\"\")=\"\",TRIM(C63&\"\")=\"\"),\"\",IF(E63=TRUE,\"Sent\",\"To send\"))"
+    },
+    {
+     "cell": "E64",
+     "formula": false
+    },
+    {
+     "cell": "G64",
+     "formula": "=IF(AND(TRIM(B64&\"\")=\"\",TRIM(C64&\"\")=\"\"),\"\",IF(E64=TRUE,\"Sent\",\"To send\"))"
+    },
+    {
+     "cell": "E65",
+     "formula": false
+    },
+    {
+     "cell": "G65",
+     "formula": "=IF(AND(TRIM(B65&\"\")=\"\",TRIM(C65&\"\")=\"\"),\"\",IF(E65=TRUE,\"Sent\",\"To send\"))"
+    },
+    {
+     "cell": "E66",
+     "formula": false
+    },
+    {
+     "cell": "G66",
+     "formula": "=IF(AND(TRIM(B66&\"\")=\"\",TRIM(C66&\"\")=\"\"),\"\",IF(E66=TRUE,\"Sent\",\"To send\"))"
+    },
+    {
+     "cell": "E67",
+     "formula": false
+    },
+    {
+     "cell": "G67",
+     "formula": "=IF(AND(TRIM(B67&\"\")=\"\",TRIM(C67&\"\")=\"\"),\"\",IF(E67=TRUE,\"Sent\",\"To send\"))"
+    },
+    {
+     "cell": "E68",
+     "formula": false
+    },
+    {
+     "cell": "G68",
+     "formula": "=IF(AND(TRIM(B68&\"\")=\"\",TRIM(C68&\"\")=\"\"),\"\",IF(E68=TRUE,\"Sent\",\"To send\"))"
+    },
+    {
+     "cell": "E69",
+     "formula": false
+    },
+    {
+     "cell": "G69",
+     "formula": "=IF(AND(TRIM(B69&\"\")=\"\",TRIM(C69&\"\")=\"\"),\"\",IF(E69=TRUE,\"Sent\",\"To send\"))"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "G10:G69",
+     "type": "formula",
+     "formula": [
+      "$G10=\"Sent\""
+     ],
+     "fill": "D7EFDD"
+    },
+    {
+     "range": "G10:G69",
+     "type": "formula",
+     "formula": [
+      "$G10=\"To send\""
+     ],
+     "fill": "FFF1C2"
+    },
+    {
+     "range": "D10:D69",
+     "type": "formula",
+     "formula": [
+      "AND(D10<>\"\",OR(NOT(ISNUMBER(D10)),N(D10)<1))"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B9:G9",
+     "color": "E4EDE5"
+    },
+    {
+     "range": "G10:G69",
+     "color": "FDFBF8"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:C7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "D5:E7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "F5:G7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "B9:G69",
+     "color": "EADDD3"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "2B1A1F"
+    },
+    {
+     "range": "B9:G9",
+     "bold": true,
+     "size": 10,
+     "color": "2B1A1F",
+     "align": "center"
+    },
+    {
+     "range": "D10:E69",
+     "size": 10,
+     "color": "2B1A1F",
+     "align": "center"
+    },
+    {
+     "range": "G10:G69",
+     "size": 10,
+     "color": "2B1A1F",
+     "align": "center"
+    }
+   ],
+   "validations": [
+    {
+     "range": "E10:E69",
+     "type": "checkbox"
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "D10:D69",
+     "format": "mmm d, yyyy"
+    }
+   ]
+  }
+ ]
+}
