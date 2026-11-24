@@ -800,14 +800,13 @@
     {
      "type": "bar",
      "anchor": "B30",
-     "data": "Year!C19:N19",
-     "categories": "Year!C6:N6",
+     "data": "Year!C24:C36",
+     "categories": "Year!B25:B36",
      "width": 24,
      "height": 7,
      "colors": [
       "3F5E4A"
-     ],
-     "titles_from_data": false
+     ]
     }
    ]
   },
@@ -7466,6 +7465,186 @@
      "cell": "O21",
      "formula": "=ROUND(SUM(C21:N21),2)",
      "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "B24",
+     "formula": "Month"
+    },
+    {
+     "cell": "C24",
+     "formula": "Spent"
+    },
+    {
+     "cell": "D24",
+     "formula": "Income"
+    },
+    {
+     "cell": "B25",
+     "formula": "Jan"
+    },
+    {
+     "cell": "C25",
+     "formula": "=C19",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D25",
+     "formula": "=C20",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B26",
+     "formula": "Feb"
+    },
+    {
+     "cell": "C26",
+     "formula": "=D19",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D26",
+     "formula": "=D20",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B27",
+     "formula": "Mar"
+    },
+    {
+     "cell": "C27",
+     "formula": "=E19",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D27",
+     "formula": "=E20",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B28",
+     "formula": "Apr"
+    },
+    {
+     "cell": "C28",
+     "formula": "=F19",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D28",
+     "formula": "=F20",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B29",
+     "formula": "May"
+    },
+    {
+     "cell": "C29",
+     "formula": "=G19",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D29",
+     "formula": "=G20",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B30",
+     "formula": "Jun"
+    },
+    {
+     "cell": "C30",
+     "formula": "=H19",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D30",
+     "formula": "=H20",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B31",
+     "formula": "Jul"
+    },
+    {
+     "cell": "C31",
+     "formula": "=I19",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D31",
+     "formula": "=I20",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B32",
+     "formula": "Aug"
+    },
+    {
+     "cell": "C32",
+     "formula": "=J19",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D32",
+     "formula": "=J20",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B33",
+     "formula": "Sep"
+    },
+    {
+     "cell": "C33",
+     "formula": "=K19",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D33",
+     "formula": "=K20",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B34",
+     "formula": "Oct"
+    },
+    {
+     "cell": "C34",
+     "formula": "=L19",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D34",
+     "formula": "=L20",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B35",
+     "formula": "Nov"
+    },
+    {
+     "cell": "C35",
+     "formula": "=M19",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D35",
+     "formula": "=M20",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B36",
+     "formula": "Dec"
+    },
+    {
+     "cell": "C36",
+     "formula": "=N19",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D36",
+     "formula": "=N20",
+     "number_format": "$#,##0.00"
     }
    ],
    "conditional_formats": [
@@ -7498,11 +7677,23 @@
     {
      "range": "B19:Q21",
      "color": "EFE9DF"
+    },
+    {
+     "range": "B24:D24",
+     "color": "EFE9DF"
+    },
+    {
+     "range": "C25:D36",
+     "color": "FBFAF7"
     }
    ],
    "borders": [
     {
      "range": "B6:Q21",
+     "color": "E1D9CB"
+    },
+    {
+     "range": "B24:D36",
      "color": "E1D9CB"
     }
    ],
@@ -7538,20 +7729,39 @@
      "size": 10,
      "color": "263229",
      "align": "center"
+    },
+    {
+     "range": "B24:D24",
+     "bold": true,
+     "size": 10,
+     "color": "263229",
+     "align": "center"
+    },
+    {
+     "range": "B25:B36",
+     "bold": true,
+     "size": 10,
+     "color": "263229"
+    },
+    {
+     "range": "C25:D36",
+     "size": 10,
+     "color": "263229",
+     "align": "center"
     }
    ],
    "charts": [
     {
      "type": "bar",
-     "anchor": "B24",
-     "data": "Year!C19:N19",
-     "categories": "Year!C6:N6",
-     "width": 24,
-     "height": 7,
+     "anchor": "F24",
+     "data": "Year!C24:D36",
+     "categories": "Year!B25:B36",
+     "width": 22,
+     "height": 7.5,
      "colors": [
-      "3F5E4A"
-     ],
-     "titles_from_data": false
+      "3F5E4A",
+      "C0546B"
+     ]
     }
    ]
   },
