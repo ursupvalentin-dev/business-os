@@ -1,0 +1,6090 @@
+{
+ "filename": "Baby Budget",
+ "locale": "en_US",
+ "theme": {
+  "header_font": "FFFFFF",
+  "border": "D8E1EC",
+  "accent": "5A7FA8",
+  "section_colors": [
+   "5A7FA8",
+   "E3ECF5",
+   "F4F8FC"
+  ],
+  "chart_palette": [
+   "5A7FA8",
+   "E8A0A0",
+   "F5D58A",
+   "9DB8D6",
+   "F2C4C4",
+   "7C9CBF",
+   "F8E5B5",
+   "C5D6E8",
+   "B97B7B"
+  ]
+ },
+ "tabs": [
+  {
+   "name": "Start Here",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "5A7FA8",
+   "grid_rows": 33,
+   "column_widths": {
+    "A": 2.5,
+    "B": 22,
+    "C": 100,
+    "D": 2.5
+   },
+   "section_bars": [
+    {
+     "range": "B2:C2",
+     "label": "BABY BUDGET",
+     "size": 18,
+     "color": "5A7FA8",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "B5:C5",
+     "label": "HOW TO USE IT",
+     "color": "E3ECF5",
+     "font_color": "2A3442",
+     "align": "left"
+    },
+    {
+     "range": "B14:C14",
+     "label": "GOOD TO KNOW",
+     "color": "E8A0A0",
+     "font_color": "2A3442",
+     "align": "left"
+    },
+    {
+     "range": "B22:C22",
+     "label": "COLOR GUIDE",
+     "color": "E3ECF5",
+     "font_color": "2A3442",
+     "align": "left"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Plan for baby with confidence: gear, birth costs, leave, savings and the first year."
+    },
+    {
+     "cell": "B6",
+     "formula": "1. Setup: add the due date, your monthly take-home pay and what you've already saved for baby."
+    },
+    {
+     "cell": "B7",
+     "formula": "2. Baby Gear: your checklist. Set a budget for each item, tick Got It when you buy it, or Gift when someone gives it to you."
+    },
+    {
+     "cell": "B8",
+     "formula": "3. Birth & Medical: estimate each bill and what insurance pays. Add your out-of-pocket max to cap your share."
+    },
+    {
+     "cell": "B9",
+     "formula": "4. Leave Planner: weeks off for each parent and how much is paid. It works out the income gap."
+    },
+    {
+     "cell": "B10",
+     "formula": "5. Monthly Costs: diapers, formula, daycare and more, with the month each one starts."
+    },
+    {
+     "cell": "B11",
+     "formula": "6. Baby Fund: your savings target and how much to save each month until the due date. Log every deposit."
+    },
+    {
+     "cell": "B12",
+     "formula": "7. First Year and Dashboard: month-by-month costs after baby arrives, and everything at a glance."
+    },
+    {
+     "cell": "B15",
+     "formula": "Target"
+    },
+    {
+     "cell": "C15",
+     "formula": "Baby Fund target = gear still to buy + birth bills left + leave income gap + a cushion of monthly baby costs."
+    },
+    {
+     "cell": "B16",
+     "formula": "Gifts"
+    },
+    {
+     "cell": "C16",
+     "formula": "Tick Gift for anything from your registry, shower or hand-me-downs. It drops off your to-buy total."
+    },
+    {
+     "cell": "B17",
+     "formula": "Leave"
+    },
+    {
+     "cell": "C17",
+     "formula": "Full-pay weeks come first, then partial pay, then unpaid. Leave starts on the due date unless you pick a day."
+    },
+    {
+     "cell": "B18",
+     "formula": "Month 1"
+    },
+    {
+     "cell": "C18",
+     "formula": "First Year month 1 is the month baby is due."
+    },
+    {
+     "cell": "B19",
+     "formula": "Withdrawals"
+    },
+    {
+     "cell": "C19",
+     "formula": "Took money out of the Baby Fund? Log it as a negative amount."
+    },
+    {
+     "cell": "B20",
+     "formula": "Start fresh"
+    },
+    {
+     "cell": "C20",
+     "formula": "Clear the white cells on every tab, then update Setup."
+    },
+    {
+     "cell": "C23",
+     "formula": "White cells: type here."
+    },
+    {
+     "cell": "C24",
+     "formula": "Tinted cells: these calculate for you."
+    },
+    {
+     "cell": "C25",
+     "formula": "Green: done, on track, or a gift."
+    },
+    {
+     "cell": "C26",
+     "formula": "Yellow: still to buy, or a thank-you to send."
+    },
+    {
+     "cell": "C27",
+     "formula": "Red: over budget, or something to check."
+    },
+    {
+     "cell": "B29",
+     "formula": "Thank you for your purchase, and congratulations!"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B15:C20",
+     "color": "F9E3E3"
+    },
+    {
+     "range": "B23",
+     "color": "FFFFFF"
+    },
+    {
+     "range": "B24",
+     "color": "F9FBFD"
+    },
+    {
+     "range": "B25",
+     "color": "D7EFDD"
+    },
+    {
+     "range": "B26",
+     "color": "FFF1C2"
+    },
+    {
+     "range": "B27",
+     "color": "F6CACA"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B23",
+     "color": "D8E1EC"
+    },
+    {
+     "range": "B24",
+     "color": "D8E1EC"
+    },
+    {
+     "range": "B25",
+     "color": "D8E1EC"
+    },
+    {
+     "range": "B26",
+     "color": "D8E1EC"
+    },
+    {
+     "range": "B27",
+     "color": "D8E1EC"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 11,
+     "color": "2A3442"
+    },
+    {
+     "range": "B15:B20",
+     "bold": true,
+     "size": 11,
+     "color": "2A3442"
+    },
+    {
+     "range": "B29",
+     "italic": true,
+     "bold": true,
+     "size": 11,
+     "color": "5A7FA8"
+    }
+   ]
+  },
+  {
+   "name": "Dashboard",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "5A7FA8",
+   "grid_rows": 48,
+   "grid_cols": 11,
+   "row_height": 20,
+   "column_widths": {
+    "A": 2.5,
+    "B": 22,
+    "C": 14,
+    "D": 14,
+    "E": 14,
+    "F": 14,
+    "G": 3,
+    "H": 16,
+    "I": 16,
+    "J": 2.5
+   },
+   "section_bars": [
+    {
+     "range": "B2:I2",
+     "label": "=\"BABY BUDGET DASHBOARD\"",
+     "size": 16,
+     "color": "5A7FA8",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "B13:F13",
+     "label": "BABY GEAR",
+     "color": "E3ECF5",
+     "font_color": "2A3442",
+     "align": "center"
+    },
+    {
+     "range": "H13:I13",
+     "label": "GEAR BUDGET BY CATEGORY",
+     "color": "E8A0A0",
+     "font_color": "2A3442",
+     "align": "center"
+    },
+    {
+     "range": "B26:I26",
+     "label": "THE FIRST YEAR, MONTH BY MONTH",
+     "color": "E3ECF5",
+     "font_color": "2A3442",
+     "align": "center"
+    }
+   ],
+   "kpi_cards": [
+    {
+     "anchor": "B5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "WEEKS TO GO",
+     "value": "=IF('Setup'!$R$5=\"\",\"-\",IF('Setup'!$R$5>'Setup'!$R$6,'Setup'!$R$7,\"Baby's here!\"))",
+     "fill": "5A7FA8",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "0"
+    },
+    {
+     "anchor": "D5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "BABY FUND",
+     "value": "='Baby Fund'!C15",
+     "fill": "E3ECF5",
+     "font_color": "2A3442",
+     "value_size": 16,
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "anchor": "F5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "STILL TO SAVE",
+     "value": "='Baby Fund'!C16",
+     "fill": "E8A0A0",
+     "font_color": "2A3442",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "H5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "SAVE EACH MONTH",
+     "value": "='Baby Fund'!C18",
+     "fill": "F4F8FC",
+     "font_color": "2A3442",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "B9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "GEAR STILL TO BUY",
+     "value": "='Baby Gear'!L108",
+     "fill": "F4F8FC",
+     "font_color": "2A3442",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "D9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "BIRTH COSTS LEFT",
+     "value": "='Birth & Medical'!C35",
+     "fill": "F4F8FC",
+     "font_color": "2A3442",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "F9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "LEAVE INCOME GAP",
+     "value": "='Leave Planner'!E19",
+     "fill": "F4F8FC",
+     "font_color": "2A3442",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "H9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "FIRST-YEAR BABY COSTS",
+     "value": "='First Year'!D19",
+     "fill": "F4F8FC",
+     "font_color": "2A3442",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "=IF('Setup'!$R$5=\"\",\"Add the due date on Setup to start the countdown.\",IF('Setup'!$R$5>'Setup'!$R$6,'Setup'!$R$11&\" is due \"&TEXT('Setup'!$R$5,\"mmmm d, yyyy\")&\". Week \"&'Setup'!$R$8&\" of 40.\",'Setup'!$R$11&\" was due \"&TEXT('Setup'!$R$5,\"mmmm d, yyyy\")&\". Congratulations!\"))"
+    },
+    {
+     "cell": "B14",
+     "formula": "Baby Gear"
+    },
+    {
+     "cell": "C14",
+     "formula": "Budget"
+    },
+    {
+     "cell": "D14",
+     "formula": "Spent"
+    },
+    {
+     "cell": "E14",
+     "formula": "Still to Buy"
+    },
+    {
+     "cell": "F14",
+     "formula": "Items Done"
+    },
+    {
+     "cell": "B15",
+     "formula": "Nursery"
+    },
+    {
+     "cell": "C15",
+     "formula": "=ROUND(SUMIFS('Baby Gear'!$E$8:$E$107,'Baby Gear'!$B$8:$B$107,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B15,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\")),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D15",
+     "formula": "=ROUND(SUMIFS('Baby Gear'!$M$8:$M$107,'Baby Gear'!$B$8:$B$107,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B15,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\")),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E15",
+     "formula": "=ROUND(SUMIFS('Baby Gear'!$L$8:$L$107,'Baby Gear'!$B$8:$B$107,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B15,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\")),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F15",
+     "formula": "=IF(COUNTIFS('Baby Gear'!$B$8:$B$107,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B15,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"),'Baby Gear'!$N$8:$N$107,1)=0,\"-\",(COUNTIFS('Baby Gear'!$B$8:$B$107,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B15,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"),'Baby Gear'!$K$8:$K$107,\"Got it\")+COUNTIFS('Baby Gear'!$B$8:$B$107,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B15,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"),'Baby Gear'!$K$8:$K$107,\"Gift\"))&\" of \"&COUNTIFS('Baby Gear'!$B$8:$B$107,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B15,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"),'Baby Gear'!$N$8:$N$107,1))"
+    },
+    {
+     "cell": "B16",
+     "formula": "Gear & Travel"
+    },
+    {
+     "cell": "C16",
+     "formula": "=ROUND(SUMIFS('Baby Gear'!$E$8:$E$107,'Baby Gear'!$B$8:$B$107,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B16,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\")),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D16",
+     "formula": "=ROUND(SUMIFS('Baby Gear'!$M$8:$M$107,'Baby Gear'!$B$8:$B$107,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B16,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\")),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E16",
+     "formula": "=ROUND(SUMIFS('Baby Gear'!$L$8:$L$107,'Baby Gear'!$B$8:$B$107,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B16,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\")),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F16",
+     "formula": "=IF(COUNTIFS('Baby Gear'!$B$8:$B$107,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B16,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"),'Baby Gear'!$N$8:$N$107,1)=0,\"-\",(COUNTIFS('Baby Gear'!$B$8:$B$107,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B16,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"),'Baby Gear'!$K$8:$K$107,\"Got it\")+COUNTIFS('Baby Gear'!$B$8:$B$107,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B16,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"),'Baby Gear'!$K$8:$K$107,\"Gift\"))&\" of \"&COUNTIFS('Baby Gear'!$B$8:$B$107,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B16,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"),'Baby Gear'!$N$8:$N$107,1))"
+    },
+    {
+     "cell": "B17",
+     "formula": "Feeding"
+    },
+    {
+     "cell": "C17",
+     "formula": "=ROUND(SUMIFS('Baby Gear'!$E$8:$E$107,'Baby Gear'!$B$8:$B$107,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B17,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\")),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D17",
+     "formula": "=ROUND(SUMIFS('Baby Gear'!$M$8:$M$107,'Baby Gear'!$B$8:$B$107,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B17,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\")),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E17",
+     "formula": "=ROUND(SUMIFS('Baby Gear'!$L$8:$L$107,'Baby Gear'!$B$8:$B$107,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B17,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\")),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F17",
+     "formula": "=IF(COUNTIFS('Baby Gear'!$B$8:$B$107,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B17,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"),'Baby Gear'!$N$8:$N$107,1)=0,\"-\",(COUNTIFS('Baby Gear'!$B$8:$B$107,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B17,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"),'Baby Gear'!$K$8:$K$107,\"Got it\")+COUNTIFS('Baby Gear'!$B$8:$B$107,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B17,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"),'Baby Gear'!$K$8:$K$107,\"Gift\"))&\" of \"&COUNTIFS('Baby Gear'!$B$8:$B$107,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B17,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"),'Baby Gear'!$N$8:$N$107,1))"
+    },
+    {
+     "cell": "B18",
+     "formula": "Diapering"
+    },
+    {
+     "cell": "C18",
+     "formula": "=ROUND(SUMIFS('Baby Gear'!$E$8:$E$107,'Baby Gear'!$B$8:$B$107,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B18,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\")),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D18",
+     "formula": "=ROUND(SUMIFS('Baby Gear'!$M$8:$M$107,'Baby Gear'!$B$8:$B$107,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B18,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\")),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E18",
+     "formula": "=ROUND(SUMIFS('Baby Gear'!$L$8:$L$107,'Baby Gear'!$B$8:$B$107,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B18,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\")),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F18",
+     "formula": "=IF(COUNTIFS('Baby Gear'!$B$8:$B$107,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B18,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"),'Baby Gear'!$N$8:$N$107,1)=0,\"-\",(COUNTIFS('Baby Gear'!$B$8:$B$107,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B18,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"),'Baby Gear'!$K$8:$K$107,\"Got it\")+COUNTIFS('Baby Gear'!$B$8:$B$107,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B18,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"),'Baby Gear'!$K$8:$K$107,\"Gift\"))&\" of \"&COUNTIFS('Baby Gear'!$B$8:$B$107,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B18,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"),'Baby Gear'!$N$8:$N$107,1))"
+    },
+    {
+     "cell": "B19",
+     "formula": "Clothing"
+    },
+    {
+     "cell": "C19",
+     "formula": "=ROUND(SUMIFS('Baby Gear'!$E$8:$E$107,'Baby Gear'!$B$8:$B$107,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B19,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\")),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D19",
+     "formula": "=ROUND(SUMIFS('Baby Gear'!$M$8:$M$107,'Baby Gear'!$B$8:$B$107,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B19,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\")),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E19",
+     "formula": "=ROUND(SUMIFS('Baby Gear'!$L$8:$L$107,'Baby Gear'!$B$8:$B$107,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B19,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\")),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F19",
+     "formula": "=IF(COUNTIFS('Baby Gear'!$B$8:$B$107,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B19,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"),'Baby Gear'!$N$8:$N$107,1)=0,\"-\",(COUNTIFS('Baby Gear'!$B$8:$B$107,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B19,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"),'Baby Gear'!$K$8:$K$107,\"Got it\")+COUNTIFS('Baby Gear'!$B$8:$B$107,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B19,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"),'Baby Gear'!$K$8:$K$107,\"Gift\"))&\" of \"&COUNTIFS('Baby Gear'!$B$8:$B$107,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B19,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"),'Baby Gear'!$N$8:$N$107,1))"
+    },
+    {
+     "cell": "B20",
+     "formula": "Bath & Health"
+    },
+    {
+     "cell": "C20",
+     "formula": "=ROUND(SUMIFS('Baby Gear'!$E$8:$E$107,'Baby Gear'!$B$8:$B$107,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B20,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\")),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D20",
+     "formula": "=ROUND(SUMIFS('Baby Gear'!$M$8:$M$107,'Baby Gear'!$B$8:$B$107,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B20,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\")),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E20",
+     "formula": "=ROUND(SUMIFS('Baby Gear'!$L$8:$L$107,'Baby Gear'!$B$8:$B$107,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B20,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\")),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F20",
+     "formula": "=IF(COUNTIFS('Baby Gear'!$B$8:$B$107,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B20,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"),'Baby Gear'!$N$8:$N$107,1)=0,\"-\",(COUNTIFS('Baby Gear'!$B$8:$B$107,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B20,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"),'Baby Gear'!$K$8:$K$107,\"Got it\")+COUNTIFS('Baby Gear'!$B$8:$B$107,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B20,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"),'Baby Gear'!$K$8:$K$107,\"Gift\"))&\" of \"&COUNTIFS('Baby Gear'!$B$8:$B$107,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B20,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"),'Baby Gear'!$N$8:$N$107,1))"
+    },
+    {
+     "cell": "B21",
+     "formula": "Hospital Bag"
+    },
+    {
+     "cell": "C21",
+     "formula": "=ROUND(SUMIFS('Baby Gear'!$E$8:$E$107,'Baby Gear'!$B$8:$B$107,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B21,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\")),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D21",
+     "formula": "=ROUND(SUMIFS('Baby Gear'!$M$8:$M$107,'Baby Gear'!$B$8:$B$107,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B21,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\")),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E21",
+     "formula": "=ROUND(SUMIFS('Baby Gear'!$L$8:$L$107,'Baby Gear'!$B$8:$B$107,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B21,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\")),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F21",
+     "formula": "=IF(COUNTIFS('Baby Gear'!$B$8:$B$107,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B21,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"),'Baby Gear'!$N$8:$N$107,1)=0,\"-\",(COUNTIFS('Baby Gear'!$B$8:$B$107,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B21,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"),'Baby Gear'!$K$8:$K$107,\"Got it\")+COUNTIFS('Baby Gear'!$B$8:$B$107,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B21,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"),'Baby Gear'!$K$8:$K$107,\"Gift\"))&\" of \"&COUNTIFS('Baby Gear'!$B$8:$B$107,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B21,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"),'Baby Gear'!$N$8:$N$107,1))"
+    },
+    {
+     "cell": "B22",
+     "formula": "Other"
+    },
+    {
+     "cell": "C22",
+     "formula": "=ROUND(SUMIFS('Baby Gear'!$E$8:$E$107,'Baby Gear'!$B$8:$B$107,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B22,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\")),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D22",
+     "formula": "=ROUND(SUMIFS('Baby Gear'!$M$8:$M$107,'Baby Gear'!$B$8:$B$107,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B22,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\")),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E22",
+     "formula": "=ROUND(SUMIFS('Baby Gear'!$L$8:$L$107,'Baby Gear'!$B$8:$B$107,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B22,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\")),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F22",
+     "formula": "=IF(COUNTIFS('Baby Gear'!$B$8:$B$107,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B22,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"),'Baby Gear'!$N$8:$N$107,1)=0,\"-\",(COUNTIFS('Baby Gear'!$B$8:$B$107,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B22,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"),'Baby Gear'!$K$8:$K$107,\"Got it\")+COUNTIFS('Baby Gear'!$B$8:$B$107,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B22,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"),'Baby Gear'!$K$8:$K$107,\"Gift\"))&\" of \"&COUNTIFS('Baby Gear'!$B$8:$B$107,\"=\"&SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B22,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"),'Baby Gear'!$N$8:$N$107,1))"
+    },
+    {
+     "cell": "B23",
+     "formula": "Not in a category"
+    },
+    {
+     "cell": "C23",
+     "formula": "=ROUND('Baby Gear'!E108-SUM(C15:C22),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D23",
+     "formula": "=ROUND('Baby Gear'!M108-SUM(D15:D22),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E23",
+     "formula": "=ROUND('Baby Gear'!L108-SUM(E15:E22),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B24",
+     "formula": "TOTAL"
+    },
+    {
+     "cell": "C24",
+     "formula": "='Baby Gear'!E108",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D24",
+     "formula": "='Baby Gear'!M108",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E24",
+     "formula": "='Baby Gear'!L108",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F24",
+     "formula": "='Baby Gear'!F5"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "C23:E23",
+     "type": "formula",
+     "formula": [
+      "OR(ROUND($C$23,2)<>0,ROUND($E$23,2)<>0)"
+     ],
+     "fill": "FFF1C2"
+    },
+    {
+     "range": "F6:G7",
+     "type": "formula",
+     "formula": [
+      "N($F$6)=0"
+     ],
+     "fill": "D7EFDD"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:C7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "D5:E7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "F5:G7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "H5:I7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "B9:C11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "D9:E11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "F9:G11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "H9:I11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "B14:F24",
+     "color": "D8E1EC"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B14:F14",
+     "color": "F4F8FC"
+    },
+    {
+     "range": "C15:F23",
+     "color": "F9FBFD"
+    },
+    {
+     "range": "B24:F24",
+     "color": "E3ECF5"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "2A3442"
+    },
+    {
+     "range": "B14:F14",
+     "bold": true,
+     "size": 10,
+     "color": "2A3442",
+     "align": "center"
+    },
+    {
+     "range": "C15:F24",
+     "size": 10,
+     "color": "2A3442",
+     "align": "center"
+    },
+    {
+     "range": "B23",
+     "italic": true,
+     "size": 9,
+     "color": "2A3442"
+    },
+    {
+     "range": "B24:F24",
+     "bold": true,
+     "size": 10,
+     "color": "2A3442",
+     "align": "center"
+    }
+   ],
+   "charts": [
+    {
+     "type": "doughnut",
+     "anchor": "H14",
+     "data": "Dashboard!C15:C22",
+     "categories": "Dashboard!B15:B22",
+     "width": 8,
+     "height": 6.5,
+     "titles_from_data": false
+    },
+    {
+     "type": "bar",
+     "anchor": "B27",
+     "data": "First Year!D6:E18",
+     "categories": "First Year!B7:B18",
+     "width": 24,
+     "height": 7,
+     "colors": [
+      "5A7FA8",
+      "E8A0A0"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Setup",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "5A7FA8",
+   "grid_rows": 15,
+   "grid_cols": 19,
+   "row_height": 22,
+   "column_widths": {
+    "A": 2.5,
+    "B": 28,
+    "C": 18,
+    "D": 50,
+    "E": 2.5,
+    "R": 10
+   },
+   "hidden_columns": [
+    "R"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:D2",
+     "label": "=\"SETUP\"",
+     "size": 16,
+     "color": "5A7FA8",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "The basics. Everything else uses these."
+    },
+    {
+     "cell": "B4",
+     "formula": "Baby's name"
+    },
+    {
+     "cell": "D4",
+     "formula": "Optional. Blank = Baby."
+    },
+    {
+     "cell": "B5",
+     "formula": "Due date"
+    },
+    {
+     "cell": "B6",
+     "formula": "Today's date"
+    },
+    {
+     "cell": "D6",
+     "formula": "Optional. Blank = today."
+    },
+    {
+     "cell": "B7",
+     "formula": "Monthly take-home pay"
+    },
+    {
+     "cell": "D7",
+     "formula": "Your household's normal pay after tax."
+    },
+    {
+     "cell": "B8",
+     "formula": "Already saved for baby"
+    },
+    {
+     "cell": "D8",
+     "formula": "Your Baby Fund balance before you started logging."
+    },
+    {
+     "cell": "B9",
+     "formula": "Cushion (months)"
+    },
+    {
+     "cell": "D9",
+     "formula": "Months of baby costs to keep on hand. Blank = 3."
+    },
+    {
+     "cell": "R5",
+     "formula": "=IF(AND(ISNUMBER(C5),N(C5)>=1),INT(C5),\"\")",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "R6",
+     "formula": "=IF(AND(ISNUMBER(C6),N(C6)>=1),INT(C6),TODAY())",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "R7",
+     "formula": "=IF(R5=\"\",\"\",INT((R5-R6)/7))"
+    },
+    {
+     "cell": "R8",
+     "formula": "=IF(R5=\"\",\"\",MAX(0,MIN(42,40-INT((R5-R6)/7))))"
+    },
+    {
+     "cell": "R9",
+     "formula": "=IF(ISNUMBER(C9),MAX(0,C9),3)"
+    },
+    {
+     "cell": "R10",
+     "formula": "=IF(R5=\"\",0,MAX(0,(YEAR(R5)-YEAR(R6))*12+MONTH(R5)-MONTH(R6)))"
+    },
+    {
+     "cell": "R11",
+     "formula": "=IF(TRIM(C4&\"\")=\"\",\"Baby\",TRIM(C4&\"\"))"
+    },
+    {
+     "cell": "C4",
+     "formula": "Baby Rivera"
+    },
+    {
+     "cell": "C5",
+     "formula": "=DATE(2027,5,14)"
+    },
+    {
+     "cell": "C7",
+     "formula": 7200
+    },
+    {
+     "cell": "C8",
+     "formula": 2500
+    },
+    {
+     "cell": "C9",
+     "formula": 3
+    },
+    {
+     "cell": "B12",
+     "formula": "=IF(R5=\"\",\"Add the due date to start the countdown.\",IF(R5>R6,\"Week \"&R8&\" of 40. \"&R7&\" weeks to go.\",\"Baby is here (or due any day). Congratulations!\"))"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "C5:C6",
+     "type": "formula",
+     "formula": [
+      "AND(C5<>\"\",OR(NOT(ISNUMBER(C5)),N(C5)<1))"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C7:C9",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C7<>\"\",NOT(ISNUMBER(C7))),N(C7)<0)"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "borders": [
+    {
+     "range": "C4:C9",
+     "color": "D8E1EC",
+     "style": "medium"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "2A3442"
+    },
+    {
+     "range": "B4:B9",
+     "bold": true,
+     "size": 10,
+     "color": "2A3442"
+    },
+    {
+     "range": "D4:D9",
+     "italic": true,
+     "size": 9,
+     "color": "2A3442"
+    },
+    {
+     "range": "C4:C9",
+     "bold": true,
+     "size": 11,
+     "color": "2A3442",
+     "align": "center"
+    },
+    {
+     "range": "B12",
+     "bold": true,
+     "italic": true,
+     "size": 12,
+     "color": "5A7FA8"
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "C5:C6",
+     "format": "mmm d, yyyy"
+    },
+    {
+     "range": "C7:C8",
+     "format": "$#,##0.00"
+    }
+   ]
+  },
+  {
+   "name": "Baby Gear",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "E8A0A0",
+   "grid_rows": 111,
+   "grid_cols": 16,
+   "row_height": 20,
+   "freeze": "D8",
+   "column_widths": {
+    "A": 2.5,
+    "B": 16,
+    "C": 26,
+    "D": 14,
+    "E": 11,
+    "F": 11,
+    "G": 8,
+    "H": 8,
+    "I": 14,
+    "J": 24,
+    "K": 10,
+    "L": 11,
+    "M": 11,
+    "N": 3,
+    "O": 2.5
+   },
+   "hidden_columns": [
+    "N"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:M2",
+     "label": "=\"BABY GEAR CHECKLIST\"",
+     "size": 16,
+     "color": "5A7FA8",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "kpi_cards": [
+    {
+     "anchor": "B4",
+     "span": [
+      2,
+      1
+     ],
+     "label": "TOTAL BUDGET",
+     "value": "=E108",
+     "fill": "5A7FA8",
+     "font_color": "FFFFFF",
+     "value_size": 14,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "C4",
+     "span": [
+      2,
+      1
+     ],
+     "label": "SPENT SO FAR",
+     "value": "=M108",
+     "fill": "E3ECF5",
+     "font_color": "2A3442",
+     "value_size": 14,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "D4",
+     "span": [
+      2,
+      2
+     ],
+     "label": "STILL TO BUY",
+     "value": "=L108",
+     "fill": "E8A0A0",
+     "font_color": "2A3442",
+     "value_size": 14,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "F4",
+     "span": [
+      2,
+      3
+     ],
+     "label": "ITEMS DONE",
+     "value": "=COUNTIF(K8:K107,\"Got it\")+COUNTIF(K8:K107,\"Gift\")&\" of \"&SUM(N8:N107)",
+     "fill": "F4F8FC",
+     "font_color": "2A3442",
+     "value_size": 14
+    },
+    {
+     "anchor": "I4",
+     "span": [
+      2,
+      2
+     ],
+     "label": "GIFTS SAVED YOU",
+     "value": "=ROUND(SUMIFS(E8:E107,K8:K107,\"Gift\"),2)",
+     "fill": "F4F8FC",
+     "font_color": "2A3442",
+     "value_size": 14,
+     "number_format": "$#,##0.00"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Your baby checklist. Tick Got It when you buy it, or Gift if it's a gift or hand-me-down."
+    },
+    {
+     "cell": "B7",
+     "formula": "Category"
+    },
+    {
+     "cell": "C7",
+     "formula": "Item"
+    },
+    {
+     "cell": "D7",
+     "formula": "Priority"
+    },
+    {
+     "cell": "E7",
+     "formula": "Budget"
+    },
+    {
+     "cell": "F7",
+     "formula": "Actual Cost"
+    },
+    {
+     "cell": "G7",
+     "formula": "Got It"
+    },
+    {
+     "cell": "H7",
+     "formula": "Gift"
+    },
+    {
+     "cell": "I7",
+     "formula": "Store"
+    },
+    {
+     "cell": "J7",
+     "formula": "Notes"
+    },
+    {
+     "cell": "K7",
+     "formula": "Status"
+    },
+    {
+     "cell": "L7",
+     "formula": "Still to Buy"
+    },
+    {
+     "cell": "M7",
+     "formula": "You Paid"
+    },
+    {
+     "cell": "B8",
+     "formula": "Nursery"
+    },
+    {
+     "cell": "C8",
+     "formula": "Crib"
+    },
+    {
+     "cell": "D8",
+     "formula": "Must have"
+    },
+    {
+     "cell": "E8",
+     "formula": 250
+    },
+    {
+     "cell": "F8",
+     "formula": 229
+    },
+    {
+     "cell": "I8",
+     "formula": "Baby Depot"
+    },
+    {
+     "cell": "G8",
+     "formula": true
+    },
+    {
+     "cell": "H8",
+     "formula": false
+    },
+    {
+     "cell": "B9",
+     "formula": "Nursery"
+    },
+    {
+     "cell": "C9",
+     "formula": "Crib mattress"
+    },
+    {
+     "cell": "D9",
+     "formula": "Must have"
+    },
+    {
+     "cell": "E9",
+     "formula": 120
+    },
+    {
+     "cell": "F9",
+     "formula": 110
+    },
+    {
+     "cell": "I9",
+     "formula": "Baby Depot"
+    },
+    {
+     "cell": "G9",
+     "formula": true
+    },
+    {
+     "cell": "H9",
+     "formula": false
+    },
+    {
+     "cell": "B10",
+     "formula": "Nursery"
+    },
+    {
+     "cell": "C10",
+     "formula": "Dresser & changing top"
+    },
+    {
+     "cell": "D10",
+     "formula": "Must have"
+    },
+    {
+     "cell": "E10",
+     "formula": 300
+    },
+    {
+     "cell": "J10",
+     "formula": "From Grandma & Grandpa"
+    },
+    {
+     "cell": "G10",
+     "formula": false
+    },
+    {
+     "cell": "H10",
+     "formula": true
+    },
+    {
+     "cell": "B11",
+     "formula": "Nursery"
+    },
+    {
+     "cell": "C11",
+     "formula": "Glider chair"
+    },
+    {
+     "cell": "D11",
+     "formula": "Nice to have"
+    },
+    {
+     "cell": "E11",
+     "formula": 350
+    },
+    {
+     "cell": "J11",
+     "formula": "Watch for sales"
+    },
+    {
+     "cell": "G11",
+     "formula": false
+    },
+    {
+     "cell": "H11",
+     "formula": false
+    },
+    {
+     "cell": "B12",
+     "formula": "Nursery"
+    },
+    {
+     "cell": "C12",
+     "formula": "Blackout curtains"
+    },
+    {
+     "cell": "D12",
+     "formula": "Nice to have"
+    },
+    {
+     "cell": "E12",
+     "formula": 40
+    },
+    {
+     "cell": "F12",
+     "formula": 35
+    },
+    {
+     "cell": "I12",
+     "formula": "Home Store"
+    },
+    {
+     "cell": "G12",
+     "formula": true
+    },
+    {
+     "cell": "H12",
+     "formula": false
+    },
+    {
+     "cell": "B13",
+     "formula": "Nursery"
+    },
+    {
+     "cell": "C13",
+     "formula": "Baby monitor"
+    },
+    {
+     "cell": "D13",
+     "formula": "Must have"
+    },
+    {
+     "cell": "E13",
+     "formula": 150
+    },
+    {
+     "cell": "G13",
+     "formula": false
+    },
+    {
+     "cell": "H13",
+     "formula": false
+    },
+    {
+     "cell": "B14",
+     "formula": "Nursery"
+    },
+    {
+     "cell": "C14",
+     "formula": "Sound machine"
+    },
+    {
+     "cell": "D14",
+     "formula": "Nice to have"
+    },
+    {
+     "cell": "E14",
+     "formula": 30
+    },
+    {
+     "cell": "J14",
+     "formula": "Registry"
+    },
+    {
+     "cell": "G14",
+     "formula": false
+    },
+    {
+     "cell": "H14",
+     "formula": true
+    },
+    {
+     "cell": "B15",
+     "formula": "Gear & Travel"
+    },
+    {
+     "cell": "C15",
+     "formula": "Car seat"
+    },
+    {
+     "cell": "D15",
+     "formula": "Must have"
+    },
+    {
+     "cell": "E15",
+     "formula": 220
+    },
+    {
+     "cell": "F15",
+     "formula": 199.99
+    },
+    {
+     "cell": "I15",
+     "formula": "Baby Depot"
+    },
+    {
+     "cell": "J15",
+     "formula": "Install check booked"
+    },
+    {
+     "cell": "G15",
+     "formula": true
+    },
+    {
+     "cell": "H15",
+     "formula": false
+    },
+    {
+     "cell": "B16",
+     "formula": "Gear & Travel"
+    },
+    {
+     "cell": "C16",
+     "formula": "Stroller"
+    },
+    {
+     "cell": "D16",
+     "formula": "Must have"
+    },
+    {
+     "cell": "E16",
+     "formula": 350
+    },
+    {
+     "cell": "G16",
+     "formula": false
+    },
+    {
+     "cell": "H16",
+     "formula": false
+    },
+    {
+     "cell": "B17",
+     "formula": "Gear & Travel"
+    },
+    {
+     "cell": "C17",
+     "formula": "Baby carrier"
+    },
+    {
+     "cell": "D17",
+     "formula": "Nice to have"
+    },
+    {
+     "cell": "E17",
+     "formula": 120
+    },
+    {
+     "cell": "J17",
+     "formula": "Shower gift"
+    },
+    {
+     "cell": "G17",
+     "formula": false
+    },
+    {
+     "cell": "H17",
+     "formula": true
+    },
+    {
+     "cell": "B18",
+     "formula": "Gear & Travel"
+    },
+    {
+     "cell": "C18",
+     "formula": "Pack 'n play"
+    },
+    {
+     "cell": "D18",
+     "formula": "Can wait"
+    },
+    {
+     "cell": "E18",
+     "formula": 90
+    },
+    {
+     "cell": "G18",
+     "formula": false
+    },
+    {
+     "cell": "H18",
+     "formula": false
+    },
+    {
+     "cell": "B19",
+     "formula": "Feeding"
+    },
+    {
+     "cell": "C19",
+     "formula": "Bottle set"
+    },
+    {
+     "cell": "D19",
+     "formula": "Must have"
+    },
+    {
+     "cell": "E19",
+     "formula": 45
+    },
+    {
+     "cell": "F19",
+     "formula": 39.5
+    },
+    {
+     "cell": "I19",
+     "formula": "Online"
+    },
+    {
+     "cell": "G19",
+     "formula": true
+    },
+    {
+     "cell": "H19",
+     "formula": false
+    },
+    {
+     "cell": "B20",
+     "formula": "Feeding"
+    },
+    {
+     "cell": "C20",
+     "formula": "Breast pump"
+    },
+    {
+     "cell": "D20",
+     "formula": "Must have"
+    },
+    {
+     "cell": "E20",
+     "formula": 0
+    },
+    {
+     "cell": "F20",
+     "formula": 0
+    },
+    {
+     "cell": "J20",
+     "formula": "Covered by insurance"
+    },
+    {
+     "cell": "G20",
+     "formula": true
+    },
+    {
+     "cell": "H20",
+     "formula": false
+    },
+    {
+     "cell": "B21",
+     "formula": "Feeding"
+    },
+    {
+     "cell": "C21",
+     "formula": "Bottle drying rack"
+    },
+    {
+     "cell": "D21",
+     "formula": "Nice to have"
+    },
+    {
+     "cell": "E21",
+     "formula": 20
+    },
+    {
+     "cell": "G21",
+     "formula": false
+    },
+    {
+     "cell": "H21",
+     "formula": false
+    },
+    {
+     "cell": "B22",
+     "formula": "Feeding"
+    },
+    {
+     "cell": "C22",
+     "formula": "High chair"
+    },
+    {
+     "cell": "D22",
+     "formula": "Can wait"
+    },
+    {
+     "cell": "E22",
+     "formula": 120
+    },
+    {
+     "cell": "J22",
+     "formula": "Needed around 6 months"
+    },
+    {
+     "cell": "G22",
+     "formula": false
+    },
+    {
+     "cell": "H22",
+     "formula": false
+    },
+    {
+     "cell": "B23",
+     "formula": "Feeding"
+    },
+    {
+     "cell": "C23",
+     "formula": "Burp cloths"
+    },
+    {
+     "cell": "D23",
+     "formula": "Must have"
+    },
+    {
+     "cell": "E23",
+     "formula": 15
+    },
+    {
+     "cell": "F23",
+     "formula": 12
+    },
+    {
+     "cell": "I23",
+     "formula": "Online"
+    },
+    {
+     "cell": "G23",
+     "formula": true
+    },
+    {
+     "cell": "H23",
+     "formula": false
+    },
+    {
+     "cell": "B24",
+     "formula": "Diapering"
+    },
+    {
+     "cell": "C24",
+     "formula": "Changing pad"
+    },
+    {
+     "cell": "D24",
+     "formula": "Must have"
+    },
+    {
+     "cell": "E24",
+     "formula": 35
+    },
+    {
+     "cell": "F24",
+     "formula": 32
+    },
+    {
+     "cell": "I24",
+     "formula": "Baby Depot"
+    },
+    {
+     "cell": "G24",
+     "formula": true
+    },
+    {
+     "cell": "H24",
+     "formula": false
+    },
+    {
+     "cell": "B25",
+     "formula": "Diapering"
+    },
+    {
+     "cell": "C25",
+     "formula": "Diaper pail"
+    },
+    {
+     "cell": "D25",
+     "formula": "Nice to have"
+    },
+    {
+     "cell": "E25",
+     "formula": 50
+    },
+    {
+     "cell": "G25",
+     "formula": false
+    },
+    {
+     "cell": "H25",
+     "formula": false
+    },
+    {
+     "cell": "B26",
+     "formula": "Diapering"
+    },
+    {
+     "cell": "C26",
+     "formula": "Starter diapers & wipes"
+    },
+    {
+     "cell": "D26",
+     "formula": "Must have"
+    },
+    {
+     "cell": "E26",
+     "formula": 60
+    },
+    {
+     "cell": "J26",
+     "formula": "Diaper party!"
+    },
+    {
+     "cell": "G26",
+     "formula": false
+    },
+    {
+     "cell": "H26",
+     "formula": true
+    },
+    {
+     "cell": "B27",
+     "formula": "Clothing"
+    },
+    {
+     "cell": "C27",
+     "formula": "Newborn outfits"
+    },
+    {
+     "cell": "D27",
+     "formula": "Must have"
+    },
+    {
+     "cell": "E27",
+     "formula": 80
+    },
+    {
+     "cell": "J27",
+     "formula": "Hand-me-downs from Jess"
+    },
+    {
+     "cell": "G27",
+     "formula": false
+    },
+    {
+     "cell": "H27",
+     "formula": true
+    },
+    {
+     "cell": "B28",
+     "formula": "Clothing"
+    },
+    {
+     "cell": "C28",
+     "formula": "Sleep sacks"
+    },
+    {
+     "cell": "D28",
+     "formula": "Must have"
+    },
+    {
+     "cell": "E28",
+     "formula": 60
+    },
+    {
+     "cell": "F28",
+     "formula": 55.2
+    },
+    {
+     "cell": "I28",
+     "formula": "Online"
+    },
+    {
+     "cell": "G28",
+     "formula": true
+    },
+    {
+     "cell": "H28",
+     "formula": false
+    },
+    {
+     "cell": "B29",
+     "formula": "Clothing"
+    },
+    {
+     "cell": "C29",
+     "formula": "Socks & hats"
+    },
+    {
+     "cell": "D29",
+     "formula": "Must have"
+    },
+    {
+     "cell": "E29",
+     "formula": 20
+    },
+    {
+     "cell": "G29",
+     "formula": false
+    },
+    {
+     "cell": "H29",
+     "formula": false
+    },
+    {
+     "cell": "B30",
+     "formula": "Bath & Health"
+    },
+    {
+     "cell": "C30",
+     "formula": "Baby bathtub"
+    },
+    {
+     "cell": "D30",
+     "formula": "Must have"
+    },
+    {
+     "cell": "E30",
+     "formula": 30
+    },
+    {
+     "cell": "G30",
+     "formula": false
+    },
+    {
+     "cell": "H30",
+     "formula": false
+    },
+    {
+     "cell": "B31",
+     "formula": "Bath & Health"
+    },
+    {
+     "cell": "C31",
+     "formula": "Towels & washcloths"
+    },
+    {
+     "cell": "D31",
+     "formula": "Must have"
+    },
+    {
+     "cell": "E31",
+     "formula": 25
+    },
+    {
+     "cell": "G31",
+     "formula": false
+    },
+    {
+     "cell": "H31",
+     "formula": true
+    },
+    {
+     "cell": "B32",
+     "formula": "Bath & Health"
+    },
+    {
+     "cell": "C32",
+     "formula": "Thermometer"
+    },
+    {
+     "cell": "D32",
+     "formula": "Must have"
+    },
+    {
+     "cell": "E32",
+     "formula": 25
+    },
+    {
+     "cell": "F32",
+     "formula": 22
+    },
+    {
+     "cell": "I32",
+     "formula": "Pharmacy"
+    },
+    {
+     "cell": "G32",
+     "formula": true
+    },
+    {
+     "cell": "H32",
+     "formula": false
+    },
+    {
+     "cell": "B33",
+     "formula": "Bath & Health"
+    },
+    {
+     "cell": "C33",
+     "formula": "Grooming kit"
+    },
+    {
+     "cell": "D33",
+     "formula": "Nice to have"
+    },
+    {
+     "cell": "E33",
+     "formula": 15
+    },
+    {
+     "cell": "G33",
+     "formula": false
+    },
+    {
+     "cell": "H33",
+     "formula": false
+    },
+    {
+     "cell": "B34",
+     "formula": "Hospital Bag"
+    },
+    {
+     "cell": "C34",
+     "formula": "Going-home outfit"
+    },
+    {
+     "cell": "D34",
+     "formula": "Must have"
+    },
+    {
+     "cell": "E34",
+     "formula": 25
+    },
+    {
+     "cell": "G34",
+     "formula": false
+    },
+    {
+     "cell": "H34",
+     "formula": false
+    },
+    {
+     "cell": "B35",
+     "formula": "Hospital Bag"
+    },
+    {
+     "cell": "C35",
+     "formula": "Nursing bras"
+    },
+    {
+     "cell": "D35",
+     "formula": "Must have"
+    },
+    {
+     "cell": "E35",
+     "formula": 60
+    },
+    {
+     "cell": "F35",
+     "formula": 48
+    },
+    {
+     "cell": "I35",
+     "formula": "Online"
+    },
+    {
+     "cell": "G35",
+     "formula": true
+    },
+    {
+     "cell": "H35",
+     "formula": false
+    },
+    {
+     "cell": "B36",
+     "formula": "Hospital Bag"
+    },
+    {
+     "cell": "C36",
+     "formula": "Snacks & toiletries"
+    },
+    {
+     "cell": "D36",
+     "formula": "Nice to have"
+    },
+    {
+     "cell": "E36",
+     "formula": 30
+    },
+    {
+     "cell": "G36",
+     "formula": false
+    },
+    {
+     "cell": "H36",
+     "formula": false
+    },
+    {
+     "cell": "B37",
+     "formula": "Other"
+    },
+    {
+     "cell": "C37",
+     "formula": "Baby book"
+    },
+    {
+     "cell": "D37",
+     "formula": "Nice to have"
+    },
+    {
+     "cell": "E37",
+     "formula": 25
+    },
+    {
+     "cell": "G37",
+     "formula": false
+    },
+    {
+     "cell": "H37",
+     "formula": true
+    },
+    {
+     "cell": "G38",
+     "formula": false
+    },
+    {
+     "cell": "H38",
+     "formula": false
+    },
+    {
+     "cell": "G39",
+     "formula": false
+    },
+    {
+     "cell": "H39",
+     "formula": false
+    },
+    {
+     "cell": "G40",
+     "formula": false
+    },
+    {
+     "cell": "H40",
+     "formula": false
+    },
+    {
+     "cell": "G41",
+     "formula": false
+    },
+    {
+     "cell": "H41",
+     "formula": false
+    },
+    {
+     "cell": "G42",
+     "formula": false
+    },
+    {
+     "cell": "H42",
+     "formula": false
+    },
+    {
+     "cell": "G43",
+     "formula": false
+    },
+    {
+     "cell": "H43",
+     "formula": false
+    },
+    {
+     "cell": "G44",
+     "formula": false
+    },
+    {
+     "cell": "H44",
+     "formula": false
+    },
+    {
+     "cell": "G45",
+     "formula": false
+    },
+    {
+     "cell": "H45",
+     "formula": false
+    },
+    {
+     "cell": "G46",
+     "formula": false
+    },
+    {
+     "cell": "H46",
+     "formula": false
+    },
+    {
+     "cell": "G47",
+     "formula": false
+    },
+    {
+     "cell": "H47",
+     "formula": false
+    },
+    {
+     "cell": "G48",
+     "formula": false
+    },
+    {
+     "cell": "H48",
+     "formula": false
+    },
+    {
+     "cell": "G49",
+     "formula": false
+    },
+    {
+     "cell": "H49",
+     "formula": false
+    },
+    {
+     "cell": "G50",
+     "formula": false
+    },
+    {
+     "cell": "H50",
+     "formula": false
+    },
+    {
+     "cell": "G51",
+     "formula": false
+    },
+    {
+     "cell": "H51",
+     "formula": false
+    },
+    {
+     "cell": "G52",
+     "formula": false
+    },
+    {
+     "cell": "H52",
+     "formula": false
+    },
+    {
+     "cell": "G53",
+     "formula": false
+    },
+    {
+     "cell": "H53",
+     "formula": false
+    },
+    {
+     "cell": "G54",
+     "formula": false
+    },
+    {
+     "cell": "H54",
+     "formula": false
+    },
+    {
+     "cell": "G55",
+     "formula": false
+    },
+    {
+     "cell": "H55",
+     "formula": false
+    },
+    {
+     "cell": "G56",
+     "formula": false
+    },
+    {
+     "cell": "H56",
+     "formula": false
+    },
+    {
+     "cell": "G57",
+     "formula": false
+    },
+    {
+     "cell": "H57",
+     "formula": false
+    },
+    {
+     "cell": "G58",
+     "formula": false
+    },
+    {
+     "cell": "H58",
+     "formula": false
+    },
+    {
+     "cell": "G59",
+     "formula": false
+    },
+    {
+     "cell": "H59",
+     "formula": false
+    },
+    {
+     "cell": "G60",
+     "formula": false
+    },
+    {
+     "cell": "H60",
+     "formula": false
+    },
+    {
+     "cell": "G61",
+     "formula": false
+    },
+    {
+     "cell": "H61",
+     "formula": false
+    },
+    {
+     "cell": "G62",
+     "formula": false
+    },
+    {
+     "cell": "H62",
+     "formula": false
+    },
+    {
+     "cell": "G63",
+     "formula": false
+    },
+    {
+     "cell": "H63",
+     "formula": false
+    },
+    {
+     "cell": "G64",
+     "formula": false
+    },
+    {
+     "cell": "H64",
+     "formula": false
+    },
+    {
+     "cell": "G65",
+     "formula": false
+    },
+    {
+     "cell": "H65",
+     "formula": false
+    },
+    {
+     "cell": "G66",
+     "formula": false
+    },
+    {
+     "cell": "H66",
+     "formula": false
+    },
+    {
+     "cell": "G67",
+     "formula": false
+    },
+    {
+     "cell": "H67",
+     "formula": false
+    },
+    {
+     "cell": "G68",
+     "formula": false
+    },
+    {
+     "cell": "H68",
+     "formula": false
+    },
+    {
+     "cell": "G69",
+     "formula": false
+    },
+    {
+     "cell": "H69",
+     "formula": false
+    },
+    {
+     "cell": "G70",
+     "formula": false
+    },
+    {
+     "cell": "H70",
+     "formula": false
+    },
+    {
+     "cell": "G71",
+     "formula": false
+    },
+    {
+     "cell": "H71",
+     "formula": false
+    },
+    {
+     "cell": "G72",
+     "formula": false
+    },
+    {
+     "cell": "H72",
+     "formula": false
+    },
+    {
+     "cell": "G73",
+     "formula": false
+    },
+    {
+     "cell": "H73",
+     "formula": false
+    },
+    {
+     "cell": "G74",
+     "formula": false
+    },
+    {
+     "cell": "H74",
+     "formula": false
+    },
+    {
+     "cell": "G75",
+     "formula": false
+    },
+    {
+     "cell": "H75",
+     "formula": false
+    },
+    {
+     "cell": "G76",
+     "formula": false
+    },
+    {
+     "cell": "H76",
+     "formula": false
+    },
+    {
+     "cell": "G77",
+     "formula": false
+    },
+    {
+     "cell": "H77",
+     "formula": false
+    },
+    {
+     "cell": "G78",
+     "formula": false
+    },
+    {
+     "cell": "H78",
+     "formula": false
+    },
+    {
+     "cell": "G79",
+     "formula": false
+    },
+    {
+     "cell": "H79",
+     "formula": false
+    },
+    {
+     "cell": "G80",
+     "formula": false
+    },
+    {
+     "cell": "H80",
+     "formula": false
+    },
+    {
+     "cell": "G81",
+     "formula": false
+    },
+    {
+     "cell": "H81",
+     "formula": false
+    },
+    {
+     "cell": "G82",
+     "formula": false
+    },
+    {
+     "cell": "H82",
+     "formula": false
+    },
+    {
+     "cell": "G83",
+     "formula": false
+    },
+    {
+     "cell": "H83",
+     "formula": false
+    },
+    {
+     "cell": "G84",
+     "formula": false
+    },
+    {
+     "cell": "H84",
+     "formula": false
+    },
+    {
+     "cell": "G85",
+     "formula": false
+    },
+    {
+     "cell": "H85",
+     "formula": false
+    },
+    {
+     "cell": "G86",
+     "formula": false
+    },
+    {
+     "cell": "H86",
+     "formula": false
+    },
+    {
+     "cell": "G87",
+     "formula": false
+    },
+    {
+     "cell": "H87",
+     "formula": false
+    },
+    {
+     "cell": "G88",
+     "formula": false
+    },
+    {
+     "cell": "H88",
+     "formula": false
+    },
+    {
+     "cell": "G89",
+     "formula": false
+    },
+    {
+     "cell": "H89",
+     "formula": false
+    },
+    {
+     "cell": "G90",
+     "formula": false
+    },
+    {
+     "cell": "H90",
+     "formula": false
+    },
+    {
+     "cell": "G91",
+     "formula": false
+    },
+    {
+     "cell": "H91",
+     "formula": false
+    },
+    {
+     "cell": "G92",
+     "formula": false
+    },
+    {
+     "cell": "H92",
+     "formula": false
+    },
+    {
+     "cell": "G93",
+     "formula": false
+    },
+    {
+     "cell": "H93",
+     "formula": false
+    },
+    {
+     "cell": "G94",
+     "formula": false
+    },
+    {
+     "cell": "H94",
+     "formula": false
+    },
+    {
+     "cell": "G95",
+     "formula": false
+    },
+    {
+     "cell": "H95",
+     "formula": false
+    },
+    {
+     "cell": "G96",
+     "formula": false
+    },
+    {
+     "cell": "H96",
+     "formula": false
+    },
+    {
+     "cell": "G97",
+     "formula": false
+    },
+    {
+     "cell": "H97",
+     "formula": false
+    },
+    {
+     "cell": "G98",
+     "formula": false
+    },
+    {
+     "cell": "H98",
+     "formula": false
+    },
+    {
+     "cell": "G99",
+     "formula": false
+    },
+    {
+     "cell": "H99",
+     "formula": false
+    },
+    {
+     "cell": "G100",
+     "formula": false
+    },
+    {
+     "cell": "H100",
+     "formula": false
+    },
+    {
+     "cell": "G101",
+     "formula": false
+    },
+    {
+     "cell": "H101",
+     "formula": false
+    },
+    {
+     "cell": "G102",
+     "formula": false
+    },
+    {
+     "cell": "H102",
+     "formula": false
+    },
+    {
+     "cell": "G103",
+     "formula": false
+    },
+    {
+     "cell": "H103",
+     "formula": false
+    },
+    {
+     "cell": "G104",
+     "formula": false
+    },
+    {
+     "cell": "H104",
+     "formula": false
+    },
+    {
+     "cell": "G105",
+     "formula": false
+    },
+    {
+     "cell": "H105",
+     "formula": false
+    },
+    {
+     "cell": "G106",
+     "formula": false
+    },
+    {
+     "cell": "H106",
+     "formula": false
+    },
+    {
+     "cell": "G107",
+     "formula": false
+    },
+    {
+     "cell": "H107",
+     "formula": false
+    },
+    {
+     "col": "K",
+     "range_rows": [
+      8,
+      107
+     ],
+     "formula": "=IF(TRIM(C{row}&\"\")=\"\",\"\",IF(H{row}=TRUE,\"Gift\",IF(G{row}=TRUE,\"Got it\",\"To buy\")))"
+    },
+    {
+     "col": "L",
+     "range_rows": [
+      8,
+      107
+     ],
+     "formula": "=IF(K{row}=\"\",\"\",IF(K{row}=\"To buy\",N(E{row}),0))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "M",
+     "range_rows": [
+      8,
+      107
+     ],
+     "formula": "=IF(K{row}=\"\",\"\",IF(K{row}=\"Got it\",IF(ISNUMBER(F{row}),F{row},N(E{row})),0))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "N",
+     "range_rows": [
+      8,
+      107
+     ],
+     "formula": "=IF(K{row}=\"\",0,1)"
+    },
+    {
+     "cell": "B108",
+     "formula": "TOTAL"
+    },
+    {
+     "cell": "E108",
+     "formula": "=ROUND(SUM(E8:E107),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F108",
+     "formula": "=ROUND(SUM(F8:F107),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L108",
+     "formula": "=ROUND(SUM(L8:L107),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "M108",
+     "formula": "=ROUND(SUM(M8:M107),2)",
+     "number_format": "$#,##0.00"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "K8:K107",
+     "type": "formula",
+     "formula": [
+      "$K8=\"Got it\""
+     ],
+     "fill": "D7EFDD"
+    },
+    {
+     "range": "K8:K107",
+     "type": "formula",
+     "formula": [
+      "$K8=\"Gift\""
+     ],
+     "fill": "D9E6F5"
+    },
+    {
+     "range": "K8:K107",
+     "type": "formula",
+     "formula": [
+      "$K8=\"To buy\""
+     ],
+     "fill": "FFF1C2"
+    },
+    {
+     "range": "F8:F107",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER(F8),ISNUMBER(E8),F8>E8)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "D8:D107",
+     "type": "formula",
+     "formula": [
+      "AND($K8=\"To buy\",LOWER(TRIM($D8&\"\"))=\"must have\")"
+     ],
+     "fill": "F9E3E3"
+    },
+    {
+     "range": "E8:F107",
+     "type": "formula",
+     "formula": [
+      "OR(AND(E8<>\"\",NOT(ISNUMBER(E8))),N(E8)<0)"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B7:J7",
+     "color": "F4F8FC"
+    },
+    {
+     "range": "K7:M7",
+     "color": "F9E3E3"
+    },
+    {
+     "range": "K8:M107",
+     "color": "F9FBFD"
+    },
+    {
+     "range": "B108:M108",
+     "color": "E3ECF5"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B4:B5",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "C4:C5",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "D4:E5",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "F4:H5",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "I4:J5",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "B7:M108",
+     "color": "D8E1EC"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "2A3442"
+    },
+    {
+     "range": "B7:M7",
+     "bold": true,
+     "size": 10,
+     "color": "2A3442",
+     "align": "center",
+     "wrap": true
+    },
+    {
+     "range": "D8:H107",
+     "size": 10,
+     "color": "2A3442",
+     "align": "center"
+    },
+    {
+     "range": "K8:M108",
+     "size": 10,
+     "color": "2A3442",
+     "align": "center"
+    },
+    {
+     "range": "B108:M108",
+     "bold": true,
+     "size": 10,
+     "color": "2A3442",
+     "align": "center"
+    }
+   ],
+   "row_heights": {
+    "7": 30
+   },
+   "validations": [
+    {
+     "range": "B8:B107",
+     "type": "list",
+     "values": [
+      "Nursery",
+      "Gear & Travel",
+      "Feeding",
+      "Diapering",
+      "Clothing",
+      "Bath & Health",
+      "Hospital Bag",
+      "Other"
+     ],
+     "strict": false
+    },
+    {
+     "range": "D8:D107",
+     "type": "list",
+     "values": [
+      "Must have",
+      "Nice to have",
+      "Can wait"
+     ],
+     "strict": false
+    },
+    {
+     "range": "G8:H107",
+     "type": "checkbox"
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "E8:F107",
+     "format": "$#,##0.00"
+    }
+   ]
+  },
+  {
+   "name": "Birth & Medical",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "E8A0A0",
+   "grid_rows": 38,
+   "grid_cols": 10,
+   "row_height": 20,
+   "column_widths": {
+    "A": 2.5,
+    "B": 28,
+    "C": 14,
+    "D": 14,
+    "E": 13,
+    "F": 13,
+    "G": 13,
+    "H": 26,
+    "I": 2.5
+   },
+   "section_bars": [
+    {
+     "range": "B2:H2",
+     "label": "=\"BIRTH & MEDICAL COSTS\"",
+     "size": 16,
+     "color": "5A7FA8",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "B30:C30",
+     "label": "WHAT YOU'LL PAY",
+     "color": "E8A0A0",
+     "font_color": "2A3442",
+     "align": "left"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Pregnancy, birth and newborn bills. Ask your insurer for estimates, then update as bills arrive."
+    },
+    {
+     "cell": "B4",
+     "formula": "Out-of-pocket max"
+    },
+    {
+     "cell": "D4",
+     "formula": "From your health plan. Blank = no cap."
+    },
+    {
+     "cell": "C4",
+     "formula": 4500
+    },
+    {
+     "cell": "B7",
+     "formula": "Item"
+    },
+    {
+     "cell": "C7",
+     "formula": "Estimated Bill"
+    },
+    {
+     "cell": "D7",
+     "formula": "Insurance Pays"
+    },
+    {
+     "cell": "E7",
+     "formula": "You Pay"
+    },
+    {
+     "cell": "F7",
+     "formula": "Paid So Far"
+    },
+    {
+     "cell": "G7",
+     "formula": "Left to Pay"
+    },
+    {
+     "cell": "H7",
+     "formula": "Notes"
+    },
+    {
+     "cell": "B8",
+     "formula": "Prenatal visits"
+    },
+    {
+     "cell": "C8",
+     "formula": 2400
+    },
+    {
+     "cell": "D8",
+     "formula": 2160
+    },
+    {
+     "cell": "F8",
+     "formula": 240
+    },
+    {
+     "cell": "B9",
+     "formula": "Ultrasounds"
+    },
+    {
+     "cell": "C9",
+     "formula": 1200
+    },
+    {
+     "cell": "D9",
+     "formula": 1000
+    },
+    {
+     "cell": "F9",
+     "formula": 200
+    },
+    {
+     "cell": "B10",
+     "formula": "Genetic screening"
+    },
+    {
+     "cell": "C10",
+     "formula": 900
+    },
+    {
+     "cell": "D10",
+     "formula": 720
+    },
+    {
+     "cell": "F10",
+     "formula": 180
+    },
+    {
+     "cell": "B11",
+     "formula": "Hospital delivery"
+    },
+    {
+     "cell": "C11",
+     "formula": 12000
+    },
+    {
+     "cell": "D11",
+     "formula": 10800
+    },
+    {
+     "cell": "H11",
+     "formula": "2 nights"
+    },
+    {
+     "cell": "B12",
+     "formula": "Anesthesia (epidural)"
+    },
+    {
+     "cell": "C12",
+     "formula": 2500
+    },
+    {
+     "cell": "D12",
+     "formula": 2250
+    },
+    {
+     "cell": "B13",
+     "formula": "Newborn hospital care"
+    },
+    {
+     "cell": "C13",
+     "formula": 3000
+    },
+    {
+     "cell": "D13",
+     "formula": 2700
+    },
+    {
+     "cell": "B14",
+     "formula": "Pediatrician first visits"
+    },
+    {
+     "cell": "C14",
+     "formula": 600
+    },
+    {
+     "cell": "D14",
+     "formula": 600
+    },
+    {
+     "cell": "H14",
+     "formula": "Covered as preventive"
+    },
+    {
+     "col": "E",
+     "range_rows": [
+      8,
+      27
+     ],
+     "formula": "=IF(TRIM(B{row}&\"\")=\"\",\"\",ROUND(MAX(0,N(C{row})-N(D{row})),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "G",
+     "range_rows": [
+      8,
+      27
+     ],
+     "formula": "=IF(TRIM(B{row}&\"\")=\"\",\"\",ROUND(E{row}-N(F{row}),2))",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "B28",
+     "formula": "TOTAL"
+    },
+    {
+     "cell": "C28",
+     "formula": "=ROUND(SUM(C8:C27),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D28",
+     "formula": "=ROUND(SUM(D8:D27),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E28",
+     "formula": "=ROUND(SUM(E8:E27),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F28",
+     "formula": "=ROUND(SUM(F8:F27),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G28",
+     "formula": "=ROUND(SUM(G8:G27),2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "B31",
+     "formula": "Your share (before the cap)"
+    },
+    {
+     "cell": "C31",
+     "formula": "=E28",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B32",
+     "formula": "Out-of-pocket max"
+    },
+    {
+     "cell": "C32",
+     "formula": "=IF(N(C4)>0,C4,\"No cap\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B33",
+     "formula": "Your share (after the cap)"
+    },
+    {
+     "cell": "C33",
+     "formula": "=IF(N(C4)>0,MIN(E28,C4),E28)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B34",
+     "formula": "Paid so far"
+    },
+    {
+     "cell": "C34",
+     "formula": "=F28",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B35",
+     "formula": "Left to pay"
+    },
+    {
+     "cell": "C35",
+     "formula": "=MAX(0,ROUND(C33-C34,2))",
+     "number_format": "$#,##0.00"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "C4",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C4<>\"\",NOT(ISNUMBER(C4))),N(C4)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C8:D27",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C8<>\"\",NOT(ISNUMBER(C8))),N(C8)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "F8:F27",
+     "type": "formula",
+     "formula": [
+      "OR(AND(F8<>\"\",NOT(ISNUMBER(F8))),N(F8)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "G8:G28",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER(G8),G8<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "D8:D27",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER(D8),ISNUMBER(C8),D8>C8)"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B7:D7",
+     "color": "F4F8FC"
+    },
+    {
+     "range": "E7",
+     "color": "F9E3E3"
+    },
+    {
+     "range": "F7",
+     "color": "F4F8FC"
+    },
+    {
+     "range": "G7",
+     "color": "F9E3E3"
+    },
+    {
+     "range": "H7",
+     "color": "F4F8FC"
+    },
+    {
+     "range": "E8:E27",
+     "color": "F9FBFD"
+    },
+    {
+     "range": "G8:G27",
+     "color": "F9FBFD"
+    },
+    {
+     "range": "B28:H28",
+     "color": "E3ECF5"
+    },
+    {
+     "range": "C31:C35",
+     "color": "F9FBFD"
+    },
+    {
+     "range": "B35:C35",
+     "color": "F9E3E3"
+    }
+   ],
+   "borders": [
+    {
+     "range": "C4",
+     "color": "D8E1EC",
+     "style": "medium"
+    },
+    {
+     "range": "B7:H28",
+     "color": "D8E1EC"
+    },
+    {
+     "range": "B31:C35",
+     "color": "D8E1EC"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "2A3442"
+    },
+    {
+     "range": "B4",
+     "bold": true,
+     "size": 10,
+     "color": "2A3442"
+    },
+    {
+     "range": "C4",
+     "bold": true,
+     "size": 11,
+     "color": "2A3442",
+     "align": "center"
+    },
+    {
+     "range": "D4",
+     "italic": true,
+     "size": 9,
+     "color": "2A3442"
+    },
+    {
+     "range": "B7:H7",
+     "bold": true,
+     "size": 10,
+     "color": "2A3442",
+     "align": "center",
+     "wrap": true
+    },
+    {
+     "range": "C8:G28",
+     "size": 10,
+     "color": "2A3442",
+     "align": "center"
+    },
+    {
+     "range": "B28:H28",
+     "bold": true,
+     "size": 10,
+     "color": "2A3442",
+     "align": "center"
+    },
+    {
+     "range": "B31:B35",
+     "bold": true,
+     "size": 10,
+     "color": "2A3442"
+    },
+    {
+     "range": "C31:C35",
+     "size": 11,
+     "color": "2A3442",
+     "align": "center"
+    },
+    {
+     "range": "C35",
+     "bold": true,
+     "size": 11,
+     "color": "2A3442",
+     "align": "center"
+    }
+   ],
+   "row_heights": {
+    "7": 30
+   },
+   "number_formats": [
+    {
+     "range": "C4",
+     "format": "$#,##0.00"
+    },
+    {
+     "range": "C8:D27",
+     "format": "$#,##0.00"
+    },
+    {
+     "range": "F8:F27",
+     "format": "$#,##0.00"
+    }
+   ]
+  },
+  {
+   "name": "Leave Planner",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "F5D58A",
+   "grid_rows": 27,
+   "grid_cols": 7,
+   "row_height": 22,
+   "column_widths": {
+    "A": 2.5,
+    "B": 32,
+    "C": 18,
+    "D": 18,
+    "E": 16,
+    "F": 2.5
+   },
+   "hidden_rows": [
+    21,
+    22,
+    23,
+    24,
+    25
+   ],
+   "section_bars": [
+    {
+     "range": "B2:E2",
+     "label": "=\"PARENTAL LEAVE PLANNER\"",
+     "size": 16,
+     "color": "5A7FA8",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "B12:D12",
+     "label": "YOUR LEAVE",
+     "color": "E8A0A0",
+     "font_color": "2A3442",
+     "align": "left"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Weeks off for each parent. Full-pay weeks come first, then partial pay, then unpaid weeks."
+    },
+    {
+     "cell": "B5",
+     "formula": "Parent"
+    },
+    {
+     "cell": "B6",
+     "formula": "Normal weekly take-home pay"
+    },
+    {
+     "cell": "B7",
+     "formula": "Weeks of leave"
+    },
+    {
+     "cell": "B8",
+     "formula": "Weeks at full pay"
+    },
+    {
+     "cell": "B9",
+     "formula": "Weeks at partial pay"
+    },
+    {
+     "cell": "B10",
+     "formula": "Partial pay %"
+    },
+    {
+     "cell": "B11",
+     "formula": "Leave starts"
+    },
+    {
+     "cell": "B13",
+     "formula": "Leave starts"
+    },
+    {
+     "cell": "B14",
+     "formula": "Full pay ends"
+    },
+    {
+     "cell": "B15",
+     "formula": "Partial pay ends"
+    },
+    {
+     "cell": "B16",
+     "formula": "Back to work"
+    },
+    {
+     "cell": "B17",
+     "formula": "Pay you'd normally get"
+    },
+    {
+     "cell": "B18",
+     "formula": "Pay during leave"
+    },
+    {
+     "cell": "B19",
+     "formula": "Income gap"
+    },
+    {
+     "cell": "E12",
+     "formula": "Both"
+    },
+    {
+     "cell": "C4",
+     "formula": "Parent 1"
+    },
+    {
+     "cell": "D4",
+     "formula": "Parent 2"
+    },
+    {
+     "cell": "E11",
+     "formula": "Blank = due date."
+    },
+    {
+     "cell": "C5",
+     "formula": "Alex"
+    },
+    {
+     "cell": "C6",
+     "formula": 950
+    },
+    {
+     "cell": "C7",
+     "formula": 16
+    },
+    {
+     "cell": "C8",
+     "formula": 6
+    },
+    {
+     "cell": "C9",
+     "formula": 6
+    },
+    {
+     "cell": "C10",
+     "formula": 60
+    },
+    {
+     "cell": "C21",
+     "formula": "=MAX(0,N(C7))"
+    },
+    {
+     "cell": "C22",
+     "formula": "=MIN(MAX(0,N(C8)),C21)"
+    },
+    {
+     "cell": "C23",
+     "formula": "=MIN(MAX(0,N(C9)),C21-C22)"
+    },
+    {
+     "cell": "C24",
+     "formula": "=MIN(1,MAX(0,IF(N(C10)>=1,N(C10)/100,N(C10))))"
+    },
+    {
+     "cell": "C25",
+     "formula": "=MAX(0,N(C6))"
+    },
+    {
+     "cell": "C13",
+     "formula": "=IF(AND(ISNUMBER(C11),N(C11)>=1),INT(C11),'Setup'!$R$5)",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "C14",
+     "formula": "=IF(C13=\"\",\"\",C13+7*C22)",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "C15",
+     "formula": "=IF(C13=\"\",\"\",C13+7*(C22+C23))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "C16",
+     "formula": "=IF(C13=\"\",\"\",C13+7*C21)",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "C17",
+     "formula": "=ROUND(C21*C25,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "C18",
+     "formula": "=ROUND((C22+C23*C24)*C25,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "C19",
+     "formula": "=ROUND(C17-C18,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D5",
+     "formula": "Sam"
+    },
+    {
+     "cell": "D6",
+     "formula": 1100
+    },
+    {
+     "cell": "D7",
+     "formula": 4
+    },
+    {
+     "cell": "D8",
+     "formula": 2
+    },
+    {
+     "cell": "D9",
+     "formula": 0
+    },
+    {
+     "cell": "D21",
+     "formula": "=MAX(0,N(D7))"
+    },
+    {
+     "cell": "D22",
+     "formula": "=MIN(MAX(0,N(D8)),D21)"
+    },
+    {
+     "cell": "D23",
+     "formula": "=MIN(MAX(0,N(D9)),D21-D22)"
+    },
+    {
+     "cell": "D24",
+     "formula": "=MIN(1,MAX(0,IF(N(D10)>=1,N(D10)/100,N(D10))))"
+    },
+    {
+     "cell": "D25",
+     "formula": "=MAX(0,N(D6))"
+    },
+    {
+     "cell": "D13",
+     "formula": "=IF(AND(ISNUMBER(D11),N(D11)>=1),INT(D11),'Setup'!$R$5)",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "D14",
+     "formula": "=IF(D13=\"\",\"\",D13+7*D22)",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "D15",
+     "formula": "=IF(D13=\"\",\"\",D13+7*(D22+D23))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "D16",
+     "formula": "=IF(D13=\"\",\"\",D13+7*D21)",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "D17",
+     "formula": "=ROUND(D21*D25,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D18",
+     "formula": "=ROUND((D22+D23*D24)*D25,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D19",
+     "formula": "=ROUND(D17-D18,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E17",
+     "formula": "=ROUND(C17+D17,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E18",
+     "formula": "=ROUND(C18+D18,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E19",
+     "formula": "=ROUND(C19+D19,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B20",
+     "formula": "=IF(E19>0,\"Plan to cover \"&TEXT(E19,\"$#,##0\")&\" of lost pay while you're on leave. It's in your Baby Fund target.\",\"\")"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "C6:D10",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C6<>\"\",NOT(ISNUMBER(C6))),N(C6)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C11:D11",
+     "type": "formula",
+     "formula": [
+      "AND(C11<>\"\",OR(NOT(ISNUMBER(C11)),N(C11)<1))"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C8:D9",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER(C8),N(C$8)+N(C$9)>N(C$7))"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "C4:D4",
+     "color": "E3ECF5"
+    },
+    {
+     "range": "C13:E19",
+     "color": "F9FBFD"
+    },
+    {
+     "range": "E12",
+     "color": "F9E3E3"
+    },
+    {
+     "range": "B19:E19",
+     "color": "F9E3E3"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B4:D11",
+     "color": "D8E1EC"
+    },
+    {
+     "range": "B13:E19",
+     "color": "D8E1EC"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "2A3442"
+    },
+    {
+     "range": "E11",
+     "italic": true,
+     "size": 9,
+     "color": "2A3442"
+    },
+    {
+     "range": "B5:B11",
+     "bold": true,
+     "size": 10,
+     "color": "2A3442"
+    },
+    {
+     "range": "B13:B19",
+     "bold": true,
+     "size": 10,
+     "color": "2A3442"
+    },
+    {
+     "range": "C4:E4",
+     "bold": true,
+     "size": 10,
+     "color": "2A3442",
+     "align": "center"
+    },
+    {
+     "range": "E12",
+     "bold": true,
+     "size": 10,
+     "color": "2A3442",
+     "align": "center"
+    },
+    {
+     "range": "C5:D11",
+     "size": 11,
+     "color": "2A3442",
+     "align": "center"
+    },
+    {
+     "range": "C5:D5",
+     "bold": true,
+     "size": 11,
+     "color": "2A3442",
+     "align": "center"
+    },
+    {
+     "range": "C13:E19",
+     "size": 11,
+     "color": "2A3442",
+     "align": "center"
+    },
+    {
+     "range": "C19:E19",
+     "bold": true,
+     "size": 11,
+     "color": "2A3442",
+     "align": "center"
+    },
+    {
+     "range": "B20",
+     "bold": true,
+     "italic": true,
+     "size": 10,
+     "color": "5A7FA8"
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "C6:D6",
+     "format": "$#,##0.00"
+    },
+    {
+     "range": "C11:D11",
+     "format": "mmm d, yyyy"
+    }
+   ]
+  },
+  {
+   "name": "Monthly Costs",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "5A7FA8",
+   "grid_rows": 41,
+   "grid_cols": 14,
+   "row_height": 20,
+   "column_widths": {
+    "A": 2.5,
+    "B": 26,
+    "C": 14,
+    "D": 13,
+    "E": 11,
+    "F": 11,
+    "G": 24,
+    "H": 9,
+    "I": 14,
+    "J": 2.5,
+    "K": 3,
+    "L": 3,
+    "M": 3
+   },
+   "hidden_columns": [
+    "K",
+    "L",
+    "M"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:I2",
+     "label": "=\"MONTHLY BABY COSTS\"",
+     "size": 16,
+     "color": "5A7FA8",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Ongoing costs once baby arrives. Month 1 = the month baby is due. Blank start = month 1, blank end = month 12."
+    },
+    {
+     "cell": "B6",
+     "formula": "Item"
+    },
+    {
+     "cell": "C6",
+     "formula": "Category"
+    },
+    {
+     "cell": "D6",
+     "formula": "Monthly Cost"
+    },
+    {
+     "cell": "E6",
+     "formula": "Starts in Month"
+    },
+    {
+     "cell": "F6",
+     "formula": "Ends After Month"
+    },
+    {
+     "cell": "G6",
+     "formula": "Notes"
+    },
+    {
+     "cell": "H6",
+     "formula": "Months"
+    },
+    {
+     "cell": "I6",
+     "formula": "First-Year Total"
+    },
+    {
+     "cell": "B7",
+     "formula": "Diapers"
+    },
+    {
+     "cell": "C7",
+     "formula": "Diapering"
+    },
+    {
+     "cell": "D7",
+     "formula": 80
+    },
+    {
+     "cell": "B8",
+     "formula": "Wipes"
+    },
+    {
+     "cell": "C8",
+     "formula": "Diapering"
+    },
+    {
+     "cell": "D8",
+     "formula": 20
+    },
+    {
+     "cell": "B9",
+     "formula": "Formula"
+    },
+    {
+     "cell": "C9",
+     "formula": "Feeding"
+    },
+    {
+     "cell": "D9",
+     "formula": 150
+    },
+    {
+     "cell": "G9",
+     "formula": "Skip if breastfeeding"
+    },
+    {
+     "cell": "B10",
+     "formula": "Baby food"
+    },
+    {
+     "cell": "C10",
+     "formula": "Feeding"
+    },
+    {
+     "cell": "D10",
+     "formula": 40
+    },
+    {
+     "cell": "E10",
+     "formula": 6
+    },
+    {
+     "cell": "G10",
+     "formula": "Starts around 6 months"
+    },
+    {
+     "cell": "B11",
+     "formula": "Clothes (next sizes)"
+    },
+    {
+     "cell": "C11",
+     "formula": "Clothing"
+    },
+    {
+     "cell": "D11",
+     "formula": 40
+    },
+    {
+     "cell": "B12",
+     "formula": "Daycare"
+    },
+    {
+     "cell": "C12",
+     "formula": "Childcare"
+    },
+    {
+     "cell": "D12",
+     "formula": 1100
+    },
+    {
+     "cell": "E12",
+     "formula": 5
+    },
+    {
+     "cell": "G12",
+     "formula": "After leave ends"
+    },
+    {
+     "cell": "B13",
+     "formula": "Health insurance increase"
+    },
+    {
+     "cell": "C13",
+     "formula": "Health"
+    },
+    {
+     "cell": "D13",
+     "formula": 120
+    },
+    {
+     "cell": "G13",
+     "formula": "Adding baby to plan"
+    },
+    {
+     "cell": "B14",
+     "formula": "Toiletries & medicine"
+    },
+    {
+     "cell": "C14",
+     "formula": "Health"
+    },
+    {
+     "cell": "D14",
+     "formula": 20
+    },
+    {
+     "cell": "B15",
+     "formula": "Baby classes"
+    },
+    {
+     "cell": "C15",
+     "formula": "Activities"
+    },
+    {
+     "cell": "D15",
+     "formula": 30
+    },
+    {
+     "cell": "E15",
+     "formula": 6
+    },
+    {
+     "cell": "B16",
+     "formula": "College savings"
+    },
+    {
+     "cell": "C16",
+     "formula": "Savings"
+    },
+    {
+     "cell": "D16",
+     "formula": 50
+    },
+    {
+     "cell": "G16",
+     "formula": "529 plan"
+    },
+    {
+     "col": "K",
+     "range_rows": [
+      7,
+      36
+     ],
+     "formula": "=IF(ISNUMBER(E{row}),MIN(13,MAX(1,INT(E{row}))),1)"
+    },
+    {
+     "col": "L",
+     "range_rows": [
+      7,
+      36
+     ],
+     "formula": "=IF(ISNUMBER(F{row}),MAX(0,MIN(12,INT(F{row}))),12)"
+    },
+    {
+     "col": "M",
+     "range_rows": [
+      7,
+      36
+     ],
+     "formula": "=IF(TRIM(B{row}&\"\")=\"\",0,MAX(0,N(D{row})))"
+    },
+    {
+     "col": "H",
+     "range_rows": [
+      7,
+      36
+     ],
+     "formula": "=IF(TRIM(B{row}&\"\")=\"\",\"\",MAX(0,L{row}-K{row}+1))",
+     "number_format": "0"
+    },
+    {
+     "col": "I",
+     "range_rows": [
+      7,
+      36
+     ],
+     "formula": "=IF(TRIM(B{row}&\"\")=\"\",\"\",ROUND(M{row}*H{row},2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B37",
+     "formula": "TOTAL"
+    },
+    {
+     "cell": "D37",
+     "formula": "=ROUND(SUM(M7:M36),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I37",
+     "formula": "=ROUND(SUM(I7:I36),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B39",
+     "formula": "=\"When everything is running that's \"&TEXT(D37,\"$#,##0\")&\" a month\"&IF(N('Setup'!$C$7)>0,\", or \"&TEXT(D37/N('Setup'!$C$7),\"0%\")&\" of your take-home pay.\",\".\")"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "D7:F36",
+     "type": "formula",
+     "formula": [
+      "OR(AND(D7<>\"\",NOT(ISNUMBER(D7))),N(D7)<0)"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B6:G6",
+     "color": "F4F8FC"
+    },
+    {
+     "range": "H6:I6",
+     "color": "F9E3E3"
+    },
+    {
+     "range": "H7:I36",
+     "color": "F9FBFD"
+    },
+    {
+     "range": "B37:I37",
+     "color": "E3ECF5"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B6:I37",
+     "color": "D8E1EC"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "2A3442"
+    },
+    {
+     "range": "B6:I6",
+     "bold": true,
+     "size": 10,
+     "color": "2A3442",
+     "align": "center",
+     "wrap": true
+    },
+    {
+     "range": "C7:F36",
+     "size": 10,
+     "color": "2A3442",
+     "align": "center"
+    },
+    {
+     "range": "H7:I37",
+     "size": 10,
+     "color": "2A3442",
+     "align": "center"
+    },
+    {
+     "range": "B37:I37",
+     "bold": true,
+     "size": 10,
+     "color": "2A3442",
+     "align": "center"
+    },
+    {
+     "range": "B39",
+     "bold": true,
+     "italic": true,
+     "size": 10,
+     "color": "5A7FA8"
+    }
+   ],
+   "row_heights": {
+    "6": 30
+   },
+   "validations": [
+    {
+     "range": "C7:C36",
+     "type": "list",
+     "values": [
+      "Diapering",
+      "Feeding",
+      "Childcare",
+      "Health",
+      "Clothing",
+      "Activities",
+      "Savings",
+      "Other"
+     ],
+     "strict": false
+    },
+    {
+     "range": "E7:F36",
+     "type": "list",
+     "values": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+     ],
+     "strict": false
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "D7:D36",
+     "format": "$#,##0.00"
+    }
+   ]
+  },
+  {
+   "name": "Baby Fund",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "5A7FA8",
+   "grid_rows": 125,
+   "grid_cols": 6,
+   "row_height": 21,
+   "column_widths": {
+    "A": 2.5,
+    "B": 36,
+    "C": 16,
+    "D": 30,
+    "E": 2.5
+   },
+   "section_bars": [
+    {
+     "range": "B2:D2",
+     "label": "=\"BABY FUND\"",
+     "size": 16,
+     "color": "5A7FA8",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "B5:C5",
+     "label": "WHAT YOU NEED",
+     "color": "E3ECF5",
+     "font_color": "2A3442",
+     "align": "left"
+    },
+    {
+     "range": "B12:C12",
+     "label": "WHERE YOU ARE",
+     "color": "E8A0A0",
+     "font_color": "2A3442",
+     "align": "left"
+    },
+    {
+     "range": "B21:D21",
+     "label": "DEPOSITS (TYPE HERE)",
+     "color": "E3ECF5",
+     "font_color": "2A3442",
+     "align": "left"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "How much to set aside before baby arrives, and how much to save each month to get there."
+    },
+    {
+     "cell": "B6",
+     "formula": "Baby gear still to buy"
+    },
+    {
+     "cell": "C6",
+     "formula": "='Baby Gear'!L108",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B7",
+     "formula": "Birth & medical left to pay"
+    },
+    {
+     "cell": "C7",
+     "formula": "='Birth & Medical'!C35",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B8",
+     "formula": "Parental leave income gap"
+    },
+    {
+     "cell": "C8",
+     "formula": "='Leave Planner'!E19",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B9",
+     "formula": "=\"Cushion: \"&'Setup'!$R$9&\" months of baby costs\""
+    },
+    {
+     "cell": "C9",
+     "formula": "=ROUND('Setup'!$R$9*'Monthly Costs'!D37,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B10",
+     "formula": "YOUR TARGET"
+    },
+    {
+     "cell": "C10",
+     "formula": "=ROUND(SUM(C6:C9),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B13",
+     "formula": "Already saved (Setup)"
+    },
+    {
+     "cell": "C13",
+     "formula": "=N('Setup'!C8)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B14",
+     "formula": "Added since (log below)"
+    },
+    {
+     "cell": "C14",
+     "formula": "=ROUND(SUM(C23:C122),2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "B15",
+     "formula": "Baby Fund now"
+    },
+    {
+     "cell": "C15",
+     "formula": "=ROUND(C13+C14,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "B16",
+     "formula": "Still to save"
+    },
+    {
+     "cell": "C16",
+     "formula": "=MAX(0,ROUND(C10-C15,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B17",
+     "formula": "Months until due"
+    },
+    {
+     "cell": "C17",
+     "formula": "='Setup'!$R$10",
+     "number_format": "0"
+    },
+    {
+     "cell": "B18",
+     "formula": "Save each month"
+    },
+    {
+     "cell": "C18",
+     "formula": "=IF(C16=0,0,IF(C17>0,ROUND(C16/C17,2),C16))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D15",
+     "formula": "=IF(C10<=0,\"\",REPT(\"█\",ROUND(MIN(1,MAX(0,C15/C10))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,C15/C10))*10,0))&\"  \"&TEXT(MIN(1,MAX(0,C15/C10)),\"0%\"))"
+    },
+    {
+     "cell": "B22",
+     "formula": "Date"
+    },
+    {
+     "cell": "C22",
+     "formula": "Amount"
+    },
+    {
+     "cell": "D22",
+     "formula": "Notes"
+    },
+    {
+     "cell": "B23",
+     "formula": "=DATE(2026,7,1)"
+    },
+    {
+     "cell": "C23",
+     "formula": 400
+    },
+    {
+     "cell": "D23",
+     "formula": "Monthly transfer"
+    },
+    {
+     "cell": "B24",
+     "formula": "=DATE(2026,8,1)"
+    },
+    {
+     "cell": "C24",
+     "formula": 400
+    },
+    {
+     "cell": "D24",
+     "formula": "Monthly transfer"
+    },
+    {
+     "cell": "B25",
+     "formula": "=DATE(2026,9,1)"
+    },
+    {
+     "cell": "C25",
+     "formula": 400
+    },
+    {
+     "cell": "D25",
+     "formula": "Monthly transfer"
+    },
+    {
+     "cell": "B26",
+     "formula": "=DATE(2026,10,1)"
+    },
+    {
+     "cell": "C26",
+     "formula": 400
+    },
+    {
+     "cell": "D26",
+     "formula": "Monthly transfer"
+    },
+    {
+     "cell": "B27",
+     "formula": "=DATE(2026,10,18)"
+    },
+    {
+     "cell": "C27",
+     "formula": 300
+    },
+    {
+     "cell": "D27",
+     "formula": "Cash from baby shower"
+    },
+    {
+     "cell": "B28",
+     "formula": "=DATE(2026,11,1)"
+    },
+    {
+     "cell": "C28",
+     "formula": 400
+    },
+    {
+     "cell": "D28",
+     "formula": "Monthly transfer"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "C16",
+     "type": "formula",
+     "formula": [
+      "$C$16=0"
+     ],
+     "fill": "D7EFDD"
+    },
+    {
+     "range": "B23:B122",
+     "type": "formula",
+     "formula": [
+      "AND(B23<>\"\",OR(NOT(ISNUMBER(B23)),N(B23)<1))"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C23:C122",
+     "type": "formula",
+     "formula": [
+      "AND(C23<>\"\",NOT(ISNUMBER(C23)))"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "C6:C10",
+     "color": "F9FBFD"
+    },
+    {
+     "range": "B10:C10",
+     "color": "E3ECF5"
+    },
+    {
+     "range": "C13:C18",
+     "color": "F9FBFD"
+    },
+    {
+     "range": "B18:C18",
+     "color": "F9E3E3"
+    },
+    {
+     "range": "B22:D22",
+     "color": "F4F8FC"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B6:C10",
+     "color": "D8E1EC"
+    },
+    {
+     "range": "B13:C18",
+     "color": "D8E1EC"
+    },
+    {
+     "range": "B22:D122",
+     "color": "D8E1EC"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "2A3442"
+    },
+    {
+     "range": "B6:B10",
+     "bold": true,
+     "size": 10,
+     "color": "2A3442"
+    },
+    {
+     "range": "B13:B18",
+     "bold": true,
+     "size": 10,
+     "color": "2A3442"
+    },
+    {
+     "range": "C6:C9",
+     "size": 11,
+     "color": "2A3442",
+     "align": "center"
+    },
+    {
+     "range": "C10",
+     "bold": true,
+     "size": 12,
+     "color": "2A3442",
+     "align": "center"
+    },
+    {
+     "range": "C13:C17",
+     "size": 11,
+     "color": "2A3442",
+     "align": "center"
+    },
+    {
+     "range": "C18",
+     "bold": true,
+     "size": 12,
+     "color": "2A3442",
+     "align": "center"
+    },
+    {
+     "range": "D15",
+     "size": 10,
+     "color": "E8A0A0",
+     "bold": true
+    },
+    {
+     "range": "B22:D22",
+     "bold": true,
+     "size": 10,
+     "color": "2A3442",
+     "align": "center"
+    },
+    {
+     "range": "B23:C122",
+     "size": 10,
+     "color": "2A3442",
+     "align": "center"
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "B23:B122",
+     "format": "mmm d, yyyy"
+    },
+    {
+     "range": "C23:C122",
+     "format": "$#,##0.00;-$#,##0.00;$0.00"
+    }
+   ]
+  },
+  {
+   "name": "First Year",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "F5D58A",
+   "grid_rows": 43,
+   "grid_cols": 10,
+   "row_height": 21,
+   "column_widths": {
+    "A": 2.5,
+    "B": 12,
+    "C": 12,
+    "D": 14,
+    "E": 16,
+    "F": 14,
+    "G": 15,
+    "H": 3,
+    "I": 3
+   },
+   "hidden_columns": [
+    "H",
+    "I"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:G2",
+     "label": "=\"THE FIRST YEAR\"",
+     "size": 16,
+     "color": "5A7FA8",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "B22:G22",
+     "label": "MONTH BY MONTH",
+     "color": "E3ECF5",
+     "font_color": "2A3442",
+     "align": "center"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Baby's first year, month by month: ongoing costs plus the pay you give up on leave. Month 1 = the due month."
+    },
+    {
+     "cell": "B6",
+     "formula": "Month"
+    },
+    {
+     "cell": "C6",
+     "formula": "Date"
+    },
+    {
+     "cell": "D6",
+     "formula": "Baby Costs"
+    },
+    {
+     "cell": "E6",
+     "formula": "Leave Income Gap"
+    },
+    {
+     "cell": "F6",
+     "formula": "Total"
+    },
+    {
+     "cell": "G6",
+     "formula": "Running Total"
+    },
+    {
+     "cell": "B7",
+     "formula": "Month 1"
+    },
+    {
+     "cell": "H7",
+     "formula": "=IF('Setup'!$R$5=\"\",\"\",DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5)+0,1))"
+    },
+    {
+     "cell": "I7",
+     "formula": "=IF('Setup'!$R$5=\"\",\"\",DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5)+1,1))"
+    },
+    {
+     "cell": "C7",
+     "formula": "=IF(H7=\"\",\"\",H7)",
+     "number_format": "mmm yyyy"
+    },
+    {
+     "cell": "D7",
+     "formula": "=ROUND(SUMPRODUCT(('Monthly Costs'!$K$7:$K$36<=1)*('Monthly Costs'!$L$7:$L$36>=1)*'Monthly Costs'!$M$7:$M$36),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E7",
+     "formula": "=ROUND(IF(OR(H7=\"\",'Leave Planner'!C13=\"\"),0,'Leave Planner'!C25/7*((1-'Leave Planner'!C24)*MAX(0,MIN('Leave Planner'!C15,I7)-MAX('Leave Planner'!C14,H7))+MAX(0,MIN('Leave Planner'!C16,I7)-MAX('Leave Planner'!C15,H7))))+IF(OR(H7=\"\",'Leave Planner'!D13=\"\"),0,'Leave Planner'!D25/7*((1-'Leave Planner'!D24)*MAX(0,MIN('Leave Planner'!D15,I7)-MAX('Leave Planner'!D14,H7))+MAX(0,MIN('Leave Planner'!D16,I7)-MAX('Leave Planner'!D15,H7)))),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F7",
+     "formula": "=ROUND(D7+E7,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G7",
+     "formula": "=ROUND(SUM(F$7:F7),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B8",
+     "formula": "Month 2"
+    },
+    {
+     "cell": "H8",
+     "formula": "=IF('Setup'!$R$5=\"\",\"\",DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5)+1,1))"
+    },
+    {
+     "cell": "I8",
+     "formula": "=IF('Setup'!$R$5=\"\",\"\",DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5)+2,1))"
+    },
+    {
+     "cell": "C8",
+     "formula": "=IF(H8=\"\",\"\",H8)",
+     "number_format": "mmm yyyy"
+    },
+    {
+     "cell": "D8",
+     "formula": "=ROUND(SUMPRODUCT(('Monthly Costs'!$K$7:$K$36<=2)*('Monthly Costs'!$L$7:$L$36>=2)*'Monthly Costs'!$M$7:$M$36),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E8",
+     "formula": "=ROUND(IF(OR(H8=\"\",'Leave Planner'!C13=\"\"),0,'Leave Planner'!C25/7*((1-'Leave Planner'!C24)*MAX(0,MIN('Leave Planner'!C15,I8)-MAX('Leave Planner'!C14,H8))+MAX(0,MIN('Leave Planner'!C16,I8)-MAX('Leave Planner'!C15,H8))))+IF(OR(H8=\"\",'Leave Planner'!D13=\"\"),0,'Leave Planner'!D25/7*((1-'Leave Planner'!D24)*MAX(0,MIN('Leave Planner'!D15,I8)-MAX('Leave Planner'!D14,H8))+MAX(0,MIN('Leave Planner'!D16,I8)-MAX('Leave Planner'!D15,H8)))),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F8",
+     "formula": "=ROUND(D8+E8,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G8",
+     "formula": "=ROUND(SUM(F$7:F8),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B9",
+     "formula": "Month 3"
+    },
+    {
+     "cell": "H9",
+     "formula": "=IF('Setup'!$R$5=\"\",\"\",DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5)+2,1))"
+    },
+    {
+     "cell": "I9",
+     "formula": "=IF('Setup'!$R$5=\"\",\"\",DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5)+3,1))"
+    },
+    {
+     "cell": "C9",
+     "formula": "=IF(H9=\"\",\"\",H9)",
+     "number_format": "mmm yyyy"
+    },
+    {
+     "cell": "D9",
+     "formula": "=ROUND(SUMPRODUCT(('Monthly Costs'!$K$7:$K$36<=3)*('Monthly Costs'!$L$7:$L$36>=3)*'Monthly Costs'!$M$7:$M$36),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E9",
+     "formula": "=ROUND(IF(OR(H9=\"\",'Leave Planner'!C13=\"\"),0,'Leave Planner'!C25/7*((1-'Leave Planner'!C24)*MAX(0,MIN('Leave Planner'!C15,I9)-MAX('Leave Planner'!C14,H9))+MAX(0,MIN('Leave Planner'!C16,I9)-MAX('Leave Planner'!C15,H9))))+IF(OR(H9=\"\",'Leave Planner'!D13=\"\"),0,'Leave Planner'!D25/7*((1-'Leave Planner'!D24)*MAX(0,MIN('Leave Planner'!D15,I9)-MAX('Leave Planner'!D14,H9))+MAX(0,MIN('Leave Planner'!D16,I9)-MAX('Leave Planner'!D15,H9)))),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F9",
+     "formula": "=ROUND(D9+E9,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G9",
+     "formula": "=ROUND(SUM(F$7:F9),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B10",
+     "formula": "Month 4"
+    },
+    {
+     "cell": "H10",
+     "formula": "=IF('Setup'!$R$5=\"\",\"\",DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5)+3,1))"
+    },
+    {
+     "cell": "I10",
+     "formula": "=IF('Setup'!$R$5=\"\",\"\",DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5)+4,1))"
+    },
+    {
+     "cell": "C10",
+     "formula": "=IF(H10=\"\",\"\",H10)",
+     "number_format": "mmm yyyy"
+    },
+    {
+     "cell": "D10",
+     "formula": "=ROUND(SUMPRODUCT(('Monthly Costs'!$K$7:$K$36<=4)*('Monthly Costs'!$L$7:$L$36>=4)*'Monthly Costs'!$M$7:$M$36),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E10",
+     "formula": "=ROUND(IF(OR(H10=\"\",'Leave Planner'!C13=\"\"),0,'Leave Planner'!C25/7*((1-'Leave Planner'!C24)*MAX(0,MIN('Leave Planner'!C15,I10)-MAX('Leave Planner'!C14,H10))+MAX(0,MIN('Leave Planner'!C16,I10)-MAX('Leave Planner'!C15,H10))))+IF(OR(H10=\"\",'Leave Planner'!D13=\"\"),0,'Leave Planner'!D25/7*((1-'Leave Planner'!D24)*MAX(0,MIN('Leave Planner'!D15,I10)-MAX('Leave Planner'!D14,H10))+MAX(0,MIN('Leave Planner'!D16,I10)-MAX('Leave Planner'!D15,H10)))),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F10",
+     "formula": "=ROUND(D10+E10,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G10",
+     "formula": "=ROUND(SUM(F$7:F10),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B11",
+     "formula": "Month 5"
+    },
+    {
+     "cell": "H11",
+     "formula": "=IF('Setup'!$R$5=\"\",\"\",DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5)+4,1))"
+    },
+    {
+     "cell": "I11",
+     "formula": "=IF('Setup'!$R$5=\"\",\"\",DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5)+5,1))"
+    },
+    {
+     "cell": "C11",
+     "formula": "=IF(H11=\"\",\"\",H11)",
+     "number_format": "mmm yyyy"
+    },
+    {
+     "cell": "D11",
+     "formula": "=ROUND(SUMPRODUCT(('Monthly Costs'!$K$7:$K$36<=5)*('Monthly Costs'!$L$7:$L$36>=5)*'Monthly Costs'!$M$7:$M$36),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E11",
+     "formula": "=ROUND(IF(OR(H11=\"\",'Leave Planner'!C13=\"\"),0,'Leave Planner'!C25/7*((1-'Leave Planner'!C24)*MAX(0,MIN('Leave Planner'!C15,I11)-MAX('Leave Planner'!C14,H11))+MAX(0,MIN('Leave Planner'!C16,I11)-MAX('Leave Planner'!C15,H11))))+IF(OR(H11=\"\",'Leave Planner'!D13=\"\"),0,'Leave Planner'!D25/7*((1-'Leave Planner'!D24)*MAX(0,MIN('Leave Planner'!D15,I11)-MAX('Leave Planner'!D14,H11))+MAX(0,MIN('Leave Planner'!D16,I11)-MAX('Leave Planner'!D15,H11)))),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F11",
+     "formula": "=ROUND(D11+E11,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G11",
+     "formula": "=ROUND(SUM(F$7:F11),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B12",
+     "formula": "Month 6"
+    },
+    {
+     "cell": "H12",
+     "formula": "=IF('Setup'!$R$5=\"\",\"\",DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5)+5,1))"
+    },
+    {
+     "cell": "I12",
+     "formula": "=IF('Setup'!$R$5=\"\",\"\",DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5)+6,1))"
+    },
+    {
+     "cell": "C12",
+     "formula": "=IF(H12=\"\",\"\",H12)",
+     "number_format": "mmm yyyy"
+    },
+    {
+     "cell": "D12",
+     "formula": "=ROUND(SUMPRODUCT(('Monthly Costs'!$K$7:$K$36<=6)*('Monthly Costs'!$L$7:$L$36>=6)*'Monthly Costs'!$M$7:$M$36),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E12",
+     "formula": "=ROUND(IF(OR(H12=\"\",'Leave Planner'!C13=\"\"),0,'Leave Planner'!C25/7*((1-'Leave Planner'!C24)*MAX(0,MIN('Leave Planner'!C15,I12)-MAX('Leave Planner'!C14,H12))+MAX(0,MIN('Leave Planner'!C16,I12)-MAX('Leave Planner'!C15,H12))))+IF(OR(H12=\"\",'Leave Planner'!D13=\"\"),0,'Leave Planner'!D25/7*((1-'Leave Planner'!D24)*MAX(0,MIN('Leave Planner'!D15,I12)-MAX('Leave Planner'!D14,H12))+MAX(0,MIN('Leave Planner'!D16,I12)-MAX('Leave Planner'!D15,H12)))),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F12",
+     "formula": "=ROUND(D12+E12,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G12",
+     "formula": "=ROUND(SUM(F$7:F12),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B13",
+     "formula": "Month 7"
+    },
+    {
+     "cell": "H13",
+     "formula": "=IF('Setup'!$R$5=\"\",\"\",DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5)+6,1))"
+    },
+    {
+     "cell": "I13",
+     "formula": "=IF('Setup'!$R$5=\"\",\"\",DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5)+7,1))"
+    },
+    {
+     "cell": "C13",
+     "formula": "=IF(H13=\"\",\"\",H13)",
+     "number_format": "mmm yyyy"
+    },
+    {
+     "cell": "D13",
+     "formula": "=ROUND(SUMPRODUCT(('Monthly Costs'!$K$7:$K$36<=7)*('Monthly Costs'!$L$7:$L$36>=7)*'Monthly Costs'!$M$7:$M$36),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E13",
+     "formula": "=ROUND(IF(OR(H13=\"\",'Leave Planner'!C13=\"\"),0,'Leave Planner'!C25/7*((1-'Leave Planner'!C24)*MAX(0,MIN('Leave Planner'!C15,I13)-MAX('Leave Planner'!C14,H13))+MAX(0,MIN('Leave Planner'!C16,I13)-MAX('Leave Planner'!C15,H13))))+IF(OR(H13=\"\",'Leave Planner'!D13=\"\"),0,'Leave Planner'!D25/7*((1-'Leave Planner'!D24)*MAX(0,MIN('Leave Planner'!D15,I13)-MAX('Leave Planner'!D14,H13))+MAX(0,MIN('Leave Planner'!D16,I13)-MAX('Leave Planner'!D15,H13)))),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F13",
+     "formula": "=ROUND(D13+E13,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G13",
+     "formula": "=ROUND(SUM(F$7:F13),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B14",
+     "formula": "Month 8"
+    },
+    {
+     "cell": "H14",
+     "formula": "=IF('Setup'!$R$5=\"\",\"\",DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5)+7,1))"
+    },
+    {
+     "cell": "I14",
+     "formula": "=IF('Setup'!$R$5=\"\",\"\",DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5)+8,1))"
+    },
+    {
+     "cell": "C14",
+     "formula": "=IF(H14=\"\",\"\",H14)",
+     "number_format": "mmm yyyy"
+    },
+    {
+     "cell": "D14",
+     "formula": "=ROUND(SUMPRODUCT(('Monthly Costs'!$K$7:$K$36<=8)*('Monthly Costs'!$L$7:$L$36>=8)*'Monthly Costs'!$M$7:$M$36),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E14",
+     "formula": "=ROUND(IF(OR(H14=\"\",'Leave Planner'!C13=\"\"),0,'Leave Planner'!C25/7*((1-'Leave Planner'!C24)*MAX(0,MIN('Leave Planner'!C15,I14)-MAX('Leave Planner'!C14,H14))+MAX(0,MIN('Leave Planner'!C16,I14)-MAX('Leave Planner'!C15,H14))))+IF(OR(H14=\"\",'Leave Planner'!D13=\"\"),0,'Leave Planner'!D25/7*((1-'Leave Planner'!D24)*MAX(0,MIN('Leave Planner'!D15,I14)-MAX('Leave Planner'!D14,H14))+MAX(0,MIN('Leave Planner'!D16,I14)-MAX('Leave Planner'!D15,H14)))),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F14",
+     "formula": "=ROUND(D14+E14,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G14",
+     "formula": "=ROUND(SUM(F$7:F14),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B15",
+     "formula": "Month 9"
+    },
+    {
+     "cell": "H15",
+     "formula": "=IF('Setup'!$R$5=\"\",\"\",DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5)+8,1))"
+    },
+    {
+     "cell": "I15",
+     "formula": "=IF('Setup'!$R$5=\"\",\"\",DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5)+9,1))"
+    },
+    {
+     "cell": "C15",
+     "formula": "=IF(H15=\"\",\"\",H15)",
+     "number_format": "mmm yyyy"
+    },
+    {
+     "cell": "D15",
+     "formula": "=ROUND(SUMPRODUCT(('Monthly Costs'!$K$7:$K$36<=9)*('Monthly Costs'!$L$7:$L$36>=9)*'Monthly Costs'!$M$7:$M$36),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E15",
+     "formula": "=ROUND(IF(OR(H15=\"\",'Leave Planner'!C13=\"\"),0,'Leave Planner'!C25/7*((1-'Leave Planner'!C24)*MAX(0,MIN('Leave Planner'!C15,I15)-MAX('Leave Planner'!C14,H15))+MAX(0,MIN('Leave Planner'!C16,I15)-MAX('Leave Planner'!C15,H15))))+IF(OR(H15=\"\",'Leave Planner'!D13=\"\"),0,'Leave Planner'!D25/7*((1-'Leave Planner'!D24)*MAX(0,MIN('Leave Planner'!D15,I15)-MAX('Leave Planner'!D14,H15))+MAX(0,MIN('Leave Planner'!D16,I15)-MAX('Leave Planner'!D15,H15)))),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F15",
+     "formula": "=ROUND(D15+E15,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G15",
+     "formula": "=ROUND(SUM(F$7:F15),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B16",
+     "formula": "Month 10"
+    },
+    {
+     "cell": "H16",
+     "formula": "=IF('Setup'!$R$5=\"\",\"\",DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5)+9,1))"
+    },
+    {
+     "cell": "I16",
+     "formula": "=IF('Setup'!$R$5=\"\",\"\",DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5)+10,1))"
+    },
+    {
+     "cell": "C16",
+     "formula": "=IF(H16=\"\",\"\",H16)",
+     "number_format": "mmm yyyy"
+    },
+    {
+     "cell": "D16",
+     "formula": "=ROUND(SUMPRODUCT(('Monthly Costs'!$K$7:$K$36<=10)*('Monthly Costs'!$L$7:$L$36>=10)*'Monthly Costs'!$M$7:$M$36),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E16",
+     "formula": "=ROUND(IF(OR(H16=\"\",'Leave Planner'!C13=\"\"),0,'Leave Planner'!C25/7*((1-'Leave Planner'!C24)*MAX(0,MIN('Leave Planner'!C15,I16)-MAX('Leave Planner'!C14,H16))+MAX(0,MIN('Leave Planner'!C16,I16)-MAX('Leave Planner'!C15,H16))))+IF(OR(H16=\"\",'Leave Planner'!D13=\"\"),0,'Leave Planner'!D25/7*((1-'Leave Planner'!D24)*MAX(0,MIN('Leave Planner'!D15,I16)-MAX('Leave Planner'!D14,H16))+MAX(0,MIN('Leave Planner'!D16,I16)-MAX('Leave Planner'!D15,H16)))),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F16",
+     "formula": "=ROUND(D16+E16,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G16",
+     "formula": "=ROUND(SUM(F$7:F16),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B17",
+     "formula": "Month 11"
+    },
+    {
+     "cell": "H17",
+     "formula": "=IF('Setup'!$R$5=\"\",\"\",DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5)+10,1))"
+    },
+    {
+     "cell": "I17",
+     "formula": "=IF('Setup'!$R$5=\"\",\"\",DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5)+11,1))"
+    },
+    {
+     "cell": "C17",
+     "formula": "=IF(H17=\"\",\"\",H17)",
+     "number_format": "mmm yyyy"
+    },
+    {
+     "cell": "D17",
+     "formula": "=ROUND(SUMPRODUCT(('Monthly Costs'!$K$7:$K$36<=11)*('Monthly Costs'!$L$7:$L$36>=11)*'Monthly Costs'!$M$7:$M$36),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E17",
+     "formula": "=ROUND(IF(OR(H17=\"\",'Leave Planner'!C13=\"\"),0,'Leave Planner'!C25/7*((1-'Leave Planner'!C24)*MAX(0,MIN('Leave Planner'!C15,I17)-MAX('Leave Planner'!C14,H17))+MAX(0,MIN('Leave Planner'!C16,I17)-MAX('Leave Planner'!C15,H17))))+IF(OR(H17=\"\",'Leave Planner'!D13=\"\"),0,'Leave Planner'!D25/7*((1-'Leave Planner'!D24)*MAX(0,MIN('Leave Planner'!D15,I17)-MAX('Leave Planner'!D14,H17))+MAX(0,MIN('Leave Planner'!D16,I17)-MAX('Leave Planner'!D15,H17)))),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F17",
+     "formula": "=ROUND(D17+E17,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G17",
+     "formula": "=ROUND(SUM(F$7:F17),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B18",
+     "formula": "Month 12"
+    },
+    {
+     "cell": "H18",
+     "formula": "=IF('Setup'!$R$5=\"\",\"\",DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5)+11,1))"
+    },
+    {
+     "cell": "I18",
+     "formula": "=IF('Setup'!$R$5=\"\",\"\",DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5)+12,1))"
+    },
+    {
+     "cell": "C18",
+     "formula": "=IF(H18=\"\",\"\",H18)",
+     "number_format": "mmm yyyy"
+    },
+    {
+     "cell": "D18",
+     "formula": "=ROUND(SUMPRODUCT(('Monthly Costs'!$K$7:$K$36<=12)*('Monthly Costs'!$L$7:$L$36>=12)*'Monthly Costs'!$M$7:$M$36),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E18",
+     "formula": "=ROUND(IF(OR(H18=\"\",'Leave Planner'!C13=\"\"),0,'Leave Planner'!C25/7*((1-'Leave Planner'!C24)*MAX(0,MIN('Leave Planner'!C15,I18)-MAX('Leave Planner'!C14,H18))+MAX(0,MIN('Leave Planner'!C16,I18)-MAX('Leave Planner'!C15,H18))))+IF(OR(H18=\"\",'Leave Planner'!D13=\"\"),0,'Leave Planner'!D25/7*((1-'Leave Planner'!D24)*MAX(0,MIN('Leave Planner'!D15,I18)-MAX('Leave Planner'!D14,H18))+MAX(0,MIN('Leave Planner'!D16,I18)-MAX('Leave Planner'!D15,H18)))),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F18",
+     "formula": "=ROUND(D18+E18,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G18",
+     "formula": "=ROUND(SUM(F$7:F18),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B19",
+     "formula": "FIRST YEAR"
+    },
+    {
+     "cell": "D19",
+     "formula": "=ROUND(SUM(D7:D18),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E19",
+     "formula": "=ROUND(SUM(E7:E18),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F19",
+     "formula": "=ROUND(SUM(F7:F18),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B20",
+     "formula": "=IF('Setup'!$R$5=\"\",\"Add the due date on Setup to see the months.\",\"\")"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B6:G6",
+     "color": "F4F8FC"
+    },
+    {
+     "range": "C7:G18",
+     "color": "F9FBFD"
+    },
+    {
+     "range": "B19:G19",
+     "color": "E3ECF5"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B6:G19",
+     "color": "D8E1EC"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "2A3442"
+    },
+    {
+     "range": "B6:G6",
+     "bold": true,
+     "size": 10,
+     "color": "2A3442",
+     "align": "center",
+     "wrap": true
+    },
+    {
+     "range": "B7:B19",
+     "bold": true,
+     "size": 10,
+     "color": "2A3442"
+    },
+    {
+     "range": "C7:G19",
+     "size": 10,
+     "color": "2A3442",
+     "align": "center"
+    },
+    {
+     "range": "F7:F19",
+     "bold": true,
+     "size": 10,
+     "color": "2A3442",
+     "align": "center"
+    },
+    {
+     "range": "B19:G19",
+     "bold": true,
+     "size": 10,
+     "color": "2A3442",
+     "align": "center"
+    },
+    {
+     "range": "B20",
+     "italic": true,
+     "size": 9,
+     "color": "2A3442"
+    }
+   ],
+   "row_heights": {
+    "6": 30
+   },
+   "charts": [
+    {
+     "type": "bar",
+     "anchor": "B23",
+     "data": "First Year!D6:E18",
+     "categories": "First Year!B7:B18",
+     "width": 18,
+     "height": 7,
+     "colors": [
+      "5A7FA8",
+      "E8A0A0"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Gifts & Thank-Yous",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "E8A0A0",
+   "grid_rows": 160,
+   "grid_cols": 11,
+   "row_height": 20,
+   "freeze": "A8",
+   "column_widths": {
+    "A": 2.5,
+    "B": 13,
+    "C": 22,
+    "D": 26,
+    "E": 20,
+    "F": 12,
+    "G": 12,
+    "H": 24,
+    "I": 3,
+    "J": 3
+   },
+   "hidden_columns": [
+    "I",
+    "J"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:H2",
+     "label": "=\"GIFTS & THANK-YOUS\"",
+     "size": 16,
+     "color": "5A7FA8",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "kpi_cards": [
+    {
+     "anchor": "B4",
+     "span": [
+      2,
+      2
+     ],
+     "label": "GIFTS",
+     "value": "=SUM(I8:I157)",
+     "fill": "5A7FA8",
+     "font_color": "FFFFFF",
+     "value_size": 14,
+     "number_format": "0"
+    },
+    {
+     "anchor": "D4",
+     "span": [
+      2,
+      1
+     ],
+     "label": "THANK-YOUS TO SEND",
+     "value": "=SUM(J8:J157)",
+     "fill": "E8A0A0",
+     "font_color": "2A3442",
+     "value_size": 14,
+     "number_format": "0"
+    },
+    {
+     "anchor": "E4",
+     "span": [
+      2,
+      2
+     ],
+     "label": "TOTAL VALUE",
+     "value": "=ROUND(SUM(F8:F157),2)",
+     "fill": "E3ECF5",
+     "font_color": "2A3442",
+     "value_size": 14,
+     "number_format": "$#,##0.00"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Every gift, and who still needs a thank-you note."
+    },
+    {
+     "cell": "B7",
+     "formula": "Date"
+    },
+    {
+     "cell": "C7",
+     "formula": "From"
+    },
+    {
+     "cell": "D7",
+     "formula": "Gift"
+    },
+    {
+     "cell": "E7",
+     "formula": "Occasion"
+    },
+    {
+     "cell": "F7",
+     "formula": "Est. Value"
+    },
+    {
+     "cell": "G7",
+     "formula": "Thank-You Sent"
+    },
+    {
+     "cell": "H7",
+     "formula": "Notes"
+    },
+    {
+     "cell": "B8",
+     "formula": "=DATE(2026,10,18)"
+    },
+    {
+     "cell": "C8",
+     "formula": "Grandma & Grandpa"
+    },
+    {
+     "cell": "D8",
+     "formula": "Dresser & changing top"
+    },
+    {
+     "cell": "E8",
+     "formula": "Baby shower"
+    },
+    {
+     "cell": "F8",
+     "formula": 300
+    },
+    {
+     "cell": "B9",
+     "formula": "=DATE(2026,10,18)"
+    },
+    {
+     "cell": "C9",
+     "formula": "Aunt Maria"
+    },
+    {
+     "cell": "D9",
+     "formula": "Baby carrier"
+    },
+    {
+     "cell": "E9",
+     "formula": "Baby shower"
+    },
+    {
+     "cell": "F9",
+     "formula": 120
+    },
+    {
+     "cell": "B10",
+     "formula": "=DATE(2026,10,18)"
+    },
+    {
+     "cell": "C10",
+     "formula": "Work friends"
+    },
+    {
+     "cell": "D10",
+     "formula": "Diaper party haul"
+    },
+    {
+     "cell": "E10",
+     "formula": "Baby shower"
+    },
+    {
+     "cell": "F10",
+     "formula": 85
+    },
+    {
+     "cell": "B11",
+     "formula": "=DATE(2026,10,18)"
+    },
+    {
+     "cell": "C11",
+     "formula": "The Parkers"
+    },
+    {
+     "cell": "D11",
+     "formula": "Sound machine"
+    },
+    {
+     "cell": "E11",
+     "formula": "Baby shower"
+    },
+    {
+     "cell": "F11",
+     "formula": 30
+    },
+    {
+     "cell": "B12",
+     "formula": "=DATE(2026,10,18)"
+    },
+    {
+     "cell": "C12",
+     "formula": "Uncle Dave"
+    },
+    {
+     "cell": "D12",
+     "formula": "Cash"
+    },
+    {
+     "cell": "E12",
+     "formula": "Baby shower"
+    },
+    {
+     "cell": "F12",
+     "formula": 300
+    },
+    {
+     "cell": "H12",
+     "formula": "Went into Baby Fund"
+    },
+    {
+     "cell": "B13",
+     "formula": "=DATE(2026,10,25)"
+    },
+    {
+     "cell": "C13",
+     "formula": "Jess"
+    },
+    {
+     "cell": "D13",
+     "formula": "Bag of newborn clothes"
+    },
+    {
+     "cell": "E13",
+     "formula": "Visit"
+    },
+    {
+     "cell": "F13",
+     "formula": 80
+    },
+    {
+     "cell": "H13",
+     "formula": "Hand-me-downs"
+    },
+    {
+     "cell": "B14",
+     "formula": "=DATE(2026,11,2)"
+    },
+    {
+     "cell": "C14",
+     "formula": "Neighbors"
+    },
+    {
+     "cell": "D14",
+     "formula": "Towels & washcloths"
+    },
+    {
+     "cell": "E14",
+     "formula": "Mail"
+    },
+    {
+     "cell": "F14",
+     "formula": 25
+    },
+    {
+     "cell": "B15",
+     "formula": "=DATE(2026,11,9)"
+    },
+    {
+     "cell": "C15",
+     "formula": "Book club"
+    },
+    {
+     "cell": "D15",
+     "formula": "Baby book"
+    },
+    {
+     "cell": "E15",
+     "formula": "Mail"
+    },
+    {
+     "cell": "F15",
+     "formula": 25
+    },
+    {
+     "cell": "G8",
+     "formula": true
+    },
+    {
+     "cell": "G9",
+     "formula": true
+    },
+    {
+     "cell": "G10",
+     "formula": false
+    },
+    {
+     "cell": "G11",
+     "formula": false
+    },
+    {
+     "cell": "G12",
+     "formula": true
+    },
+    {
+     "cell": "G13",
+     "formula": true
+    },
+    {
+     "cell": "G14",
+     "formula": false
+    },
+    {
+     "cell": "G15",
+     "formula": false
+    },
+    {
+     "cell": "G16",
+     "formula": false
+    },
+    {
+     "cell": "G17",
+     "formula": false
+    },
+    {
+     "cell": "G18",
+     "formula": false
+    },
+    {
+     "cell": "G19",
+     "formula": false
+    },
+    {
+     "cell": "G20",
+     "formula": false
+    },
+    {
+     "cell": "G21",
+     "formula": false
+    },
+    {
+     "cell": "G22",
+     "formula": false
+    },
+    {
+     "cell": "G23",
+     "formula": false
+    },
+    {
+     "cell": "G24",
+     "formula": false
+    },
+    {
+     "cell": "G25",
+     "formula": false
+    },
+    {
+     "cell": "G26",
+     "formula": false
+    },
+    {
+     "cell": "G27",
+     "formula": false
+    },
+    {
+     "cell": "G28",
+     "formula": false
+    },
+    {
+     "cell": "G29",
+     "formula": false
+    },
+    {
+     "cell": "G30",
+     "formula": false
+    },
+    {
+     "cell": "G31",
+     "formula": false
+    },
+    {
+     "cell": "G32",
+     "formula": false
+    },
+    {
+     "cell": "G33",
+     "formula": false
+    },
+    {
+     "cell": "G34",
+     "formula": false
+    },
+    {
+     "cell": "G35",
+     "formula": false
+    },
+    {
+     "cell": "G36",
+     "formula": false
+    },
+    {
+     "cell": "G37",
+     "formula": false
+    },
+    {
+     "cell": "G38",
+     "formula": false
+    },
+    {
+     "cell": "G39",
+     "formula": false
+    },
+    {
+     "cell": "G40",
+     "formula": false
+    },
+    {
+     "cell": "G41",
+     "formula": false
+    },
+    {
+     "cell": "G42",
+     "formula": false
+    },
+    {
+     "cell": "G43",
+     "formula": false
+    },
+    {
+     "cell": "G44",
+     "formula": false
+    },
+    {
+     "cell": "G45",
+     "formula": false
+    },
+    {
+     "cell": "G46",
+     "formula": false
+    },
+    {
+     "cell": "G47",
+     "formula": false
+    },
+    {
+     "cell": "G48",
+     "formula": false
+    },
+    {
+     "cell": "G49",
+     "formula": false
+    },
+    {
+     "cell": "G50",
+     "formula": false
+    },
+    {
+     "cell": "G51",
+     "formula": false
+    },
+    {
+     "cell": "G52",
+     "formula": false
+    },
+    {
+     "cell": "G53",
+     "formula": false
+    },
+    {
+     "cell": "G54",
+     "formula": false
+    },
+    {
+     "cell": "G55",
+     "formula": false
+    },
+    {
+     "cell": "G56",
+     "formula": false
+    },
+    {
+     "cell": "G57",
+     "formula": false
+    },
+    {
+     "cell": "G58",
+     "formula": false
+    },
+    {
+     "cell": "G59",
+     "formula": false
+    },
+    {
+     "cell": "G60",
+     "formula": false
+    },
+    {
+     "cell": "G61",
+     "formula": false
+    },
+    {
+     "cell": "G62",
+     "formula": false
+    },
+    {
+     "cell": "G63",
+     "formula": false
+    },
+    {
+     "cell": "G64",
+     "formula": false
+    },
+    {
+     "cell": "G65",
+     "formula": false
+    },
+    {
+     "cell": "G66",
+     "formula": false
+    },
+    {
+     "cell": "G67",
+     "formula": false
+    },
+    {
+     "cell": "G68",
+     "formula": false
+    },
+    {
+     "cell": "G69",
+     "formula": false
+    },
+    {
+     "cell": "G70",
+     "formula": false
+    },
+    {
+     "cell": "G71",
+     "formula": false
+    },
+    {
+     "cell": "G72",
+     "formula": false
+    },
+    {
+     "cell": "G73",
+     "formula": false
+    },
+    {
+     "cell": "G74",
+     "formula": false
+    },
+    {
+     "cell": "G75",
+     "formula": false
+    },
+    {
+     "cell": "G76",
+     "formula": false
+    },
+    {
+     "cell": "G77",
+     "formula": false
+    },
+    {
+     "cell": "G78",
+     "formula": false
+    },
+    {
+     "cell": "G79",
+     "formula": false
+    },
+    {
+     "cell": "G80",
+     "formula": false
+    },
+    {
+     "cell": "G81",
+     "formula": false
+    },
+    {
+     "cell": "G82",
+     "formula": false
+    },
+    {
+     "cell": "G83",
+     "formula": false
+    },
+    {
+     "cell": "G84",
+     "formula": false
+    },
+    {
+     "cell": "G85",
+     "formula": false
+    },
+    {
+     "cell": "G86",
+     "formula": false
+    },
+    {
+     "cell": "G87",
+     "formula": false
+    },
+    {
+     "cell": "G88",
+     "formula": false
+    },
+    {
+     "cell": "G89",
+     "formula": false
+    },
+    {
+     "cell": "G90",
+     "formula": false
+    },
+    {
+     "cell": "G91",
+     "formula": false
+    },
+    {
+     "cell": "G92",
+     "formula": false
+    },
+    {
+     "cell": "G93",
+     "formula": false
+    },
+    {
+     "cell": "G94",
+     "formula": false
+    },
+    {
+     "cell": "G95",
+     "formula": false
+    },
+    {
+     "cell": "G96",
+     "formula": false
+    },
+    {
+     "cell": "G97",
+     "formula": false
+    },
+    {
+     "cell": "G98",
+     "formula": false
+    },
+    {
+     "cell": "G99",
+     "formula": false
+    },
+    {
+     "cell": "G100",
+     "formula": false
+    },
+    {
+     "cell": "G101",
+     "formula": false
+    },
+    {
+     "cell": "G102",
+     "formula": false
+    },
+    {
+     "cell": "G103",
+     "formula": false
+    },
+    {
+     "cell": "G104",
+     "formula": false
+    },
+    {
+     "cell": "G105",
+     "formula": false
+    },
+    {
+     "cell": "G106",
+     "formula": false
+    },
+    {
+     "cell": "G107",
+     "formula": false
+    },
+    {
+     "cell": "G108",
+     "formula": false
+    },
+    {
+     "cell": "G109",
+     "formula": false
+    },
+    {
+     "cell": "G110",
+     "formula": false
+    },
+    {
+     "cell": "G111",
+     "formula": false
+    },
+    {
+     "cell": "G112",
+     "formula": false
+    },
+    {
+     "cell": "G113",
+     "formula": false
+    },
+    {
+     "cell": "G114",
+     "formula": false
+    },
+    {
+     "cell": "G115",
+     "formula": false
+    },
+    {
+     "cell": "G116",
+     "formula": false
+    },
+    {
+     "cell": "G117",
+     "formula": false
+    },
+    {
+     "cell": "G118",
+     "formula": false
+    },
+    {
+     "cell": "G119",
+     "formula": false
+    },
+    {
+     "cell": "G120",
+     "formula": false
+    },
+    {
+     "cell": "G121",
+     "formula": false
+    },
+    {
+     "cell": "G122",
+     "formula": false
+    },
+    {
+     "cell": "G123",
+     "formula": false
+    },
+    {
+     "cell": "G124",
+     "formula": false
+    },
+    {
+     "cell": "G125",
+     "formula": false
+    },
+    {
+     "cell": "G126",
+     "formula": false
+    },
+    {
+     "cell": "G127",
+     "formula": false
+    },
+    {
+     "cell": "G128",
+     "formula": false
+    },
+    {
+     "cell": "G129",
+     "formula": false
+    },
+    {
+     "cell": "G130",
+     "formula": false
+    },
+    {
+     "cell": "G131",
+     "formula": false
+    },
+    {
+     "cell": "G132",
+     "formula": false
+    },
+    {
+     "cell": "G133",
+     "formula": false
+    },
+    {
+     "cell": "G134",
+     "formula": false
+    },
+    {
+     "cell": "G135",
+     "formula": false
+    },
+    {
+     "cell": "G136",
+     "formula": false
+    },
+    {
+     "cell": "G137",
+     "formula": false
+    },
+    {
+     "cell": "G138",
+     "formula": false
+    },
+    {
+     "cell": "G139",
+     "formula": false
+    },
+    {
+     "cell": "G140",
+     "formula": false
+    },
+    {
+     "cell": "G141",
+     "formula": false
+    },
+    {
+     "cell": "G142",
+     "formula": false
+    },
+    {
+     "cell": "G143",
+     "formula": false
+    },
+    {
+     "cell": "G144",
+     "formula": false
+    },
+    {
+     "cell": "G145",
+     "formula": false
+    },
+    {
+     "cell": "G146",
+     "formula": false
+    },
+    {
+     "cell": "G147",
+     "formula": false
+    },
+    {
+     "cell": "G148",
+     "formula": false
+    },
+    {
+     "cell": "G149",
+     "formula": false
+    },
+    {
+     "cell": "G150",
+     "formula": false
+    },
+    {
+     "cell": "G151",
+     "formula": false
+    },
+    {
+     "cell": "G152",
+     "formula": false
+    },
+    {
+     "cell": "G153",
+     "formula": false
+    },
+    {
+     "cell": "G154",
+     "formula": false
+    },
+    {
+     "cell": "G155",
+     "formula": false
+    },
+    {
+     "cell": "G156",
+     "formula": false
+    },
+    {
+     "cell": "G157",
+     "formula": false
+    },
+    {
+     "col": "I",
+     "range_rows": [
+      8,
+      157
+     ],
+     "formula": "=IF(AND(TRIM(C{row}&\"\")=\"\",TRIM(D{row}&\"\")=\"\"),0,1)"
+    },
+    {
+     "col": "J",
+     "range_rows": [
+      8,
+      157
+     ],
+     "formula": "=IF(AND(I{row}=1,G{row}<>TRUE),1,0)"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "G8:G157",
+     "type": "formula",
+     "formula": [
+      "$J8=1"
+     ],
+     "fill": "FFF1C2"
+    },
+    {
+     "range": "G8:G157",
+     "type": "formula",
+     "formula": [
+      "AND($I8=1,$G8=TRUE)"
+     ],
+     "fill": "D7EFDD"
+    },
+    {
+     "range": "B8:B157",
+     "type": "formula",
+     "formula": [
+      "AND(B8<>\"\",OR(NOT(ISNUMBER(B8)),N(B8)<1))"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "F8:F157",
+     "type": "formula",
+     "formula": [
+      "OR(AND(F8<>\"\",NOT(ISNUMBER(F8))),N(F8)<0)"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B7:H7",
+     "color": "F4F8FC"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B4:C5",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "D4:D5",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "E4:F5",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "B7:H157",
+     "color": "D8E1EC"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "2A3442"
+    },
+    {
+     "range": "B7:H7",
+     "bold": true,
+     "size": 10,
+     "color": "2A3442",
+     "align": "center",
+     "wrap": true
+    },
+    {
+     "range": "B8:B157",
+     "size": 10,
+     "color": "2A3442",
+     "align": "center"
+    },
+    {
+     "range": "E8:G157",
+     "size": 10,
+     "color": "2A3442",
+     "align": "center"
+    }
+   ],
+   "validations": [
+    {
+     "range": "E8:E157",
+     "type": "list",
+     "values": [
+      "Baby shower",
+      "Sprinkle",
+      "Visit",
+      "Mail",
+      "Hospital",
+      "Other"
+     ],
+     "strict": false
+    },
+    {
+     "range": "G8:G157",
+     "type": "checkbox"
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "B8:B157",
+     "format": "mmm d, yyyy"
+    },
+    {
+     "range": "F8:F157",
+     "format": "$#,##0.00"
+    }
+   ]
+  }
+ ]
+}
