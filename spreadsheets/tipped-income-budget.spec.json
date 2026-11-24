@@ -1,0 +1,7495 @@
+{
+ "filename": "Tipped Income Budget",
+ "locale": "en_US",
+ "theme": {
+  "header_font": "FFFFFF",
+  "border": "E1D9CF",
+  "accent": "3D2C3E",
+  "section_colors": [
+   "3D2C3E",
+   "EDE6DD",
+   "F8F5F1"
+  ],
+  "chart_palette": [
+   "9E3B4F",
+   "D9A441",
+   "3D2C3E",
+   "C98A97",
+   "EBCB8B",
+   "7A6A7C",
+   "B5A99A",
+   "E8B4BF"
+  ]
+ },
+ "tabs": [
+  {
+   "name": "Start Here",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "3D2C3E",
+   "grid_rows": 32,
+   "column_widths": {
+    "A": 2.5,
+    "B": 22,
+    "C": 100,
+    "D": 2.5
+   },
+   "section_bars": [
+    {
+     "range": "B2:C2",
+     "label": "TIPPED INCOME BUDGET",
+     "size": 18,
+     "color": "3D2C3E",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "B5:C5",
+     "label": "HOW TO USE IT",
+     "color": "EDE6DD",
+     "font_color": "2A2230",
+     "align": "left"
+    },
+    {
+     "range": "B13:C13",
+     "label": "GOOD TO KNOW",
+     "color": "9E3B4F",
+     "font_color": "FFFFFF",
+     "align": "left"
+    },
+    {
+     "range": "B21:C21",
+     "label": "COLOR GUIDE",
+     "color": "EDE6DD",
+     "font_color": "2A2230",
+     "align": "left"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "For servers and bartenders: track every shift, know your real hourly rate, and budget with confidence."
+    },
+    {
+     "cell": "B6",
+     "formula": "1. Setup: the year, how much of your income to set aside for taxes, your jobs with their hourly wage, and your shift types."
+    },
+    {
+     "cell": "B7",
+     "formula": "2. Budget: your monthly bills and spending. Their total becomes your monthly income goal (or type your own goal on Setup)."
+    },
+    {
+     "cell": "B8",
+     "formula": "3. Shifts: after every shift, log the hours, sales, cash tips, card tips and what you tipped out."
+    },
+    {
+     "cell": "B9",
+     "formula": "4. Monthly: income, hours and dollars per hour for every month, with taxes set aside and how you did against your goal."
+    },
+    {
+     "cell": "B10",
+     "formula": "5. Best Shifts: which days, shifts and jobs pay the most per hour. Use it to pick up the right shifts."
+    },
+    {
+     "cell": "B11",
+     "formula": "6. Dashboard: this month at a glance, including how many more shifts you need to hit your goal."
+    },
+    {
+     "cell": "B14",
+     "formula": "Hourly wage"
+    },
+    {
+     "cell": "C14",
+     "formula": "Leave it blank on a shift to use the job's wage from Setup. Type it to override (like a training shift)."
+    },
+    {
+     "cell": "B15",
+     "formula": "Net tips"
+    },
+    {
+     "cell": "C15",
+     "formula": "Cash tips + card tips - tip-out. Tip-out is what you share with bussers, bartenders or hosts."
+    },
+    {
+     "cell": "B16",
+     "formula": "Tip %"
+    },
+    {
+     "cell": "C16",
+     "formula": "Your tips (before tip-out) divided by your sales. Leave Sales blank if you don't track it."
+    },
+    {
+     "cell": "B17",
+     "formula": "Taxes"
+    },
+    {
+     "cell": "C17",
+     "formula": "Tips are taxable income. Setting aside a % of every shift keeps tax time stress-free."
+    },
+    {
+     "cell": "B18",
+     "formula": "Shifts needed"
+    },
+    {
+     "cell": "C18",
+     "formula": "What's left of your goal this month, divided by your average take-home per shift this year."
+    },
+    {
+     "cell": "B19",
+     "formula": "Start fresh"
+    },
+    {
+     "cell": "C19",
+     "formula": "Clear the white cells on Shifts and Budget, then update Setup."
+    },
+    {
+     "cell": "C22",
+     "formula": "White cells: type here."
+    },
+    {
+     "cell": "C23",
+     "formula": "Tinted cells: these calculate for you."
+    },
+    {
+     "cell": "C24",
+     "formula": "Green: goal reached, or your best-paying option."
+    },
+    {
+     "cell": "C25",
+     "formula": "Yellow: getting close."
+    },
+    {
+     "cell": "C26",
+     "formula": "Red: below goal, or something to check."
+    },
+    {
+     "cell": "B28",
+     "formula": "Thank you for your purchase! Here's to big tip nights."
+    }
+   ],
+   "fills": [
+    {
+     "range": "B14:C19",
+     "color": "F3DCE1"
+    },
+    {
+     "range": "B22",
+     "color": "FFFFFF"
+    },
+    {
+     "range": "B23",
+     "color": "FBF9F6"
+    },
+    {
+     "range": "B24",
+     "color": "D7EFDD"
+    },
+    {
+     "range": "B25",
+     "color": "FFF1C2"
+    },
+    {
+     "range": "B26",
+     "color": "F6CACA"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B22",
+     "color": "E1D9CF"
+    },
+    {
+     "range": "B23",
+     "color": "E1D9CF"
+    },
+    {
+     "range": "B24",
+     "color": "E1D9CF"
+    },
+    {
+     "range": "B25",
+     "color": "E1D9CF"
+    },
+    {
+     "range": "B26",
+     "color": "E1D9CF"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 11,
+     "color": "2A2230"
+    },
+    {
+     "range": "B14:B19",
+     "bold": true,
+     "size": 11,
+     "color": "2A2230"
+    },
+    {
+     "range": "B28",
+     "italic": true,
+     "bold": true,
+     "size": 11,
+     "color": "3D2C3E"
+    }
+   ]
+  },
+  {
+   "name": "Dashboard",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "3D2C3E",
+   "grid_rows": 47,
+   "grid_cols": 11,
+   "row_height": 20,
+   "column_widths": {
+    "A": 2.5,
+    "B": 20,
+    "C": 13,
+    "D": 14,
+    "E": 14,
+    "F": 3,
+    "G": 24,
+    "H": 15,
+    "I": 15,
+    "J": 2.5
+   },
+   "section_bars": [
+    {
+     "range": "B2:I2",
+     "label": "=\"TIPPED INCOME DASHBOARD\"",
+     "size": 16,
+     "color": "3D2C3E",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "B13:E13",
+     "label": "YOUR BEST DAYS (THIS YEAR)",
+     "color": "EDE6DD",
+     "font_color": "2A2230",
+     "align": "center"
+    },
+    {
+     "range": "G13:I13",
+     "label": "THIS MONTH'S MONEY",
+     "color": "9E3B4F",
+     "font_color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "B23:I23",
+     "label": "INCOME BY MONTH",
+     "color": "EDE6DD",
+     "font_color": "2A2230",
+     "align": "center"
+    }
+   ],
+   "kpi_cards": [
+    {
+     "anchor": "B5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "EARNED THIS MONTH",
+     "value": "=INDEX('Monthly'!$J$7:$J$18,'Setup'!$R$5)",
+     "fill": "3D2C3E",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "D5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "AFTER TAXES",
+     "value": "=INDEX('Monthly'!$M$7:$M$18,'Setup'!$R$5)",
+     "fill": "EDE6DD",
+     "font_color": "2A2230",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "F5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "MONTHLY GOAL",
+     "value": "=INDEX('Monthly'!$N$7:$N$18,'Setup'!$R$5)",
+     "fill": "F8F5F1",
+     "font_color": "2A2230",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "H5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "STILL NEEDED",
+     "value": "=MAX(0,ROUND(INDEX('Monthly'!$N$7:$N$18,'Setup'!$R$5)-INDEX('Monthly'!$M$7:$M$18,'Setup'!$R$5),2))",
+     "fill": "9E3B4F",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "B9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "PER HOUR THIS MONTH",
+     "value": "=IF(INDEX('Monthly'!$K$7:$K$18,'Setup'!$R$5)=\"\",\"-\",INDEX('Monthly'!$K$7:$K$18,'Setup'!$R$5))",
+     "fill": "F8F5F1",
+     "font_color": "2A2230",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "D9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "AVG PER SHIFT (YEAR)",
+     "value": "=ROUND(IF('Monthly'!$C$19=0,0,'Monthly'!$M$19/'Monthly'!$C$19),2)",
+     "fill": "F8F5F1",
+     "font_color": "2A2230",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "F9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "SHIFTS STILL NEEDED",
+     "value": "=IF(MAX(0,ROUND(INDEX('Monthly'!$N$7:$N$18,'Setup'!$R$5)-INDEX('Monthly'!$M$7:$M$18,'Setup'!$R$5),2))=0,0,IF(IF('Monthly'!$C$19=0,0,'Monthly'!$M$19/'Monthly'!$C$19)<=0,\"-\",ROUNDUP(MAX(0,ROUND(INDEX('Monthly'!$N$7:$N$18,'Setup'!$R$5)-INDEX('Monthly'!$M$7:$M$18,'Setup'!$R$5),2))/IF('Monthly'!$C$19=0,0,'Monthly'!$M$19/'Monthly'!$C$19),0)))",
+     "fill": "D9A441",
+     "font_color": "2A2230",
+     "value_size": 16,
+     "number_format": "0"
+    },
+    {
+     "anchor": "H9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "TAXES SET ASIDE (YEAR)",
+     "value": "='Monthly'!$L$19",
+     "fill": "F8F5F1",
+     "font_color": "2A2230",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "=INDEX('Monthly'!$B$7:$B$18,'Setup'!$R$5)&\" \"&'Setup'!$R$4&\": \"&INDEX('Monthly'!$C$7:$C$18,'Setup'!$R$5)&\" shifts, \"&TEXT(INDEX('Monthly'!$D$7:$D$18,'Setup'!$R$5),\"0.0\")&\" hours so far.\""
+    },
+    {
+     "cell": "B14",
+     "formula": "Best Days"
+    },
+    {
+     "cell": "C14",
+     "formula": "Shifts"
+    },
+    {
+     "cell": "D14",
+     "formula": "Per Shift"
+    },
+    {
+     "cell": "E14",
+     "formula": "Per Hour"
+    },
+    {
+     "cell": "B15",
+     "formula": "Monday"
+    },
+    {
+     "cell": "C15",
+     "formula": "='Best Shifts'!C7",
+     "number_format": "0"
+    },
+    {
+     "cell": "D15",
+     "formula": "='Best Shifts'!F7",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E15",
+     "formula": "='Best Shifts'!G7",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B16",
+     "formula": "Tuesday"
+    },
+    {
+     "cell": "C16",
+     "formula": "='Best Shifts'!C8",
+     "number_format": "0"
+    },
+    {
+     "cell": "D16",
+     "formula": "='Best Shifts'!F8",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E16",
+     "formula": "='Best Shifts'!G8",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B17",
+     "formula": "Wednesday"
+    },
+    {
+     "cell": "C17",
+     "formula": "='Best Shifts'!C9",
+     "number_format": "0"
+    },
+    {
+     "cell": "D17",
+     "formula": "='Best Shifts'!F9",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E17",
+     "formula": "='Best Shifts'!G9",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B18",
+     "formula": "Thursday"
+    },
+    {
+     "cell": "C18",
+     "formula": "='Best Shifts'!C10",
+     "number_format": "0"
+    },
+    {
+     "cell": "D18",
+     "formula": "='Best Shifts'!F10",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E18",
+     "formula": "='Best Shifts'!G10",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B19",
+     "formula": "Friday"
+    },
+    {
+     "cell": "C19",
+     "formula": "='Best Shifts'!C11",
+     "number_format": "0"
+    },
+    {
+     "cell": "D19",
+     "formula": "='Best Shifts'!F11",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E19",
+     "formula": "='Best Shifts'!G11",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B20",
+     "formula": "Saturday"
+    },
+    {
+     "cell": "C20",
+     "formula": "='Best Shifts'!C12",
+     "number_format": "0"
+    },
+    {
+     "cell": "D20",
+     "formula": "='Best Shifts'!F12",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E20",
+     "formula": "='Best Shifts'!G12",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B21",
+     "formula": "Sunday"
+    },
+    {
+     "cell": "C21",
+     "formula": "='Best Shifts'!C13",
+     "number_format": "0"
+    },
+    {
+     "cell": "D21",
+     "formula": "='Best Shifts'!F13",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E21",
+     "formula": "='Best Shifts'!G13",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G14",
+     "formula": "This Month"
+    },
+    {
+     "cell": "H14",
+     "formula": "Amount"
+    },
+    {
+     "cell": "G15",
+     "formula": "Wages"
+    },
+    {
+     "cell": "H15",
+     "formula": "=INDEX('Monthly'!$E$7:$E$18,'Setup'!$R$5)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G16",
+     "formula": "Cash tips"
+    },
+    {
+     "cell": "H16",
+     "formula": "=INDEX('Monthly'!$F$7:$F$18,'Setup'!$R$5)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G17",
+     "formula": "Card tips"
+    },
+    {
+     "cell": "H17",
+     "formula": "=INDEX('Monthly'!$G$7:$G$18,'Setup'!$R$5)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G18",
+     "formula": "Tipped out"
+    },
+    {
+     "cell": "H18",
+     "formula": "=-INDEX('Monthly'!$H$7:$H$18,'Setup'!$R$5)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "G19",
+     "formula": "Set aside for taxes"
+    },
+    {
+     "cell": "H19",
+     "formula": "=-INDEX('Monthly'!$L$7:$L$18,'Setup'!$R$5)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "G20",
+     "formula": "Take-home"
+    },
+    {
+     "cell": "H20",
+     "formula": "=INDEX('Monthly'!$M$7:$M$18,'Setup'!$R$5)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G21",
+     "formula": "=IF(INDEX('Monthly'!$N$7:$N$18,'Setup'!$R$5)<=0,\"\",REPT(\"█\",ROUND(MIN(1,MAX(0,INDEX('Monthly'!$M$7:$M$18,'Setup'!$R$5)/INDEX('Monthly'!$N$7:$N$18,'Setup'!$R$5)))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,INDEX('Monthly'!$M$7:$M$18,'Setup'!$R$5)/INDEX('Monthly'!$N$7:$N$18,'Setup'!$R$5)))*10,0))&\"  \"&TEXT(INDEX('Monthly'!$M$7:$M$18,'Setup'!$R$5)/INDEX('Monthly'!$N$7:$N$18,'Setup'!$R$5),\"0%\")&\" of goal\")"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "E15:E21",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER(E15),E15=MAX($E$15:$E$21))"
+     ],
+     "fill": "D7EFDD"
+    },
+    {
+     "range": "H6:I7",
+     "type": "formula",
+     "formula": [
+      "N($H$6)=0"
+     ],
+     "fill": "D7EFDD"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:C7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "D5:E7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "F5:G7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "H5:I7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "B9:C11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "D9:E11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "F9:G11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "H9:I11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "B14:E21",
+     "color": "E1D9CF"
+    },
+    {
+     "range": "G14:H20",
+     "color": "E1D9CF"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B14:E14",
+     "color": "F8F5F1"
+    },
+    {
+     "range": "C15:E21",
+     "color": "FBF9F6"
+    },
+    {
+     "range": "G14:H14",
+     "color": "F3DCE1"
+    },
+    {
+     "range": "H15:H20",
+     "color": "FBF9F6"
+    },
+    {
+     "range": "G20:H20",
+     "color": "EDE6DD"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "2A2230"
+    },
+    {
+     "range": "B14:E14",
+     "bold": true,
+     "size": 10,
+     "color": "2A2230",
+     "align": "center"
+    },
+    {
+     "range": "B15:B21",
+     "bold": true,
+     "size": 10,
+     "color": "2A2230"
+    },
+    {
+     "range": "C15:E21",
+     "size": 10,
+     "color": "2A2230",
+     "align": "center"
+    },
+    {
+     "range": "G14:H14",
+     "bold": true,
+     "size": 10,
+     "color": "2A2230",
+     "align": "center"
+    },
+    {
+     "range": "G15:G20",
+     "bold": true,
+     "size": 10,
+     "color": "2A2230"
+    },
+    {
+     "range": "H15:H20",
+     "size": 11,
+     "color": "2A2230",
+     "align": "center"
+    },
+    {
+     "range": "G20:H20",
+     "bold": true,
+     "size": 11,
+     "color": "2A2230",
+     "align": "center"
+    },
+    {
+     "range": "G21",
+     "size": 10,
+     "color": "9E3B4F",
+     "bold": true
+    }
+   ],
+   "charts": [
+    {
+     "type": "bar",
+     "anchor": "B24",
+     "data": "Monthly!J6:J18",
+     "categories": "Monthly!B7:B18",
+     "width": 24,
+     "height": 7,
+     "colors": [
+      "9E3B4F"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Setup",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "3D2C3E",
+   "grid_rows": 23,
+   "grid_cols": 22,
+   "row_height": 21,
+   "column_widths": {
+    "A": 2.5,
+    "B": 30,
+    "C": 14,
+    "D": 30,
+    "E": 3,
+    "F": 20,
+    "G": 2.5,
+    "R": 10,
+    "S": 3,
+    "T": 3,
+    "U": 3
+   },
+   "hidden_columns": [
+    "R",
+    "S",
+    "T",
+    "U"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:F2",
+     "label": "=\"SETUP\"",
+     "size": 16,
+     "color": "3D2C3E",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "B10:D10",
+     "label": "YOUR JOBS",
+     "color": "9E3B4F",
+     "font_color": "FFFFFF",
+     "align": "left"
+    },
+    {
+     "range": "F10:G10",
+     "label": "SHIFTS",
+     "color": "EDE6DD",
+     "font_color": "2A2230",
+     "align": "left"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "The basics. Everything else uses these."
+    },
+    {
+     "cell": "B4",
+     "formula": "Year"
+    },
+    {
+     "cell": "D4",
+     "formula": "Blank = this year."
+    },
+    {
+     "cell": "B5",
+     "formula": "Today's date"
+    },
+    {
+     "cell": "D5",
+     "formula": "Optional: pick a date to preview that month. Blank = today."
+    },
+    {
+     "cell": "B6",
+     "formula": "Set aside for taxes %"
+    },
+    {
+     "cell": "D6",
+     "formula": "Of everything you earn. Blank = 0."
+    },
+    {
+     "cell": "B7",
+     "formula": "Monthly income goal (after taxes)"
+    },
+    {
+     "cell": "D7",
+     "formula": "Blank = your Budget total."
+    },
+    {
+     "cell": "R4",
+     "formula": "=IF(AND(ISNUMBER(C4),N(C4)>=1900,N(C4)<=9999),INT(C4),YEAR(TODAY()))"
+    },
+    {
+     "cell": "R8",
+     "formula": "=IF(AND(ISNUMBER(C5),N(C5)>=1),INT(C5),TODAY())",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "R5",
+     "formula": "=IF(YEAR(R8)=R4,MONTH(R8),IF(YEAR(R8)>R4,12,1))"
+    },
+    {
+     "cell": "R6",
+     "formula": "=MIN(1,MAX(0,IF(N(C6)>=1,N(C6)/100,N(C6))))"
+    },
+    {
+     "cell": "R7",
+     "formula": "=IF(N(C7)>0,N(C7),'Budget'!$C$37)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "C4",
+     "formula": 2027
+    },
+    {
+     "cell": "C5",
+     "formula": "=DATE(2027,5,18)"
+    },
+    {
+     "cell": "C6",
+     "formula": 15
+    },
+    {
+     "cell": "B11",
+     "formula": "Job"
+    },
+    {
+     "cell": "C11",
+     "formula": "Hourly Wage"
+    },
+    {
+     "cell": "D11",
+     "formula": "Notes"
+    },
+    {
+     "cell": "F11",
+     "formula": "Shift Types"
+    },
+    {
+     "cell": "B12",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "C12",
+     "formula": 2.13
+    },
+    {
+     "cell": "D12",
+     "formula": "Server"
+    },
+    {
+     "cell": "S12",
+     "formula": "=IF(TRIM(B12&\"\")=\"\",\"\",LOWER(TRIM(B12&\"\")))"
+    },
+    {
+     "cell": "U12",
+     "formula": "=MAX(0,N(C12))"
+    },
+    {
+     "cell": "B13",
+     "formula": "Harbor Bar"
+    },
+    {
+     "cell": "C13",
+     "formula": 5.0
+    },
+    {
+     "cell": "D13",
+     "formula": "Bartender, weekends"
+    },
+    {
+     "cell": "S13",
+     "formula": "=IF(TRIM(B13&\"\")=\"\",\"\",LOWER(TRIM(B13&\"\")))"
+    },
+    {
+     "cell": "U13",
+     "formula": "=MAX(0,N(C13))"
+    },
+    {
+     "cell": "S14",
+     "formula": "=IF(TRIM(B14&\"\")=\"\",\"\",LOWER(TRIM(B14&\"\")))"
+    },
+    {
+     "cell": "U14",
+     "formula": "=MAX(0,N(C14))"
+    },
+    {
+     "cell": "S15",
+     "formula": "=IF(TRIM(B15&\"\")=\"\",\"\",LOWER(TRIM(B15&\"\")))"
+    },
+    {
+     "cell": "U15",
+     "formula": "=MAX(0,N(C15))"
+    },
+    {
+     "cell": "S16",
+     "formula": "=IF(TRIM(B16&\"\")=\"\",\"\",LOWER(TRIM(B16&\"\")))"
+    },
+    {
+     "cell": "U16",
+     "formula": "=MAX(0,N(C16))"
+    },
+    {
+     "cell": "S17",
+     "formula": "=IF(TRIM(B17&\"\")=\"\",\"\",LOWER(TRIM(B17&\"\")))"
+    },
+    {
+     "cell": "U17",
+     "formula": "=MAX(0,N(C17))"
+    },
+    {
+     "cell": "F12",
+     "formula": "Lunch"
+    },
+    {
+     "cell": "T12",
+     "formula": "=IF(TRIM(F12&\"\")=\"\",\"\",LOWER(TRIM(F12&\"\")))"
+    },
+    {
+     "cell": "F13",
+     "formula": "Dinner"
+    },
+    {
+     "cell": "T13",
+     "formula": "=IF(TRIM(F13&\"\")=\"\",\"\",LOWER(TRIM(F13&\"\")))"
+    },
+    {
+     "cell": "F14",
+     "formula": "Brunch"
+    },
+    {
+     "cell": "T14",
+     "formula": "=IF(TRIM(F14&\"\")=\"\",\"\",LOWER(TRIM(F14&\"\")))"
+    },
+    {
+     "cell": "F15",
+     "formula": "Bar"
+    },
+    {
+     "cell": "T15",
+     "formula": "=IF(TRIM(F15&\"\")=\"\",\"\",LOWER(TRIM(F15&\"\")))"
+    },
+    {
+     "cell": "F16",
+     "formula": "Late night"
+    },
+    {
+     "cell": "T16",
+     "formula": "=IF(TRIM(F16&\"\")=\"\",\"\",LOWER(TRIM(F16&\"\")))"
+    },
+    {
+     "cell": "F17",
+     "formula": "Private event"
+    },
+    {
+     "cell": "T17",
+     "formula": "=IF(TRIM(F17&\"\")=\"\",\"\",LOWER(TRIM(F17&\"\")))"
+    },
+    {
+     "cell": "F18",
+     "formula": "Other"
+    },
+    {
+     "cell": "T18",
+     "formula": "=IF(TRIM(F18&\"\")=\"\",\"\",LOWER(TRIM(F18&\"\")))"
+    },
+    {
+     "cell": "T19",
+     "formula": "=IF(TRIM(F19&\"\")=\"\",\"\",LOWER(TRIM(F19&\"\")))"
+    },
+    {
+     "cell": "B20",
+     "formula": "=\"Your monthly goal: \"&TEXT(R7,\"$#,##0\")&\" after taxes. Taxes set aside: \"&TEXT(R6,\"0%\")&\" of each shift.\""
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "C5",
+     "type": "formula",
+     "formula": [
+      "AND(C5<>\"\",OR(NOT(ISNUMBER(C5)),N(C5)<1))"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C6:C7",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C6<>\"\",NOT(ISNUMBER(C6))),N(C6)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C12:C17",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C12<>\"\",NOT(ISNUMBER(C12))),N(C12)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C4",
+     "type": "formula",
+     "formula": [
+      "AND(C4<>\"\",OR(NOT(ISNUMBER(C4)),N(C4)<1900,N(C4)>9999))"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "B12:B17",
+     "type": "formula",
+     "formula": [
+      "AND($S12<>\"\",COUNTIF($S$12:$S$17,$S12)>1)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "F12:F19",
+     "type": "formula",
+     "formula": [
+      "AND($T12<>\"\",COUNTIF($T$12:$T$19,$T12)>1)"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B11:D11",
+     "color": "F8F5F1"
+    },
+    {
+     "range": "F11",
+     "color": "F8F5F1"
+    }
+   ],
+   "borders": [
+    {
+     "range": "C4:C7",
+     "color": "E1D9CF",
+     "style": "medium"
+    },
+    {
+     "range": "B11:D17",
+     "color": "E1D9CF"
+    },
+    {
+     "range": "F11:F19",
+     "color": "E1D9CF"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "2A2230"
+    },
+    {
+     "range": "B4:B7",
+     "bold": true,
+     "size": 10,
+     "color": "2A2230"
+    },
+    {
+     "range": "D4:D7",
+     "italic": true,
+     "size": 9,
+     "color": "2A2230"
+    },
+    {
+     "range": "C4:C7",
+     "bold": true,
+     "size": 11,
+     "color": "2A2230",
+     "align": "center"
+    },
+    {
+     "range": "B11:F11",
+     "bold": true,
+     "size": 10,
+     "color": "2A2230",
+     "align": "center"
+    },
+    {
+     "range": "C12:C17",
+     "size": 10,
+     "color": "2A2230",
+     "align": "center"
+    },
+    {
+     "range": "B20",
+     "bold": true,
+     "italic": true,
+     "size": 10,
+     "color": "9E3B4F"
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "C4",
+     "format": "0"
+    },
+    {
+     "range": "C5",
+     "format": "mmm d, yyyy"
+    },
+    {
+     "range": "C7",
+     "format": "$#,##0.00"
+    },
+    {
+     "range": "C12:C17",
+     "format": "$#,##0.00"
+    }
+   ]
+  },
+  {
+   "name": "Shifts",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "9E3B4F",
+   "grid_rows": 1508,
+   "grid_cols": 26,
+   "row_height": 19,
+   "freeze": "C6",
+   "column_widths": {
+    "A": 2.5,
+    "B": 12,
+    "C": 16,
+    "D": 12,
+    "E": 8,
+    "F": 10,
+    "G": 11,
+    "H": 10,
+    "I": 10,
+    "J": 10,
+    "K": 18,
+    "L": 10,
+    "M": 10,
+    "N": 11,
+    "O": 10,
+    "P": 8,
+    "Q": 7,
+    "R": 3,
+    "S": 3,
+    "T": 3,
+    "U": 3,
+    "V": 3,
+    "W": 3,
+    "X": 3,
+    "Y": 3
+   },
+   "hidden_columns": [
+    "R",
+    "S",
+    "T",
+    "U",
+    "V",
+    "W",
+    "X",
+    "Y"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:Q2",
+     "label": "=\"SHIFTS\"",
+     "size": 16,
+     "color": "3D2C3E",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Every shift. Hourly Wage blank = the job's wage from Setup. Leave Sales blank if you don't track it."
+    },
+    {
+     "cell": "B5",
+     "formula": "Date"
+    },
+    {
+     "cell": "C5",
+     "formula": "Job"
+    },
+    {
+     "cell": "D5",
+     "formula": "Shift"
+    },
+    {
+     "cell": "E5",
+     "formula": "Hours"
+    },
+    {
+     "cell": "F5",
+     "formula": "Hourly Wage"
+    },
+    {
+     "cell": "G5",
+     "formula": "Sales"
+    },
+    {
+     "cell": "H5",
+     "formula": "Cash Tips"
+    },
+    {
+     "cell": "I5",
+     "formula": "Card Tips"
+    },
+    {
+     "cell": "J5",
+     "formula": "Tip-Out"
+    },
+    {
+     "cell": "K5",
+     "formula": "Notes"
+    },
+    {
+     "cell": "L5",
+     "formula": "Wages"
+    },
+    {
+     "cell": "M5",
+     "formula": "Net Tips"
+    },
+    {
+     "cell": "N5",
+     "formula": "Total"
+    },
+    {
+     "cell": "O5",
+     "formula": "Per Hour"
+    },
+    {
+     "cell": "P5",
+     "formula": "Tip %"
+    },
+    {
+     "cell": "Q5",
+     "formula": "Check"
+    },
+    {
+     "cell": "B6",
+     "formula": "=DATE(2027,1,1)"
+    },
+    {
+     "cell": "C6",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D6",
+     "formula": "Dinner"
+    },
+    {
+     "cell": "E6",
+     "formula": 6.8
+    },
+    {
+     "cell": "G6",
+     "formula": 1342.28
+    },
+    {
+     "cell": "H6",
+     "formula": 38.0
+    },
+    {
+     "cell": "I6",
+     "formula": 242.02
+    },
+    {
+     "cell": "J6",
+     "formula": 40.27
+    },
+    {
+     "cell": "B7",
+     "formula": "=DATE(2027,1,2)"
+    },
+    {
+     "cell": "C7",
+     "formula": "Harbor Bar"
+    },
+    {
+     "cell": "D7",
+     "formula": "Bar"
+    },
+    {
+     "cell": "E7",
+     "formula": 6.7
+    },
+    {
+     "cell": "G7",
+     "formula": 1290.83
+    },
+    {
+     "cell": "H7",
+     "formula": 23.0
+    },
+    {
+     "cell": "I7",
+     "formula": 244.3
+    },
+    {
+     "cell": "J7",
+     "formula": 24.43
+    },
+    {
+     "cell": "B8",
+     "formula": "=DATE(2027,1,3)"
+    },
+    {
+     "cell": "C8",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D8",
+     "formula": "Brunch"
+    },
+    {
+     "cell": "E8",
+     "formula": 5.9
+    },
+    {
+     "cell": "G8",
+     "formula": 1031.26
+    },
+    {
+     "cell": "H8",
+     "formula": 37.0
+    },
+    {
+     "cell": "I8",
+     "formula": 155.53
+    },
+    {
+     "cell": "J8",
+     "formula": 30.94
+    },
+    {
+     "cell": "B9",
+     "formula": "=DATE(2027,1,5)"
+    },
+    {
+     "cell": "C9",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D9",
+     "formula": "Lunch"
+    },
+    {
+     "cell": "E9",
+     "formula": 5.0
+    },
+    {
+     "cell": "G9",
+     "formula": 755.81
+    },
+    {
+     "cell": "H9",
+     "formula": 22.0
+    },
+    {
+     "cell": "I9",
+     "formula": 135.69
+    },
+    {
+     "cell": "J9",
+     "formula": 22.67
+    },
+    {
+     "cell": "B10",
+     "formula": "=DATE(2027,1,6)"
+    },
+    {
+     "cell": "C10",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D10",
+     "formula": "Dinner"
+    },
+    {
+     "cell": "E10",
+     "formula": 6.1
+    },
+    {
+     "cell": "G10",
+     "formula": 706.18
+    },
+    {
+     "cell": "H10",
+     "formula": 37.0
+    },
+    {
+     "cell": "I10",
+     "formula": 113.59
+    },
+    {
+     "cell": "J10",
+     "formula": 21.19
+    },
+    {
+     "cell": "B11",
+     "formula": "=DATE(2027,1,7)"
+    },
+    {
+     "cell": "C11",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D11",
+     "formula": "Dinner"
+    },
+    {
+     "cell": "E11",
+     "formula": 6.4
+    },
+    {
+     "cell": "G11",
+     "formula": 1092.91
+    },
+    {
+     "cell": "H11",
+     "formula": 29.0
+    },
+    {
+     "cell": "I11",
+     "formula": 202.17
+    },
+    {
+     "cell": "J11",
+     "formula": 32.79
+    },
+    {
+     "cell": "B12",
+     "formula": "=DATE(2027,1,8)"
+    },
+    {
+     "cell": "C12",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D12",
+     "formula": "Dinner"
+    },
+    {
+     "cell": "E12",
+     "formula": 7.0
+    },
+    {
+     "cell": "G12",
+     "formula": 1066.52
+    },
+    {
+     "cell": "H12",
+     "formula": 61.0
+    },
+    {
+     "cell": "I12",
+     "formula": 180.98
+    },
+    {
+     "cell": "J12",
+     "formula": 32.0
+    },
+    {
+     "cell": "B13",
+     "formula": "=DATE(2027,1,9)"
+    },
+    {
+     "cell": "C13",
+     "formula": "Harbor Bar"
+    },
+    {
+     "cell": "D13",
+     "formula": "Bar"
+    },
+    {
+     "cell": "E13",
+     "formula": 6.8
+    },
+    {
+     "cell": "G13",
+     "formula": 1335.95
+    },
+    {
+     "cell": "H13",
+     "formula": 59.0
+    },
+    {
+     "cell": "I13",
+     "formula": 247.48
+    },
+    {
+     "cell": "J13",
+     "formula": 24.75
+    },
+    {
+     "cell": "B14",
+     "formula": "=DATE(2027,1,10)"
+    },
+    {
+     "cell": "C14",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D14",
+     "formula": "Brunch"
+    },
+    {
+     "cell": "E14",
+     "formula": 6.5
+    },
+    {
+     "cell": "G14",
+     "formula": 837.95
+    },
+    {
+     "cell": "H14",
+     "formula": 67.0
+    },
+    {
+     "cell": "I14",
+     "formula": 171.34
+    },
+    {
+     "cell": "J14",
+     "formula": 25.14
+    },
+    {
+     "cell": "B15",
+     "formula": "=DATE(2027,1,12)"
+    },
+    {
+     "cell": "C15",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D15",
+     "formula": "Lunch"
+    },
+    {
+     "cell": "E15",
+     "formula": 5.2
+    },
+    {
+     "cell": "G15",
+     "formula": 594.64
+    },
+    {
+     "cell": "H15",
+     "formula": 24.0
+    },
+    {
+     "cell": "I15",
+     "formula": 113.69
+    },
+    {
+     "cell": "J15",
+     "formula": 17.84
+    },
+    {
+     "cell": "B16",
+     "formula": "=DATE(2027,1,13)"
+    },
+    {
+     "cell": "C16",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D16",
+     "formula": "Dinner"
+    },
+    {
+     "cell": "E16",
+     "formula": 6.3
+    },
+    {
+     "cell": "G16",
+     "formula": 848.03
+    },
+    {
+     "cell": "H16",
+     "formula": 14.0
+    },
+    {
+     "cell": "I16",
+     "formula": 127.25
+    },
+    {
+     "cell": "J16",
+     "formula": 25.44
+    },
+    {
+     "cell": "B17",
+     "formula": "=DATE(2027,1,14)"
+    },
+    {
+     "cell": "C17",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D17",
+     "formula": "Dinner"
+    },
+    {
+     "cell": "E17",
+     "formula": 5.7
+    },
+    {
+     "cell": "G17",
+     "formula": 849.34
+    },
+    {
+     "cell": "H17",
+     "formula": 36.0
+    },
+    {
+     "cell": "I17",
+     "formula": 128.2
+    },
+    {
+     "cell": "J17",
+     "formula": 25.48
+    },
+    {
+     "cell": "B18",
+     "formula": "=DATE(2027,1,15)"
+    },
+    {
+     "cell": "C18",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D18",
+     "formula": "Dinner"
+    },
+    {
+     "cell": "E18",
+     "formula": 6.6
+    },
+    {
+     "cell": "G18",
+     "formula": 1202.42
+    },
+    {
+     "cell": "H18",
+     "formula": 68.0
+    },
+    {
+     "cell": "I18",
+     "formula": 229.87
+    },
+    {
+     "cell": "J18",
+     "formula": 36.07
+    },
+    {
+     "cell": "B19",
+     "formula": "=DATE(2027,1,16)"
+    },
+    {
+     "cell": "C19",
+     "formula": "Harbor Bar"
+    },
+    {
+     "cell": "D19",
+     "formula": "Bar"
+    },
+    {
+     "cell": "E19",
+     "formula": 6.5
+    },
+    {
+     "cell": "G19",
+     "formula": 1110.82
+    },
+    {
+     "cell": "H19",
+     "formula": 80.0
+    },
+    {
+     "cell": "I19",
+     "formula": 231.44
+    },
+    {
+     "cell": "J19",
+     "formula": 23.14
+    },
+    {
+     "cell": "B20",
+     "formula": "=DATE(2027,1,17)"
+    },
+    {
+     "cell": "C20",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D20",
+     "formula": "Brunch"
+    },
+    {
+     "cell": "E20",
+     "formula": 6.1
+    },
+    {
+     "cell": "G20",
+     "formula": 1258.15
+    },
+    {
+     "cell": "H20",
+     "formula": 40.0
+    },
+    {
+     "cell": "I20",
+     "formula": 210.49
+    },
+    {
+     "cell": "J20",
+     "formula": 37.74
+    },
+    {
+     "cell": "B21",
+     "formula": "=DATE(2027,1,19)"
+    },
+    {
+     "cell": "C21",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D21",
+     "formula": "Lunch"
+    },
+    {
+     "cell": "E21",
+     "formula": 5.4
+    },
+    {
+     "cell": "G21",
+     "formula": 672.75
+    },
+    {
+     "cell": "H21",
+     "formula": 19.0
+    },
+    {
+     "cell": "I21",
+     "formula": 117.09
+    },
+    {
+     "cell": "J21",
+     "formula": 20.18
+    },
+    {
+     "cell": "B22",
+     "formula": "=DATE(2027,1,20)"
+    },
+    {
+     "cell": "C22",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D22",
+     "formula": "Dinner"
+    },
+    {
+     "cell": "E22",
+     "formula": 5.5
+    },
+    {
+     "cell": "G22",
+     "formula": 742.48
+    },
+    {
+     "cell": "H22",
+     "formula": 36.0
+    },
+    {
+     "cell": "I22",
+     "formula": 133.56
+    },
+    {
+     "cell": "J22",
+     "formula": 22.27
+    },
+    {
+     "cell": "B23",
+     "formula": "=DATE(2027,1,21)"
+    },
+    {
+     "cell": "C23",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D23",
+     "formula": "Dinner"
+    },
+    {
+     "cell": "E23",
+     "formula": 5.7
+    },
+    {
+     "cell": "G23",
+     "formula": 903.73
+    },
+    {
+     "cell": "H23",
+     "formula": 55.0
+    },
+    {
+     "cell": "I23",
+     "formula": 170.75
+    },
+    {
+     "cell": "J23",
+     "formula": 27.11
+    },
+    {
+     "cell": "B24",
+     "formula": "=DATE(2027,1,23)"
+    },
+    {
+     "cell": "C24",
+     "formula": "Harbor Bar"
+    },
+    {
+     "cell": "D24",
+     "formula": "Bar"
+    },
+    {
+     "cell": "E24",
+     "formula": 7.3
+    },
+    {
+     "cell": "G24",
+     "formula": 1126.18
+    },
+    {
+     "cell": "H24",
+     "formula": 20.0
+    },
+    {
+     "cell": "I24",
+     "formula": 193.77
+    },
+    {
+     "cell": "J24",
+     "formula": 19.38
+    },
+    {
+     "cell": "B25",
+     "formula": "=DATE(2027,1,24)"
+    },
+    {
+     "cell": "C25",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D25",
+     "formula": "Brunch"
+    },
+    {
+     "cell": "E25",
+     "formula": 5.8
+    },
+    {
+     "cell": "G25",
+     "formula": 1188.38
+    },
+    {
+     "cell": "H25",
+     "formula": 28.0
+    },
+    {
+     "cell": "I25",
+     "formula": 214.23
+    },
+    {
+     "cell": "J25",
+     "formula": 35.65
+    },
+    {
+     "cell": "B26",
+     "formula": "=DATE(2027,1,26)"
+    },
+    {
+     "cell": "C26",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D26",
+     "formula": "Lunch"
+    },
+    {
+     "cell": "E26",
+     "formula": 5.1
+    },
+    {
+     "cell": "G26",
+     "formula": 647.94
+    },
+    {
+     "cell": "H26",
+     "formula": 18.0
+    },
+    {
+     "cell": "I26",
+     "formula": 104.31
+    },
+    {
+     "cell": "J26",
+     "formula": 19.44
+    },
+    {
+     "cell": "B27",
+     "formula": "=DATE(2027,1,27)"
+    },
+    {
+     "cell": "C27",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D27",
+     "formula": "Dinner"
+    },
+    {
+     "cell": "E27",
+     "formula": 6.3
+    },
+    {
+     "cell": "G27",
+     "formula": 678.63
+    },
+    {
+     "cell": "H27",
+     "formula": 20.0
+    },
+    {
+     "cell": "I27",
+     "formula": 101.83
+    },
+    {
+     "cell": "J27",
+     "formula": 20.36
+    },
+    {
+     "cell": "B28",
+     "formula": "=DATE(2027,1,28)"
+    },
+    {
+     "cell": "C28",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D28",
+     "formula": "Dinner"
+    },
+    {
+     "cell": "E28",
+     "formula": 6.1
+    },
+    {
+     "cell": "G28",
+     "formula": 932.73
+    },
+    {
+     "cell": "H28",
+     "formula": 39.0
+    },
+    {
+     "cell": "I28",
+     "formula": 151.67
+    },
+    {
+     "cell": "J28",
+     "formula": 27.98
+    },
+    {
+     "cell": "B29",
+     "formula": "=DATE(2027,1,29)"
+    },
+    {
+     "cell": "C29",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D29",
+     "formula": "Dinner"
+    },
+    {
+     "cell": "E29",
+     "formula": 7.4
+    },
+    {
+     "cell": "G29",
+     "formula": 1115.3
+    },
+    {
+     "cell": "H29",
+     "formula": 15.0
+    },
+    {
+     "cell": "I29",
+     "formula": 174.18
+    },
+    {
+     "cell": "J29",
+     "formula": 33.46
+    },
+    {
+     "cell": "B30",
+     "formula": "=DATE(2027,1,30)"
+    },
+    {
+     "cell": "C30",
+     "formula": "Harbor Bar"
+    },
+    {
+     "cell": "D30",
+     "formula": "Bar"
+    },
+    {
+     "cell": "E30",
+     "formula": 7.3
+    },
+    {
+     "cell": "G30",
+     "formula": 1464.81
+    },
+    {
+     "cell": "H30",
+     "formula": 65.0
+    },
+    {
+     "cell": "I30",
+     "formula": 247.33
+    },
+    {
+     "cell": "J30",
+     "formula": 24.73
+    },
+    {
+     "cell": "B31",
+     "formula": "=DATE(2027,1,31)"
+    },
+    {
+     "cell": "C31",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D31",
+     "formula": "Brunch"
+    },
+    {
+     "cell": "E31",
+     "formula": 6.4
+    },
+    {
+     "cell": "G31",
+     "formula": 843.82
+    },
+    {
+     "cell": "H31",
+     "formula": 25.0
+    },
+    {
+     "cell": "I31",
+     "formula": 139.94
+    },
+    {
+     "cell": "J31",
+     "formula": 25.31
+    },
+    {
+     "cell": "B32",
+     "formula": "=DATE(2027,2,2)"
+    },
+    {
+     "cell": "C32",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D32",
+     "formula": "Lunch"
+    },
+    {
+     "cell": "E32",
+     "formula": 5.3
+    },
+    {
+     "cell": "G32",
+     "formula": 507.47
+    },
+    {
+     "cell": "H32",
+     "formula": 38.0
+    },
+    {
+     "cell": "I32",
+     "formula": 90.05
+    },
+    {
+     "cell": "J32",
+     "formula": 15.22
+    },
+    {
+     "cell": "B33",
+     "formula": "=DATE(2027,2,3)"
+    },
+    {
+     "cell": "C33",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D33",
+     "formula": "Dinner"
+    },
+    {
+     "cell": "E33",
+     "formula": 6.2
+    },
+    {
+     "cell": "G33",
+     "formula": 901.48
+    },
+    {
+     "cell": "H33",
+     "formula": 16.0
+    },
+    {
+     "cell": "I33",
+     "formula": 181.77
+    },
+    {
+     "cell": "J33",
+     "formula": 27.04
+    },
+    {
+     "cell": "B34",
+     "formula": "=DATE(2027,2,4)"
+    },
+    {
+     "cell": "C34",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D34",
+     "formula": "Dinner"
+    },
+    {
+     "cell": "E34",
+     "formula": 5.7
+    },
+    {
+     "cell": "G34",
+     "formula": 701.49
+    },
+    {
+     "cell": "H34",
+     "formula": 43.0
+    },
+    {
+     "cell": "I34",
+     "formula": 108.18
+    },
+    {
+     "cell": "J34",
+     "formula": 21.04
+    },
+    {
+     "cell": "B35",
+     "formula": "=DATE(2027,2,5)"
+    },
+    {
+     "cell": "C35",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D35",
+     "formula": "Dinner"
+    },
+    {
+     "cell": "E35",
+     "formula": 7.3
+    },
+    {
+     "cell": "G35",
+     "formula": 1164.48
+    },
+    {
+     "cell": "H35",
+     "formula": 33.0
+    },
+    {
+     "cell": "I35",
+     "formula": 209.62
+    },
+    {
+     "cell": "J35",
+     "formula": 34.93
+    },
+    {
+     "cell": "B36",
+     "formula": "=DATE(2027,2,6)"
+    },
+    {
+     "cell": "C36",
+     "formula": "Harbor Bar"
+    },
+    {
+     "cell": "D36",
+     "formula": "Bar"
+    },
+    {
+     "cell": "E36",
+     "formula": 6.7
+    },
+    {
+     "cell": "G36",
+     "formula": 1541.15
+    },
+    {
+     "cell": "H36",
+     "formula": 30.0
+    },
+    {
+     "cell": "I36",
+     "formula": 258.57
+    },
+    {
+     "cell": "J36",
+     "formula": 25.86
+    },
+    {
+     "cell": "B37",
+     "formula": "=DATE(2027,2,7)"
+    },
+    {
+     "cell": "C37",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D37",
+     "formula": "Brunch"
+    },
+    {
+     "cell": "E37",
+     "formula": 6.0
+    },
+    {
+     "cell": "G37",
+     "formula": 1005.62
+    },
+    {
+     "cell": "H37",
+     "formula": 38.0
+    },
+    {
+     "cell": "I37",
+     "formula": 163.25
+    },
+    {
+     "cell": "J37",
+     "formula": 30.17
+    },
+    {
+     "cell": "B38",
+     "formula": "=DATE(2027,2,9)"
+    },
+    {
+     "cell": "C38",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D38",
+     "formula": "Lunch"
+    },
+    {
+     "cell": "E38",
+     "formula": 4.8
+    },
+    {
+     "cell": "G38",
+     "formula": 499.86
+    },
+    {
+     "cell": "H38",
+     "formula": 36.0
+    },
+    {
+     "cell": "I38",
+     "formula": 78.4
+    },
+    {
+     "cell": "J38",
+     "formula": 15.0
+    },
+    {
+     "cell": "B39",
+     "formula": "=DATE(2027,2,10)"
+    },
+    {
+     "cell": "C39",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D39",
+     "formula": "Dinner"
+    },
+    {
+     "cell": "E39",
+     "formula": 5.6
+    },
+    {
+     "cell": "G39",
+     "formula": 798.75
+    },
+    {
+     "cell": "H39",
+     "formula": 18.0
+    },
+    {
+     "cell": "I39",
+     "formula": 142.47
+    },
+    {
+     "cell": "J39",
+     "formula": 23.96
+    },
+    {
+     "cell": "B40",
+     "formula": "=DATE(2027,2,12)"
+    },
+    {
+     "cell": "C40",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D40",
+     "formula": "Dinner"
+    },
+    {
+     "cell": "E40",
+     "formula": 7.3
+    },
+    {
+     "cell": "G40",
+     "formula": 951.65
+    },
+    {
+     "cell": "H40",
+     "formula": 47.0
+    },
+    {
+     "cell": "I40",
+     "formula": 161.75
+    },
+    {
+     "cell": "J40",
+     "formula": 28.55
+    },
+    {
+     "cell": "B41",
+     "formula": "=DATE(2027,2,13)"
+    },
+    {
+     "cell": "C41",
+     "formula": "Harbor Bar"
+    },
+    {
+     "cell": "D41",
+     "formula": "Bar"
+    },
+    {
+     "cell": "E41",
+     "formula": 7.0
+    },
+    {
+     "cell": "G41",
+     "formula": 1442.23
+    },
+    {
+     "cell": "H41",
+     "formula": 46.0
+    },
+    {
+     "cell": "I41",
+     "formula": 234.06
+    },
+    {
+     "cell": "J41",
+     "formula": 23.41
+    },
+    {
+     "cell": "B42",
+     "formula": "=DATE(2027,2,14)"
+    },
+    {
+     "cell": "C42",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D42",
+     "formula": "Brunch"
+    },
+    {
+     "cell": "E42",
+     "formula": 6.2
+    },
+    {
+     "cell": "G42",
+     "formula": 1227.96
+    },
+    {
+     "cell": "H42",
+     "formula": 52.0
+    },
+    {
+     "cell": "I42",
+     "formula": 218.41
+    },
+    {
+     "cell": "J42",
+     "formula": 36.84
+    },
+    {
+     "cell": "B43",
+     "formula": "=DATE(2027,2,16)"
+    },
+    {
+     "cell": "C43",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D43",
+     "formula": "Lunch"
+    },
+    {
+     "cell": "E43",
+     "formula": 5.4
+    },
+    {
+     "cell": "G43",
+     "formula": 583.02
+    },
+    {
+     "cell": "H43",
+     "formula": 29.0
+    },
+    {
+     "cell": "I43",
+     "formula": 105.67
+    },
+    {
+     "cell": "J43",
+     "formula": 17.49
+    },
+    {
+     "cell": "B44",
+     "formula": "=DATE(2027,2,17)"
+    },
+    {
+     "cell": "C44",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D44",
+     "formula": "Dinner"
+    },
+    {
+     "cell": "E44",
+     "formula": 6.0
+    },
+    {
+     "cell": "G44",
+     "formula": 663.36
+    },
+    {
+     "cell": "H44",
+     "formula": 50.0
+    },
+    {
+     "cell": "I44",
+     "formula": 118.15
+    },
+    {
+     "cell": "J44",
+     "formula": 19.9
+    },
+    {
+     "cell": "B45",
+     "formula": "=DATE(2027,2,18)"
+    },
+    {
+     "cell": "C45",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D45",
+     "formula": "Dinner"
+    },
+    {
+     "cell": "E45",
+     "formula": 6.1
+    },
+    {
+     "cell": "G45",
+     "formula": 732.04
+    },
+    {
+     "cell": "H45",
+     "formula": 30.0
+    },
+    {
+     "cell": "I45",
+     "formula": 129.08
+    },
+    {
+     "cell": "J45",
+     "formula": 21.96
+    },
+    {
+     "cell": "B46",
+     "formula": "=DATE(2027,2,19)"
+    },
+    {
+     "cell": "C46",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D46",
+     "formula": "Dinner"
+    },
+    {
+     "cell": "E46",
+     "formula": 7.3
+    },
+    {
+     "cell": "G46",
+     "formula": 1357.95
+    },
+    {
+     "cell": "H46",
+     "formula": 24.0
+    },
+    {
+     "cell": "I46",
+     "formula": 234.14
+    },
+    {
+     "cell": "J46",
+     "formula": 40.74
+    },
+    {
+     "cell": "B47",
+     "formula": "=DATE(2027,2,20)"
+    },
+    {
+     "cell": "C47",
+     "formula": "Harbor Bar"
+    },
+    {
+     "cell": "D47",
+     "formula": "Bar"
+    },
+    {
+     "cell": "E47",
+     "formula": 7.3
+    },
+    {
+     "cell": "G47",
+     "formula": 1125.62
+    },
+    {
+     "cell": "H47",
+     "formula": 41.0
+    },
+    {
+     "cell": "I47",
+     "formula": 198.23
+    },
+    {
+     "cell": "J47",
+     "formula": 19.82
+    },
+    {
+     "cell": "B48",
+     "formula": "=DATE(2027,2,21)"
+    },
+    {
+     "cell": "C48",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D48",
+     "formula": "Brunch"
+    },
+    {
+     "cell": "E48",
+     "formula": 5.6
+    },
+    {
+     "cell": "G48",
+     "formula": 883.57
+    },
+    {
+     "cell": "H48",
+     "formula": 19.0
+    },
+    {
+     "cell": "I48",
+     "formula": 173.59
+    },
+    {
+     "cell": "J48",
+     "formula": 26.51
+    },
+    {
+     "cell": "B49",
+     "formula": "=DATE(2027,2,23)"
+    },
+    {
+     "cell": "C49",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D49",
+     "formula": "Lunch"
+    },
+    {
+     "cell": "E49",
+     "formula": 5.3
+    },
+    {
+     "cell": "G49",
+     "formula": 530.41
+    },
+    {
+     "cell": "H49",
+     "formula": 15.0
+    },
+    {
+     "cell": "I49",
+     "formula": 107.47
+    },
+    {
+     "cell": "J49",
+     "formula": 15.91
+    },
+    {
+     "cell": "B50",
+     "formula": "=DATE(2027,2,24)"
+    },
+    {
+     "cell": "C50",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D50",
+     "formula": "Dinner"
+    },
+    {
+     "cell": "E50",
+     "formula": 5.6
+    },
+    {
+     "cell": "G50",
+     "formula": 640.38
+    },
+    {
+     "cell": "H50",
+     "formula": 40.0
+    },
+    {
+     "cell": "I50",
+     "formula": 103.79
+    },
+    {
+     "cell": "J50",
+     "formula": 19.21
+    },
+    {
+     "cell": "B51",
+     "formula": "=DATE(2027,2,25)"
+    },
+    {
+     "cell": "C51",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D51",
+     "formula": "Dinner"
+    },
+    {
+     "cell": "E51",
+     "formula": 6.1
+    },
+    {
+     "cell": "G51",
+     "formula": 869.14
+    },
+    {
+     "cell": "H51",
+     "formula": 46.0
+    },
+    {
+     "cell": "I51",
+     "formula": 147.69
+    },
+    {
+     "cell": "J51",
+     "formula": 26.07
+    },
+    {
+     "cell": "B52",
+     "formula": "=DATE(2027,2,26)"
+    },
+    {
+     "cell": "C52",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D52",
+     "formula": "Dinner"
+    },
+    {
+     "cell": "E52",
+     "formula": 6.6
+    },
+    {
+     "cell": "G52",
+     "formula": 1158.3
+    },
+    {
+     "cell": "H52",
+     "formula": 59.0
+    },
+    {
+     "cell": "I52",
+     "formula": 199.25
+    },
+    {
+     "cell": "J52",
+     "formula": 34.75
+    },
+    {
+     "cell": "B53",
+     "formula": "=DATE(2027,2,27)"
+    },
+    {
+     "cell": "C53",
+     "formula": "Harbor Bar"
+    },
+    {
+     "cell": "D53",
+     "formula": "Bar"
+    },
+    {
+     "cell": "E53",
+     "formula": 6.9
+    },
+    {
+     "cell": "G53",
+     "formula": 1293.75
+    },
+    {
+     "cell": "H53",
+     "formula": 45.0
+    },
+    {
+     "cell": "I53",
+     "formula": 252.42
+    },
+    {
+     "cell": "J53",
+     "formula": 25.24
+    },
+    {
+     "cell": "B54",
+     "formula": "=DATE(2027,2,28)"
+    },
+    {
+     "cell": "C54",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D54",
+     "formula": "Brunch"
+    },
+    {
+     "cell": "E54",
+     "formula": 5.8
+    },
+    {
+     "cell": "G54",
+     "formula": 1216.36
+    },
+    {
+     "cell": "H54",
+     "formula": 12.0
+    },
+    {
+     "cell": "I54",
+     "formula": 203.51
+    },
+    {
+     "cell": "J54",
+     "formula": 36.49
+    },
+    {
+     "cell": "B55",
+     "formula": "=DATE(2027,3,2)"
+    },
+    {
+     "cell": "C55",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D55",
+     "formula": "Lunch"
+    },
+    {
+     "cell": "E55",
+     "formula": 4.7
+    },
+    {
+     "cell": "G55",
+     "formula": 661.81
+    },
+    {
+     "cell": "H55",
+     "formula": 9.0
+    },
+    {
+     "cell": "I55",
+     "formula": 120.31
+    },
+    {
+     "cell": "J55",
+     "formula": 19.85
+    },
+    {
+     "cell": "B56",
+     "formula": "=DATE(2027,3,3)"
+    },
+    {
+     "cell": "C56",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D56",
+     "formula": "Dinner"
+    },
+    {
+     "cell": "E56",
+     "formula": 6.1
+    },
+    {
+     "cell": "G56",
+     "formula": 747.25
+    },
+    {
+     "cell": "H56",
+     "formula": 27.0
+    },
+    {
+     "cell": "I56",
+     "formula": 124.74
+    },
+    {
+     "cell": "J56",
+     "formula": 22.42
+    },
+    {
+     "cell": "B57",
+     "formula": "=DATE(2027,3,4)"
+    },
+    {
+     "cell": "C57",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D57",
+     "formula": "Dinner"
+    },
+    {
+     "cell": "E57",
+     "formula": 6.0
+    },
+    {
+     "cell": "G57",
+     "formula": 1072.67
+    },
+    {
+     "cell": "H57",
+     "formula": 38.0
+    },
+    {
+     "cell": "I57",
+     "formula": 188.91
+    },
+    {
+     "cell": "J57",
+     "formula": 32.18
+    },
+    {
+     "cell": "B58",
+     "formula": "=DATE(2027,3,5)"
+    },
+    {
+     "cell": "C58",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D58",
+     "formula": "Dinner"
+    },
+    {
+     "cell": "E58",
+     "formula": 6.5
+    },
+    {
+     "cell": "G58",
+     "formula": 1292.26
+    },
+    {
+     "cell": "H58",
+     "formula": 26.0
+    },
+    {
+     "cell": "I58",
+     "formula": 258.58
+    },
+    {
+     "cell": "J58",
+     "formula": 38.77
+    },
+    {
+     "cell": "B59",
+     "formula": "=DATE(2027,3,6)"
+    },
+    {
+     "cell": "C59",
+     "formula": "Harbor Bar"
+    },
+    {
+     "cell": "D59",
+     "formula": "Bar"
+    },
+    {
+     "cell": "E59",
+     "formula": 7.1
+    },
+    {
+     "cell": "G59",
+     "formula": 1219.59
+    },
+    {
+     "cell": "H59",
+     "formula": 85.0
+    },
+    {
+     "cell": "I59",
+     "formula": 213.82
+    },
+    {
+     "cell": "J59",
+     "formula": 21.38
+    },
+    {
+     "cell": "B60",
+     "formula": "=DATE(2027,3,7)"
+    },
+    {
+     "cell": "C60",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D60",
+     "formula": "Brunch"
+    },
+    {
+     "cell": "E60",
+     "formula": 5.7
+    },
+    {
+     "cell": "G60",
+     "formula": 947.75
+    },
+    {
+     "cell": "H60",
+     "formula": 54.0
+    },
+    {
+     "cell": "I60",
+     "formula": 162.12
+    },
+    {
+     "cell": "J60",
+     "formula": 28.43
+    },
+    {
+     "cell": "B61",
+     "formula": "=DATE(2027,3,9)"
+    },
+    {
+     "cell": "C61",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D61",
+     "formula": "Lunch"
+    },
+    {
+     "cell": "E61",
+     "formula": 5.2
+    },
+    {
+     "cell": "G61",
+     "formula": 676.83
+    },
+    {
+     "cell": "H61",
+     "formula": 37.0
+    },
+    {
+     "cell": "I61",
+     "formula": 114.2
+    },
+    {
+     "cell": "J61",
+     "formula": 20.3
+    },
+    {
+     "cell": "B62",
+     "formula": "=DATE(2027,3,10)"
+    },
+    {
+     "cell": "C62",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D62",
+     "formula": "Dinner"
+    },
+    {
+     "cell": "E62",
+     "formula": 6.5
+    },
+    {
+     "cell": "G62",
+     "formula": 641.51
+    },
+    {
+     "cell": "H62",
+     "formula": 15.0
+    },
+    {
+     "cell": "I62",
+     "formula": 125.95
+    },
+    {
+     "cell": "J62",
+     "formula": 19.25
+    },
+    {
+     "cell": "B63",
+     "formula": "=DATE(2027,3,12)"
+    },
+    {
+     "cell": "C63",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D63",
+     "formula": "Dinner"
+    },
+    {
+     "cell": "E63",
+     "formula": 7.0
+    },
+    {
+     "cell": "G63",
+     "formula": 1259.62
+    },
+    {
+     "cell": "H63",
+     "formula": 54.0
+    },
+    {
+     "cell": "I63",
+     "formula": 215.71
+    },
+    {
+     "cell": "J63",
+     "formula": 37.79
+    },
+    {
+     "cell": "B64",
+     "formula": "=DATE(2027,3,13)"
+    },
+    {
+     "cell": "C64",
+     "formula": "Harbor Bar"
+    },
+    {
+     "cell": "D64",
+     "formula": "Bar"
+    },
+    {
+     "cell": "E64",
+     "formula": 7.2
+    },
+    {
+     "cell": "G64",
+     "formula": 1565.14
+    },
+    {
+     "cell": "H64",
+     "formula": 32.0
+    },
+    {
+     "cell": "I64",
+     "formula": 241.77
+    },
+    {
+     "cell": "J64",
+     "formula": 24.18
+    },
+    {
+     "cell": "B65",
+     "formula": "=DATE(2027,3,14)"
+    },
+    {
+     "cell": "C65",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D65",
+     "formula": "Brunch"
+    },
+    {
+     "cell": "E65",
+     "formula": 6.2
+    },
+    {
+     "cell": "G65",
+     "formula": 1180.09
+    },
+    {
+     "cell": "H65",
+     "formula": 26.0
+    },
+    {
+     "cell": "I65",
+     "formula": 223.51
+    },
+    {
+     "cell": "J65",
+     "formula": 35.4
+    },
+    {
+     "cell": "B66",
+     "formula": "=DATE(2027,3,16)"
+    },
+    {
+     "cell": "C66",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D66",
+     "formula": "Lunch"
+    },
+    {
+     "cell": "E66",
+     "formula": 5.1
+    },
+    {
+     "cell": "G66",
+     "formula": 676.82
+    },
+    {
+     "cell": "H66",
+     "formula": 9.0
+    },
+    {
+     "cell": "I66",
+     "formula": 127.48
+    },
+    {
+     "cell": "J66",
+     "formula": 20.3
+    },
+    {
+     "cell": "B67",
+     "formula": "=DATE(2027,3,17)"
+    },
+    {
+     "cell": "C67",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D67",
+     "formula": "Dinner"
+    },
+    {
+     "cell": "E67",
+     "formula": 5.9
+    },
+    {
+     "cell": "G67",
+     "formula": 849.45
+    },
+    {
+     "cell": "H67",
+     "formula": 27.0
+    },
+    {
+     "cell": "I67",
+     "formula": 152.77
+    },
+    {
+     "cell": "J67",
+     "formula": 25.48
+    },
+    {
+     "cell": "B68",
+     "formula": "=DATE(2027,3,18)"
+    },
+    {
+     "cell": "C68",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D68",
+     "formula": "Dinner"
+    },
+    {
+     "cell": "E68",
+     "formula": 5.7
+    },
+    {
+     "cell": "G68",
+     "formula": 706.84
+    },
+    {
+     "cell": "H68",
+     "formula": 46.0
+    },
+    {
+     "cell": "I68",
+     "formula": 127.17
+    },
+    {
+     "cell": "J68",
+     "formula": 21.21
+    },
+    {
+     "cell": "B69",
+     "formula": "=DATE(2027,3,19)"
+    },
+    {
+     "cell": "C69",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D69",
+     "formula": "Dinner"
+    },
+    {
+     "cell": "E69",
+     "formula": 7.0
+    },
+    {
+     "cell": "G69",
+     "formula": 1058.14
+    },
+    {
+     "cell": "H69",
+     "formula": 15.0
+    },
+    {
+     "cell": "I69",
+     "formula": 190.87
+    },
+    {
+     "cell": "J69",
+     "formula": 31.74
+    },
+    {
+     "cell": "B70",
+     "formula": "=DATE(2027,3,20)"
+    },
+    {
+     "cell": "C70",
+     "formula": "Harbor Bar"
+    },
+    {
+     "cell": "D70",
+     "formula": "Bar"
+    },
+    {
+     "cell": "E70",
+     "formula": 7.3
+    },
+    {
+     "cell": "G70",
+     "formula": 1277.86
+    },
+    {
+     "cell": "H70",
+     "formula": 62.0
+    },
+    {
+     "cell": "I70",
+     "formula": 226.74
+    },
+    {
+     "cell": "J70",
+     "formula": 22.67
+    },
+    {
+     "cell": "B71",
+     "formula": "=DATE(2027,3,21)"
+    },
+    {
+     "cell": "C71",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D71",
+     "formula": "Brunch"
+    },
+    {
+     "cell": "E71",
+     "formula": 6.1
+    },
+    {
+     "cell": "G71",
+     "formula": 1162.84
+    },
+    {
+     "cell": "H71",
+     "formula": 14.0
+    },
+    {
+     "cell": "I71",
+     "formula": 224.97
+    },
+    {
+     "cell": "J71",
+     "formula": 34.89
+    },
+    {
+     "cell": "B72",
+     "formula": "=DATE(2027,3,23)"
+    },
+    {
+     "cell": "C72",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D72",
+     "formula": "Lunch"
+    },
+    {
+     "cell": "E72",
+     "formula": 5.5
+    },
+    {
+     "cell": "G72",
+     "formula": 698.54
+    },
+    {
+     "cell": "H72",
+     "formula": 39.0
+    },
+    {
+     "cell": "I72",
+     "formula": 108.5
+    },
+    {
+     "cell": "J72",
+     "formula": 20.96
+    },
+    {
+     "cell": "B73",
+     "formula": "=DATE(2027,3,24)"
+    },
+    {
+     "cell": "C73",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D73",
+     "formula": "Dinner"
+    },
+    {
+     "cell": "E73",
+     "formula": 5.7
+    },
+    {
+     "cell": "G73",
+     "formula": 877.96
+    },
+    {
+     "cell": "H73",
+     "formula": 53.0
+    },
+    {
+     "cell": "I73",
+     "formula": 160.0
+    },
+    {
+     "cell": "J73",
+     "formula": 26.34
+    },
+    {
+     "cell": "B74",
+     "formula": "=DATE(2027,3,25)"
+    },
+    {
+     "cell": "C74",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D74",
+     "formula": "Dinner"
+    },
+    {
+     "cell": "E74",
+     "formula": 5.7
+    },
+    {
+     "cell": "G74",
+     "formula": 940.03
+    },
+    {
+     "cell": "H74",
+     "formula": 38.0
+    },
+    {
+     "cell": "I74",
+     "formula": 175.16
+    },
+    {
+     "cell": "J74",
+     "formula": 28.2
+    },
+    {
+     "cell": "B75",
+     "formula": "=DATE(2027,3,26)"
+    },
+    {
+     "cell": "C75",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D75",
+     "formula": "Dinner"
+    },
+    {
+     "cell": "E75",
+     "formula": 7.2
+    },
+    {
+     "cell": "G75",
+     "formula": 1050.51
+    },
+    {
+     "cell": "H75",
+     "formula": 22.0
+    },
+    {
+     "cell": "I75",
+     "formula": 188.07
+    },
+    {
+     "cell": "J75",
+     "formula": 31.52
+    },
+    {
+     "cell": "B76",
+     "formula": "=DATE(2027,3,27)"
+    },
+    {
+     "cell": "C76",
+     "formula": "Harbor Bar"
+    },
+    {
+     "cell": "D76",
+     "formula": "Bar"
+    },
+    {
+     "cell": "E76",
+     "formula": 6.7
+    },
+    {
+     "cell": "G76",
+     "formula": 1222.52
+    },
+    {
+     "cell": "H76",
+     "formula": 60.0
+    },
+    {
+     "cell": "I76",
+     "formula": 227.83
+    },
+    {
+     "cell": "J76",
+     "formula": 22.78
+    },
+    {
+     "cell": "B77",
+     "formula": "=DATE(2027,3,28)"
+    },
+    {
+     "cell": "C77",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D77",
+     "formula": "Brunch"
+    },
+    {
+     "cell": "E77",
+     "formula": 6.3
+    },
+    {
+     "cell": "G77",
+     "formula": 1022.7
+    },
+    {
+     "cell": "H77",
+     "formula": 69.0
+    },
+    {
+     "cell": "I77",
+     "formula": 211.06
+    },
+    {
+     "cell": "J77",
+     "formula": 30.68
+    },
+    {
+     "cell": "B78",
+     "formula": "=DATE(2027,3,30)"
+    },
+    {
+     "cell": "C78",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D78",
+     "formula": "Lunch"
+    },
+    {
+     "cell": "E78",
+     "formula": 5.4
+    },
+    {
+     "cell": "G78",
+     "formula": 695.33
+    },
+    {
+     "cell": "H78",
+     "formula": 37.0
+    },
+    {
+     "cell": "I78",
+     "formula": 133.3
+    },
+    {
+     "cell": "J78",
+     "formula": 20.86
+    },
+    {
+     "cell": "B79",
+     "formula": "=DATE(2027,3,31)"
+    },
+    {
+     "cell": "C79",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D79",
+     "formula": "Dinner"
+    },
+    {
+     "cell": "E79",
+     "formula": 6.2
+    },
+    {
+     "cell": "G79",
+     "formula": 643.73
+    },
+    {
+     "cell": "H79",
+     "formula": 24.0
+    },
+    {
+     "cell": "I79",
+     "formula": 122.65
+    },
+    {
+     "cell": "J79",
+     "formula": 19.31
+    },
+    {
+     "cell": "B80",
+     "formula": "=DATE(2027,4,1)"
+    },
+    {
+     "cell": "C80",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D80",
+     "formula": "Dinner"
+    },
+    {
+     "cell": "E80",
+     "formula": 6.3
+    },
+    {
+     "cell": "G80",
+     "formula": 921.37
+    },
+    {
+     "cell": "H80",
+     "formula": 15.0
+    },
+    {
+     "cell": "I80",
+     "formula": 192.43
+    },
+    {
+     "cell": "J80",
+     "formula": 27.64
+    },
+    {
+     "cell": "B81",
+     "formula": "=DATE(2027,4,2)"
+    },
+    {
+     "cell": "C81",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D81",
+     "formula": "Dinner"
+    },
+    {
+     "cell": "E81",
+     "formula": 6.6
+    },
+    {
+     "cell": "G81",
+     "formula": 1236.0
+    },
+    {
+     "cell": "H81",
+     "formula": 31.0
+    },
+    {
+     "cell": "I81",
+     "formula": 207.03
+    },
+    {
+     "cell": "J81",
+     "formula": 37.08
+    },
+    {
+     "cell": "B82",
+     "formula": "=DATE(2027,4,3)"
+    },
+    {
+     "cell": "C82",
+     "formula": "Harbor Bar"
+    },
+    {
+     "cell": "D82",
+     "formula": "Bar"
+    },
+    {
+     "cell": "E82",
+     "formula": 7.5
+    },
+    {
+     "cell": "G82",
+     "formula": 1370.5
+    },
+    {
+     "cell": "H82",
+     "formula": 37.0
+    },
+    {
+     "cell": "I82",
+     "formula": 242.16
+    },
+    {
+     "cell": "J82",
+     "formula": 24.22
+    },
+    {
+     "cell": "B83",
+     "formula": "=DATE(2027,4,4)"
+    },
+    {
+     "cell": "C83",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D83",
+     "formula": "Brunch"
+    },
+    {
+     "cell": "E83",
+     "formula": 6.4
+    },
+    {
+     "cell": "G83",
+     "formula": 1230.78
+    },
+    {
+     "cell": "H83",
+     "formula": 67.0
+    },
+    {
+     "cell": "I83",
+     "formula": 223.42
+    },
+    {
+     "cell": "J83",
+     "formula": 36.92
+    },
+    {
+     "cell": "B84",
+     "formula": "=DATE(2027,4,6)"
+    },
+    {
+     "cell": "C84",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D84",
+     "formula": "Lunch"
+    },
+    {
+     "cell": "E84",
+     "formula": 5.1
+    },
+    {
+     "cell": "G84",
+     "formula": 626.53
+    },
+    {
+     "cell": "H84",
+     "formula": 29.0
+    },
+    {
+     "cell": "I84",
+     "formula": 101.08
+    },
+    {
+     "cell": "J84",
+     "formula": 18.8
+    },
+    {
+     "cell": "B85",
+     "formula": "=DATE(2027,4,7)"
+    },
+    {
+     "cell": "C85",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D85",
+     "formula": "Dinner"
+    },
+    {
+     "cell": "E85",
+     "formula": 6.0
+    },
+    {
+     "cell": "G85",
+     "formula": 987.27
+    },
+    {
+     "cell": "H85",
+     "formula": 41.0
+    },
+    {
+     "cell": "I85",
+     "formula": 173.9
+    },
+    {
+     "cell": "J85",
+     "formula": 29.62
+    },
+    {
+     "cell": "B86",
+     "formula": "=DATE(2027,4,8)"
+    },
+    {
+     "cell": "C86",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D86",
+     "formula": "Dinner"
+    },
+    {
+     "cell": "E86",
+     "formula": 5.5
+    },
+    {
+     "cell": "G86",
+     "formula": 892.8
+    },
+    {
+     "cell": "H86",
+     "formula": 42.0
+    },
+    {
+     "cell": "I86",
+     "formula": 163.69
+    },
+    {
+     "cell": "J86",
+     "formula": 26.78
+    },
+    {
+     "cell": "B87",
+     "formula": "=DATE(2027,4,9)"
+    },
+    {
+     "cell": "C87",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D87",
+     "formula": "Dinner"
+    },
+    {
+     "cell": "E87",
+     "formula": 7.2
+    },
+    {
+     "cell": "G87",
+     "formula": 1104.64
+    },
+    {
+     "cell": "H87",
+     "formula": 29.0
+    },
+    {
+     "cell": "I87",
+     "formula": 196.25
+    },
+    {
+     "cell": "J87",
+     "formula": 33.14
+    },
+    {
+     "cell": "B88",
+     "formula": "=DATE(2027,4,10)"
+    },
+    {
+     "cell": "C88",
+     "formula": "Harbor Bar"
+    },
+    {
+     "cell": "D88",
+     "formula": "Bar"
+    },
+    {
+     "cell": "E88",
+     "formula": 7.4
+    },
+    {
+     "cell": "G88",
+     "formula": 1318.41
+    },
+    {
+     "cell": "H88",
+     "formula": 70.0
+    },
+    {
+     "cell": "I88",
+     "formula": 207.7
+    },
+    {
+     "cell": "J88",
+     "formula": 20.77
+    },
+    {
+     "cell": "B89",
+     "formula": "=DATE(2027,4,13)"
+    },
+    {
+     "cell": "C89",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D89",
+     "formula": "Lunch"
+    },
+    {
+     "cell": "E89",
+     "formula": 4.6
+    },
+    {
+     "cell": "G89",
+     "formula": 615.03
+    },
+    {
+     "cell": "H89",
+     "formula": 22.0
+    },
+    {
+     "cell": "I89",
+     "formula": 105.28
+    },
+    {
+     "cell": "J89",
+     "formula": 18.45
+    },
+    {
+     "cell": "B90",
+     "formula": "=DATE(2027,4,14)"
+    },
+    {
+     "cell": "C90",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D90",
+     "formula": "Dinner"
+    },
+    {
+     "cell": "E90",
+     "formula": 5.9
+    },
+    {
+     "cell": "G90",
+     "formula": 686.07
+    },
+    {
+     "cell": "H90",
+     "formula": 18.0
+    },
+    {
+     "cell": "I90",
+     "formula": 127.06
+    },
+    {
+     "cell": "J90",
+     "formula": 20.58
+    },
+    {
+     "cell": "B91",
+     "formula": "=DATE(2027,4,15)"
+    },
+    {
+     "cell": "C91",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D91",
+     "formula": "Dinner"
+    },
+    {
+     "cell": "E91",
+     "formula": 6.0
+    },
+    {
+     "cell": "G91",
+     "formula": 1011.77
+    },
+    {
+     "cell": "H91",
+     "formula": 42.0
+    },
+    {
+     "cell": "I91",
+     "formula": 211.59
+    },
+    {
+     "cell": "J91",
+     "formula": 30.35
+    },
+    {
+     "cell": "B92",
+     "formula": "=DATE(2027,4,16)"
+    },
+    {
+     "cell": "C92",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D92",
+     "formula": "Dinner"
+    },
+    {
+     "cell": "E92",
+     "formula": 7.0
+    },
+    {
+     "cell": "G92",
+     "formula": 1256.59
+    },
+    {
+     "cell": "H92",
+     "formula": 48.0
+    },
+    {
+     "cell": "I92",
+     "formula": 224.78
+    },
+    {
+     "cell": "J92",
+     "formula": 37.7
+    },
+    {
+     "cell": "B93",
+     "formula": "=DATE(2027,4,17)"
+    },
+    {
+     "cell": "C93",
+     "formula": "Harbor Bar"
+    },
+    {
+     "cell": "D93",
+     "formula": "Bar"
+    },
+    {
+     "cell": "E93",
+     "formula": 6.8
+    },
+    {
+     "cell": "G93",
+     "formula": 1286.81
+    },
+    {
+     "cell": "H93",
+     "formula": 88.0
+    },
+    {
+     "cell": "I93",
+     "formula": 195.94
+    },
+    {
+     "cell": "J93",
+     "formula": 19.59
+    },
+    {
+     "cell": "B94",
+     "formula": "=DATE(2027,4,18)"
+    },
+    {
+     "cell": "C94",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D94",
+     "formula": "Brunch"
+    },
+    {
+     "cell": "E94",
+     "formula": 5.9
+    },
+    {
+     "cell": "G94",
+     "formula": 1085.14
+    },
+    {
+     "cell": "H94",
+     "formula": 15.0
+    },
+    {
+     "cell": "I94",
+     "formula": 216.69
+    },
+    {
+     "cell": "J94",
+     "formula": 32.55
+    },
+    {
+     "cell": "B95",
+     "formula": "=DATE(2027,4,20)"
+    },
+    {
+     "cell": "C95",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D95",
+     "formula": "Lunch"
+    },
+    {
+     "cell": "E95",
+     "formula": 5.1
+    },
+    {
+     "cell": "G95",
+     "formula": 651.43
+    },
+    {
+     "cell": "H95",
+     "formula": 20.0
+    },
+    {
+     "cell": "I95",
+     "formula": 119.34
+    },
+    {
+     "cell": "J95",
+     "formula": 19.54
+    },
+    {
+     "cell": "B96",
+     "formula": "=DATE(2027,4,21)"
+    },
+    {
+     "cell": "C96",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D96",
+     "formula": "Dinner"
+    },
+    {
+     "cell": "E96",
+     "formula": 6.0
+    },
+    {
+     "cell": "G96",
+     "formula": 695.92
+    },
+    {
+     "cell": "H96",
+     "formula": 16.0
+    },
+    {
+     "cell": "I96",
+     "formula": 130.13
+    },
+    {
+     "cell": "J96",
+     "formula": 20.88
+    },
+    {
+     "cell": "B97",
+     "formula": "=DATE(2027,4,23)"
+    },
+    {
+     "cell": "C97",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D97",
+     "formula": "Dinner"
+    },
+    {
+     "cell": "E97",
+     "formula": 6.6
+    },
+    {
+     "cell": "G97",
+     "formula": 1261.58
+    },
+    {
+     "cell": "H97",
+     "formula": 63.0
+    },
+    {
+     "cell": "I97",
+     "formula": 217.51
+    },
+    {
+     "cell": "J97",
+     "formula": 37.85
+    },
+    {
+     "cell": "B98",
+     "formula": "=DATE(2027,4,24)"
+    },
+    {
+     "cell": "C98",
+     "formula": "Harbor Bar"
+    },
+    {
+     "cell": "D98",
+     "formula": "Bar"
+    },
+    {
+     "cell": "E98",
+     "formula": 6.7
+    },
+    {
+     "cell": "G98",
+     "formula": 1496.93
+    },
+    {
+     "cell": "H98",
+     "formula": 55.0
+    },
+    {
+     "cell": "I98",
+     "formula": 240.61
+    },
+    {
+     "cell": "J98",
+     "formula": 24.06
+    },
+    {
+     "cell": "B99",
+     "formula": "=DATE(2027,4,25)"
+    },
+    {
+     "cell": "C99",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D99",
+     "formula": "Brunch"
+    },
+    {
+     "cell": "E99",
+     "formula": 5.6
+    },
+    {
+     "cell": "G99",
+     "formula": 1186.75
+    },
+    {
+     "cell": "H99",
+     "formula": 49.0
+    },
+    {
+     "cell": "I99",
+     "formula": 209.74
+    },
+    {
+     "cell": "J99",
+     "formula": 35.6
+    },
+    {
+     "cell": "B100",
+     "formula": "=DATE(2027,4,27)"
+    },
+    {
+     "cell": "C100",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D100",
+     "formula": "Lunch"
+    },
+    {
+     "cell": "E100",
+     "formula": 4.8
+    },
+    {
+     "cell": "G100",
+     "formula": 520.59
+    },
+    {
+     "cell": "H100",
+     "formula": 14.0
+    },
+    {
+     "cell": "I100",
+     "formula": 91.72
+    },
+    {
+     "cell": "J100",
+     "formula": 15.62
+    },
+    {
+     "cell": "B101",
+     "formula": "=DATE(2027,4,28)"
+    },
+    {
+     "cell": "C101",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D101",
+     "formula": "Dinner"
+    },
+    {
+     "cell": "E101",
+     "formula": 5.7
+    },
+    {
+     "cell": "G101",
+     "formula": 774.53
+    },
+    {
+     "cell": "H101",
+     "formula": 26.0
+    },
+    {
+     "cell": "I101",
+     "formula": 116.5
+    },
+    {
+     "cell": "J101",
+     "formula": 23.24
+    },
+    {
+     "cell": "B102",
+     "formula": "=DATE(2027,4,29)"
+    },
+    {
+     "cell": "C102",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D102",
+     "formula": "Dinner"
+    },
+    {
+     "cell": "E102",
+     "formula": 6.2
+    },
+    {
+     "cell": "G102",
+     "formula": 976.48
+    },
+    {
+     "cell": "H102",
+     "formula": 38.0
+    },
+    {
+     "cell": "I102",
+     "formula": 147.62
+    },
+    {
+     "cell": "J102",
+     "formula": 29.29
+    },
+    {
+     "cell": "B103",
+     "formula": "=DATE(2027,4,30)"
+    },
+    {
+     "cell": "C103",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D103",
+     "formula": "Dinner"
+    },
+    {
+     "cell": "E103",
+     "formula": 6.9
+    },
+    {
+     "cell": "G103",
+     "formula": 945.41
+    },
+    {
+     "cell": "H103",
+     "formula": 26.0
+    },
+    {
+     "cell": "I103",
+     "formula": 178.33
+    },
+    {
+     "cell": "J103",
+     "formula": 28.36
+    },
+    {
+     "cell": "B104",
+     "formula": "=DATE(2027,5,1)"
+    },
+    {
+     "cell": "C104",
+     "formula": "Harbor Bar"
+    },
+    {
+     "cell": "D104",
+     "formula": "Bar"
+    },
+    {
+     "cell": "E104",
+     "formula": 6.8
+    },
+    {
+     "cell": "G104",
+     "formula": 1116.67
+    },
+    {
+     "cell": "H104",
+     "formula": 15.0
+    },
+    {
+     "cell": "I104",
+     "formula": 185.31
+    },
+    {
+     "cell": "J104",
+     "formula": 18.53
+    },
+    {
+     "cell": "B105",
+     "formula": "=DATE(2027,5,2)"
+    },
+    {
+     "cell": "C105",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D105",
+     "formula": "Brunch"
+    },
+    {
+     "cell": "E105",
+     "formula": 6.4
+    },
+    {
+     "cell": "G105",
+     "formula": 909.14
+    },
+    {
+     "cell": "H105",
+     "formula": 22.0
+    },
+    {
+     "cell": "I105",
+     "formula": 148.59
+    },
+    {
+     "cell": "J105",
+     "formula": 27.27
+    },
+    {
+     "cell": "B106",
+     "formula": "=DATE(2027,5,4)"
+    },
+    {
+     "cell": "C106",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D106",
+     "formula": "Lunch"
+    },
+    {
+     "cell": "E106",
+     "formula": 4.6
+    },
+    {
+     "cell": "G106",
+     "formula": 539.09
+    },
+    {
+     "cell": "H106",
+     "formula": 40.0
+    },
+    {
+     "cell": "I106",
+     "formula": 83.73
+    },
+    {
+     "cell": "J106",
+     "formula": 16.17
+    },
+    {
+     "cell": "B107",
+     "formula": "=DATE(2027,5,5)"
+    },
+    {
+     "cell": "C107",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D107",
+     "formula": "Dinner"
+    },
+    {
+     "cell": "E107",
+     "formula": 6.4
+    },
+    {
+     "cell": "G107",
+     "formula": 717.75
+    },
+    {
+     "cell": "H107",
+     "formula": 28.0
+    },
+    {
+     "cell": "I107",
+     "formula": 138.08
+    },
+    {
+     "cell": "J107",
+     "formula": 21.53
+    },
+    {
+     "cell": "B108",
+     "formula": "=DATE(2027,5,6)"
+    },
+    {
+     "cell": "C108",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D108",
+     "formula": "Dinner"
+    },
+    {
+     "cell": "E108",
+     "formula": 6.3
+    },
+    {
+     "cell": "G108",
+     "formula": 792.61
+    },
+    {
+     "cell": "H108",
+     "formula": 12.0
+    },
+    {
+     "cell": "I108",
+     "formula": 153.38
+    },
+    {
+     "cell": "J108",
+     "formula": 23.78
+    },
+    {
+     "cell": "B109",
+     "formula": "=DATE(2027,5,7)"
+    },
+    {
+     "cell": "C109",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D109",
+     "formula": "Dinner"
+    },
+    {
+     "cell": "E109",
+     "formula": 7.5
+    },
+    {
+     "cell": "G109",
+     "formula": 1392.1
+    },
+    {
+     "cell": "H109",
+     "formula": 41.0
+    },
+    {
+     "cell": "I109",
+     "formula": 277.61
+    },
+    {
+     "cell": "J109",
+     "formula": 41.76
+    },
+    {
+     "cell": "B110",
+     "formula": "=DATE(2027,5,8)"
+    },
+    {
+     "cell": "C110",
+     "formula": "Harbor Bar"
+    },
+    {
+     "cell": "D110",
+     "formula": "Bar"
+    },
+    {
+     "cell": "E110",
+     "formula": 6.6
+    },
+    {
+     "cell": "G110",
+     "formula": 1589.55
+    },
+    {
+     "cell": "H110",
+     "formula": 84.0
+    },
+    {
+     "cell": "I110",
+     "formula": 272.45
+    },
+    {
+     "cell": "J110",
+     "formula": 27.25
+    },
+    {
+     "cell": "B111",
+     "formula": "=DATE(2027,5,9)"
+    },
+    {
+     "cell": "C111",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D111",
+     "formula": "Brunch"
+    },
+    {
+     "cell": "E111",
+     "formula": 5.5
+    },
+    {
+     "cell": "G111",
+     "formula": 1164.66
+    },
+    {
+     "cell": "H111",
+     "formula": 12.0
+    },
+    {
+     "cell": "I111",
+     "formula": 219.57
+    },
+    {
+     "cell": "J111",
+     "formula": 34.94
+    },
+    {
+     "cell": "B112",
+     "formula": "=DATE(2027,5,12)"
+    },
+    {
+     "cell": "C112",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D112",
+     "formula": "Dinner"
+    },
+    {
+     "cell": "E112",
+     "formula": 5.7
+    },
+    {
+     "cell": "G112",
+     "formula": 693.14
+    },
+    {
+     "cell": "H112",
+     "formula": 23.0
+    },
+    {
+     "cell": "I112",
+     "formula": 129.11
+    },
+    {
+     "cell": "J112",
+     "formula": 20.79
+    },
+    {
+     "cell": "B113",
+     "formula": "=DATE(2027,5,13)"
+    },
+    {
+     "cell": "C113",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D113",
+     "formula": "Dinner"
+    },
+    {
+     "cell": "E113",
+     "formula": 5.8
+    },
+    {
+     "cell": "G113",
+     "formula": 991.59
+    },
+    {
+     "cell": "H113",
+     "formula": 44.0
+    },
+    {
+     "cell": "I113",
+     "formula": 207.88
+    },
+    {
+     "cell": "J113",
+     "formula": 29.75
+    },
+    {
+     "cell": "B114",
+     "formula": "=DATE(2027,5,14)"
+    },
+    {
+     "cell": "C114",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D114",
+     "formula": "Dinner"
+    },
+    {
+     "cell": "E114",
+     "formula": 7.2
+    },
+    {
+     "cell": "G114",
+     "formula": 1438.89
+    },
+    {
+     "cell": "H114",
+     "formula": 39.0
+    },
+    {
+     "cell": "I114",
+     "formula": 293.68
+    },
+    {
+     "cell": "J114",
+     "formula": 43.17
+    },
+    {
+     "cell": "K114",
+     "formula": "Big party"
+    },
+    {
+     "cell": "B115",
+     "formula": "=DATE(2027,5,15)"
+    },
+    {
+     "cell": "C115",
+     "formula": "Harbor Bar"
+    },
+    {
+     "cell": "D115",
+     "formula": "Bar"
+    },
+    {
+     "cell": "E115",
+     "formula": 7.0
+    },
+    {
+     "cell": "G115",
+     "formula": 1218.88
+    },
+    {
+     "cell": "H115",
+     "formula": 26.0
+    },
+    {
+     "cell": "I115",
+     "formula": 240.38
+    },
+    {
+     "cell": "J115",
+     "formula": 24.04
+    },
+    {
+     "cell": "B116",
+     "formula": "=DATE(2027,5,16)"
+    },
+    {
+     "cell": "C116",
+     "formula": "The Oak Room"
+    },
+    {
+     "cell": "D116",
+     "formula": "Brunch"
+    },
+    {
+     "cell": "E116",
+     "formula": 6.0
+    },
+    {
+     "cell": "G116",
+     "formula": 1120.0
+    },
+    {
+     "cell": "H116",
+     "formula": 52.0
+    },
+    {
+     "cell": "I116",
+     "formula": 217.64
+    },
+    {
+     "cell": "J116",
+     "formula": 33.6
+    },
+    {
+     "col": "Q",
+     "range_rows": [
+      6,
+      1505
+     ],
+     "formula": "=IF(AND(TRIM(B{row}&\"\")=\"\",TRIM(E{row}&\"\")=\"\",TRIM(H{row}&\"\")=\"\",TRIM(I{row}&\"\")=\"\"),\"\",IF(OR(NOT(ISNUMBER(B{row})),N(B{row})<1,AND(TRIM(E{row}&\"\")<>\"\",NOT(ISNUMBER(E{row}))),AND(TRIM(F{row}&\"\")<>\"\",NOT(ISNUMBER(F{row}))),AND(TRIM(G{row}&\"\")<>\"\",NOT(ISNUMBER(G{row}))),AND(TRIM(H{row}&\"\")<>\"\",NOT(ISNUMBER(H{row}))),AND(TRIM(I{row}&\"\")<>\"\",NOT(ISNUMBER(I{row}))),AND(TRIM(J{row}&\"\")<>\"\",NOT(ISNUMBER(J{row})))),\"?\",\"OK\"))"
+    },
+    {
+     "col": "T",
+     "range_rows": [
+      6,
+      1505
+     ],
+     "formula": "=IF(TRIM(C{row}&\"\")=\"\",0,IFERROR(MATCH(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(LOWER(TRIM(C{row}&\"\")),\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"),'Setup'!$S$12:$S$17,0),0))"
+    },
+    {
+     "col": "U",
+     "range_rows": [
+      6,
+      1505
+     ],
+     "formula": "=IF(TRIM(D{row}&\"\")=\"\",0,IFERROR(MATCH(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(LOWER(TRIM(D{row}&\"\")),\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"),'Setup'!$T$12:$T$19,0),0))"
+    },
+    {
+     "col": "V",
+     "range_rows": [
+      6,
+      1505
+     ],
+     "formula": "=IF(ISNUMBER(F{row}),MAX(0,F{row}),IF(T{row}>0,INDEX('Setup'!$U$12:$U$17,T{row}),0))"
+    },
+    {
+     "col": "L",
+     "range_rows": [
+      6,
+      1505
+     ],
+     "formula": "=IF(Q{row}=\"OK\",ROUND(MAX(0,N(E{row}))*V{row},2),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "M",
+     "range_rows": [
+      6,
+      1505
+     ],
+     "formula": "=IF(Q{row}=\"OK\",ROUND(N(H{row})+N(I{row})-N(J{row}),2),\"\")",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "col": "N",
+     "range_rows": [
+      6,
+      1505
+     ],
+     "formula": "=IF(Q{row}=\"OK\",ROUND(L{row}+M{row},2),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "O",
+     "range_rows": [
+      6,
+      1505
+     ],
+     "formula": "=IF(AND(Q{row}=\"OK\",N(E{row})>0),ROUND(N{row}/E{row},2),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "P",
+     "range_rows": [
+      6,
+      1505
+     ],
+     "formula": "=IF(AND(Q{row}=\"OK\",N(G{row})>0),(N(H{row})+N(I{row}))/G{row},\"\")",
+     "number_format": "0.0%"
+    },
+    {
+     "col": "R",
+     "range_rows": [
+      6,
+      1505
+     ],
+     "formula": "=IF(Q{row}=\"OK\",IF(YEAR(B{row})='Setup'!$R$4,MONTH(B{row}),0),0)"
+    },
+    {
+     "col": "S",
+     "range_rows": [
+      6,
+      1505
+     ],
+     "formula": "=IF(AND(Q{row}=\"OK\",R{row}>0),WEEKDAY(B{row},2),0)"
+    },
+    {
+     "col": "W",
+     "range_rows": [
+      6,
+      1505
+     ],
+     "formula": "=IF(R{row}>0,1,0)"
+    },
+    {
+     "col": "X",
+     "range_rows": [
+      6,
+      1505
+     ],
+     "formula": "=IF(R{row}>0,MAX(0,N(E{row})),0)"
+    },
+    {
+     "col": "Y",
+     "range_rows": [
+      6,
+      1505
+     ],
+     "formula": "=IF(R{row}>0,N{row},0)"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "Q6:Q1505",
+     "type": "formula",
+     "formula": [
+      "$Q6=\"?\""
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "Q6:Q1505",
+     "type": "formula",
+     "formula": [
+      "$Q6=\"OK\""
+     ],
+     "fill": "D7EFDD"
+    },
+    {
+     "range": "C6:C1505",
+     "type": "formula",
+     "formula": [
+      "AND(TRIM($C6&\"\")<>\"\",$T6=0)"
+     ],
+     "fill": "FFF1C2"
+    },
+    {
+     "range": "D6:D1505",
+     "type": "formula",
+     "formula": [
+      "AND(TRIM($D6&\"\")<>\"\",$U6=0)"
+     ],
+     "fill": "FFF1C2"
+    },
+    {
+     "range": "B6:B1505",
+     "type": "formula",
+     "formula": [
+      "AND(B6<>\"\",OR(NOT(ISNUMBER(B6)),N(B6)<1))"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "E6:J1505",
+     "type": "formula",
+     "formula": [
+      "OR(AND(E6<>\"\",NOT(ISNUMBER(E6))),N(E6)<0)"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B5:K5",
+     "color": "F8F5F1"
+    },
+    {
+     "range": "L5:Q5",
+     "color": "F3DCE1"
+    },
+    {
+     "range": "L6:Q1505",
+     "color": "FBF9F6"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:Q1505",
+     "color": "E1D9CF"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "2A2230"
+    },
+    {
+     "range": "B5:Q5",
+     "bold": true,
+     "size": 10,
+     "color": "2A2230",
+     "align": "center",
+     "wrap": true
+    },
+    {
+     "range": "B6:B1505",
+     "size": 10,
+     "color": "2A2230",
+     "align": "center"
+    },
+    {
+     "range": "D6:J1505",
+     "size": 10,
+     "color": "2A2230",
+     "align": "center"
+    },
+    {
+     "range": "L6:Q1505",
+     "size": 10,
+     "color": "2A2230",
+     "align": "center"
+    },
+    {
+     "range": "N6:N1505",
+     "bold": true,
+     "size": 10,
+     "color": "2A2230",
+     "align": "center"
+    }
+   ],
+   "row_heights": {
+    "5": 30
+   },
+   "validations": [
+    {
+     "range": "C6:C1505",
+     "type": "list_range",
+     "source": "'Setup'!$B$12:$B$17",
+     "strict": false
+    },
+    {
+     "range": "D6:D1505",
+     "type": "list_range",
+     "source": "'Setup'!$F$12:$F$19",
+     "strict": false
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "B6:B1505",
+     "format": "mmm d, yyyy"
+    },
+    {
+     "range": "F6:J1505",
+     "format": "$#,##0.00"
+    }
+   ]
+  },
+  {
+   "name": "Monthly",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "3D2C3E",
+   "grid_rows": 41,
+   "grid_cols": 18,
+   "row_height": 21,
+   "column_widths": {
+    "A": 2.5,
+    "B": 12,
+    "C": 8,
+    "D": 8,
+    "E": 11,
+    "F": 11,
+    "G": 11,
+    "H": 10,
+    "I": 11,
+    "J": 12,
+    "K": 10,
+    "L": 11,
+    "M": 12,
+    "N": 11,
+    "O": 17,
+    "P": 2.5,
+    "Q": 3
+   },
+   "hidden_columns": [
+    "Q"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:O2",
+     "label": "=\"MONTH BY MONTH  -  \"&'Setup'!$R$4",
+     "size": 16,
+     "color": "3D2C3E",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "B21:O21",
+     "label": "INCOME BY MONTH",
+     "color": "EDE6DD",
+     "font_color": "2A2230",
+     "align": "center"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Every month of the year. After Taxes = Total Income minus what you set aside for taxes."
+    },
+    {
+     "cell": "B6",
+     "formula": "Month"
+    },
+    {
+     "cell": "C6",
+     "formula": "Shifts"
+    },
+    {
+     "cell": "D6",
+     "formula": "Hours"
+    },
+    {
+     "cell": "E6",
+     "formula": "Wages"
+    },
+    {
+     "cell": "F6",
+     "formula": "Cash Tips"
+    },
+    {
+     "cell": "G6",
+     "formula": "Card Tips"
+    },
+    {
+     "cell": "H6",
+     "formula": "Tip-Out"
+    },
+    {
+     "cell": "I6",
+     "formula": "Net Tips"
+    },
+    {
+     "cell": "J6",
+     "formula": "Total Income"
+    },
+    {
+     "cell": "K6",
+     "formula": "Per Hour"
+    },
+    {
+     "cell": "L6",
+     "formula": "Set Aside for Taxes"
+    },
+    {
+     "cell": "M6",
+     "formula": "After Taxes"
+    },
+    {
+     "cell": "N6",
+     "formula": "Goal"
+    },
+    {
+     "cell": "O6",
+     "formula": "vs. Goal"
+    },
+    {
+     "cell": "B7",
+     "formula": "January"
+    },
+    {
+     "cell": "C7",
+     "formula": "=COUNTIFS('Shifts'!$R$6:$R$1505,1)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D7",
+     "formula": "=ROUND(SUMIFS('Shifts'!$X$6:$X$1505,'Shifts'!$R$6:$R$1505,1),2)",
+     "number_format": "0.0"
+    },
+    {
+     "cell": "E7",
+     "formula": "=ROUND(SUMIFS('Shifts'!$L$6:$L$1505,'Shifts'!$R$6:$R$1505,1),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F7",
+     "formula": "=ROUND(SUMIFS('Shifts'!$H$6:$H$1505,'Shifts'!$R$6:$R$1505,1),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G7",
+     "formula": "=ROUND(SUMIFS('Shifts'!$I$6:$I$1505,'Shifts'!$R$6:$R$1505,1),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H7",
+     "formula": "=ROUND(SUMIFS('Shifts'!$J$6:$J$1505,'Shifts'!$R$6:$R$1505,1),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I7",
+     "formula": "=ROUND(SUMIFS('Shifts'!$M$6:$M$1505,'Shifts'!$R$6:$R$1505,1),2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "J7",
+     "formula": "=ROUND(E7+I7,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K7",
+     "formula": "=IF(D7>0,ROUND(J7/D7,2),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L7",
+     "formula": "=ROUND(MAX(0,J7)*'Setup'!$R$6,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "M7",
+     "formula": "=ROUND(J7-L7,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "N7",
+     "formula": "='Setup'!$R$7",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "O7",
+     "formula": "=IF(N7<=0,\"\",REPT(\"█\",ROUND(MIN(1,MAX(0,M7/N7))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,M7/N7))*10,0))&\"  \"&TEXT(M7/N7,\"0%\"))"
+    },
+    {
+     "cell": "B8",
+     "formula": "February"
+    },
+    {
+     "cell": "C8",
+     "formula": "=COUNTIFS('Shifts'!$R$6:$R$1505,2)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D8",
+     "formula": "=ROUND(SUMIFS('Shifts'!$X$6:$X$1505,'Shifts'!$R$6:$R$1505,2),2)",
+     "number_format": "0.0"
+    },
+    {
+     "cell": "E8",
+     "formula": "=ROUND(SUMIFS('Shifts'!$L$6:$L$1505,'Shifts'!$R$6:$R$1505,2),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F8",
+     "formula": "=ROUND(SUMIFS('Shifts'!$H$6:$H$1505,'Shifts'!$R$6:$R$1505,2),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G8",
+     "formula": "=ROUND(SUMIFS('Shifts'!$I$6:$I$1505,'Shifts'!$R$6:$R$1505,2),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H8",
+     "formula": "=ROUND(SUMIFS('Shifts'!$J$6:$J$1505,'Shifts'!$R$6:$R$1505,2),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I8",
+     "formula": "=ROUND(SUMIFS('Shifts'!$M$6:$M$1505,'Shifts'!$R$6:$R$1505,2),2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "J8",
+     "formula": "=ROUND(E8+I8,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K8",
+     "formula": "=IF(D8>0,ROUND(J8/D8,2),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L8",
+     "formula": "=ROUND(MAX(0,J8)*'Setup'!$R$6,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "M8",
+     "formula": "=ROUND(J8-L8,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "N8",
+     "formula": "='Setup'!$R$7",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "O8",
+     "formula": "=IF(N8<=0,\"\",REPT(\"█\",ROUND(MIN(1,MAX(0,M8/N8))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,M8/N8))*10,0))&\"  \"&TEXT(M8/N8,\"0%\"))"
+    },
+    {
+     "cell": "B9",
+     "formula": "March"
+    },
+    {
+     "cell": "C9",
+     "formula": "=COUNTIFS('Shifts'!$R$6:$R$1505,3)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D9",
+     "formula": "=ROUND(SUMIFS('Shifts'!$X$6:$X$1505,'Shifts'!$R$6:$R$1505,3),2)",
+     "number_format": "0.0"
+    },
+    {
+     "cell": "E9",
+     "formula": "=ROUND(SUMIFS('Shifts'!$L$6:$L$1505,'Shifts'!$R$6:$R$1505,3),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F9",
+     "formula": "=ROUND(SUMIFS('Shifts'!$H$6:$H$1505,'Shifts'!$R$6:$R$1505,3),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G9",
+     "formula": "=ROUND(SUMIFS('Shifts'!$I$6:$I$1505,'Shifts'!$R$6:$R$1505,3),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H9",
+     "formula": "=ROUND(SUMIFS('Shifts'!$J$6:$J$1505,'Shifts'!$R$6:$R$1505,3),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I9",
+     "formula": "=ROUND(SUMIFS('Shifts'!$M$6:$M$1505,'Shifts'!$R$6:$R$1505,3),2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "J9",
+     "formula": "=ROUND(E9+I9,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K9",
+     "formula": "=IF(D9>0,ROUND(J9/D9,2),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L9",
+     "formula": "=ROUND(MAX(0,J9)*'Setup'!$R$6,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "M9",
+     "formula": "=ROUND(J9-L9,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "N9",
+     "formula": "='Setup'!$R$7",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "O9",
+     "formula": "=IF(N9<=0,\"\",REPT(\"█\",ROUND(MIN(1,MAX(0,M9/N9))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,M9/N9))*10,0))&\"  \"&TEXT(M9/N9,\"0%\"))"
+    },
+    {
+     "cell": "B10",
+     "formula": "April"
+    },
+    {
+     "cell": "C10",
+     "formula": "=COUNTIFS('Shifts'!$R$6:$R$1505,4)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D10",
+     "formula": "=ROUND(SUMIFS('Shifts'!$X$6:$X$1505,'Shifts'!$R$6:$R$1505,4),2)",
+     "number_format": "0.0"
+    },
+    {
+     "cell": "E10",
+     "formula": "=ROUND(SUMIFS('Shifts'!$L$6:$L$1505,'Shifts'!$R$6:$R$1505,4),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F10",
+     "formula": "=ROUND(SUMIFS('Shifts'!$H$6:$H$1505,'Shifts'!$R$6:$R$1505,4),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G10",
+     "formula": "=ROUND(SUMIFS('Shifts'!$I$6:$I$1505,'Shifts'!$R$6:$R$1505,4),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H10",
+     "formula": "=ROUND(SUMIFS('Shifts'!$J$6:$J$1505,'Shifts'!$R$6:$R$1505,4),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I10",
+     "formula": "=ROUND(SUMIFS('Shifts'!$M$6:$M$1505,'Shifts'!$R$6:$R$1505,4),2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "J10",
+     "formula": "=ROUND(E10+I10,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K10",
+     "formula": "=IF(D10>0,ROUND(J10/D10,2),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L10",
+     "formula": "=ROUND(MAX(0,J10)*'Setup'!$R$6,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "M10",
+     "formula": "=ROUND(J10-L10,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "N10",
+     "formula": "='Setup'!$R$7",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "O10",
+     "formula": "=IF(N10<=0,\"\",REPT(\"█\",ROUND(MIN(1,MAX(0,M10/N10))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,M10/N10))*10,0))&\"  \"&TEXT(M10/N10,\"0%\"))"
+    },
+    {
+     "cell": "B11",
+     "formula": "May"
+    },
+    {
+     "cell": "C11",
+     "formula": "=COUNTIFS('Shifts'!$R$6:$R$1505,5)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D11",
+     "formula": "=ROUND(SUMIFS('Shifts'!$X$6:$X$1505,'Shifts'!$R$6:$R$1505,5),2)",
+     "number_format": "0.0"
+    },
+    {
+     "cell": "E11",
+     "formula": "=ROUND(SUMIFS('Shifts'!$L$6:$L$1505,'Shifts'!$R$6:$R$1505,5),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F11",
+     "formula": "=ROUND(SUMIFS('Shifts'!$H$6:$H$1505,'Shifts'!$R$6:$R$1505,5),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G11",
+     "formula": "=ROUND(SUMIFS('Shifts'!$I$6:$I$1505,'Shifts'!$R$6:$R$1505,5),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H11",
+     "formula": "=ROUND(SUMIFS('Shifts'!$J$6:$J$1505,'Shifts'!$R$6:$R$1505,5),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I11",
+     "formula": "=ROUND(SUMIFS('Shifts'!$M$6:$M$1505,'Shifts'!$R$6:$R$1505,5),2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "J11",
+     "formula": "=ROUND(E11+I11,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K11",
+     "formula": "=IF(D11>0,ROUND(J11/D11,2),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L11",
+     "formula": "=ROUND(MAX(0,J11)*'Setup'!$R$6,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "M11",
+     "formula": "=ROUND(J11-L11,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "N11",
+     "formula": "='Setup'!$R$7",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "O11",
+     "formula": "=IF(N11<=0,\"\",REPT(\"█\",ROUND(MIN(1,MAX(0,M11/N11))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,M11/N11))*10,0))&\"  \"&TEXT(M11/N11,\"0%\"))"
+    },
+    {
+     "cell": "B12",
+     "formula": "June"
+    },
+    {
+     "cell": "C12",
+     "formula": "=COUNTIFS('Shifts'!$R$6:$R$1505,6)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D12",
+     "formula": "=ROUND(SUMIFS('Shifts'!$X$6:$X$1505,'Shifts'!$R$6:$R$1505,6),2)",
+     "number_format": "0.0"
+    },
+    {
+     "cell": "E12",
+     "formula": "=ROUND(SUMIFS('Shifts'!$L$6:$L$1505,'Shifts'!$R$6:$R$1505,6),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F12",
+     "formula": "=ROUND(SUMIFS('Shifts'!$H$6:$H$1505,'Shifts'!$R$6:$R$1505,6),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G12",
+     "formula": "=ROUND(SUMIFS('Shifts'!$I$6:$I$1505,'Shifts'!$R$6:$R$1505,6),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H12",
+     "formula": "=ROUND(SUMIFS('Shifts'!$J$6:$J$1505,'Shifts'!$R$6:$R$1505,6),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I12",
+     "formula": "=ROUND(SUMIFS('Shifts'!$M$6:$M$1505,'Shifts'!$R$6:$R$1505,6),2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "J12",
+     "formula": "=ROUND(E12+I12,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K12",
+     "formula": "=IF(D12>0,ROUND(J12/D12,2),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L12",
+     "formula": "=ROUND(MAX(0,J12)*'Setup'!$R$6,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "M12",
+     "formula": "=ROUND(J12-L12,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "N12",
+     "formula": "='Setup'!$R$7",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "O12",
+     "formula": "=IF(N12<=0,\"\",REPT(\"█\",ROUND(MIN(1,MAX(0,M12/N12))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,M12/N12))*10,0))&\"  \"&TEXT(M12/N12,\"0%\"))"
+    },
+    {
+     "cell": "B13",
+     "formula": "July"
+    },
+    {
+     "cell": "C13",
+     "formula": "=COUNTIFS('Shifts'!$R$6:$R$1505,7)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D13",
+     "formula": "=ROUND(SUMIFS('Shifts'!$X$6:$X$1505,'Shifts'!$R$6:$R$1505,7),2)",
+     "number_format": "0.0"
+    },
+    {
+     "cell": "E13",
+     "formula": "=ROUND(SUMIFS('Shifts'!$L$6:$L$1505,'Shifts'!$R$6:$R$1505,7),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F13",
+     "formula": "=ROUND(SUMIFS('Shifts'!$H$6:$H$1505,'Shifts'!$R$6:$R$1505,7),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G13",
+     "formula": "=ROUND(SUMIFS('Shifts'!$I$6:$I$1505,'Shifts'!$R$6:$R$1505,7),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H13",
+     "formula": "=ROUND(SUMIFS('Shifts'!$J$6:$J$1505,'Shifts'!$R$6:$R$1505,7),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I13",
+     "formula": "=ROUND(SUMIFS('Shifts'!$M$6:$M$1505,'Shifts'!$R$6:$R$1505,7),2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "J13",
+     "formula": "=ROUND(E13+I13,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K13",
+     "formula": "=IF(D13>0,ROUND(J13/D13,2),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L13",
+     "formula": "=ROUND(MAX(0,J13)*'Setup'!$R$6,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "M13",
+     "formula": "=ROUND(J13-L13,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "N13",
+     "formula": "='Setup'!$R$7",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "O13",
+     "formula": "=IF(N13<=0,\"\",REPT(\"█\",ROUND(MIN(1,MAX(0,M13/N13))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,M13/N13))*10,0))&\"  \"&TEXT(M13/N13,\"0%\"))"
+    },
+    {
+     "cell": "B14",
+     "formula": "August"
+    },
+    {
+     "cell": "C14",
+     "formula": "=COUNTIFS('Shifts'!$R$6:$R$1505,8)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D14",
+     "formula": "=ROUND(SUMIFS('Shifts'!$X$6:$X$1505,'Shifts'!$R$6:$R$1505,8),2)",
+     "number_format": "0.0"
+    },
+    {
+     "cell": "E14",
+     "formula": "=ROUND(SUMIFS('Shifts'!$L$6:$L$1505,'Shifts'!$R$6:$R$1505,8),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F14",
+     "formula": "=ROUND(SUMIFS('Shifts'!$H$6:$H$1505,'Shifts'!$R$6:$R$1505,8),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G14",
+     "formula": "=ROUND(SUMIFS('Shifts'!$I$6:$I$1505,'Shifts'!$R$6:$R$1505,8),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H14",
+     "formula": "=ROUND(SUMIFS('Shifts'!$J$6:$J$1505,'Shifts'!$R$6:$R$1505,8),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I14",
+     "formula": "=ROUND(SUMIFS('Shifts'!$M$6:$M$1505,'Shifts'!$R$6:$R$1505,8),2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "J14",
+     "formula": "=ROUND(E14+I14,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K14",
+     "formula": "=IF(D14>0,ROUND(J14/D14,2),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L14",
+     "formula": "=ROUND(MAX(0,J14)*'Setup'!$R$6,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "M14",
+     "formula": "=ROUND(J14-L14,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "N14",
+     "formula": "='Setup'!$R$7",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "O14",
+     "formula": "=IF(N14<=0,\"\",REPT(\"█\",ROUND(MIN(1,MAX(0,M14/N14))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,M14/N14))*10,0))&\"  \"&TEXT(M14/N14,\"0%\"))"
+    },
+    {
+     "cell": "B15",
+     "formula": "September"
+    },
+    {
+     "cell": "C15",
+     "formula": "=COUNTIFS('Shifts'!$R$6:$R$1505,9)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D15",
+     "formula": "=ROUND(SUMIFS('Shifts'!$X$6:$X$1505,'Shifts'!$R$6:$R$1505,9),2)",
+     "number_format": "0.0"
+    },
+    {
+     "cell": "E15",
+     "formula": "=ROUND(SUMIFS('Shifts'!$L$6:$L$1505,'Shifts'!$R$6:$R$1505,9),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F15",
+     "formula": "=ROUND(SUMIFS('Shifts'!$H$6:$H$1505,'Shifts'!$R$6:$R$1505,9),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G15",
+     "formula": "=ROUND(SUMIFS('Shifts'!$I$6:$I$1505,'Shifts'!$R$6:$R$1505,9),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H15",
+     "formula": "=ROUND(SUMIFS('Shifts'!$J$6:$J$1505,'Shifts'!$R$6:$R$1505,9),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I15",
+     "formula": "=ROUND(SUMIFS('Shifts'!$M$6:$M$1505,'Shifts'!$R$6:$R$1505,9),2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "J15",
+     "formula": "=ROUND(E15+I15,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K15",
+     "formula": "=IF(D15>0,ROUND(J15/D15,2),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L15",
+     "formula": "=ROUND(MAX(0,J15)*'Setup'!$R$6,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "M15",
+     "formula": "=ROUND(J15-L15,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "N15",
+     "formula": "='Setup'!$R$7",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "O15",
+     "formula": "=IF(N15<=0,\"\",REPT(\"█\",ROUND(MIN(1,MAX(0,M15/N15))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,M15/N15))*10,0))&\"  \"&TEXT(M15/N15,\"0%\"))"
+    },
+    {
+     "cell": "B16",
+     "formula": "October"
+    },
+    {
+     "cell": "C16",
+     "formula": "=COUNTIFS('Shifts'!$R$6:$R$1505,10)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D16",
+     "formula": "=ROUND(SUMIFS('Shifts'!$X$6:$X$1505,'Shifts'!$R$6:$R$1505,10),2)",
+     "number_format": "0.0"
+    },
+    {
+     "cell": "E16",
+     "formula": "=ROUND(SUMIFS('Shifts'!$L$6:$L$1505,'Shifts'!$R$6:$R$1505,10),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F16",
+     "formula": "=ROUND(SUMIFS('Shifts'!$H$6:$H$1505,'Shifts'!$R$6:$R$1505,10),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G16",
+     "formula": "=ROUND(SUMIFS('Shifts'!$I$6:$I$1505,'Shifts'!$R$6:$R$1505,10),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H16",
+     "formula": "=ROUND(SUMIFS('Shifts'!$J$6:$J$1505,'Shifts'!$R$6:$R$1505,10),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I16",
+     "formula": "=ROUND(SUMIFS('Shifts'!$M$6:$M$1505,'Shifts'!$R$6:$R$1505,10),2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "J16",
+     "formula": "=ROUND(E16+I16,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K16",
+     "formula": "=IF(D16>0,ROUND(J16/D16,2),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L16",
+     "formula": "=ROUND(MAX(0,J16)*'Setup'!$R$6,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "M16",
+     "formula": "=ROUND(J16-L16,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "N16",
+     "formula": "='Setup'!$R$7",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "O16",
+     "formula": "=IF(N16<=0,\"\",REPT(\"█\",ROUND(MIN(1,MAX(0,M16/N16))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,M16/N16))*10,0))&\"  \"&TEXT(M16/N16,\"0%\"))"
+    },
+    {
+     "cell": "B17",
+     "formula": "November"
+    },
+    {
+     "cell": "C17",
+     "formula": "=COUNTIFS('Shifts'!$R$6:$R$1505,11)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D17",
+     "formula": "=ROUND(SUMIFS('Shifts'!$X$6:$X$1505,'Shifts'!$R$6:$R$1505,11),2)",
+     "number_format": "0.0"
+    },
+    {
+     "cell": "E17",
+     "formula": "=ROUND(SUMIFS('Shifts'!$L$6:$L$1505,'Shifts'!$R$6:$R$1505,11),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F17",
+     "formula": "=ROUND(SUMIFS('Shifts'!$H$6:$H$1505,'Shifts'!$R$6:$R$1505,11),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G17",
+     "formula": "=ROUND(SUMIFS('Shifts'!$I$6:$I$1505,'Shifts'!$R$6:$R$1505,11),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H17",
+     "formula": "=ROUND(SUMIFS('Shifts'!$J$6:$J$1505,'Shifts'!$R$6:$R$1505,11),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I17",
+     "formula": "=ROUND(SUMIFS('Shifts'!$M$6:$M$1505,'Shifts'!$R$6:$R$1505,11),2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "J17",
+     "formula": "=ROUND(E17+I17,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K17",
+     "formula": "=IF(D17>0,ROUND(J17/D17,2),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L17",
+     "formula": "=ROUND(MAX(0,J17)*'Setup'!$R$6,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "M17",
+     "formula": "=ROUND(J17-L17,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "N17",
+     "formula": "='Setup'!$R$7",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "O17",
+     "formula": "=IF(N17<=0,\"\",REPT(\"█\",ROUND(MIN(1,MAX(0,M17/N17))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,M17/N17))*10,0))&\"  \"&TEXT(M17/N17,\"0%\"))"
+    },
+    {
+     "cell": "B18",
+     "formula": "December"
+    },
+    {
+     "cell": "C18",
+     "formula": "=COUNTIFS('Shifts'!$R$6:$R$1505,12)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D18",
+     "formula": "=ROUND(SUMIFS('Shifts'!$X$6:$X$1505,'Shifts'!$R$6:$R$1505,12),2)",
+     "number_format": "0.0"
+    },
+    {
+     "cell": "E18",
+     "formula": "=ROUND(SUMIFS('Shifts'!$L$6:$L$1505,'Shifts'!$R$6:$R$1505,12),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F18",
+     "formula": "=ROUND(SUMIFS('Shifts'!$H$6:$H$1505,'Shifts'!$R$6:$R$1505,12),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G18",
+     "formula": "=ROUND(SUMIFS('Shifts'!$I$6:$I$1505,'Shifts'!$R$6:$R$1505,12),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H18",
+     "formula": "=ROUND(SUMIFS('Shifts'!$J$6:$J$1505,'Shifts'!$R$6:$R$1505,12),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I18",
+     "formula": "=ROUND(SUMIFS('Shifts'!$M$6:$M$1505,'Shifts'!$R$6:$R$1505,12),2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "J18",
+     "formula": "=ROUND(E18+I18,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K18",
+     "formula": "=IF(D18>0,ROUND(J18/D18,2),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L18",
+     "formula": "=ROUND(MAX(0,J18)*'Setup'!$R$6,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "M18",
+     "formula": "=ROUND(J18-L18,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "N18",
+     "formula": "='Setup'!$R$7",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "O18",
+     "formula": "=IF(N18<=0,\"\",REPT(\"█\",ROUND(MIN(1,MAX(0,M18/N18))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,M18/N18))*10,0))&\"  \"&TEXT(M18/N18,\"0%\"))"
+    },
+    {
+     "cell": "B19",
+     "formula": "YEAR"
+    },
+    {
+     "cell": "C19",
+     "formula": "=SUM(C7:C18)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D19",
+     "formula": "=ROUND(SUM(D7:D18),2)",
+     "number_format": "0.0"
+    },
+    {
+     "cell": "E19",
+     "formula": "=ROUND(SUM(E7:E18),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F19",
+     "formula": "=ROUND(SUM(F7:F18),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G19",
+     "formula": "=ROUND(SUM(G7:G18),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H19",
+     "formula": "=ROUND(SUM(H7:H18),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I19",
+     "formula": "=ROUND(SUM(I7:I18),2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "J19",
+     "formula": "=ROUND(SUM(J7:J18),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L19",
+     "formula": "=ROUND(SUM(L7:L18),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "M19",
+     "formula": "=ROUND(SUM(M7:M18),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "N19",
+     "formula": "=ROUND(SUM(N7:N18),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K19",
+     "formula": "=IF(D19>0,ROUND(J19/D19,2),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "Q4",
+     "formula": "='Setup'!$R$5"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "M7:M18",
+     "type": "formula",
+     "formula": [
+      "AND(M7>0,M7>=N7)"
+     ],
+     "fill": "D7EFDD"
+    },
+    {
+     "range": "M7:M18",
+     "type": "formula",
+     "formula": [
+      "AND(ROW()-6<$Q$4,M7<N7)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "B7:B18",
+     "type": "formula",
+     "formula": [
+      "ROW()-6=$Q$4"
+     ],
+     "fill": "D9A441"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B6:O6",
+     "color": "F8F5F1"
+    },
+    {
+     "range": "C7:O18",
+     "color": "FBF9F6"
+    },
+    {
+     "range": "B19:O19",
+     "color": "EDE6DD"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B6:O19",
+     "color": "E1D9CF"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "2A2230"
+    },
+    {
+     "range": "B6:O6",
+     "bold": true,
+     "size": 10,
+     "color": "2A2230",
+     "align": "center",
+     "wrap": true
+    },
+    {
+     "range": "B7:B19",
+     "bold": true,
+     "size": 10,
+     "color": "2A2230"
+    },
+    {
+     "range": "C7:O19",
+     "size": 10,
+     "color": "2A2230",
+     "align": "center"
+    },
+    {
+     "range": "J7:J19",
+     "bold": true,
+     "size": 10,
+     "color": "2A2230",
+     "align": "center"
+    },
+    {
+     "range": "O7:O19",
+     "size": 9,
+     "color": "9E3B4F"
+    },
+    {
+     "range": "B19:N19",
+     "bold": true,
+     "size": 10,
+     "color": "2A2230",
+     "align": "center"
+    }
+   ],
+   "row_heights": {
+    "6": 34
+   },
+   "charts": [
+    {
+     "type": "bar",
+     "anchor": "B22",
+     "data": "Monthly!E6:E18",
+     "categories": "Monthly!B7:B18",
+     "width": 24,
+     "height": 7,
+     "colors": [
+      "3D2C3E"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Best Shifts",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "D9A441",
+   "grid_rows": 39,
+   "grid_cols": 17,
+   "row_height": 21,
+   "column_widths": {
+    "A": 2.5,
+    "B": 18,
+    "C": 9,
+    "D": 9,
+    "E": 13,
+    "F": 12,
+    "G": 12,
+    "H": 3
+   },
+   "section_bars": [
+    {
+     "range": "B2:G2",
+     "label": "=\"YOUR BEST SHIFTS  -  \"&'Setup'!$R$4",
+     "size": 16,
+     "color": "3D2C3E",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "B5:G5",
+     "label": "BY DAY OF THE WEEK",
+     "color": "EDE6DD",
+     "font_color": "2A2230",
+     "align": "center"
+    },
+    {
+     "range": "B16:G16",
+     "label": "BY SHIFT",
+     "color": "9E3B4F",
+     "font_color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "B28:G28",
+     "label": "BY JOB",
+     "color": "EDE6DD",
+     "font_color": "2A2230",
+     "align": "center"
+    },
+    {
+     "range": "I5:P5",
+     "label": "DOLLARS PER HOUR BY DAY",
+     "color": "EDE6DD",
+     "font_color": "2A2230",
+     "align": "center"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "This year's shifts grouped three ways. Per Hour includes wages and net tips. The best per hour is green."
+    },
+    {
+     "cell": "B6",
+     "formula": "Day"
+    },
+    {
+     "cell": "C6",
+     "formula": "Shifts"
+    },
+    {
+     "cell": "D6",
+     "formula": "Hours"
+    },
+    {
+     "cell": "E6",
+     "formula": "Total"
+    },
+    {
+     "cell": "F6",
+     "formula": "Per Shift"
+    },
+    {
+     "cell": "G6",
+     "formula": "Per Hour"
+    },
+    {
+     "cell": "B7",
+     "formula": "Monday"
+    },
+    {
+     "cell": "C7",
+     "formula": "=IF(B7=\"\",\"\",COUNTIFS('Shifts'!$S$6:$S$1505,1))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D7",
+     "formula": "=IF(B7=\"\",\"\",ROUND(SUMIFS('Shifts'!$X$6:$X$1505,'Shifts'!$S$6:$S$1505,1),2))",
+     "number_format": "0.0"
+    },
+    {
+     "cell": "E7",
+     "formula": "=IF(B7=\"\",\"\",ROUND(SUMIFS('Shifts'!$Y$6:$Y$1505,'Shifts'!$S$6:$S$1505,1),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F7",
+     "formula": "=IF(OR(B7=\"\",N(C7)=0),\"\",ROUND(E7/C7,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G7",
+     "formula": "=IF(OR(B7=\"\",N(D7)=0),\"\",ROUND(E7/D7,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B8",
+     "formula": "Tuesday"
+    },
+    {
+     "cell": "C8",
+     "formula": "=IF(B8=\"\",\"\",COUNTIFS('Shifts'!$S$6:$S$1505,2))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D8",
+     "formula": "=IF(B8=\"\",\"\",ROUND(SUMIFS('Shifts'!$X$6:$X$1505,'Shifts'!$S$6:$S$1505,2),2))",
+     "number_format": "0.0"
+    },
+    {
+     "cell": "E8",
+     "formula": "=IF(B8=\"\",\"\",ROUND(SUMIFS('Shifts'!$Y$6:$Y$1505,'Shifts'!$S$6:$S$1505,2),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F8",
+     "formula": "=IF(OR(B8=\"\",N(C8)=0),\"\",ROUND(E8/C8,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G8",
+     "formula": "=IF(OR(B8=\"\",N(D8)=0),\"\",ROUND(E8/D8,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B9",
+     "formula": "Wednesday"
+    },
+    {
+     "cell": "C9",
+     "formula": "=IF(B9=\"\",\"\",COUNTIFS('Shifts'!$S$6:$S$1505,3))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D9",
+     "formula": "=IF(B9=\"\",\"\",ROUND(SUMIFS('Shifts'!$X$6:$X$1505,'Shifts'!$S$6:$S$1505,3),2))",
+     "number_format": "0.0"
+    },
+    {
+     "cell": "E9",
+     "formula": "=IF(B9=\"\",\"\",ROUND(SUMIFS('Shifts'!$Y$6:$Y$1505,'Shifts'!$S$6:$S$1505,3),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F9",
+     "formula": "=IF(OR(B9=\"\",N(C9)=0),\"\",ROUND(E9/C9,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G9",
+     "formula": "=IF(OR(B9=\"\",N(D9)=0),\"\",ROUND(E9/D9,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B10",
+     "formula": "Thursday"
+    },
+    {
+     "cell": "C10",
+     "formula": "=IF(B10=\"\",\"\",COUNTIFS('Shifts'!$S$6:$S$1505,4))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D10",
+     "formula": "=IF(B10=\"\",\"\",ROUND(SUMIFS('Shifts'!$X$6:$X$1505,'Shifts'!$S$6:$S$1505,4),2))",
+     "number_format": "0.0"
+    },
+    {
+     "cell": "E10",
+     "formula": "=IF(B10=\"\",\"\",ROUND(SUMIFS('Shifts'!$Y$6:$Y$1505,'Shifts'!$S$6:$S$1505,4),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F10",
+     "formula": "=IF(OR(B10=\"\",N(C10)=0),\"\",ROUND(E10/C10,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G10",
+     "formula": "=IF(OR(B10=\"\",N(D10)=0),\"\",ROUND(E10/D10,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B11",
+     "formula": "Friday"
+    },
+    {
+     "cell": "C11",
+     "formula": "=IF(B11=\"\",\"\",COUNTIFS('Shifts'!$S$6:$S$1505,5))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D11",
+     "formula": "=IF(B11=\"\",\"\",ROUND(SUMIFS('Shifts'!$X$6:$X$1505,'Shifts'!$S$6:$S$1505,5),2))",
+     "number_format": "0.0"
+    },
+    {
+     "cell": "E11",
+     "formula": "=IF(B11=\"\",\"\",ROUND(SUMIFS('Shifts'!$Y$6:$Y$1505,'Shifts'!$S$6:$S$1505,5),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F11",
+     "formula": "=IF(OR(B11=\"\",N(C11)=0),\"\",ROUND(E11/C11,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G11",
+     "formula": "=IF(OR(B11=\"\",N(D11)=0),\"\",ROUND(E11/D11,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B12",
+     "formula": "Saturday"
+    },
+    {
+     "cell": "C12",
+     "formula": "=IF(B12=\"\",\"\",COUNTIFS('Shifts'!$S$6:$S$1505,6))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D12",
+     "formula": "=IF(B12=\"\",\"\",ROUND(SUMIFS('Shifts'!$X$6:$X$1505,'Shifts'!$S$6:$S$1505,6),2))",
+     "number_format": "0.0"
+    },
+    {
+     "cell": "E12",
+     "formula": "=IF(B12=\"\",\"\",ROUND(SUMIFS('Shifts'!$Y$6:$Y$1505,'Shifts'!$S$6:$S$1505,6),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F12",
+     "formula": "=IF(OR(B12=\"\",N(C12)=0),\"\",ROUND(E12/C12,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G12",
+     "formula": "=IF(OR(B12=\"\",N(D12)=0),\"\",ROUND(E12/D12,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B13",
+     "formula": "Sunday"
+    },
+    {
+     "cell": "C13",
+     "formula": "=IF(B13=\"\",\"\",COUNTIFS('Shifts'!$S$6:$S$1505,7))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D13",
+     "formula": "=IF(B13=\"\",\"\",ROUND(SUMIFS('Shifts'!$X$6:$X$1505,'Shifts'!$S$6:$S$1505,7),2))",
+     "number_format": "0.0"
+    },
+    {
+     "cell": "E13",
+     "formula": "=IF(B13=\"\",\"\",ROUND(SUMIFS('Shifts'!$Y$6:$Y$1505,'Shifts'!$S$6:$S$1505,7),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F13",
+     "formula": "=IF(OR(B13=\"\",N(C13)=0),\"\",ROUND(E13/C13,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G13",
+     "formula": "=IF(OR(B13=\"\",N(D13)=0),\"\",ROUND(E13/D13,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B17",
+     "formula": "Shift"
+    },
+    {
+     "cell": "C17",
+     "formula": "Shifts"
+    },
+    {
+     "cell": "D17",
+     "formula": "Hours"
+    },
+    {
+     "cell": "E17",
+     "formula": "Total"
+    },
+    {
+     "cell": "F17",
+     "formula": "Per Shift"
+    },
+    {
+     "cell": "G17",
+     "formula": "Per Hour"
+    },
+    {
+     "cell": "B18",
+     "formula": "=IF(TRIM('Setup'!F12&\"\")=\"\",\"\",'Setup'!F12&\"\")"
+    },
+    {
+     "cell": "C18",
+     "formula": "=IF(B18=\"\",\"\",COUNTIFS('Shifts'!$U$6:$U$1505,1,'Shifts'!$R$6:$R$1505,\">0\"))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D18",
+     "formula": "=IF(B18=\"\",\"\",ROUND(SUMIFS('Shifts'!$X$6:$X$1505,'Shifts'!$U$6:$U$1505,1,'Shifts'!$R$6:$R$1505,\">0\"),2))",
+     "number_format": "0.0"
+    },
+    {
+     "cell": "E18",
+     "formula": "=IF(B18=\"\",\"\",ROUND(SUMIFS('Shifts'!$Y$6:$Y$1505,'Shifts'!$U$6:$U$1505,1,'Shifts'!$R$6:$R$1505,\">0\"),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F18",
+     "formula": "=IF(OR(B18=\"\",N(C18)=0),\"\",ROUND(E18/C18,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G18",
+     "formula": "=IF(OR(B18=\"\",N(D18)=0),\"\",ROUND(E18/D18,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B19",
+     "formula": "=IF(TRIM('Setup'!F13&\"\")=\"\",\"\",'Setup'!F13&\"\")"
+    },
+    {
+     "cell": "C19",
+     "formula": "=IF(B19=\"\",\"\",COUNTIFS('Shifts'!$U$6:$U$1505,2,'Shifts'!$R$6:$R$1505,\">0\"))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D19",
+     "formula": "=IF(B19=\"\",\"\",ROUND(SUMIFS('Shifts'!$X$6:$X$1505,'Shifts'!$U$6:$U$1505,2,'Shifts'!$R$6:$R$1505,\">0\"),2))",
+     "number_format": "0.0"
+    },
+    {
+     "cell": "E19",
+     "formula": "=IF(B19=\"\",\"\",ROUND(SUMIFS('Shifts'!$Y$6:$Y$1505,'Shifts'!$U$6:$U$1505,2,'Shifts'!$R$6:$R$1505,\">0\"),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F19",
+     "formula": "=IF(OR(B19=\"\",N(C19)=0),\"\",ROUND(E19/C19,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G19",
+     "formula": "=IF(OR(B19=\"\",N(D19)=0),\"\",ROUND(E19/D19,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B20",
+     "formula": "=IF(TRIM('Setup'!F14&\"\")=\"\",\"\",'Setup'!F14&\"\")"
+    },
+    {
+     "cell": "C20",
+     "formula": "=IF(B20=\"\",\"\",COUNTIFS('Shifts'!$U$6:$U$1505,3,'Shifts'!$R$6:$R$1505,\">0\"))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D20",
+     "formula": "=IF(B20=\"\",\"\",ROUND(SUMIFS('Shifts'!$X$6:$X$1505,'Shifts'!$U$6:$U$1505,3,'Shifts'!$R$6:$R$1505,\">0\"),2))",
+     "number_format": "0.0"
+    },
+    {
+     "cell": "E20",
+     "formula": "=IF(B20=\"\",\"\",ROUND(SUMIFS('Shifts'!$Y$6:$Y$1505,'Shifts'!$U$6:$U$1505,3,'Shifts'!$R$6:$R$1505,\">0\"),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F20",
+     "formula": "=IF(OR(B20=\"\",N(C20)=0),\"\",ROUND(E20/C20,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G20",
+     "formula": "=IF(OR(B20=\"\",N(D20)=0),\"\",ROUND(E20/D20,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B21",
+     "formula": "=IF(TRIM('Setup'!F15&\"\")=\"\",\"\",'Setup'!F15&\"\")"
+    },
+    {
+     "cell": "C21",
+     "formula": "=IF(B21=\"\",\"\",COUNTIFS('Shifts'!$U$6:$U$1505,4,'Shifts'!$R$6:$R$1505,\">0\"))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D21",
+     "formula": "=IF(B21=\"\",\"\",ROUND(SUMIFS('Shifts'!$X$6:$X$1505,'Shifts'!$U$6:$U$1505,4,'Shifts'!$R$6:$R$1505,\">0\"),2))",
+     "number_format": "0.0"
+    },
+    {
+     "cell": "E21",
+     "formula": "=IF(B21=\"\",\"\",ROUND(SUMIFS('Shifts'!$Y$6:$Y$1505,'Shifts'!$U$6:$U$1505,4,'Shifts'!$R$6:$R$1505,\">0\"),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F21",
+     "formula": "=IF(OR(B21=\"\",N(C21)=0),\"\",ROUND(E21/C21,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G21",
+     "formula": "=IF(OR(B21=\"\",N(D21)=0),\"\",ROUND(E21/D21,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B22",
+     "formula": "=IF(TRIM('Setup'!F16&\"\")=\"\",\"\",'Setup'!F16&\"\")"
+    },
+    {
+     "cell": "C22",
+     "formula": "=IF(B22=\"\",\"\",COUNTIFS('Shifts'!$U$6:$U$1505,5,'Shifts'!$R$6:$R$1505,\">0\"))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D22",
+     "formula": "=IF(B22=\"\",\"\",ROUND(SUMIFS('Shifts'!$X$6:$X$1505,'Shifts'!$U$6:$U$1505,5,'Shifts'!$R$6:$R$1505,\">0\"),2))",
+     "number_format": "0.0"
+    },
+    {
+     "cell": "E22",
+     "formula": "=IF(B22=\"\",\"\",ROUND(SUMIFS('Shifts'!$Y$6:$Y$1505,'Shifts'!$U$6:$U$1505,5,'Shifts'!$R$6:$R$1505,\">0\"),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F22",
+     "formula": "=IF(OR(B22=\"\",N(C22)=0),\"\",ROUND(E22/C22,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G22",
+     "formula": "=IF(OR(B22=\"\",N(D22)=0),\"\",ROUND(E22/D22,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B23",
+     "formula": "=IF(TRIM('Setup'!F17&\"\")=\"\",\"\",'Setup'!F17&\"\")"
+    },
+    {
+     "cell": "C23",
+     "formula": "=IF(B23=\"\",\"\",COUNTIFS('Shifts'!$U$6:$U$1505,6,'Shifts'!$R$6:$R$1505,\">0\"))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D23",
+     "formula": "=IF(B23=\"\",\"\",ROUND(SUMIFS('Shifts'!$X$6:$X$1505,'Shifts'!$U$6:$U$1505,6,'Shifts'!$R$6:$R$1505,\">0\"),2))",
+     "number_format": "0.0"
+    },
+    {
+     "cell": "E23",
+     "formula": "=IF(B23=\"\",\"\",ROUND(SUMIFS('Shifts'!$Y$6:$Y$1505,'Shifts'!$U$6:$U$1505,6,'Shifts'!$R$6:$R$1505,\">0\"),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F23",
+     "formula": "=IF(OR(B23=\"\",N(C23)=0),\"\",ROUND(E23/C23,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G23",
+     "formula": "=IF(OR(B23=\"\",N(D23)=0),\"\",ROUND(E23/D23,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B24",
+     "formula": "=IF(TRIM('Setup'!F18&\"\")=\"\",\"\",'Setup'!F18&\"\")"
+    },
+    {
+     "cell": "C24",
+     "formula": "=IF(B24=\"\",\"\",COUNTIFS('Shifts'!$U$6:$U$1505,7,'Shifts'!$R$6:$R$1505,\">0\"))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D24",
+     "formula": "=IF(B24=\"\",\"\",ROUND(SUMIFS('Shifts'!$X$6:$X$1505,'Shifts'!$U$6:$U$1505,7,'Shifts'!$R$6:$R$1505,\">0\"),2))",
+     "number_format": "0.0"
+    },
+    {
+     "cell": "E24",
+     "formula": "=IF(B24=\"\",\"\",ROUND(SUMIFS('Shifts'!$Y$6:$Y$1505,'Shifts'!$U$6:$U$1505,7,'Shifts'!$R$6:$R$1505,\">0\"),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F24",
+     "formula": "=IF(OR(B24=\"\",N(C24)=0),\"\",ROUND(E24/C24,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G24",
+     "formula": "=IF(OR(B24=\"\",N(D24)=0),\"\",ROUND(E24/D24,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B25",
+     "formula": "=IF(TRIM('Setup'!F19&\"\")=\"\",\"\",'Setup'!F19&\"\")"
+    },
+    {
+     "cell": "C25",
+     "formula": "=IF(B25=\"\",\"\",COUNTIFS('Shifts'!$U$6:$U$1505,8,'Shifts'!$R$6:$R$1505,\">0\"))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D25",
+     "formula": "=IF(B25=\"\",\"\",ROUND(SUMIFS('Shifts'!$X$6:$X$1505,'Shifts'!$U$6:$U$1505,8,'Shifts'!$R$6:$R$1505,\">0\"),2))",
+     "number_format": "0.0"
+    },
+    {
+     "cell": "E25",
+     "formula": "=IF(B25=\"\",\"\",ROUND(SUMIFS('Shifts'!$Y$6:$Y$1505,'Shifts'!$U$6:$U$1505,8,'Shifts'!$R$6:$R$1505,\">0\"),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F25",
+     "formula": "=IF(OR(B25=\"\",N(C25)=0),\"\",ROUND(E25/C25,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G25",
+     "formula": "=IF(OR(B25=\"\",N(D25)=0),\"\",ROUND(E25/D25,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B29",
+     "formula": "Job"
+    },
+    {
+     "cell": "C29",
+     "formula": "Shifts"
+    },
+    {
+     "cell": "D29",
+     "formula": "Hours"
+    },
+    {
+     "cell": "E29",
+     "formula": "Total"
+    },
+    {
+     "cell": "F29",
+     "formula": "Per Shift"
+    },
+    {
+     "cell": "G29",
+     "formula": "Per Hour"
+    },
+    {
+     "cell": "B30",
+     "formula": "=IF(TRIM('Setup'!B12&\"\")=\"\",\"\",'Setup'!B12&\"\")"
+    },
+    {
+     "cell": "C30",
+     "formula": "=IF(B30=\"\",\"\",COUNTIFS('Shifts'!$T$6:$T$1505,1,'Shifts'!$R$6:$R$1505,\">0\"))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D30",
+     "formula": "=IF(B30=\"\",\"\",ROUND(SUMIFS('Shifts'!$X$6:$X$1505,'Shifts'!$T$6:$T$1505,1,'Shifts'!$R$6:$R$1505,\">0\"),2))",
+     "number_format": "0.0"
+    },
+    {
+     "cell": "E30",
+     "formula": "=IF(B30=\"\",\"\",ROUND(SUMIFS('Shifts'!$Y$6:$Y$1505,'Shifts'!$T$6:$T$1505,1,'Shifts'!$R$6:$R$1505,\">0\"),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F30",
+     "formula": "=IF(OR(B30=\"\",N(C30)=0),\"\",ROUND(E30/C30,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G30",
+     "formula": "=IF(OR(B30=\"\",N(D30)=0),\"\",ROUND(E30/D30,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B31",
+     "formula": "=IF(TRIM('Setup'!B13&\"\")=\"\",\"\",'Setup'!B13&\"\")"
+    },
+    {
+     "cell": "C31",
+     "formula": "=IF(B31=\"\",\"\",COUNTIFS('Shifts'!$T$6:$T$1505,2,'Shifts'!$R$6:$R$1505,\">0\"))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D31",
+     "formula": "=IF(B31=\"\",\"\",ROUND(SUMIFS('Shifts'!$X$6:$X$1505,'Shifts'!$T$6:$T$1505,2,'Shifts'!$R$6:$R$1505,\">0\"),2))",
+     "number_format": "0.0"
+    },
+    {
+     "cell": "E31",
+     "formula": "=IF(B31=\"\",\"\",ROUND(SUMIFS('Shifts'!$Y$6:$Y$1505,'Shifts'!$T$6:$T$1505,2,'Shifts'!$R$6:$R$1505,\">0\"),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F31",
+     "formula": "=IF(OR(B31=\"\",N(C31)=0),\"\",ROUND(E31/C31,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G31",
+     "formula": "=IF(OR(B31=\"\",N(D31)=0),\"\",ROUND(E31/D31,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B32",
+     "formula": "=IF(TRIM('Setup'!B14&\"\")=\"\",\"\",'Setup'!B14&\"\")"
+    },
+    {
+     "cell": "C32",
+     "formula": "=IF(B32=\"\",\"\",COUNTIFS('Shifts'!$T$6:$T$1505,3,'Shifts'!$R$6:$R$1505,\">0\"))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D32",
+     "formula": "=IF(B32=\"\",\"\",ROUND(SUMIFS('Shifts'!$X$6:$X$1505,'Shifts'!$T$6:$T$1505,3,'Shifts'!$R$6:$R$1505,\">0\"),2))",
+     "number_format": "0.0"
+    },
+    {
+     "cell": "E32",
+     "formula": "=IF(B32=\"\",\"\",ROUND(SUMIFS('Shifts'!$Y$6:$Y$1505,'Shifts'!$T$6:$T$1505,3,'Shifts'!$R$6:$R$1505,\">0\"),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F32",
+     "formula": "=IF(OR(B32=\"\",N(C32)=0),\"\",ROUND(E32/C32,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G32",
+     "formula": "=IF(OR(B32=\"\",N(D32)=0),\"\",ROUND(E32/D32,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B33",
+     "formula": "=IF(TRIM('Setup'!B15&\"\")=\"\",\"\",'Setup'!B15&\"\")"
+    },
+    {
+     "cell": "C33",
+     "formula": "=IF(B33=\"\",\"\",COUNTIFS('Shifts'!$T$6:$T$1505,4,'Shifts'!$R$6:$R$1505,\">0\"))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D33",
+     "formula": "=IF(B33=\"\",\"\",ROUND(SUMIFS('Shifts'!$X$6:$X$1505,'Shifts'!$T$6:$T$1505,4,'Shifts'!$R$6:$R$1505,\">0\"),2))",
+     "number_format": "0.0"
+    },
+    {
+     "cell": "E33",
+     "formula": "=IF(B33=\"\",\"\",ROUND(SUMIFS('Shifts'!$Y$6:$Y$1505,'Shifts'!$T$6:$T$1505,4,'Shifts'!$R$6:$R$1505,\">0\"),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F33",
+     "formula": "=IF(OR(B33=\"\",N(C33)=0),\"\",ROUND(E33/C33,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G33",
+     "formula": "=IF(OR(B33=\"\",N(D33)=0),\"\",ROUND(E33/D33,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B34",
+     "formula": "=IF(TRIM('Setup'!B16&\"\")=\"\",\"\",'Setup'!B16&\"\")"
+    },
+    {
+     "cell": "C34",
+     "formula": "=IF(B34=\"\",\"\",COUNTIFS('Shifts'!$T$6:$T$1505,5,'Shifts'!$R$6:$R$1505,\">0\"))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D34",
+     "formula": "=IF(B34=\"\",\"\",ROUND(SUMIFS('Shifts'!$X$6:$X$1505,'Shifts'!$T$6:$T$1505,5,'Shifts'!$R$6:$R$1505,\">0\"),2))",
+     "number_format": "0.0"
+    },
+    {
+     "cell": "E34",
+     "formula": "=IF(B34=\"\",\"\",ROUND(SUMIFS('Shifts'!$Y$6:$Y$1505,'Shifts'!$T$6:$T$1505,5,'Shifts'!$R$6:$R$1505,\">0\"),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F34",
+     "formula": "=IF(OR(B34=\"\",N(C34)=0),\"\",ROUND(E34/C34,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G34",
+     "formula": "=IF(OR(B34=\"\",N(D34)=0),\"\",ROUND(E34/D34,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B35",
+     "formula": "=IF(TRIM('Setup'!B17&\"\")=\"\",\"\",'Setup'!B17&\"\")"
+    },
+    {
+     "cell": "C35",
+     "formula": "=IF(B35=\"\",\"\",COUNTIFS('Shifts'!$T$6:$T$1505,6,'Shifts'!$R$6:$R$1505,\">0\"))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D35",
+     "formula": "=IF(B35=\"\",\"\",ROUND(SUMIFS('Shifts'!$X$6:$X$1505,'Shifts'!$T$6:$T$1505,6,'Shifts'!$R$6:$R$1505,\">0\"),2))",
+     "number_format": "0.0"
+    },
+    {
+     "cell": "E35",
+     "formula": "=IF(B35=\"\",\"\",ROUND(SUMIFS('Shifts'!$Y$6:$Y$1505,'Shifts'!$T$6:$T$1505,6,'Shifts'!$R$6:$R$1505,\">0\"),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F35",
+     "formula": "=IF(OR(B35=\"\",N(C35)=0),\"\",ROUND(E35/C35,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G35",
+     "formula": "=IF(OR(B35=\"\",N(D35)=0),\"\",ROUND(E35/D35,2))",
+     "number_format": "$#,##0.00"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "G7:G13",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER(G7),G7=MAX($G$7:$G$13))"
+     ],
+     "fill": "D7EFDD"
+    },
+    {
+     "range": "F7:F13",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER(F7),F7=MAX($F$7:$F$13))"
+     ],
+     "fill": "D7EFDD"
+    },
+    {
+     "range": "G18:G25",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER(G18),G18=MAX($G$18:$G$25))"
+     ],
+     "fill": "D7EFDD"
+    },
+    {
+     "range": "F18:F25",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER(F18),F18=MAX($F$18:$F$25))"
+     ],
+     "fill": "D7EFDD"
+    },
+    {
+     "range": "G30:G35",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER(G30),G30=MAX($G$30:$G$35))"
+     ],
+     "fill": "D7EFDD"
+    },
+    {
+     "range": "F30:F35",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER(F30),F30=MAX($F$30:$F$35))"
+     ],
+     "fill": "D7EFDD"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B6:G6",
+     "color": "F8F5F1"
+    },
+    {
+     "range": "C7:G13",
+     "color": "FBF9F6"
+    },
+    {
+     "range": "B17:G17",
+     "color": "F8F5F1"
+    },
+    {
+     "range": "C18:G25",
+     "color": "FBF9F6"
+    },
+    {
+     "range": "B29:G29",
+     "color": "F8F5F1"
+    },
+    {
+     "range": "C30:G35",
+     "color": "FBF9F6"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B6:G13",
+     "color": "E1D9CF"
+    },
+    {
+     "range": "B17:G25",
+     "color": "E1D9CF"
+    },
+    {
+     "range": "B29:G35",
+     "color": "E1D9CF"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "2A2230"
+    },
+    {
+     "range": "B6:G6",
+     "bold": true,
+     "size": 10,
+     "color": "2A2230",
+     "align": "center"
+    },
+    {
+     "range": "B7:B13",
+     "bold": true,
+     "size": 10,
+     "color": "2A2230"
+    },
+    {
+     "range": "C7:G13",
+     "size": 10,
+     "color": "2A2230",
+     "align": "center"
+    },
+    {
+     "range": "G7:G13",
+     "bold": true,
+     "size": 10,
+     "color": "2A2230",
+     "align": "center"
+    },
+    {
+     "range": "B17:G17",
+     "bold": true,
+     "size": 10,
+     "color": "2A2230",
+     "align": "center"
+    },
+    {
+     "range": "B18:B25",
+     "bold": true,
+     "size": 10,
+     "color": "2A2230"
+    },
+    {
+     "range": "C18:G25",
+     "size": 10,
+     "color": "2A2230",
+     "align": "center"
+    },
+    {
+     "range": "G18:G25",
+     "bold": true,
+     "size": 10,
+     "color": "2A2230",
+     "align": "center"
+    },
+    {
+     "range": "B29:G29",
+     "bold": true,
+     "size": 10,
+     "color": "2A2230",
+     "align": "center"
+    },
+    {
+     "range": "B30:B35",
+     "bold": true,
+     "size": 10,
+     "color": "2A2230"
+    },
+    {
+     "range": "C30:G35",
+     "size": 10,
+     "color": "2A2230",
+     "align": "center"
+    },
+    {
+     "range": "G30:G35",
+     "bold": true,
+     "size": 10,
+     "color": "2A2230",
+     "align": "center"
+    }
+   ],
+   "charts": [
+    {
+     "type": "barh",
+     "anchor": "I6",
+     "data": "Best Shifts!G6:G13",
+     "categories": "Best Shifts!B7:B13",
+     "width": 16,
+     "height": 7,
+     "colors": [
+      "9E3B4F"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Budget",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "9E3B4F",
+   "grid_rows": 44,
+   "grid_cols": 8,
+   "row_height": 20,
+   "column_widths": {
+    "A": 2.5,
+    "B": 40,
+    "C": 15,
+    "D": 18,
+    "E": 26,
+    "F": 2.5,
+    "G": 3
+   },
+   "hidden_columns": [
+    "G"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:E2",
+     "label": "=\"MONTHLY BUDGET\"",
+     "size": 16,
+     "color": "3D2C3E",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Your monthly bills and spending. The total is your monthly income goal unless you type your own on Setup."
+    },
+    {
+     "cell": "B6",
+     "formula": "Expense"
+    },
+    {
+     "cell": "C6",
+     "formula": "Monthly Amount"
+    },
+    {
+     "cell": "D6",
+     "formula": "Category"
+    },
+    {
+     "cell": "E6",
+     "formula": "Notes"
+    },
+    {
+     "cell": "B7",
+     "formula": "Rent"
+    },
+    {
+     "cell": "C7",
+     "formula": 1200
+    },
+    {
+     "cell": "D7",
+     "formula": "Housing"
+    },
+    {
+     "cell": "B8",
+     "formula": "Utilities"
+    },
+    {
+     "cell": "C8",
+     "formula": 150
+    },
+    {
+     "cell": "D8",
+     "formula": "Housing"
+    },
+    {
+     "cell": "B9",
+     "formula": "Phone"
+    },
+    {
+     "cell": "C9",
+     "formula": 65
+    },
+    {
+     "cell": "D9",
+     "formula": "Bills"
+    },
+    {
+     "cell": "B10",
+     "formula": "Car payment"
+    },
+    {
+     "cell": "C10",
+     "formula": 280
+    },
+    {
+     "cell": "D10",
+     "formula": "Transportation"
+    },
+    {
+     "cell": "B11",
+     "formula": "Car insurance"
+    },
+    {
+     "cell": "C11",
+     "formula": 130
+    },
+    {
+     "cell": "D11",
+     "formula": "Transportation"
+    },
+    {
+     "cell": "B12",
+     "formula": "Gas"
+    },
+    {
+     "cell": "C12",
+     "formula": 120
+    },
+    {
+     "cell": "D12",
+     "formula": "Transportation"
+    },
+    {
+     "cell": "B13",
+     "formula": "Groceries"
+    },
+    {
+     "cell": "C13",
+     "formula": 400
+    },
+    {
+     "cell": "D13",
+     "formula": "Food"
+    },
+    {
+     "cell": "B14",
+     "formula": "Student loan"
+    },
+    {
+     "cell": "C14",
+     "formula": 180
+    },
+    {
+     "cell": "D14",
+     "formula": "Debt"
+    },
+    {
+     "cell": "B15",
+     "formula": "Savings"
+    },
+    {
+     "cell": "C15",
+     "formula": 200
+    },
+    {
+     "cell": "D15",
+     "formula": "Savings"
+    },
+    {
+     "cell": "B16",
+     "formula": "Fun money"
+    },
+    {
+     "cell": "C16",
+     "formula": 150
+    },
+    {
+     "cell": "D16",
+     "formula": "Personal"
+    },
+    {
+     "col": "G",
+     "range_rows": [
+      7,
+      36
+     ],
+     "formula": "=IF(TRIM(B{row}&\"\")=\"\",0,MAX(0,N(C{row})))"
+    },
+    {
+     "cell": "B37",
+     "formula": "MONTHLY TOTAL"
+    },
+    {
+     "cell": "C37",
+     "formula": "=ROUND(SUM(G7:G36),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B39",
+     "formula": "Average month after taxes (so far this year)"
+    },
+    {
+     "cell": "C39",
+     "formula": "=ROUND(SUM('Monthly'!$M$7:INDEX('Monthly'!$M$7:$M$18,'Setup'!$R$5))/'Setup'!$R$5,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B40",
+     "formula": "Left after your budget"
+    },
+    {
+     "cell": "C40",
+     "formula": "=ROUND(C39-C37,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "B41",
+     "formula": "Budget per shift (at your average)"
+    },
+    {
+     "cell": "C41",
+     "formula": "=IF(SUM('Monthly'!$C$7:INDEX('Monthly'!$C$7:$C$18,'Setup'!$R$5))=0,\"\",ROUND(C37/(SUM('Monthly'!$C$7:INDEX('Monthly'!$C$7:$C$18,'Setup'!$R$5))/'Setup'!$R$5),2))",
+     "number_format": "$#,##0.00"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "C7:C36",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C7<>\"\",NOT(ISNUMBER(C7))),N(C7)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C40",
+     "type": "formula",
+     "formula": [
+      "$C$40<0"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C40",
+     "type": "formula",
+     "formula": [
+      "$C$40>=0"
+     ],
+     "fill": "D7EFDD"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B6:E6",
+     "color": "F8F5F1"
+    },
+    {
+     "range": "B37:E37",
+     "color": "EDE6DD"
+    },
+    {
+     "range": "C39:C41",
+     "color": "FBF9F6"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B6:E37",
+     "color": "E1D9CF"
+    },
+    {
+     "range": "B39:C41",
+     "color": "E1D9CF"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "2A2230"
+    },
+    {
+     "range": "B6:E6",
+     "bold": true,
+     "size": 10,
+     "color": "2A2230",
+     "align": "center"
+    },
+    {
+     "range": "C7:D36",
+     "size": 10,
+     "color": "2A2230",
+     "align": "center"
+    },
+    {
+     "range": "B37:E37",
+     "bold": true,
+     "size": 10,
+     "color": "2A2230",
+     "align": "center"
+    },
+    {
+     "range": "B39:B41",
+     "bold": true,
+     "size": 10,
+     "color": "2A2230"
+    },
+    {
+     "range": "C39:C41",
+     "size": 11,
+     "color": "2A2230",
+     "align": "center"
+    }
+   ],
+   "validations": [
+    {
+     "range": "D7:D36",
+     "type": "list",
+     "values": [
+      "Housing",
+      "Bills",
+      "Transportation",
+      "Food",
+      "Debt",
+      "Savings",
+      "Personal",
+      "Other"
+     ],
+     "strict": false
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "C7:C36",
+     "format": "$#,##0.00"
+    }
+   ]
+  }
+ ]
+}
