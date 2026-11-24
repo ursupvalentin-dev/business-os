@@ -1,0 +1,5591 @@
+{
+ "filename": "Haushaltsbuch",
+ "locale": "en_US",
+ "display_locale": "de_DE",
+ "theme": {
+  "header_font": "FFFFFF",
+  "border": "C9D3DB",
+  "accent": "2F4858",
+  "section_colors": [
+   "2F4858",
+   "E3E9EE",
+   "E3EEDD"
+  ],
+  "chart_palette": [
+   "2F4858",
+   "5C8A4F",
+   "D98E04",
+   "B5473A",
+   "6F8796",
+   "93B585",
+   "EDBA5C",
+   "D58377",
+   "1F313C",
+   "3E6234"
+  ]
+ },
+ "tabs": [
+  {
+   "name": "Start",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "2F4858",
+   "grid_rows": 31,
+   "column_widths": {
+    "A": 2.5,
+    "B": 22,
+    "C": 100,
+    "D": 2.5
+   },
+   "section_bars": [
+    {
+     "range": "B2:C2",
+     "label": "HAUSHALTSBUCH",
+     "size": 18,
+     "color": "2F4858",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "B5:C5",
+     "label": "SO FUNKTIONIERT ES",
+     "color": "E3E9EE",
+     "font_color": "1E2A33",
+     "align": "left"
+    },
+    {
+     "range": "B13:C13",
+     "label": "GUT ZU WISSEN",
+     "color": "5C8A4F",
+     "font_color": "FFFFFF",
+     "align": "left"
+    },
+    {
+     "range": "B20:C20",
+     "label": "FARBEN",
+     "color": "E3E9EE",
+     "font_color": "1E2A33",
+     "align": "left"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Dein digitales Haushaltsbuch: Einnahmen, Ausgaben, Fixkosten und Sparziele auf einen Blick."
+    },
+    {
+     "cell": "B6",
+     "formula": "1. Einstellungen: dein Name und das Jahr."
+    },
+    {
+     "cell": "B7",
+     "formula": "2. Fixkosten: alle festen Kosten mit Turnus (monatlich, vierteljährlich, jährlich). Du siehst, was das pro Monat kostet."
+    },
+    {
+     "cell": "B8",
+     "formula": "3. Budget: plane jede Kategorie für einen Monat. Ausgegeben füllt sich aus den Buchungen."
+    },
+    {
+     "cell": "B9",
+     "formula": "4. Buchungen: jede Einnahme und Ausgabe. Kategorie aus der Liste wählen."
+    },
+    {
+     "cell": "B10",
+     "formula": "5. Sparziele: wofür du sparst und wie viel du pro Monat zurücklegen musst."
+    },
+    {
+     "cell": "B11",
+     "formula": "6. Übersicht und Monate: wie dein Monat und dein Jahr laufen, mit Diagrammen."
+    },
+    {
+     "cell": "B14",
+     "formula": "Notgroschen"
+    },
+    {
+     "cell": "C14",
+     "formula": "Drei bis sechs Monatsausgaben auf einem Tagesgeldkonto. Für Unvorhergesehenes."
+    },
+    {
+     "cell": "B15",
+     "formula": "Erst sparen"
+    },
+    {
+     "cell": "C15",
+     "formula": "Richte Daueraufträge für Sparen direkt nach dem Gehaltseingang ein."
+    },
+    {
+     "cell": "B16",
+     "formula": "Jährliche Kosten"
+    },
+    {
+     "cell": "C16",
+     "formula": "Versicherungen und Beiträge auf den Monat umrechnen und jeden Monat zurücklegen."
+    },
+    {
+     "cell": "B17",
+     "formula": "Sparquote"
+    },
+    {
+     "cell": "C17",
+     "formula": "Gesparter Anteil vom Einkommen. 10 bis 20 Prozent sind ein gutes Ziel."
+    },
+    {
+     "cell": "B18",
+     "formula": "Neu anfangen"
+    },
+    {
+     "cell": "C18",
+     "formula": "Lösche die weißen Zellen in Fixkosten, Budget, Buchungen und Sparziele, dann Einstellungen anpassen."
+    },
+    {
+     "cell": "C21",
+     "formula": "Weiße Zellen: hier eintragen."
+    },
+    {
+     "cell": "C22",
+     "formula": "Getönte Zellen: rechnen automatisch."
+    },
+    {
+     "cell": "C23",
+     "formula": "Grün: im Plan, Ziel erreicht oder Geld übrig."
+    },
+    {
+     "cell": "C24",
+     "formula": "Gelb: bald fällig oder fast geschafft."
+    },
+    {
+     "cell": "C25",
+     "formula": "Rot: Budget überschritten, überfällig oder bitte prüfen."
+    },
+    {
+     "cell": "B27",
+     "formula": "Ordnung im Geld, Ruhe im Kopf."
+    }
+   ],
+   "fills": [
+    {
+     "range": "B14:C18",
+     "color": "E3EEDD"
+    },
+    {
+     "range": "B21",
+     "color": "FFFFFF"
+    },
+    {
+     "range": "B22",
+     "color": "F5F7F9"
+    },
+    {
+     "range": "B23",
+     "color": "D7EFDD"
+    },
+    {
+     "range": "B24",
+     "color": "FFF1C2"
+    },
+    {
+     "range": "B25",
+     "color": "F6CACA"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B21",
+     "color": "C9D3DB"
+    },
+    {
+     "range": "B22",
+     "color": "C9D3DB"
+    },
+    {
+     "range": "B23",
+     "color": "C9D3DB"
+    },
+    {
+     "range": "B24",
+     "color": "C9D3DB"
+    },
+    {
+     "range": "B25",
+     "color": "C9D3DB"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 11,
+     "color": "1E2A33"
+    },
+    {
+     "range": "B14:B18",
+     "bold": true,
+     "size": 11,
+     "color": "1E2A33"
+    },
+    {
+     "range": "B27",
+     "italic": true,
+     "bold": true,
+     "size": 11,
+     "color": "2F4858"
+    }
+   ]
+  },
+  {
+   "name": "Übersicht",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "2F4858",
+   "grid_rows": 45,
+   "grid_cols": 11,
+   "row_height": 20,
+   "column_widths": {
+    "A": 2.5,
+    "B": 18,
+    "C": 14,
+    "D": 17,
+    "E": 16,
+    "F": 16,
+    "G": 14,
+    "H": 18,
+    "I": 16,
+    "J": 2.5
+   },
+   "section_bars": [
+    {
+     "range": "B2:I2",
+     "label": "=\"ÜBERSICHT\"",
+     "size": 16,
+     "color": "2F4858",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "B13:E13",
+     "label": "NACH GRUPPEN",
+     "color": "E3E9EE",
+     "font_color": "1E2A33",
+     "align": "center"
+    },
+    {
+     "range": "G13:I13",
+     "label": "WOHIN DAS GELD GEHT",
+     "color": "5C8A4F",
+     "font_color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "B21:I21",
+     "label": "EINNAHMEN UND AUSGABEN PRO MONAT",
+     "color": "E3E9EE",
+     "font_color": "1E2A33",
+     "align": "center"
+    }
+   ],
+   "kpi_cards": [
+    {
+     "anchor": "B5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "EINNAHMEN (MONAT)",
+     "value": "=INDEX('Monate'!$C$7:$C$18,'Einstellungen'!$R$5)",
+     "fill": "2F4858",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "anchor": "D5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "AUSGABEN (MONAT)",
+     "value": "=INDEX('Monate'!$D$7:$D$18,'Einstellungen'!$R$5)",
+     "fill": "B5473A",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "anchor": "F5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "SALDO (MONAT)",
+     "value": "=INDEX('Monate'!$E$7:$E$18,'Einstellungen'!$R$5)",
+     "fill": "5C8A4F",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "#,##0.00 \"€\";-#,##0.00 \"€\";0.00 \"€\""
+    },
+    {
+     "anchor": "H5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "SPARQUOTE (JAHR)",
+     "value": "=IF('Monate'!$I$19=\"\",0,'Monate'!$I$19)",
+     "fill": "1F313C",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "0%"
+    },
+    {
+     "anchor": "B9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "FIXKOSTEN / MONAT",
+     "value": "='Fixkosten'!$F$32",
+     "fill": "E3E9EE",
+     "font_color": "1E2A33",
+     "value_size": 16,
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "anchor": "D9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "GESPART (JAHR)",
+     "value": "='Monate'!$H$19",
+     "fill": "E3E9EE",
+     "font_color": "1E2A33",
+     "value_size": 16,
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "anchor": "F9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "BALD FÄLLIG",
+     "value": "=COUNTIF('Fixkosten'!$I$7:$I$31,\"Bald fällig\")+COUNTIF('Fixkosten'!$I$7:$I$31,\"Überfällig\")",
+     "fill": "E3E9EE",
+     "font_color": "1E2A33",
+     "value_size": 16,
+     "number_format": "0"
+    },
+    {
+     "anchor": "H9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "SPARZIELE ERREICHT",
+     "value": "=COUNTIF('Sparziele'!$J$7:$J$16,\"Erreicht\")&\" von \"&COUNTA('Sparziele'!$B$7:$B$16)",
+     "fill": "E3E9EE",
+     "font_color": "1E2A33",
+     "value_size": 16
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "='Einstellungen'!$R$7&\" - \"&INDEX('Monate'!$B$7:$B$18,'Einstellungen'!$R$5)&\" \"&'Einstellungen'!$R$4&\".\""
+    },
+    {
+     "cell": "B14",
+     "formula": "Gruppe"
+    },
+    {
+     "cell": "C14",
+     "formula": "Plan / Monat"
+    },
+    {
+     "cell": "D14",
+     "formula": "Ausgegeben (Monat)"
+    },
+    {
+     "cell": "E14",
+     "formula": "Ausgegeben (Jahr)"
+    },
+    {
+     "cell": "B15",
+     "formula": "Fixkosten"
+    },
+    {
+     "cell": "C15",
+     "formula": "=ROUND(SUM('Budget'!$D$7:$D$16),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "D15",
+     "formula": "=ROUND(SUM('Budget'!$E$7:$E$16),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "E15",
+     "formula": "=ROUND(SUM('Budget'!$H$7:$H$16),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "B16",
+     "formula": "Variable Kosten"
+    },
+    {
+     "cell": "C16",
+     "formula": "=ROUND(SUM('Budget'!$D$17:$D$26),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "D16",
+     "formula": "=ROUND(SUM('Budget'!$E$17:$E$26),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "E16",
+     "formula": "=ROUND(SUM('Budget'!$H$17:$H$26),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "B17",
+     "formula": "Sparen"
+    },
+    {
+     "cell": "C17",
+     "formula": "=ROUND(SUM('Budget'!$D$27:$D$29),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "D17",
+     "formula": "=ROUND(SUM('Budget'!$E$27:$E$29),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "E17",
+     "formula": "=ROUND(SUM('Budget'!$H$27:$H$29),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "B18",
+     "formula": "SUMME"
+    },
+    {
+     "cell": "C18",
+     "formula": "=ROUND(SUM(C15:C17),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "D18",
+     "formula": "=ROUND(SUM(D15:D17),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "E18",
+     "formula": "=ROUND(SUM(E15:E17),2)",
+     "number_format": "#,##0.00 \"€\""
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "F6:G7",
+     "type": "formula",
+     "formula": [
+      "$F$6<0"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "F10:G11",
+     "type": "formula",
+     "formula": [
+      "$F$10>0"
+     ],
+     "fill": "FFF1C2"
+    },
+    {
+     "range": "D15:D17",
+     "type": "formula",
+     "formula": [
+      "AND(C15>0,D15>C15)"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:C7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "D5:E7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "F5:G7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "H5:I7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "B9:C11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "D9:E11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "F9:G11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "H9:I11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "B14:E18",
+     "color": "C9D3DB"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B14:E14",
+     "color": "E3E9EE"
+    },
+    {
+     "range": "C15:E17",
+     "color": "F5F7F9"
+    },
+    {
+     "range": "B18:E18",
+     "color": "E3E9EE"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "1E2A33"
+    },
+    {
+     "range": "B14:E14",
+     "bold": true,
+     "size": 10,
+     "color": "1E2A33",
+     "align": "center",
+     "wrap": true
+    },
+    {
+     "range": "B15:B18",
+     "bold": true,
+     "size": 10,
+     "color": "1E2A33"
+    },
+    {
+     "range": "C15:E18",
+     "size": 10,
+     "color": "1E2A33",
+     "align": "center"
+    },
+    {
+     "range": "B18:E18",
+     "bold": true,
+     "size": 10,
+     "color": "1E2A33",
+     "align": "center"
+    }
+   ],
+   "row_heights": {
+    "14": 30
+   },
+   "charts": [
+    {
+     "type": "doughnut",
+     "anchor": "G14",
+     "data": "Übersicht!E15:E17",
+     "categories": "Übersicht!B15:B17",
+     "width": 9,
+     "height": 6,
+     "titles_from_data": false,
+     "colors": [
+      "2F4858",
+      "D98E04",
+      "5C8A4F"
+     ]
+    },
+    {
+     "type": "bar",
+     "anchor": "B22",
+     "data": "Monate!C6:D18",
+     "categories": "Monate!B7:B18",
+     "width": 24,
+     "height": 7,
+     "colors": [
+      "5C8A4F",
+      "B5473A"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Einstellungen",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "2F4858",
+   "grid_rows": 16,
+   "grid_cols": 21,
+   "row_height": 22,
+   "column_widths": {
+    "A": 2.5,
+    "B": 24,
+    "C": 16,
+    "D": 34,
+    "E": 2.5,
+    "R": 14,
+    "T": 12
+   },
+   "hidden_columns": [
+    "R",
+    "S",
+    "T"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:D2",
+     "label": "=\"EINSTELLUNGEN\"",
+     "size": 16,
+     "color": "2F4858",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Einmal ausfüllen. Alles andere nutzt diese Angaben."
+    },
+    {
+     "cell": "B4",
+     "formula": "Dein Name"
+    },
+    {
+     "cell": "C4",
+     "formula": "Jonas"
+    },
+    {
+     "cell": "B5",
+     "formula": "Jahr"
+    },
+    {
+     "cell": "D5",
+     "formula": "Leer = dieses Jahr."
+    },
+    {
+     "cell": "C5",
+     "formula": 2027
+    },
+    {
+     "cell": "B6",
+     "formula": "Heutiges Datum"
+    },
+    {
+     "cell": "D6",
+     "formula": "Optional. Leer = heute."
+    },
+    {
+     "cell": "C6",
+     "formula": "=DATE(2027,6,30)"
+    },
+    {
+     "cell": "R4",
+     "formula": "=IF(AND(ISNUMBER(C5),N(C5)>=1900,N(C5)<=9999),INT(C5),YEAR(TODAY()))"
+    },
+    {
+     "cell": "R6",
+     "formula": "=IF(AND(ISNUMBER(C6),N(C6)>=1),INT(C6),TODAY())",
+     "number_format": "dd.mm.yyyy"
+    },
+    {
+     "cell": "R5",
+     "formula": "=IF(YEAR(R6)=R4,MONTH(R6),IF(YEAR(R6)>R4,12,1))"
+    },
+    {
+     "cell": "R7",
+     "formula": "=IF(TRIM(C4&\"\")=\"\",\"Mein Haushalt\",\"Haushalt von \"&TRIM(C4&\"\"))"
+    },
+    {
+     "cell": "T4",
+     "formula": "Januar"
+    },
+    {
+     "cell": "T5",
+     "formula": "Februar"
+    },
+    {
+     "cell": "T6",
+     "formula": "März"
+    },
+    {
+     "cell": "T7",
+     "formula": "April"
+    },
+    {
+     "cell": "T8",
+     "formula": "Mai"
+    },
+    {
+     "cell": "T9",
+     "formula": "Juni"
+    },
+    {
+     "cell": "T10",
+     "formula": "Juli"
+    },
+    {
+     "cell": "T11",
+     "formula": "August"
+    },
+    {
+     "cell": "T12",
+     "formula": "September"
+    },
+    {
+     "cell": "T13",
+     "formula": "Oktober"
+    },
+    {
+     "cell": "T14",
+     "formula": "November"
+    },
+    {
+     "cell": "T15",
+     "formula": "Dezember"
+    },
+    {
+     "cell": "B9",
+     "formula": "=\"Aktueller Monat: \"&INDEX(T4:T15,R5)&\" \"&R4&\".\""
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "C6",
+     "type": "formula",
+     "formula": [
+      "AND(C6<>\"\",OR(NOT(ISNUMBER(C6)),N(C6)<1))"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C5",
+     "type": "formula",
+     "formula": [
+      "AND(C5<>\"\",OR(NOT(ISNUMBER(C5)),N(C5)<1900,N(C5)>9999))"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "borders": [
+    {
+     "range": "C4:C6",
+     "color": "C9D3DB",
+     "style": "medium"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "1E2A33"
+    },
+    {
+     "range": "B4:B6",
+     "bold": true,
+     "size": 10,
+     "color": "1E2A33"
+    },
+    {
+     "range": "D4:D6",
+     "italic": true,
+     "size": 9,
+     "color": "1E2A33"
+    },
+    {
+     "range": "C4:C6",
+     "bold": true,
+     "size": 11,
+     "color": "1E2A33",
+     "align": "center"
+    },
+    {
+     "range": "B9",
+     "bold": true,
+     "italic": true,
+     "size": 11,
+     "color": "2F4858"
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "C5",
+     "format": "0"
+    },
+    {
+     "range": "C6",
+     "format": "dd.mm.yyyy"
+    }
+   ]
+  },
+  {
+   "name": "Fixkosten",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "B5473A",
+   "grid_rows": 35,
+   "grid_cols": 11,
+   "row_height": 21,
+   "column_widths": {
+    "A": 2.5,
+    "B": 24,
+    "C": 12,
+    "D": 15,
+    "E": 14,
+    "F": 12,
+    "G": 12,
+    "H": 9,
+    "I": 12,
+    "J": 22,
+    "K": 2.5
+   },
+   "section_bars": [
+    {
+     "range": "B2:J2",
+     "label": "=\"FIXKOSTEN\"",
+     "size": 16,
+     "color": "2F4858",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Alle festen Kosten. Turnus wählen: das Blatt rechnet auf den Monat um."
+    },
+    {
+     "cell": "B6",
+     "formula": "Posten"
+    },
+    {
+     "cell": "C6",
+     "formula": "Betrag"
+    },
+    {
+     "cell": "D6",
+     "formula": "Turnus"
+    },
+    {
+     "cell": "E6",
+     "formula": "Nächste Fälligkeit"
+    },
+    {
+     "cell": "F6",
+     "formula": "Pro Monat"
+    },
+    {
+     "cell": "G6",
+     "formula": "Pro Jahr"
+    },
+    {
+     "cell": "H6",
+     "formula": "Tage bis"
+    },
+    {
+     "cell": "I6",
+     "formula": "Status"
+    },
+    {
+     "cell": "J6",
+     "formula": "Notiz"
+    },
+    {
+     "cell": "B7",
+     "formula": "Miete"
+    },
+    {
+     "cell": "C7",
+     "formula": 890
+    },
+    {
+     "cell": "D7",
+     "formula": "monatlich"
+    },
+    {
+     "cell": "E7",
+     "formula": "=DATE(2027,7,1)"
+    },
+    {
+     "cell": "J7",
+     "formula": "Warmmiete"
+    },
+    {
+     "cell": "B8",
+     "formula": "Nebenkosten-Abschlag"
+    },
+    {
+     "cell": "C8",
+     "formula": 160
+    },
+    {
+     "cell": "D8",
+     "formula": "monatlich"
+    },
+    {
+     "cell": "E8",
+     "formula": "=DATE(2027,7,1)"
+    },
+    {
+     "cell": "B9",
+     "formula": "Strom-Abschlag"
+    },
+    {
+     "cell": "C9",
+     "formula": 78
+    },
+    {
+     "cell": "D9",
+     "formula": "monatlich"
+    },
+    {
+     "cell": "E9",
+     "formula": "=DATE(2027,7,5)"
+    },
+    {
+     "cell": "B10",
+     "formula": "Internet"
+    },
+    {
+     "cell": "C10",
+     "formula": 39.99
+    },
+    {
+     "cell": "D10",
+     "formula": "monatlich"
+    },
+    {
+     "cell": "E10",
+     "formula": "=DATE(2027,7,7)"
+    },
+    {
+     "cell": "B11",
+     "formula": "Handy"
+    },
+    {
+     "cell": "C11",
+     "formula": 14.99
+    },
+    {
+     "cell": "D11",
+     "formula": "monatlich"
+    },
+    {
+     "cell": "E11",
+     "formula": "=DATE(2027,7,7)"
+    },
+    {
+     "cell": "B12",
+     "formula": "Rundfunkbeitrag"
+    },
+    {
+     "cell": "C12",
+     "formula": 55.08
+    },
+    {
+     "cell": "D12",
+     "formula": "vierteljährlich"
+    },
+    {
+     "cell": "E12",
+     "formula": "=DATE(2027,7,15)"
+    },
+    {
+     "cell": "B13",
+     "formula": "Haftpflicht + Hausrat"
+    },
+    {
+     "cell": "C13",
+     "formula": 148
+    },
+    {
+     "cell": "D13",
+     "formula": "jährlich"
+    },
+    {
+     "cell": "E13",
+     "formula": "=DATE(2028,1,15)"
+    },
+    {
+     "cell": "B14",
+     "formula": "Deutschlandticket"
+    },
+    {
+     "cell": "C14",
+     "formula": 58
+    },
+    {
+     "cell": "D14",
+     "formula": "monatlich"
+    },
+    {
+     "cell": "E14",
+     "formula": "=DATE(2027,7,3)"
+    },
+    {
+     "cell": "B15",
+     "formula": "Netflix + Spotify"
+    },
+    {
+     "cell": "C15",
+     "formula": 23.98
+    },
+    {
+     "cell": "D15",
+     "formula": "monatlich"
+    },
+    {
+     "cell": "E15",
+     "formula": "=DATE(2027,7,12)"
+    },
+    {
+     "cell": "B16",
+     "formula": "Fitnessstudio"
+    },
+    {
+     "cell": "C16",
+     "formula": 120
+    },
+    {
+     "cell": "D16",
+     "formula": "halbjährlich"
+    },
+    {
+     "cell": "E16",
+     "formula": "=DATE(2027,9,1)"
+    },
+    {
+     "col": "F",
+     "range_rows": [
+      7,
+      31
+     ],
+     "formula": "=IF(TRIM(B{row}&\"\")=\"\",\"\",ROUND(N(C{row})*IF(OR(LOWER(TRIM(D{row}&\"\"))=\"\",LOWER(TRIM(D{row}&\"\"))=\"monatlich\"),1,IF(LOWER(TRIM(D{row}&\"\"))=\"vierteljährlich\",1/3,IF(LOWER(TRIM(D{row}&\"\"))=\"halbjährlich\",1/6,IF(LOWER(TRIM(D{row}&\"\"))=\"jährlich\",1/12,0)))),2))",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "col": "G",
+     "range_rows": [
+      7,
+      31
+     ],
+     "formula": "=IF(TRIM(B{row}&\"\")=\"\",\"\",ROUND(F{row}*12,2))",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "col": "H",
+     "range_rows": [
+      7,
+      31
+     ],
+     "formula": "=IF(OR(TRIM(B{row}&\"\")=\"\",NOT(ISNUMBER(E{row}))),\"\",INT(E{row})-'Einstellungen'!$R$6)",
+     "number_format": "0"
+    },
+    {
+     "col": "I",
+     "range_rows": [
+      7,
+      31
+     ],
+     "formula": "=IF(H{row}=\"\",\"\",IF(H{row}<0,\"Überfällig\",IF(H{row}<=7,\"Bald fällig\",\"OK\")))"
+    },
+    {
+     "cell": "B32",
+     "formula": "SUMME"
+    },
+    {
+     "cell": "F32",
+     "formula": "=ROUND(SUM(F7:F31),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "G32",
+     "formula": "=ROUND(SUM(G7:G31),2)",
+     "number_format": "#,##0.00 \"€\""
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "I7:I31",
+     "type": "formula",
+     "formula": [
+      "$I7=\"Überfällig\""
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "I7:I31",
+     "type": "formula",
+     "formula": [
+      "$I7=\"Bald fällig\""
+     ],
+     "fill": "FFF1C2"
+    },
+    {
+     "range": "C7:C31",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C7<>\"\",NOT(ISNUMBER(C7))),N(C7)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "E7:E31",
+     "type": "formula",
+     "formula": [
+      "AND(E7<>\"\",OR(NOT(ISNUMBER(E7)),N(E7)<1))"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "D7:D31",
+     "type": "formula",
+     "formula": [
+      "AND(TRIM($B7&\"\")<>\"\",$F7=0,N($C7)<>0)"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B6:E6",
+     "color": "E3E9EE"
+    },
+    {
+     "range": "F6:I6",
+     "color": "F4E0DD"
+    },
+    {
+     "range": "J6",
+     "color": "E3E9EE"
+    },
+    {
+     "range": "F7:I31",
+     "color": "F5F7F9"
+    },
+    {
+     "range": "B32:J32",
+     "color": "E3E9EE"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B6:J32",
+     "color": "C9D3DB"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "1E2A33"
+    },
+    {
+     "range": "B6:J6",
+     "bold": true,
+     "size": 10,
+     "color": "1E2A33",
+     "align": "center",
+     "wrap": true
+    },
+    {
+     "range": "B7:B32",
+     "bold": true,
+     "size": 10,
+     "color": "1E2A33"
+    },
+    {
+     "range": "C7:I32",
+     "size": 10,
+     "color": "1E2A33",
+     "align": "center"
+    },
+    {
+     "range": "F7:F32",
+     "bold": true,
+     "size": 10,
+     "color": "2F4858",
+     "align": "center"
+    },
+    {
+     "range": "B32:J32",
+     "bold": true,
+     "size": 10,
+     "color": "1E2A33",
+     "align": "center"
+    }
+   ],
+   "row_heights": {
+    "6": 30
+   },
+   "validations": [
+    {
+     "range": "D7:D31",
+     "type": "list",
+     "values": [
+      "monatlich",
+      "vierteljährlich",
+      "halbjährlich",
+      "jährlich"
+     ],
+     "strict": false
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "C7:C31",
+     "format": "#,##0.00 \"€\""
+    },
+    {
+     "range": "E7:E31",
+     "format": "dd.mm.yyyy"
+    }
+   ]
+  },
+  {
+   "name": "Budget",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "5C8A4F",
+   "grid_rows": 39,
+   "grid_cols": 18,
+   "row_height": 20,
+   "freeze": "A7",
+   "column_widths": {
+    "A": 2.5,
+    "B": 30,
+    "C": 15,
+    "D": 13,
+    "E": 16,
+    "F": 12,
+    "G": 15,
+    "H": 16,
+    "I": 2.5,
+    "R": 10
+   },
+   "hidden_columns": [
+    "R"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:H2",
+     "label": "=\"MONATSBUDGET\"",
+     "size": 16,
+     "color": "2F4858",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "B5:D5",
+     "label": "MEIN PLAN",
+     "color": "E3E9EE",
+     "font_color": "1E2A33",
+     "align": "left"
+    },
+    {
+     "range": "E5:H5",
+     "label": "SO LÄUFT ES",
+     "color": "5C8A4F",
+     "font_color": "FFFFFF",
+     "align": "center"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Plane einen Monat. Ausgegeben kommt aus den Buchungen für den aktuellen Monat."
+    },
+    {
+     "cell": "B6",
+     "formula": "Kategorie"
+    },
+    {
+     "cell": "C6",
+     "formula": "Gruppe"
+    },
+    {
+     "cell": "D6",
+     "formula": "Plan / Monat"
+    },
+    {
+     "cell": "E6",
+     "formula": "Ausgegeben (Monat)"
+    },
+    {
+     "cell": "F6",
+     "formula": "Rest"
+    },
+    {
+     "cell": "G6",
+     "formula": "Fortschritt"
+    },
+    {
+     "cell": "H6",
+     "formula": "Ausgegeben (Jahr)"
+    },
+    {
+     "cell": "B7",
+     "formula": "Miete"
+    },
+    {
+     "cell": "C7",
+     "formula": "Fixkosten"
+    },
+    {
+     "cell": "D7",
+     "formula": 890
+    },
+    {
+     "cell": "E7",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$J$6:$J$1205,5,'Buchungen'!$I$6:$I$1205,'Einstellungen'!$R$5),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "F7",
+     "formula": "=ROUND(N(D7)-E7,2)",
+     "number_format": "#,##0.00 \"€\";-#,##0.00 \"€\";0.00 \"€\""
+    },
+    {
+     "cell": "G7",
+     "formula": "=IF(N(D7)<=0,\"\",REPT(\"█\",ROUND(MIN(1,MAX(0,E7/D7))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,E7/D7))*10,0)))"
+    },
+    {
+     "cell": "H7",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$J$6:$J$1205,5,'Buchungen'!$I$6:$I$1205,\">0\"),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "B8",
+     "formula": "Nebenkosten"
+    },
+    {
+     "cell": "C8",
+     "formula": "Fixkosten"
+    },
+    {
+     "cell": "D8",
+     "formula": 160
+    },
+    {
+     "cell": "E8",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$J$6:$J$1205,6,'Buchungen'!$I$6:$I$1205,'Einstellungen'!$R$5),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "F8",
+     "formula": "=ROUND(N(D8)-E8,2)",
+     "number_format": "#,##0.00 \"€\";-#,##0.00 \"€\";0.00 \"€\""
+    },
+    {
+     "cell": "G8",
+     "formula": "=IF(N(D8)<=0,\"\",REPT(\"█\",ROUND(MIN(1,MAX(0,E8/D8))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,E8/D8))*10,0)))"
+    },
+    {
+     "cell": "H8",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$J$6:$J$1205,6,'Buchungen'!$I$6:$I$1205,\">0\"),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "B9",
+     "formula": "Strom"
+    },
+    {
+     "cell": "C9",
+     "formula": "Fixkosten"
+    },
+    {
+     "cell": "D9",
+     "formula": 78
+    },
+    {
+     "cell": "E9",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$J$6:$J$1205,7,'Buchungen'!$I$6:$I$1205,'Einstellungen'!$R$5),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "F9",
+     "formula": "=ROUND(N(D9)-E9,2)",
+     "number_format": "#,##0.00 \"€\";-#,##0.00 \"€\";0.00 \"€\""
+    },
+    {
+     "cell": "G9",
+     "formula": "=IF(N(D9)<=0,\"\",REPT(\"█\",ROUND(MIN(1,MAX(0,E9/D9))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,E9/D9))*10,0)))"
+    },
+    {
+     "cell": "H9",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$J$6:$J$1205,7,'Buchungen'!$I$6:$I$1205,\">0\"),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "B10",
+     "formula": "Internet & Handy"
+    },
+    {
+     "cell": "C10",
+     "formula": "Fixkosten"
+    },
+    {
+     "cell": "D10",
+     "formula": 55
+    },
+    {
+     "cell": "E10",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$J$6:$J$1205,8,'Buchungen'!$I$6:$I$1205,'Einstellungen'!$R$5),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "F10",
+     "formula": "=ROUND(N(D10)-E10,2)",
+     "number_format": "#,##0.00 \"€\";-#,##0.00 \"€\";0.00 \"€\""
+    },
+    {
+     "cell": "G10",
+     "formula": "=IF(N(D10)<=0,\"\",REPT(\"█\",ROUND(MIN(1,MAX(0,E10/D10))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,E10/D10))*10,0)))"
+    },
+    {
+     "cell": "H10",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$J$6:$J$1205,8,'Buchungen'!$I$6:$I$1205,\">0\"),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "B11",
+     "formula": "Rundfunkbeitrag"
+    },
+    {
+     "cell": "C11",
+     "formula": "Fixkosten"
+    },
+    {
+     "cell": "D11",
+     "formula": 18.36
+    },
+    {
+     "cell": "E11",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$J$6:$J$1205,9,'Buchungen'!$I$6:$I$1205,'Einstellungen'!$R$5),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "F11",
+     "formula": "=ROUND(N(D11)-E11,2)",
+     "number_format": "#,##0.00 \"€\";-#,##0.00 \"€\";0.00 \"€\""
+    },
+    {
+     "cell": "G11",
+     "formula": "=IF(N(D11)<=0,\"\",REPT(\"█\",ROUND(MIN(1,MAX(0,E11/D11))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,E11/D11))*10,0)))"
+    },
+    {
+     "cell": "H11",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$J$6:$J$1205,9,'Buchungen'!$I$6:$I$1205,\">0\"),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "B12",
+     "formula": "Versicherungen"
+    },
+    {
+     "cell": "C12",
+     "formula": "Fixkosten"
+    },
+    {
+     "cell": "D12",
+     "formula": 12.33
+    },
+    {
+     "cell": "E12",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$J$6:$J$1205,10,'Buchungen'!$I$6:$I$1205,'Einstellungen'!$R$5),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "F12",
+     "formula": "=ROUND(N(D12)-E12,2)",
+     "number_format": "#,##0.00 \"€\";-#,##0.00 \"€\";0.00 \"€\""
+    },
+    {
+     "cell": "G12",
+     "formula": "=IF(N(D12)<=0,\"\",REPT(\"█\",ROUND(MIN(1,MAX(0,E12/D12))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,E12/D12))*10,0)))"
+    },
+    {
+     "cell": "H12",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$J$6:$J$1205,10,'Buchungen'!$I$6:$I$1205,\">0\"),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "B13",
+     "formula": "Mobilität & Deutschlandticket"
+    },
+    {
+     "cell": "C13",
+     "formula": "Fixkosten"
+    },
+    {
+     "cell": "D13",
+     "formula": 58
+    },
+    {
+     "cell": "E13",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$J$6:$J$1205,11,'Buchungen'!$I$6:$I$1205,'Einstellungen'!$R$5),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "F13",
+     "formula": "=ROUND(N(D13)-E13,2)",
+     "number_format": "#,##0.00 \"€\";-#,##0.00 \"€\";0.00 \"€\""
+    },
+    {
+     "cell": "G13",
+     "formula": "=IF(N(D13)<=0,\"\",REPT(\"█\",ROUND(MIN(1,MAX(0,E13/D13))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,E13/D13))*10,0)))"
+    },
+    {
+     "cell": "H13",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$J$6:$J$1205,11,'Buchungen'!$I$6:$I$1205,\">0\"),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "B14",
+     "formula": "Kredite"
+    },
+    {
+     "cell": "C14",
+     "formula": "Fixkosten"
+    },
+    {
+     "cell": "D14",
+     "formula": 0
+    },
+    {
+     "cell": "E14",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$J$6:$J$1205,12,'Buchungen'!$I$6:$I$1205,'Einstellungen'!$R$5),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "F14",
+     "formula": "=ROUND(N(D14)-E14,2)",
+     "number_format": "#,##0.00 \"€\";-#,##0.00 \"€\";0.00 \"€\""
+    },
+    {
+     "cell": "G14",
+     "formula": "=IF(N(D14)<=0,\"\",REPT(\"█\",ROUND(MIN(1,MAX(0,E14/D14))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,E14/D14))*10,0)))"
+    },
+    {
+     "cell": "H14",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$J$6:$J$1205,12,'Buchungen'!$I$6:$I$1205,\">0\"),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "B15",
+     "formula": "Abos & Streaming"
+    },
+    {
+     "cell": "C15",
+     "formula": "Fixkosten"
+    },
+    {
+     "cell": "D15",
+     "formula": 24
+    },
+    {
+     "cell": "E15",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$J$6:$J$1205,13,'Buchungen'!$I$6:$I$1205,'Einstellungen'!$R$5),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "F15",
+     "formula": "=ROUND(N(D15)-E15,2)",
+     "number_format": "#,##0.00 \"€\";-#,##0.00 \"€\";0.00 \"€\""
+    },
+    {
+     "cell": "G15",
+     "formula": "=IF(N(D15)<=0,\"\",REPT(\"█\",ROUND(MIN(1,MAX(0,E15/D15))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,E15/D15))*10,0)))"
+    },
+    {
+     "cell": "H15",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$J$6:$J$1205,13,'Buchungen'!$I$6:$I$1205,\">0\"),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "B16",
+     "formula": "Kita & Schule"
+    },
+    {
+     "cell": "C16",
+     "formula": "Fixkosten"
+    },
+    {
+     "cell": "D16",
+     "formula": 0
+    },
+    {
+     "cell": "E16",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$J$6:$J$1205,14,'Buchungen'!$I$6:$I$1205,'Einstellungen'!$R$5),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "F16",
+     "formula": "=ROUND(N(D16)-E16,2)",
+     "number_format": "#,##0.00 \"€\";-#,##0.00 \"€\";0.00 \"€\""
+    },
+    {
+     "cell": "G16",
+     "formula": "=IF(N(D16)<=0,\"\",REPT(\"█\",ROUND(MIN(1,MAX(0,E16/D16))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,E16/D16))*10,0)))"
+    },
+    {
+     "cell": "H16",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$J$6:$J$1205,14,'Buchungen'!$I$6:$I$1205,\">0\"),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "B17",
+     "formula": "Lebensmittel"
+    },
+    {
+     "cell": "C17",
+     "formula": "Variable Kosten"
+    },
+    {
+     "cell": "D17",
+     "formula": 360
+    },
+    {
+     "cell": "E17",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$J$6:$J$1205,15,'Buchungen'!$I$6:$I$1205,'Einstellungen'!$R$5),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "F17",
+     "formula": "=ROUND(N(D17)-E17,2)",
+     "number_format": "#,##0.00 \"€\";-#,##0.00 \"€\";0.00 \"€\""
+    },
+    {
+     "cell": "G17",
+     "formula": "=IF(N(D17)<=0,\"\",REPT(\"█\",ROUND(MIN(1,MAX(0,E17/D17))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,E17/D17))*10,0)))"
+    },
+    {
+     "cell": "H17",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$J$6:$J$1205,15,'Buchungen'!$I$6:$I$1205,\">0\"),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "B18",
+     "formula": "Drogerie"
+    },
+    {
+     "cell": "C18",
+     "formula": "Variable Kosten"
+    },
+    {
+     "cell": "D18",
+     "formula": 35
+    },
+    {
+     "cell": "E18",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$J$6:$J$1205,16,'Buchungen'!$I$6:$I$1205,'Einstellungen'!$R$5),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "F18",
+     "formula": "=ROUND(N(D18)-E18,2)",
+     "number_format": "#,##0.00 \"€\";-#,##0.00 \"€\";0.00 \"€\""
+    },
+    {
+     "cell": "G18",
+     "formula": "=IF(N(D18)<=0,\"\",REPT(\"█\",ROUND(MIN(1,MAX(0,E18/D18))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,E18/D18))*10,0)))"
+    },
+    {
+     "cell": "H18",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$J$6:$J$1205,16,'Buchungen'!$I$6:$I$1205,\">0\"),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "B19",
+     "formula": "Kleidung"
+    },
+    {
+     "cell": "C19",
+     "formula": "Variable Kosten"
+    },
+    {
+     "cell": "D19",
+     "formula": 40
+    },
+    {
+     "cell": "E19",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$J$6:$J$1205,17,'Buchungen'!$I$6:$I$1205,'Einstellungen'!$R$5),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "F19",
+     "formula": "=ROUND(N(D19)-E19,2)",
+     "number_format": "#,##0.00 \"€\";-#,##0.00 \"€\";0.00 \"€\""
+    },
+    {
+     "cell": "G19",
+     "formula": "=IF(N(D19)<=0,\"\",REPT(\"█\",ROUND(MIN(1,MAX(0,E19/D19))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,E19/D19))*10,0)))"
+    },
+    {
+     "cell": "H19",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$J$6:$J$1205,17,'Buchungen'!$I$6:$I$1205,\">0\"),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "B20",
+     "formula": "Restaurant & Lieferdienst"
+    },
+    {
+     "cell": "C20",
+     "formula": "Variable Kosten"
+    },
+    {
+     "cell": "D20",
+     "formula": 50
+    },
+    {
+     "cell": "E20",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$J$6:$J$1205,18,'Buchungen'!$I$6:$I$1205,'Einstellungen'!$R$5),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "F20",
+     "formula": "=ROUND(N(D20)-E20,2)",
+     "number_format": "#,##0.00 \"€\";-#,##0.00 \"€\";0.00 \"€\""
+    },
+    {
+     "cell": "G20",
+     "formula": "=IF(N(D20)<=0,\"\",REPT(\"█\",ROUND(MIN(1,MAX(0,E20/D20))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,E20/D20))*10,0)))"
+    },
+    {
+     "cell": "H20",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$J$6:$J$1205,18,'Buchungen'!$I$6:$I$1205,\">0\"),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "B21",
+     "formula": "Freizeit"
+    },
+    {
+     "cell": "C21",
+     "formula": "Variable Kosten"
+    },
+    {
+     "cell": "D21",
+     "formula": 50
+    },
+    {
+     "cell": "E21",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$J$6:$J$1205,19,'Buchungen'!$I$6:$I$1205,'Einstellungen'!$R$5),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "F21",
+     "formula": "=ROUND(N(D21)-E21,2)",
+     "number_format": "#,##0.00 \"€\";-#,##0.00 \"€\";0.00 \"€\""
+    },
+    {
+     "cell": "G21",
+     "formula": "=IF(N(D21)<=0,\"\",REPT(\"█\",ROUND(MIN(1,MAX(0,E21/D21))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,E21/D21))*10,0)))"
+    },
+    {
+     "cell": "H21",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$J$6:$J$1205,19,'Buchungen'!$I$6:$I$1205,\">0\"),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "B22",
+     "formula": "Gesundheit"
+    },
+    {
+     "cell": "C22",
+     "formula": "Variable Kosten"
+    },
+    {
+     "cell": "D22",
+     "formula": 20
+    },
+    {
+     "cell": "E22",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$J$6:$J$1205,20,'Buchungen'!$I$6:$I$1205,'Einstellungen'!$R$5),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "F22",
+     "formula": "=ROUND(N(D22)-E22,2)",
+     "number_format": "#,##0.00 \"€\";-#,##0.00 \"€\";0.00 \"€\""
+    },
+    {
+     "cell": "G22",
+     "formula": "=IF(N(D22)<=0,\"\",REPT(\"█\",ROUND(MIN(1,MAX(0,E22/D22))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,E22/D22))*10,0)))"
+    },
+    {
+     "cell": "H22",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$J$6:$J$1205,20,'Buchungen'!$I$6:$I$1205,\">0\"),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "B23",
+     "formula": "Geschenke"
+    },
+    {
+     "cell": "C23",
+     "formula": "Variable Kosten"
+    },
+    {
+     "cell": "D23",
+     "formula": 25
+    },
+    {
+     "cell": "E23",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$J$6:$J$1205,21,'Buchungen'!$I$6:$I$1205,'Einstellungen'!$R$5),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "F23",
+     "formula": "=ROUND(N(D23)-E23,2)",
+     "number_format": "#,##0.00 \"€\";-#,##0.00 \"€\";0.00 \"€\""
+    },
+    {
+     "cell": "G23",
+     "formula": "=IF(N(D23)<=0,\"\",REPT(\"█\",ROUND(MIN(1,MAX(0,E23/D23))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,E23/D23))*10,0)))"
+    },
+    {
+     "cell": "H23",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$J$6:$J$1205,21,'Buchungen'!$I$6:$I$1205,\">0\"),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "B24",
+     "formula": "Urlaub"
+    },
+    {
+     "cell": "C24",
+     "formula": "Variable Kosten"
+    },
+    {
+     "cell": "D24",
+     "formula": 80
+    },
+    {
+     "cell": "E24",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$J$6:$J$1205,22,'Buchungen'!$I$6:$I$1205,'Einstellungen'!$R$5),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "F24",
+     "formula": "=ROUND(N(D24)-E24,2)",
+     "number_format": "#,##0.00 \"€\";-#,##0.00 \"€\";0.00 \"€\""
+    },
+    {
+     "cell": "G24",
+     "formula": "=IF(N(D24)<=0,\"\",REPT(\"█\",ROUND(MIN(1,MAX(0,E24/D24))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,E24/D24))*10,0)))"
+    },
+    {
+     "cell": "H24",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$J$6:$J$1205,22,'Buchungen'!$I$6:$I$1205,\">0\"),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "B25",
+     "formula": "Haushalt"
+    },
+    {
+     "cell": "C25",
+     "formula": "Variable Kosten"
+    },
+    {
+     "cell": "D25",
+     "formula": 25
+    },
+    {
+     "cell": "E25",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$J$6:$J$1205,23,'Buchungen'!$I$6:$I$1205,'Einstellungen'!$R$5),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "F25",
+     "formula": "=ROUND(N(D25)-E25,2)",
+     "number_format": "#,##0.00 \"€\";-#,##0.00 \"€\";0.00 \"€\""
+    },
+    {
+     "cell": "G25",
+     "formula": "=IF(N(D25)<=0,\"\",REPT(\"█\",ROUND(MIN(1,MAX(0,E25/D25))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,E25/D25))*10,0)))"
+    },
+    {
+     "cell": "H25",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$J$6:$J$1205,23,'Buchungen'!$I$6:$I$1205,\">0\"),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "B26",
+     "formula": "Sonstiges"
+    },
+    {
+     "cell": "C26",
+     "formula": "Variable Kosten"
+    },
+    {
+     "cell": "D26",
+     "formula": 40
+    },
+    {
+     "cell": "E26",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$J$6:$J$1205,24,'Buchungen'!$I$6:$I$1205,'Einstellungen'!$R$5),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "F26",
+     "formula": "=ROUND(N(D26)-E26,2)",
+     "number_format": "#,##0.00 \"€\";-#,##0.00 \"€\";0.00 \"€\""
+    },
+    {
+     "cell": "G26",
+     "formula": "=IF(N(D26)<=0,\"\",REPT(\"█\",ROUND(MIN(1,MAX(0,E26/D26))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,E26/D26))*10,0)))"
+    },
+    {
+     "cell": "H26",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$J$6:$J$1205,24,'Buchungen'!$I$6:$I$1205,\">0\"),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "B27",
+     "formula": "Notgroschen"
+    },
+    {
+     "cell": "C27",
+     "formula": "Sparen"
+    },
+    {
+     "cell": "D27",
+     "formula": 150
+    },
+    {
+     "cell": "E27",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$J$6:$J$1205,25,'Buchungen'!$I$6:$I$1205,'Einstellungen'!$R$5),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "F27",
+     "formula": "=ROUND(N(D27)-E27,2)",
+     "number_format": "#,##0.00 \"€\";-#,##0.00 \"€\";0.00 \"€\""
+    },
+    {
+     "cell": "G27",
+     "formula": "=IF(N(D27)<=0,\"\",REPT(\"█\",ROUND(MIN(1,MAX(0,E27/D27))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,E27/D27))*10,0)))"
+    },
+    {
+     "cell": "H27",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$J$6:$J$1205,25,'Buchungen'!$I$6:$I$1205,\">0\"),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "B28",
+     "formula": "ETF-Sparplan"
+    },
+    {
+     "cell": "C28",
+     "formula": "Sparen"
+    },
+    {
+     "cell": "D28",
+     "formula": 200
+    },
+    {
+     "cell": "E28",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$J$6:$J$1205,26,'Buchungen'!$I$6:$I$1205,'Einstellungen'!$R$5),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "F28",
+     "formula": "=ROUND(N(D28)-E28,2)",
+     "number_format": "#,##0.00 \"€\";-#,##0.00 \"€\";0.00 \"€\""
+    },
+    {
+     "cell": "G28",
+     "formula": "=IF(N(D28)<=0,\"\",REPT(\"█\",ROUND(MIN(1,MAX(0,E28/D28))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,E28/D28))*10,0)))"
+    },
+    {
+     "cell": "H28",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$J$6:$J$1205,26,'Buchungen'!$I$6:$I$1205,\">0\"),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "B29",
+     "formula": "Sparziele"
+    },
+    {
+     "cell": "C29",
+     "formula": "Sparen"
+    },
+    {
+     "cell": "D29",
+     "formula": 100
+    },
+    {
+     "cell": "E29",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$J$6:$J$1205,27,'Buchungen'!$I$6:$I$1205,'Einstellungen'!$R$5),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "F29",
+     "formula": "=ROUND(N(D29)-E29,2)",
+     "number_format": "#,##0.00 \"€\";-#,##0.00 \"€\";0.00 \"€\""
+    },
+    {
+     "cell": "G29",
+     "formula": "=IF(N(D29)<=0,\"\",REPT(\"█\",ROUND(MIN(1,MAX(0,E29/D29))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,E29/D29))*10,0)))"
+    },
+    {
+     "cell": "H29",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$J$6:$J$1205,27,'Buchungen'!$I$6:$I$1205,\">0\"),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "B30",
+     "formula": "SUMME"
+    },
+    {
+     "cell": "D30",
+     "formula": "=ROUND(SUM(D7:D29),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "E30",
+     "formula": "=ROUND(SUM(E7:E29),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "F30",
+     "formula": "=ROUND(SUM(F7:F29),2)",
+     "number_format": "#,##0.00 \"€\";-#,##0.00 \"€\";0.00 \"€\""
+    },
+    {
+     "cell": "H30",
+     "formula": "=ROUND(SUM(H7:H29),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "B32",
+     "formula": "Einnahmen im Schnitt pro Monat"
+    },
+    {
+     "cell": "D32",
+     "formula": "=R4",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "B33",
+     "formula": "Geplante Ausgaben gesamt"
+    },
+    {
+     "cell": "D33",
+     "formula": "=D30",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "B34",
+     "formula": "Bleibt übrig"
+    },
+    {
+     "cell": "D34",
+     "formula": "=ROUND(D32-D33,2)",
+     "number_format": "#,##0.00 \"€\";-#,##0.00 \"€\";0.00 \"€\""
+    },
+    {
+     "cell": "B35",
+     "formula": "Fixkosten laut Liste (pro Monat)"
+    },
+    {
+     "cell": "D35",
+     "formula": "='Fixkosten'!$F$32",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "B36",
+     "formula": "Fixkosten im Plan"
+    },
+    {
+     "cell": "D36",
+     "formula": "=ROUND(SUM(D7:D16),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "E34",
+     "formula": "=IF(D32<=0,\"Trage Einnahmen in den Buchungen ein.\",IF(D34<0,\"Plan zu hoch. Bitte kürzen.\",\"Plan passt.\"))"
+    },
+    {
+     "cell": "E36",
+     "formula": "=IF(ABS(D35-D36)<1,\"Passt zur Fixkosten-Liste.\",\"Weicht von der Fixkosten-Liste ab.\")"
+    },
+    {
+     "cell": "R4",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$K$6:$K$1205,0,'Buchungen'!$I$6:$I$1205,\">0\")/'Einstellungen'!$R$5,2)",
+     "number_format": "#,##0.00 \"€\""
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "F7:F30",
+     "type": "formula",
+     "formula": [
+      "F7<0"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "D7:D29",
+     "type": "formula",
+     "formula": [
+      "OR(AND(D7<>\"\",NOT(ISNUMBER(D7))),N(D7)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "B34:E34",
+     "type": "formula",
+     "formula": [
+      "$D$34<0"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "B34:E34",
+     "type": "formula",
+     "formula": [
+      "AND($D$32>0,$D$34>=0)"
+     ],
+     "fill": "D7EFDD"
+    },
+    {
+     "range": "B36:E36",
+     "type": "formula",
+     "formula": [
+      "ABS($D$35-$D$36)>=1"
+     ],
+     "fill": "FFF1C2"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B6:D6",
+     "color": "E3E9EE"
+    },
+    {
+     "range": "E6:H6",
+     "color": "E3EEDD"
+    },
+    {
+     "range": "C7:C29",
+     "color": "F5F7F9"
+    },
+    {
+     "range": "E7:H29",
+     "color": "F5F7F9"
+    },
+    {
+     "range": "B30:H30",
+     "color": "E3E9EE"
+    },
+    {
+     "range": "D32:D36",
+     "color": "F5F7F9"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B6:H30",
+     "color": "C9D3DB"
+    },
+    {
+     "range": "B32:D36",
+     "color": "C9D3DB"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "1E2A33"
+    },
+    {
+     "range": "B6:H6",
+     "bold": true,
+     "size": 10,
+     "color": "1E2A33",
+     "align": "center",
+     "wrap": true
+    },
+    {
+     "range": "B7:B30",
+     "bold": true,
+     "size": 10,
+     "color": "1E2A33"
+    },
+    {
+     "range": "C7:H30",
+     "size": 10,
+     "color": "1E2A33",
+     "align": "center"
+    },
+    {
+     "range": "G7:G29",
+     "size": 9,
+     "color": "5C8A4F"
+    },
+    {
+     "range": "B30:H30",
+     "bold": true,
+     "size": 10,
+     "color": "1E2A33",
+     "align": "center"
+    },
+    {
+     "range": "B32:B36",
+     "bold": true,
+     "size": 10,
+     "color": "1E2A33"
+    },
+    {
+     "range": "D32:D36",
+     "size": 11,
+     "color": "1E2A33",
+     "align": "center"
+    },
+    {
+     "range": "D34",
+     "bold": true,
+     "size": 12,
+     "color": "2F4858",
+     "align": "center"
+    },
+    {
+     "range": "E32:E36",
+     "bold": true,
+     "italic": true,
+     "size": 10,
+     "color": "2F4858"
+    }
+   ],
+   "row_heights": {
+    "6": 30
+   },
+   "number_formats": [
+    {
+     "range": "D7:D29",
+     "format": "#,##0.00 \"€\""
+    }
+   ]
+  },
+  {
+   "name": "Buchungen",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "D98E04",
+   "grid_rows": 1208,
+   "grid_cols": 22,
+   "row_height": 19,
+   "freeze": "A6",
+   "column_widths": {
+    "A": 2.5,
+    "B": 12,
+    "C": 26,
+    "D": 26,
+    "E": 12,
+    "F": 22,
+    "G": 8,
+    "H": 10,
+    "I": 3,
+    "J": 3,
+    "K": 3,
+    "T": 3,
+    "U": 3
+   },
+   "hidden_columns": [
+    "I",
+    "J",
+    "K",
+    "T",
+    "U"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:H2",
+     "label": "=\"BUCHUNGEN\"",
+     "size": 16,
+     "color": "2F4858",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Jede Einnahme und Ausgabe. Kategorie aus der Liste wählen. Beträge immer positiv eintragen."
+    },
+    {
+     "cell": "B5",
+     "formula": "Datum"
+    },
+    {
+     "cell": "C5",
+     "formula": "Beschreibung"
+    },
+    {
+     "cell": "D5",
+     "formula": "Kategorie"
+    },
+    {
+     "cell": "E5",
+     "formula": "Betrag"
+    },
+    {
+     "cell": "F5",
+     "formula": "Notiz"
+    },
+    {
+     "cell": "G5",
+     "formula": "Prüfen"
+    },
+    {
+     "cell": "H5",
+     "formula": "Art"
+    },
+    {
+     "cell": "B6",
+     "formula": "=DATE(2027,1,1)"
+    },
+    {
+     "cell": "C6",
+     "formula": "Miete"
+    },
+    {
+     "cell": "D6",
+     "formula": "Miete"
+    },
+    {
+     "cell": "E6",
+     "formula": 890
+    },
+    {
+     "cell": "F6",
+     "formula": "Warmmiete ohne Strom"
+    },
+    {
+     "cell": "B7",
+     "formula": "=DATE(2027,1,1)"
+    },
+    {
+     "cell": "C7",
+     "formula": "Nebenkosten-Abschlag"
+    },
+    {
+     "cell": "D7",
+     "formula": "Nebenkosten"
+    },
+    {
+     "cell": "E7",
+     "formula": 160
+    },
+    {
+     "cell": "B8",
+     "formula": "=DATE(2027,1,2)"
+    },
+    {
+     "cell": "C8",
+     "formula": "ETF-Sparplan"
+    },
+    {
+     "cell": "D8",
+     "formula": "ETF-Sparplan"
+    },
+    {
+     "cell": "E8",
+     "formula": 200
+    },
+    {
+     "cell": "B9",
+     "formula": "=DATE(2027,1,3)"
+    },
+    {
+     "cell": "C9",
+     "formula": "Deutschlandticket"
+    },
+    {
+     "cell": "D9",
+     "formula": "Mobilität & Deutschlandticket"
+    },
+    {
+     "cell": "E9",
+     "formula": 58
+    },
+    {
+     "cell": "B10",
+     "formula": "=DATE(2027,1,5)"
+    },
+    {
+     "cell": "C10",
+     "formula": "Strom-Abschlag"
+    },
+    {
+     "cell": "D10",
+     "formula": "Strom"
+    },
+    {
+     "cell": "E10",
+     "formula": 78
+    },
+    {
+     "cell": "B11",
+     "formula": "=DATE(2027,1,6)"
+    },
+    {
+     "cell": "C11",
+     "formula": "REWE"
+    },
+    {
+     "cell": "D11",
+     "formula": "Lebensmittel"
+    },
+    {
+     "cell": "E11",
+     "formula": 105.49
+    },
+    {
+     "cell": "B12",
+     "formula": "=DATE(2027,1,7)"
+    },
+    {
+     "cell": "C12",
+     "formula": "Internet + Handy"
+    },
+    {
+     "cell": "D12",
+     "formula": "Internet & Handy"
+    },
+    {
+     "cell": "E12",
+     "formula": 54.98
+    },
+    {
+     "cell": "B13",
+     "formula": "=DATE(2027,1,9)"
+    },
+    {
+     "cell": "C13",
+     "formula": "dm"
+    },
+    {
+     "cell": "D13",
+     "formula": "Drogerie"
+    },
+    {
+     "cell": "E13",
+     "formula": 38.28
+    },
+    {
+     "cell": "B14",
+     "formula": "=DATE(2027,1,10)"
+    },
+    {
+     "cell": "C14",
+     "formula": "Kindergeld"
+    },
+    {
+     "cell": "D14",
+     "formula": "Kindergeld"
+    },
+    {
+     "cell": "E14",
+     "formula": 255
+    },
+    {
+     "cell": "B15",
+     "formula": "=DATE(2027,1,12)"
+    },
+    {
+     "cell": "C15",
+     "formula": "Netflix + Spotify"
+    },
+    {
+     "cell": "D15",
+     "formula": "Abos & Streaming"
+    },
+    {
+     "cell": "E15",
+     "formula": 23.98
+    },
+    {
+     "cell": "B16",
+     "formula": "=DATE(2027,1,13)"
+    },
+    {
+     "cell": "C16",
+     "formula": "Aldi"
+    },
+    {
+     "cell": "D16",
+     "formula": "Lebensmittel"
+    },
+    {
+     "cell": "E16",
+     "formula": 94.05
+    },
+    {
+     "cell": "B17",
+     "formula": "=DATE(2027,1,15)"
+    },
+    {
+     "cell": "C17",
+     "formula": "Rundfunkbeitrag (Quartal)"
+    },
+    {
+     "cell": "D17",
+     "formula": "Rundfunkbeitrag"
+    },
+    {
+     "cell": "E17",
+     "formula": 55.08
+    },
+    {
+     "cell": "B18",
+     "formula": "=DATE(2027,1,15)"
+    },
+    {
+     "cell": "C18",
+     "formula": "Haftpflicht + Hausrat (Jahr)"
+    },
+    {
+     "cell": "D18",
+     "formula": "Versicherungen"
+    },
+    {
+     "cell": "E18",
+     "formula": 148
+    },
+    {
+     "cell": "B19",
+     "formula": "=DATE(2027,1,16)"
+    },
+    {
+     "cell": "C19",
+     "formula": "Lieferando"
+    },
+    {
+     "cell": "D19",
+     "formula": "Restaurant & Lieferdienst"
+    },
+    {
+     "cell": "E19",
+     "formula": 33.94
+    },
+    {
+     "cell": "B20",
+     "formula": "=DATE(2027,1,18)"
+    },
+    {
+     "cell": "C20",
+     "formula": "Winterjacke"
+    },
+    {
+     "cell": "D20",
+     "formula": "Kleidung"
+    },
+    {
+     "cell": "E20",
+     "formula": 89.99
+    },
+    {
+     "cell": "B21",
+     "formula": "=DATE(2027,1,20)"
+    },
+    {
+     "cell": "C21",
+     "formula": "Edeka"
+    },
+    {
+     "cell": "D21",
+     "formula": "Lebensmittel"
+    },
+    {
+     "cell": "E21",
+     "formula": 84.26
+    },
+    {
+     "cell": "B22",
+     "formula": "=DATE(2027,1,22)"
+    },
+    {
+     "cell": "C22",
+     "formula": "Kino / Bowling"
+    },
+    {
+     "cell": "D22",
+     "formula": "Freizeit"
+    },
+    {
+     "cell": "E22",
+     "formula": 23.75
+    },
+    {
+     "cell": "B23",
+     "formula": "=DATE(2027,1,26)"
+    },
+    {
+     "cell": "C23",
+     "formula": "Lidl"
+    },
+    {
+     "cell": "D23",
+     "formula": "Lebensmittel"
+    },
+    {
+     "cell": "E23",
+     "formula": 74.07
+    },
+    {
+     "cell": "B24",
+     "formula": "=DATE(2027,1,27)"
+    },
+    {
+     "cell": "C24",
+     "formula": "Notgroschen"
+    },
+    {
+     "cell": "D24",
+     "formula": "Notgroschen"
+    },
+    {
+     "cell": "E24",
+     "formula": 150
+    },
+    {
+     "cell": "F24",
+     "formula": "Dauerauftrag"
+    },
+    {
+     "cell": "B25",
+     "formula": "=DATE(2027,1,28)"
+    },
+    {
+     "cell": "C25",
+     "formula": "Gehalt"
+    },
+    {
+     "cell": "D25",
+     "formula": "Gehalt"
+    },
+    {
+     "cell": "E25",
+     "formula": 2780
+    },
+    {
+     "cell": "B26",
+     "formula": "=DATE(2027,2,1)"
+    },
+    {
+     "cell": "C26",
+     "formula": "Miete"
+    },
+    {
+     "cell": "D26",
+     "formula": "Miete"
+    },
+    {
+     "cell": "E26",
+     "formula": 890
+    },
+    {
+     "cell": "F26",
+     "formula": "Warmmiete ohne Strom"
+    },
+    {
+     "cell": "B27",
+     "formula": "=DATE(2027,2,1)"
+    },
+    {
+     "cell": "C27",
+     "formula": "Nebenkosten-Abschlag"
+    },
+    {
+     "cell": "D27",
+     "formula": "Nebenkosten"
+    },
+    {
+     "cell": "E27",
+     "formula": 160
+    },
+    {
+     "cell": "B28",
+     "formula": "=DATE(2027,2,2)"
+    },
+    {
+     "cell": "C28",
+     "formula": "ETF-Sparplan"
+    },
+    {
+     "cell": "D28",
+     "formula": "ETF-Sparplan"
+    },
+    {
+     "cell": "E28",
+     "formula": 200
+    },
+    {
+     "cell": "B29",
+     "formula": "=DATE(2027,2,3)"
+    },
+    {
+     "cell": "C29",
+     "formula": "Deutschlandticket"
+    },
+    {
+     "cell": "D29",
+     "formula": "Mobilität & Deutschlandticket"
+    },
+    {
+     "cell": "E29",
+     "formula": 58
+    },
+    {
+     "cell": "B30",
+     "formula": "=DATE(2027,2,5)"
+    },
+    {
+     "cell": "C30",
+     "formula": "Strom-Abschlag"
+    },
+    {
+     "cell": "D30",
+     "formula": "Strom"
+    },
+    {
+     "cell": "E30",
+     "formula": 78
+    },
+    {
+     "cell": "B31",
+     "formula": "=DATE(2027,2,6)"
+    },
+    {
+     "cell": "C31",
+     "formula": "REWE"
+    },
+    {
+     "cell": "D31",
+     "formula": "Lebensmittel"
+    },
+    {
+     "cell": "E31",
+     "formula": 91.43
+    },
+    {
+     "cell": "B32",
+     "formula": "=DATE(2027,2,7)"
+    },
+    {
+     "cell": "C32",
+     "formula": "Internet + Handy"
+    },
+    {
+     "cell": "D32",
+     "formula": "Internet & Handy"
+    },
+    {
+     "cell": "E32",
+     "formula": 54.98
+    },
+    {
+     "cell": "B33",
+     "formula": "=DATE(2027,2,9)"
+    },
+    {
+     "cell": "C33",
+     "formula": "dm"
+    },
+    {
+     "cell": "D33",
+     "formula": "Drogerie"
+    },
+    {
+     "cell": "E33",
+     "formula": 38.36
+    },
+    {
+     "cell": "B34",
+     "formula": "=DATE(2027,2,10)"
+    },
+    {
+     "cell": "C34",
+     "formula": "Kindergeld"
+    },
+    {
+     "cell": "D34",
+     "formula": "Kindergeld"
+    },
+    {
+     "cell": "E34",
+     "formula": 255
+    },
+    {
+     "cell": "B35",
+     "formula": "=DATE(2027,2,12)"
+    },
+    {
+     "cell": "C35",
+     "formula": "Netflix + Spotify"
+    },
+    {
+     "cell": "D35",
+     "formula": "Abos & Streaming"
+    },
+    {
+     "cell": "E35",
+     "formula": 23.98
+    },
+    {
+     "cell": "B36",
+     "formula": "=DATE(2027,2,13)"
+    },
+    {
+     "cell": "C36",
+     "formula": "Aldi"
+    },
+    {
+     "cell": "D36",
+     "formula": "Lebensmittel"
+    },
+    {
+     "cell": "E36",
+     "formula": 72.54
+    },
+    {
+     "cell": "B37",
+     "formula": "=DATE(2027,2,16)"
+    },
+    {
+     "cell": "C37",
+     "formula": "Lieferando"
+    },
+    {
+     "cell": "D37",
+     "formula": "Restaurant & Lieferdienst"
+    },
+    {
+     "cell": "E37",
+     "formula": 42.22
+    },
+    {
+     "cell": "B38",
+     "formula": "=DATE(2027,2,20)"
+    },
+    {
+     "cell": "C38",
+     "formula": "Edeka"
+    },
+    {
+     "cell": "D38",
+     "formula": "Lebensmittel"
+    },
+    {
+     "cell": "E38",
+     "formula": 93.42
+    },
+    {
+     "cell": "B39",
+     "formula": "=DATE(2027,2,22)"
+    },
+    {
+     "cell": "C39",
+     "formula": "Kino / Bowling"
+    },
+    {
+     "cell": "D39",
+     "formula": "Freizeit"
+    },
+    {
+     "cell": "E39",
+     "formula": 51.78
+    },
+    {
+     "cell": "B40",
+     "formula": "=DATE(2027,2,26)"
+    },
+    {
+     "cell": "C40",
+     "formula": "Gehalt"
+    },
+    {
+     "cell": "D40",
+     "formula": "Gehalt"
+    },
+    {
+     "cell": "E40",
+     "formula": 2780
+    },
+    {
+     "cell": "B41",
+     "formula": "=DATE(2027,2,26)"
+    },
+    {
+     "cell": "C41",
+     "formula": "Lidl"
+    },
+    {
+     "cell": "D41",
+     "formula": "Lebensmittel"
+    },
+    {
+     "cell": "E41",
+     "formula": 77.86
+    },
+    {
+     "cell": "B42",
+     "formula": "=DATE(2027,2,27)"
+    },
+    {
+     "cell": "C42",
+     "formula": "Notgroschen"
+    },
+    {
+     "cell": "D42",
+     "formula": "Notgroschen"
+    },
+    {
+     "cell": "E42",
+     "formula": 150
+    },
+    {
+     "cell": "F42",
+     "formula": "Dauerauftrag"
+    },
+    {
+     "cell": "B43",
+     "formula": "=DATE(2027,3,1)"
+    },
+    {
+     "cell": "C43",
+     "formula": "Miete"
+    },
+    {
+     "cell": "D43",
+     "formula": "Miete"
+    },
+    {
+     "cell": "E43",
+     "formula": 890
+    },
+    {
+     "cell": "F43",
+     "formula": "Warmmiete ohne Strom"
+    },
+    {
+     "cell": "B44",
+     "formula": "=DATE(2027,3,1)"
+    },
+    {
+     "cell": "C44",
+     "formula": "Nebenkosten-Abschlag"
+    },
+    {
+     "cell": "D44",
+     "formula": "Nebenkosten"
+    },
+    {
+     "cell": "E44",
+     "formula": 160
+    },
+    {
+     "cell": "B45",
+     "formula": "=DATE(2027,3,2)"
+    },
+    {
+     "cell": "C45",
+     "formula": "ETF-Sparplan"
+    },
+    {
+     "cell": "D45",
+     "formula": "ETF-Sparplan"
+    },
+    {
+     "cell": "E45",
+     "formula": 200
+    },
+    {
+     "cell": "B46",
+     "formula": "=DATE(2027,3,3)"
+    },
+    {
+     "cell": "C46",
+     "formula": "Deutschlandticket"
+    },
+    {
+     "cell": "D46",
+     "formula": "Mobilität & Deutschlandticket"
+    },
+    {
+     "cell": "E46",
+     "formula": 58
+    },
+    {
+     "cell": "B47",
+     "formula": "=DATE(2027,3,5)"
+    },
+    {
+     "cell": "C47",
+     "formula": "Strom-Abschlag"
+    },
+    {
+     "cell": "D47",
+     "formula": "Strom"
+    },
+    {
+     "cell": "E47",
+     "formula": 78
+    },
+    {
+     "cell": "B48",
+     "formula": "=DATE(2027,3,6)"
+    },
+    {
+     "cell": "C48",
+     "formula": "REWE"
+    },
+    {
+     "cell": "D48",
+     "formula": "Lebensmittel"
+    },
+    {
+     "cell": "E48",
+     "formula": 85.9
+    },
+    {
+     "cell": "B49",
+     "formula": "=DATE(2027,3,7)"
+    },
+    {
+     "cell": "C49",
+     "formula": "Internet + Handy"
+    },
+    {
+     "cell": "D49",
+     "formula": "Internet & Handy"
+    },
+    {
+     "cell": "E49",
+     "formula": 54.98
+    },
+    {
+     "cell": "B50",
+     "formula": "=DATE(2027,3,9)"
+    },
+    {
+     "cell": "C50",
+     "formula": "dm"
+    },
+    {
+     "cell": "D50",
+     "formula": "Drogerie"
+    },
+    {
+     "cell": "E50",
+     "formula": 36.67
+    },
+    {
+     "cell": "B51",
+     "formula": "=DATE(2027,3,10)"
+    },
+    {
+     "cell": "C51",
+     "formula": "Kindergeld"
+    },
+    {
+     "cell": "D51",
+     "formula": "Kindergeld"
+    },
+    {
+     "cell": "E51",
+     "formula": 255
+    },
+    {
+     "cell": "B52",
+     "formula": "=DATE(2027,3,12)"
+    },
+    {
+     "cell": "C52",
+     "formula": "Netflix + Spotify"
+    },
+    {
+     "cell": "D52",
+     "formula": "Abos & Streaming"
+    },
+    {
+     "cell": "E52",
+     "formula": 23.98
+    },
+    {
+     "cell": "B53",
+     "formula": "=DATE(2027,3,13)"
+    },
+    {
+     "cell": "C53",
+     "formula": "Aldi"
+    },
+    {
+     "cell": "D53",
+     "formula": "Lebensmittel"
+    },
+    {
+     "cell": "E53",
+     "formula": 78.1
+    },
+    {
+     "cell": "B54",
+     "formula": "=DATE(2027,3,16)"
+    },
+    {
+     "cell": "C54",
+     "formula": "Lieferando"
+    },
+    {
+     "cell": "D54",
+     "formula": "Restaurant & Lieferdienst"
+    },
+    {
+     "cell": "E54",
+     "formula": 44.56
+    },
+    {
+     "cell": "B55",
+     "formula": "=DATE(2027,3,20)"
+    },
+    {
+     "cell": "C55",
+     "formula": "Edeka"
+    },
+    {
+     "cell": "D55",
+     "formula": "Lebensmittel"
+    },
+    {
+     "cell": "E55",
+     "formula": 92.0
+    },
+    {
+     "cell": "B56",
+     "formula": "=DATE(2027,3,21)"
+    },
+    {
+     "cell": "C56",
+     "formula": "Nebenjob Nachhilfe"
+    },
+    {
+     "cell": "D56",
+     "formula": "Nebenjob"
+    },
+    {
+     "cell": "E56",
+     "formula": 240
+    },
+    {
+     "cell": "B57",
+     "formula": "=DATE(2027,3,22)"
+    },
+    {
+     "cell": "C57",
+     "formula": "Kino / Bowling"
+    },
+    {
+     "cell": "D57",
+     "formula": "Freizeit"
+    },
+    {
+     "cell": "E57",
+     "formula": 30.51
+    },
+    {
+     "cell": "B58",
+     "formula": "=DATE(2027,3,26)"
+    },
+    {
+     "cell": "C58",
+     "formula": "Lidl"
+    },
+    {
+     "cell": "D58",
+     "formula": "Lebensmittel"
+    },
+    {
+     "cell": "E58",
+     "formula": 82.84
+    },
+    {
+     "cell": "B59",
+     "formula": "=DATE(2027,3,27)"
+    },
+    {
+     "cell": "C59",
+     "formula": "Notgroschen"
+    },
+    {
+     "cell": "D59",
+     "formula": "Notgroschen"
+    },
+    {
+     "cell": "E59",
+     "formula": 150
+    },
+    {
+     "cell": "F59",
+     "formula": "Dauerauftrag"
+    },
+    {
+     "cell": "B60",
+     "formula": "=DATE(2027,3,28)"
+    },
+    {
+     "cell": "C60",
+     "formula": "Gehalt"
+    },
+    {
+     "cell": "D60",
+     "formula": "Gehalt"
+    },
+    {
+     "cell": "E60",
+     "formula": 2780
+    },
+    {
+     "cell": "B61",
+     "formula": "=DATE(2027,4,1)"
+    },
+    {
+     "cell": "C61",
+     "formula": "Miete"
+    },
+    {
+     "cell": "D61",
+     "formula": "Miete"
+    },
+    {
+     "cell": "E61",
+     "formula": 890
+    },
+    {
+     "cell": "F61",
+     "formula": "Warmmiete ohne Strom"
+    },
+    {
+     "cell": "B62",
+     "formula": "=DATE(2027,4,1)"
+    },
+    {
+     "cell": "C62",
+     "formula": "Nebenkosten-Abschlag"
+    },
+    {
+     "cell": "D62",
+     "formula": "Nebenkosten"
+    },
+    {
+     "cell": "E62",
+     "formula": 160
+    },
+    {
+     "cell": "B63",
+     "formula": "=DATE(2027,4,2)"
+    },
+    {
+     "cell": "C63",
+     "formula": "ETF-Sparplan"
+    },
+    {
+     "cell": "D63",
+     "formula": "ETF-Sparplan"
+    },
+    {
+     "cell": "E63",
+     "formula": 200
+    },
+    {
+     "cell": "B64",
+     "formula": "=DATE(2027,4,3)"
+    },
+    {
+     "cell": "C64",
+     "formula": "Deutschlandticket"
+    },
+    {
+     "cell": "D64",
+     "formula": "Mobilität & Deutschlandticket"
+    },
+    {
+     "cell": "E64",
+     "formula": 58
+    },
+    {
+     "cell": "B65",
+     "formula": "=DATE(2027,4,5)"
+    },
+    {
+     "cell": "C65",
+     "formula": "Strom-Abschlag"
+    },
+    {
+     "cell": "D65",
+     "formula": "Strom"
+    },
+    {
+     "cell": "E65",
+     "formula": 78
+    },
+    {
+     "cell": "B66",
+     "formula": "=DATE(2027,4,6)"
+    },
+    {
+     "cell": "C66",
+     "formula": "REWE"
+    },
+    {
+     "cell": "D66",
+     "formula": "Lebensmittel"
+    },
+    {
+     "cell": "E66",
+     "formula": 108.97
+    },
+    {
+     "cell": "B67",
+     "formula": "=DATE(2027,4,7)"
+    },
+    {
+     "cell": "C67",
+     "formula": "Internet + Handy"
+    },
+    {
+     "cell": "D67",
+     "formula": "Internet & Handy"
+    },
+    {
+     "cell": "E67",
+     "formula": 54.98
+    },
+    {
+     "cell": "B68",
+     "formula": "=DATE(2027,4,9)"
+    },
+    {
+     "cell": "C68",
+     "formula": "dm"
+    },
+    {
+     "cell": "D68",
+     "formula": "Drogerie"
+    },
+    {
+     "cell": "E68",
+     "formula": 39.4
+    },
+    {
+     "cell": "B69",
+     "formula": "=DATE(2027,4,10)"
+    },
+    {
+     "cell": "C69",
+     "formula": "Kindergeld"
+    },
+    {
+     "cell": "D69",
+     "formula": "Kindergeld"
+    },
+    {
+     "cell": "E69",
+     "formula": 255
+    },
+    {
+     "cell": "B70",
+     "formula": "=DATE(2027,4,12)"
+    },
+    {
+     "cell": "C70",
+     "formula": "Netflix + Spotify"
+    },
+    {
+     "cell": "D70",
+     "formula": "Abos & Streaming"
+    },
+    {
+     "cell": "E70",
+     "formula": 23.98
+    },
+    {
+     "cell": "B71",
+     "formula": "=DATE(2027,4,13)"
+    },
+    {
+     "cell": "C71",
+     "formula": "Aldi"
+    },
+    {
+     "cell": "D71",
+     "formula": "Lebensmittel"
+    },
+    {
+     "cell": "E71",
+     "formula": 83.99
+    },
+    {
+     "cell": "B72",
+     "formula": "=DATE(2027,4,15)"
+    },
+    {
+     "cell": "C72",
+     "formula": "Rundfunkbeitrag (Quartal)"
+    },
+    {
+     "cell": "D72",
+     "formula": "Rundfunkbeitrag"
+    },
+    {
+     "cell": "E72",
+     "formula": 55.08
+    },
+    {
+     "cell": "B73",
+     "formula": "=DATE(2027,4,16)"
+    },
+    {
+     "cell": "C73",
+     "formula": "Lieferando"
+    },
+    {
+     "cell": "D73",
+     "formula": "Restaurant & Lieferdienst"
+    },
+    {
+     "cell": "E73",
+     "formula": 29.02
+    },
+    {
+     "cell": "B74",
+     "formula": "=DATE(2027,4,20)"
+    },
+    {
+     "cell": "C74",
+     "formula": "Edeka"
+    },
+    {
+     "cell": "D74",
+     "formula": "Lebensmittel"
+    },
+    {
+     "cell": "E74",
+     "formula": 65.49
+    },
+    {
+     "cell": "B75",
+     "formula": "=DATE(2027,4,22)"
+    },
+    {
+     "cell": "C75",
+     "formula": "Kino / Bowling"
+    },
+    {
+     "cell": "D75",
+     "formula": "Freizeit"
+    },
+    {
+     "cell": "E75",
+     "formula": 21.78
+    },
+    {
+     "cell": "B76",
+     "formula": "=DATE(2027,4,26)"
+    },
+    {
+     "cell": "C76",
+     "formula": "Lidl"
+    },
+    {
+     "cell": "D76",
+     "formula": "Lebensmittel"
+    },
+    {
+     "cell": "E76",
+     "formula": 67.22
+    },
+    {
+     "cell": "B77",
+     "formula": "=DATE(2027,4,27)"
+    },
+    {
+     "cell": "C77",
+     "formula": "Notgroschen"
+    },
+    {
+     "cell": "D77",
+     "formula": "Notgroschen"
+    },
+    {
+     "cell": "E77",
+     "formula": 150
+    },
+    {
+     "cell": "F77",
+     "formula": "Dauerauftrag"
+    },
+    {
+     "cell": "B78",
+     "formula": "=DATE(2027,4,28)"
+    },
+    {
+     "cell": "C78",
+     "formula": "Gehalt"
+    },
+    {
+     "cell": "D78",
+     "formula": "Gehalt"
+    },
+    {
+     "cell": "E78",
+     "formula": 2780
+    },
+    {
+     "cell": "B79",
+     "formula": "=DATE(2027,5,1)"
+    },
+    {
+     "cell": "C79",
+     "formula": "Miete"
+    },
+    {
+     "cell": "D79",
+     "formula": "Miete"
+    },
+    {
+     "cell": "E79",
+     "formula": 890
+    },
+    {
+     "cell": "F79",
+     "formula": "Warmmiete ohne Strom"
+    },
+    {
+     "cell": "B80",
+     "formula": "=DATE(2027,5,1)"
+    },
+    {
+     "cell": "C80",
+     "formula": "Nebenkosten-Abschlag"
+    },
+    {
+     "cell": "D80",
+     "formula": "Nebenkosten"
+    },
+    {
+     "cell": "E80",
+     "formula": 160
+    },
+    {
+     "cell": "B81",
+     "formula": "=DATE(2027,5,2)"
+    },
+    {
+     "cell": "C81",
+     "formula": "ETF-Sparplan"
+    },
+    {
+     "cell": "D81",
+     "formula": "ETF-Sparplan"
+    },
+    {
+     "cell": "E81",
+     "formula": 200
+    },
+    {
+     "cell": "B82",
+     "formula": "=DATE(2027,5,3)"
+    },
+    {
+     "cell": "C82",
+     "formula": "Deutschlandticket"
+    },
+    {
+     "cell": "D82",
+     "formula": "Mobilität & Deutschlandticket"
+    },
+    {
+     "cell": "E82",
+     "formula": 58
+    },
+    {
+     "cell": "B83",
+     "formula": "=DATE(2027,5,5)"
+    },
+    {
+     "cell": "C83",
+     "formula": "Strom-Abschlag"
+    },
+    {
+     "cell": "D83",
+     "formula": "Strom"
+    },
+    {
+     "cell": "E83",
+     "formula": 78
+    },
+    {
+     "cell": "B84",
+     "formula": "=DATE(2027,5,6)"
+    },
+    {
+     "cell": "C84",
+     "formula": "REWE"
+    },
+    {
+     "cell": "D84",
+     "formula": "Lebensmittel"
+    },
+    {
+     "cell": "E84",
+     "formula": 78.77
+    },
+    {
+     "cell": "B85",
+     "formula": "=DATE(2027,5,7)"
+    },
+    {
+     "cell": "C85",
+     "formula": "Internet + Handy"
+    },
+    {
+     "cell": "D85",
+     "formula": "Internet & Handy"
+    },
+    {
+     "cell": "E85",
+     "formula": 54.98
+    },
+    {
+     "cell": "B86",
+     "formula": "=DATE(2027,5,9)"
+    },
+    {
+     "cell": "C86",
+     "formula": "dm"
+    },
+    {
+     "cell": "D86",
+     "formula": "Drogerie"
+    },
+    {
+     "cell": "E86",
+     "formula": 36.95
+    },
+    {
+     "cell": "B87",
+     "formula": "=DATE(2027,5,10)"
+    },
+    {
+     "cell": "C87",
+     "formula": "Kindergeld"
+    },
+    {
+     "cell": "D87",
+     "formula": "Kindergeld"
+    },
+    {
+     "cell": "E87",
+     "formula": 255
+    },
+    {
+     "cell": "B88",
+     "formula": "=DATE(2027,5,10)"
+    },
+    {
+     "cell": "C88",
+     "formula": "Muttertag"
+    },
+    {
+     "cell": "D88",
+     "formula": "Geschenke"
+    },
+    {
+     "cell": "E88",
+     "formula": 35
+    },
+    {
+     "cell": "B89",
+     "formula": "=DATE(2027,5,12)"
+    },
+    {
+     "cell": "C89",
+     "formula": "Netflix + Spotify"
+    },
+    {
+     "cell": "D89",
+     "formula": "Abos & Streaming"
+    },
+    {
+     "cell": "E89",
+     "formula": 23.98
+    },
+    {
+     "cell": "B90",
+     "formula": "=DATE(2027,5,13)"
+    },
+    {
+     "cell": "C90",
+     "formula": "Aldi"
+    },
+    {
+     "cell": "D90",
+     "formula": "Lebensmittel"
+    },
+    {
+     "cell": "E90",
+     "formula": 73.32
+    },
+    {
+     "cell": "B91",
+     "formula": "=DATE(2027,5,16)"
+    },
+    {
+     "cell": "C91",
+     "formula": "Lieferando"
+    },
+    {
+     "cell": "D91",
+     "formula": "Restaurant & Lieferdienst"
+    },
+    {
+     "cell": "E91",
+     "formula": 35.62
+    },
+    {
+     "cell": "B92",
+     "formula": "=DATE(2027,5,20)"
+    },
+    {
+     "cell": "C92",
+     "formula": "Edeka"
+    },
+    {
+     "cell": "D92",
+     "formula": "Lebensmittel"
+    },
+    {
+     "cell": "E92",
+     "formula": 86.98
+    },
+    {
+     "cell": "B93",
+     "formula": "=DATE(2027,5,22)"
+    },
+    {
+     "cell": "C93",
+     "formula": "Kino / Bowling"
+    },
+    {
+     "cell": "D93",
+     "formula": "Freizeit"
+    },
+    {
+     "cell": "E93",
+     "formula": 22.35
+    },
+    {
+     "cell": "B94",
+     "formula": "=DATE(2027,5,24)"
+    },
+    {
+     "cell": "C94",
+     "formula": "Ferienwohnung Ostsee (Anzahlung)"
+    },
+    {
+     "cell": "D94",
+     "formula": "Urlaub"
+    },
+    {
+     "cell": "E94",
+     "formula": 300
+    },
+    {
+     "cell": "B95",
+     "formula": "=DATE(2027,5,26)"
+    },
+    {
+     "cell": "C95",
+     "formula": "Lidl"
+    },
+    {
+     "cell": "D95",
+     "formula": "Lebensmittel"
+    },
+    {
+     "cell": "E95",
+     "formula": 63.04
+    },
+    {
+     "cell": "B96",
+     "formula": "=DATE(2027,5,27)"
+    },
+    {
+     "cell": "C96",
+     "formula": "Notgroschen"
+    },
+    {
+     "cell": "D96",
+     "formula": "Notgroschen"
+    },
+    {
+     "cell": "E96",
+     "formula": 150
+    },
+    {
+     "cell": "F96",
+     "formula": "Dauerauftrag"
+    },
+    {
+     "cell": "B97",
+     "formula": "=DATE(2027,5,28)"
+    },
+    {
+     "cell": "C97",
+     "formula": "Gehalt"
+    },
+    {
+     "cell": "D97",
+     "formula": "Gehalt"
+    },
+    {
+     "cell": "E97",
+     "formula": 2780
+    },
+    {
+     "cell": "B98",
+     "formula": "=DATE(2027,6,1)"
+    },
+    {
+     "cell": "C98",
+     "formula": "Miete"
+    },
+    {
+     "cell": "D98",
+     "formula": "Miete"
+    },
+    {
+     "cell": "E98",
+     "formula": 890
+    },
+    {
+     "cell": "F98",
+     "formula": "Warmmiete ohne Strom"
+    },
+    {
+     "cell": "B99",
+     "formula": "=DATE(2027,6,1)"
+    },
+    {
+     "cell": "C99",
+     "formula": "Nebenkosten-Abschlag"
+    },
+    {
+     "cell": "D99",
+     "formula": "Nebenkosten"
+    },
+    {
+     "cell": "E99",
+     "formula": 160
+    },
+    {
+     "cell": "B100",
+     "formula": "=DATE(2027,6,2)"
+    },
+    {
+     "cell": "C100",
+     "formula": "ETF-Sparplan"
+    },
+    {
+     "cell": "D100",
+     "formula": "ETF-Sparplan"
+    },
+    {
+     "cell": "E100",
+     "formula": 200
+    },
+    {
+     "cell": "B101",
+     "formula": "=DATE(2027,6,3)"
+    },
+    {
+     "cell": "C101",
+     "formula": "Deutschlandticket"
+    },
+    {
+     "cell": "D101",
+     "formula": "Mobilität & Deutschlandticket"
+    },
+    {
+     "cell": "E101",
+     "formula": 58
+    },
+    {
+     "cell": "B102",
+     "formula": "=DATE(2027,6,5)"
+    },
+    {
+     "cell": "C102",
+     "formula": "Strom-Abschlag"
+    },
+    {
+     "cell": "D102",
+     "formula": "Strom"
+    },
+    {
+     "cell": "E102",
+     "formula": 78
+    },
+    {
+     "cell": "B103",
+     "formula": "=DATE(2027,6,6)"
+    },
+    {
+     "cell": "C103",
+     "formula": "REWE"
+    },
+    {
+     "cell": "D103",
+     "formula": "Lebensmittel"
+    },
+    {
+     "cell": "E103",
+     "formula": 77.36
+    },
+    {
+     "cell": "B104",
+     "formula": "=DATE(2027,6,7)"
+    },
+    {
+     "cell": "C104",
+     "formula": "Internet + Handy"
+    },
+    {
+     "cell": "D104",
+     "formula": "Internet & Handy"
+    },
+    {
+     "cell": "E104",
+     "formula": 54.98
+    },
+    {
+     "cell": "B105",
+     "formula": "=DATE(2027,6,9)"
+    },
+    {
+     "cell": "C105",
+     "formula": "dm"
+    },
+    {
+     "cell": "D105",
+     "formula": "Drogerie"
+    },
+    {
+     "cell": "E105",
+     "formula": 23.02
+    },
+    {
+     "cell": "B106",
+     "formula": "=DATE(2027,6,10)"
+    },
+    {
+     "cell": "C106",
+     "formula": "Kindergeld"
+    },
+    {
+     "cell": "D106",
+     "formula": "Kindergeld"
+    },
+    {
+     "cell": "E106",
+     "formula": 255
+    },
+    {
+     "cell": "B107",
+     "formula": "=DATE(2027,6,12)"
+    },
+    {
+     "cell": "C107",
+     "formula": "Netflix + Spotify"
+    },
+    {
+     "cell": "D107",
+     "formula": "Abos & Streaming"
+    },
+    {
+     "cell": "E107",
+     "formula": 23.98
+    },
+    {
+     "cell": "B108",
+     "formula": "=DATE(2027,6,13)"
+    },
+    {
+     "cell": "C108",
+     "formula": "Aldi"
+    },
+    {
+     "cell": "D108",
+     "formula": "Lebensmittel"
+    },
+    {
+     "cell": "E108",
+     "formula": 75.86
+    },
+    {
+     "cell": "B109",
+     "formula": "=DATE(2027,6,14)"
+    },
+    {
+     "cell": "C109",
+     "formula": "Apotheke"
+    },
+    {
+     "cell": "D109",
+     "formula": "Gesundheit"
+    },
+    {
+     "cell": "E109",
+     "formula": 17.5
+    },
+    {
+     "cell": "B110",
+     "formula": "=DATE(2027,6,16)"
+    },
+    {
+     "cell": "C110",
+     "formula": "Lieferando"
+    },
+    {
+     "cell": "D110",
+     "formula": "Restaurant & Lieferdienst"
+    },
+    {
+     "cell": "E110",
+     "formula": 34.51
+    },
+    {
+     "cell": "B111",
+     "formula": "=DATE(2027,6,20)"
+    },
+    {
+     "cell": "C111",
+     "formula": "Edeka"
+    },
+    {
+     "cell": "D111",
+     "formula": "Lebensmittel"
+    },
+    {
+     "cell": "E111",
+     "formula": 90.24
+    },
+    {
+     "cell": "B112",
+     "formula": "=DATE(2027,6,22)"
+    },
+    {
+     "cell": "C112",
+     "formula": "Kino / Bowling"
+    },
+    {
+     "cell": "D112",
+     "formula": "Freizeit"
+    },
+    {
+     "cell": "E112",
+     "formula": 38.16
+    },
+    {
+     "cell": "B113",
+     "formula": "=DATE(2027,6,26)"
+    },
+    {
+     "cell": "C113",
+     "formula": "Lidl"
+    },
+    {
+     "cell": "D113",
+     "formula": "Lebensmittel"
+    },
+    {
+     "cell": "E113",
+     "formula": 60.85
+    },
+    {
+     "cell": "B114",
+     "formula": "=DATE(2027,6,27)"
+    },
+    {
+     "cell": "C114",
+     "formula": "Notgroschen"
+    },
+    {
+     "cell": "D114",
+     "formula": "Notgroschen"
+    },
+    {
+     "cell": "E114",
+     "formula": 150
+    },
+    {
+     "cell": "F114",
+     "formula": "Dauerauftrag"
+    },
+    {
+     "cell": "B115",
+     "formula": "=DATE(2027,6,28)"
+    },
+    {
+     "cell": "C115",
+     "formula": "Gehalt"
+    },
+    {
+     "cell": "D115",
+     "formula": "Gehalt"
+    },
+    {
+     "cell": "E115",
+     "formula": 2780
+    },
+    {
+     "col": "J",
+     "range_rows": [
+      6,
+      1205
+     ],
+     "formula": "=IF(TRIM(D{row}&\"\")=\"\",0,IFERROR(MATCH(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(LOWER(TRIM(D{row}&\"\")),\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"),$T$5:$T$31,0),0))"
+    },
+    {
+     "col": "G",
+     "range_rows": [
+      6,
+      1205
+     ],
+     "formula": "=IF(AND(TRIM(B{row}&\"\")=\"\",TRIM(E{row}&\"\")=\"\"),\"\",IF(OR(NOT(ISNUMBER(B{row})),N(B{row})<1,NOT(ISNUMBER(E{row})),J{row}=0),\"?\",\"OK\"))"
+    },
+    {
+     "col": "I",
+     "range_rows": [
+      6,
+      1205
+     ],
+     "formula": "=IF(G{row}<>\"OK\",0,IF(YEAR(B{row})='Einstellungen'!$R$4,MONTH(B{row}),0))"
+    },
+    {
+     "col": "K",
+     "range_rows": [
+      6,
+      1205
+     ],
+     "formula": "=IF(G{row}<>\"OK\",-1,INDEX($U$5:$U$31,J{row}))"
+    },
+    {
+     "col": "H",
+     "range_rows": [
+      6,
+      1205
+     ],
+     "formula": "=IF(G{row}<>\"OK\",\"\",IF(K{row}=0,\"Einnahme\",\"Ausgabe\"))"
+    },
+    {
+     "cell": "T5",
+     "formula": "gehalt"
+    },
+    {
+     "cell": "U5",
+     "formula": 0
+    },
+    {
+     "cell": "T6",
+     "formula": "nebenjob"
+    },
+    {
+     "cell": "U6",
+     "formula": 0
+    },
+    {
+     "cell": "T7",
+     "formula": "kindergeld"
+    },
+    {
+     "cell": "U7",
+     "formula": 0
+    },
+    {
+     "cell": "T8",
+     "formula": "sonstige einnahmen"
+    },
+    {
+     "cell": "U8",
+     "formula": 0
+    },
+    {
+     "cell": "T9",
+     "formula": "miete"
+    },
+    {
+     "cell": "U9",
+     "formula": 1
+    },
+    {
+     "cell": "T10",
+     "formula": "nebenkosten"
+    },
+    {
+     "cell": "U10",
+     "formula": 1
+    },
+    {
+     "cell": "T11",
+     "formula": "strom"
+    },
+    {
+     "cell": "U11",
+     "formula": 1
+    },
+    {
+     "cell": "T12",
+     "formula": "internet & handy"
+    },
+    {
+     "cell": "U12",
+     "formula": 1
+    },
+    {
+     "cell": "T13",
+     "formula": "rundfunkbeitrag"
+    },
+    {
+     "cell": "U13",
+     "formula": 1
+    },
+    {
+     "cell": "T14",
+     "formula": "versicherungen"
+    },
+    {
+     "cell": "U14",
+     "formula": 1
+    },
+    {
+     "cell": "T15",
+     "formula": "mobilität & deutschlandticket"
+    },
+    {
+     "cell": "U15",
+     "formula": 1
+    },
+    {
+     "cell": "T16",
+     "formula": "kredite"
+    },
+    {
+     "cell": "U16",
+     "formula": 1
+    },
+    {
+     "cell": "T17",
+     "formula": "abos & streaming"
+    },
+    {
+     "cell": "U17",
+     "formula": 1
+    },
+    {
+     "cell": "T18",
+     "formula": "kita & schule"
+    },
+    {
+     "cell": "U18",
+     "formula": 1
+    },
+    {
+     "cell": "T19",
+     "formula": "lebensmittel"
+    },
+    {
+     "cell": "U19",
+     "formula": 2
+    },
+    {
+     "cell": "T20",
+     "formula": "drogerie"
+    },
+    {
+     "cell": "U20",
+     "formula": 2
+    },
+    {
+     "cell": "T21",
+     "formula": "kleidung"
+    },
+    {
+     "cell": "U21",
+     "formula": 2
+    },
+    {
+     "cell": "T22",
+     "formula": "restaurant & lieferdienst"
+    },
+    {
+     "cell": "U22",
+     "formula": 2
+    },
+    {
+     "cell": "T23",
+     "formula": "freizeit"
+    },
+    {
+     "cell": "U23",
+     "formula": 2
+    },
+    {
+     "cell": "T24",
+     "formula": "gesundheit"
+    },
+    {
+     "cell": "U24",
+     "formula": 2
+    },
+    {
+     "cell": "T25",
+     "formula": "geschenke"
+    },
+    {
+     "cell": "U25",
+     "formula": 2
+    },
+    {
+     "cell": "T26",
+     "formula": "urlaub"
+    },
+    {
+     "cell": "U26",
+     "formula": 2
+    },
+    {
+     "cell": "T27",
+     "formula": "haushalt"
+    },
+    {
+     "cell": "U27",
+     "formula": 2
+    },
+    {
+     "cell": "T28",
+     "formula": "sonstiges"
+    },
+    {
+     "cell": "U28",
+     "formula": 2
+    },
+    {
+     "cell": "T29",
+     "formula": "notgroschen"
+    },
+    {
+     "cell": "U29",
+     "formula": 3
+    },
+    {
+     "cell": "T30",
+     "formula": "etf-sparplan"
+    },
+    {
+     "cell": "U30",
+     "formula": 3
+    },
+    {
+     "cell": "T31",
+     "formula": "sparziele"
+    },
+    {
+     "cell": "U31",
+     "formula": 3
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "G6:G1205",
+     "type": "formula",
+     "formula": [
+      "$G6=\"?\""
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "G6:G1205",
+     "type": "formula",
+     "formula": [
+      "$G6=\"OK\""
+     ],
+     "fill": "D7EFDD"
+    },
+    {
+     "range": "H6:H1205",
+     "type": "formula",
+     "formula": [
+      "$H6=\"Einnahme\""
+     ],
+     "fill": "E3EEDD"
+    },
+    {
+     "range": "D6:D1205",
+     "type": "formula",
+     "formula": [
+      "AND(TRIM(B6&\"\")<>\"\",$J6=0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "B6:B1205",
+     "type": "formula",
+     "formula": [
+      "AND(B6<>\"\",OR(NOT(ISNUMBER(B6)),N(B6)<1))"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B5:F5",
+     "color": "E3E9EE"
+    },
+    {
+     "range": "G5:H5",
+     "color": "FBEBCC"
+    },
+    {
+     "range": "G6:H1205",
+     "color": "F5F7F9"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:H1205",
+     "color": "C9D3DB"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "1E2A33"
+    },
+    {
+     "range": "B5:H5",
+     "bold": true,
+     "size": 10,
+     "color": "1E2A33",
+     "align": "center"
+    },
+    {
+     "range": "B6:B1205",
+     "size": 10,
+     "color": "1E2A33",
+     "align": "center"
+    },
+    {
+     "range": "D6:E1205",
+     "size": 10,
+     "color": "1E2A33",
+     "align": "center"
+    },
+    {
+     "range": "G6:H1205",
+     "size": 9,
+     "color": "1E2A33",
+     "align": "center"
+    }
+   ],
+   "validations": [
+    {
+     "range": "D6:D1205",
+     "type": "list",
+     "values": [
+      "Gehalt",
+      "Nebenjob",
+      "Kindergeld",
+      "Sonstige Einnahmen",
+      "Miete",
+      "Nebenkosten",
+      "Strom",
+      "Internet & Handy",
+      "Rundfunkbeitrag",
+      "Versicherungen",
+      "Mobilität & Deutschlandticket",
+      "Kredite",
+      "Abos & Streaming",
+      "Kita & Schule",
+      "Lebensmittel",
+      "Drogerie",
+      "Kleidung",
+      "Restaurant & Lieferdienst",
+      "Freizeit",
+      "Gesundheit",
+      "Geschenke",
+      "Urlaub",
+      "Haushalt",
+      "Sonstiges",
+      "Notgroschen",
+      "ETF-Sparplan",
+      "Sparziele"
+     ],
+     "strict": false
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "B6:B1205",
+     "format": "dd.mm.yyyy"
+    },
+    {
+     "range": "E6:E1205",
+     "format": "#,##0.00 \"€\""
+    }
+   ]
+  },
+  {
+   "name": "Monate",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "2F4858",
+   "grid_rows": 41,
+   "grid_cols": 10,
+   "row_height": 21,
+   "column_widths": {
+    "A": 2.5,
+    "B": 13,
+    "C": 13,
+    "D": 13,
+    "E": 13,
+    "F": 13,
+    "G": 14,
+    "H": 12,
+    "I": 11,
+    "J": 2.5
+   },
+   "section_bars": [
+    {
+     "range": "B2:I2",
+     "label": "=\"MONAT FÜR MONAT  -  \"&'Einstellungen'!$R$4",
+     "size": 16,
+     "color": "2F4858",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "B21:I21",
+     "label": "EINNAHMEN UND AUSGABEN",
+     "color": "E3E9EE",
+     "font_color": "1E2A33",
+     "align": "center"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Dein Jahr Monat für Monat. Sparquote = Sparen / Einnahmen."
+    },
+    {
+     "cell": "B6",
+     "formula": "Monat"
+    },
+    {
+     "cell": "C6",
+     "formula": "Einnahmen"
+    },
+    {
+     "cell": "D6",
+     "formula": "Ausgaben"
+    },
+    {
+     "cell": "E6",
+     "formula": "Saldo"
+    },
+    {
+     "cell": "F6",
+     "formula": "Fixkosten"
+    },
+    {
+     "cell": "G6",
+     "formula": "Variable Kosten"
+    },
+    {
+     "cell": "H6",
+     "formula": "Sparen"
+    },
+    {
+     "cell": "I6",
+     "formula": "Sparquote"
+    },
+    {
+     "cell": "B7",
+     "formula": "Januar"
+    },
+    {
+     "cell": "C7",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$I$6:$I$1205,1,'Buchungen'!$K$6:$K$1205,0),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "D7",
+     "formula": "=ROUND(SUM(F7:H7),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "E7",
+     "formula": "=ROUND(C7-D7,2)",
+     "number_format": "#,##0.00 \"€\";-#,##0.00 \"€\";0.00 \"€\""
+    },
+    {
+     "cell": "F7",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$I$6:$I$1205,1,'Buchungen'!$K$6:$K$1205,1),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "G7",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$I$6:$I$1205,1,'Buchungen'!$K$6:$K$1205,2),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "H7",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$I$6:$I$1205,1,'Buchungen'!$K$6:$K$1205,3),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "I7",
+     "formula": "=IF(C7>0,H7/C7,\"\")",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B8",
+     "formula": "Februar"
+    },
+    {
+     "cell": "C8",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$I$6:$I$1205,2,'Buchungen'!$K$6:$K$1205,0),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "D8",
+     "formula": "=ROUND(SUM(F8:H8),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "E8",
+     "formula": "=ROUND(C8-D8,2)",
+     "number_format": "#,##0.00 \"€\";-#,##0.00 \"€\";0.00 \"€\""
+    },
+    {
+     "cell": "F8",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$I$6:$I$1205,2,'Buchungen'!$K$6:$K$1205,1),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "G8",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$I$6:$I$1205,2,'Buchungen'!$K$6:$K$1205,2),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "H8",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$I$6:$I$1205,2,'Buchungen'!$K$6:$K$1205,3),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "I8",
+     "formula": "=IF(C8>0,H8/C8,\"\")",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B9",
+     "formula": "März"
+    },
+    {
+     "cell": "C9",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$I$6:$I$1205,3,'Buchungen'!$K$6:$K$1205,0),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "D9",
+     "formula": "=ROUND(SUM(F9:H9),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "E9",
+     "formula": "=ROUND(C9-D9,2)",
+     "number_format": "#,##0.00 \"€\";-#,##0.00 \"€\";0.00 \"€\""
+    },
+    {
+     "cell": "F9",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$I$6:$I$1205,3,'Buchungen'!$K$6:$K$1205,1),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "G9",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$I$6:$I$1205,3,'Buchungen'!$K$6:$K$1205,2),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "H9",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$I$6:$I$1205,3,'Buchungen'!$K$6:$K$1205,3),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "I9",
+     "formula": "=IF(C9>0,H9/C9,\"\")",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B10",
+     "formula": "April"
+    },
+    {
+     "cell": "C10",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$I$6:$I$1205,4,'Buchungen'!$K$6:$K$1205,0),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "D10",
+     "formula": "=ROUND(SUM(F10:H10),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "E10",
+     "formula": "=ROUND(C10-D10,2)",
+     "number_format": "#,##0.00 \"€\";-#,##0.00 \"€\";0.00 \"€\""
+    },
+    {
+     "cell": "F10",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$I$6:$I$1205,4,'Buchungen'!$K$6:$K$1205,1),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "G10",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$I$6:$I$1205,4,'Buchungen'!$K$6:$K$1205,2),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "H10",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$I$6:$I$1205,4,'Buchungen'!$K$6:$K$1205,3),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "I10",
+     "formula": "=IF(C10>0,H10/C10,\"\")",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B11",
+     "formula": "Mai"
+    },
+    {
+     "cell": "C11",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$I$6:$I$1205,5,'Buchungen'!$K$6:$K$1205,0),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "D11",
+     "formula": "=ROUND(SUM(F11:H11),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "E11",
+     "formula": "=ROUND(C11-D11,2)",
+     "number_format": "#,##0.00 \"€\";-#,##0.00 \"€\";0.00 \"€\""
+    },
+    {
+     "cell": "F11",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$I$6:$I$1205,5,'Buchungen'!$K$6:$K$1205,1),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "G11",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$I$6:$I$1205,5,'Buchungen'!$K$6:$K$1205,2),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "H11",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$I$6:$I$1205,5,'Buchungen'!$K$6:$K$1205,3),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "I11",
+     "formula": "=IF(C11>0,H11/C11,\"\")",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B12",
+     "formula": "Juni"
+    },
+    {
+     "cell": "C12",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$I$6:$I$1205,6,'Buchungen'!$K$6:$K$1205,0),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "D12",
+     "formula": "=ROUND(SUM(F12:H12),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "E12",
+     "formula": "=ROUND(C12-D12,2)",
+     "number_format": "#,##0.00 \"€\";-#,##0.00 \"€\";0.00 \"€\""
+    },
+    {
+     "cell": "F12",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$I$6:$I$1205,6,'Buchungen'!$K$6:$K$1205,1),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "G12",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$I$6:$I$1205,6,'Buchungen'!$K$6:$K$1205,2),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "H12",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$I$6:$I$1205,6,'Buchungen'!$K$6:$K$1205,3),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "I12",
+     "formula": "=IF(C12>0,H12/C12,\"\")",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B13",
+     "formula": "Juli"
+    },
+    {
+     "cell": "C13",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$I$6:$I$1205,7,'Buchungen'!$K$6:$K$1205,0),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "D13",
+     "formula": "=ROUND(SUM(F13:H13),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "E13",
+     "formula": "=ROUND(C13-D13,2)",
+     "number_format": "#,##0.00 \"€\";-#,##0.00 \"€\";0.00 \"€\""
+    },
+    {
+     "cell": "F13",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$I$6:$I$1205,7,'Buchungen'!$K$6:$K$1205,1),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "G13",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$I$6:$I$1205,7,'Buchungen'!$K$6:$K$1205,2),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "H13",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$I$6:$I$1205,7,'Buchungen'!$K$6:$K$1205,3),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "I13",
+     "formula": "=IF(C13>0,H13/C13,\"\")",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B14",
+     "formula": "August"
+    },
+    {
+     "cell": "C14",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$I$6:$I$1205,8,'Buchungen'!$K$6:$K$1205,0),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "D14",
+     "formula": "=ROUND(SUM(F14:H14),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "E14",
+     "formula": "=ROUND(C14-D14,2)",
+     "number_format": "#,##0.00 \"€\";-#,##0.00 \"€\";0.00 \"€\""
+    },
+    {
+     "cell": "F14",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$I$6:$I$1205,8,'Buchungen'!$K$6:$K$1205,1),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "G14",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$I$6:$I$1205,8,'Buchungen'!$K$6:$K$1205,2),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "H14",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$I$6:$I$1205,8,'Buchungen'!$K$6:$K$1205,3),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "I14",
+     "formula": "=IF(C14>0,H14/C14,\"\")",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B15",
+     "formula": "September"
+    },
+    {
+     "cell": "C15",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$I$6:$I$1205,9,'Buchungen'!$K$6:$K$1205,0),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "D15",
+     "formula": "=ROUND(SUM(F15:H15),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "E15",
+     "formula": "=ROUND(C15-D15,2)",
+     "number_format": "#,##0.00 \"€\";-#,##0.00 \"€\";0.00 \"€\""
+    },
+    {
+     "cell": "F15",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$I$6:$I$1205,9,'Buchungen'!$K$6:$K$1205,1),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "G15",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$I$6:$I$1205,9,'Buchungen'!$K$6:$K$1205,2),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "H15",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$I$6:$I$1205,9,'Buchungen'!$K$6:$K$1205,3),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "I15",
+     "formula": "=IF(C15>0,H15/C15,\"\")",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B16",
+     "formula": "Oktober"
+    },
+    {
+     "cell": "C16",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$I$6:$I$1205,10,'Buchungen'!$K$6:$K$1205,0),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "D16",
+     "formula": "=ROUND(SUM(F16:H16),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "E16",
+     "formula": "=ROUND(C16-D16,2)",
+     "number_format": "#,##0.00 \"€\";-#,##0.00 \"€\";0.00 \"€\""
+    },
+    {
+     "cell": "F16",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$I$6:$I$1205,10,'Buchungen'!$K$6:$K$1205,1),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "G16",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$I$6:$I$1205,10,'Buchungen'!$K$6:$K$1205,2),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "H16",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$I$6:$I$1205,10,'Buchungen'!$K$6:$K$1205,3),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "I16",
+     "formula": "=IF(C16>0,H16/C16,\"\")",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B17",
+     "formula": "November"
+    },
+    {
+     "cell": "C17",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$I$6:$I$1205,11,'Buchungen'!$K$6:$K$1205,0),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "D17",
+     "formula": "=ROUND(SUM(F17:H17),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "E17",
+     "formula": "=ROUND(C17-D17,2)",
+     "number_format": "#,##0.00 \"€\";-#,##0.00 \"€\";0.00 \"€\""
+    },
+    {
+     "cell": "F17",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$I$6:$I$1205,11,'Buchungen'!$K$6:$K$1205,1),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "G17",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$I$6:$I$1205,11,'Buchungen'!$K$6:$K$1205,2),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "H17",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$I$6:$I$1205,11,'Buchungen'!$K$6:$K$1205,3),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "I17",
+     "formula": "=IF(C17>0,H17/C17,\"\")",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B18",
+     "formula": "Dezember"
+    },
+    {
+     "cell": "C18",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$I$6:$I$1205,12,'Buchungen'!$K$6:$K$1205,0),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "D18",
+     "formula": "=ROUND(SUM(F18:H18),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "E18",
+     "formula": "=ROUND(C18-D18,2)",
+     "number_format": "#,##0.00 \"€\";-#,##0.00 \"€\";0.00 \"€\""
+    },
+    {
+     "cell": "F18",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$I$6:$I$1205,12,'Buchungen'!$K$6:$K$1205,1),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "G18",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$I$6:$I$1205,12,'Buchungen'!$K$6:$K$1205,2),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "H18",
+     "formula": "=ROUND(SUMIFS('Buchungen'!$E$6:$E$1205,'Buchungen'!$I$6:$I$1205,12,'Buchungen'!$K$6:$K$1205,3),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "I18",
+     "formula": "=IF(C18>0,H18/C18,\"\")",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B19",
+     "formula": "JAHR"
+    },
+    {
+     "cell": "C19",
+     "formula": "=ROUND(SUM(C7:C18),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "D19",
+     "formula": "=ROUND(SUM(D7:D18),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "E19",
+     "formula": "=ROUND(SUM(E7:E18),2)",
+     "number_format": "#,##0.00 \"€\";-#,##0.00 \"€\";0.00 \"€\""
+    },
+    {
+     "cell": "F19",
+     "formula": "=ROUND(SUM(F7:F18),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "G19",
+     "formula": "=ROUND(SUM(G7:G18),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "H19",
+     "formula": "=ROUND(SUM(H7:H18),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "I19",
+     "formula": "=IF(C19>0,H19/C19,\"\")",
+     "number_format": "0%"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "E7:E19",
+     "type": "formula",
+     "formula": [
+      "E7<0"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "I7:I19",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER(I7),I7>=0.1)"
+     ],
+     "fill": "D7EFDD"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B6:E6",
+     "color": "E3E9EE"
+    },
+    {
+     "range": "F6:I6",
+     "color": "E3EEDD"
+    },
+    {
+     "range": "C7:I18",
+     "color": "F5F7F9"
+    },
+    {
+     "range": "B19:I19",
+     "color": "E3E9EE"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B6:I19",
+     "color": "C9D3DB"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "1E2A33"
+    },
+    {
+     "range": "B6:I6",
+     "bold": true,
+     "size": 10,
+     "color": "1E2A33",
+     "align": "center",
+     "wrap": true
+    },
+    {
+     "range": "B7:B19",
+     "bold": true,
+     "size": 10,
+     "color": "1E2A33"
+    },
+    {
+     "range": "C7:I19",
+     "size": 10,
+     "color": "1E2A33",
+     "align": "center"
+    },
+    {
+     "range": "B19:I19",
+     "bold": true,
+     "size": 10,
+     "color": "1E2A33",
+     "align": "center"
+    }
+   ],
+   "row_heights": {
+    "6": 30
+   },
+   "charts": [
+    {
+     "type": "bar",
+     "anchor": "B22",
+     "data": "Monate!C6:D18",
+     "categories": "Monate!B7:B18",
+     "width": 20,
+     "height": 7,
+     "colors": [
+      "5C8A4F",
+      "B5473A"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Sparziele",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "5C8A4F",
+   "grid_rows": 20,
+   "grid_cols": 12,
+   "row_height": 22,
+   "column_widths": {
+    "A": 2.5,
+    "B": 28,
+    "C": 12,
+    "D": 12,
+    "E": 12,
+    "F": 12,
+    "G": 8,
+    "H": 12,
+    "I": 18,
+    "J": 11,
+    "K": 20,
+    "L": 2.5
+   },
+   "section_bars": [
+    {
+     "range": "B2:K2",
+     "label": "=\"SPARZIELE\"",
+     "size": 16,
+     "color": "2F4858",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Wofür du sparst. Pro Monat = so viel musst du jeden Monat zurücklegen, um das Zieldatum zu schaffen."
+    },
+    {
+     "cell": "B6",
+     "formula": "Ziel"
+    },
+    {
+     "cell": "C6",
+     "formula": "Zielbetrag"
+    },
+    {
+     "cell": "D6",
+     "formula": "Gespart"
+    },
+    {
+     "cell": "E6",
+     "formula": "Zieldatum"
+    },
+    {
+     "cell": "F6",
+     "formula": "Fehlt"
+    },
+    {
+     "cell": "G6",
+     "formula": "Monate"
+    },
+    {
+     "cell": "H6",
+     "formula": "Pro Monat"
+    },
+    {
+     "cell": "I6",
+     "formula": "Fortschritt"
+    },
+    {
+     "cell": "J6",
+     "formula": "Status"
+    },
+    {
+     "cell": "K6",
+     "formula": "Notiz"
+    },
+    {
+     "cell": "B7",
+     "formula": "Notgroschen (3 Monatsausgaben)"
+    },
+    {
+     "cell": "C7",
+     "formula": 7500
+    },
+    {
+     "cell": "D7",
+     "formula": 4100
+    },
+    {
+     "cell": "E7",
+     "formula": "=DATE(2028,6,30)"
+    },
+    {
+     "cell": "B8",
+     "formula": "Sommerurlaub Ostsee"
+    },
+    {
+     "cell": "C8",
+     "formula": 1400
+    },
+    {
+     "cell": "D8",
+     "formula": 650
+    },
+    {
+     "cell": "E8",
+     "formula": "=DATE(2027,8,1)"
+    },
+    {
+     "cell": "B9",
+     "formula": "Neue Waschmaschine"
+    },
+    {
+     "cell": "C9",
+     "formula": 600
+    },
+    {
+     "cell": "D9",
+     "formula": 600
+    },
+    {
+     "cell": "E9",
+     "formula": "=DATE(2027,3,1)"
+    },
+    {
+     "cell": "B10",
+     "formula": "Weihnachten"
+    },
+    {
+     "cell": "C10",
+     "formula": 500
+    },
+    {
+     "cell": "D10",
+     "formula": 80
+    },
+    {
+     "cell": "E10",
+     "formula": "=DATE(2027,12,1)"
+    },
+    {
+     "col": "F",
+     "range_rows": [
+      7,
+      16
+     ],
+     "formula": "=IF(TRIM(B{row}&\"\")=\"\",\"\",MAX(0,ROUND(N(C{row})-N(D{row}),2)))",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "col": "G",
+     "range_rows": [
+      7,
+      16
+     ],
+     "formula": "=IF(OR(TRIM(B{row}&\"\")=\"\",NOT(ISNUMBER(E{row}))),\"\",MAX(1,(YEAR(E{row})-YEAR('Einstellungen'!$R$6))*12+MONTH(E{row})-MONTH('Einstellungen'!$R$6)))"
+    },
+    {
+     "col": "H",
+     "range_rows": [
+      7,
+      16
+     ],
+     "formula": "=IF(OR(TRIM(B{row}&\"\")=\"\",G{row}=\"\"),\"\",IF(F{row}=0,0,ROUND(F{row}/G{row},2)))",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "col": "I",
+     "range_rows": [
+      7,
+      16
+     ],
+     "formula": "=IF(OR(TRIM(B{row}&\"\")=\"\",N(C{row})<=0),\"\",REPT(\"█\",ROUND(MIN(1,MAX(0,N(D{row})/C{row}))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,N(D{row})/C{row}))*10,0))&\"  \"&ROUND(MIN(1,N(D{row})/C{row})*100,0)&\" %\")"
+    },
+    {
+     "col": "J",
+     "range_rows": [
+      7,
+      16
+     ],
+     "formula": "=IF(TRIM(B{row}&\"\")=\"\",\"\",IF(F{row}=0,\"Erreicht\",IF(AND(ISNUMBER(E{row}),N(E{row})<'Einstellungen'!$R$6),\"Überfällig\",IF(N(D{row})>=0.75*N(C{row}),\"Fast\",\"Läuft\"))))"
+    },
+    {
+     "cell": "B17",
+     "formula": "SUMME"
+    },
+    {
+     "cell": "C17",
+     "formula": "=ROUND(SUM(C7:C16),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "D17",
+     "formula": "=ROUND(SUM(D7:D16),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "F17",
+     "formula": "=ROUND(SUM(F7:F16),2)",
+     "number_format": "#,##0.00 \"€\""
+    },
+    {
+     "cell": "H17",
+     "formula": "=ROUND(SUM(H7:H16),2)",
+     "number_format": "#,##0.00 \"€\""
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "J7:J16",
+     "type": "formula",
+     "formula": [
+      "$J7=\"Erreicht\""
+     ],
+     "fill": "D7EFDD"
+    },
+    {
+     "range": "J7:J16",
+     "type": "formula",
+     "formula": [
+      "$J7=\"Fast\""
+     ],
+     "fill": "FFF1C2"
+    },
+    {
+     "range": "J7:J16",
+     "type": "formula",
+     "formula": [
+      "$J7=\"Überfällig\""
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C7:D16",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C7<>\"\",NOT(ISNUMBER(C7))),N(C7)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "E7:E16",
+     "type": "formula",
+     "formula": [
+      "AND(E7<>\"\",OR(NOT(ISNUMBER(E7)),N(E7)<1))"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B6:E6",
+     "color": "E3E9EE"
+    },
+    {
+     "range": "F6:J6",
+     "color": "E3EEDD"
+    },
+    {
+     "range": "K6",
+     "color": "E3E9EE"
+    },
+    {
+     "range": "F7:J16",
+     "color": "F5F7F9"
+    },
+    {
+     "range": "B17:K17",
+     "color": "E3E9EE"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B6:K17",
+     "color": "C9D3DB"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "1E2A33"
+    },
+    {
+     "range": "B6:K6",
+     "bold": true,
+     "size": 10,
+     "color": "1E2A33",
+     "align": "center",
+     "wrap": true
+    },
+    {
+     "range": "C7:J17",
+     "size": 10,
+     "color": "1E2A33",
+     "align": "center"
+    },
+    {
+     "range": "H7:H16",
+     "bold": true,
+     "size": 10,
+     "color": "2F4858",
+     "align": "center"
+    },
+    {
+     "range": "I7:I16",
+     "size": 9,
+     "color": "5C8A4F"
+    },
+    {
+     "range": "B17:K17",
+     "bold": true,
+     "size": 10,
+     "color": "1E2A33",
+     "align": "center"
+    }
+   ],
+   "row_heights": {
+    "6": 30
+   },
+   "number_formats": [
+    {
+     "range": "C7:D16",
+     "format": "#,##0.00 \"€\""
+    },
+    {
+     "range": "E7:E16",
+     "format": "dd.mm.yyyy"
+    }
+   ]
+  }
+ ]
+}
