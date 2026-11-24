@@ -1,0 +1,3636 @@
+{
+ "filename": "My First Job Budget",
+ "locale": "en_US",
+ "theme": {
+  "header_font": "FFFFFF",
+  "border": "CFE5E4",
+  "accent": "0F8B8D",
+  "section_colors": [
+   "0F8B8D",
+   "DDF2F1",
+   "F2FAFA"
+  ],
+  "chart_palette": [
+   "0F8B8D",
+   "EC9A29",
+   "8E7DBE",
+   "6CC4C5",
+   "F5C27A",
+   "B8ACDB",
+   "0A6466",
+   "F0A35A",
+   "5E9FA0",
+   "C9BFE6"
+  ]
+ },
+ "tabs": [
+  {
+   "name": "Start Here",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "0F8B8D",
+   "grid_rows": 31,
+   "column_widths": {
+    "A": 2.5,
+    "B": 22,
+    "C": 100,
+    "D": 2.5
+   },
+   "section_bars": [
+    {
+     "range": "B2:C2",
+     "label": "MY FIRST JOB BUDGET",
+     "size": 18,
+     "color": "0F8B8D",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "B5:C5",
+     "label": "HOW TO USE IT",
+     "color": "DDF2F1",
+     "font_color": "16302F",
+     "align": "left"
+    },
+    {
+     "range": "B13:C13",
+     "label": "GOOD TO KNOW",
+     "color": "EC9A29",
+     "font_color": "FFFFFF",
+     "align": "left"
+    },
+    {
+     "range": "B20:C20",
+     "label": "COLOR GUIDE",
+     "color": "DDF2F1",
+     "font_color": "16302F",
+     "align": "left"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Your first paycheck: save some, give some, spend some, and reach your goals faster."
+    },
+    {
+     "cell": "B6",
+     "formula": "1. Setup: your name, hourly pay, usual hours a week, and how you want to split every paycheck: Save, Give, and Spend."
+    },
+    {
+     "cell": "B7",
+     "formula": "2. Paychecks: each payday, type the hours you worked (and tips). Type your real take-home if you know it."
+    },
+    {
+     "cell": "B8",
+     "formula": "3. Every paycheck is split into three jars automatically: Save, Give and Spend."
+    },
+    {
+     "cell": "B9",
+     "formula": "4. Spending: log what you buy and which jar it comes from (blank = Spend)."
+    },
+    {
+     "cell": "B10",
+     "formula": "5. Goals & Wishlist: see how many HOURS of work something costs, and how many weeks until you can buy it."
+    },
+    {
+     "cell": "B11",
+     "formula": "6. Paycheck Explained: why your paycheck is smaller than hours x pay (hint: taxes)."
+    },
+    {
+     "cell": "B14",
+     "formula": "Pay yourself first"
+    },
+    {
+     "cell": "C14",
+     "formula": "Save before you spend. Even 20% of every paycheck adds up fast."
+    },
+    {
+     "cell": "B15",
+     "formula": "Hours of work"
+    },
+    {
+     "cell": "C15",
+     "formula": "Before you buy something, ask: is it worth 6 hours of my job?"
+    },
+    {
+     "cell": "B16",
+     "formula": "Give"
+    },
+    {
+     "cell": "C16",
+     "formula": "Giving jar money is for gifts, donations and helping others."
+    },
+    {
+     "cell": "B17",
+     "formula": "Taxes"
+    },
+    {
+     "cell": "C17",
+     "formula": "Your first paycheck will look smaller than you expect. That's normal! You may get some back when you file taxes."
+    },
+    {
+     "cell": "B18",
+     "formula": "Start fresh"
+    },
+    {
+     "cell": "C18",
+     "formula": "Clear the white cells on Paychecks, Spending and Goals & Wishlist, then update Setup."
+    },
+    {
+     "cell": "C21",
+     "formula": "White cells: type here."
+    },
+    {
+     "cell": "C22",
+     "formula": "Tinted cells: these calculate for you."
+    },
+    {
+     "cell": "C23",
+     "formula": "Green: goal reached, or money left."
+    },
+    {
+     "cell": "C24",
+     "formula": "Yellow: almost there."
+    },
+    {
+     "cell": "C25",
+     "formula": "Red: a jar went below $0, or something to check."
+    },
+    {
+     "cell": "B27",
+     "formula": "You've got this! Smart money habits start now."
+    }
+   ],
+   "fills": [
+    {
+     "range": "B14:C18",
+     "color": "FCE8C8"
+    },
+    {
+     "range": "B21",
+     "color": "FFFFFF"
+    },
+    {
+     "range": "B22",
+     "color": "F7FBFB"
+    },
+    {
+     "range": "B23",
+     "color": "D7EFDD"
+    },
+    {
+     "range": "B24",
+     "color": "FFF1C2"
+    },
+    {
+     "range": "B25",
+     "color": "F6CACA"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B21",
+     "color": "CFE5E4"
+    },
+    {
+     "range": "B22",
+     "color": "CFE5E4"
+    },
+    {
+     "range": "B23",
+     "color": "CFE5E4"
+    },
+    {
+     "range": "B24",
+     "color": "CFE5E4"
+    },
+    {
+     "range": "B25",
+     "color": "CFE5E4"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 11,
+     "color": "16302F"
+    },
+    {
+     "range": "B14:B18",
+     "bold": true,
+     "size": 11,
+     "color": "16302F"
+    },
+    {
+     "range": "B27",
+     "italic": true,
+     "bold": true,
+     "size": 11,
+     "color": "0F8B8D"
+    }
+   ]
+  },
+  {
+   "name": "Dashboard",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "0F8B8D",
+   "grid_rows": 51,
+   "grid_cols": 11,
+   "row_height": 20,
+   "column_widths": {
+    "A": 2.5,
+    "B": 20,
+    "C": 14,
+    "D": 14,
+    "E": 14,
+    "F": 16,
+    "G": 12,
+    "H": 18,
+    "I": 16,
+    "J": 2.5
+   },
+   "section_bars": [
+    {
+     "range": "B2:I2",
+     "label": "=\"MY MONEY DASHBOARD\"",
+     "size": 16,
+     "color": "0F8B8D",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "B13:D13",
+     "label": "WHERE MY MONEY GOES",
+     "color": "DDF2F1",
+     "font_color": "16302F",
+     "align": "center"
+    },
+    {
+     "range": "F13:I13",
+     "label": "THIS YEAR",
+     "color": "EC9A29",
+     "font_color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "B27:I27",
+     "label": "TAKE-HOME AND SAVED BY MONTH",
+     "color": "DDF2F1",
+     "font_color": "16302F",
+     "align": "center"
+    }
+   ],
+   "kpi_cards": [
+    {
+     "anchor": "B5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "SAVE JAR",
+     "value": "=ROUND('Setup'!$R$12+ROUND(SUMIFS('Paychecks'!$J$7:$J$206,'Paychecks'!$M$7:$M$206,\"OK\")-SUMIFS('Spending'!$E$6:$E$1005,'Spending'!$H$6:$H$1005,\"OK\",'Spending'!$J$6:$J$1005,2),2),2)",
+     "fill": "0F8B8D",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "anchor": "D5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "SPEND JAR",
+     "value": "=ROUND(SUMIFS('Paychecks'!$L$7:$L$206,'Paychecks'!$M$7:$M$206,\"OK\")-SUMIFS('Spending'!$E$6:$E$1005,'Spending'!$H$6:$H$1005,\"OK\",'Spending'!$J$6:$J$1005,1),2)",
+     "fill": "EC9A29",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "anchor": "F5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "GIVE JAR",
+     "value": "=ROUND(SUMIFS('Paychecks'!$K$7:$K$206,'Paychecks'!$M$7:$M$206,\"OK\")-SUMIFS('Spending'!$E$6:$E$1005,'Spending'!$H$6:$H$1005,\"OK\",'Spending'!$J$6:$J$1005,3),2)",
+     "fill": "8E7DBE",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "anchor": "H5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "TAKE-HOME THIS YEAR",
+     "value": "=SUM('Monthly'!$E$7:INDEX('Monthly'!$E$7:$E$18,'Setup'!$R$5))",
+     "fill": "DDF2F1",
+     "font_color": "16302F",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "B9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "HOURS WORKED (YEAR)",
+     "value": "=SUM('Monthly'!$C$7:INDEX('Monthly'!$C$7:$C$18,'Setup'!$R$5))",
+     "fill": "F2FAFA",
+     "font_color": "16302F",
+     "value_size": 16,
+     "number_format": "0.0"
+    },
+    {
+     "anchor": "D9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "SAVED THIS MONTH",
+     "value": "=INDEX('Monthly'!$F$7:$F$18,'Setup'!$R$5)",
+     "fill": "F2FAFA",
+     "font_color": "16302F",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "F9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "SPENT THIS MONTH",
+     "value": "=INDEX('Monthly'!$I$7:$I$18,'Setup'!$R$5)",
+     "fill": "F2FAFA",
+     "font_color": "16302F",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "H9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "GOALS REACHED",
+     "value": "=COUNTIF('Goals & Wishlist'!$I$7:$I$21,\"Got it\")&\" of \"&COUNTA('Goals & Wishlist'!$B$7:$B$21)",
+     "fill": "F2FAFA",
+     "font_color": "16302F",
+     "value_size": 16
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "='Setup'!$R$14&\" money - \"&INDEX('Monthly'!$B$7:$B$18,'Setup'!$R$5)&\" \"&'Setup'!$R$4&\".\""
+    },
+    {
+     "cell": "B14",
+     "formula": "Spent On"
+    },
+    {
+     "cell": "C14",
+     "formula": "This Month"
+    },
+    {
+     "cell": "D14",
+     "formula": "This Year"
+    },
+    {
+     "cell": "B15",
+     "formula": "Food & snacks"
+    },
+    {
+     "cell": "C15",
+     "formula": "=ROUND(SUMIFS('Spending'!$E$6:$E$1005,'Spending'!$K$6:$K$1005,1,'Spending'!$I$6:$I$1005,'Setup'!$R$5),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D15",
+     "formula": "=ROUND(SUMIFS('Spending'!$E$6:$E$1005,'Spending'!$K$6:$K$1005,1,'Spending'!$I$6:$I$1005,\">0\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B16",
+     "formula": "Clothes & shoes"
+    },
+    {
+     "cell": "C16",
+     "formula": "=ROUND(SUMIFS('Spending'!$E$6:$E$1005,'Spending'!$K$6:$K$1005,2,'Spending'!$I$6:$I$1005,'Setup'!$R$5),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D16",
+     "formula": "=ROUND(SUMIFS('Spending'!$E$6:$E$1005,'Spending'!$K$6:$K$1005,2,'Spending'!$I$6:$I$1005,\">0\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B17",
+     "formula": "Fun & going out"
+    },
+    {
+     "cell": "C17",
+     "formula": "=ROUND(SUMIFS('Spending'!$E$6:$E$1005,'Spending'!$K$6:$K$1005,3,'Spending'!$I$6:$I$1005,'Setup'!$R$5),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D17",
+     "formula": "=ROUND(SUMIFS('Spending'!$E$6:$E$1005,'Spending'!$K$6:$K$1005,3,'Spending'!$I$6:$I$1005,\">0\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B18",
+     "formula": "Gas & rides"
+    },
+    {
+     "cell": "C18",
+     "formula": "=ROUND(SUMIFS('Spending'!$E$6:$E$1005,'Spending'!$K$6:$K$1005,4,'Spending'!$I$6:$I$1005,'Setup'!$R$5),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D18",
+     "formula": "=ROUND(SUMIFS('Spending'!$E$6:$E$1005,'Spending'!$K$6:$K$1005,4,'Spending'!$I$6:$I$1005,\">0\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B19",
+     "formula": "Phone"
+    },
+    {
+     "cell": "C19",
+     "formula": "=ROUND(SUMIFS('Spending'!$E$6:$E$1005,'Spending'!$K$6:$K$1005,5,'Spending'!$I$6:$I$1005,'Setup'!$R$5),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D19",
+     "formula": "=ROUND(SUMIFS('Spending'!$E$6:$E$1005,'Spending'!$K$6:$K$1005,5,'Spending'!$I$6:$I$1005,\">0\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B20",
+     "formula": "Games & apps"
+    },
+    {
+     "cell": "C20",
+     "formula": "=ROUND(SUMIFS('Spending'!$E$6:$E$1005,'Spending'!$K$6:$K$1005,6,'Spending'!$I$6:$I$1005,'Setup'!$R$5),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D20",
+     "formula": "=ROUND(SUMIFS('Spending'!$E$6:$E$1005,'Spending'!$K$6:$K$1005,6,'Spending'!$I$6:$I$1005,\">0\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B21",
+     "formula": "Beauty & care"
+    },
+    {
+     "cell": "C21",
+     "formula": "=ROUND(SUMIFS('Spending'!$E$6:$E$1005,'Spending'!$K$6:$K$1005,7,'Spending'!$I$6:$I$1005,'Setup'!$R$5),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D21",
+     "formula": "=ROUND(SUMIFS('Spending'!$E$6:$E$1005,'Spending'!$K$6:$K$1005,7,'Spending'!$I$6:$I$1005,\">0\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B22",
+     "formula": "Gifts"
+    },
+    {
+     "cell": "C22",
+     "formula": "=ROUND(SUMIFS('Spending'!$E$6:$E$1005,'Spending'!$K$6:$K$1005,8,'Spending'!$I$6:$I$1005,'Setup'!$R$5),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D22",
+     "formula": "=ROUND(SUMIFS('Spending'!$E$6:$E$1005,'Spending'!$K$6:$K$1005,8,'Spending'!$I$6:$I$1005,\">0\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B23",
+     "formula": "Charity"
+    },
+    {
+     "cell": "C23",
+     "formula": "=ROUND(SUMIFS('Spending'!$E$6:$E$1005,'Spending'!$K$6:$K$1005,9,'Spending'!$I$6:$I$1005,'Setup'!$R$5),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D23",
+     "formula": "=ROUND(SUMIFS('Spending'!$E$6:$E$1005,'Spending'!$K$6:$K$1005,9,'Spending'!$I$6:$I$1005,\">0\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B24",
+     "formula": "Other"
+    },
+    {
+     "cell": "C24",
+     "formula": "=ROUND(SUMIFS('Spending'!$E$6:$E$1005,'Spending'!$K$6:$K$1005,10,'Spending'!$I$6:$I$1005,'Setup'!$R$5),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D24",
+     "formula": "=ROUND(SUMIFS('Spending'!$E$6:$E$1005,'Spending'!$K$6:$K$1005,10,'Spending'!$I$6:$I$1005,\">0\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B25",
+     "formula": "TOTAL"
+    },
+    {
+     "cell": "C25",
+     "formula": "=ROUND(SUM(C15:C24),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D25",
+     "formula": "=ROUND(SUM(D15:D24),2)",
+     "number_format": "$#,##0.00"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "B6:C7",
+     "type": "formula",
+     "formula": [
+      "$B$6<0"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "D6:E7",
+     "type": "formula",
+     "formula": [
+      "$D$6<0"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "F6:G7",
+     "type": "formula",
+     "formula": [
+      "$F$6<0"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:C7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "D5:E7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "F5:G7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "H5:I7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "B9:C11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "D9:E11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "F9:G11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "H9:I11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "B14:D25",
+     "color": "CFE5E4"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B14:D14",
+     "color": "DDF2F1"
+    },
+    {
+     "range": "C15:D24",
+     "color": "F7FBFB"
+    },
+    {
+     "range": "B25:D25",
+     "color": "DDF2F1"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "16302F"
+    },
+    {
+     "range": "B14:D14",
+     "bold": true,
+     "size": 10,
+     "color": "16302F",
+     "align": "center"
+    },
+    {
+     "range": "B15:B25",
+     "bold": true,
+     "size": 10,
+     "color": "16302F"
+    },
+    {
+     "range": "C15:D25",
+     "size": 10,
+     "color": "16302F",
+     "align": "center"
+    },
+    {
+     "range": "B25:D25",
+     "bold": true,
+     "size": 10,
+     "color": "16302F",
+     "align": "center"
+    }
+   ],
+   "charts": [
+    {
+     "type": "doughnut",
+     "anchor": "F14",
+     "data": "Dashboard!D15:D24",
+     "categories": "Dashboard!B15:B24",
+     "width": 11,
+     "height": 7,
+     "titles_from_data": false
+    },
+    {
+     "type": "bar",
+     "anchor": "B28",
+     "data": "Monthly!E6:F18",
+     "categories": "Monthly!B7:B18",
+     "width": 24,
+     "height": 7,
+     "colors": [
+      "0F8B8D",
+      "EC9A29"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Setup",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "0F8B8D",
+   "grid_rows": 18,
+   "grid_cols": 19,
+   "row_height": 22,
+   "column_widths": {
+    "A": 2.5,
+    "B": 30,
+    "C": 16,
+    "D": 40,
+    "E": 2.5,
+    "R": 10
+   },
+   "hidden_columns": [
+    "R"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:D2",
+     "label": "=\"SETUP\"",
+     "size": 16,
+     "color": "0F8B8D",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Set this up once. Everything else uses it."
+    },
+    {
+     "cell": "B4",
+     "formula": "Your name"
+    },
+    {
+     "cell": "C4",
+     "formula": "Maya"
+    },
+    {
+     "cell": "B5",
+     "formula": "Year"
+    },
+    {
+     "cell": "D5",
+     "formula": "Blank = this year."
+    },
+    {
+     "cell": "C5",
+     "formula": 2027
+    },
+    {
+     "cell": "B6",
+     "formula": "Today's date"
+    },
+    {
+     "cell": "D6",
+     "formula": "Optional. Blank = today."
+    },
+    {
+     "cell": "C6",
+     "formula": "=DATE(2027,6,20)"
+    },
+    {
+     "cell": "B7",
+     "formula": "Hourly pay"
+    },
+    {
+     "cell": "D7",
+     "formula": "Before taxes."
+    },
+    {
+     "cell": "C7",
+     "formula": 12.5
+    },
+    {
+     "cell": "B8",
+     "formula": "Usual hours a week"
+    },
+    {
+     "cell": "D8",
+     "formula": "For the goal and paycheck math."
+    },
+    {
+     "cell": "C8",
+     "formula": 15
+    },
+    {
+     "cell": "B9",
+     "formula": "Taxes taken out %"
+    },
+    {
+     "cell": "D9",
+     "formula": "About 8 to 15 for most teens. Blank = 8."
+    },
+    {
+     "cell": "C9",
+     "formula": 8
+    },
+    {
+     "cell": "B10",
+     "formula": "Save %"
+    },
+    {
+     "cell": "D10",
+     "formula": "Of every paycheck. Blank = 50."
+    },
+    {
+     "cell": "C10",
+     "formula": 50
+    },
+    {
+     "cell": "B11",
+     "formula": "Give %"
+    },
+    {
+     "cell": "D11",
+     "formula": "Of every paycheck. Blank = 10."
+    },
+    {
+     "cell": "C11",
+     "formula": 10
+    },
+    {
+     "cell": "B12",
+     "formula": "Savings you already have"
+    },
+    {
+     "cell": "D12",
+     "formula": "Starts your Save jar."
+    },
+    {
+     "cell": "C12",
+     "formula": 150
+    },
+    {
+     "cell": "R14",
+     "formula": "=IF(TRIM(C4&\"\")=\"\",\"My\",TRIM(C4&\"\")&\"'s\")"
+    },
+    {
+     "cell": "R4",
+     "formula": "=IF(AND(ISNUMBER(C5),N(C5)>=1900,N(C5)<=9999),INT(C5),YEAR(TODAY()))"
+    },
+    {
+     "cell": "R13",
+     "formula": "=IF(AND(ISNUMBER(C6),N(C6)>=1),INT(C6),TODAY())",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "R5",
+     "formula": "=IF(YEAR(R13)=R4,MONTH(R13),IF(YEAR(R13)>R4,12,1))"
+    },
+    {
+     "cell": "R6",
+     "formula": "=MAX(0,N(C7))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R7",
+     "formula": "=MAX(0,N(C8))"
+    },
+    {
+     "cell": "R8",
+     "formula": "=IF(ISNUMBER(C9),MIN(1,MAX(0,IF(N(C9)>=1,N(C9)/100,N(C9)))),0.08)"
+    },
+    {
+     "cell": "R9",
+     "formula": "=IF(ISNUMBER(C10),MIN(1,MAX(0,IF(N(C10)>=1,N(C10)/100,N(C10)))),0.5)"
+    },
+    {
+     "cell": "R10",
+     "formula": "=IF(ISNUMBER(C11),MIN(1-R9,MAX(0,IF(N(C11)>=1,N(C11)/100,N(C11)))),MIN(1-R9,0.1))"
+    },
+    {
+     "cell": "R11",
+     "formula": "=MAX(0,1-R9-R10)"
+    },
+    {
+     "cell": "R12",
+     "formula": "=N(C12)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R15",
+     "formula": "=ROUND(R6*(1-R8),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B14",
+     "formula": "=\"Every paycheck: \"&TEXT(R9,\"0%\")&\" to Save, \"&TEXT(R10,\"0%\")&\" to Give, \"&TEXT(R11,\"0%\")&\" to Spend.\""
+    },
+    {
+     "cell": "B15",
+     "formula": "=\"After taxes you take home about \"&TEXT(R15,\"$0.00\")&\" for every hour you work.\""
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "C7:C12",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C7<>\"\",NOT(ISNUMBER(C7))),N(C7)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C6",
+     "type": "formula",
+     "formula": [
+      "AND(C6<>\"\",OR(NOT(ISNUMBER(C6)),N(C6)<1))"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C5",
+     "type": "formula",
+     "formula": [
+      "AND(C5<>\"\",OR(NOT(ISNUMBER(C5)),N(C5)<1900,N(C5)>9999))"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C10:C11",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER($C$10),ISNUMBER($C$11),$R$9+MAX(0,IF(N($C$11)>=1,N($C$11)/100,N($C$11)))>1)"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "borders": [
+    {
+     "range": "C4:C12",
+     "color": "CFE5E4",
+     "style": "medium"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "16302F"
+    },
+    {
+     "range": "B4:B12",
+     "bold": true,
+     "size": 10,
+     "color": "16302F"
+    },
+    {
+     "range": "D4:D12",
+     "italic": true,
+     "size": 9,
+     "color": "16302F"
+    },
+    {
+     "range": "C4:C12",
+     "bold": true,
+     "size": 11,
+     "color": "16302F",
+     "align": "center"
+    },
+    {
+     "range": "B14:B15",
+     "bold": true,
+     "italic": true,
+     "size": 11,
+     "color": "0F8B8D"
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "C5",
+     "format": "0"
+    },
+    {
+     "range": "C6",
+     "format": "mmm d, yyyy"
+    },
+    {
+     "range": "C7",
+     "format": "$0.00"
+    },
+    {
+     "range": "C12",
+     "format": "$#,##0.00"
+    }
+   ]
+  },
+  {
+   "name": "Paychecks",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "EC9A29",
+   "grid_rows": 209,
+   "grid_cols": 17,
+   "row_height": 20,
+   "freeze": "A7",
+   "column_widths": {
+    "A": 2.5,
+    "B": 12,
+    "C": 8,
+    "D": 10,
+    "E": 11,
+    "F": 12,
+    "G": 22,
+    "H": 11,
+    "I": 11,
+    "J": 10,
+    "K": 10,
+    "L": 10,
+    "M": 7,
+    "N": 3,
+    "O": 3
+   },
+   "hidden_columns": [
+    "N",
+    "O"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:M2",
+     "label": "=\"PAYCHECKS\"",
+     "size": 16,
+     "color": "0F8B8D",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "B5:G5",
+     "label": "TYPE HERE",
+     "color": "DDF2F1",
+     "font_color": "16302F",
+     "align": "left"
+    },
+    {
+     "range": "H5:I5",
+     "label": "MONEY",
+     "color": "0F8B8D",
+     "font_color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "J5:L5",
+     "label": "INTO YOUR JARS",
+     "color": "EC9A29",
+     "font_color": "FFFFFF",
+     "align": "center"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Each payday: hours worked and tips. Hourly blank = your pay on Setup. Take-home blank = an estimate after taxes."
+    },
+    {
+     "cell": "B6",
+     "formula": "Payday"
+    },
+    {
+     "cell": "C6",
+     "formula": "Hours"
+    },
+    {
+     "cell": "D6",
+     "formula": "Hourly Pay"
+    },
+    {
+     "cell": "E6",
+     "formula": "Tips / Bonus"
+    },
+    {
+     "cell": "F6",
+     "formula": "Take-Home (Real)"
+    },
+    {
+     "cell": "G6",
+     "formula": "Notes"
+    },
+    {
+     "cell": "H6",
+     "formula": "Earned"
+    },
+    {
+     "cell": "I6",
+     "formula": "Take-Home"
+    },
+    {
+     "cell": "J6",
+     "formula": "Save"
+    },
+    {
+     "cell": "K6",
+     "formula": "Give"
+    },
+    {
+     "cell": "L6",
+     "formula": "Spend"
+    },
+    {
+     "cell": "M6",
+     "formula": "Check"
+    },
+    {
+     "cell": "B7",
+     "formula": "=DATE(2027,1,8)"
+    },
+    {
+     "cell": "C7",
+     "formula": 23.0
+    },
+    {
+     "cell": "B8",
+     "formula": "=DATE(2027,1,22)"
+    },
+    {
+     "cell": "C8",
+     "formula": 34.0
+    },
+    {
+     "cell": "B9",
+     "formula": "=DATE(2027,2,5)"
+    },
+    {
+     "cell": "C9",
+     "formula": 27.5
+    },
+    {
+     "cell": "B10",
+     "formula": "=DATE(2027,2,19)"
+    },
+    {
+     "cell": "C10",
+     "formula": 33.0
+    },
+    {
+     "cell": "F10",
+     "formula": 296.4
+    },
+    {
+     "cell": "B11",
+     "formula": "=DATE(2027,3,5)"
+    },
+    {
+     "cell": "C11",
+     "formula": 29.0
+    },
+    {
+     "cell": "B12",
+     "formula": "=DATE(2027,3,19)"
+    },
+    {
+     "cell": "C12",
+     "formula": 26.5
+    },
+    {
+     "cell": "B13",
+     "formula": "=DATE(2027,4,2)"
+    },
+    {
+     "cell": "C13",
+     "formula": 42
+    },
+    {
+     "cell": "E13",
+     "formula": 7.0
+    },
+    {
+     "cell": "G13",
+     "formula": "Spring break extra shifts"
+    },
+    {
+     "cell": "B14",
+     "formula": "=DATE(2027,4,16)"
+    },
+    {
+     "cell": "C14",
+     "formula": 28.0
+    },
+    {
+     "cell": "E14",
+     "formula": 34.0
+    },
+    {
+     "cell": "B15",
+     "formula": "=DATE(2027,4,30)"
+    },
+    {
+     "cell": "C15",
+     "formula": 27.5
+    },
+    {
+     "cell": "E15",
+     "formula": 38.0
+    },
+    {
+     "cell": "B16",
+     "formula": "=DATE(2027,5,14)"
+    },
+    {
+     "cell": "C16",
+     "formula": 27.5
+    },
+    {
+     "cell": "E16",
+     "formula": 7.0
+    },
+    {
+     "cell": "B17",
+     "formula": "=DATE(2027,5,28)"
+    },
+    {
+     "cell": "C17",
+     "formula": 29.0
+    },
+    {
+     "cell": "E17",
+     "formula": 15.0
+    },
+    {
+     "cell": "B18",
+     "formula": "=DATE(2027,6,11)"
+    },
+    {
+     "cell": "C18",
+     "formula": 32.5
+    },
+    {
+     "cell": "E18",
+     "formula": 19.0
+    },
+    {
+     "col": "M",
+     "range_rows": [
+      7,
+      206
+     ],
+     "formula": "=IF(AND(TRIM(B{row}&\"\")=\"\",TRIM(C{row}&\"\")=\"\",TRIM(F{row}&\"\")=\"\"),\"\",IF(OR(NOT(ISNUMBER(B{row})),N(B{row})<1,AND(TRIM(C{row}&\"\")<>\"\",NOT(ISNUMBER(C{row}))),AND(TRIM(D{row}&\"\")<>\"\",NOT(ISNUMBER(D{row}))),AND(TRIM(E{row}&\"\")<>\"\",NOT(ISNUMBER(E{row}))),AND(TRIM(F{row}&\"\")<>\"\",NOT(ISNUMBER(F{row})))),\"?\",\"OK\"))"
+    },
+    {
+     "col": "H",
+     "range_rows": [
+      7,
+      206
+     ],
+     "formula": "=IF(M{row}=\"OK\",ROUND(MAX(0,N(C{row}))*IF(ISNUMBER(D{row}),MAX(0,D{row}),'Setup'!$R$6)+N(E{row}),2),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "I",
+     "range_rows": [
+      7,
+      206
+     ],
+     "formula": "=IF(M{row}=\"OK\",IF(ISNUMBER(F{row}),F{row},ROUND(H{row}*(1-'Setup'!$R$8),2)),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "J",
+     "range_rows": [
+      7,
+      206
+     ],
+     "formula": "=IF(M{row}=\"OK\",ROUND(MAX(0,I{row})*'Setup'!$R$9,2),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "K",
+     "range_rows": [
+      7,
+      206
+     ],
+     "formula": "=IF(M{row}=\"OK\",ROUND(MAX(0,I{row})*'Setup'!$R$10,2),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "L",
+     "range_rows": [
+      7,
+      206
+     ],
+     "formula": "=IF(M{row}=\"OK\",ROUND(I{row}-J{row}-K{row},2),\"\")",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "col": "N",
+     "range_rows": [
+      7,
+      206
+     ],
+     "formula": "=IF(M{row}=\"OK\",IF(YEAR(B{row})='Setup'!$R$4,MONTH(B{row}),0),0)"
+    },
+    {
+     "col": "O",
+     "range_rows": [
+      7,
+      206
+     ],
+     "formula": "=IF(M{row}=\"OK\",MAX(0,N(C{row})),0)"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "M7:M206",
+     "type": "formula",
+     "formula": [
+      "$M7=\"?\""
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "M7:M206",
+     "type": "formula",
+     "formula": [
+      "$M7=\"OK\""
+     ],
+     "fill": "D7EFDD"
+    },
+    {
+     "range": "B7:B206",
+     "type": "formula",
+     "formula": [
+      "AND(B7<>\"\",OR(NOT(ISNUMBER(B7)),N(B7)<1))"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C7:F206",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C7<>\"\",NOT(ISNUMBER(C7))),N(C7)<0)"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B6:G6",
+     "color": "F2FAFA"
+    },
+    {
+     "range": "H6:I6",
+     "color": "DDF2F1"
+    },
+    {
+     "range": "J6",
+     "color": "D8F0E0"
+    },
+    {
+     "range": "K6",
+     "color": "ECE8F6"
+    },
+    {
+     "range": "L6",
+     "color": "FCE8C8"
+    },
+    {
+     "range": "H7:M206",
+     "color": "F7FBFB"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B6:M206",
+     "color": "CFE5E4"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "16302F"
+    },
+    {
+     "range": "B6:M6",
+     "bold": true,
+     "size": 10,
+     "color": "16302F",
+     "align": "center",
+     "wrap": true
+    },
+    {
+     "range": "B7:F206",
+     "size": 10,
+     "color": "16302F",
+     "align": "center"
+    },
+    {
+     "range": "H7:M206",
+     "size": 10,
+     "color": "16302F",
+     "align": "center"
+    }
+   ],
+   "row_heights": {
+    "6": 30
+   },
+   "number_formats": [
+    {
+     "range": "B7:B206",
+     "format": "mmm d, yyyy"
+    },
+    {
+     "range": "D7:F206",
+     "format": "$#,##0.00"
+    }
+   ]
+  },
+  {
+   "name": "Spending",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "8E7DBE",
+   "grid_rows": 1008,
+   "grid_cols": 21,
+   "row_height": 19,
+   "freeze": "A6",
+   "column_widths": {
+    "A": 2.5,
+    "B": 12,
+    "C": 24,
+    "D": 17,
+    "E": 11,
+    "F": 9,
+    "G": 24,
+    "H": 7,
+    "I": 3,
+    "J": 3,
+    "K": 3,
+    "T": 3
+   },
+   "hidden_columns": [
+    "I",
+    "J",
+    "K",
+    "T"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:H2",
+     "label": "=\"SPENDING\"",
+     "size": 16,
+     "color": "0F8B8D",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "What you buy. From = which jar pays for it: Spend, Save or Give. Blank = Spend."
+    },
+    {
+     "cell": "B5",
+     "formula": "Date"
+    },
+    {
+     "cell": "C5",
+     "formula": "What"
+    },
+    {
+     "cell": "D5",
+     "formula": "Category"
+    },
+    {
+     "cell": "E5",
+     "formula": "Amount"
+    },
+    {
+     "cell": "F5",
+     "formula": "From"
+    },
+    {
+     "cell": "G5",
+     "formula": "Notes"
+    },
+    {
+     "cell": "H5",
+     "formula": "Check"
+    },
+    {
+     "cell": "B6",
+     "formula": "=DATE(2027,1,3)"
+    },
+    {
+     "cell": "C6",
+     "formula": "Snacks after school"
+    },
+    {
+     "cell": "D6",
+     "formula": "Food & snacks"
+    },
+    {
+     "cell": "E6",
+     "formula": 8.96
+    },
+    {
+     "cell": "B7",
+     "formula": "=DATE(2027,1,10)"
+    },
+    {
+     "cell": "C7",
+     "formula": "Movie with friends"
+    },
+    {
+     "cell": "D7",
+     "formula": "Fun & going out"
+    },
+    {
+     "cell": "E7",
+     "formula": 12.4
+    },
+    {
+     "cell": "B8",
+     "formula": "=DATE(2027,1,14)"
+    },
+    {
+     "cell": "C8",
+     "formula": "Gas"
+    },
+    {
+     "cell": "D8",
+     "formula": "Gas & rides"
+    },
+    {
+     "cell": "E8",
+     "formula": 32.05
+    },
+    {
+     "cell": "B9",
+     "formula": "=DATE(2027,1,21)"
+    },
+    {
+     "cell": "C9",
+     "formula": "Phone bill (my part)"
+    },
+    {
+     "cell": "D9",
+     "formula": "Phone"
+    },
+    {
+     "cell": "E9",
+     "formula": 25
+    },
+    {
+     "cell": "B10",
+     "formula": "=DATE(2027,1,24)"
+    },
+    {
+     "cell": "C10",
+     "formula": "Boba & food"
+    },
+    {
+     "cell": "D10",
+     "formula": "Food & snacks"
+    },
+    {
+     "cell": "E10",
+     "formula": 18.91
+    },
+    {
+     "cell": "B11",
+     "formula": "=DATE(2027,2,3)"
+    },
+    {
+     "cell": "C11",
+     "formula": "Snacks after school"
+    },
+    {
+     "cell": "D11",
+     "formula": "Food & snacks"
+    },
+    {
+     "cell": "E11",
+     "formula": 10.64
+    },
+    {
+     "cell": "B12",
+     "formula": "=DATE(2027,2,10)"
+    },
+    {
+     "cell": "C12",
+     "formula": "Movie with friends"
+    },
+    {
+     "cell": "D12",
+     "formula": "Fun & going out"
+    },
+    {
+     "cell": "E12",
+     "formula": 18.89
+    },
+    {
+     "cell": "B13",
+     "formula": "=DATE(2027,2,14)"
+    },
+    {
+     "cell": "C13",
+     "formula": "Gas"
+    },
+    {
+     "cell": "D13",
+     "formula": "Gas & rides"
+    },
+    {
+     "cell": "E13",
+     "formula": 34.45
+    },
+    {
+     "cell": "B14",
+     "formula": "=DATE(2027,2,16)"
+    },
+    {
+     "cell": "C14",
+     "formula": "New hoodie"
+    },
+    {
+     "cell": "D14",
+     "formula": "Clothes & shoes"
+    },
+    {
+     "cell": "E14",
+     "formula": 40.53
+    },
+    {
+     "cell": "B15",
+     "formula": "=DATE(2027,2,21)"
+    },
+    {
+     "cell": "C15",
+     "formula": "Phone bill (my part)"
+    },
+    {
+     "cell": "D15",
+     "formula": "Phone"
+    },
+    {
+     "cell": "E15",
+     "formula": 25
+    },
+    {
+     "cell": "B16",
+     "formula": "=DATE(2027,2,24)"
+    },
+    {
+     "cell": "C16",
+     "formula": "Boba & food"
+    },
+    {
+     "cell": "D16",
+     "formula": "Food & snacks"
+    },
+    {
+     "cell": "E16",
+     "formula": 16.06
+    },
+    {
+     "cell": "B17",
+     "formula": "=DATE(2027,3,3)"
+    },
+    {
+     "cell": "C17",
+     "formula": "Snacks after school"
+    },
+    {
+     "cell": "D17",
+     "formula": "Food & snacks"
+    },
+    {
+     "cell": "E17",
+     "formula": 13.83
+    },
+    {
+     "cell": "B18",
+     "formula": "=DATE(2027,3,10)"
+    },
+    {
+     "cell": "C18",
+     "formula": "Movie with friends"
+    },
+    {
+     "cell": "D18",
+     "formula": "Fun & going out"
+    },
+    {
+     "cell": "E18",
+     "formula": 20.92
+    },
+    {
+     "cell": "B19",
+     "formula": "=DATE(2027,3,14)"
+    },
+    {
+     "cell": "C19",
+     "formula": "Gas"
+    },
+    {
+     "cell": "D19",
+     "formula": "Gas & rides"
+    },
+    {
+     "cell": "E19",
+     "formula": 26.2
+    },
+    {
+     "cell": "B20",
+     "formula": "=DATE(2027,3,20)"
+    },
+    {
+     "cell": "C20",
+     "formula": "Animal shelter donation"
+    },
+    {
+     "cell": "D20",
+     "formula": "Charity"
+    },
+    {
+     "cell": "E20",
+     "formula": 25
+    },
+    {
+     "cell": "F20",
+     "formula": "Give"
+    },
+    {
+     "cell": "B21",
+     "formula": "=DATE(2027,3,21)"
+    },
+    {
+     "cell": "C21",
+     "formula": "Phone bill (my part)"
+    },
+    {
+     "cell": "D21",
+     "formula": "Phone"
+    },
+    {
+     "cell": "E21",
+     "formula": 25
+    },
+    {
+     "cell": "B22",
+     "formula": "=DATE(2027,3,24)"
+    },
+    {
+     "cell": "C22",
+     "formula": "Boba & food"
+    },
+    {
+     "cell": "D22",
+     "formula": "Food & snacks"
+    },
+    {
+     "cell": "E22",
+     "formula": 19.33
+    },
+    {
+     "cell": "B23",
+     "formula": "=DATE(2027,4,3)"
+    },
+    {
+     "cell": "C23",
+     "formula": "Snacks after school"
+    },
+    {
+     "cell": "D23",
+     "formula": "Food & snacks"
+    },
+    {
+     "cell": "E23",
+     "formula": 11.19
+    },
+    {
+     "cell": "B24",
+     "formula": "=DATE(2027,4,10)"
+    },
+    {
+     "cell": "C24",
+     "formula": "Movie with friends"
+    },
+    {
+     "cell": "D24",
+     "formula": "Fun & going out"
+    },
+    {
+     "cell": "E24",
+     "formula": 14.6
+    },
+    {
+     "cell": "B25",
+     "formula": "=DATE(2027,4,14)"
+    },
+    {
+     "cell": "C25",
+     "formula": "Gas"
+    },
+    {
+     "cell": "D25",
+     "formula": "Gas & rides"
+    },
+    {
+     "cell": "E25",
+     "formula": 37.85
+    },
+    {
+     "cell": "B26",
+     "formula": "=DATE(2027,4,16)"
+    },
+    {
+     "cell": "C26",
+     "formula": "New hoodie"
+    },
+    {
+     "cell": "D26",
+     "formula": "Clothes & shoes"
+    },
+    {
+     "cell": "E26",
+     "formula": 30.96
+    },
+    {
+     "cell": "B27",
+     "formula": "=DATE(2027,4,21)"
+    },
+    {
+     "cell": "C27",
+     "formula": "Phone bill (my part)"
+    },
+    {
+     "cell": "D27",
+     "formula": "Phone"
+    },
+    {
+     "cell": "E27",
+     "formula": 25
+    },
+    {
+     "cell": "B28",
+     "formula": "=DATE(2027,4,24)"
+    },
+    {
+     "cell": "C28",
+     "formula": "Boba & food"
+    },
+    {
+     "cell": "D28",
+     "formula": "Food & snacks"
+    },
+    {
+     "cell": "E28",
+     "formula": 16.11
+    },
+    {
+     "cell": "B29",
+     "formula": "=DATE(2027,5,3)"
+    },
+    {
+     "cell": "C29",
+     "formula": "Snacks after school"
+    },
+    {
+     "cell": "D29",
+     "formula": "Food & snacks"
+    },
+    {
+     "cell": "E29",
+     "formula": 12.88
+    },
+    {
+     "cell": "B30",
+     "formula": "=DATE(2027,5,10)"
+    },
+    {
+     "cell": "C30",
+     "formula": "Movie with friends"
+    },
+    {
+     "cell": "D30",
+     "formula": "Fun & going out"
+    },
+    {
+     "cell": "E30",
+     "formula": 21.12
+    },
+    {
+     "cell": "B31",
+     "formula": "=DATE(2027,5,11)"
+    },
+    {
+     "cell": "C31",
+     "formula": "Mom's birthday gift"
+    },
+    {
+     "cell": "D31",
+     "formula": "Gifts"
+    },
+    {
+     "cell": "E31",
+     "formula": 35
+    },
+    {
+     "cell": "F31",
+     "formula": "Give"
+    },
+    {
+     "cell": "B32",
+     "formula": "=DATE(2027,5,14)"
+    },
+    {
+     "cell": "C32",
+     "formula": "Gas"
+    },
+    {
+     "cell": "D32",
+     "formula": "Gas & rides"
+    },
+    {
+     "cell": "E32",
+     "formula": 26.74
+    },
+    {
+     "cell": "B33",
+     "formula": "=DATE(2027,5,21)"
+    },
+    {
+     "cell": "C33",
+     "formula": "Phone bill (my part)"
+    },
+    {
+     "cell": "D33",
+     "formula": "Phone"
+    },
+    {
+     "cell": "E33",
+     "formula": 25
+    },
+    {
+     "cell": "B34",
+     "formula": "=DATE(2027,5,24)"
+    },
+    {
+     "cell": "C34",
+     "formula": "Boba & food"
+    },
+    {
+     "cell": "D34",
+     "formula": "Food & snacks"
+    },
+    {
+     "cell": "E34",
+     "formula": 10.47
+    },
+    {
+     "cell": "B35",
+     "formula": "=DATE(2027,5,28)"
+    },
+    {
+     "cell": "C35",
+     "formula": "Concert tickets"
+    },
+    {
+     "cell": "D35",
+     "formula": "Fun & going out"
+    },
+    {
+     "cell": "E35",
+     "formula": 120
+    },
+    {
+     "cell": "F35",
+     "formula": "Save"
+    },
+    {
+     "cell": "G35",
+     "formula": "Saved up for this!"
+    },
+    {
+     "cell": "B36",
+     "formula": "=DATE(2027,6,3)"
+    },
+    {
+     "cell": "C36",
+     "formula": "Snacks after school"
+    },
+    {
+     "cell": "D36",
+     "formula": "Food & snacks"
+    },
+    {
+     "cell": "E36",
+     "formula": 11.32
+    },
+    {
+     "cell": "B37",
+     "formula": "=DATE(2027,6,10)"
+    },
+    {
+     "cell": "C37",
+     "formula": "Movie with friends"
+    },
+    {
+     "cell": "D37",
+     "formula": "Fun & going out"
+    },
+    {
+     "cell": "E37",
+     "formula": 16.48
+    },
+    {
+     "cell": "B38",
+     "formula": "=DATE(2027,6,14)"
+    },
+    {
+     "cell": "C38",
+     "formula": "Gas"
+    },
+    {
+     "cell": "D38",
+     "formula": "Gas & rides"
+    },
+    {
+     "cell": "E38",
+     "formula": 36.66
+    },
+    {
+     "cell": "B39",
+     "formula": "=DATE(2027,6,16)"
+    },
+    {
+     "cell": "C39",
+     "formula": "New hoodie"
+    },
+    {
+     "cell": "D39",
+     "formula": "Clothes & shoes"
+    },
+    {
+     "cell": "E39",
+     "formula": 38.89
+    },
+    {
+     "cell": "B40",
+     "formula": "=DATE(2027,6,20)"
+    },
+    {
+     "cell": "C40",
+     "formula": "Animal shelter donation"
+    },
+    {
+     "cell": "D40",
+     "formula": "Charity"
+    },
+    {
+     "cell": "E40",
+     "formula": 25
+    },
+    {
+     "cell": "F40",
+     "formula": "Give"
+    },
+    {
+     "cell": "B41",
+     "formula": "=DATE(2027,6,21)"
+    },
+    {
+     "cell": "C41",
+     "formula": "Phone bill (my part)"
+    },
+    {
+     "cell": "D41",
+     "formula": "Phone"
+    },
+    {
+     "cell": "E41",
+     "formula": 25
+    },
+    {
+     "cell": "B42",
+     "formula": "=DATE(2027,6,24)"
+    },
+    {
+     "cell": "C42",
+     "formula": "Boba & food"
+    },
+    {
+     "cell": "D42",
+     "formula": "Food & snacks"
+    },
+    {
+     "cell": "E42",
+     "formula": 18.69
+    },
+    {
+     "col": "J",
+     "range_rows": [
+      6,
+      1005
+     ],
+     "formula": "=IF(OR(LOWER(TRIM(F{row}&\"\"))=\"\",LOWER(TRIM(F{row}&\"\"))=\"spend\"),1,IF(LOWER(TRIM(F{row}&\"\"))=\"save\",2,IF(LOWER(TRIM(F{row}&\"\"))=\"give\",3,0)))"
+    },
+    {
+     "col": "H",
+     "range_rows": [
+      6,
+      1005
+     ],
+     "formula": "=IF(AND(TRIM(B{row}&\"\")=\"\",TRIM(E{row}&\"\")=\"\"),\"\",IF(OR(NOT(ISNUMBER(B{row})),N(B{row})<1,NOT(ISNUMBER(E{row})),J{row}=0),\"?\",\"OK\"))"
+    },
+    {
+     "col": "I",
+     "range_rows": [
+      6,
+      1005
+     ],
+     "formula": "=IF(H{row}<>\"OK\",0,IF(YEAR(B{row})='Setup'!$R$4,MONTH(B{row}),0))"
+    },
+    {
+     "col": "K",
+     "range_rows": [
+      6,
+      1005
+     ],
+     "formula": "=IF(TRIM(D{row}&\"\")=\"\",10,IFERROR(MATCH(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(LOWER(TRIM(D{row}&\"\")),\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"),$T$5:$T$14,0),10))"
+    },
+    {
+     "cell": "T5",
+     "formula": "food & snacks"
+    },
+    {
+     "cell": "T6",
+     "formula": "clothes & shoes"
+    },
+    {
+     "cell": "T7",
+     "formula": "fun & going out"
+    },
+    {
+     "cell": "T8",
+     "formula": "gas & rides"
+    },
+    {
+     "cell": "T9",
+     "formula": "phone"
+    },
+    {
+     "cell": "T10",
+     "formula": "games & apps"
+    },
+    {
+     "cell": "T11",
+     "formula": "beauty & care"
+    },
+    {
+     "cell": "T12",
+     "formula": "gifts"
+    },
+    {
+     "cell": "T13",
+     "formula": "charity"
+    },
+    {
+     "cell": "T14",
+     "formula": "other"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "H6:H1005",
+     "type": "formula",
+     "formula": [
+      "$H6=\"?\""
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "H6:H1005",
+     "type": "formula",
+     "formula": [
+      "$H6=\"OK\""
+     ],
+     "fill": "D7EFDD"
+    },
+    {
+     "range": "F6:F1005",
+     "type": "formula",
+     "formula": [
+      "$J6=0"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "B6:B1005",
+     "type": "formula",
+     "formula": [
+      "AND(B6<>\"\",OR(NOT(ISNUMBER(B6)),N(B6)<1))"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "E6:E1005",
+     "type": "formula",
+     "formula": [
+      "OR(AND(E6<>\"\",NOT(ISNUMBER(E6))),N(E6)<0)"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B5:G5",
+     "color": "F2FAFA"
+    },
+    {
+     "range": "H5",
+     "color": "FCE8C8"
+    },
+    {
+     "range": "H6:H1005",
+     "color": "F7FBFB"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:H1005",
+     "color": "CFE5E4"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "16302F"
+    },
+    {
+     "range": "B5:H5",
+     "bold": true,
+     "size": 10,
+     "color": "16302F",
+     "align": "center"
+    },
+    {
+     "range": "B6:B1005",
+     "size": 10,
+     "color": "16302F",
+     "align": "center"
+    },
+    {
+     "range": "D6:F1005",
+     "size": 10,
+     "color": "16302F",
+     "align": "center"
+    },
+    {
+     "range": "H6:H1005",
+     "size": 9,
+     "color": "16302F",
+     "align": "center"
+    }
+   ],
+   "validations": [
+    {
+     "range": "D6:D1005",
+     "type": "list",
+     "values": [
+      "Food & snacks",
+      "Clothes & shoes",
+      "Fun & going out",
+      "Gas & rides",
+      "Phone",
+      "Games & apps",
+      "Beauty & care",
+      "Gifts",
+      "Charity",
+      "Other"
+     ],
+     "strict": false
+    },
+    {
+     "range": "F6:F1005",
+     "type": "list",
+     "values": [
+      "Spend",
+      "Save",
+      "Give"
+     ],
+     "strict": false
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "B6:B1005",
+     "format": "mmm d, yyyy"
+    },
+    {
+     "range": "E6:E1005",
+     "format": "$#,##0.00"
+    }
+   ]
+  },
+  {
+   "name": "Goals & Wishlist",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "EC9A29",
+   "grid_rows": 27,
+   "grid_cols": 12,
+   "row_height": 22,
+   "column_widths": {
+    "A": 2.5,
+    "B": 24,
+    "C": 11,
+    "D": 12,
+    "E": 11,
+    "F": 11,
+    "G": 10,
+    "H": 17,
+    "I": 10,
+    "J": 24,
+    "K": 2.5
+   },
+   "section_bars": [
+    {
+     "range": "B2:J2",
+     "label": "=\"GOALS & WISHLIST\"",
+     "size": 16,
+     "color": "0F8B8D",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Things you're saving for. Hours of Work = how long you'd work to pay for it. Weeks to Go uses your usual hours and Save %."
+    },
+    {
+     "cell": "B6",
+     "formula": "Goal or Wish"
+    },
+    {
+     "cell": "C6",
+     "formula": "Price"
+    },
+    {
+     "cell": "D6",
+     "formula": "Saved So Far"
+    },
+    {
+     "cell": "E6",
+     "formula": "Still Need"
+    },
+    {
+     "cell": "F6",
+     "formula": "Hours of Work"
+    },
+    {
+     "cell": "G6",
+     "formula": "Weeks to Go"
+    },
+    {
+     "cell": "H6",
+     "formula": "Progress"
+    },
+    {
+     "cell": "I6",
+     "formula": "Status"
+    },
+    {
+     "cell": "J6",
+     "formula": "Notes"
+    },
+    {
+     "cell": "B7",
+     "formula": "First car"
+    },
+    {
+     "cell": "C7",
+     "formula": 4000
+    },
+    {
+     "cell": "D7",
+     "formula": 1350
+    },
+    {
+     "cell": "B8",
+     "formula": "New phone"
+    },
+    {
+     "cell": "C8",
+     "formula": 600
+    },
+    {
+     "cell": "D8",
+     "formula": 150
+    },
+    {
+     "cell": "B9",
+     "formula": "Concert tickets"
+    },
+    {
+     "cell": "C9",
+     "formula": 120
+    },
+    {
+     "cell": "D9",
+     "formula": 120
+    },
+    {
+     "cell": "B10",
+     "formula": "College fund"
+    },
+    {
+     "cell": "C10",
+     "formula": 1000
+    },
+    {
+     "cell": "D10",
+     "formula": 300
+    },
+    {
+     "cell": "B11",
+     "formula": "Summer road trip"
+    },
+    {
+     "cell": "C11",
+     "formula": 350
+    },
+    {
+     "cell": "D11",
+     "formula": 0
+    },
+    {
+     "cell": "J11",
+     "formula": "With friends in August"
+    },
+    {
+     "col": "E",
+     "range_rows": [
+      7,
+      21
+     ],
+     "formula": "=IF(TRIM(B{row}&\"\")=\"\",\"\",MAX(0,ROUND(N(C{row})-N(D{row}),2)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "F",
+     "range_rows": [
+      7,
+      21
+     ],
+     "formula": "=IF(OR(TRIM(B{row}&\"\")=\"\",'Setup'!$R$15<=0),\"\",ROUND(N(C{row})/'Setup'!$R$15,1))",
+     "number_format": "0.0"
+    },
+    {
+     "col": "G",
+     "range_rows": [
+      7,
+      21
+     ],
+     "formula": "=IF(TRIM(B{row}&\"\")=\"\",\"\",IF(E{row}=0,0,IF(ROUND('Setup'!$R$6*'Setup'!$R$7*(1-'Setup'!$R$8)*'Setup'!$R$9,2)<=0,\"-\",ROUNDUP(E{row}/ROUND('Setup'!$R$6*'Setup'!$R$7*(1-'Setup'!$R$8)*'Setup'!$R$9,2),0))))",
+     "number_format": "0"
+    },
+    {
+     "col": "H",
+     "range_rows": [
+      7,
+      21
+     ],
+     "formula": "=IF(OR(TRIM(B{row}&\"\")=\"\",N(C{row})<=0),\"\",REPT(\"█\",ROUND(MIN(1,MAX(0,N(D{row})/C{row}))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,N(D{row})/C{row}))*10,0))&\"  \"&TEXT(MIN(1,N(D{row})/C{row}),\"0%\"))"
+    },
+    {
+     "col": "I",
+     "range_rows": [
+      7,
+      21
+     ],
+     "formula": "=IF(TRIM(B{row}&\"\")=\"\",\"\",IF(E{row}=0,\"Got it\",IF(N(D{row})>=0.75*N(C{row}),\"Almost\",\"Saving\")))"
+    },
+    {
+     "cell": "B22",
+     "formula": "TOTAL"
+    },
+    {
+     "cell": "C22",
+     "formula": "=ROUND(SUM(C7:C21),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D22",
+     "formula": "=ROUND(SUM(D7:D21),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E22",
+     "formula": "=ROUND(SUM(E7:E21),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B24",
+     "formula": "=\"You save about \"&TEXT(ROUND('Setup'!$R$6*'Setup'!$R$7*(1-'Setup'!$R$8)*'Setup'!$R$9,2),\"$#,##0\")&\" a week (usual hours x Save %). Your Save jar has \"&TEXT('Dashboard'!B6,\"$#,##0\")&\".\""
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "I7:I21",
+     "type": "formula",
+     "formula": [
+      "$I7=\"Got it\""
+     ],
+     "fill": "D7EFDD"
+    },
+    {
+     "range": "I7:I21",
+     "type": "formula",
+     "formula": [
+      "$I7=\"Almost\""
+     ],
+     "fill": "FFF1C2"
+    },
+    {
+     "range": "C7:D21",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C7<>\"\",NOT(ISNUMBER(C7))),N(C7)<0)"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B6:D6",
+     "color": "F2FAFA"
+    },
+    {
+     "range": "E6:I6",
+     "color": "FCE8C8"
+    },
+    {
+     "range": "J6",
+     "color": "F2FAFA"
+    },
+    {
+     "range": "E7:I21",
+     "color": "F7FBFB"
+    },
+    {
+     "range": "B22:J22",
+     "color": "DDF2F1"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B6:J22",
+     "color": "CFE5E4"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "16302F"
+    },
+    {
+     "range": "B6:J6",
+     "bold": true,
+     "size": 10,
+     "color": "16302F",
+     "align": "center",
+     "wrap": true
+    },
+    {
+     "range": "C7:I22",
+     "size": 10,
+     "color": "16302F",
+     "align": "center"
+    },
+    {
+     "range": "F7:F21",
+     "bold": true,
+     "size": 11,
+     "color": "0F8B8D",
+     "align": "center"
+    },
+    {
+     "range": "H7:H21",
+     "size": 9,
+     "color": "EC9A29"
+    },
+    {
+     "range": "B22:J22",
+     "bold": true,
+     "size": 10,
+     "color": "16302F",
+     "align": "center"
+    },
+    {
+     "range": "B24",
+     "bold": true,
+     "italic": true,
+     "size": 11,
+     "color": "0F8B8D"
+    }
+   ],
+   "row_heights": {
+    "6": 30
+   },
+   "number_formats": [
+    {
+     "range": "C7:D21",
+     "format": "$#,##0.00"
+    }
+   ]
+  },
+  {
+   "name": "Monthly",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "0F8B8D",
+   "grid_rows": 41,
+   "grid_cols": 11,
+   "row_height": 21,
+   "column_widths": {
+    "A": 2.5,
+    "B": 12,
+    "C": 9,
+    "D": 12,
+    "E": 12,
+    "F": 12,
+    "G": 11,
+    "H": 12,
+    "I": 11,
+    "J": 12,
+    "K": 2.5
+   },
+   "section_bars": [
+    {
+     "range": "B2:J2",
+     "label": "=\"MONTH BY MONTH  -  \"&'Setup'!$R$4",
+     "size": 16,
+     "color": "0F8B8D",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "B21:J21",
+     "label": "TAKE-HOME AND SAVED",
+     "color": "DDF2F1",
+     "font_color": "16302F",
+     "align": "center"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Your year month by month. Spent = what came out of your Spend jar."
+    },
+    {
+     "cell": "B6",
+     "formula": "Month"
+    },
+    {
+     "cell": "C6",
+     "formula": "Hours"
+    },
+    {
+     "cell": "D6",
+     "formula": "Earned"
+    },
+    {
+     "cell": "E6",
+     "formula": "Take-Home"
+    },
+    {
+     "cell": "F6",
+     "formula": "Saved"
+    },
+    {
+     "cell": "G6",
+     "formula": "Given"
+    },
+    {
+     "cell": "H6",
+     "formula": "Spend Money"
+    },
+    {
+     "cell": "I6",
+     "formula": "Spent"
+    },
+    {
+     "cell": "J6",
+     "formula": "Spend Left"
+    },
+    {
+     "cell": "B7",
+     "formula": "January"
+    },
+    {
+     "cell": "C7",
+     "formula": "=SUMIFS('Paychecks'!$O$7:$O$206,'Paychecks'!$N$7:$N$206,1)",
+     "number_format": "0.0"
+    },
+    {
+     "cell": "D7",
+     "formula": "=ROUND(SUMIFS('Paychecks'!$H$7:$H$206,'Paychecks'!$N$7:$N$206,1),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E7",
+     "formula": "=ROUND(SUMIFS('Paychecks'!$I$7:$I$206,'Paychecks'!$N$7:$N$206,1),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F7",
+     "formula": "=ROUND(SUMIFS('Paychecks'!$J$7:$J$206,'Paychecks'!$N$7:$N$206,1),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G7",
+     "formula": "=ROUND(SUMIFS('Paychecks'!$K$7:$K$206,'Paychecks'!$N$7:$N$206,1),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H7",
+     "formula": "=ROUND(SUMIFS('Paychecks'!$L$7:$L$206,'Paychecks'!$N$7:$N$206,1),2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "I7",
+     "formula": "=ROUND(SUMIFS('Spending'!$E$6:$E$1005,'Spending'!$I$6:$I$1005,1,'Spending'!$J$6:$J$1005,1),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J7",
+     "formula": "=ROUND(H7-I7,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "B8",
+     "formula": "February"
+    },
+    {
+     "cell": "C8",
+     "formula": "=SUMIFS('Paychecks'!$O$7:$O$206,'Paychecks'!$N$7:$N$206,2)",
+     "number_format": "0.0"
+    },
+    {
+     "cell": "D8",
+     "formula": "=ROUND(SUMIFS('Paychecks'!$H$7:$H$206,'Paychecks'!$N$7:$N$206,2),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E8",
+     "formula": "=ROUND(SUMIFS('Paychecks'!$I$7:$I$206,'Paychecks'!$N$7:$N$206,2),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F8",
+     "formula": "=ROUND(SUMIFS('Paychecks'!$J$7:$J$206,'Paychecks'!$N$7:$N$206,2),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G8",
+     "formula": "=ROUND(SUMIFS('Paychecks'!$K$7:$K$206,'Paychecks'!$N$7:$N$206,2),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H8",
+     "formula": "=ROUND(SUMIFS('Paychecks'!$L$7:$L$206,'Paychecks'!$N$7:$N$206,2),2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "I8",
+     "formula": "=ROUND(SUMIFS('Spending'!$E$6:$E$1005,'Spending'!$I$6:$I$1005,2,'Spending'!$J$6:$J$1005,1),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J8",
+     "formula": "=ROUND(H8-I8,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "B9",
+     "formula": "March"
+    },
+    {
+     "cell": "C9",
+     "formula": "=SUMIFS('Paychecks'!$O$7:$O$206,'Paychecks'!$N$7:$N$206,3)",
+     "number_format": "0.0"
+    },
+    {
+     "cell": "D9",
+     "formula": "=ROUND(SUMIFS('Paychecks'!$H$7:$H$206,'Paychecks'!$N$7:$N$206,3),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E9",
+     "formula": "=ROUND(SUMIFS('Paychecks'!$I$7:$I$206,'Paychecks'!$N$7:$N$206,3),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F9",
+     "formula": "=ROUND(SUMIFS('Paychecks'!$J$7:$J$206,'Paychecks'!$N$7:$N$206,3),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G9",
+     "formula": "=ROUND(SUMIFS('Paychecks'!$K$7:$K$206,'Paychecks'!$N$7:$N$206,3),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H9",
+     "formula": "=ROUND(SUMIFS('Paychecks'!$L$7:$L$206,'Paychecks'!$N$7:$N$206,3),2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "I9",
+     "formula": "=ROUND(SUMIFS('Spending'!$E$6:$E$1005,'Spending'!$I$6:$I$1005,3,'Spending'!$J$6:$J$1005,1),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J9",
+     "formula": "=ROUND(H9-I9,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "B10",
+     "formula": "April"
+    },
+    {
+     "cell": "C10",
+     "formula": "=SUMIFS('Paychecks'!$O$7:$O$206,'Paychecks'!$N$7:$N$206,4)",
+     "number_format": "0.0"
+    },
+    {
+     "cell": "D10",
+     "formula": "=ROUND(SUMIFS('Paychecks'!$H$7:$H$206,'Paychecks'!$N$7:$N$206,4),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E10",
+     "formula": "=ROUND(SUMIFS('Paychecks'!$I$7:$I$206,'Paychecks'!$N$7:$N$206,4),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F10",
+     "formula": "=ROUND(SUMIFS('Paychecks'!$J$7:$J$206,'Paychecks'!$N$7:$N$206,4),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G10",
+     "formula": "=ROUND(SUMIFS('Paychecks'!$K$7:$K$206,'Paychecks'!$N$7:$N$206,4),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H10",
+     "formula": "=ROUND(SUMIFS('Paychecks'!$L$7:$L$206,'Paychecks'!$N$7:$N$206,4),2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "I10",
+     "formula": "=ROUND(SUMIFS('Spending'!$E$6:$E$1005,'Spending'!$I$6:$I$1005,4,'Spending'!$J$6:$J$1005,1),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J10",
+     "formula": "=ROUND(H10-I10,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "B11",
+     "formula": "May"
+    },
+    {
+     "cell": "C11",
+     "formula": "=SUMIFS('Paychecks'!$O$7:$O$206,'Paychecks'!$N$7:$N$206,5)",
+     "number_format": "0.0"
+    },
+    {
+     "cell": "D11",
+     "formula": "=ROUND(SUMIFS('Paychecks'!$H$7:$H$206,'Paychecks'!$N$7:$N$206,5),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E11",
+     "formula": "=ROUND(SUMIFS('Paychecks'!$I$7:$I$206,'Paychecks'!$N$7:$N$206,5),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F11",
+     "formula": "=ROUND(SUMIFS('Paychecks'!$J$7:$J$206,'Paychecks'!$N$7:$N$206,5),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G11",
+     "formula": "=ROUND(SUMIFS('Paychecks'!$K$7:$K$206,'Paychecks'!$N$7:$N$206,5),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H11",
+     "formula": "=ROUND(SUMIFS('Paychecks'!$L$7:$L$206,'Paychecks'!$N$7:$N$206,5),2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "I11",
+     "formula": "=ROUND(SUMIFS('Spending'!$E$6:$E$1005,'Spending'!$I$6:$I$1005,5,'Spending'!$J$6:$J$1005,1),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J11",
+     "formula": "=ROUND(H11-I11,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "B12",
+     "formula": "June"
+    },
+    {
+     "cell": "C12",
+     "formula": "=SUMIFS('Paychecks'!$O$7:$O$206,'Paychecks'!$N$7:$N$206,6)",
+     "number_format": "0.0"
+    },
+    {
+     "cell": "D12",
+     "formula": "=ROUND(SUMIFS('Paychecks'!$H$7:$H$206,'Paychecks'!$N$7:$N$206,6),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E12",
+     "formula": "=ROUND(SUMIFS('Paychecks'!$I$7:$I$206,'Paychecks'!$N$7:$N$206,6),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F12",
+     "formula": "=ROUND(SUMIFS('Paychecks'!$J$7:$J$206,'Paychecks'!$N$7:$N$206,6),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G12",
+     "formula": "=ROUND(SUMIFS('Paychecks'!$K$7:$K$206,'Paychecks'!$N$7:$N$206,6),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H12",
+     "formula": "=ROUND(SUMIFS('Paychecks'!$L$7:$L$206,'Paychecks'!$N$7:$N$206,6),2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "I12",
+     "formula": "=ROUND(SUMIFS('Spending'!$E$6:$E$1005,'Spending'!$I$6:$I$1005,6,'Spending'!$J$6:$J$1005,1),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J12",
+     "formula": "=ROUND(H12-I12,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "B13",
+     "formula": "July"
+    },
+    {
+     "cell": "C13",
+     "formula": "=SUMIFS('Paychecks'!$O$7:$O$206,'Paychecks'!$N$7:$N$206,7)",
+     "number_format": "0.0"
+    },
+    {
+     "cell": "D13",
+     "formula": "=ROUND(SUMIFS('Paychecks'!$H$7:$H$206,'Paychecks'!$N$7:$N$206,7),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E13",
+     "formula": "=ROUND(SUMIFS('Paychecks'!$I$7:$I$206,'Paychecks'!$N$7:$N$206,7),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F13",
+     "formula": "=ROUND(SUMIFS('Paychecks'!$J$7:$J$206,'Paychecks'!$N$7:$N$206,7),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G13",
+     "formula": "=ROUND(SUMIFS('Paychecks'!$K$7:$K$206,'Paychecks'!$N$7:$N$206,7),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H13",
+     "formula": "=ROUND(SUMIFS('Paychecks'!$L$7:$L$206,'Paychecks'!$N$7:$N$206,7),2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "I13",
+     "formula": "=ROUND(SUMIFS('Spending'!$E$6:$E$1005,'Spending'!$I$6:$I$1005,7,'Spending'!$J$6:$J$1005,1),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J13",
+     "formula": "=ROUND(H13-I13,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "B14",
+     "formula": "August"
+    },
+    {
+     "cell": "C14",
+     "formula": "=SUMIFS('Paychecks'!$O$7:$O$206,'Paychecks'!$N$7:$N$206,8)",
+     "number_format": "0.0"
+    },
+    {
+     "cell": "D14",
+     "formula": "=ROUND(SUMIFS('Paychecks'!$H$7:$H$206,'Paychecks'!$N$7:$N$206,8),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E14",
+     "formula": "=ROUND(SUMIFS('Paychecks'!$I$7:$I$206,'Paychecks'!$N$7:$N$206,8),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F14",
+     "formula": "=ROUND(SUMIFS('Paychecks'!$J$7:$J$206,'Paychecks'!$N$7:$N$206,8),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G14",
+     "formula": "=ROUND(SUMIFS('Paychecks'!$K$7:$K$206,'Paychecks'!$N$7:$N$206,8),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H14",
+     "formula": "=ROUND(SUMIFS('Paychecks'!$L$7:$L$206,'Paychecks'!$N$7:$N$206,8),2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "I14",
+     "formula": "=ROUND(SUMIFS('Spending'!$E$6:$E$1005,'Spending'!$I$6:$I$1005,8,'Spending'!$J$6:$J$1005,1),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J14",
+     "formula": "=ROUND(H14-I14,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "B15",
+     "formula": "September"
+    },
+    {
+     "cell": "C15",
+     "formula": "=SUMIFS('Paychecks'!$O$7:$O$206,'Paychecks'!$N$7:$N$206,9)",
+     "number_format": "0.0"
+    },
+    {
+     "cell": "D15",
+     "formula": "=ROUND(SUMIFS('Paychecks'!$H$7:$H$206,'Paychecks'!$N$7:$N$206,9),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E15",
+     "formula": "=ROUND(SUMIFS('Paychecks'!$I$7:$I$206,'Paychecks'!$N$7:$N$206,9),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F15",
+     "formula": "=ROUND(SUMIFS('Paychecks'!$J$7:$J$206,'Paychecks'!$N$7:$N$206,9),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G15",
+     "formula": "=ROUND(SUMIFS('Paychecks'!$K$7:$K$206,'Paychecks'!$N$7:$N$206,9),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H15",
+     "formula": "=ROUND(SUMIFS('Paychecks'!$L$7:$L$206,'Paychecks'!$N$7:$N$206,9),2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "I15",
+     "formula": "=ROUND(SUMIFS('Spending'!$E$6:$E$1005,'Spending'!$I$6:$I$1005,9,'Spending'!$J$6:$J$1005,1),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J15",
+     "formula": "=ROUND(H15-I15,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "B16",
+     "formula": "October"
+    },
+    {
+     "cell": "C16",
+     "formula": "=SUMIFS('Paychecks'!$O$7:$O$206,'Paychecks'!$N$7:$N$206,10)",
+     "number_format": "0.0"
+    },
+    {
+     "cell": "D16",
+     "formula": "=ROUND(SUMIFS('Paychecks'!$H$7:$H$206,'Paychecks'!$N$7:$N$206,10),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E16",
+     "formula": "=ROUND(SUMIFS('Paychecks'!$I$7:$I$206,'Paychecks'!$N$7:$N$206,10),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F16",
+     "formula": "=ROUND(SUMIFS('Paychecks'!$J$7:$J$206,'Paychecks'!$N$7:$N$206,10),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G16",
+     "formula": "=ROUND(SUMIFS('Paychecks'!$K$7:$K$206,'Paychecks'!$N$7:$N$206,10),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H16",
+     "formula": "=ROUND(SUMIFS('Paychecks'!$L$7:$L$206,'Paychecks'!$N$7:$N$206,10),2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "I16",
+     "formula": "=ROUND(SUMIFS('Spending'!$E$6:$E$1005,'Spending'!$I$6:$I$1005,10,'Spending'!$J$6:$J$1005,1),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J16",
+     "formula": "=ROUND(H16-I16,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "B17",
+     "formula": "November"
+    },
+    {
+     "cell": "C17",
+     "formula": "=SUMIFS('Paychecks'!$O$7:$O$206,'Paychecks'!$N$7:$N$206,11)",
+     "number_format": "0.0"
+    },
+    {
+     "cell": "D17",
+     "formula": "=ROUND(SUMIFS('Paychecks'!$H$7:$H$206,'Paychecks'!$N$7:$N$206,11),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E17",
+     "formula": "=ROUND(SUMIFS('Paychecks'!$I$7:$I$206,'Paychecks'!$N$7:$N$206,11),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F17",
+     "formula": "=ROUND(SUMIFS('Paychecks'!$J$7:$J$206,'Paychecks'!$N$7:$N$206,11),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G17",
+     "formula": "=ROUND(SUMIFS('Paychecks'!$K$7:$K$206,'Paychecks'!$N$7:$N$206,11),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H17",
+     "formula": "=ROUND(SUMIFS('Paychecks'!$L$7:$L$206,'Paychecks'!$N$7:$N$206,11),2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "I17",
+     "formula": "=ROUND(SUMIFS('Spending'!$E$6:$E$1005,'Spending'!$I$6:$I$1005,11,'Spending'!$J$6:$J$1005,1),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J17",
+     "formula": "=ROUND(H17-I17,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "B18",
+     "formula": "December"
+    },
+    {
+     "cell": "C18",
+     "formula": "=SUMIFS('Paychecks'!$O$7:$O$206,'Paychecks'!$N$7:$N$206,12)",
+     "number_format": "0.0"
+    },
+    {
+     "cell": "D18",
+     "formula": "=ROUND(SUMIFS('Paychecks'!$H$7:$H$206,'Paychecks'!$N$7:$N$206,12),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E18",
+     "formula": "=ROUND(SUMIFS('Paychecks'!$I$7:$I$206,'Paychecks'!$N$7:$N$206,12),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F18",
+     "formula": "=ROUND(SUMIFS('Paychecks'!$J$7:$J$206,'Paychecks'!$N$7:$N$206,12),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G18",
+     "formula": "=ROUND(SUMIFS('Paychecks'!$K$7:$K$206,'Paychecks'!$N$7:$N$206,12),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H18",
+     "formula": "=ROUND(SUMIFS('Paychecks'!$L$7:$L$206,'Paychecks'!$N$7:$N$206,12),2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "I18",
+     "formula": "=ROUND(SUMIFS('Spending'!$E$6:$E$1005,'Spending'!$I$6:$I$1005,12,'Spending'!$J$6:$J$1005,1),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J18",
+     "formula": "=ROUND(H18-I18,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "B19",
+     "formula": "YEAR"
+    },
+    {
+     "cell": "C19",
+     "formula": "=SUM(C7:C18)",
+     "number_format": "0.0"
+    },
+    {
+     "cell": "D19",
+     "formula": "=ROUND(SUM(D7:D18),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E19",
+     "formula": "=ROUND(SUM(E7:E18),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F19",
+     "formula": "=ROUND(SUM(F7:F18),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G19",
+     "formula": "=ROUND(SUM(G7:G18),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H19",
+     "formula": "=ROUND(SUM(H7:H18),2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "I19",
+     "formula": "=ROUND(SUM(I7:I18),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J19",
+     "formula": "=ROUND(SUM(J7:J18),2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "J7:J19",
+     "type": "formula",
+     "formula": [
+      "J7<0"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B6:E6",
+     "color": "F2FAFA"
+    },
+    {
+     "range": "F6",
+     "color": "D8F0E0"
+    },
+    {
+     "range": "G6",
+     "color": "ECE8F6"
+    },
+    {
+     "range": "H6:J6",
+     "color": "FCE8C8"
+    },
+    {
+     "range": "C7:J18",
+     "color": "F7FBFB"
+    },
+    {
+     "range": "B19:J19",
+     "color": "DDF2F1"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B6:J19",
+     "color": "CFE5E4"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "16302F"
+    },
+    {
+     "range": "B6:J6",
+     "bold": true,
+     "size": 10,
+     "color": "16302F",
+     "align": "center",
+     "wrap": true
+    },
+    {
+     "range": "B7:B19",
+     "bold": true,
+     "size": 10,
+     "color": "16302F"
+    },
+    {
+     "range": "C7:J19",
+     "size": 10,
+     "color": "16302F",
+     "align": "center"
+    },
+    {
+     "range": "B19:J19",
+     "bold": true,
+     "size": 10,
+     "color": "16302F",
+     "align": "center"
+    }
+   ],
+   "row_heights": {
+    "6": 30
+   },
+   "charts": [
+    {
+     "type": "bar",
+     "anchor": "B22",
+     "data": "Monthly!E6:F18",
+     "categories": "Monthly!B7:B18",
+     "width": 20,
+     "height": 7,
+     "colors": [
+      "0F8B8D",
+      "EC9A29"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Paycheck Explained",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "8E7DBE",
+   "grid_rows": 24,
+   "grid_cols": 19,
+   "row_height": 24,
+   "column_widths": {
+    "A": 2.5,
+    "B": 40,
+    "C": 16,
+    "D": 26,
+    "E": 2.5,
+    "R": 8
+   },
+   "hidden_columns": [
+    "R"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:D2",
+     "label": "=\"YOUR PAYCHECK, EXPLAINED\"",
+     "size": 16,
+     "color": "0F8B8D",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "B4:C4",
+     "label": "ONE TYPICAL WEEK",
+     "color": "DDF2F1",
+     "font_color": "16302F",
+     "align": "left"
+    },
+    {
+     "range": "B13:C13",
+     "label": "THEN IT GOES INTO YOUR JARS",
+     "color": "EC9A29",
+     "font_color": "FFFFFF",
+     "align": "left"
+    },
+    {
+     "range": "B18:C18",
+     "label": "IF YOU KEEP IT UP ALL YEAR",
+     "color": "8E7DBE",
+     "font_color": "FFFFFF",
+     "align": "left"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "A typical week with your numbers from Setup. Social Security and Medicare are the same for almost everyone; the rest is an estimate."
+    },
+    {
+     "cell": "B5",
+     "formula": "Hours you work"
+    },
+    {
+     "cell": "C5",
+     "formula": "='Setup'!$R$7",
+     "number_format": "0.0"
+    },
+    {
+     "cell": "B6",
+     "formula": "Times your hourly pay"
+    },
+    {
+     "cell": "C6",
+     "formula": "='Setup'!$R$6",
+     "number_format": "$0.00"
+    },
+    {
+     "cell": "B7",
+     "formula": "Gross pay (before taxes)"
+    },
+    {
+     "cell": "C7",
+     "formula": "=ROUND('Setup'!$R$7*'Setup'!$R$6,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B8",
+     "formula": "Minus Social Security (6.2%)"
+    },
+    {
+     "cell": "C8",
+     "formula": "=ROUND(C7*MIN(0.062,R8),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B9",
+     "formula": "Minus Medicare (1.45%)"
+    },
+    {
+     "cell": "C9",
+     "formula": "=ROUND(C7*MIN(0.0145,MAX(0,R8-0.062)),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B10",
+     "formula": "Minus income taxes (estimate)"
+    },
+    {
+     "cell": "C10",
+     "formula": "=ROUND(C7*MAX(0,R8-0.0765),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B11",
+     "formula": "Take-home pay (what you get)"
+    },
+    {
+     "cell": "C11",
+     "formula": "=ROUND(C7-C8-C9-C10,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R8",
+     "formula": "='Setup'!$R$8"
+    },
+    {
+     "cell": "B14",
+     "formula": "Into your Save jar"
+    },
+    {
+     "cell": "C14",
+     "formula": "=ROUND(C11*'Setup'!$R$9,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B15",
+     "formula": "Into your Give jar"
+    },
+    {
+     "cell": "C15",
+     "formula": "=ROUND(C11*'Setup'!$R$10,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B16",
+     "formula": "Into your Spend jar"
+    },
+    {
+     "cell": "C16",
+     "formula": "=ROUND(C11-C14-C15,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B19",
+     "formula": "Take-home in a year (52 weeks)"
+    },
+    {
+     "cell": "C19",
+     "formula": "=ROUND(C11*52,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B20",
+     "formula": "Saved in a year"
+    },
+    {
+     "cell": "C20",
+     "formula": "=ROUND(C14*52,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B21",
+     "formula": "Taxes in a year (you may get some back!)"
+    },
+    {
+     "cell": "C21",
+     "formula": "=ROUND((C8+C9+C10)*52,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D11",
+     "formula": "=IF(C7<=0,\"\",REPT(\"█\",ROUND(MIN(1,MAX(0,C11/C7))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,C11/C7))*10,0))&\"  you keep \"&TEXT(C11/C7,\"0%\"))"
+    }
+   ],
+   "fills": [
+    {
+     "range": "C5:C11",
+     "color": "F7FBFB"
+    },
+    {
+     "range": "B7:C7",
+     "color": "DDF2F1"
+    },
+    {
+     "range": "B11:C11",
+     "color": "FCE8C8"
+    },
+    {
+     "range": "C14:C16",
+     "color": "F7FBFB"
+    },
+    {
+     "range": "C19:C21",
+     "color": "F7FBFB"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:C11",
+     "color": "CFE5E4"
+    },
+    {
+     "range": "B14:C16",
+     "color": "CFE5E4"
+    },
+    {
+     "range": "B19:C21",
+     "color": "CFE5E4"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "16302F"
+    },
+    {
+     "range": "B5:B11",
+     "bold": true,
+     "size": 11,
+     "color": "16302F"
+    },
+    {
+     "range": "B14:B16",
+     "bold": true,
+     "size": 11,
+     "color": "16302F"
+    },
+    {
+     "range": "B19:B21",
+     "bold": true,
+     "size": 11,
+     "color": "16302F"
+    },
+    {
+     "range": "C5:C21",
+     "size": 12,
+     "color": "16302F",
+     "align": "center"
+    },
+    {
+     "range": "C7",
+     "bold": true,
+     "size": 12,
+     "color": "16302F",
+     "align": "center"
+    },
+    {
+     "range": "C11",
+     "bold": true,
+     "size": 13,
+     "color": "16302F",
+     "align": "center"
+    },
+    {
+     "range": "D11",
+     "size": 10,
+     "color": "EC9A29",
+     "bold": true
+    }
+   ]
+  }
+ ]
+}
