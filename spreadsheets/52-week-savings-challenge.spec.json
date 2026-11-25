@@ -1,0 +1,3212 @@
+{
+ "filename": "52-Week Savings Challenge",
+ "locale": "en_US",
+ "theme": {
+  "header_font": "FFFFFF",
+  "border": "CFE3E0",
+  "accent": "1FA89A",
+  "section_colors": [
+   "1B263B",
+   "DDF4F1",
+   "FEF1D3"
+  ],
+  "chart_palette": [
+   "1FA89A",
+   "F2545B",
+   "F4A30B",
+   "1B263B"
+  ]
+ },
+ "tabs": [
+  {
+   "name": "Start Here",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "1FA89A",
+   "grid_rows": 28,
+   "column_widths": {
+    "A": 2.5,
+    "B": 22,
+    "C": 100,
+    "D": 2.5
+   },
+   "section_bars": [
+    {
+     "range": "B2:C2",
+     "label": "52-WEEK SAVINGS CHALLENGE",
+     "size": 18,
+     "color": "1B263B",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "B5:C5",
+     "label": "HOW TO USE IT",
+     "color": "DDF4F1",
+     "font_color": "1B263B",
+     "align": "left"
+    },
+    {
+     "range": "B12:C12",
+     "label": "GOOD TO KNOW",
+     "color": "F2545B",
+     "font_color": "FFFFFF",
+     "align": "left"
+    },
+    {
+     "range": "B18:C18",
+     "label": "COLOR GUIDE",
+     "color": "DDF4F1",
+     "font_color": "1B263B",
+     "align": "left"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "One small deposit a week. A big win by the end of the year."
+    },
+    {
+     "cell": "B6",
+     "formula": "Setup: pick a start date and a style. Classic saves $1 in week 1, $2 in week 2 ... $52 in week 52."
+    },
+    {
+     "cell": "B7",
+     "formula": "Setup: change the step to $2, $5 or $10 to save more. Step $5 = $6,890 in a year."
+    },
+    {
+     "cell": "B8",
+     "formula": "Challenge: tick Done each week. Saved a different amount? Type it in Actual."
+    },
+    {
+     "cell": "B9",
+     "formula": "Board: watch the grid fill up in color as you go."
+    },
+    {
+     "cell": "B10",
+     "formula": "Dashboard: saved so far, this week's amount, and whether you're ahead or behind."
+    },
+    {
+     "cell": "B13",
+     "formula": "Reverse"
+    },
+    {
+     "cell": "C13",
+     "formula": "Biggest weeks first, while motivation is high. Easier in December."
+    },
+    {
+     "cell": "B14",
+     "formula": "Shuffled"
+    },
+    {
+     "cell": "C14",
+     "formula": "Weeks in a random order. Pick an easy week when money is tight."
+    },
+    {
+     "cell": "B15",
+     "formula": "Same every week"
+    },
+    {
+     "cell": "C15",
+     "formula": "Set a fixed amount, like $25 a week."
+    },
+    {
+     "cell": "B16",
+     "formula": "Missed a week?"
+    },
+    {
+     "cell": "C16",
+     "formula": "No stress. Double up next week and tick both."
+    },
+    {
+     "cell": "C19",
+     "formula": "White cells are for typing."
+    },
+    {
+     "cell": "C20",
+     "formula": "Grey cells calculate."
+    },
+    {
+     "cell": "C21",
+     "formula": "Green = done."
+    },
+    {
+     "cell": "C22",
+     "formula": "Pink = missed. Catch up when you can."
+    },
+    {
+     "cell": "B24",
+     "formula": "52 weeks from now, you'll be glad you started today."
+    }
+   ],
+   "fills": [
+    {
+     "range": "B13:C16",
+     "color": "FDE2E3"
+    },
+    {
+     "range": "B19",
+     "color": "FFFFFF"
+    },
+    {
+     "range": "B20",
+     "color": "F6FAF9"
+    },
+    {
+     "range": "B21",
+     "color": "D7EFDD"
+    },
+    {
+     "range": "B22",
+     "color": "FDE2E3"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B19",
+     "color": "CFE3E0"
+    },
+    {
+     "range": "B20",
+     "color": "CFE3E0"
+    },
+    {
+     "range": "B21",
+     "color": "CFE3E0"
+    },
+    {
+     "range": "B22",
+     "color": "CFE3E0"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 11,
+     "color": "1B263B"
+    },
+    {
+     "range": "B13:B16",
+     "bold": true,
+     "size": 11,
+     "color": "1B263B"
+    },
+    {
+     "range": "B24",
+     "italic": true,
+     "bold": true,
+     "size": 11,
+     "color": "1B263B"
+    }
+   ]
+  },
+  {
+   "name": "Dashboard",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "F2545B",
+   "grid_rows": 40,
+   "grid_cols": 19,
+   "column_widths": {
+    "A": 2.5,
+    "B": 18,
+    "C": 14,
+    "D": 16,
+    "E": 16,
+    "F": 16,
+    "G": 16,
+    "H": 16,
+    "I": 16,
+    "J": 2.5,
+    "R": 10
+   },
+   "hidden_columns": [
+    "R"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:I2",
+     "label": "52-WEEK CHALLENGE DASHBOARD",
+     "size": 16,
+     "color": "1B263B",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "E15:I15",
+     "label": "SAVED VS PLAN, WEEK BY WEEK",
+     "color": "DDF4F1",
+     "font_color": "1B263B",
+     "align": "left"
+    },
+    {
+     "range": "B15:C15",
+     "label": "MILESTONES",
+     "color": "DDF4F1",
+     "font_color": "1B263B",
+     "align": "left"
+    }
+   ],
+   "kpi_cards": [
+    {
+     "anchor": "B5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "SAVED SO FAR",
+     "value": "='Challenge'!$G$58",
+     "fill": "1FA89A",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "D5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "CHALLENGE GOAL",
+     "value": "='Challenge'!$D$58",
+     "fill": "1B263B",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "F5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "WEEKS DONE",
+     "value": "=R4&\" of 52\"",
+     "fill": "F4A30B",
+     "font_color": "FFFFFF",
+     "value_size": 16
+    },
+    {
+     "anchor": "H5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "PROGRESS",
+     "value": "=R5",
+     "fill": "F2545B",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "0%"
+    },
+    {
+     "anchor": "B9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "THIS WEEK",
+     "value": "=IF('Setup'!$R$9<1,\"Not started\",IF('Setup'!$R$9>52,\"Finished\",R7))",
+     "fill": "F2545B",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "D9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "AHEAD / BEHIND",
+     "value": "=IF(R6>0,\"Behind \"&TEXT(R6,\"$#,##0\"),IF(R6<0,\"Ahead \"&TEXT(-R6,\"$#,##0\"),\"On track\"))",
+     "fill": "F4A30B",
+     "font_color": "FFFFFF",
+     "value_size": 16
+    },
+    {
+     "anchor": "F9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "LEFT TO SAVE",
+     "value": "=MAX(0,ROUND('Challenge'!$D$58-'Challenge'!$G$58,2))",
+     "fill": "1B263B",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "H9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "FINISH LINE",
+     "value": "='Setup'!$R$5+52*7-1",
+     "fill": "1FA89A",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "mmm d, yyyy"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "=IF('Setup'!$R$4=\"\",\"My\",'Setup'!$R$4&\"'s\")&\" 52-week challenge  |  \"&TEXT('Setup'!$R$10,\"mmm d, yyyy\")"
+    },
+    {
+     "cell": "R4",
+     "formula": "=SUM('Challenge'!$K$6:$K$57)"
+    },
+    {
+     "cell": "R5",
+     "formula": "=IF('Challenge'!$D$58>0,MIN(1,'Challenge'!$G$58/'Challenge'!$D$58),0)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "R6",
+     "formula": "=ROUND(SUMIFS('Challenge'!$D$6:$D$57,'Challenge'!$B$6:$B$57,\"<=\"&'Setup'!$R$9)-'Challenge'!$G$58,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R7",
+     "formula": "=IF(OR('Setup'!$R$9<1,'Setup'!$R$9>52),\"\",INDEX('Challenge'!$D$6:$D$57,'Setup'!$R$9))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B13",
+     "formula": "=REPT(\"█\",ROUND(MIN(1,MAX(0,R5))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,R5))*10,0))&\"  \"&TEXT(R5,\"0%\")&\" of the way there\""
+    },
+    {
+     "cell": "B14",
+     "formula": "=IF(R4=52,\"All 52 weeks done. You did it!\",IF('Setup'!$R$9<1,\"Your challenge starts \"&TEXT('Setup'!$R$5,\"mmm d\")&\". Get ready!\",IF('Setup'!$R$9>52,\"The 52 weeks are up. Tick any weeks you finished.\",IF(INDEX('Challenge'!$K$6:$K$57,'Setup'!$R$9)=1,\"This week is done. Nice work!\",\"This week: save \"&TEXT(R7,\"$#,##0.00\")&\" by \"&TEXT('Setup'!$R$5+7*'Setup'!$R$9-1,\"ddd mmm d\")&\".\"))))"
+    },
+    {
+     "cell": "B16",
+     "formula": "Milestone"
+    },
+    {
+     "cell": "C16",
+     "formula": "Status"
+    },
+    {
+     "cell": "B17",
+     "formula": "First week done"
+    },
+    {
+     "cell": "C17",
+     "formula": "=IF(R4>=1,\"Done\",\"\")"
+    },
+    {
+     "cell": "B18",
+     "formula": "10 weeks done"
+    },
+    {
+     "cell": "C18",
+     "formula": "=IF(R4>=10,\"Done\",R4&\"/10\")"
+    },
+    {
+     "cell": "B19",
+     "formula": "Halfway: 26 weeks"
+    },
+    {
+     "cell": "C19",
+     "formula": "=IF(R4>=26,\"Done\",R4&\"/26\")"
+    },
+    {
+     "cell": "B20",
+     "formula": "$500 saved"
+    },
+    {
+     "cell": "C20",
+     "formula": "=IF('Challenge'!$G$58>=500,\"Done\",TEXT('Challenge'!$G$58/500,\"0%\"))"
+    },
+    {
+     "cell": "B21",
+     "formula": "$1,000 saved"
+    },
+    {
+     "cell": "C21",
+     "formula": "=IF('Challenge'!$G$58>=1000,\"Done\",TEXT('Challenge'!$G$58/1000,\"0%\"))"
+    },
+    {
+     "cell": "B22",
+     "formula": "All 52 weeks"
+    },
+    {
+     "cell": "C22",
+     "formula": "=IF(R4>=52,\"Done\",R4&\"/52\")"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "B17:C22",
+     "type": "formula",
+     "formula": [
+      "$C17=\"Done\""
+     ],
+     "fill": "D7EFDD"
+    },
+    {
+     "range": "B14:I14",
+     "type": "formula",
+     "formula": [
+      "OR(LEFT($B$14,3)=\"All\",LEFT($B$14,9)=\"This week\")"
+     ],
+     "fill": "D7EFDD"
+    },
+    {
+     "range": "D10",
+     "type": "formula",
+     "formula": [
+      "LEFT($D$10,6)=\"Behind\""
+     ],
+     "fill": "F2545B"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B16:C16",
+     "color": "1B263B"
+    },
+    {
+     "range": "C17:C22",
+     "color": "F6FAF9"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:C7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "D5:E7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "F5:G7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "H5:I7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "B9:C11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "D9:E11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "F9:G11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "H9:I11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "B16:C22",
+     "color": "CFE3E0"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 11,
+     "color": "1B263B"
+    },
+    {
+     "range": "B13",
+     "bold": true,
+     "size": 12,
+     "color": "1FA89A"
+    },
+    {
+     "range": "B14",
+     "bold": true,
+     "size": 11,
+     "color": "1B263B"
+    },
+    {
+     "range": "B16:C16",
+     "bold": true,
+     "size": 10,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "B17:B22",
+     "bold": true,
+     "size": 10,
+     "color": "1B263B"
+    },
+    {
+     "range": "C17:C22",
+     "bold": true,
+     "size": 10,
+     "color": "1FA89A",
+     "align": "center"
+    }
+   ],
+   "charts": [
+    {
+     "type": "line",
+     "anchor": "E16",
+     "data": "Challenge!H5:I57",
+     "categories": "Challenge!B6:B57",
+     "width": 17,
+     "height": 7,
+     "colors": [
+      "1FA89A",
+      "F4A30B"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Setup",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "1B263B",
+   "grid_rows": 14,
+   "grid_cols": 19,
+   "column_widths": {
+    "A": 2.5,
+    "B": 24,
+    "C": 18,
+    "D": 44,
+    "E": 2.5,
+    "R": 12
+   },
+   "hidden_columns": [
+    "R"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:D2",
+     "label": "SETUP",
+     "size": 16,
+     "color": "1B263B",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B4",
+     "formula": "Setting"
+    },
+    {
+     "cell": "C4",
+     "formula": "Yours"
+    },
+    {
+     "cell": "D4",
+     "formula": "Note"
+    },
+    {
+     "cell": "B5",
+     "formula": "Your name"
+    },
+    {
+     "cell": "C5",
+     "formula": "Taylor"
+    },
+    {
+     "cell": "B6",
+     "formula": "Start date"
+    },
+    {
+     "cell": "D6",
+     "formula": "Week 1 starts here."
+    },
+    {
+     "cell": "C6",
+     "formula": "=DATE(2027,1,4)"
+    },
+    {
+     "cell": "B7",
+     "formula": "Style"
+    },
+    {
+     "cell": "D7",
+     "formula": "Classic, Reverse, Same every week or Shuffled."
+    },
+    {
+     "cell": "C7",
+     "formula": "Classic"
+    },
+    {
+     "cell": "B8",
+     "formula": "Step amount"
+    },
+    {
+     "cell": "D8",
+     "formula": "Classic: week 1 = 1 step, week 52 = 52 steps."
+    },
+    {
+     "cell": "C8",
+     "formula": 1
+    },
+    {
+     "cell": "B9",
+     "formula": "Same-every-week amount"
+    },
+    {
+     "cell": "D9",
+     "formula": "Used by the Same every week style."
+    },
+    {
+     "cell": "C9",
+     "formula": 25
+    },
+    {
+     "cell": "B10",
+     "formula": "Today"
+    },
+    {
+     "cell": "D10",
+     "formula": "Blank = today."
+    },
+    {
+     "cell": "C10",
+     "formula": "=DATE(2027,6,20)"
+    },
+    {
+     "cell": "R4",
+     "formula": "=TRIM(C5&\"\")"
+    },
+    {
+     "cell": "R10",
+     "formula": "=IF(AND(ISNUMBER(C10),N(C10)>=1),INT(C10),TODAY())",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "R5",
+     "formula": "=IF(AND(ISNUMBER(C6),N(C6)>=1),INT(C6),R10)",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "R6",
+     "formula": "=IF(TRIM(C7&\"\")=\"\",1,IFERROR(MATCH(LOWER(TRIM(C7&\"\")),{\"classic\",\"reverse\",\"same every week\",\"shuffled\"},0),1))"
+    },
+    {
+     "cell": "R7",
+     "formula": "=IF(AND(ISNUMBER(C8),N(C8)>0),C8,1)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R8",
+     "formula": "=IF(AND(ISNUMBER(C9),N(C9)>0),C9,0)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R9",
+     "formula": "=IF(R10<R5,0,MIN(53,INT((R10-R5)/7)+1))"
+    },
+    {
+     "cell": "B12",
+     "formula": "Your challenge total"
+    },
+    {
+     "cell": "C12",
+     "formula": "='Challenge'!D58",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D12",
+     "formula": "=CHOOSE(R6,\"Classic\",\"Reverse\",\"Same every week\",\"Shuffled\")&\" style, ends \"&TEXT(R5+52*7-1,\"mmm d, yyyy\")"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "C6",
+     "type": "formula",
+     "formula": [
+      "AND(C6<>\"\",OR(NOT(ISNUMBER(C6)),N(C6)<1))"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C10",
+     "type": "formula",
+     "formula": [
+      "AND(C10<>\"\",OR(NOT(ISNUMBER(C10)),N(C10)<1))"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C8:C9",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C8<>\"\",NOT(ISNUMBER(C8))),N(C8)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C7",
+     "type": "formula",
+     "formula": [
+      "AND(TRIM(C7&\"\")<>\"\",ISNA(MATCH(LOWER(TRIM(C7&\"\")),{\"classic\",\"reverse\",\"same every week\",\"shuffled\"},0)))"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B4:D4",
+     "color": "DDF4F1"
+    },
+    {
+     "range": "C5:C10",
+     "color": "FFFFFF"
+    },
+    {
+     "range": "B12:D12",
+     "color": "FEF1D3"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B4:D10",
+     "color": "CFE3E0"
+    },
+    {
+     "range": "B12:D12",
+     "color": "CFE3E0"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B4:D4",
+     "bold": true,
+     "size": 10,
+     "color": "1B263B",
+     "align": "center"
+    },
+    {
+     "range": "B5:B10",
+     "bold": true,
+     "size": 10,
+     "color": "1B263B"
+    },
+    {
+     "range": "D5:D10",
+     "italic": true,
+     "size": 9,
+     "color": "1B263B"
+    },
+    {
+     "range": "C5:C10",
+     "bold": true,
+     "size": 11,
+     "color": "1B263B",
+     "align": "center"
+    },
+    {
+     "range": "B12:C12",
+     "bold": true,
+     "size": 12,
+     "color": "F2545B"
+    },
+    {
+     "range": "D12",
+     "italic": true,
+     "size": 10,
+     "color": "1B263B"
+    }
+   ],
+   "validations": [
+    {
+     "range": "C7",
+     "type": "list",
+     "values": [
+      "Classic",
+      "Reverse",
+      "Same every week",
+      "Shuffled"
+     ],
+     "strict": false
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "C6",
+     "format": "mmm d, yyyy"
+    },
+    {
+     "range": "C8",
+     "format": "$#,##0.00"
+    },
+    {
+     "range": "C9",
+     "format": "$#,##0.00"
+    },
+    {
+     "range": "C10",
+     "format": "mmm d, yyyy"
+    }
+   ]
+  },
+  {
+   "name": "Challenge",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "1FA89A",
+   "grid_rows": 60,
+   "grid_cols": 19,
+   "freeze": "A6",
+   "column_widths": {
+    "A": 2.5,
+    "B": 7,
+    "C": 10,
+    "D": 11,
+    "E": 11,
+    "F": 7,
+    "G": 11,
+    "H": 12,
+    "I": 12,
+    "J": 11,
+    "K": 3,
+    "R": 3
+   },
+   "hidden_columns": [
+    "K",
+    "R"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:J2",
+     "label": "52-WEEK CHALLENGE",
+     "size": 16,
+     "color": "1B263B",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Tick Done each week. Saved a different amount? Type it in Actual (it wins over the plan)."
+    },
+    {
+     "cell": "B5",
+     "formula": "Week"
+    },
+    {
+     "cell": "C5",
+     "formula": "Week of"
+    },
+    {
+     "cell": "D5",
+     "formula": "Plan"
+    },
+    {
+     "cell": "E5",
+     "formula": "Actual"
+    },
+    {
+     "cell": "F5",
+     "formula": "Done"
+    },
+    {
+     "cell": "G5",
+     "formula": "Counted"
+    },
+    {
+     "cell": "H5",
+     "formula": "Saved to date"
+    },
+    {
+     "cell": "I5",
+     "formula": "Plan to date"
+    },
+    {
+     "cell": "J5",
+     "formula": "Status"
+    },
+    {
+     "cell": "B6",
+     "formula": 1
+    },
+    {
+     "cell": "R6",
+     "formula": 40
+    },
+    {
+     "cell": "F6",
+     "formula": true
+    },
+    {
+     "cell": "B7",
+     "formula": 2
+    },
+    {
+     "cell": "R7",
+     "formula": 42
+    },
+    {
+     "cell": "F7",
+     "formula": true
+    },
+    {
+     "cell": "B8",
+     "formula": 3
+    },
+    {
+     "cell": "R8",
+     "formula": 34
+    },
+    {
+     "cell": "F8",
+     "formula": true
+    },
+    {
+     "cell": "B9",
+     "formula": 4
+    },
+    {
+     "cell": "R9",
+     "formula": 26
+    },
+    {
+     "cell": "F9",
+     "formula": true
+    },
+    {
+     "cell": "B10",
+     "formula": 5
+    },
+    {
+     "cell": "R10",
+     "formula": 20
+    },
+    {
+     "cell": "E10",
+     "formula": 10
+    },
+    {
+     "cell": "F10",
+     "formula": true
+    },
+    {
+     "cell": "B11",
+     "formula": 6
+    },
+    {
+     "cell": "R11",
+     "formula": 10
+    },
+    {
+     "cell": "F11",
+     "formula": true
+    },
+    {
+     "cell": "B12",
+     "formula": 7
+    },
+    {
+     "cell": "R12",
+     "formula": 49
+    },
+    {
+     "cell": "F12",
+     "formula": true
+    },
+    {
+     "cell": "B13",
+     "formula": 8
+    },
+    {
+     "cell": "R13",
+     "formula": 5
+    },
+    {
+     "cell": "F13",
+     "formula": true
+    },
+    {
+     "cell": "B14",
+     "formula": 9
+    },
+    {
+     "cell": "R14",
+     "formula": 17
+    },
+    {
+     "cell": "F14",
+     "formula": true
+    },
+    {
+     "cell": "B15",
+     "formula": 10
+    },
+    {
+     "cell": "R15",
+     "formula": 43
+    },
+    {
+     "cell": "E15",
+     "formula": 20
+    },
+    {
+     "cell": "F15",
+     "formula": true
+    },
+    {
+     "cell": "B16",
+     "formula": 11
+    },
+    {
+     "cell": "R16",
+     "formula": 15
+    },
+    {
+     "cell": "F16",
+     "formula": true
+    },
+    {
+     "cell": "B17",
+     "formula": 12
+    },
+    {
+     "cell": "R17",
+     "formula": 7
+    },
+    {
+     "cell": "F17",
+     "formula": true
+    },
+    {
+     "cell": "B18",
+     "formula": 13
+    },
+    {
+     "cell": "R18",
+     "formula": 22
+    },
+    {
+     "cell": "F18",
+     "formula": true
+    },
+    {
+     "cell": "B19",
+     "formula": 14
+    },
+    {
+     "cell": "R19",
+     "formula": 52
+    },
+    {
+     "cell": "F19",
+     "formula": true
+    },
+    {
+     "cell": "B20",
+     "formula": 15
+    },
+    {
+     "cell": "R20",
+     "formula": 36
+    },
+    {
+     "cell": "F20",
+     "formula": true
+    },
+    {
+     "cell": "B21",
+     "formula": 16
+    },
+    {
+     "cell": "R21",
+     "formula": 41
+    },
+    {
+     "cell": "E21",
+     "formula": 25
+    },
+    {
+     "cell": "F21",
+     "formula": true
+    },
+    {
+     "cell": "B22",
+     "formula": 17
+    },
+    {
+     "cell": "R22",
+     "formula": 19
+    },
+    {
+     "cell": "F22",
+     "formula": true
+    },
+    {
+     "cell": "B23",
+     "formula": 18
+    },
+    {
+     "cell": "R23",
+     "formula": 48
+    },
+    {
+     "cell": "F23",
+     "formula": true
+    },
+    {
+     "cell": "B24",
+     "formula": 19
+    },
+    {
+     "cell": "R24",
+     "formula": 13
+    },
+    {
+     "cell": "F24",
+     "formula": true
+    },
+    {
+     "cell": "B25",
+     "formula": 20
+    },
+    {
+     "cell": "R25",
+     "formula": 2
+    },
+    {
+     "cell": "F25",
+     "formula": true
+    },
+    {
+     "cell": "B26",
+     "formula": 21
+    },
+    {
+     "cell": "R26",
+     "formula": 51
+    },
+    {
+     "cell": "E26",
+     "formula": 30
+    },
+    {
+     "cell": "F26",
+     "formula": true
+    },
+    {
+     "cell": "B27",
+     "formula": 22
+    },
+    {
+     "cell": "R27",
+     "formula": 14
+    },
+    {
+     "cell": "F27",
+     "formula": true
+    },
+    {
+     "cell": "B28",
+     "formula": 23
+    },
+    {
+     "cell": "R28",
+     "formula": 50
+    },
+    {
+     "cell": "B29",
+     "formula": 24
+    },
+    {
+     "cell": "R29",
+     "formula": 28
+    },
+    {
+     "cell": "B30",
+     "formula": 25
+    },
+    {
+     "cell": "R30",
+     "formula": 44
+    },
+    {
+     "cell": "B31",
+     "formula": 26
+    },
+    {
+     "cell": "R31",
+     "formula": 21
+    },
+    {
+     "cell": "B32",
+     "formula": 27
+    },
+    {
+     "cell": "R32",
+     "formula": 8
+    },
+    {
+     "cell": "B33",
+     "formula": 28
+    },
+    {
+     "cell": "R33",
+     "formula": 32
+    },
+    {
+     "cell": "B34",
+     "formula": 29
+    },
+    {
+     "cell": "R34",
+     "formula": 30
+    },
+    {
+     "cell": "B35",
+     "formula": 30
+    },
+    {
+     "cell": "R35",
+     "formula": 6
+    },
+    {
+     "cell": "B36",
+     "formula": 31
+    },
+    {
+     "cell": "R36",
+     "formula": 37
+    },
+    {
+     "cell": "B37",
+     "formula": 32
+    },
+    {
+     "cell": "R37",
+     "formula": 16
+    },
+    {
+     "cell": "B38",
+     "formula": 33
+    },
+    {
+     "cell": "R38",
+     "formula": 38
+    },
+    {
+     "cell": "B39",
+     "formula": 34
+    },
+    {
+     "cell": "R39",
+     "formula": 39
+    },
+    {
+     "cell": "B40",
+     "formula": 35
+    },
+    {
+     "cell": "R40",
+     "formula": 25
+    },
+    {
+     "cell": "B41",
+     "formula": 36
+    },
+    {
+     "cell": "R41",
+     "formula": 35
+    },
+    {
+     "cell": "B42",
+     "formula": 37
+    },
+    {
+     "cell": "R42",
+     "formula": 45
+    },
+    {
+     "cell": "B43",
+     "formula": 38
+    },
+    {
+     "cell": "R43",
+     "formula": 1
+    },
+    {
+     "cell": "B44",
+     "formula": 39
+    },
+    {
+     "cell": "R44",
+     "formula": 29
+    },
+    {
+     "cell": "B45",
+     "formula": 40
+    },
+    {
+     "cell": "R45",
+     "formula": 23
+    },
+    {
+     "cell": "B46",
+     "formula": 41
+    },
+    {
+     "cell": "R46",
+     "formula": 12
+    },
+    {
+     "cell": "B47",
+     "formula": 42
+    },
+    {
+     "cell": "R47",
+     "formula": 46
+    },
+    {
+     "cell": "B48",
+     "formula": 43
+    },
+    {
+     "cell": "R48",
+     "formula": 11
+    },
+    {
+     "cell": "B49",
+     "formula": 44
+    },
+    {
+     "cell": "R49",
+     "formula": 9
+    },
+    {
+     "cell": "B50",
+     "formula": 45
+    },
+    {
+     "cell": "R50",
+     "formula": 3
+    },
+    {
+     "cell": "B51",
+     "formula": 46
+    },
+    {
+     "cell": "R51",
+     "formula": 27
+    },
+    {
+     "cell": "B52",
+     "formula": 47
+    },
+    {
+     "cell": "R52",
+     "formula": 24
+    },
+    {
+     "cell": "B53",
+     "formula": 48
+    },
+    {
+     "cell": "R53",
+     "formula": 31
+    },
+    {
+     "cell": "B54",
+     "formula": 49
+    },
+    {
+     "cell": "R54",
+     "formula": 33
+    },
+    {
+     "cell": "B55",
+     "formula": 50
+    },
+    {
+     "cell": "R55",
+     "formula": 47
+    },
+    {
+     "cell": "B56",
+     "formula": 51
+    },
+    {
+     "cell": "R56",
+     "formula": 4
+    },
+    {
+     "cell": "B57",
+     "formula": 52
+    },
+    {
+     "cell": "R57",
+     "formula": 18
+    },
+    {
+     "col": "C",
+     "range_rows": [
+      6,
+      57
+     ],
+     "formula": "='Setup'!$R$5+7*(B{row}-1)",
+     "number_format": "mmm d"
+    },
+    {
+     "col": "D",
+     "range_rows": [
+      6,
+      57
+     ],
+     "formula": "=ROUND(CHOOSE('Setup'!$R$6,'Setup'!$R$7*B{row},'Setup'!$R$7*(53-B{row}),'Setup'!$R$8,'Setup'!$R$7*R{row}),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "K",
+     "range_rows": [
+      6,
+      57
+     ],
+     "formula": "=IF(OR(ISNUMBER(E{row}),F{row}=TRUE),1,0)"
+    },
+    {
+     "col": "G",
+     "range_rows": [
+      6,
+      57
+     ],
+     "formula": "=IF(ISNUMBER(E{row}),MAX(0,E{row}),IF(F{row}=TRUE,D{row},0))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "H",
+     "range_rows": [
+      6,
+      57
+     ],
+     "formula": "=ROUND(SUM(G$6:G{row}),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "I",
+     "range_rows": [
+      6,
+      57
+     ],
+     "formula": "=ROUND(SUM(D$6:D{row}),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "J",
+     "range_rows": [
+      6,
+      57
+     ],
+     "formula": "=IF(K{row}=1,\"Done\",IF(B{row}='Setup'!$R$9,\"This week\",IF(B{row}<'Setup'!$R$9,\"Missed\",\"\")))"
+    },
+    {
+     "cell": "B58",
+     "formula": "Total"
+    },
+    {
+     "cell": "D58",
+     "formula": "=ROUND(SUM(D6:D57),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G58",
+     "formula": "=ROUND(SUM(G6:G57),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J58",
+     "formula": "=SUM(K6:K57)&\" of 52 done\""
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "B6:J57",
+     "type": "formula",
+     "formula": [
+      "$J6=\"Done\""
+     ],
+     "fill": "D7EFDD"
+    },
+    {
+     "range": "B6:J57",
+     "type": "formula",
+     "formula": [
+      "$J6=\"Missed\""
+     ],
+     "fill": "FDE2E3"
+    },
+    {
+     "range": "B6:J57",
+     "type": "formula",
+     "formula": [
+      "$J6=\"This week\""
+     ],
+     "fill": "FEF1D3"
+    },
+    {
+     "range": "E6:E57",
+     "type": "formula",
+     "formula": [
+      "OR(AND(E6<>\"\",NOT(ISNUMBER(E6))),N(E6)<0)"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B5:J5",
+     "color": "1B263B"
+    },
+    {
+     "range": "E6:F57",
+     "color": "FFFFFF"
+    },
+    {
+     "range": "G6:I57",
+     "color": "F6FAF9"
+    },
+    {
+     "range": "B58:J58",
+     "color": "DDF4F1"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:J58",
+     "color": "CFE3E0"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "1B263B"
+    },
+    {
+     "range": "B5:J5",
+     "bold": true,
+     "size": 10,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "B6:J58",
+     "align": "center"
+    },
+    {
+     "range": "D6:D57",
+     "bold": true,
+     "size": 10,
+     "color": "F2545B",
+     "align": "center"
+    },
+    {
+     "range": "H6:H57",
+     "bold": true,
+     "size": 10,
+     "color": "1FA89A",
+     "align": "center"
+    },
+    {
+     "range": "B58:J58",
+     "bold": true,
+     "size": 11,
+     "color": "1B263B",
+     "align": "center"
+    }
+   ],
+   "validations": [
+    {
+     "range": "F6:F57",
+     "type": "checkbox"
+    }
+   ]
+  },
+  {
+   "name": "Board",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "F4A30B",
+   "grid_rows": 17,
+   "grid_cols": 33,
+   "column_widths": {
+    "A": 2.5,
+    "B": 13,
+    "P": 2.5,
+    "C": 8,
+    "D": 8,
+    "E": 8,
+    "F": 8,
+    "G": 8,
+    "H": 8,
+    "I": 8,
+    "J": 8,
+    "K": 8,
+    "L": 8,
+    "M": 8,
+    "N": 8,
+    "O": 8,
+    "T": 3,
+    "U": 3,
+    "V": 3,
+    "W": 3,
+    "X": 3,
+    "Y": 3,
+    "Z": 3,
+    "AA": 3,
+    "AB": 3,
+    "AC": 3,
+    "AD": 3,
+    "AE": 3,
+    "AF": 3
+   },
+   "hidden_columns": [
+    "T",
+    "U",
+    "V",
+    "W",
+    "X",
+    "Y",
+    "Z",
+    "AA",
+    "AB",
+    "AC",
+    "AD",
+    "AE",
+    "AF"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:O2",
+     "label": "CHALLENGE BOARD",
+     "size": 16,
+     "color": "1B263B",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "=\"Color it in! \"&SUM('Challenge'!$K$6:$K$57)&\" of 52 weeks done.\""
+    },
+    {
+     "cell": "B4",
+     "formula": "Teal = done. Pink = missed. Cream = still to come."
+    },
+    {
+     "cell": "B6",
+     "formula": "Weeks 1-13"
+    },
+    {
+     "cell": "C6",
+     "formula": "=\"Wk \"&1"
+    },
+    {
+     "cell": "C7",
+     "formula": "='Challenge'!D6",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "T6",
+     "formula": "=IF('Challenge'!K6=1,1,IF('Challenge'!J6=\"Missed\",2,0))"
+    },
+    {
+     "cell": "T7",
+     "formula": "=IF('Challenge'!K6=1,1,IF('Challenge'!J6=\"Missed\",2,0))"
+    },
+    {
+     "cell": "D6",
+     "formula": "=\"Wk \"&2"
+    },
+    {
+     "cell": "D7",
+     "formula": "='Challenge'!D7",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "U6",
+     "formula": "=IF('Challenge'!K7=1,1,IF('Challenge'!J7=\"Missed\",2,0))"
+    },
+    {
+     "cell": "U7",
+     "formula": "=IF('Challenge'!K7=1,1,IF('Challenge'!J7=\"Missed\",2,0))"
+    },
+    {
+     "cell": "E6",
+     "formula": "=\"Wk \"&3"
+    },
+    {
+     "cell": "E7",
+     "formula": "='Challenge'!D8",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "V6",
+     "formula": "=IF('Challenge'!K8=1,1,IF('Challenge'!J8=\"Missed\",2,0))"
+    },
+    {
+     "cell": "V7",
+     "formula": "=IF('Challenge'!K8=1,1,IF('Challenge'!J8=\"Missed\",2,0))"
+    },
+    {
+     "cell": "F6",
+     "formula": "=\"Wk \"&4"
+    },
+    {
+     "cell": "F7",
+     "formula": "='Challenge'!D9",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "W6",
+     "formula": "=IF('Challenge'!K9=1,1,IF('Challenge'!J9=\"Missed\",2,0))"
+    },
+    {
+     "cell": "W7",
+     "formula": "=IF('Challenge'!K9=1,1,IF('Challenge'!J9=\"Missed\",2,0))"
+    },
+    {
+     "cell": "G6",
+     "formula": "=\"Wk \"&5"
+    },
+    {
+     "cell": "G7",
+     "formula": "='Challenge'!D10",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "X6",
+     "formula": "=IF('Challenge'!K10=1,1,IF('Challenge'!J10=\"Missed\",2,0))"
+    },
+    {
+     "cell": "X7",
+     "formula": "=IF('Challenge'!K10=1,1,IF('Challenge'!J10=\"Missed\",2,0))"
+    },
+    {
+     "cell": "H6",
+     "formula": "=\"Wk \"&6"
+    },
+    {
+     "cell": "H7",
+     "formula": "='Challenge'!D11",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "Y6",
+     "formula": "=IF('Challenge'!K11=1,1,IF('Challenge'!J11=\"Missed\",2,0))"
+    },
+    {
+     "cell": "Y7",
+     "formula": "=IF('Challenge'!K11=1,1,IF('Challenge'!J11=\"Missed\",2,0))"
+    },
+    {
+     "cell": "I6",
+     "formula": "=\"Wk \"&7"
+    },
+    {
+     "cell": "I7",
+     "formula": "='Challenge'!D12",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "Z6",
+     "formula": "=IF('Challenge'!K12=1,1,IF('Challenge'!J12=\"Missed\",2,0))"
+    },
+    {
+     "cell": "Z7",
+     "formula": "=IF('Challenge'!K12=1,1,IF('Challenge'!J12=\"Missed\",2,0))"
+    },
+    {
+     "cell": "J6",
+     "formula": "=\"Wk \"&8"
+    },
+    {
+     "cell": "J7",
+     "formula": "='Challenge'!D13",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "AA6",
+     "formula": "=IF('Challenge'!K13=1,1,IF('Challenge'!J13=\"Missed\",2,0))"
+    },
+    {
+     "cell": "AA7",
+     "formula": "=IF('Challenge'!K13=1,1,IF('Challenge'!J13=\"Missed\",2,0))"
+    },
+    {
+     "cell": "K6",
+     "formula": "=\"Wk \"&9"
+    },
+    {
+     "cell": "K7",
+     "formula": "='Challenge'!D14",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "AB6",
+     "formula": "=IF('Challenge'!K14=1,1,IF('Challenge'!J14=\"Missed\",2,0))"
+    },
+    {
+     "cell": "AB7",
+     "formula": "=IF('Challenge'!K14=1,1,IF('Challenge'!J14=\"Missed\",2,0))"
+    },
+    {
+     "cell": "L6",
+     "formula": "=\"Wk \"&10"
+    },
+    {
+     "cell": "L7",
+     "formula": "='Challenge'!D15",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "AC6",
+     "formula": "=IF('Challenge'!K15=1,1,IF('Challenge'!J15=\"Missed\",2,0))"
+    },
+    {
+     "cell": "AC7",
+     "formula": "=IF('Challenge'!K15=1,1,IF('Challenge'!J15=\"Missed\",2,0))"
+    },
+    {
+     "cell": "M6",
+     "formula": "=\"Wk \"&11"
+    },
+    {
+     "cell": "M7",
+     "formula": "='Challenge'!D16",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "AD6",
+     "formula": "=IF('Challenge'!K16=1,1,IF('Challenge'!J16=\"Missed\",2,0))"
+    },
+    {
+     "cell": "AD7",
+     "formula": "=IF('Challenge'!K16=1,1,IF('Challenge'!J16=\"Missed\",2,0))"
+    },
+    {
+     "cell": "N6",
+     "formula": "=\"Wk \"&12"
+    },
+    {
+     "cell": "N7",
+     "formula": "='Challenge'!D17",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "AE6",
+     "formula": "=IF('Challenge'!K17=1,1,IF('Challenge'!J17=\"Missed\",2,0))"
+    },
+    {
+     "cell": "AE7",
+     "formula": "=IF('Challenge'!K17=1,1,IF('Challenge'!J17=\"Missed\",2,0))"
+    },
+    {
+     "cell": "O6",
+     "formula": "=\"Wk \"&13"
+    },
+    {
+     "cell": "O7",
+     "formula": "='Challenge'!D18",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "AF6",
+     "formula": "=IF('Challenge'!K18=1,1,IF('Challenge'!J18=\"Missed\",2,0))"
+    },
+    {
+     "cell": "AF7",
+     "formula": "=IF('Challenge'!K18=1,1,IF('Challenge'!J18=\"Missed\",2,0))"
+    },
+    {
+     "cell": "B8",
+     "formula": "Weeks 14-26"
+    },
+    {
+     "cell": "C8",
+     "formula": "=\"Wk \"&14"
+    },
+    {
+     "cell": "C9",
+     "formula": "='Challenge'!D19",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "T8",
+     "formula": "=IF('Challenge'!K19=1,1,IF('Challenge'!J19=\"Missed\",2,0))"
+    },
+    {
+     "cell": "T9",
+     "formula": "=IF('Challenge'!K19=1,1,IF('Challenge'!J19=\"Missed\",2,0))"
+    },
+    {
+     "cell": "D8",
+     "formula": "=\"Wk \"&15"
+    },
+    {
+     "cell": "D9",
+     "formula": "='Challenge'!D20",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "U8",
+     "formula": "=IF('Challenge'!K20=1,1,IF('Challenge'!J20=\"Missed\",2,0))"
+    },
+    {
+     "cell": "U9",
+     "formula": "=IF('Challenge'!K20=1,1,IF('Challenge'!J20=\"Missed\",2,0))"
+    },
+    {
+     "cell": "E8",
+     "formula": "=\"Wk \"&16"
+    },
+    {
+     "cell": "E9",
+     "formula": "='Challenge'!D21",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "V8",
+     "formula": "=IF('Challenge'!K21=1,1,IF('Challenge'!J21=\"Missed\",2,0))"
+    },
+    {
+     "cell": "V9",
+     "formula": "=IF('Challenge'!K21=1,1,IF('Challenge'!J21=\"Missed\",2,0))"
+    },
+    {
+     "cell": "F8",
+     "formula": "=\"Wk \"&17"
+    },
+    {
+     "cell": "F9",
+     "formula": "='Challenge'!D22",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "W8",
+     "formula": "=IF('Challenge'!K22=1,1,IF('Challenge'!J22=\"Missed\",2,0))"
+    },
+    {
+     "cell": "W9",
+     "formula": "=IF('Challenge'!K22=1,1,IF('Challenge'!J22=\"Missed\",2,0))"
+    },
+    {
+     "cell": "G8",
+     "formula": "=\"Wk \"&18"
+    },
+    {
+     "cell": "G9",
+     "formula": "='Challenge'!D23",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "X8",
+     "formula": "=IF('Challenge'!K23=1,1,IF('Challenge'!J23=\"Missed\",2,0))"
+    },
+    {
+     "cell": "X9",
+     "formula": "=IF('Challenge'!K23=1,1,IF('Challenge'!J23=\"Missed\",2,0))"
+    },
+    {
+     "cell": "H8",
+     "formula": "=\"Wk \"&19"
+    },
+    {
+     "cell": "H9",
+     "formula": "='Challenge'!D24",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "Y8",
+     "formula": "=IF('Challenge'!K24=1,1,IF('Challenge'!J24=\"Missed\",2,0))"
+    },
+    {
+     "cell": "Y9",
+     "formula": "=IF('Challenge'!K24=1,1,IF('Challenge'!J24=\"Missed\",2,0))"
+    },
+    {
+     "cell": "I8",
+     "formula": "=\"Wk \"&20"
+    },
+    {
+     "cell": "I9",
+     "formula": "='Challenge'!D25",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "Z8",
+     "formula": "=IF('Challenge'!K25=1,1,IF('Challenge'!J25=\"Missed\",2,0))"
+    },
+    {
+     "cell": "Z9",
+     "formula": "=IF('Challenge'!K25=1,1,IF('Challenge'!J25=\"Missed\",2,0))"
+    },
+    {
+     "cell": "J8",
+     "formula": "=\"Wk \"&21"
+    },
+    {
+     "cell": "J9",
+     "formula": "='Challenge'!D26",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "AA8",
+     "formula": "=IF('Challenge'!K26=1,1,IF('Challenge'!J26=\"Missed\",2,0))"
+    },
+    {
+     "cell": "AA9",
+     "formula": "=IF('Challenge'!K26=1,1,IF('Challenge'!J26=\"Missed\",2,0))"
+    },
+    {
+     "cell": "K8",
+     "formula": "=\"Wk \"&22"
+    },
+    {
+     "cell": "K9",
+     "formula": "='Challenge'!D27",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "AB8",
+     "formula": "=IF('Challenge'!K27=1,1,IF('Challenge'!J27=\"Missed\",2,0))"
+    },
+    {
+     "cell": "AB9",
+     "formula": "=IF('Challenge'!K27=1,1,IF('Challenge'!J27=\"Missed\",2,0))"
+    },
+    {
+     "cell": "L8",
+     "formula": "=\"Wk \"&23"
+    },
+    {
+     "cell": "L9",
+     "formula": "='Challenge'!D28",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "AC8",
+     "formula": "=IF('Challenge'!K28=1,1,IF('Challenge'!J28=\"Missed\",2,0))"
+    },
+    {
+     "cell": "AC9",
+     "formula": "=IF('Challenge'!K28=1,1,IF('Challenge'!J28=\"Missed\",2,0))"
+    },
+    {
+     "cell": "M8",
+     "formula": "=\"Wk \"&24"
+    },
+    {
+     "cell": "M9",
+     "formula": "='Challenge'!D29",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "AD8",
+     "formula": "=IF('Challenge'!K29=1,1,IF('Challenge'!J29=\"Missed\",2,0))"
+    },
+    {
+     "cell": "AD9",
+     "formula": "=IF('Challenge'!K29=1,1,IF('Challenge'!J29=\"Missed\",2,0))"
+    },
+    {
+     "cell": "N8",
+     "formula": "=\"Wk \"&25"
+    },
+    {
+     "cell": "N9",
+     "formula": "='Challenge'!D30",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "AE8",
+     "formula": "=IF('Challenge'!K30=1,1,IF('Challenge'!J30=\"Missed\",2,0))"
+    },
+    {
+     "cell": "AE9",
+     "formula": "=IF('Challenge'!K30=1,1,IF('Challenge'!J30=\"Missed\",2,0))"
+    },
+    {
+     "cell": "O8",
+     "formula": "=\"Wk \"&26"
+    },
+    {
+     "cell": "O9",
+     "formula": "='Challenge'!D31",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "AF8",
+     "formula": "=IF('Challenge'!K31=1,1,IF('Challenge'!J31=\"Missed\",2,0))"
+    },
+    {
+     "cell": "AF9",
+     "formula": "=IF('Challenge'!K31=1,1,IF('Challenge'!J31=\"Missed\",2,0))"
+    },
+    {
+     "cell": "B10",
+     "formula": "Weeks 27-39"
+    },
+    {
+     "cell": "C10",
+     "formula": "=\"Wk \"&27"
+    },
+    {
+     "cell": "C11",
+     "formula": "='Challenge'!D32",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "T10",
+     "formula": "=IF('Challenge'!K32=1,1,IF('Challenge'!J32=\"Missed\",2,0))"
+    },
+    {
+     "cell": "T11",
+     "formula": "=IF('Challenge'!K32=1,1,IF('Challenge'!J32=\"Missed\",2,0))"
+    },
+    {
+     "cell": "D10",
+     "formula": "=\"Wk \"&28"
+    },
+    {
+     "cell": "D11",
+     "formula": "='Challenge'!D33",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "U10",
+     "formula": "=IF('Challenge'!K33=1,1,IF('Challenge'!J33=\"Missed\",2,0))"
+    },
+    {
+     "cell": "U11",
+     "formula": "=IF('Challenge'!K33=1,1,IF('Challenge'!J33=\"Missed\",2,0))"
+    },
+    {
+     "cell": "E10",
+     "formula": "=\"Wk \"&29"
+    },
+    {
+     "cell": "E11",
+     "formula": "='Challenge'!D34",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "V10",
+     "formula": "=IF('Challenge'!K34=1,1,IF('Challenge'!J34=\"Missed\",2,0))"
+    },
+    {
+     "cell": "V11",
+     "formula": "=IF('Challenge'!K34=1,1,IF('Challenge'!J34=\"Missed\",2,0))"
+    },
+    {
+     "cell": "F10",
+     "formula": "=\"Wk \"&30"
+    },
+    {
+     "cell": "F11",
+     "formula": "='Challenge'!D35",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "W10",
+     "formula": "=IF('Challenge'!K35=1,1,IF('Challenge'!J35=\"Missed\",2,0))"
+    },
+    {
+     "cell": "W11",
+     "formula": "=IF('Challenge'!K35=1,1,IF('Challenge'!J35=\"Missed\",2,0))"
+    },
+    {
+     "cell": "G10",
+     "formula": "=\"Wk \"&31"
+    },
+    {
+     "cell": "G11",
+     "formula": "='Challenge'!D36",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "X10",
+     "formula": "=IF('Challenge'!K36=1,1,IF('Challenge'!J36=\"Missed\",2,0))"
+    },
+    {
+     "cell": "X11",
+     "formula": "=IF('Challenge'!K36=1,1,IF('Challenge'!J36=\"Missed\",2,0))"
+    },
+    {
+     "cell": "H10",
+     "formula": "=\"Wk \"&32"
+    },
+    {
+     "cell": "H11",
+     "formula": "='Challenge'!D37",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "Y10",
+     "formula": "=IF('Challenge'!K37=1,1,IF('Challenge'!J37=\"Missed\",2,0))"
+    },
+    {
+     "cell": "Y11",
+     "formula": "=IF('Challenge'!K37=1,1,IF('Challenge'!J37=\"Missed\",2,0))"
+    },
+    {
+     "cell": "I10",
+     "formula": "=\"Wk \"&33"
+    },
+    {
+     "cell": "I11",
+     "formula": "='Challenge'!D38",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "Z10",
+     "formula": "=IF('Challenge'!K38=1,1,IF('Challenge'!J38=\"Missed\",2,0))"
+    },
+    {
+     "cell": "Z11",
+     "formula": "=IF('Challenge'!K38=1,1,IF('Challenge'!J38=\"Missed\",2,0))"
+    },
+    {
+     "cell": "J10",
+     "formula": "=\"Wk \"&34"
+    },
+    {
+     "cell": "J11",
+     "formula": "='Challenge'!D39",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "AA10",
+     "formula": "=IF('Challenge'!K39=1,1,IF('Challenge'!J39=\"Missed\",2,0))"
+    },
+    {
+     "cell": "AA11",
+     "formula": "=IF('Challenge'!K39=1,1,IF('Challenge'!J39=\"Missed\",2,0))"
+    },
+    {
+     "cell": "K10",
+     "formula": "=\"Wk \"&35"
+    },
+    {
+     "cell": "K11",
+     "formula": "='Challenge'!D40",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "AB10",
+     "formula": "=IF('Challenge'!K40=1,1,IF('Challenge'!J40=\"Missed\",2,0))"
+    },
+    {
+     "cell": "AB11",
+     "formula": "=IF('Challenge'!K40=1,1,IF('Challenge'!J40=\"Missed\",2,0))"
+    },
+    {
+     "cell": "L10",
+     "formula": "=\"Wk \"&36"
+    },
+    {
+     "cell": "L11",
+     "formula": "='Challenge'!D41",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "AC10",
+     "formula": "=IF('Challenge'!K41=1,1,IF('Challenge'!J41=\"Missed\",2,0))"
+    },
+    {
+     "cell": "AC11",
+     "formula": "=IF('Challenge'!K41=1,1,IF('Challenge'!J41=\"Missed\",2,0))"
+    },
+    {
+     "cell": "M10",
+     "formula": "=\"Wk \"&37"
+    },
+    {
+     "cell": "M11",
+     "formula": "='Challenge'!D42",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "AD10",
+     "formula": "=IF('Challenge'!K42=1,1,IF('Challenge'!J42=\"Missed\",2,0))"
+    },
+    {
+     "cell": "AD11",
+     "formula": "=IF('Challenge'!K42=1,1,IF('Challenge'!J42=\"Missed\",2,0))"
+    },
+    {
+     "cell": "N10",
+     "formula": "=\"Wk \"&38"
+    },
+    {
+     "cell": "N11",
+     "formula": "='Challenge'!D43",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "AE10",
+     "formula": "=IF('Challenge'!K43=1,1,IF('Challenge'!J43=\"Missed\",2,0))"
+    },
+    {
+     "cell": "AE11",
+     "formula": "=IF('Challenge'!K43=1,1,IF('Challenge'!J43=\"Missed\",2,0))"
+    },
+    {
+     "cell": "O10",
+     "formula": "=\"Wk \"&39"
+    },
+    {
+     "cell": "O11",
+     "formula": "='Challenge'!D44",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "AF10",
+     "formula": "=IF('Challenge'!K44=1,1,IF('Challenge'!J44=\"Missed\",2,0))"
+    },
+    {
+     "cell": "AF11",
+     "formula": "=IF('Challenge'!K44=1,1,IF('Challenge'!J44=\"Missed\",2,0))"
+    },
+    {
+     "cell": "B12",
+     "formula": "Weeks 40-52"
+    },
+    {
+     "cell": "C12",
+     "formula": "=\"Wk \"&40"
+    },
+    {
+     "cell": "C13",
+     "formula": "='Challenge'!D45",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "T12",
+     "formula": "=IF('Challenge'!K45=1,1,IF('Challenge'!J45=\"Missed\",2,0))"
+    },
+    {
+     "cell": "T13",
+     "formula": "=IF('Challenge'!K45=1,1,IF('Challenge'!J45=\"Missed\",2,0))"
+    },
+    {
+     "cell": "D12",
+     "formula": "=\"Wk \"&41"
+    },
+    {
+     "cell": "D13",
+     "formula": "='Challenge'!D46",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "U12",
+     "formula": "=IF('Challenge'!K46=1,1,IF('Challenge'!J46=\"Missed\",2,0))"
+    },
+    {
+     "cell": "U13",
+     "formula": "=IF('Challenge'!K46=1,1,IF('Challenge'!J46=\"Missed\",2,0))"
+    },
+    {
+     "cell": "E12",
+     "formula": "=\"Wk \"&42"
+    },
+    {
+     "cell": "E13",
+     "formula": "='Challenge'!D47",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "V12",
+     "formula": "=IF('Challenge'!K47=1,1,IF('Challenge'!J47=\"Missed\",2,0))"
+    },
+    {
+     "cell": "V13",
+     "formula": "=IF('Challenge'!K47=1,1,IF('Challenge'!J47=\"Missed\",2,0))"
+    },
+    {
+     "cell": "F12",
+     "formula": "=\"Wk \"&43"
+    },
+    {
+     "cell": "F13",
+     "formula": "='Challenge'!D48",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "W12",
+     "formula": "=IF('Challenge'!K48=1,1,IF('Challenge'!J48=\"Missed\",2,0))"
+    },
+    {
+     "cell": "W13",
+     "formula": "=IF('Challenge'!K48=1,1,IF('Challenge'!J48=\"Missed\",2,0))"
+    },
+    {
+     "cell": "G12",
+     "formula": "=\"Wk \"&44"
+    },
+    {
+     "cell": "G13",
+     "formula": "='Challenge'!D49",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "X12",
+     "formula": "=IF('Challenge'!K49=1,1,IF('Challenge'!J49=\"Missed\",2,0))"
+    },
+    {
+     "cell": "X13",
+     "formula": "=IF('Challenge'!K49=1,1,IF('Challenge'!J49=\"Missed\",2,0))"
+    },
+    {
+     "cell": "H12",
+     "formula": "=\"Wk \"&45"
+    },
+    {
+     "cell": "H13",
+     "formula": "='Challenge'!D50",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "Y12",
+     "formula": "=IF('Challenge'!K50=1,1,IF('Challenge'!J50=\"Missed\",2,0))"
+    },
+    {
+     "cell": "Y13",
+     "formula": "=IF('Challenge'!K50=1,1,IF('Challenge'!J50=\"Missed\",2,0))"
+    },
+    {
+     "cell": "I12",
+     "formula": "=\"Wk \"&46"
+    },
+    {
+     "cell": "I13",
+     "formula": "='Challenge'!D51",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "Z12",
+     "formula": "=IF('Challenge'!K51=1,1,IF('Challenge'!J51=\"Missed\",2,0))"
+    },
+    {
+     "cell": "Z13",
+     "formula": "=IF('Challenge'!K51=1,1,IF('Challenge'!J51=\"Missed\",2,0))"
+    },
+    {
+     "cell": "J12",
+     "formula": "=\"Wk \"&47"
+    },
+    {
+     "cell": "J13",
+     "formula": "='Challenge'!D52",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "AA12",
+     "formula": "=IF('Challenge'!K52=1,1,IF('Challenge'!J52=\"Missed\",2,0))"
+    },
+    {
+     "cell": "AA13",
+     "formula": "=IF('Challenge'!K52=1,1,IF('Challenge'!J52=\"Missed\",2,0))"
+    },
+    {
+     "cell": "K12",
+     "formula": "=\"Wk \"&48"
+    },
+    {
+     "cell": "K13",
+     "formula": "='Challenge'!D53",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "AB12",
+     "formula": "=IF('Challenge'!K53=1,1,IF('Challenge'!J53=\"Missed\",2,0))"
+    },
+    {
+     "cell": "AB13",
+     "formula": "=IF('Challenge'!K53=1,1,IF('Challenge'!J53=\"Missed\",2,0))"
+    },
+    {
+     "cell": "L12",
+     "formula": "=\"Wk \"&49"
+    },
+    {
+     "cell": "L13",
+     "formula": "='Challenge'!D54",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "AC12",
+     "formula": "=IF('Challenge'!K54=1,1,IF('Challenge'!J54=\"Missed\",2,0))"
+    },
+    {
+     "cell": "AC13",
+     "formula": "=IF('Challenge'!K54=1,1,IF('Challenge'!J54=\"Missed\",2,0))"
+    },
+    {
+     "cell": "M12",
+     "formula": "=\"Wk \"&50"
+    },
+    {
+     "cell": "M13",
+     "formula": "='Challenge'!D55",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "AD12",
+     "formula": "=IF('Challenge'!K55=1,1,IF('Challenge'!J55=\"Missed\",2,0))"
+    },
+    {
+     "cell": "AD13",
+     "formula": "=IF('Challenge'!K55=1,1,IF('Challenge'!J55=\"Missed\",2,0))"
+    },
+    {
+     "cell": "N12",
+     "formula": "=\"Wk \"&51"
+    },
+    {
+     "cell": "N13",
+     "formula": "='Challenge'!D56",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "AE12",
+     "formula": "=IF('Challenge'!K56=1,1,IF('Challenge'!J56=\"Missed\",2,0))"
+    },
+    {
+     "cell": "AE13",
+     "formula": "=IF('Challenge'!K56=1,1,IF('Challenge'!J56=\"Missed\",2,0))"
+    },
+    {
+     "cell": "O12",
+     "formula": "=\"Wk \"&52"
+    },
+    {
+     "cell": "O13",
+     "formula": "='Challenge'!D57",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "AF12",
+     "formula": "=IF('Challenge'!K57=1,1,IF('Challenge'!J57=\"Missed\",2,0))"
+    },
+    {
+     "cell": "AF13",
+     "formula": "=IF('Challenge'!K57=1,1,IF('Challenge'!J57=\"Missed\",2,0))"
+    },
+    {
+     "cell": "B15",
+     "formula": "=REPT(\"█\",ROUND(MIN(1,MAX(0,IF('Challenge'!D58>0,'Challenge'!G58/'Challenge'!D58,0)))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,IF('Challenge'!D58>0,'Challenge'!G58/'Challenge'!D58,0)))*10,0))&\"  \"&TEXT(IF('Challenge'!D58>0,'Challenge'!G58/'Challenge'!D58,0),\"0%\")&\" of your goal saved\""
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "C6:O13",
+     "type": "formula",
+     "formula": [
+      "T6=1"
+     ],
+     "fill": "6FCDC1"
+    },
+    {
+     "range": "C6:O13",
+     "type": "formula",
+     "formula": [
+      "T6=2"
+     ],
+     "fill": "FDE2E3"
+    },
+    {
+     "range": "C6:O13",
+     "type": "formula",
+     "formula": [
+      "T6=0"
+     ],
+     "fill": "FEF1D3"
+    }
+   ],
+   "borders": [
+    {
+     "range": "C6:O7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "C8:O9",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "C10:O11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "C12:O13",
+     "color": "FFFFFF",
+     "style": "medium"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "bold": true,
+     "size": 11,
+     "color": "1B263B"
+    },
+    {
+     "range": "B4",
+     "italic": true,
+     "size": 9,
+     "color": "1B263B"
+    },
+    {
+     "range": "B6:B13",
+     "bold": true,
+     "size": 10,
+     "color": "1B263B"
+    },
+    {
+     "range": "C6:O6",
+     "size": 8,
+     "color": "1B263B",
+     "align": "center"
+    },
+    {
+     "range": "C8:O8",
+     "size": 8,
+     "color": "1B263B",
+     "align": "center"
+    },
+    {
+     "range": "C10:O10",
+     "size": 8,
+     "color": "1B263B",
+     "align": "center"
+    },
+    {
+     "range": "C12:O12",
+     "size": 8,
+     "color": "1B263B",
+     "align": "center"
+    },
+    {
+     "range": "C7:O7",
+     "bold": true,
+     "size": 12,
+     "color": "1B263B",
+     "align": "center"
+    },
+    {
+     "range": "C9:O9",
+     "bold": true,
+     "size": 12,
+     "color": "1B263B",
+     "align": "center"
+    },
+    {
+     "range": "C11:O11",
+     "bold": true,
+     "size": 12,
+     "color": "1B263B",
+     "align": "center"
+    },
+    {
+     "range": "C13:O13",
+     "bold": true,
+     "size": 12,
+     "color": "1B263B",
+     "align": "center"
+    },
+    {
+     "range": "B15",
+     "bold": true,
+     "size": 12,
+     "color": "1FA89A"
+    }
+   ],
+   "row_heights": {
+    "6": 22,
+    "7": 34,
+    "8": 22,
+    "9": 34,
+    "10": 22,
+    "11": 34,
+    "12": 22,
+    "13": 34
+   }
+  },
+  {
+   "name": "Monthly",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "F2545B",
+   "grid_rows": 39,
+   "grid_cols": 8,
+   "column_widths": {
+    "A": 2.5,
+    "B": 13,
+    "C": 13,
+    "D": 13,
+    "E": 13,
+    "F": 9,
+    "G": 2.5
+   },
+   "section_bars": [
+    {
+     "range": "B2:F2",
+     "label": "MONTH BY MONTH",
+     "size": 16,
+     "color": "1B263B",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B5",
+     "formula": "Month"
+    },
+    {
+     "cell": "C5",
+     "formula": "Planned"
+    },
+    {
+     "cell": "D5",
+     "formula": "Saved"
+    },
+    {
+     "cell": "E5",
+     "formula": "Difference"
+    },
+    {
+     "cell": "F5",
+     "formula": "Weeks"
+    },
+    {
+     "cell": "B6",
+     "formula": "=TEXT(EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),0),\"mmm yyyy\")"
+    },
+    {
+     "cell": "C6",
+     "formula": "=ROUND(SUMIFS('Challenge'!$D$6:$D$57,'Challenge'!$C$6:$C$57,\">=\"&EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),0),'Challenge'!$C$6:$C$57,\"<=\"&EOMONTH(EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),0),0)),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D6",
+     "formula": "=ROUND(SUMIFS('Challenge'!$G$6:$G$57,'Challenge'!$C$6:$C$57,\">=\"&EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),0),'Challenge'!$C$6:$C$57,\"<=\"&EOMONTH(EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),0),0)),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E6",
+     "formula": "=ROUND(D6-C6,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "F6",
+     "formula": "=COUNTIFS('Challenge'!$C$6:$C$57,\">=\"&EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),0),'Challenge'!$C$6:$C$57,\"<=\"&EOMONTH(EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),0),0))"
+    },
+    {
+     "cell": "B7",
+     "formula": "=TEXT(EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),1),\"mmm yyyy\")"
+    },
+    {
+     "cell": "C7",
+     "formula": "=ROUND(SUMIFS('Challenge'!$D$6:$D$57,'Challenge'!$C$6:$C$57,\">=\"&EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),1),'Challenge'!$C$6:$C$57,\"<=\"&EOMONTH(EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),1),0)),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D7",
+     "formula": "=ROUND(SUMIFS('Challenge'!$G$6:$G$57,'Challenge'!$C$6:$C$57,\">=\"&EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),1),'Challenge'!$C$6:$C$57,\"<=\"&EOMONTH(EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),1),0)),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E7",
+     "formula": "=ROUND(D7-C7,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "F7",
+     "formula": "=COUNTIFS('Challenge'!$C$6:$C$57,\">=\"&EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),1),'Challenge'!$C$6:$C$57,\"<=\"&EOMONTH(EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),1),0))"
+    },
+    {
+     "cell": "B8",
+     "formula": "=TEXT(EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),2),\"mmm yyyy\")"
+    },
+    {
+     "cell": "C8",
+     "formula": "=ROUND(SUMIFS('Challenge'!$D$6:$D$57,'Challenge'!$C$6:$C$57,\">=\"&EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),2),'Challenge'!$C$6:$C$57,\"<=\"&EOMONTH(EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),2),0)),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D8",
+     "formula": "=ROUND(SUMIFS('Challenge'!$G$6:$G$57,'Challenge'!$C$6:$C$57,\">=\"&EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),2),'Challenge'!$C$6:$C$57,\"<=\"&EOMONTH(EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),2),0)),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E8",
+     "formula": "=ROUND(D8-C8,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "F8",
+     "formula": "=COUNTIFS('Challenge'!$C$6:$C$57,\">=\"&EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),2),'Challenge'!$C$6:$C$57,\"<=\"&EOMONTH(EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),2),0))"
+    },
+    {
+     "cell": "B9",
+     "formula": "=TEXT(EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),3),\"mmm yyyy\")"
+    },
+    {
+     "cell": "C9",
+     "formula": "=ROUND(SUMIFS('Challenge'!$D$6:$D$57,'Challenge'!$C$6:$C$57,\">=\"&EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),3),'Challenge'!$C$6:$C$57,\"<=\"&EOMONTH(EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),3),0)),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D9",
+     "formula": "=ROUND(SUMIFS('Challenge'!$G$6:$G$57,'Challenge'!$C$6:$C$57,\">=\"&EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),3),'Challenge'!$C$6:$C$57,\"<=\"&EOMONTH(EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),3),0)),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E9",
+     "formula": "=ROUND(D9-C9,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "F9",
+     "formula": "=COUNTIFS('Challenge'!$C$6:$C$57,\">=\"&EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),3),'Challenge'!$C$6:$C$57,\"<=\"&EOMONTH(EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),3),0))"
+    },
+    {
+     "cell": "B10",
+     "formula": "=TEXT(EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),4),\"mmm yyyy\")"
+    },
+    {
+     "cell": "C10",
+     "formula": "=ROUND(SUMIFS('Challenge'!$D$6:$D$57,'Challenge'!$C$6:$C$57,\">=\"&EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),4),'Challenge'!$C$6:$C$57,\"<=\"&EOMONTH(EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),4),0)),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D10",
+     "formula": "=ROUND(SUMIFS('Challenge'!$G$6:$G$57,'Challenge'!$C$6:$C$57,\">=\"&EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),4),'Challenge'!$C$6:$C$57,\"<=\"&EOMONTH(EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),4),0)),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E10",
+     "formula": "=ROUND(D10-C10,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "F10",
+     "formula": "=COUNTIFS('Challenge'!$C$6:$C$57,\">=\"&EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),4),'Challenge'!$C$6:$C$57,\"<=\"&EOMONTH(EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),4),0))"
+    },
+    {
+     "cell": "B11",
+     "formula": "=TEXT(EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),5),\"mmm yyyy\")"
+    },
+    {
+     "cell": "C11",
+     "formula": "=ROUND(SUMIFS('Challenge'!$D$6:$D$57,'Challenge'!$C$6:$C$57,\">=\"&EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),5),'Challenge'!$C$6:$C$57,\"<=\"&EOMONTH(EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),5),0)),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D11",
+     "formula": "=ROUND(SUMIFS('Challenge'!$G$6:$G$57,'Challenge'!$C$6:$C$57,\">=\"&EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),5),'Challenge'!$C$6:$C$57,\"<=\"&EOMONTH(EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),5),0)),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E11",
+     "formula": "=ROUND(D11-C11,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "F11",
+     "formula": "=COUNTIFS('Challenge'!$C$6:$C$57,\">=\"&EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),5),'Challenge'!$C$6:$C$57,\"<=\"&EOMONTH(EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),5),0))"
+    },
+    {
+     "cell": "B12",
+     "formula": "=TEXT(EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),6),\"mmm yyyy\")"
+    },
+    {
+     "cell": "C12",
+     "formula": "=ROUND(SUMIFS('Challenge'!$D$6:$D$57,'Challenge'!$C$6:$C$57,\">=\"&EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),6),'Challenge'!$C$6:$C$57,\"<=\"&EOMONTH(EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),6),0)),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D12",
+     "formula": "=ROUND(SUMIFS('Challenge'!$G$6:$G$57,'Challenge'!$C$6:$C$57,\">=\"&EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),6),'Challenge'!$C$6:$C$57,\"<=\"&EOMONTH(EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),6),0)),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E12",
+     "formula": "=ROUND(D12-C12,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "F12",
+     "formula": "=COUNTIFS('Challenge'!$C$6:$C$57,\">=\"&EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),6),'Challenge'!$C$6:$C$57,\"<=\"&EOMONTH(EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),6),0))"
+    },
+    {
+     "cell": "B13",
+     "formula": "=TEXT(EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),7),\"mmm yyyy\")"
+    },
+    {
+     "cell": "C13",
+     "formula": "=ROUND(SUMIFS('Challenge'!$D$6:$D$57,'Challenge'!$C$6:$C$57,\">=\"&EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),7),'Challenge'!$C$6:$C$57,\"<=\"&EOMONTH(EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),7),0)),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D13",
+     "formula": "=ROUND(SUMIFS('Challenge'!$G$6:$G$57,'Challenge'!$C$6:$C$57,\">=\"&EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),7),'Challenge'!$C$6:$C$57,\"<=\"&EOMONTH(EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),7),0)),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E13",
+     "formula": "=ROUND(D13-C13,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "F13",
+     "formula": "=COUNTIFS('Challenge'!$C$6:$C$57,\">=\"&EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),7),'Challenge'!$C$6:$C$57,\"<=\"&EOMONTH(EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),7),0))"
+    },
+    {
+     "cell": "B14",
+     "formula": "=TEXT(EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),8),\"mmm yyyy\")"
+    },
+    {
+     "cell": "C14",
+     "formula": "=ROUND(SUMIFS('Challenge'!$D$6:$D$57,'Challenge'!$C$6:$C$57,\">=\"&EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),8),'Challenge'!$C$6:$C$57,\"<=\"&EOMONTH(EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),8),0)),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D14",
+     "formula": "=ROUND(SUMIFS('Challenge'!$G$6:$G$57,'Challenge'!$C$6:$C$57,\">=\"&EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),8),'Challenge'!$C$6:$C$57,\"<=\"&EOMONTH(EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),8),0)),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E14",
+     "formula": "=ROUND(D14-C14,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "F14",
+     "formula": "=COUNTIFS('Challenge'!$C$6:$C$57,\">=\"&EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),8),'Challenge'!$C$6:$C$57,\"<=\"&EOMONTH(EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),8),0))"
+    },
+    {
+     "cell": "B15",
+     "formula": "=TEXT(EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),9),\"mmm yyyy\")"
+    },
+    {
+     "cell": "C15",
+     "formula": "=ROUND(SUMIFS('Challenge'!$D$6:$D$57,'Challenge'!$C$6:$C$57,\">=\"&EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),9),'Challenge'!$C$6:$C$57,\"<=\"&EOMONTH(EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),9),0)),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D15",
+     "formula": "=ROUND(SUMIFS('Challenge'!$G$6:$G$57,'Challenge'!$C$6:$C$57,\">=\"&EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),9),'Challenge'!$C$6:$C$57,\"<=\"&EOMONTH(EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),9),0)),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E15",
+     "formula": "=ROUND(D15-C15,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "F15",
+     "formula": "=COUNTIFS('Challenge'!$C$6:$C$57,\">=\"&EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),9),'Challenge'!$C$6:$C$57,\"<=\"&EOMONTH(EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),9),0))"
+    },
+    {
+     "cell": "B16",
+     "formula": "=TEXT(EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),10),\"mmm yyyy\")"
+    },
+    {
+     "cell": "C16",
+     "formula": "=ROUND(SUMIFS('Challenge'!$D$6:$D$57,'Challenge'!$C$6:$C$57,\">=\"&EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),10),'Challenge'!$C$6:$C$57,\"<=\"&EOMONTH(EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),10),0)),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D16",
+     "formula": "=ROUND(SUMIFS('Challenge'!$G$6:$G$57,'Challenge'!$C$6:$C$57,\">=\"&EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),10),'Challenge'!$C$6:$C$57,\"<=\"&EOMONTH(EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),10),0)),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E16",
+     "formula": "=ROUND(D16-C16,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "F16",
+     "formula": "=COUNTIFS('Challenge'!$C$6:$C$57,\">=\"&EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),10),'Challenge'!$C$6:$C$57,\"<=\"&EOMONTH(EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),10),0))"
+    },
+    {
+     "cell": "B17",
+     "formula": "=TEXT(EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),11),\"mmm yyyy\")"
+    },
+    {
+     "cell": "C17",
+     "formula": "=ROUND(SUMIFS('Challenge'!$D$6:$D$57,'Challenge'!$C$6:$C$57,\">=\"&EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),11),'Challenge'!$C$6:$C$57,\"<=\"&EOMONTH(EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),11),0)),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D17",
+     "formula": "=ROUND(SUMIFS('Challenge'!$G$6:$G$57,'Challenge'!$C$6:$C$57,\">=\"&EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),11),'Challenge'!$C$6:$C$57,\"<=\"&EOMONTH(EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),11),0)),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E17",
+     "formula": "=ROUND(D17-C17,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "F17",
+     "formula": "=COUNTIFS('Challenge'!$C$6:$C$57,\">=\"&EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),11),'Challenge'!$C$6:$C$57,\"<=\"&EOMONTH(EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),11),0))"
+    },
+    {
+     "cell": "B18",
+     "formula": "=TEXT(EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),12),\"mmm yyyy\")"
+    },
+    {
+     "cell": "C18",
+     "formula": "=ROUND(SUMIFS('Challenge'!$D$6:$D$57,'Challenge'!$C$6:$C$57,\">=\"&EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),12),'Challenge'!$C$6:$C$57,\"<=\"&EOMONTH(EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),12),0)),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D18",
+     "formula": "=ROUND(SUMIFS('Challenge'!$G$6:$G$57,'Challenge'!$C$6:$C$57,\">=\"&EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),12),'Challenge'!$C$6:$C$57,\"<=\"&EOMONTH(EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),12),0)),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E18",
+     "formula": "=ROUND(D18-C18,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "F18",
+     "formula": "=COUNTIFS('Challenge'!$C$6:$C$57,\">=\"&EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),12),'Challenge'!$C$6:$C$57,\"<=\"&EOMONTH(EDATE(DATE(YEAR('Setup'!$R$5),MONTH('Setup'!$R$5),1),12),0))"
+    },
+    {
+     "cell": "B19",
+     "formula": "Total"
+    },
+    {
+     "cell": "C19",
+     "formula": "=ROUND(SUM(C6:C18),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D19",
+     "formula": "=ROUND(SUM(D6:D18),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E19",
+     "formula": "=ROUND(SUM(E6:E18),2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "F19",
+     "formula": "=SUM(F6:F18)"
+    },
+    {
+     "cell": "B3",
+     "formula": "Weeks are counted in the month they start."
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "E6:E19",
+     "type": "formula",
+     "formula": [
+      "E6<0"
+     ],
+     "fill": "FDE2E3"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B5:F5",
+     "color": "1B263B"
+    },
+    {
+     "range": "B19:F19",
+     "color": "DDF4F1"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:F19",
+     "color": "CFE3E0"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "1B263B"
+    },
+    {
+     "range": "B5:F5",
+     "bold": true,
+     "size": 10,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "B6:F19",
+     "align": "center"
+    },
+    {
+     "range": "B6:B19",
+     "bold": true,
+     "size": 10,
+     "color": "1B263B",
+     "align": "center"
+    },
+    {
+     "range": "D6:D19",
+     "bold": true,
+     "size": 10,
+     "color": "1FA89A",
+     "align": "center"
+    },
+    {
+     "range": "B19:F19",
+     "bold": true,
+     "size": 10,
+     "color": "1B263B",
+     "align": "center"
+    }
+   ],
+   "charts": [
+    {
+     "type": "bar",
+     "anchor": "B21",
+     "data": "Monthly!C5:D18",
+     "categories": "Monthly!B6:B18",
+     "width": 18,
+     "height": 7,
+     "colors": [
+      "F4A30B",
+      "1FA89A"
+     ]
+    }
+   ]
+  }
+ ]
+}
