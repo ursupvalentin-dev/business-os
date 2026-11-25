@@ -1,0 +1,3508 @@
+{
+ "filename": "Dark Mode Savings Tracker",
+ "locale": "en_US",
+ "theme": {
+  "header_font": "E6E8F0",
+  "border": "343B50",
+  "accent": "2EE6D6",
+  "section_colors": [
+   "292D42",
+   "1D2030",
+   "191B26"
+  ],
+  "chart_palette": [
+   "2EE6D6",
+   "A27BFF",
+   "FF4FA3",
+   "FFC24D",
+   "B6F36B",
+   "4DA3FF"
+  ],
+  "chart_bg": "1A1D27",
+  "chart_text": "C9CEDD",
+  "chart_grid": "2F3546"
+ },
+ "tabs": [
+  {
+   "name": "Start Here",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "292D42",
+   "grid_rows": 31,
+   "column_widths": {
+    "A": 2.5,
+    "B": 22,
+    "C": 100,
+    "D": 2.5
+   },
+   "section_bars": [
+    {
+     "range": "B2:C2",
+     "label": "SAVINGS TRACKER",
+     "size": 18,
+     "color": "292D42",
+     "font_color": "2EE6D6"
+    },
+    {
+     "range": "B5:C5",
+     "label": "HOW TO USE IT",
+     "color": "292D42",
+     "font_color": "E6E8F0",
+     "align": "left"
+    },
+    {
+     "range": "B13:C13",
+     "label": "GOOD TO KNOW",
+     "color": "292D42",
+     "font_color": "E6E8F0",
+     "align": "left"
+    },
+    {
+     "range": "B20:C20",
+     "label": "COLOR GUIDE",
+     "color": "292D42",
+     "font_color": "2EE6D6",
+     "align": "left"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Dark mode. Bright goals. Watch your money grow."
+    },
+    {
+     "cell": "B6",
+     "formula": "1. Setup: your name and the year."
+    },
+    {
+     "cell": "B7",
+     "formula": "2. Goals: what you're saving for, the target, the date, and what you plan to save each month."
+    },
+    {
+     "cell": "B8",
+     "formula": "3. Deposits: every time you add money (or take some out, as a minus), log it here."
+    },
+    {
+     "cell": "B9",
+     "formula": "4. Goals shows if you're on track, how much you need per month, and when you'll finish at your pace."
+    },
+    {
+     "cell": "B10",
+     "formula": "5. Growth Calculator: see what steady saving plus interest can grow into."
+    },
+    {
+     "cell": "B11",
+     "formula": "6. Dashboard and Monthly: your savings at a glance."
+    },
+    {
+     "cell": "B14",
+     "formula": "Pay yourself first"
+    },
+    {
+     "cell": "C14",
+     "formula": "Set up automatic transfers on payday. Saving becomes the default."
+    },
+    {
+     "cell": "B15",
+     "formula": "High-yield savings"
+    },
+    {
+     "cell": "C15",
+     "formula": "A higher APY makes your money grow faster. Add your APY on Goals."
+    },
+    {
+     "cell": "B16",
+     "formula": "Withdrawals"
+    },
+    {
+     "cell": "C16",
+     "formula": "Took money out? Log it as a negative amount, like -200."
+    },
+    {
+     "cell": "B17",
+     "formula": "Small wins"
+    },
+    {
+     "cell": "C17",
+     "formula": "Break big goals into milestones. Every 10% is worth celebrating."
+    },
+    {
+     "cell": "B18",
+     "formula": "Start fresh"
+    },
+    {
+     "cell": "C18",
+     "formula": "Clear the lighter cells on Goals and Deposits, then update Setup."
+    },
+    {
+     "cell": "C21",
+     "formula": "Lighter panels: type here."
+    },
+    {
+     "cell": "C22",
+     "formula": "Dark cells: these calculate for you."
+    },
+    {
+     "cell": "C23",
+     "formula": "Green: done, or on track."
+    },
+    {
+     "cell": "C24",
+     "formula": "Amber: almost there, or worth a look."
+    },
+    {
+     "cell": "C25",
+     "formula": "Red: behind, or something to check."
+    },
+    {
+     "cell": "B27",
+     "formula": "Future you says thank you."
+    }
+   ],
+   "fills": [
+    {
+     "range": "B14:C18",
+     "color": "1D2030"
+    },
+    {
+     "range": "B21",
+     "color": "292D42"
+    },
+    {
+     "range": "B22",
+     "color": "191B26"
+    },
+    {
+     "range": "B23",
+     "color": "1D4D3A"
+    },
+    {
+     "range": "B24",
+     "color": "4D4220"
+    },
+    {
+     "range": "B25",
+     "color": "5A2333"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B21",
+     "color": "343B50"
+    },
+    {
+     "range": "B22",
+     "color": "343B50"
+    },
+    {
+     "range": "B23",
+     "color": "343B50"
+    },
+    {
+     "range": "B24",
+     "color": "343B50"
+    },
+    {
+     "range": "B25",
+     "color": "343B50"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 11,
+     "color": "E6E8F0"
+    },
+    {
+     "range": "B14:B18",
+     "bold": true,
+     "size": 11,
+     "color": "E6E8F0"
+    },
+    {
+     "range": "B27",
+     "italic": true,
+     "bold": true,
+     "size": 11,
+     "color": "292D42"
+    }
+   ],
+   "base": {
+    "fill": "14161E",
+    "font_color": "E6E8F0"
+   }
+  },
+  {
+   "name": "Dashboard",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "2EE6D6",
+   "grid_rows": 52,
+   "grid_cols": 19,
+   "row_height": 21,
+   "column_widths": {
+    "A": 2.5,
+    "B": 20,
+    "C": 14,
+    "D": 15,
+    "E": 17,
+    "F": 16,
+    "G": 14,
+    "H": 17,
+    "I": 16,
+    "J": 2.5,
+    "R": 10
+   },
+   "hidden_columns": [
+    "R"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:I2",
+     "label": "=\"SAVINGS DASHBOARD\"",
+     "size": 16,
+     "color": "292D42",
+     "font_color": "2EE6D6"
+    },
+    {
+     "range": "B14:G14",
+     "label": "MY GOALS",
+     "color": "292D42",
+     "font_color": "E6E8F0",
+     "align": "left"
+    },
+    {
+     "range": "B28:I28",
+     "label": "TOTAL SAVED THIS YEAR",
+     "color": "292D42",
+     "font_color": "E6E8F0",
+     "align": "left"
+    }
+   ],
+   "kpi_cards": [
+    {
+     "anchor": "B5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "TOTAL SAVED",
+     "value": "='Goals'!$H$18",
+     "fill": "1D2030",
+     "font_color": "2EE6D6",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "D5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "TOTAL GOALS",
+     "value": "='Goals'!$C$18",
+     "fill": "1D2030",
+     "font_color": "A27BFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "F5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "OVERALL PROGRESS",
+     "value": "=R4",
+     "fill": "1D2030",
+     "font_color": "FF4FA3",
+     "value_size": 16,
+     "number_format": "0%"
+    },
+    {
+     "anchor": "H5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "SAVED THIS MONTH",
+     "value": "=INDEX('Monthly'!$E$7:$E$18,'Setup'!$R$7)",
+     "fill": "1D2030",
+     "font_color": "FFC24D",
+     "value_size": 16,
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "anchor": "B9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "GOALS REACHED",
+     "value": "=R5&\" of \"&R6",
+     "fill": "1D2030",
+     "font_color": "E6E8F0",
+     "value_size": 16
+    },
+    {
+     "anchor": "D9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "MONTHLY PLAN",
+     "value": "='Goals'!$G$18",
+     "fill": "1D2030",
+     "font_color": "E6E8F0",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "F9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "NEEDED / MONTH",
+     "value": "='Goals'!$L$18",
+     "fill": "1D2030",
+     "font_color": "E6E8F0",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "H9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "NEXT DEADLINE",
+     "value": "=IF(R7=\"\",\"-\",R7)",
+     "fill": "1D2030",
+     "font_color": "E6E8F0",
+     "value_size": 16,
+     "number_format": "mmm d, yyyy"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "='Setup'!$R$4&\" savings - \"&INDEX('Monthly'!$B$7:$B$18,'Setup'!$R$7)&\" \"&'Setup'!$R$5&\".\""
+    },
+    {
+     "cell": "R4",
+     "formula": "=IF('Goals'!$C$18>0,MIN(1,MAX(0,'Goals'!$H$18)/'Goals'!$C$18),0)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "R5",
+     "formula": "=COUNTIF('Goals'!$N$8:$N$17,\"Done\")"
+    },
+    {
+     "cell": "R6",
+     "formula": "=COUNTIF('Goals'!$B$8:$B$17,\"?*\")"
+    },
+    {
+     "cell": "R7",
+     "formula": "=IFERROR(SMALL('Goals'!$U$8:$U$17,1),\"\")",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "B12",
+     "formula": "=REPT(\"█\",ROUND(MIN(1,MAX(0,R4))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,R4))*10,0))&\"  \"&TEXT(R4,\"0%\")&\" of all your goals saved\""
+    },
+    {
+     "cell": "B15",
+     "formula": "Goal"
+    },
+    {
+     "cell": "C15",
+     "formula": "Saved"
+    },
+    {
+     "cell": "D15",
+     "formula": "Target"
+    },
+    {
+     "cell": "E15",
+     "formula": "Progress"
+    },
+    {
+     "cell": "F15",
+     "formula": "Projected"
+    },
+    {
+     "cell": "G15",
+     "formula": "Status"
+    },
+    {
+     "cell": "B16",
+     "formula": "=IF('Goals'!B8=\"\",\"\",'Goals'!B8)"
+    },
+    {
+     "cell": "C16",
+     "formula": "=IF(B16=\"\",\"\",'Goals'!H8)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D16",
+     "formula": "=IF(B16=\"\",\"\",N('Goals'!C8))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E16",
+     "formula": "=IF(B16=\"\",\"\",'Goals'!J8)"
+    },
+    {
+     "cell": "F16",
+     "formula": "=IF(B16=\"\",\"\",'Goals'!M8)",
+     "number_format": "mmm yyyy"
+    },
+    {
+     "cell": "G16",
+     "formula": "=IF(B16=\"\",\"\",'Goals'!N8)"
+    },
+    {
+     "cell": "B17",
+     "formula": "=IF('Goals'!B9=\"\",\"\",'Goals'!B9)"
+    },
+    {
+     "cell": "C17",
+     "formula": "=IF(B17=\"\",\"\",'Goals'!H9)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D17",
+     "formula": "=IF(B17=\"\",\"\",N('Goals'!C9))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E17",
+     "formula": "=IF(B17=\"\",\"\",'Goals'!J9)"
+    },
+    {
+     "cell": "F17",
+     "formula": "=IF(B17=\"\",\"\",'Goals'!M9)",
+     "number_format": "mmm yyyy"
+    },
+    {
+     "cell": "G17",
+     "formula": "=IF(B17=\"\",\"\",'Goals'!N9)"
+    },
+    {
+     "cell": "B18",
+     "formula": "=IF('Goals'!B10=\"\",\"\",'Goals'!B10)"
+    },
+    {
+     "cell": "C18",
+     "formula": "=IF(B18=\"\",\"\",'Goals'!H10)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D18",
+     "formula": "=IF(B18=\"\",\"\",N('Goals'!C10))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E18",
+     "formula": "=IF(B18=\"\",\"\",'Goals'!J10)"
+    },
+    {
+     "cell": "F18",
+     "formula": "=IF(B18=\"\",\"\",'Goals'!M10)",
+     "number_format": "mmm yyyy"
+    },
+    {
+     "cell": "G18",
+     "formula": "=IF(B18=\"\",\"\",'Goals'!N10)"
+    },
+    {
+     "cell": "B19",
+     "formula": "=IF('Goals'!B11=\"\",\"\",'Goals'!B11)"
+    },
+    {
+     "cell": "C19",
+     "formula": "=IF(B19=\"\",\"\",'Goals'!H11)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D19",
+     "formula": "=IF(B19=\"\",\"\",N('Goals'!C11))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E19",
+     "formula": "=IF(B19=\"\",\"\",'Goals'!J11)"
+    },
+    {
+     "cell": "F19",
+     "formula": "=IF(B19=\"\",\"\",'Goals'!M11)",
+     "number_format": "mmm yyyy"
+    },
+    {
+     "cell": "G19",
+     "formula": "=IF(B19=\"\",\"\",'Goals'!N11)"
+    },
+    {
+     "cell": "B20",
+     "formula": "=IF('Goals'!B12=\"\",\"\",'Goals'!B12)"
+    },
+    {
+     "cell": "C20",
+     "formula": "=IF(B20=\"\",\"\",'Goals'!H12)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D20",
+     "formula": "=IF(B20=\"\",\"\",N('Goals'!C12))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E20",
+     "formula": "=IF(B20=\"\",\"\",'Goals'!J12)"
+    },
+    {
+     "cell": "F20",
+     "formula": "=IF(B20=\"\",\"\",'Goals'!M12)",
+     "number_format": "mmm yyyy"
+    },
+    {
+     "cell": "G20",
+     "formula": "=IF(B20=\"\",\"\",'Goals'!N12)"
+    },
+    {
+     "cell": "B21",
+     "formula": "=IF('Goals'!B13=\"\",\"\",'Goals'!B13)"
+    },
+    {
+     "cell": "C21",
+     "formula": "=IF(B21=\"\",\"\",'Goals'!H13)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D21",
+     "formula": "=IF(B21=\"\",\"\",N('Goals'!C13))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E21",
+     "formula": "=IF(B21=\"\",\"\",'Goals'!J13)"
+    },
+    {
+     "cell": "F21",
+     "formula": "=IF(B21=\"\",\"\",'Goals'!M13)",
+     "number_format": "mmm yyyy"
+    },
+    {
+     "cell": "G21",
+     "formula": "=IF(B21=\"\",\"\",'Goals'!N13)"
+    },
+    {
+     "cell": "B22",
+     "formula": "=IF('Goals'!B14=\"\",\"\",'Goals'!B14)"
+    },
+    {
+     "cell": "C22",
+     "formula": "=IF(B22=\"\",\"\",'Goals'!H14)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D22",
+     "formula": "=IF(B22=\"\",\"\",N('Goals'!C14))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E22",
+     "formula": "=IF(B22=\"\",\"\",'Goals'!J14)"
+    },
+    {
+     "cell": "F22",
+     "formula": "=IF(B22=\"\",\"\",'Goals'!M14)",
+     "number_format": "mmm yyyy"
+    },
+    {
+     "cell": "G22",
+     "formula": "=IF(B22=\"\",\"\",'Goals'!N14)"
+    },
+    {
+     "cell": "B23",
+     "formula": "=IF('Goals'!B15=\"\",\"\",'Goals'!B15)"
+    },
+    {
+     "cell": "C23",
+     "formula": "=IF(B23=\"\",\"\",'Goals'!H15)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D23",
+     "formula": "=IF(B23=\"\",\"\",N('Goals'!C15))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E23",
+     "formula": "=IF(B23=\"\",\"\",'Goals'!J15)"
+    },
+    {
+     "cell": "F23",
+     "formula": "=IF(B23=\"\",\"\",'Goals'!M15)",
+     "number_format": "mmm yyyy"
+    },
+    {
+     "cell": "G23",
+     "formula": "=IF(B23=\"\",\"\",'Goals'!N15)"
+    },
+    {
+     "cell": "B24",
+     "formula": "=IF('Goals'!B16=\"\",\"\",'Goals'!B16)"
+    },
+    {
+     "cell": "C24",
+     "formula": "=IF(B24=\"\",\"\",'Goals'!H16)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D24",
+     "formula": "=IF(B24=\"\",\"\",N('Goals'!C16))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E24",
+     "formula": "=IF(B24=\"\",\"\",'Goals'!J16)"
+    },
+    {
+     "cell": "F24",
+     "formula": "=IF(B24=\"\",\"\",'Goals'!M16)",
+     "number_format": "mmm yyyy"
+    },
+    {
+     "cell": "G24",
+     "formula": "=IF(B24=\"\",\"\",'Goals'!N16)"
+    },
+    {
+     "cell": "B25",
+     "formula": "=IF('Goals'!B17=\"\",\"\",'Goals'!B17)"
+    },
+    {
+     "cell": "C25",
+     "formula": "=IF(B25=\"\",\"\",'Goals'!H17)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D25",
+     "formula": "=IF(B25=\"\",\"\",N('Goals'!C17))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E25",
+     "formula": "=IF(B25=\"\",\"\",'Goals'!J17)"
+    },
+    {
+     "cell": "F25",
+     "formula": "=IF(B25=\"\",\"\",'Goals'!M17)",
+     "number_format": "mmm yyyy"
+    },
+    {
+     "cell": "G25",
+     "formula": "=IF(B25=\"\",\"\",'Goals'!N17)"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "G16:G25",
+     "type": "formula",
+     "formula": [
+      "$G16=\"Done\""
+     ],
+     "fill": "1D4D3A"
+    },
+    {
+     "range": "G16:G25",
+     "type": "formula",
+     "formula": [
+      "$G16=\"On track\""
+     ],
+     "fill": "1D4D3A"
+    },
+    {
+     "range": "G16:G25",
+     "type": "formula",
+     "formula": [
+      "$G16=\"Behind\""
+     ],
+     "fill": "5A2333"
+    },
+    {
+     "range": "G16:G25",
+     "type": "formula",
+     "formula": [
+      "$G16=\"Needs a plan\""
+     ],
+     "fill": "4D4220"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:C7",
+     "color": "14161E",
+     "style": "medium"
+    },
+    {
+     "range": "D5:E7",
+     "color": "14161E",
+     "style": "medium"
+    },
+    {
+     "range": "F5:G7",
+     "color": "14161E",
+     "style": "medium"
+    },
+    {
+     "range": "H5:I7",
+     "color": "14161E",
+     "style": "medium"
+    },
+    {
+     "range": "B9:C11",
+     "color": "14161E",
+     "style": "medium"
+    },
+    {
+     "range": "D9:E11",
+     "color": "14161E",
+     "style": "medium"
+    },
+    {
+     "range": "F9:G11",
+     "color": "14161E",
+     "style": "medium"
+    },
+    {
+     "range": "H9:I11",
+     "color": "14161E",
+     "style": "medium"
+    },
+    {
+     "range": "B15:G25",
+     "color": "343B50"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B15:G15",
+     "color": "1D2030"
+    },
+    {
+     "range": "B16:G25",
+     "color": "191B26"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "9AA0B8"
+    },
+    {
+     "range": "B12",
+     "bold": true,
+     "size": 11,
+     "color": "2EE6D6"
+    },
+    {
+     "range": "B15:G15",
+     "bold": true,
+     "size": 10,
+     "color": "9AA0B8",
+     "align": "center"
+    },
+    {
+     "range": "B16:G25",
+     "size": 10,
+     "color": "E6E8F0",
+     "align": "center"
+    },
+    {
+     "range": "B16:B25",
+     "bold": true,
+     "size": 10,
+     "color": "E6E8F0"
+    },
+    {
+     "range": "C16:C25",
+     "bold": true,
+     "size": 10,
+     "color": "2EE6D6",
+     "align": "center"
+    },
+    {
+     "range": "E16:E25",
+     "size": 9,
+     "color": "2EE6D6"
+    }
+   ],
+   "charts": [
+    {
+     "type": "line",
+     "anchor": "B29",
+     "data": "Monthly!F6:F18",
+     "categories": "Monthly!B7:B18",
+     "width": 24,
+     "height": 7,
+     "colors": [
+      "2EE6D6"
+     ],
+     "legend": false
+    }
+   ],
+   "base": {
+    "fill": "14161E",
+    "font_color": "E6E8F0"
+   }
+  },
+  {
+   "name": "Setup",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "2EE6D6",
+   "grid_rows": 10,
+   "grid_cols": 19,
+   "row_height": 24,
+   "column_widths": {
+    "A": 2.5,
+    "B": 22,
+    "C": 16,
+    "D": 30,
+    "E": 2.5,
+    "R": 10
+   },
+   "hidden_columns": [
+    "R"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:D2",
+     "label": "=\"SETUP\"",
+     "size": 16,
+     "color": "292D42",
+     "font_color": "2EE6D6"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Set this up once."
+    },
+    {
+     "cell": "B4",
+     "formula": "Your name"
+    },
+    {
+     "cell": "C4",
+     "formula": "Jordan"
+    },
+    {
+     "cell": "B5",
+     "formula": "Year"
+    },
+    {
+     "cell": "D5",
+     "formula": "Blank = this year."
+    },
+    {
+     "cell": "C5",
+     "formula": 2027
+    },
+    {
+     "cell": "B6",
+     "formula": "Today's date"
+    },
+    {
+     "cell": "D6",
+     "formula": "Optional. Blank = today."
+    },
+    {
+     "cell": "C6",
+     "formula": "=DATE(2027,6,20)"
+    },
+    {
+     "cell": "R4",
+     "formula": "=IF(TRIM(C4&\"\")=\"\",\"My\",TRIM(C4&\"\")&\"'s\")"
+    },
+    {
+     "cell": "R5",
+     "formula": "=IF(AND(ISNUMBER(C5),N(C5)>=1900,N(C5)<=9999),INT(C5),YEAR(TODAY()))"
+    },
+    {
+     "cell": "R6",
+     "formula": "=IF(AND(ISNUMBER(C6),N(C6)>=1),INT(C6),TODAY())",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "R7",
+     "formula": "=IF(YEAR(R6)=R5,MONTH(R6),IF(YEAR(R6)>R5,12,1))"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "C6",
+     "type": "formula",
+     "formula": [
+      "AND(C6<>\"\",OR(NOT(ISNUMBER(C6)),N(C6)<1))"
+     ],
+     "fill": "5A2333"
+    },
+    {
+     "range": "C5",
+     "type": "formula",
+     "formula": [
+      "AND(C5<>\"\",OR(NOT(ISNUMBER(C5)),N(C5)<1900,N(C5)>9999))"
+     ],
+     "fill": "5A2333"
+    }
+   ],
+   "fills": [
+    {
+     "range": "C4:C6",
+     "color": "292D42"
+    }
+   ],
+   "borders": [
+    {
+     "range": "C4:C6",
+     "color": "343B50"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "9AA0B8"
+    },
+    {
+     "range": "B4:B6",
+     "bold": true,
+     "size": 10,
+     "color": "E6E8F0"
+    },
+    {
+     "range": "D4:D6",
+     "italic": true,
+     "size": 9,
+     "color": "9AA0B8"
+    },
+    {
+     "range": "C4:C6",
+     "bold": true,
+     "size": 11,
+     "color": "E6E8F0",
+     "align": "center"
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "C5",
+     "format": "0"
+    },
+    {
+     "range": "C6",
+     "format": "mmm d, yyyy"
+    }
+   ],
+   "base": {
+    "fill": "14161E",
+    "font_color": "E6E8F0"
+   }
+  },
+  {
+   "name": "Goals",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "A27BFF",
+   "grid_rows": 21,
+   "grid_cols": 24,
+   "row_height": 24,
+   "column_widths": {
+    "A": 2.5,
+    "B": 22,
+    "C": 11,
+    "D": 12,
+    "E": 11,
+    "F": 7,
+    "G": 11,
+    "H": 12,
+    "I": 11,
+    "J": 17,
+    "K": 8,
+    "L": 11,
+    "M": 11,
+    "N": 12,
+    "O": 2.5,
+    "S": 3,
+    "T": 3,
+    "W": 3,
+    "U": 3
+   },
+   "hidden_columns": [
+    "S",
+    "T",
+    "W",
+    "U"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:N2",
+     "label": "=\"SAVINGS GOALS\"",
+     "size": 16,
+     "color": "292D42",
+     "font_color": "2EE6D6"
+    },
+    {
+     "range": "B6:G6",
+     "label": "TYPE HERE",
+     "color": "292D42",
+     "font_color": "E6E8F0",
+     "align": "left"
+    },
+    {
+     "range": "H6:N6",
+     "label": "HOW IT'S GOING",
+     "color": "292D42",
+     "font_color": "E6E8F0",
+     "align": "center"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Saved = starting amount + your deposits. Projected Finish uses your monthly plan and APY."
+    },
+    {
+     "cell": "B7",
+     "formula": "Goal"
+    },
+    {
+     "cell": "C7",
+     "formula": "Target"
+    },
+    {
+     "cell": "D7",
+     "formula": "Target Date"
+    },
+    {
+     "cell": "E7",
+     "formula": "Starting Amount"
+    },
+    {
+     "cell": "F7",
+     "formula": "APY %"
+    },
+    {
+     "cell": "G7",
+     "formula": "Monthly Plan"
+    },
+    {
+     "cell": "H7",
+     "formula": "Saved"
+    },
+    {
+     "cell": "I7",
+     "formula": "Remaining"
+    },
+    {
+     "cell": "J7",
+     "formula": "Progress"
+    },
+    {
+     "cell": "K7",
+     "formula": "Months Left"
+    },
+    {
+     "cell": "L7",
+     "formula": "Needed / Month"
+    },
+    {
+     "cell": "M7",
+     "formula": "Projected Finish"
+    },
+    {
+     "cell": "N7",
+     "formula": "Status"
+    },
+    {
+     "cell": "B8",
+     "formula": "Emergency fund"
+    },
+    {
+     "cell": "C8",
+     "formula": 10000
+    },
+    {
+     "cell": "D8",
+     "formula": "=DATE(2028,6,30)"
+    },
+    {
+     "cell": "E8",
+     "formula": 3500
+    },
+    {
+     "cell": "F8",
+     "formula": 4.3
+    },
+    {
+     "cell": "G8",
+     "formula": 400
+    },
+    {
+     "cell": "B9",
+     "formula": "Japan trip"
+    },
+    {
+     "cell": "C9",
+     "formula": 4500
+    },
+    {
+     "cell": "D9",
+     "formula": "=DATE(2028,3,1)"
+    },
+    {
+     "cell": "E9",
+     "formula": 600
+    },
+    {
+     "cell": "F9",
+     "formula": 4.3
+    },
+    {
+     "cell": "G9",
+     "formula": 250
+    },
+    {
+     "cell": "B10",
+     "formula": "New car down payment"
+    },
+    {
+     "cell": "C10",
+     "formula": 6000
+    },
+    {
+     "cell": "D10",
+     "formula": "=DATE(2029,1,1)"
+    },
+    {
+     "cell": "E10",
+     "formula": 0
+    },
+    {
+     "cell": "F10",
+     "formula": 4.3
+    },
+    {
+     "cell": "G10",
+     "formula": 150
+    },
+    {
+     "cell": "B11",
+     "formula": "Wedding"
+    },
+    {
+     "cell": "C11",
+     "formula": 12000
+    },
+    {
+     "cell": "D11",
+     "formula": "=DATE(2028,9,15)"
+    },
+    {
+     "cell": "E11",
+     "formula": 2000
+    },
+    {
+     "cell": "F11",
+     "formula": 0
+    },
+    {
+     "cell": "G11",
+     "formula": 500
+    },
+    {
+     "cell": "B12",
+     "formula": "New laptop"
+    },
+    {
+     "cell": "C12",
+     "formula": 1500
+    },
+    {
+     "cell": "D12",
+     "formula": "=DATE(2027,5,1)"
+    },
+    {
+     "cell": "E12",
+     "formula": 400
+    },
+    {
+     "cell": "F12",
+     "formula": 0
+    },
+    {
+     "cell": "G12",
+     "formula": 100
+    },
+    {
+     "col": "W",
+     "range_rows": [
+      8,
+      17
+     ],
+     "formula": "=LOWER(TRIM(B{row}&\"\"))"
+    },
+    {
+     "col": "H",
+     "range_rows": [
+      8,
+      17
+     ],
+     "formula": "=IF(TRIM(B{row}&\"\")=\"\",\"\",ROUND(N(E{row})+SUMIFS('Deposits'!$G$6:$G$805,'Deposits'!$H$6:$H$805,ROW()-7),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "I",
+     "range_rows": [
+      8,
+      17
+     ],
+     "formula": "=IF(TRIM(B{row}&\"\")=\"\",\"\",MAX(0,ROUND(N(C{row})-H{row},2)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "J",
+     "range_rows": [
+      8,
+      17
+     ],
+     "formula": "=IF(OR(TRIM(B{row}&\"\")=\"\",N(C{row})<=0),\"\",REPT(\"█\",ROUND(MIN(1,MAX(0,MAX(0,H{row})/C{row}))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,MAX(0,H{row})/C{row}))*10,0))&\"  \"&TEXT(MIN(1,MAX(0,H{row})/C{row}),\"0%\"))"
+    },
+    {
+     "col": "K",
+     "range_rows": [
+      8,
+      17
+     ],
+     "formula": "=IF(OR(TRIM(B{row}&\"\")=\"\",NOT(ISNUMBER(D{row}))),\"\",MAX(1,(YEAR(D{row})-YEAR('Setup'!$R$6))*12+MONTH(D{row})-MONTH('Setup'!$R$6)))"
+    },
+    {
+     "col": "L",
+     "range_rows": [
+      8,
+      17
+     ],
+     "formula": "=IF(OR(K{row}=\"\",I{row}=\"\"),\"\",IF(I{row}=0,0,ROUND(I{row}/K{row},2)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "S",
+     "range_rows": [
+      8,
+      17
+     ],
+     "formula": "=MAX(0,IF(N(F{row})>=1,N(F{row})/100,N(F{row})))/12"
+    },
+    {
+     "col": "T",
+     "range_rows": [
+      8,
+      17
+     ],
+     "formula": "=IF(OR(TRIM(B{row}&\"\")=\"\",N(C{row})<=0),\"\",IF(I{row}=0,0,IF(N(G{row})<=0,\"\",IF(S{row}=0,I{row}/G{row},NPER(S{row},-N(G{row}),-MAX(0,H{row}),C{row})))))"
+    },
+    {
+     "col": "M",
+     "range_rows": [
+      8,
+      17
+     ],
+     "formula": "=IF(T{row}=\"\",IF(OR(TRIM(B{row}&\"\")=\"\",I{row}=0),\"\",\"Add a plan\"),IF(T{row}=0,\"Done\",EDATE('Setup'!$R$6,ROUNDUP(ROUND(T{row},6),0))))",
+     "number_format": "mmm yyyy"
+    },
+    {
+     "col": "N",
+     "range_rows": [
+      8,
+      17
+     ],
+     "formula": "=IF(TRIM(B{row}&\"\")=\"\",\"\",IF(I{row}=0,\"Done\",IF(NOT(ISNUMBER(M{row})),\"Needs a plan\",IF(NOT(ISNUMBER(D{row})),\"No date\",IF(M{row}<=EOMONTH(D{row},0),\"On track\",\"Behind\")))))"
+    },
+    {
+     "cell": "B18",
+     "formula": "TOTAL"
+    },
+    {
+     "cell": "C18",
+     "formula": "=ROUND(SUM(C8:C17),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E18",
+     "formula": "=ROUND(SUM(E8:E17),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G18",
+     "formula": "=ROUND(SUM(G8:G17),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H18",
+     "formula": "=ROUND(SUM(H8:H17),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I18",
+     "formula": "=ROUND(SUM(I8:I17),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L18",
+     "formula": "=ROUND(SUM(L8:L17),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "U",
+     "range_rows": [
+      8,
+      17
+     ],
+     "formula": "=IF(AND(TRIM(B{row}&\"\")<>\"\",ISNUMBER(D{row}),N(I{row})>0),IF(INT(D{row})>='Setup'!$R$6,INT(D{row}),\"\"),\"\")",
+     "number_format": "mmm d, yyyy"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "N8:N17",
+     "type": "formula",
+     "formula": [
+      "$N8=\"Done\""
+     ],
+     "fill": "1D4D3A"
+    },
+    {
+     "range": "N8:N17",
+     "type": "formula",
+     "formula": [
+      "$N8=\"On track\""
+     ],
+     "fill": "1D4D3A"
+    },
+    {
+     "range": "N8:N17",
+     "type": "formula",
+     "formula": [
+      "$N8=\"Behind\""
+     ],
+     "fill": "5A2333"
+    },
+    {
+     "range": "N8:N17",
+     "type": "formula",
+     "formula": [
+      "$N8=\"Needs a plan\""
+     ],
+     "fill": "4D4220"
+    },
+    {
+     "range": "C8:C17",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C8<>\"\",NOT(ISNUMBER(C8))),N(C8)<0)"
+     ],
+     "fill": "5A2333"
+    },
+    {
+     "range": "E8:G17",
+     "type": "formula",
+     "formula": [
+      "OR(AND(E8<>\"\",NOT(ISNUMBER(E8))),N(E8)<0)"
+     ],
+     "fill": "5A2333"
+    },
+    {
+     "range": "D8:D17",
+     "type": "formula",
+     "formula": [
+      "AND(D8<>\"\",OR(NOT(ISNUMBER(D8)),N(D8)<1))"
+     ],
+     "fill": "5A2333"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B7:N7",
+     "color": "1D2030"
+    },
+    {
+     "range": "B8:G17",
+     "color": "292D42"
+    },
+    {
+     "range": "H8:N17",
+     "color": "191B26"
+    },
+    {
+     "range": "B18:N18",
+     "color": "1D2030"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B7:N18",
+     "color": "343B50"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "9AA0B8"
+    },
+    {
+     "range": "B7:N7",
+     "bold": true,
+     "size": 9,
+     "color": "9AA0B8",
+     "align": "center",
+     "wrap": true
+    },
+    {
+     "range": "B8:B18",
+     "bold": true,
+     "size": 10,
+     "color": "E6E8F0"
+    },
+    {
+     "range": "C8:N18",
+     "size": 10,
+     "color": "E6E8F0",
+     "align": "center"
+    },
+    {
+     "range": "H8:H18",
+     "bold": true,
+     "size": 11,
+     "color": "2EE6D6",
+     "align": "center"
+    },
+    {
+     "range": "J8:J17",
+     "size": 9,
+     "color": "2EE6D6"
+    },
+    {
+     "range": "B18:N18",
+     "bold": true,
+     "size": 10,
+     "color": "E6E8F0",
+     "align": "center"
+    }
+   ],
+   "row_heights": {
+    "7": 34
+   },
+   "number_formats": [
+    {
+     "range": "C8:C17",
+     "format": "$#,##0.00"
+    },
+    {
+     "range": "D8:D17",
+     "format": "mmm d, yyyy"
+    },
+    {
+     "range": "E8:E17",
+     "format": "$#,##0.00"
+    },
+    {
+     "range": "F8:F17",
+     "format": "0.00"
+    },
+    {
+     "range": "G8:G17",
+     "format": "$#,##0.00"
+    },
+    {
+     "range": "K8:K17",
+     "format": "0"
+    }
+   ],
+   "base": {
+    "fill": "14161E",
+    "font_color": "E6E8F0"
+   }
+  },
+  {
+   "name": "Deposits",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "2EE6D6",
+   "grid_rows": 808,
+   "grid_cols": 11,
+   "row_height": 20,
+   "freeze": "A6",
+   "column_widths": {
+    "A": 2.5,
+    "B": 13,
+    "C": 22,
+    "D": 12,
+    "E": 26,
+    "F": 7,
+    "G": 3,
+    "H": 3,
+    "I": 3,
+    "J": 3,
+    "K": 2.5
+   },
+   "hidden_columns": [
+    "G",
+    "H",
+    "I",
+    "J"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:F2",
+     "label": "=\"DEPOSITS\"",
+     "size": 16,
+     "color": "292D42",
+     "font_color": "2EE6D6"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Money in (positive) or out (negative, like -200). Pick the goal from the list."
+    },
+    {
+     "cell": "B5",
+     "formula": "Date"
+    },
+    {
+     "cell": "C5",
+     "formula": "Goal"
+    },
+    {
+     "cell": "D5",
+     "formula": "Amount"
+    },
+    {
+     "cell": "E5",
+     "formula": "Note"
+    },
+    {
+     "cell": "F5",
+     "formula": "Check"
+    },
+    {
+     "cell": "B6",
+     "formula": "=DATE(2026,12,20)"
+    },
+    {
+     "cell": "C6",
+     "formula": "Emergency fund"
+    },
+    {
+     "cell": "D6",
+     "formula": 200
+    },
+    {
+     "cell": "E6",
+     "formula": "Holiday bonus"
+    },
+    {
+     "cell": "B7",
+     "formula": "=DATE(2027,1,2)"
+    },
+    {
+     "cell": "C7",
+     "formula": "Emergency fund"
+    },
+    {
+     "cell": "D7",
+     "formula": 400
+    },
+    {
+     "cell": "B8",
+     "formula": "=DATE(2027,1,2)"
+    },
+    {
+     "cell": "C8",
+     "formula": "Japan trip"
+    },
+    {
+     "cell": "D8",
+     "formula": 250
+    },
+    {
+     "cell": "B9",
+     "formula": "=DATE(2027,1,16)"
+    },
+    {
+     "cell": "C9",
+     "formula": "Wedding"
+    },
+    {
+     "cell": "D9",
+     "formula": 500
+    },
+    {
+     "cell": "B10",
+     "formula": "=DATE(2027,1,20)"
+    },
+    {
+     "cell": "C10",
+     "formula": "New laptop"
+    },
+    {
+     "cell": "D10",
+     "formula": 275
+    },
+    {
+     "cell": "B11",
+     "formula": "=DATE(2027,2,2)"
+    },
+    {
+     "cell": "C11",
+     "formula": "Emergency fund"
+    },
+    {
+     "cell": "D11",
+     "formula": 400
+    },
+    {
+     "cell": "B12",
+     "formula": "=DATE(2027,2,2)"
+    },
+    {
+     "cell": "C12",
+     "formula": "Japan trip"
+    },
+    {
+     "cell": "D12",
+     "formula": 250
+    },
+    {
+     "cell": "B13",
+     "formula": "=DATE(2027,2,16)"
+    },
+    {
+     "cell": "C13",
+     "formula": "Wedding"
+    },
+    {
+     "cell": "D13",
+     "formula": 500
+    },
+    {
+     "cell": "B14",
+     "formula": "=DATE(2027,2,16)"
+    },
+    {
+     "cell": "C14",
+     "formula": "New car down payment"
+    },
+    {
+     "cell": "D14",
+     "formula": 150
+    },
+    {
+     "cell": "B15",
+     "formula": "=DATE(2027,2,20)"
+    },
+    {
+     "cell": "C15",
+     "formula": "New laptop"
+    },
+    {
+     "cell": "D15",
+     "formula": 275
+    },
+    {
+     "cell": "B16",
+     "formula": "=DATE(2027,3,2)"
+    },
+    {
+     "cell": "C16",
+     "formula": "Emergency fund"
+    },
+    {
+     "cell": "D16",
+     "formula": 400
+    },
+    {
+     "cell": "B17",
+     "formula": "=DATE(2027,3,2)"
+    },
+    {
+     "cell": "C17",
+     "formula": "Japan trip"
+    },
+    {
+     "cell": "D17",
+     "formula": 250
+    },
+    {
+     "cell": "B18",
+     "formula": "=DATE(2027,3,16)"
+    },
+    {
+     "cell": "C18",
+     "formula": "Wedding"
+    },
+    {
+     "cell": "D18",
+     "formula": 500
+    },
+    {
+     "cell": "B19",
+     "formula": "=DATE(2027,3,20)"
+    },
+    {
+     "cell": "C19",
+     "formula": "New laptop"
+    },
+    {
+     "cell": "D19",
+     "formula": 275
+    },
+    {
+     "cell": "B20",
+     "formula": "=DATE(2027,3,28)"
+    },
+    {
+     "cell": "C20",
+     "formula": "Emergency fund"
+    },
+    {
+     "cell": "D20",
+     "formula": -300
+    },
+    {
+     "cell": "E20",
+     "formula": "Car repair"
+    },
+    {
+     "cell": "B21",
+     "formula": "=DATE(2027,4,2)"
+    },
+    {
+     "cell": "C21",
+     "formula": "Emergency fund"
+    },
+    {
+     "cell": "D21",
+     "formula": 400
+    },
+    {
+     "cell": "B22",
+     "formula": "=DATE(2027,4,2)"
+    },
+    {
+     "cell": "C22",
+     "formula": "Japan trip"
+    },
+    {
+     "cell": "D22",
+     "formula": 250
+    },
+    {
+     "cell": "B23",
+     "formula": "=DATE(2027,4,12)"
+    },
+    {
+     "cell": "C23",
+     "formula": "Japan trip"
+    },
+    {
+     "cell": "D23",
+     "formula": 600
+    },
+    {
+     "cell": "E23",
+     "formula": "Tax refund"
+    },
+    {
+     "cell": "B24",
+     "formula": "=DATE(2027,4,16)"
+    },
+    {
+     "cell": "C24",
+     "formula": "Wedding"
+    },
+    {
+     "cell": "D24",
+     "formula": 500
+    },
+    {
+     "cell": "B25",
+     "formula": "=DATE(2027,4,16)"
+    },
+    {
+     "cell": "C25",
+     "formula": "New car down payment"
+    },
+    {
+     "cell": "D25",
+     "formula": 150
+    },
+    {
+     "cell": "B26",
+     "formula": "=DATE(2027,4,20)"
+    },
+    {
+     "cell": "C26",
+     "formula": "New laptop"
+    },
+    {
+     "cell": "D26",
+     "formula": 275
+    },
+    {
+     "cell": "B27",
+     "formula": "=DATE(2027,5,2)"
+    },
+    {
+     "cell": "C27",
+     "formula": "Emergency fund"
+    },
+    {
+     "cell": "D27",
+     "formula": 400
+    },
+    {
+     "cell": "B28",
+     "formula": "=DATE(2027,5,2)"
+    },
+    {
+     "cell": "C28",
+     "formula": "Japan trip"
+    },
+    {
+     "cell": "D28",
+     "formula": 250
+    },
+    {
+     "cell": "B29",
+     "formula": "=DATE(2027,5,16)"
+    },
+    {
+     "cell": "C29",
+     "formula": "Wedding"
+    },
+    {
+     "cell": "D29",
+     "formula": 500
+    },
+    {
+     "cell": "B30",
+     "formula": "=DATE(2027,6,2)"
+    },
+    {
+     "cell": "C30",
+     "formula": "Emergency fund"
+    },
+    {
+     "cell": "D30",
+     "formula": 400
+    },
+    {
+     "cell": "B31",
+     "formula": "=DATE(2027,6,2)"
+    },
+    {
+     "cell": "C31",
+     "formula": "Japan trip"
+    },
+    {
+     "cell": "D31",
+     "formula": 250
+    },
+    {
+     "cell": "B32",
+     "formula": "=DATE(2027,6,16)"
+    },
+    {
+     "cell": "C32",
+     "formula": "Wedding"
+    },
+    {
+     "cell": "D32",
+     "formula": 500
+    },
+    {
+     "cell": "B33",
+     "formula": "=DATE(2027,6,16)"
+    },
+    {
+     "cell": "C33",
+     "formula": "New car down payment"
+    },
+    {
+     "cell": "D33",
+     "formula": 150
+    },
+    {
+     "col": "H",
+     "range_rows": [
+      6,
+      805
+     ],
+     "formula": "=IF(LOWER(TRIM(C{row}&\"\"))=\"\",0,IFERROR(MATCH(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(LOWER(TRIM(C{row}&\"\")),\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"),'Goals'!$W$8:$W$17,0),0))"
+    },
+    {
+     "col": "F",
+     "range_rows": [
+      6,
+      805
+     ],
+     "formula": "=IF(AND(TRIM(B{row}&\"\")=\"\",TRIM(D{row}&\"\")=\"\"),\"\",IF(OR(NOT(ISNUMBER(B{row})),N(B{row})<1,NOT(ISNUMBER(D{row})),H{row}=0),\"?\",\"OK\"))"
+    },
+    {
+     "col": "G",
+     "range_rows": [
+      6,
+      805
+     ],
+     "formula": "=IF(F{row}=\"OK\",D{row},0)"
+    },
+    {
+     "col": "I",
+     "range_rows": [
+      6,
+      805
+     ],
+     "formula": "=IF(F{row}<>\"OK\",0,IF(YEAR(B{row})='Setup'!$R$5,MONTH(B{row}),0))"
+    },
+    {
+     "col": "J",
+     "range_rows": [
+      6,
+      805
+     ],
+     "formula": "=IF(F{row}=\"OK\",INT(B{row}),0)"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "F6:F805",
+     "type": "formula",
+     "formula": [
+      "$F6=\"?\""
+     ],
+     "fill": "5A2333"
+    },
+    {
+     "range": "D6:D805",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER(D6),D6<0)"
+     ],
+     "fill": "4D4220"
+    },
+    {
+     "range": "B6:B805",
+     "type": "formula",
+     "formula": [
+      "AND(B6<>\"\",OR(NOT(ISNUMBER(B6)),N(B6)<1))"
+     ],
+     "fill": "5A2333"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B5:F5",
+     "color": "1D2030"
+    },
+    {
+     "range": "B6:E805",
+     "color": "292D42"
+    },
+    {
+     "range": "F6:F805",
+     "color": "191B26"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:F805",
+     "color": "343B50"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "9AA0B8"
+    },
+    {
+     "range": "B5:F5",
+     "bold": true,
+     "size": 10,
+     "color": "9AA0B8",
+     "align": "center"
+    },
+    {
+     "range": "B6:F805",
+     "size": 10,
+     "color": "E6E8F0",
+     "align": "center"
+    }
+   ],
+   "validations": [
+    {
+     "range": "C6:C805",
+     "type": "list_range",
+     "source": "'Goals'!$B$8:$B$17",
+     "strict": false
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "B6:B805",
+     "format": "mmm d, yyyy"
+    },
+    {
+     "range": "D6:D805",
+     "format": "$#,##0.00;-$#,##0.00;$0.00"
+    }
+   ],
+   "base": {
+    "fill": "14161E",
+    "font_color": "E6E8F0"
+   }
+  },
+  {
+   "name": "Monthly",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "FF4FA3",
+   "grid_rows": 41,
+   "grid_cols": 7,
+   "row_height": 22,
+   "column_widths": {
+    "A": 2.5,
+    "B": 13,
+    "C": 13,
+    "D": 13,
+    "E": 13,
+    "F": 14,
+    "G": 2.5
+   },
+   "section_bars": [
+    {
+     "range": "B2:F2",
+     "label": "=\"MONTH BY MONTH  -  \"&'Setup'!$R$5",
+     "size": 16,
+     "color": "292D42",
+     "font_color": "2EE6D6"
+    },
+    {
+     "range": "B21:F21",
+     "label": "TOTAL SAVED",
+     "color": "292D42",
+     "font_color": "E6E8F0",
+     "align": "left"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Deposits and withdrawals by month. Total Saved = all goals' starting amounts plus everything logged up to that month."
+    },
+    {
+     "cell": "B6",
+     "formula": "Month"
+    },
+    {
+     "cell": "C6",
+     "formula": "Deposits"
+    },
+    {
+     "cell": "D6",
+     "formula": "Withdrawals"
+    },
+    {
+     "cell": "E6",
+     "formula": "Net Saved"
+    },
+    {
+     "cell": "F6",
+     "formula": "Total Saved"
+    },
+    {
+     "cell": "B7",
+     "formula": "January"
+    },
+    {
+     "cell": "C7",
+     "formula": "=ROUND(SUMIFS('Deposits'!$G$6:$G$805,'Deposits'!$I$6:$I$805,1,'Deposits'!$G$6:$G$805,\">0\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D7",
+     "formula": "=ROUND(-SUMIFS('Deposits'!$G$6:$G$805,'Deposits'!$I$6:$I$805,1,'Deposits'!$G$6:$G$805,\"<0\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E7",
+     "formula": "=ROUND(C7-D7,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "F7",
+     "formula": "=ROUND(SUM('Goals'!$E$8:$E$17)+SUMIFS('Deposits'!$G$6:$G$805,'Deposits'!$J$6:$J$805,\"<=\"&EOMONTH(DATE('Setup'!$R$5,1,1),0)),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B8",
+     "formula": "February"
+    },
+    {
+     "cell": "C8",
+     "formula": "=ROUND(SUMIFS('Deposits'!$G$6:$G$805,'Deposits'!$I$6:$I$805,2,'Deposits'!$G$6:$G$805,\">0\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D8",
+     "formula": "=ROUND(-SUMIFS('Deposits'!$G$6:$G$805,'Deposits'!$I$6:$I$805,2,'Deposits'!$G$6:$G$805,\"<0\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E8",
+     "formula": "=ROUND(C8-D8,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "F8",
+     "formula": "=ROUND(SUM('Goals'!$E$8:$E$17)+SUMIFS('Deposits'!$G$6:$G$805,'Deposits'!$J$6:$J$805,\"<=\"&EOMONTH(DATE('Setup'!$R$5,2,1),0)),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B9",
+     "formula": "March"
+    },
+    {
+     "cell": "C9",
+     "formula": "=ROUND(SUMIFS('Deposits'!$G$6:$G$805,'Deposits'!$I$6:$I$805,3,'Deposits'!$G$6:$G$805,\">0\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D9",
+     "formula": "=ROUND(-SUMIFS('Deposits'!$G$6:$G$805,'Deposits'!$I$6:$I$805,3,'Deposits'!$G$6:$G$805,\"<0\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E9",
+     "formula": "=ROUND(C9-D9,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "F9",
+     "formula": "=ROUND(SUM('Goals'!$E$8:$E$17)+SUMIFS('Deposits'!$G$6:$G$805,'Deposits'!$J$6:$J$805,\"<=\"&EOMONTH(DATE('Setup'!$R$5,3,1),0)),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B10",
+     "formula": "April"
+    },
+    {
+     "cell": "C10",
+     "formula": "=ROUND(SUMIFS('Deposits'!$G$6:$G$805,'Deposits'!$I$6:$I$805,4,'Deposits'!$G$6:$G$805,\">0\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D10",
+     "formula": "=ROUND(-SUMIFS('Deposits'!$G$6:$G$805,'Deposits'!$I$6:$I$805,4,'Deposits'!$G$6:$G$805,\"<0\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E10",
+     "formula": "=ROUND(C10-D10,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "F10",
+     "formula": "=ROUND(SUM('Goals'!$E$8:$E$17)+SUMIFS('Deposits'!$G$6:$G$805,'Deposits'!$J$6:$J$805,\"<=\"&EOMONTH(DATE('Setup'!$R$5,4,1),0)),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B11",
+     "formula": "May"
+    },
+    {
+     "cell": "C11",
+     "formula": "=ROUND(SUMIFS('Deposits'!$G$6:$G$805,'Deposits'!$I$6:$I$805,5,'Deposits'!$G$6:$G$805,\">0\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D11",
+     "formula": "=ROUND(-SUMIFS('Deposits'!$G$6:$G$805,'Deposits'!$I$6:$I$805,5,'Deposits'!$G$6:$G$805,\"<0\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E11",
+     "formula": "=ROUND(C11-D11,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "F11",
+     "formula": "=ROUND(SUM('Goals'!$E$8:$E$17)+SUMIFS('Deposits'!$G$6:$G$805,'Deposits'!$J$6:$J$805,\"<=\"&EOMONTH(DATE('Setup'!$R$5,5,1),0)),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B12",
+     "formula": "June"
+    },
+    {
+     "cell": "C12",
+     "formula": "=ROUND(SUMIFS('Deposits'!$G$6:$G$805,'Deposits'!$I$6:$I$805,6,'Deposits'!$G$6:$G$805,\">0\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D12",
+     "formula": "=ROUND(-SUMIFS('Deposits'!$G$6:$G$805,'Deposits'!$I$6:$I$805,6,'Deposits'!$G$6:$G$805,\"<0\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E12",
+     "formula": "=ROUND(C12-D12,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "F12",
+     "formula": "=ROUND(SUM('Goals'!$E$8:$E$17)+SUMIFS('Deposits'!$G$6:$G$805,'Deposits'!$J$6:$J$805,\"<=\"&EOMONTH(DATE('Setup'!$R$5,6,1),0)),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B13",
+     "formula": "July"
+    },
+    {
+     "cell": "C13",
+     "formula": "=ROUND(SUMIFS('Deposits'!$G$6:$G$805,'Deposits'!$I$6:$I$805,7,'Deposits'!$G$6:$G$805,\">0\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D13",
+     "formula": "=ROUND(-SUMIFS('Deposits'!$G$6:$G$805,'Deposits'!$I$6:$I$805,7,'Deposits'!$G$6:$G$805,\"<0\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E13",
+     "formula": "=ROUND(C13-D13,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "F13",
+     "formula": "=ROUND(SUM('Goals'!$E$8:$E$17)+SUMIFS('Deposits'!$G$6:$G$805,'Deposits'!$J$6:$J$805,\"<=\"&EOMONTH(DATE('Setup'!$R$5,7,1),0)),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B14",
+     "formula": "August"
+    },
+    {
+     "cell": "C14",
+     "formula": "=ROUND(SUMIFS('Deposits'!$G$6:$G$805,'Deposits'!$I$6:$I$805,8,'Deposits'!$G$6:$G$805,\">0\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D14",
+     "formula": "=ROUND(-SUMIFS('Deposits'!$G$6:$G$805,'Deposits'!$I$6:$I$805,8,'Deposits'!$G$6:$G$805,\"<0\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E14",
+     "formula": "=ROUND(C14-D14,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "F14",
+     "formula": "=ROUND(SUM('Goals'!$E$8:$E$17)+SUMIFS('Deposits'!$G$6:$G$805,'Deposits'!$J$6:$J$805,\"<=\"&EOMONTH(DATE('Setup'!$R$5,8,1),0)),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B15",
+     "formula": "September"
+    },
+    {
+     "cell": "C15",
+     "formula": "=ROUND(SUMIFS('Deposits'!$G$6:$G$805,'Deposits'!$I$6:$I$805,9,'Deposits'!$G$6:$G$805,\">0\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D15",
+     "formula": "=ROUND(-SUMIFS('Deposits'!$G$6:$G$805,'Deposits'!$I$6:$I$805,9,'Deposits'!$G$6:$G$805,\"<0\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E15",
+     "formula": "=ROUND(C15-D15,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "F15",
+     "formula": "=ROUND(SUM('Goals'!$E$8:$E$17)+SUMIFS('Deposits'!$G$6:$G$805,'Deposits'!$J$6:$J$805,\"<=\"&EOMONTH(DATE('Setup'!$R$5,9,1),0)),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B16",
+     "formula": "October"
+    },
+    {
+     "cell": "C16",
+     "formula": "=ROUND(SUMIFS('Deposits'!$G$6:$G$805,'Deposits'!$I$6:$I$805,10,'Deposits'!$G$6:$G$805,\">0\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D16",
+     "formula": "=ROUND(-SUMIFS('Deposits'!$G$6:$G$805,'Deposits'!$I$6:$I$805,10,'Deposits'!$G$6:$G$805,\"<0\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E16",
+     "formula": "=ROUND(C16-D16,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "F16",
+     "formula": "=ROUND(SUM('Goals'!$E$8:$E$17)+SUMIFS('Deposits'!$G$6:$G$805,'Deposits'!$J$6:$J$805,\"<=\"&EOMONTH(DATE('Setup'!$R$5,10,1),0)),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B17",
+     "formula": "November"
+    },
+    {
+     "cell": "C17",
+     "formula": "=ROUND(SUMIFS('Deposits'!$G$6:$G$805,'Deposits'!$I$6:$I$805,11,'Deposits'!$G$6:$G$805,\">0\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D17",
+     "formula": "=ROUND(-SUMIFS('Deposits'!$G$6:$G$805,'Deposits'!$I$6:$I$805,11,'Deposits'!$G$6:$G$805,\"<0\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E17",
+     "formula": "=ROUND(C17-D17,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "F17",
+     "formula": "=ROUND(SUM('Goals'!$E$8:$E$17)+SUMIFS('Deposits'!$G$6:$G$805,'Deposits'!$J$6:$J$805,\"<=\"&EOMONTH(DATE('Setup'!$R$5,11,1),0)),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B18",
+     "formula": "December"
+    },
+    {
+     "cell": "C18",
+     "formula": "=ROUND(SUMIFS('Deposits'!$G$6:$G$805,'Deposits'!$I$6:$I$805,12,'Deposits'!$G$6:$G$805,\">0\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D18",
+     "formula": "=ROUND(-SUMIFS('Deposits'!$G$6:$G$805,'Deposits'!$I$6:$I$805,12,'Deposits'!$G$6:$G$805,\"<0\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E18",
+     "formula": "=ROUND(C18-D18,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "F18",
+     "formula": "=ROUND(SUM('Goals'!$E$8:$E$17)+SUMIFS('Deposits'!$G$6:$G$805,'Deposits'!$J$6:$J$805,\"<=\"&EOMONTH(DATE('Setup'!$R$5,12,1),0)),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B19",
+     "formula": "YEAR"
+    },
+    {
+     "cell": "C19",
+     "formula": "=ROUND(SUM(C7:C18),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D19",
+     "formula": "=ROUND(SUM(D7:D18),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E19",
+     "formula": "=ROUND(SUM(E7:E18),2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "E7:E19",
+     "type": "formula",
+     "formula": [
+      "E7<0"
+     ],
+     "fill": "5A2333"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B6:F6",
+     "color": "1D2030"
+    },
+    {
+     "range": "C7:F18",
+     "color": "191B26"
+    },
+    {
+     "range": "B19:F19",
+     "color": "1D2030"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B6:F19",
+     "color": "343B50"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "9AA0B8"
+    },
+    {
+     "range": "B6:F6",
+     "bold": true,
+     "size": 10,
+     "color": "9AA0B8",
+     "align": "center"
+    },
+    {
+     "range": "B7:B19",
+     "bold": true,
+     "size": 10,
+     "color": "E6E8F0"
+    },
+    {
+     "range": "C7:F19",
+     "size": 10,
+     "color": "E6E8F0",
+     "align": "center"
+    },
+    {
+     "range": "F7:F18",
+     "bold": true,
+     "size": 10,
+     "color": "2EE6D6",
+     "align": "center"
+    },
+    {
+     "range": "B19:F19",
+     "bold": true,
+     "size": 10,
+     "color": "E6E8F0",
+     "align": "center"
+    }
+   ],
+   "charts": [
+    {
+     "type": "line",
+     "anchor": "B22",
+     "data": "Monthly!F6:F18",
+     "categories": "Monthly!B7:B18",
+     "width": 16,
+     "height": 7,
+     "colors": [
+      "2EE6D6"
+     ],
+     "legend": false
+    }
+   ],
+   "base": {
+    "fill": "14161E",
+    "font_color": "E6E8F0"
+   }
+  },
+  {
+   "name": "Growth Calculator",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "FFC24D",
+   "grid_rows": 44,
+   "grid_cols": 19,
+   "row_height": 22,
+   "column_widths": {
+    "A": 2.5,
+    "B": 18,
+    "C": 15,
+    "D": 18,
+    "E": 15,
+    "F": 15,
+    "G": 2.5,
+    "R": 10
+   },
+   "hidden_columns": [
+    "R"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:F2",
+     "label": "=\"GROWTH CALCULATOR\"",
+     "size": 16,
+     "color": "292D42",
+     "font_color": "2EE6D6"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "What if? Steady monthly saving plus interest, compounded monthly."
+    },
+    {
+     "cell": "B5",
+     "formula": "Starting amount"
+    },
+    {
+     "cell": "D5",
+     "formula": ""
+    },
+    {
+     "cell": "C5",
+     "formula": 5000
+    },
+    {
+     "cell": "B6",
+     "formula": "Monthly deposit"
+    },
+    {
+     "cell": "D6",
+     "formula": ""
+    },
+    {
+     "cell": "C6",
+     "formula": 400
+    },
+    {
+     "cell": "B7",
+     "formula": "APY %"
+    },
+    {
+     "cell": "D7",
+     "formula": "e.g. 4.5"
+    },
+    {
+     "cell": "C7",
+     "formula": 5
+    },
+    {
+     "cell": "B8",
+     "formula": "Years to show"
+    },
+    {
+     "cell": "D8",
+     "formula": "Blank = 10. Up to 30."
+    },
+    {
+     "cell": "C8",
+     "formula": 15
+    },
+    {
+     "cell": "R5",
+     "formula": "=MAX(0,N(C5))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R6",
+     "formula": "=MAX(0,N(C6))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R7",
+     "formula": "=MAX(0,IF(N(C7)>=1,N(C7)/100,N(C7)))/12"
+    },
+    {
+     "cell": "R8",
+     "formula": "=IF(AND(ISNUMBER(C8),N(C8)>=1),MIN(30,INT(C8)),10)"
+    },
+    {
+     "cell": "B11",
+     "formula": "Year"
+    },
+    {
+     "cell": "C11",
+     "formula": "Start of Year"
+    },
+    {
+     "cell": "D11",
+     "formula": "You Put In"
+    },
+    {
+     "cell": "E11",
+     "formula": "Interest Earned"
+    },
+    {
+     "cell": "F11",
+     "formula": "End of Year"
+    },
+    {
+     "cell": "B12",
+     "formula": "=IF(1>$R$8,\"\",1)"
+    },
+    {
+     "cell": "C12",
+     "formula": "=IF(B12=\"\",\"\",$R$5)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D12",
+     "formula": "=IF(B12=\"\",\"\",ROUND($R$6*12,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F12",
+     "formula": "=IF(B12=\"\",\"\",ROUND(IF($R$7=0,C12+$R$6*12,C12*(1+$R$7)^12+$R$6*((1+$R$7)^12-1)/$R$7),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E12",
+     "formula": "=IF(B12=\"\",\"\",ROUND(F12-C12-D12,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B13",
+     "formula": "=IF(2>$R$8,\"\",2)"
+    },
+    {
+     "cell": "C13",
+     "formula": "=IF(B13=\"\",\"\",F12)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D13",
+     "formula": "=IF(B13=\"\",\"\",ROUND($R$6*12,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F13",
+     "formula": "=IF(B13=\"\",\"\",ROUND(IF($R$7=0,C13+$R$6*12,C13*(1+$R$7)^12+$R$6*((1+$R$7)^12-1)/$R$7),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E13",
+     "formula": "=IF(B13=\"\",\"\",ROUND(F13-C13-D13,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B14",
+     "formula": "=IF(3>$R$8,\"\",3)"
+    },
+    {
+     "cell": "C14",
+     "formula": "=IF(B14=\"\",\"\",F13)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D14",
+     "formula": "=IF(B14=\"\",\"\",ROUND($R$6*12,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F14",
+     "formula": "=IF(B14=\"\",\"\",ROUND(IF($R$7=0,C14+$R$6*12,C14*(1+$R$7)^12+$R$6*((1+$R$7)^12-1)/$R$7),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E14",
+     "formula": "=IF(B14=\"\",\"\",ROUND(F14-C14-D14,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B15",
+     "formula": "=IF(4>$R$8,\"\",4)"
+    },
+    {
+     "cell": "C15",
+     "formula": "=IF(B15=\"\",\"\",F14)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D15",
+     "formula": "=IF(B15=\"\",\"\",ROUND($R$6*12,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F15",
+     "formula": "=IF(B15=\"\",\"\",ROUND(IF($R$7=0,C15+$R$6*12,C15*(1+$R$7)^12+$R$6*((1+$R$7)^12-1)/$R$7),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E15",
+     "formula": "=IF(B15=\"\",\"\",ROUND(F15-C15-D15,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B16",
+     "formula": "=IF(5>$R$8,\"\",5)"
+    },
+    {
+     "cell": "C16",
+     "formula": "=IF(B16=\"\",\"\",F15)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D16",
+     "formula": "=IF(B16=\"\",\"\",ROUND($R$6*12,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F16",
+     "formula": "=IF(B16=\"\",\"\",ROUND(IF($R$7=0,C16+$R$6*12,C16*(1+$R$7)^12+$R$6*((1+$R$7)^12-1)/$R$7),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E16",
+     "formula": "=IF(B16=\"\",\"\",ROUND(F16-C16-D16,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B17",
+     "formula": "=IF(6>$R$8,\"\",6)"
+    },
+    {
+     "cell": "C17",
+     "formula": "=IF(B17=\"\",\"\",F16)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D17",
+     "formula": "=IF(B17=\"\",\"\",ROUND($R$6*12,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F17",
+     "formula": "=IF(B17=\"\",\"\",ROUND(IF($R$7=0,C17+$R$6*12,C17*(1+$R$7)^12+$R$6*((1+$R$7)^12-1)/$R$7),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E17",
+     "formula": "=IF(B17=\"\",\"\",ROUND(F17-C17-D17,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B18",
+     "formula": "=IF(7>$R$8,\"\",7)"
+    },
+    {
+     "cell": "C18",
+     "formula": "=IF(B18=\"\",\"\",F17)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D18",
+     "formula": "=IF(B18=\"\",\"\",ROUND($R$6*12,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F18",
+     "formula": "=IF(B18=\"\",\"\",ROUND(IF($R$7=0,C18+$R$6*12,C18*(1+$R$7)^12+$R$6*((1+$R$7)^12-1)/$R$7),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E18",
+     "formula": "=IF(B18=\"\",\"\",ROUND(F18-C18-D18,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B19",
+     "formula": "=IF(8>$R$8,\"\",8)"
+    },
+    {
+     "cell": "C19",
+     "formula": "=IF(B19=\"\",\"\",F18)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D19",
+     "formula": "=IF(B19=\"\",\"\",ROUND($R$6*12,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F19",
+     "formula": "=IF(B19=\"\",\"\",ROUND(IF($R$7=0,C19+$R$6*12,C19*(1+$R$7)^12+$R$6*((1+$R$7)^12-1)/$R$7),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E19",
+     "formula": "=IF(B19=\"\",\"\",ROUND(F19-C19-D19,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B20",
+     "formula": "=IF(9>$R$8,\"\",9)"
+    },
+    {
+     "cell": "C20",
+     "formula": "=IF(B20=\"\",\"\",F19)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D20",
+     "formula": "=IF(B20=\"\",\"\",ROUND($R$6*12,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F20",
+     "formula": "=IF(B20=\"\",\"\",ROUND(IF($R$7=0,C20+$R$6*12,C20*(1+$R$7)^12+$R$6*((1+$R$7)^12-1)/$R$7),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E20",
+     "formula": "=IF(B20=\"\",\"\",ROUND(F20-C20-D20,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B21",
+     "formula": "=IF(10>$R$8,\"\",10)"
+    },
+    {
+     "cell": "C21",
+     "formula": "=IF(B21=\"\",\"\",F20)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D21",
+     "formula": "=IF(B21=\"\",\"\",ROUND($R$6*12,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F21",
+     "formula": "=IF(B21=\"\",\"\",ROUND(IF($R$7=0,C21+$R$6*12,C21*(1+$R$7)^12+$R$6*((1+$R$7)^12-1)/$R$7),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E21",
+     "formula": "=IF(B21=\"\",\"\",ROUND(F21-C21-D21,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B22",
+     "formula": "=IF(11>$R$8,\"\",11)"
+    },
+    {
+     "cell": "C22",
+     "formula": "=IF(B22=\"\",\"\",F21)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D22",
+     "formula": "=IF(B22=\"\",\"\",ROUND($R$6*12,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F22",
+     "formula": "=IF(B22=\"\",\"\",ROUND(IF($R$7=0,C22+$R$6*12,C22*(1+$R$7)^12+$R$6*((1+$R$7)^12-1)/$R$7),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E22",
+     "formula": "=IF(B22=\"\",\"\",ROUND(F22-C22-D22,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B23",
+     "formula": "=IF(12>$R$8,\"\",12)"
+    },
+    {
+     "cell": "C23",
+     "formula": "=IF(B23=\"\",\"\",F22)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D23",
+     "formula": "=IF(B23=\"\",\"\",ROUND($R$6*12,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F23",
+     "formula": "=IF(B23=\"\",\"\",ROUND(IF($R$7=0,C23+$R$6*12,C23*(1+$R$7)^12+$R$6*((1+$R$7)^12-1)/$R$7),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E23",
+     "formula": "=IF(B23=\"\",\"\",ROUND(F23-C23-D23,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B24",
+     "formula": "=IF(13>$R$8,\"\",13)"
+    },
+    {
+     "cell": "C24",
+     "formula": "=IF(B24=\"\",\"\",F23)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D24",
+     "formula": "=IF(B24=\"\",\"\",ROUND($R$6*12,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F24",
+     "formula": "=IF(B24=\"\",\"\",ROUND(IF($R$7=0,C24+$R$6*12,C24*(1+$R$7)^12+$R$6*((1+$R$7)^12-1)/$R$7),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E24",
+     "formula": "=IF(B24=\"\",\"\",ROUND(F24-C24-D24,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B25",
+     "formula": "=IF(14>$R$8,\"\",14)"
+    },
+    {
+     "cell": "C25",
+     "formula": "=IF(B25=\"\",\"\",F24)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D25",
+     "formula": "=IF(B25=\"\",\"\",ROUND($R$6*12,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F25",
+     "formula": "=IF(B25=\"\",\"\",ROUND(IF($R$7=0,C25+$R$6*12,C25*(1+$R$7)^12+$R$6*((1+$R$7)^12-1)/$R$7),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E25",
+     "formula": "=IF(B25=\"\",\"\",ROUND(F25-C25-D25,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B26",
+     "formula": "=IF(15>$R$8,\"\",15)"
+    },
+    {
+     "cell": "C26",
+     "formula": "=IF(B26=\"\",\"\",F25)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D26",
+     "formula": "=IF(B26=\"\",\"\",ROUND($R$6*12,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F26",
+     "formula": "=IF(B26=\"\",\"\",ROUND(IF($R$7=0,C26+$R$6*12,C26*(1+$R$7)^12+$R$6*((1+$R$7)^12-1)/$R$7),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E26",
+     "formula": "=IF(B26=\"\",\"\",ROUND(F26-C26-D26,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B27",
+     "formula": "=IF(16>$R$8,\"\",16)"
+    },
+    {
+     "cell": "C27",
+     "formula": "=IF(B27=\"\",\"\",F26)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D27",
+     "formula": "=IF(B27=\"\",\"\",ROUND($R$6*12,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F27",
+     "formula": "=IF(B27=\"\",\"\",ROUND(IF($R$7=0,C27+$R$6*12,C27*(1+$R$7)^12+$R$6*((1+$R$7)^12-1)/$R$7),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E27",
+     "formula": "=IF(B27=\"\",\"\",ROUND(F27-C27-D27,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B28",
+     "formula": "=IF(17>$R$8,\"\",17)"
+    },
+    {
+     "cell": "C28",
+     "formula": "=IF(B28=\"\",\"\",F27)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D28",
+     "formula": "=IF(B28=\"\",\"\",ROUND($R$6*12,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F28",
+     "formula": "=IF(B28=\"\",\"\",ROUND(IF($R$7=0,C28+$R$6*12,C28*(1+$R$7)^12+$R$6*((1+$R$7)^12-1)/$R$7),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E28",
+     "formula": "=IF(B28=\"\",\"\",ROUND(F28-C28-D28,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B29",
+     "formula": "=IF(18>$R$8,\"\",18)"
+    },
+    {
+     "cell": "C29",
+     "formula": "=IF(B29=\"\",\"\",F28)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D29",
+     "formula": "=IF(B29=\"\",\"\",ROUND($R$6*12,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F29",
+     "formula": "=IF(B29=\"\",\"\",ROUND(IF($R$7=0,C29+$R$6*12,C29*(1+$R$7)^12+$R$6*((1+$R$7)^12-1)/$R$7),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E29",
+     "formula": "=IF(B29=\"\",\"\",ROUND(F29-C29-D29,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B30",
+     "formula": "=IF(19>$R$8,\"\",19)"
+    },
+    {
+     "cell": "C30",
+     "formula": "=IF(B30=\"\",\"\",F29)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D30",
+     "formula": "=IF(B30=\"\",\"\",ROUND($R$6*12,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F30",
+     "formula": "=IF(B30=\"\",\"\",ROUND(IF($R$7=0,C30+$R$6*12,C30*(1+$R$7)^12+$R$6*((1+$R$7)^12-1)/$R$7),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E30",
+     "formula": "=IF(B30=\"\",\"\",ROUND(F30-C30-D30,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B31",
+     "formula": "=IF(20>$R$8,\"\",20)"
+    },
+    {
+     "cell": "C31",
+     "formula": "=IF(B31=\"\",\"\",F30)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D31",
+     "formula": "=IF(B31=\"\",\"\",ROUND($R$6*12,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F31",
+     "formula": "=IF(B31=\"\",\"\",ROUND(IF($R$7=0,C31+$R$6*12,C31*(1+$R$7)^12+$R$6*((1+$R$7)^12-1)/$R$7),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E31",
+     "formula": "=IF(B31=\"\",\"\",ROUND(F31-C31-D31,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B32",
+     "formula": "=IF(21>$R$8,\"\",21)"
+    },
+    {
+     "cell": "C32",
+     "formula": "=IF(B32=\"\",\"\",F31)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D32",
+     "formula": "=IF(B32=\"\",\"\",ROUND($R$6*12,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F32",
+     "formula": "=IF(B32=\"\",\"\",ROUND(IF($R$7=0,C32+$R$6*12,C32*(1+$R$7)^12+$R$6*((1+$R$7)^12-1)/$R$7),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E32",
+     "formula": "=IF(B32=\"\",\"\",ROUND(F32-C32-D32,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B33",
+     "formula": "=IF(22>$R$8,\"\",22)"
+    },
+    {
+     "cell": "C33",
+     "formula": "=IF(B33=\"\",\"\",F32)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D33",
+     "formula": "=IF(B33=\"\",\"\",ROUND($R$6*12,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F33",
+     "formula": "=IF(B33=\"\",\"\",ROUND(IF($R$7=0,C33+$R$6*12,C33*(1+$R$7)^12+$R$6*((1+$R$7)^12-1)/$R$7),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E33",
+     "formula": "=IF(B33=\"\",\"\",ROUND(F33-C33-D33,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B34",
+     "formula": "=IF(23>$R$8,\"\",23)"
+    },
+    {
+     "cell": "C34",
+     "formula": "=IF(B34=\"\",\"\",F33)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D34",
+     "formula": "=IF(B34=\"\",\"\",ROUND($R$6*12,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F34",
+     "formula": "=IF(B34=\"\",\"\",ROUND(IF($R$7=0,C34+$R$6*12,C34*(1+$R$7)^12+$R$6*((1+$R$7)^12-1)/$R$7),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E34",
+     "formula": "=IF(B34=\"\",\"\",ROUND(F34-C34-D34,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B35",
+     "formula": "=IF(24>$R$8,\"\",24)"
+    },
+    {
+     "cell": "C35",
+     "formula": "=IF(B35=\"\",\"\",F34)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D35",
+     "formula": "=IF(B35=\"\",\"\",ROUND($R$6*12,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F35",
+     "formula": "=IF(B35=\"\",\"\",ROUND(IF($R$7=0,C35+$R$6*12,C35*(1+$R$7)^12+$R$6*((1+$R$7)^12-1)/$R$7),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E35",
+     "formula": "=IF(B35=\"\",\"\",ROUND(F35-C35-D35,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B36",
+     "formula": "=IF(25>$R$8,\"\",25)"
+    },
+    {
+     "cell": "C36",
+     "formula": "=IF(B36=\"\",\"\",F35)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D36",
+     "formula": "=IF(B36=\"\",\"\",ROUND($R$6*12,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F36",
+     "formula": "=IF(B36=\"\",\"\",ROUND(IF($R$7=0,C36+$R$6*12,C36*(1+$R$7)^12+$R$6*((1+$R$7)^12-1)/$R$7),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E36",
+     "formula": "=IF(B36=\"\",\"\",ROUND(F36-C36-D36,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B37",
+     "formula": "=IF(26>$R$8,\"\",26)"
+    },
+    {
+     "cell": "C37",
+     "formula": "=IF(B37=\"\",\"\",F36)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D37",
+     "formula": "=IF(B37=\"\",\"\",ROUND($R$6*12,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F37",
+     "formula": "=IF(B37=\"\",\"\",ROUND(IF($R$7=0,C37+$R$6*12,C37*(1+$R$7)^12+$R$6*((1+$R$7)^12-1)/$R$7),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E37",
+     "formula": "=IF(B37=\"\",\"\",ROUND(F37-C37-D37,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B38",
+     "formula": "=IF(27>$R$8,\"\",27)"
+    },
+    {
+     "cell": "C38",
+     "formula": "=IF(B38=\"\",\"\",F37)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D38",
+     "formula": "=IF(B38=\"\",\"\",ROUND($R$6*12,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F38",
+     "formula": "=IF(B38=\"\",\"\",ROUND(IF($R$7=0,C38+$R$6*12,C38*(1+$R$7)^12+$R$6*((1+$R$7)^12-1)/$R$7),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E38",
+     "formula": "=IF(B38=\"\",\"\",ROUND(F38-C38-D38,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B39",
+     "formula": "=IF(28>$R$8,\"\",28)"
+    },
+    {
+     "cell": "C39",
+     "formula": "=IF(B39=\"\",\"\",F38)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D39",
+     "formula": "=IF(B39=\"\",\"\",ROUND($R$6*12,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F39",
+     "formula": "=IF(B39=\"\",\"\",ROUND(IF($R$7=0,C39+$R$6*12,C39*(1+$R$7)^12+$R$6*((1+$R$7)^12-1)/$R$7),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E39",
+     "formula": "=IF(B39=\"\",\"\",ROUND(F39-C39-D39,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B40",
+     "formula": "=IF(29>$R$8,\"\",29)"
+    },
+    {
+     "cell": "C40",
+     "formula": "=IF(B40=\"\",\"\",F39)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D40",
+     "formula": "=IF(B40=\"\",\"\",ROUND($R$6*12,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F40",
+     "formula": "=IF(B40=\"\",\"\",ROUND(IF($R$7=0,C40+$R$6*12,C40*(1+$R$7)^12+$R$6*((1+$R$7)^12-1)/$R$7),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E40",
+     "formula": "=IF(B40=\"\",\"\",ROUND(F40-C40-D40,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B41",
+     "formula": "=IF(30>$R$8,\"\",30)"
+    },
+    {
+     "cell": "C41",
+     "formula": "=IF(B41=\"\",\"\",F40)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D41",
+     "formula": "=IF(B41=\"\",\"\",ROUND($R$6*12,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F41",
+     "formula": "=IF(B41=\"\",\"\",ROUND(IF($R$7=0,C41+$R$6*12,C41*(1+$R$7)^12+$R$6*((1+$R$7)^12-1)/$R$7),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E41",
+     "formula": "=IF(B41=\"\",\"\",ROUND(F41-C41-D41,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B10",
+     "formula": "=\"After \"&$R$8&\" years: \"&TEXT(INDEX(F12:F41,$R$8),\"$#,##0\")&\". You put in \"&TEXT($R$5+$R$6*12*$R$8,\"$#,##0\")&\", interest adds \"&TEXT(INDEX(F12:F41,$R$8)-$R$5-$R$6*12*$R$8,\"$#,##0\")&\".\""
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "C5:C8",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C5<>\"\",NOT(ISNUMBER(C5))),N(C5)<0)"
+     ],
+     "fill": "5A2333"
+    }
+   ],
+   "fills": [
+    {
+     "range": "C5:C8",
+     "color": "292D42"
+    },
+    {
+     "range": "B11:F11",
+     "color": "1D2030"
+    },
+    {
+     "range": "B12:F41",
+     "color": "191B26"
+    }
+   ],
+   "borders": [
+    {
+     "range": "C5:C8",
+     "color": "343B50"
+    },
+    {
+     "range": "B11:F41",
+     "color": "343B50"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "9AA0B8"
+    },
+    {
+     "range": "B5:B8",
+     "bold": true,
+     "size": 10,
+     "color": "E6E8F0"
+    },
+    {
+     "range": "D5:D8",
+     "italic": true,
+     "size": 9,
+     "color": "9AA0B8"
+    },
+    {
+     "range": "C5:C8",
+     "bold": true,
+     "size": 11,
+     "align": "center"
+    },
+    {
+     "range": "B10",
+     "bold": true,
+     "size": 11,
+     "color": "FFC24D"
+    },
+    {
+     "range": "B11:F11",
+     "bold": true,
+     "size": 10,
+     "color": "9AA0B8",
+     "align": "center"
+    },
+    {
+     "range": "B12:F41",
+     "size": 10,
+     "color": "E6E8F0",
+     "align": "center"
+    },
+    {
+     "range": "F12:F41",
+     "bold": true,
+     "size": 10,
+     "color": "FFC24D",
+     "align": "center"
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "C5:C6",
+     "format": "$#,##0.00"
+    },
+    {
+     "range": "C7",
+     "format": "0.00"
+    },
+    {
+     "range": "C8",
+     "format": "0"
+    }
+   ],
+   "charts": [
+    {
+     "type": "line",
+     "anchor": "H5",
+     "data": "Growth Calculator!F11:F41",
+     "categories": "Growth Calculator!B12:B41",
+     "width": 14,
+     "height": 8,
+     "colors": [
+      "FFC24D"
+     ],
+     "legend": false
+    }
+   ],
+   "base": {
+    "fill": "14161E",
+    "font_color": "E6E8F0"
+   }
+  }
+ ]
+}
