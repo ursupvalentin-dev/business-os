@@ -1,0 +1,4150 @@
+{
+ "filename": "Subscription Tracker",
+ "locale": "en_US",
+ "theme": {
+  "header_font": "FFFFFF",
+  "border": "D9D9F2",
+  "accent": "5B5BD6",
+  "section_colors": [
+   "1F1D47",
+   "ECECFB",
+   "FCE4EC"
+  ],
+  "chart_palette": [
+   "5B5BD6",
+   "E0457B",
+   "4CAF7A",
+   "1F1D47",
+   "F2A541",
+   "48BFE3",
+   "9B5DE5",
+   "F15BB5",
+   "00BBF9",
+   "8D99AE",
+   "FEE440"
+  ]
+ },
+ "tabs": [
+  {
+   "name": "Start Here",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "5B5BD6",
+   "grid_rows": 28,
+   "column_widths": {
+    "A": 2.5,
+    "B": 22,
+    "C": 100,
+    "D": 2.5
+   },
+   "section_bars": [
+    {
+     "range": "B2:C2",
+     "label": "SUBSCRIPTION TRACKER",
+     "size": 18,
+     "color": "1F1D47",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "B5:C5",
+     "label": "HOW TO USE IT",
+     "color": "ECECFB",
+     "font_color": "1F1D47",
+     "align": "left"
+    },
+    {
+     "range": "B12:C12",
+     "label": "GOOD TO KNOW",
+     "color": "E0457B",
+     "font_color": "FFFFFF",
+     "align": "left"
+    },
+    {
+     "range": "B18:C18",
+     "label": "COLOR GUIDE",
+     "color": "ECECFB",
+     "font_color": "1F1D47",
+     "align": "left"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Know what you pay for. Cancel what you don't use."
+    },
+    {
+     "cell": "B6",
+     "formula": "Subscriptions: list every one. Price, how often it bills and the date it renews (any past renewal date works)."
+    },
+    {
+     "cell": "B7",
+     "formula": "Status: Active, Free trial, Paused or Cancelled. Only Active and Free trial count toward your costs."
+    },
+    {
+     "cell": "B8",
+     "formula": "Uses a month: be honest. It shows your cost per use."
+    },
+    {
+     "cell": "B9",
+     "formula": "Decision: Keep, Maybe or Cancel. The Audit tab adds up what you'd save."
+    },
+    {
+     "cell": "B10",
+     "formula": "Renewals: what's coming up next, in date order. Trials ending soon are flagged."
+    },
+    {
+     "cell": "B13",
+     "formula": "Renewal dates roll forward"
+    },
+    {
+     "cell": "C13",
+     "formula": "Type any past renewal date. The sheet works out the next one."
+    },
+    {
+     "cell": "B14",
+     "formula": "Free trials"
+    },
+    {
+     "cell": "C14",
+     "formula": "Add the trial end date so you get a heads-up before you're charged."
+    },
+    {
+     "cell": "B15",
+     "formula": "Yearly plans"
+    },
+    {
+     "cell": "C15",
+     "formula": "Often cheaper. The sheet shows the true monthly cost."
+    },
+    {
+     "cell": "B16",
+     "formula": "Check your statements"
+    },
+    {
+     "cell": "C16",
+     "formula": "Search your bank for 'subscription' to find forgotten ones."
+    },
+    {
+     "cell": "C19",
+     "formula": "White cells are for typing."
+    },
+    {
+     "cell": "C20",
+     "formula": "Grey cells calculate."
+    },
+    {
+     "cell": "C21",
+     "formula": "Red = renews or ends very soon."
+    },
+    {
+     "cell": "C22",
+     "formula": "Pink = marked Cancel."
+    },
+    {
+     "cell": "B24",
+     "formula": "Every cancel is a raise."
+    }
+   ],
+   "fills": [
+    {
+     "range": "B13:C16",
+     "color": "FCE4EC"
+    },
+    {
+     "range": "B19",
+     "color": "FFFFFF"
+    },
+    {
+     "range": "B20",
+     "color": "F7F7FD"
+    },
+    {
+     "range": "B21",
+     "color": "F6CACA"
+    },
+    {
+     "range": "B22",
+     "color": "FCE4EC"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B19",
+     "color": "D9D9F2"
+    },
+    {
+     "range": "B20",
+     "color": "D9D9F2"
+    },
+    {
+     "range": "B21",
+     "color": "D9D9F2"
+    },
+    {
+     "range": "B22",
+     "color": "D9D9F2"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 11,
+     "color": "1F1D47"
+    },
+    {
+     "range": "B13:B16",
+     "bold": true,
+     "size": 11,
+     "color": "1F1D47"
+    },
+    {
+     "range": "B24",
+     "italic": true,
+     "bold": true,
+     "size": 11,
+     "color": "1F1D47"
+    }
+   ]
+  },
+  {
+   "name": "Dashboard",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "E0457B",
+   "grid_rows": 30,
+   "grid_cols": 19,
+   "column_widths": {
+    "A": 2.5,
+    "B": 20,
+    "C": 14,
+    "D": 16,
+    "E": 16,
+    "F": 16,
+    "G": 16,
+    "H": 16,
+    "I": 16,
+    "J": 2.5,
+    "R": 10
+   },
+   "hidden_columns": [
+    "R"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:I2",
+     "label": "SUBSCRIPTIONS DASHBOARD",
+     "size": 16,
+     "color": "1F1D47",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "B14:C14",
+     "label": "BY CATEGORY",
+     "color": "ECECFB",
+     "font_color": "1F1D47",
+     "align": "left"
+    },
+    {
+     "range": "D14:I14",
+     "label": "MONTHLY COST BY CATEGORY",
+     "color": "ECECFB",
+     "font_color": "1F1D47",
+     "align": "left"
+    }
+   ],
+   "kpi_cards": [
+    {
+     "anchor": "B5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "ACTIVE",
+     "value": "=R4&IF(R4=1,\" subscription\",\" subscriptions\")",
+     "fill": "5B5BD6",
+     "font_color": "FFFFFF",
+     "value_size": 16
+    },
+    {
+     "anchor": "D5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "PER MONTH",
+     "value": "=R5",
+     "fill": "1F1D47",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "F5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "PER YEAR",
+     "value": "=R6",
+     "fill": "E0457B",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "H5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "RENEWING IN 7 DAYS",
+     "value": "=R7&\" (\"&TEXT(R8,\"$#,##0.00\")&\")\"",
+     "fill": "5B5BD6",
+     "font_color": "FFFFFF",
+     "value_size": 16
+    },
+    {
+     "anchor": "B9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "TRIALS ENDING SOON",
+     "value": "=IF(R9=0,\"None\",R9)",
+     "fill": "E0457B",
+     "font_color": "FFFFFF",
+     "value_size": 16
+    },
+    {
+     "anchor": "D9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "SAVE IF YOU CANCEL",
+     "value": "=R10",
+     "fill": "4CAF7A",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "F9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "BIGGEST COST",
+     "value": "=IF(R11=\"\",\"-\",R11)",
+     "fill": "1F1D47",
+     "font_color": "FFFFFF",
+     "value_size": 16
+    },
+    {
+     "anchor": "H9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "PER DAY",
+     "value": "=ROUND(R6/365,2)",
+     "fill": "4CAF7A",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "=IF('Setup'!$R$6=\"\",\"My\",'Setup'!$R$6&\"'s\")&\" subscriptions  |  \"&TEXT('Setup'!$R$5,\"mmm d, yyyy\")"
+    },
+    {
+     "cell": "R4",
+     "formula": "=COUNTIFS('Subscriptions'!$T$6:$T$55,1,'Subscriptions'!$S$6:$S$55,\"<=2\")"
+    },
+    {
+     "cell": "R5",
+     "formula": "='Subscriptions'!M56",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R6",
+     "formula": "='Subscriptions'!N56",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R7",
+     "formula": "=COUNTIFS('Subscriptions'!$P$6:$P$55,\">=0\",'Subscriptions'!$P$6:$P$55,\"<=7\")"
+    },
+    {
+     "cell": "R8",
+     "formula": "=ROUND(SUMIFS('Subscriptions'!$D$6:$D$55,'Subscriptions'!$P$6:$P$55,\">=0\",'Subscriptions'!$P$6:$P$55,\"<=7\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R9",
+     "formula": "=COUNTIFS('Subscriptions'!$AJ$6:$AJ$55,\">=0\",'Subscriptions'!$AJ$6:$AJ$55,\"<=7\")"
+    },
+    {
+     "cell": "R10",
+     "formula": "='Audit'!D4",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R11",
+     "formula": "=IFERROR(INDEX('Subscriptions'!$B$6:$B$55,MATCH(MAX('Subscriptions'!$M$6:$M$55),'Subscriptions'!$M$6:$M$55,0)),\"\")"
+    },
+    {
+     "cell": "B13",
+     "formula": "=IF(R4=0,\"Add your subscriptions on the Subscriptions tab.\",IF(R9>0,R9&IF(R9=1,\" free trial ends\",\" free trials end\")&\" within a week. Decide now!\",IF(R10>0,\"Cancel what you marked and keep \"&TEXT(R10,\"$#,##0\")&\" a year.\",\"You pay \"&TEXT(R6,\"$#,##0\")&\" a year. Every one earns its keep.\")))"
+    },
+    {
+     "cell": "B15",
+     "formula": "Category"
+    },
+    {
+     "cell": "C15",
+     "formula": "Per month"
+    },
+    {
+     "cell": "B16",
+     "formula": "Streaming"
+    },
+    {
+     "cell": "C16",
+     "formula": "=ROUND(SUMIFS('Subscriptions'!$M$6:$M$55,'Subscriptions'!$C$6:$C$55,B16),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B17",
+     "formula": "Music"
+    },
+    {
+     "cell": "C17",
+     "formula": "=ROUND(SUMIFS('Subscriptions'!$M$6:$M$55,'Subscriptions'!$C$6:$C$55,B17),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B18",
+     "formula": "Software & apps"
+    },
+    {
+     "cell": "C18",
+     "formula": "=ROUND(SUMIFS('Subscriptions'!$M$6:$M$55,'Subscriptions'!$C$6:$C$55,B18),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B19",
+     "formula": "Cloud storage"
+    },
+    {
+     "cell": "C19",
+     "formula": "=ROUND(SUMIFS('Subscriptions'!$M$6:$M$55,'Subscriptions'!$C$6:$C$55,B19),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B20",
+     "formula": "News & reading"
+    },
+    {
+     "cell": "C20",
+     "formula": "=ROUND(SUMIFS('Subscriptions'!$M$6:$M$55,'Subscriptions'!$C$6:$C$55,B20),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B21",
+     "formula": "Fitness"
+    },
+    {
+     "cell": "C21",
+     "formula": "=ROUND(SUMIFS('Subscriptions'!$M$6:$M$55,'Subscriptions'!$C$6:$C$55,B21),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B22",
+     "formula": "Gaming"
+    },
+    {
+     "cell": "C22",
+     "formula": "=ROUND(SUMIFS('Subscriptions'!$M$6:$M$55,'Subscriptions'!$C$6:$C$55,B22),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B23",
+     "formula": "Food & meal kits"
+    },
+    {
+     "cell": "C23",
+     "formula": "=ROUND(SUMIFS('Subscriptions'!$M$6:$M$55,'Subscriptions'!$C$6:$C$55,B23),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B24",
+     "formula": "Shopping & delivery"
+    },
+    {
+     "cell": "C24",
+     "formula": "=ROUND(SUMIFS('Subscriptions'!$M$6:$M$55,'Subscriptions'!$C$6:$C$55,B24),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B25",
+     "formula": "Kids"
+    },
+    {
+     "cell": "C25",
+     "formula": "=ROUND(SUMIFS('Subscriptions'!$M$6:$M$55,'Subscriptions'!$C$6:$C$55,B25),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B26",
+     "formula": "Other"
+    },
+    {
+     "cell": "C26",
+     "formula": "=ROUND(SUMIFS('Subscriptions'!$M$6:$M$55,'Subscriptions'!$C$6:$C$55,B26),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B27",
+     "formula": "No category"
+    },
+    {
+     "cell": "C27",
+     "formula": "=ROUND(R5-SUM(C16:C26),2)",
+     "number_format": "$#,##0.00"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "B13:I13",
+     "type": "formula",
+     "formula": [
+      "$R$9>0"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "B13:I13",
+     "type": "formula",
+     "formula": [
+      "AND($R$9=0,$R$10>0)"
+     ],
+     "fill": "E3F4EA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B15:C15",
+     "color": "1F1D47"
+    },
+    {
+     "range": "C16:C27",
+     "color": "F7F7FD"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:C7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "D5:E7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "F5:G7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "H5:I7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "B9:C11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "D9:E11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "F9:G11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "H9:I11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "B15:C27",
+     "color": "D9D9F2"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 11,
+     "color": "1F1D47"
+    },
+    {
+     "range": "B13",
+     "bold": true,
+     "size": 11,
+     "color": "1F1D47"
+    },
+    {
+     "range": "B15:C15",
+     "bold": true,
+     "size": 10,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "B16:B27",
+     "bold": true,
+     "size": 10,
+     "color": "1F1D47"
+    },
+    {
+     "range": "C16:C27",
+     "align": "center"
+    }
+   ],
+   "charts": [
+    {
+     "type": "doughnut",
+     "anchor": "D15",
+     "data": "Dashboard!C16:C26",
+     "categories": "Dashboard!B16:B26",
+     "width": 16,
+     "height": 8,
+     "titles_from_data": false
+    }
+   ]
+  },
+  {
+   "name": "Setup",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "1F1D47",
+   "grid_rows": 9,
+   "grid_cols": 19,
+   "column_widths": {
+    "A": 2.5,
+    "B": 24,
+    "C": 18,
+    "D": 28,
+    "E": 2.5,
+    "R": 12
+   },
+   "hidden_columns": [
+    "R"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:D2",
+     "label": "SETUP",
+     "size": 16,
+     "color": "1F1D47",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B4",
+     "formula": "Setting"
+    },
+    {
+     "cell": "C4",
+     "formula": "Yours"
+    },
+    {
+     "cell": "D4",
+     "formula": "Note"
+    },
+    {
+     "cell": "B5",
+     "formula": "Your name"
+    },
+    {
+     "cell": "C5",
+     "formula": "Riley"
+    },
+    {
+     "cell": "B6",
+     "formula": "Year (for Monthly tab)"
+    },
+    {
+     "cell": "D6",
+     "formula": "Blank = this year."
+    },
+    {
+     "cell": "C6",
+     "formula": 2027
+    },
+    {
+     "cell": "B7",
+     "formula": "Today"
+    },
+    {
+     "cell": "D7",
+     "formula": "Blank = today."
+    },
+    {
+     "cell": "C7",
+     "formula": "=DATE(2027,6,20)"
+    },
+    {
+     "cell": "R5",
+     "formula": "=IF(AND(ISNUMBER(C7),N(C7)>=1),INT(C7),TODAY())",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "R4",
+     "formula": "=IF(AND(ISNUMBER(C6),N(C6)>=1900,N(C6)<=9999),INT(C6),YEAR(R5))"
+    },
+    {
+     "cell": "R6",
+     "formula": "=TRIM(C5&\"\")"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "C7",
+     "type": "formula",
+     "formula": [
+      "AND(C7<>\"\",OR(NOT(ISNUMBER(C7)),N(C7)<1))"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C6",
+     "type": "formula",
+     "formula": [
+      "AND(C6<>\"\",OR(NOT(ISNUMBER(C6)),N(C6)<1900,N(C6)>9999))"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B4:D4",
+     "color": "ECECFB"
+    },
+    {
+     "range": "C5:C7",
+     "color": "FFFFFF"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B4:D7",
+     "color": "D9D9F2"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B4:D4",
+     "bold": true,
+     "size": 10,
+     "color": "1F1D47",
+     "align": "center"
+    },
+    {
+     "range": "B5:B7",
+     "bold": true,
+     "size": 10,
+     "color": "1F1D47"
+    },
+    {
+     "range": "D5:D7",
+     "italic": true,
+     "size": 9,
+     "color": "1F1D47"
+    },
+    {
+     "range": "C5:C7",
+     "bold": true,
+     "size": 11,
+     "color": "1F1D47",
+     "align": "center"
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "C6",
+     "format": "0"
+    },
+    {
+     "range": "C7",
+     "format": "mmm d, yyyy"
+    }
+   ]
+  },
+  {
+   "name": "Subscriptions",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "5B5BD6",
+   "grid_rows": 58,
+   "grid_cols": 41,
+   "freeze": "C6",
+   "column_widths": {
+    "A": 2.5,
+    "B": 20,
+    "C": 16,
+    "D": 9,
+    "E": 10,
+    "F": 12,
+    "G": 11,
+    "H": 11,
+    "I": 11,
+    "J": 8,
+    "K": 9,
+    "L": 22,
+    "M": 10,
+    "N": 10,
+    "O": 12,
+    "P": 7,
+    "Q": 2.5,
+    "R": 3,
+    "S": 3,
+    "T": 3,
+    "U": 3,
+    "V": 3,
+    "W": 3,
+    "X": 3,
+    "Y": 3,
+    "Z": 3,
+    "AA": 3,
+    "AB": 3,
+    "AC": 3,
+    "AD": 3,
+    "AE": 3,
+    "AF": 3,
+    "AG": 3,
+    "AH": 3,
+    "AI": 3,
+    "AJ": 3,
+    "AK": 3,
+    "AL": 3,
+    "AM": 3,
+    "AN": 3
+   },
+   "hidden_columns": [
+    "R",
+    "S",
+    "T",
+    "U",
+    "V",
+    "W",
+    "X",
+    "Y",
+    "Z",
+    "AA",
+    "AB",
+    "AC",
+    "AD",
+    "AE",
+    "AF",
+    "AG",
+    "AH",
+    "AI",
+    "AJ",
+    "AK",
+    "AL",
+    "AM",
+    "AN"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:P2",
+     "label": "MY SUBSCRIPTIONS",
+     "size": 16,
+     "color": "1F1D47",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Renews on: any past or upcoming renewal date. Next renewal rolls forward on its own."
+    },
+    {
+     "cell": "B5",
+     "formula": "Subscription"
+    },
+    {
+     "cell": "C5",
+     "formula": "Category"
+    },
+    {
+     "cell": "D5",
+     "formula": "Price"
+    },
+    {
+     "cell": "E5",
+     "formula": "Bills"
+    },
+    {
+     "cell": "F5",
+     "formula": "Renews on"
+    },
+    {
+     "cell": "G5",
+     "formula": "Status"
+    },
+    {
+     "cell": "H5",
+     "formula": "Trial ends"
+    },
+    {
+     "cell": "I5",
+     "formula": "Paid with"
+    },
+    {
+     "cell": "J5",
+     "formula": "Uses a month"
+    },
+    {
+     "cell": "K5",
+     "formula": "Decision"
+    },
+    {
+     "cell": "L5",
+     "formula": "Note"
+    },
+    {
+     "cell": "M5",
+     "formula": "Per month"
+    },
+    {
+     "cell": "N5",
+     "formula": "Per year"
+    },
+    {
+     "cell": "O5",
+     "formula": "Next renewal"
+    },
+    {
+     "cell": "P5",
+     "formula": "Days away"
+    },
+    {
+     "cell": "B6",
+     "formula": "Netflix"
+    },
+    {
+     "cell": "C6",
+     "formula": "Streaming"
+    },
+    {
+     "cell": "D6",
+     "formula": 15.49
+    },
+    {
+     "cell": "E6",
+     "formula": "Monthly"
+    },
+    {
+     "cell": "F6",
+     "formula": "=DATE(2027,1,8)"
+    },
+    {
+     "cell": "G6",
+     "formula": "Active"
+    },
+    {
+     "cell": "I6",
+     "formula": "Visa"
+    },
+    {
+     "cell": "J6",
+     "formula": 12
+    },
+    {
+     "cell": "K6",
+     "formula": "Keep"
+    },
+    {
+     "cell": "B7",
+     "formula": "Spotify Family"
+    },
+    {
+     "cell": "C7",
+     "formula": "Music"
+    },
+    {
+     "cell": "D7",
+     "formula": 16.99
+    },
+    {
+     "cell": "E7",
+     "formula": "Monthly"
+    },
+    {
+     "cell": "F7",
+     "formula": "=DATE(2027,1,21)"
+    },
+    {
+     "cell": "G7",
+     "formula": "Active"
+    },
+    {
+     "cell": "I7",
+     "formula": "Visa"
+    },
+    {
+     "cell": "J7",
+     "formula": 40
+    },
+    {
+     "cell": "K7",
+     "formula": "Keep"
+    },
+    {
+     "cell": "L7",
+     "formula": "Shared with family"
+    },
+    {
+     "cell": "B8",
+     "formula": "Disney+"
+    },
+    {
+     "cell": "C8",
+     "formula": "Streaming"
+    },
+    {
+     "cell": "D8",
+     "formula": 13.99
+    },
+    {
+     "cell": "E8",
+     "formula": "Monthly"
+    },
+    {
+     "cell": "F8",
+     "formula": "=DATE(2027,2,3)"
+    },
+    {
+     "cell": "G8",
+     "formula": "Active"
+    },
+    {
+     "cell": "I8",
+     "formula": "Visa"
+    },
+    {
+     "cell": "J8",
+     "formula": 2
+    },
+    {
+     "cell": "K8",
+     "formula": "Maybe"
+    },
+    {
+     "cell": "B9",
+     "formula": "Max"
+    },
+    {
+     "cell": "C9",
+     "formula": "Streaming"
+    },
+    {
+     "cell": "D9",
+     "formula": 16.99
+    },
+    {
+     "cell": "E9",
+     "formula": "Monthly"
+    },
+    {
+     "cell": "F9",
+     "formula": "=DATE(2027,3,14)"
+    },
+    {
+     "cell": "G9",
+     "formula": "Active"
+    },
+    {
+     "cell": "I9",
+     "formula": "Mastercard"
+    },
+    {
+     "cell": "J9",
+     "formula": 1
+    },
+    {
+     "cell": "K9",
+     "formula": "Cancel"
+    },
+    {
+     "cell": "L9",
+     "formula": "Finished the show"
+    },
+    {
+     "cell": "B10",
+     "formula": "Cloud storage 2TB"
+    },
+    {
+     "cell": "C10",
+     "formula": "Cloud storage"
+    },
+    {
+     "cell": "D10",
+     "formula": 9.99
+    },
+    {
+     "cell": "E10",
+     "formula": "Monthly"
+    },
+    {
+     "cell": "F10",
+     "formula": "=DATE(2027,1,27)"
+    },
+    {
+     "cell": "G10",
+     "formula": "Active"
+    },
+    {
+     "cell": "I10",
+     "formula": "Visa"
+    },
+    {
+     "cell": "J10",
+     "formula": 30
+    },
+    {
+     "cell": "K10",
+     "formula": "Keep"
+    },
+    {
+     "cell": "B11",
+     "formula": "Microsoft 365"
+    },
+    {
+     "cell": "C11",
+     "formula": "Software & apps"
+    },
+    {
+     "cell": "D11",
+     "formula": 99.99
+    },
+    {
+     "cell": "E11",
+     "formula": "Yearly"
+    },
+    {
+     "cell": "F11",
+     "formula": "=DATE(2026,10,2)"
+    },
+    {
+     "cell": "G11",
+     "formula": "Active"
+    },
+    {
+     "cell": "I11",
+     "formula": "Visa"
+    },
+    {
+     "cell": "J11",
+     "formula": 20
+    },
+    {
+     "cell": "K11",
+     "formula": "Keep"
+    },
+    {
+     "cell": "B12",
+     "formula": "Gym membership"
+    },
+    {
+     "cell": "C12",
+     "formula": "Fitness"
+    },
+    {
+     "cell": "D12",
+     "formula": 39.99
+    },
+    {
+     "cell": "E12",
+     "formula": "Monthly"
+    },
+    {
+     "cell": "F12",
+     "formula": "=DATE(2027,1,1)"
+    },
+    {
+     "cell": "G12",
+     "formula": "Active"
+    },
+    {
+     "cell": "I12",
+     "formula": "Debit"
+    },
+    {
+     "cell": "J12",
+     "formula": 3
+    },
+    {
+     "cell": "K12",
+     "formula": "Maybe"
+    },
+    {
+     "cell": "L12",
+     "formula": "Use it or lose it"
+    },
+    {
+     "cell": "B13",
+     "formula": "Fitness app"
+    },
+    {
+     "cell": "C13",
+     "formula": "Fitness"
+    },
+    {
+     "cell": "D13",
+     "formula": 79.99
+    },
+    {
+     "cell": "E13",
+     "formula": "Yearly"
+    },
+    {
+     "cell": "F13",
+     "formula": "=DATE(2026,8,15)"
+    },
+    {
+     "cell": "G13",
+     "formula": "Active"
+    },
+    {
+     "cell": "I13",
+     "formula": "Visa"
+    },
+    {
+     "cell": "J13",
+     "formula": 6
+    },
+    {
+     "cell": "K13",
+     "formula": "Keep"
+    },
+    {
+     "cell": "B14",
+     "formula": "Meal kit"
+    },
+    {
+     "cell": "C14",
+     "formula": "Food & meal kits"
+    },
+    {
+     "cell": "D14",
+     "formula": 59.94
+    },
+    {
+     "cell": "E14",
+     "formula": "Weekly"
+    },
+    {
+     "cell": "F14",
+     "formula": "=DATE(2027,6,2)"
+    },
+    {
+     "cell": "G14",
+     "formula": "Active"
+    },
+    {
+     "cell": "I14",
+     "formula": "Mastercard"
+    },
+    {
+     "cell": "J14",
+     "formula": 4
+    },
+    {
+     "cell": "K14",
+     "formula": "Maybe"
+    },
+    {
+     "cell": "L14",
+     "formula": "Skip weeks!"
+    },
+    {
+     "cell": "B15",
+     "formula": "Amazon Prime"
+    },
+    {
+     "cell": "C15",
+     "formula": "Shopping & delivery"
+    },
+    {
+     "cell": "D15",
+     "formula": 139
+    },
+    {
+     "cell": "E15",
+     "formula": "Yearly"
+    },
+    {
+     "cell": "F15",
+     "formula": "=DATE(2027,4,14)"
+    },
+    {
+     "cell": "G15",
+     "formula": "Active"
+    },
+    {
+     "cell": "I15",
+     "formula": "Visa"
+    },
+    {
+     "cell": "J15",
+     "formula": 8
+    },
+    {
+     "cell": "K15",
+     "formula": "Keep"
+    },
+    {
+     "cell": "B16",
+     "formula": "News app"
+    },
+    {
+     "cell": "C16",
+     "formula": "News & reading"
+    },
+    {
+     "cell": "D16",
+     "formula": 4.99
+    },
+    {
+     "cell": "E16",
+     "formula": "Monthly"
+    },
+    {
+     "cell": "F16",
+     "formula": "=DATE(2027,2,11)"
+    },
+    {
+     "cell": "G16",
+     "formula": "Active"
+    },
+    {
+     "cell": "I16",
+     "formula": "Visa"
+    },
+    {
+     "cell": "J16",
+     "formula": 15
+    },
+    {
+     "cell": "K16",
+     "formula": "Keep"
+    },
+    {
+     "cell": "B17",
+     "formula": "Audiobooks"
+    },
+    {
+     "cell": "C17",
+     "formula": "News & reading"
+    },
+    {
+     "cell": "D17",
+     "formula": 14.95
+    },
+    {
+     "cell": "E17",
+     "formula": "Monthly"
+    },
+    {
+     "cell": "F17",
+     "formula": "=DATE(2027,1,19)"
+    },
+    {
+     "cell": "G17",
+     "formula": "Active"
+    },
+    {
+     "cell": "I17",
+     "formula": "Visa"
+    },
+    {
+     "cell": "J17",
+     "formula": 1
+    },
+    {
+     "cell": "K17",
+     "formula": "Cancel"
+    },
+    {
+     "cell": "L17",
+     "formula": "3 unused credits"
+    },
+    {
+     "cell": "B18",
+     "formula": "Game pass"
+    },
+    {
+     "cell": "C18",
+     "formula": "Gaming"
+    },
+    {
+     "cell": "D18",
+     "formula": 16.99
+    },
+    {
+     "cell": "E18",
+     "formula": "Monthly"
+    },
+    {
+     "cell": "F18",
+     "formula": "=DATE(2027,5,6)"
+    },
+    {
+     "cell": "G18",
+     "formula": "Free trial"
+    },
+    {
+     "cell": "H18",
+     "formula": "=DATE(2027,6,24)"
+    },
+    {
+     "cell": "I18",
+     "formula": "Visa"
+    },
+    {
+     "cell": "J18",
+     "formula": 5
+    },
+    {
+     "cell": "K18",
+     "formula": "Maybe"
+    },
+    {
+     "cell": "L18",
+     "formula": "Trial ends soon"
+    },
+    {
+     "cell": "B19",
+     "formula": "Kids learning app"
+    },
+    {
+     "cell": "C19",
+     "formula": "Kids"
+    },
+    {
+     "cell": "D19",
+     "formula": 59.99
+    },
+    {
+     "cell": "E19",
+     "formula": "Yearly"
+    },
+    {
+     "cell": "F19",
+     "formula": "=DATE(2026,9,1)"
+    },
+    {
+     "cell": "G19",
+     "formula": "Active"
+    },
+    {
+     "cell": "I19",
+     "formula": "Visa"
+    },
+    {
+     "cell": "J19",
+     "formula": 16
+    },
+    {
+     "cell": "K19",
+     "formula": "Keep"
+    },
+    {
+     "cell": "B20",
+     "formula": "Photo editor"
+    },
+    {
+     "cell": "C20",
+     "formula": "Software & apps"
+    },
+    {
+     "cell": "D20",
+     "formula": 9.99
+    },
+    {
+     "cell": "E20",
+     "formula": "Monthly"
+    },
+    {
+     "cell": "F20",
+     "formula": "=DATE(2027,1,30)"
+    },
+    {
+     "cell": "G20",
+     "formula": "Paused"
+    },
+    {
+     "cell": "I20",
+     "formula": "Visa"
+    },
+    {
+     "cell": "J20",
+     "formula": 0
+    },
+    {
+     "cell": "K20",
+     "formula": "Maybe"
+    },
+    {
+     "cell": "L20",
+     "formula": "Paused until fall"
+    },
+    {
+     "cell": "B21",
+     "formula": "Old VPN"
+    },
+    {
+     "cell": "C21",
+     "formula": "Software & apps"
+    },
+    {
+     "cell": "D21",
+     "formula": 11.99
+    },
+    {
+     "cell": "E21",
+     "formula": "Monthly"
+    },
+    {
+     "cell": "F21",
+     "formula": "=DATE(2026,11,5)"
+    },
+    {
+     "cell": "G21",
+     "formula": "Cancelled"
+    },
+    {
+     "cell": "I21",
+     "formula": "Visa"
+    },
+    {
+     "cell": "J21",
+     "formula": 0
+    },
+    {
+     "cell": "K21",
+     "formula": "Cancel"
+    },
+    {
+     "cell": "L21",
+     "formula": "Cancelled in March"
+    },
+    {
+     "cell": "B22",
+     "formula": "Pet supply delivery"
+    },
+    {
+     "cell": "C22",
+     "formula": "Shopping & delivery"
+    },
+    {
+     "cell": "D22",
+     "formula": 42
+    },
+    {
+     "cell": "E22",
+     "formula": "Quarterly"
+    },
+    {
+     "cell": "F22",
+     "formula": "=DATE(2027,2,20)"
+    },
+    {
+     "cell": "G22",
+     "formula": "Active"
+    },
+    {
+     "cell": "I22",
+     "formula": "Debit"
+    },
+    {
+     "cell": "J22",
+     "formula": 1
+    },
+    {
+     "cell": "K22",
+     "formula": "Keep"
+    },
+    {
+     "col": "R",
+     "range_rows": [
+      6,
+      55
+     ],
+     "formula": "=IF(TRIM(E{row}&\"\")=\"\",2,IFERROR(MATCH(LOWER(TRIM(E{row}&\"\")),{\"weekly\",\"monthly\",\"quarterly\",\"yearly\"},0),0))"
+    },
+    {
+     "col": "S",
+     "range_rows": [
+      6,
+      55
+     ],
+     "formula": "=IF(TRIM(G{row}&\"\")=\"\",1,IFERROR(MATCH(LOWER(TRIM(G{row}&\"\")),{\"active\",\"free trial\",\"paused\",\"cancelled\"},0),0))"
+    },
+    {
+     "col": "T",
+     "range_rows": [
+      6,
+      55
+     ],
+     "formula": "=IF(AND(TRIM(B{row}&\"\")<>\"\",ISNUMBER(D{row}),N(D{row})>=0,R{row}>0,S{row}>0),1,0)"
+    },
+    {
+     "col": "AL",
+     "range_rows": [
+      6,
+      55
+     ],
+     "formula": "=IF(AND(ISNUMBER(F{row}),N(F{row})>=1),INT(F{row}),\"\")",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "col": "M",
+     "range_rows": [
+      6,
+      55
+     ],
+     "formula": "=IF(T{row}=0,\"\",IF(S{row}>2,0,ROUND(D{row}*CHOOSE(R{row},52/12,1,1/3,1/12),2)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "N",
+     "range_rows": [
+      6,
+      55
+     ],
+     "formula": "=IF(T{row}=0,\"\",IF(S{row}>2,0,ROUND(D{row}*CHOOSE(R{row},52,12,4,1),2)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "AK",
+     "range_rows": [
+      6,
+      55
+     ],
+     "formula": "=IF(AL{row}=\"\",0,(YEAR('Setup'!$R$5)-YEAR(AL{row}))*12+MONTH('Setup'!$R$5)-MONTH(AL{row}))"
+    },
+    {
+     "col": "O",
+     "range_rows": [
+      6,
+      55
+     ],
+     "formula": "=IF(OR(T{row}=0,S{row}>2,AL{row}=\"\"),\"\",IF(AL{row}>='Setup'!$R$5,AL{row},IF(R{row}=1,AL{row}+7*ROUNDUP(('Setup'!$R$5-AL{row})/7,0),IF(EDATE(AL{row},ROUNDUP(AK{row}/CHOOSE(R{row},1,1,3,12),0)*CHOOSE(R{row},1,1,3,12))<'Setup'!$R$5,EDATE(AL{row},(ROUNDUP(AK{row}/CHOOSE(R{row},1,1,3,12),0)+1)*CHOOSE(R{row},1,1,3,12)),EDATE(AL{row},ROUNDUP(AK{row}/CHOOSE(R{row},1,1,3,12),0)*CHOOSE(R{row},1,1,3,12))))))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "col": "P",
+     "range_rows": [
+      6,
+      55
+     ],
+     "formula": "=IF(O{row}=\"\",\"\",O{row}-'Setup'!$R$5)",
+     "number_format": "0"
+    },
+    {
+     "col": "AG",
+     "range_rows": [
+      6,
+      55
+     ],
+     "formula": "=IF(O{row}=\"\",\"\",O{row}*1000+ROW()-5)"
+    },
+    {
+     "col": "AH",
+     "range_rows": [
+      6,
+      55
+     ],
+     "formula": "=IF(OR(T{row}=0,S{row}>2),\"\",IF(AND(ISNUMBER(J{row}),J{row}>0),ROUND(M{row}/J{row},2),M{row}))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "AI",
+     "range_rows": [
+      6,
+      55
+     ],
+     "formula": "=IF(AH{row}=\"\",\"\",ROUND(AH{row}*100,0)*1000+1000-ROW()+5)"
+    },
+    {
+     "col": "AN",
+     "range_rows": [
+      6,
+      55
+     ],
+     "formula": "=IF(T{row}=0,0,ROUND(D{row}*CHOOSE(R{row},52,12,4,1),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "AJ",
+     "range_rows": [
+      6,
+      55
+     ],
+     "formula": "=IF(AND(S{row}=2,ISNUMBER(H{row}),N(H{row})>=1),INT(H{row})-'Setup'!$R$5,\"\")",
+     "number_format": "0"
+    },
+    {
+     "col": "AM",
+     "range_rows": [
+      6,
+      55
+     ],
+     "formula": "=IF(T{row}=0,0,IFERROR(MATCH(LOWER(TRIM(K{row}&\"\")),{\"keep\",\"maybe\",\"cancel\"},0),0))"
+    },
+    {
+     "col": "U",
+     "range_rows": [
+      6,
+      55
+     ],
+     "formula": "=IF(OR(T{row}=0,S{row}>2),0,IF(R{row}=2,D{row},IF(AL{row}=\"\",0,ROUND(D{row}*CHOOSE(R{row},INT((EOMONTH(DATE('Setup'!$R$4,1,1),0)-(DATE('Setup'!$R$4,1,1)+MOD(WEEKDAY(AL{row})-WEEKDAY(DATE('Setup'!$R$4,1,1)),7)))/7)+1,1,IF(MOD(1-MONTH(AL{row}),3)=0,1,0),IF(MONTH(AL{row})=1,1,0)),2))))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "V",
+     "range_rows": [
+      6,
+      55
+     ],
+     "formula": "=IF(OR(T{row}=0,S{row}>2),0,IF(R{row}=2,D{row},IF(AL{row}=\"\",0,ROUND(D{row}*CHOOSE(R{row},INT((EOMONTH(DATE('Setup'!$R$4,2,1),0)-(DATE('Setup'!$R$4,2,1)+MOD(WEEKDAY(AL{row})-WEEKDAY(DATE('Setup'!$R$4,2,1)),7)))/7)+1,1,IF(MOD(2-MONTH(AL{row}),3)=0,1,0),IF(MONTH(AL{row})=2,1,0)),2))))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "W",
+     "range_rows": [
+      6,
+      55
+     ],
+     "formula": "=IF(OR(T{row}=0,S{row}>2),0,IF(R{row}=2,D{row},IF(AL{row}=\"\",0,ROUND(D{row}*CHOOSE(R{row},INT((EOMONTH(DATE('Setup'!$R$4,3,1),0)-(DATE('Setup'!$R$4,3,1)+MOD(WEEKDAY(AL{row})-WEEKDAY(DATE('Setup'!$R$4,3,1)),7)))/7)+1,1,IF(MOD(3-MONTH(AL{row}),3)=0,1,0),IF(MONTH(AL{row})=3,1,0)),2))))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "X",
+     "range_rows": [
+      6,
+      55
+     ],
+     "formula": "=IF(OR(T{row}=0,S{row}>2),0,IF(R{row}=2,D{row},IF(AL{row}=\"\",0,ROUND(D{row}*CHOOSE(R{row},INT((EOMONTH(DATE('Setup'!$R$4,4,1),0)-(DATE('Setup'!$R$4,4,1)+MOD(WEEKDAY(AL{row})-WEEKDAY(DATE('Setup'!$R$4,4,1)),7)))/7)+1,1,IF(MOD(4-MONTH(AL{row}),3)=0,1,0),IF(MONTH(AL{row})=4,1,0)),2))))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "Y",
+     "range_rows": [
+      6,
+      55
+     ],
+     "formula": "=IF(OR(T{row}=0,S{row}>2),0,IF(R{row}=2,D{row},IF(AL{row}=\"\",0,ROUND(D{row}*CHOOSE(R{row},INT((EOMONTH(DATE('Setup'!$R$4,5,1),0)-(DATE('Setup'!$R$4,5,1)+MOD(WEEKDAY(AL{row})-WEEKDAY(DATE('Setup'!$R$4,5,1)),7)))/7)+1,1,IF(MOD(5-MONTH(AL{row}),3)=0,1,0),IF(MONTH(AL{row})=5,1,0)),2))))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "Z",
+     "range_rows": [
+      6,
+      55
+     ],
+     "formula": "=IF(OR(T{row}=0,S{row}>2),0,IF(R{row}=2,D{row},IF(AL{row}=\"\",0,ROUND(D{row}*CHOOSE(R{row},INT((EOMONTH(DATE('Setup'!$R$4,6,1),0)-(DATE('Setup'!$R$4,6,1)+MOD(WEEKDAY(AL{row})-WEEKDAY(DATE('Setup'!$R$4,6,1)),7)))/7)+1,1,IF(MOD(6-MONTH(AL{row}),3)=0,1,0),IF(MONTH(AL{row})=6,1,0)),2))))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "AA",
+     "range_rows": [
+      6,
+      55
+     ],
+     "formula": "=IF(OR(T{row}=0,S{row}>2),0,IF(R{row}=2,D{row},IF(AL{row}=\"\",0,ROUND(D{row}*CHOOSE(R{row},INT((EOMONTH(DATE('Setup'!$R$4,7,1),0)-(DATE('Setup'!$R$4,7,1)+MOD(WEEKDAY(AL{row})-WEEKDAY(DATE('Setup'!$R$4,7,1)),7)))/7)+1,1,IF(MOD(7-MONTH(AL{row}),3)=0,1,0),IF(MONTH(AL{row})=7,1,0)),2))))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "AB",
+     "range_rows": [
+      6,
+      55
+     ],
+     "formula": "=IF(OR(T{row}=0,S{row}>2),0,IF(R{row}=2,D{row},IF(AL{row}=\"\",0,ROUND(D{row}*CHOOSE(R{row},INT((EOMONTH(DATE('Setup'!$R$4,8,1),0)-(DATE('Setup'!$R$4,8,1)+MOD(WEEKDAY(AL{row})-WEEKDAY(DATE('Setup'!$R$4,8,1)),7)))/7)+1,1,IF(MOD(8-MONTH(AL{row}),3)=0,1,0),IF(MONTH(AL{row})=8,1,0)),2))))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "AC",
+     "range_rows": [
+      6,
+      55
+     ],
+     "formula": "=IF(OR(T{row}=0,S{row}>2),0,IF(R{row}=2,D{row},IF(AL{row}=\"\",0,ROUND(D{row}*CHOOSE(R{row},INT((EOMONTH(DATE('Setup'!$R$4,9,1),0)-(DATE('Setup'!$R$4,9,1)+MOD(WEEKDAY(AL{row})-WEEKDAY(DATE('Setup'!$R$4,9,1)),7)))/7)+1,1,IF(MOD(9-MONTH(AL{row}),3)=0,1,0),IF(MONTH(AL{row})=9,1,0)),2))))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "AD",
+     "range_rows": [
+      6,
+      55
+     ],
+     "formula": "=IF(OR(T{row}=0,S{row}>2),0,IF(R{row}=2,D{row},IF(AL{row}=\"\",0,ROUND(D{row}*CHOOSE(R{row},INT((EOMONTH(DATE('Setup'!$R$4,10,1),0)-(DATE('Setup'!$R$4,10,1)+MOD(WEEKDAY(AL{row})-WEEKDAY(DATE('Setup'!$R$4,10,1)),7)))/7)+1,1,IF(MOD(10-MONTH(AL{row}),3)=0,1,0),IF(MONTH(AL{row})=10,1,0)),2))))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "AE",
+     "range_rows": [
+      6,
+      55
+     ],
+     "formula": "=IF(OR(T{row}=0,S{row}>2),0,IF(R{row}=2,D{row},IF(AL{row}=\"\",0,ROUND(D{row}*CHOOSE(R{row},INT((EOMONTH(DATE('Setup'!$R$4,11,1),0)-(DATE('Setup'!$R$4,11,1)+MOD(WEEKDAY(AL{row})-WEEKDAY(DATE('Setup'!$R$4,11,1)),7)))/7)+1,1,IF(MOD(11-MONTH(AL{row}),3)=0,1,0),IF(MONTH(AL{row})=11,1,0)),2))))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "AF",
+     "range_rows": [
+      6,
+      55
+     ],
+     "formula": "=IF(OR(T{row}=0,S{row}>2),0,IF(R{row}=2,D{row},IF(AL{row}=\"\",0,ROUND(D{row}*CHOOSE(R{row},INT((EOMONTH(DATE('Setup'!$R$4,12,1),0)-(DATE('Setup'!$R$4,12,1)+MOD(WEEKDAY(AL{row})-WEEKDAY(DATE('Setup'!$R$4,12,1)),7)))/7)+1,1,IF(MOD(12-MONTH(AL{row}),3)=0,1,0),IF(MONTH(AL{row})=12,1,0)),2))))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B56",
+     "formula": "Total (active + trials)"
+    },
+    {
+     "cell": "M56",
+     "formula": "=ROUND(SUM(M6:M55),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "N56",
+     "formula": "=ROUND(SUM(N6:N55),2)",
+     "number_format": "$#,##0.00"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "D6:D55",
+     "type": "formula",
+     "formula": [
+      "OR(AND(D6<>\"\",NOT(ISNUMBER(D6))),N(D6)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "F6:F55",
+     "type": "formula",
+     "formula": [
+      "AND(F6<>\"\",OR(NOT(ISNUMBER(F6)),N(F6)<1))"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "H6:H55",
+     "type": "formula",
+     "formula": [
+      "AND(H6<>\"\",OR(NOT(ISNUMBER(H6)),N(H6)<1))"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "E6:E55",
+     "type": "formula",
+     "formula": [
+      "$R6=0"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "G6:G55",
+     "type": "formula",
+     "formula": [
+      "$S6=0"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "F6:F55",
+     "type": "formula",
+     "formula": [
+      "AND($T6=1,$R6<>2,$S6<=2,$AL6=\"\")"
+     ],
+     "fill": "FFF1C2"
+    },
+    {
+     "range": "B6:P55",
+     "type": "formula",
+     "formula": [
+      "$S6>2"
+     ],
+     "fill": "EEEEEE"
+    },
+    {
+     "range": "B6:P55",
+     "type": "formula",
+     "formula": [
+      "$AM6=3"
+     ],
+     "fill": "FCE4EC"
+    },
+    {
+     "range": "O6:P55",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER($P6),$P6<=3)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "H6:H55",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER($AJ6),$AJ6<=7)"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B5:P5",
+     "color": "1F1D47"
+    },
+    {
+     "range": "B6:L55",
+     "color": "FFFFFF"
+    },
+    {
+     "range": "M6:P55",
+     "color": "F7F7FD"
+    },
+    {
+     "range": "B56:P56",
+     "color": "ECECFB"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:P56",
+     "color": "D9D9F2"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "1F1D47"
+    },
+    {
+     "range": "B5:P5",
+     "wrap": true,
+     "bold": true,
+     "size": 9,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "C6:K55",
+     "align": "center"
+    },
+    {
+     "range": "M6:P56",
+     "bold": true,
+     "size": 10,
+     "color": "5B5BD6",
+     "align": "center"
+    },
+    {
+     "range": "B56:P56",
+     "bold": true,
+     "size": 10,
+     "color": "1F1D47"
+    }
+   ],
+   "row_heights": {
+    "5": 30
+   },
+   "validations": [
+    {
+     "range": "C6:C55",
+     "type": "list",
+     "values": [
+      "Streaming",
+      "Music",
+      "Software & apps",
+      "Cloud storage",
+      "News & reading",
+      "Fitness",
+      "Gaming",
+      "Food & meal kits",
+      "Shopping & delivery",
+      "Kids",
+      "Other"
+     ],
+     "strict": false
+    },
+    {
+     "range": "E6:E55",
+     "type": "list",
+     "values": [
+      "Weekly",
+      "Monthly",
+      "Quarterly",
+      "Yearly"
+     ],
+     "strict": false
+    },
+    {
+     "range": "G6:G55",
+     "type": "list",
+     "values": [
+      "Active",
+      "Free trial",
+      "Paused",
+      "Cancelled"
+     ],
+     "strict": false
+    },
+    {
+     "range": "K6:K55",
+     "type": "list",
+     "values": [
+      "Keep",
+      "Maybe",
+      "Cancel"
+     ],
+     "strict": false
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "D6:D55",
+     "format": "$#,##0.00"
+    },
+    {
+     "range": "F6:F55",
+     "format": "mmm d, yyyy"
+    },
+    {
+     "range": "H6:H55",
+     "format": "mmm d, yyyy"
+    },
+    {
+     "range": "J6:J55",
+     "format": "0"
+    }
+   ]
+  },
+  {
+   "name": "Renewals",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "E0457B",
+   "grid_rows": 37,
+   "grid_cols": 20,
+   "column_widths": {
+    "A": 2.5,
+    "B": 13,
+    "C": 9,
+    "D": 22,
+    "E": 11,
+    "F": 13,
+    "G": 10,
+    "H": 22,
+    "I": 2.5,
+    "S": 3
+   },
+   "hidden_columns": [
+    "S"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:H2",
+     "label": "UPCOMING RENEWALS",
+     "size": 16,
+     "color": "1F1D47",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "=\"Coming up after \"&TEXT('Setup'!$R$5,\"mmm d, yyyy\")&\". Active subscriptions and free trials, soonest first.\""
+    },
+    {
+     "cell": "B5",
+     "formula": "Renews"
+    },
+    {
+     "cell": "C5",
+     "formula": "Days away"
+    },
+    {
+     "cell": "D5",
+     "formula": "Subscription"
+    },
+    {
+     "cell": "E5",
+     "formula": "Charge"
+    },
+    {
+     "cell": "F5",
+     "formula": "Paid with"
+    },
+    {
+     "cell": "G5",
+     "formula": "Decision"
+    },
+    {
+     "cell": "H5",
+     "formula": "Heads-up"
+    },
+    {
+     "cell": "S6",
+     "formula": "=IFERROR(SMALL('Subscriptions'!$AG$6:$AG$55,1),\"\")"
+    },
+    {
+     "cell": "B6",
+     "formula": "=IF($S6=\"\",\"\",INT($S6/1000))",
+     "number_format": "ddd mmm d"
+    },
+    {
+     "cell": "C6",
+     "formula": "=IF($S6=\"\",\"\",B6-'Setup'!$R$5)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D6",
+     "formula": "=IF($S6=\"\",\"\",INDEX('Subscriptions'!$B$6:$B$55,MOD($S6,1000)))"
+    },
+    {
+     "cell": "E6",
+     "formula": "=IF($S6=\"\",\"\",INDEX('Subscriptions'!$D$6:$D$55,MOD($S6,1000)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F6",
+     "formula": "=IF($S6=\"\",\"\",INDEX('Subscriptions'!$I$6:$I$55,MOD($S6,1000))&\"\")"
+    },
+    {
+     "cell": "G6",
+     "formula": "=IF($S6=\"\",\"\",INDEX('Subscriptions'!$K$6:$K$55,MOD($S6,1000))&\"\")"
+    },
+    {
+     "cell": "H6",
+     "formula": "=IF($S6=\"\",\"\",IF(INDEX('Subscriptions'!$S$6:$S$55,MOD($S6,1000))=2,IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S6,1000))=\"\",\"Trial\",IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S6,1000))<0,\"Trial over\",\"Trial ends in \"&INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S6,1000))&IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S6,1000))=1,\" day\",\" days\"))),IF(INDEX('Subscriptions'!$AM$6:$AM$55,MOD($S6,1000))=3,\"Cancel before this!\",IF(C6<=3,\"Soon\",\"\"))))"
+    },
+    {
+     "cell": "S7",
+     "formula": "=IFERROR(SMALL('Subscriptions'!$AG$6:$AG$55,2),\"\")"
+    },
+    {
+     "cell": "B7",
+     "formula": "=IF($S7=\"\",\"\",INT($S7/1000))",
+     "number_format": "ddd mmm d"
+    },
+    {
+     "cell": "C7",
+     "formula": "=IF($S7=\"\",\"\",B7-'Setup'!$R$5)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D7",
+     "formula": "=IF($S7=\"\",\"\",INDEX('Subscriptions'!$B$6:$B$55,MOD($S7,1000)))"
+    },
+    {
+     "cell": "E7",
+     "formula": "=IF($S7=\"\",\"\",INDEX('Subscriptions'!$D$6:$D$55,MOD($S7,1000)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F7",
+     "formula": "=IF($S7=\"\",\"\",INDEX('Subscriptions'!$I$6:$I$55,MOD($S7,1000))&\"\")"
+    },
+    {
+     "cell": "G7",
+     "formula": "=IF($S7=\"\",\"\",INDEX('Subscriptions'!$K$6:$K$55,MOD($S7,1000))&\"\")"
+    },
+    {
+     "cell": "H7",
+     "formula": "=IF($S7=\"\",\"\",IF(INDEX('Subscriptions'!$S$6:$S$55,MOD($S7,1000))=2,IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S7,1000))=\"\",\"Trial\",IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S7,1000))<0,\"Trial over\",\"Trial ends in \"&INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S7,1000))&IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S7,1000))=1,\" day\",\" days\"))),IF(INDEX('Subscriptions'!$AM$6:$AM$55,MOD($S7,1000))=3,\"Cancel before this!\",IF(C7<=3,\"Soon\",\"\"))))"
+    },
+    {
+     "cell": "S8",
+     "formula": "=IFERROR(SMALL('Subscriptions'!$AG$6:$AG$55,3),\"\")"
+    },
+    {
+     "cell": "B8",
+     "formula": "=IF($S8=\"\",\"\",INT($S8/1000))",
+     "number_format": "ddd mmm d"
+    },
+    {
+     "cell": "C8",
+     "formula": "=IF($S8=\"\",\"\",B8-'Setup'!$R$5)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D8",
+     "formula": "=IF($S8=\"\",\"\",INDEX('Subscriptions'!$B$6:$B$55,MOD($S8,1000)))"
+    },
+    {
+     "cell": "E8",
+     "formula": "=IF($S8=\"\",\"\",INDEX('Subscriptions'!$D$6:$D$55,MOD($S8,1000)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F8",
+     "formula": "=IF($S8=\"\",\"\",INDEX('Subscriptions'!$I$6:$I$55,MOD($S8,1000))&\"\")"
+    },
+    {
+     "cell": "G8",
+     "formula": "=IF($S8=\"\",\"\",INDEX('Subscriptions'!$K$6:$K$55,MOD($S8,1000))&\"\")"
+    },
+    {
+     "cell": "H8",
+     "formula": "=IF($S8=\"\",\"\",IF(INDEX('Subscriptions'!$S$6:$S$55,MOD($S8,1000))=2,IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S8,1000))=\"\",\"Trial\",IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S8,1000))<0,\"Trial over\",\"Trial ends in \"&INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S8,1000))&IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S8,1000))=1,\" day\",\" days\"))),IF(INDEX('Subscriptions'!$AM$6:$AM$55,MOD($S8,1000))=3,\"Cancel before this!\",IF(C8<=3,\"Soon\",\"\"))))"
+    },
+    {
+     "cell": "S9",
+     "formula": "=IFERROR(SMALL('Subscriptions'!$AG$6:$AG$55,4),\"\")"
+    },
+    {
+     "cell": "B9",
+     "formula": "=IF($S9=\"\",\"\",INT($S9/1000))",
+     "number_format": "ddd mmm d"
+    },
+    {
+     "cell": "C9",
+     "formula": "=IF($S9=\"\",\"\",B9-'Setup'!$R$5)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D9",
+     "formula": "=IF($S9=\"\",\"\",INDEX('Subscriptions'!$B$6:$B$55,MOD($S9,1000)))"
+    },
+    {
+     "cell": "E9",
+     "formula": "=IF($S9=\"\",\"\",INDEX('Subscriptions'!$D$6:$D$55,MOD($S9,1000)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F9",
+     "formula": "=IF($S9=\"\",\"\",INDEX('Subscriptions'!$I$6:$I$55,MOD($S9,1000))&\"\")"
+    },
+    {
+     "cell": "G9",
+     "formula": "=IF($S9=\"\",\"\",INDEX('Subscriptions'!$K$6:$K$55,MOD($S9,1000))&\"\")"
+    },
+    {
+     "cell": "H9",
+     "formula": "=IF($S9=\"\",\"\",IF(INDEX('Subscriptions'!$S$6:$S$55,MOD($S9,1000))=2,IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S9,1000))=\"\",\"Trial\",IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S9,1000))<0,\"Trial over\",\"Trial ends in \"&INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S9,1000))&IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S9,1000))=1,\" day\",\" days\"))),IF(INDEX('Subscriptions'!$AM$6:$AM$55,MOD($S9,1000))=3,\"Cancel before this!\",IF(C9<=3,\"Soon\",\"\"))))"
+    },
+    {
+     "cell": "S10",
+     "formula": "=IFERROR(SMALL('Subscriptions'!$AG$6:$AG$55,5),\"\")"
+    },
+    {
+     "cell": "B10",
+     "formula": "=IF($S10=\"\",\"\",INT($S10/1000))",
+     "number_format": "ddd mmm d"
+    },
+    {
+     "cell": "C10",
+     "formula": "=IF($S10=\"\",\"\",B10-'Setup'!$R$5)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D10",
+     "formula": "=IF($S10=\"\",\"\",INDEX('Subscriptions'!$B$6:$B$55,MOD($S10,1000)))"
+    },
+    {
+     "cell": "E10",
+     "formula": "=IF($S10=\"\",\"\",INDEX('Subscriptions'!$D$6:$D$55,MOD($S10,1000)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F10",
+     "formula": "=IF($S10=\"\",\"\",INDEX('Subscriptions'!$I$6:$I$55,MOD($S10,1000))&\"\")"
+    },
+    {
+     "cell": "G10",
+     "formula": "=IF($S10=\"\",\"\",INDEX('Subscriptions'!$K$6:$K$55,MOD($S10,1000))&\"\")"
+    },
+    {
+     "cell": "H10",
+     "formula": "=IF($S10=\"\",\"\",IF(INDEX('Subscriptions'!$S$6:$S$55,MOD($S10,1000))=2,IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S10,1000))=\"\",\"Trial\",IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S10,1000))<0,\"Trial over\",\"Trial ends in \"&INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S10,1000))&IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S10,1000))=1,\" day\",\" days\"))),IF(INDEX('Subscriptions'!$AM$6:$AM$55,MOD($S10,1000))=3,\"Cancel before this!\",IF(C10<=3,\"Soon\",\"\"))))"
+    },
+    {
+     "cell": "S11",
+     "formula": "=IFERROR(SMALL('Subscriptions'!$AG$6:$AG$55,6),\"\")"
+    },
+    {
+     "cell": "B11",
+     "formula": "=IF($S11=\"\",\"\",INT($S11/1000))",
+     "number_format": "ddd mmm d"
+    },
+    {
+     "cell": "C11",
+     "formula": "=IF($S11=\"\",\"\",B11-'Setup'!$R$5)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D11",
+     "formula": "=IF($S11=\"\",\"\",INDEX('Subscriptions'!$B$6:$B$55,MOD($S11,1000)))"
+    },
+    {
+     "cell": "E11",
+     "formula": "=IF($S11=\"\",\"\",INDEX('Subscriptions'!$D$6:$D$55,MOD($S11,1000)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F11",
+     "formula": "=IF($S11=\"\",\"\",INDEX('Subscriptions'!$I$6:$I$55,MOD($S11,1000))&\"\")"
+    },
+    {
+     "cell": "G11",
+     "formula": "=IF($S11=\"\",\"\",INDEX('Subscriptions'!$K$6:$K$55,MOD($S11,1000))&\"\")"
+    },
+    {
+     "cell": "H11",
+     "formula": "=IF($S11=\"\",\"\",IF(INDEX('Subscriptions'!$S$6:$S$55,MOD($S11,1000))=2,IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S11,1000))=\"\",\"Trial\",IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S11,1000))<0,\"Trial over\",\"Trial ends in \"&INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S11,1000))&IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S11,1000))=1,\" day\",\" days\"))),IF(INDEX('Subscriptions'!$AM$6:$AM$55,MOD($S11,1000))=3,\"Cancel before this!\",IF(C11<=3,\"Soon\",\"\"))))"
+    },
+    {
+     "cell": "S12",
+     "formula": "=IFERROR(SMALL('Subscriptions'!$AG$6:$AG$55,7),\"\")"
+    },
+    {
+     "cell": "B12",
+     "formula": "=IF($S12=\"\",\"\",INT($S12/1000))",
+     "number_format": "ddd mmm d"
+    },
+    {
+     "cell": "C12",
+     "formula": "=IF($S12=\"\",\"\",B12-'Setup'!$R$5)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D12",
+     "formula": "=IF($S12=\"\",\"\",INDEX('Subscriptions'!$B$6:$B$55,MOD($S12,1000)))"
+    },
+    {
+     "cell": "E12",
+     "formula": "=IF($S12=\"\",\"\",INDEX('Subscriptions'!$D$6:$D$55,MOD($S12,1000)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F12",
+     "formula": "=IF($S12=\"\",\"\",INDEX('Subscriptions'!$I$6:$I$55,MOD($S12,1000))&\"\")"
+    },
+    {
+     "cell": "G12",
+     "formula": "=IF($S12=\"\",\"\",INDEX('Subscriptions'!$K$6:$K$55,MOD($S12,1000))&\"\")"
+    },
+    {
+     "cell": "H12",
+     "formula": "=IF($S12=\"\",\"\",IF(INDEX('Subscriptions'!$S$6:$S$55,MOD($S12,1000))=2,IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S12,1000))=\"\",\"Trial\",IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S12,1000))<0,\"Trial over\",\"Trial ends in \"&INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S12,1000))&IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S12,1000))=1,\" day\",\" days\"))),IF(INDEX('Subscriptions'!$AM$6:$AM$55,MOD($S12,1000))=3,\"Cancel before this!\",IF(C12<=3,\"Soon\",\"\"))))"
+    },
+    {
+     "cell": "S13",
+     "formula": "=IFERROR(SMALL('Subscriptions'!$AG$6:$AG$55,8),\"\")"
+    },
+    {
+     "cell": "B13",
+     "formula": "=IF($S13=\"\",\"\",INT($S13/1000))",
+     "number_format": "ddd mmm d"
+    },
+    {
+     "cell": "C13",
+     "formula": "=IF($S13=\"\",\"\",B13-'Setup'!$R$5)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D13",
+     "formula": "=IF($S13=\"\",\"\",INDEX('Subscriptions'!$B$6:$B$55,MOD($S13,1000)))"
+    },
+    {
+     "cell": "E13",
+     "formula": "=IF($S13=\"\",\"\",INDEX('Subscriptions'!$D$6:$D$55,MOD($S13,1000)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F13",
+     "formula": "=IF($S13=\"\",\"\",INDEX('Subscriptions'!$I$6:$I$55,MOD($S13,1000))&\"\")"
+    },
+    {
+     "cell": "G13",
+     "formula": "=IF($S13=\"\",\"\",INDEX('Subscriptions'!$K$6:$K$55,MOD($S13,1000))&\"\")"
+    },
+    {
+     "cell": "H13",
+     "formula": "=IF($S13=\"\",\"\",IF(INDEX('Subscriptions'!$S$6:$S$55,MOD($S13,1000))=2,IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S13,1000))=\"\",\"Trial\",IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S13,1000))<0,\"Trial over\",\"Trial ends in \"&INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S13,1000))&IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S13,1000))=1,\" day\",\" days\"))),IF(INDEX('Subscriptions'!$AM$6:$AM$55,MOD($S13,1000))=3,\"Cancel before this!\",IF(C13<=3,\"Soon\",\"\"))))"
+    },
+    {
+     "cell": "S14",
+     "formula": "=IFERROR(SMALL('Subscriptions'!$AG$6:$AG$55,9),\"\")"
+    },
+    {
+     "cell": "B14",
+     "formula": "=IF($S14=\"\",\"\",INT($S14/1000))",
+     "number_format": "ddd mmm d"
+    },
+    {
+     "cell": "C14",
+     "formula": "=IF($S14=\"\",\"\",B14-'Setup'!$R$5)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D14",
+     "formula": "=IF($S14=\"\",\"\",INDEX('Subscriptions'!$B$6:$B$55,MOD($S14,1000)))"
+    },
+    {
+     "cell": "E14",
+     "formula": "=IF($S14=\"\",\"\",INDEX('Subscriptions'!$D$6:$D$55,MOD($S14,1000)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F14",
+     "formula": "=IF($S14=\"\",\"\",INDEX('Subscriptions'!$I$6:$I$55,MOD($S14,1000))&\"\")"
+    },
+    {
+     "cell": "G14",
+     "formula": "=IF($S14=\"\",\"\",INDEX('Subscriptions'!$K$6:$K$55,MOD($S14,1000))&\"\")"
+    },
+    {
+     "cell": "H14",
+     "formula": "=IF($S14=\"\",\"\",IF(INDEX('Subscriptions'!$S$6:$S$55,MOD($S14,1000))=2,IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S14,1000))=\"\",\"Trial\",IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S14,1000))<0,\"Trial over\",\"Trial ends in \"&INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S14,1000))&IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S14,1000))=1,\" day\",\" days\"))),IF(INDEX('Subscriptions'!$AM$6:$AM$55,MOD($S14,1000))=3,\"Cancel before this!\",IF(C14<=3,\"Soon\",\"\"))))"
+    },
+    {
+     "cell": "S15",
+     "formula": "=IFERROR(SMALL('Subscriptions'!$AG$6:$AG$55,10),\"\")"
+    },
+    {
+     "cell": "B15",
+     "formula": "=IF($S15=\"\",\"\",INT($S15/1000))",
+     "number_format": "ddd mmm d"
+    },
+    {
+     "cell": "C15",
+     "formula": "=IF($S15=\"\",\"\",B15-'Setup'!$R$5)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D15",
+     "formula": "=IF($S15=\"\",\"\",INDEX('Subscriptions'!$B$6:$B$55,MOD($S15,1000)))"
+    },
+    {
+     "cell": "E15",
+     "formula": "=IF($S15=\"\",\"\",INDEX('Subscriptions'!$D$6:$D$55,MOD($S15,1000)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F15",
+     "formula": "=IF($S15=\"\",\"\",INDEX('Subscriptions'!$I$6:$I$55,MOD($S15,1000))&\"\")"
+    },
+    {
+     "cell": "G15",
+     "formula": "=IF($S15=\"\",\"\",INDEX('Subscriptions'!$K$6:$K$55,MOD($S15,1000))&\"\")"
+    },
+    {
+     "cell": "H15",
+     "formula": "=IF($S15=\"\",\"\",IF(INDEX('Subscriptions'!$S$6:$S$55,MOD($S15,1000))=2,IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S15,1000))=\"\",\"Trial\",IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S15,1000))<0,\"Trial over\",\"Trial ends in \"&INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S15,1000))&IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S15,1000))=1,\" day\",\" days\"))),IF(INDEX('Subscriptions'!$AM$6:$AM$55,MOD($S15,1000))=3,\"Cancel before this!\",IF(C15<=3,\"Soon\",\"\"))))"
+    },
+    {
+     "cell": "S16",
+     "formula": "=IFERROR(SMALL('Subscriptions'!$AG$6:$AG$55,11),\"\")"
+    },
+    {
+     "cell": "B16",
+     "formula": "=IF($S16=\"\",\"\",INT($S16/1000))",
+     "number_format": "ddd mmm d"
+    },
+    {
+     "cell": "C16",
+     "formula": "=IF($S16=\"\",\"\",B16-'Setup'!$R$5)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D16",
+     "formula": "=IF($S16=\"\",\"\",INDEX('Subscriptions'!$B$6:$B$55,MOD($S16,1000)))"
+    },
+    {
+     "cell": "E16",
+     "formula": "=IF($S16=\"\",\"\",INDEX('Subscriptions'!$D$6:$D$55,MOD($S16,1000)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F16",
+     "formula": "=IF($S16=\"\",\"\",INDEX('Subscriptions'!$I$6:$I$55,MOD($S16,1000))&\"\")"
+    },
+    {
+     "cell": "G16",
+     "formula": "=IF($S16=\"\",\"\",INDEX('Subscriptions'!$K$6:$K$55,MOD($S16,1000))&\"\")"
+    },
+    {
+     "cell": "H16",
+     "formula": "=IF($S16=\"\",\"\",IF(INDEX('Subscriptions'!$S$6:$S$55,MOD($S16,1000))=2,IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S16,1000))=\"\",\"Trial\",IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S16,1000))<0,\"Trial over\",\"Trial ends in \"&INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S16,1000))&IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S16,1000))=1,\" day\",\" days\"))),IF(INDEX('Subscriptions'!$AM$6:$AM$55,MOD($S16,1000))=3,\"Cancel before this!\",IF(C16<=3,\"Soon\",\"\"))))"
+    },
+    {
+     "cell": "S17",
+     "formula": "=IFERROR(SMALL('Subscriptions'!$AG$6:$AG$55,12),\"\")"
+    },
+    {
+     "cell": "B17",
+     "formula": "=IF($S17=\"\",\"\",INT($S17/1000))",
+     "number_format": "ddd mmm d"
+    },
+    {
+     "cell": "C17",
+     "formula": "=IF($S17=\"\",\"\",B17-'Setup'!$R$5)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D17",
+     "formula": "=IF($S17=\"\",\"\",INDEX('Subscriptions'!$B$6:$B$55,MOD($S17,1000)))"
+    },
+    {
+     "cell": "E17",
+     "formula": "=IF($S17=\"\",\"\",INDEX('Subscriptions'!$D$6:$D$55,MOD($S17,1000)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F17",
+     "formula": "=IF($S17=\"\",\"\",INDEX('Subscriptions'!$I$6:$I$55,MOD($S17,1000))&\"\")"
+    },
+    {
+     "cell": "G17",
+     "formula": "=IF($S17=\"\",\"\",INDEX('Subscriptions'!$K$6:$K$55,MOD($S17,1000))&\"\")"
+    },
+    {
+     "cell": "H17",
+     "formula": "=IF($S17=\"\",\"\",IF(INDEX('Subscriptions'!$S$6:$S$55,MOD($S17,1000))=2,IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S17,1000))=\"\",\"Trial\",IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S17,1000))<0,\"Trial over\",\"Trial ends in \"&INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S17,1000))&IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S17,1000))=1,\" day\",\" days\"))),IF(INDEX('Subscriptions'!$AM$6:$AM$55,MOD($S17,1000))=3,\"Cancel before this!\",IF(C17<=3,\"Soon\",\"\"))))"
+    },
+    {
+     "cell": "S18",
+     "formula": "=IFERROR(SMALL('Subscriptions'!$AG$6:$AG$55,13),\"\")"
+    },
+    {
+     "cell": "B18",
+     "formula": "=IF($S18=\"\",\"\",INT($S18/1000))",
+     "number_format": "ddd mmm d"
+    },
+    {
+     "cell": "C18",
+     "formula": "=IF($S18=\"\",\"\",B18-'Setup'!$R$5)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D18",
+     "formula": "=IF($S18=\"\",\"\",INDEX('Subscriptions'!$B$6:$B$55,MOD($S18,1000)))"
+    },
+    {
+     "cell": "E18",
+     "formula": "=IF($S18=\"\",\"\",INDEX('Subscriptions'!$D$6:$D$55,MOD($S18,1000)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F18",
+     "formula": "=IF($S18=\"\",\"\",INDEX('Subscriptions'!$I$6:$I$55,MOD($S18,1000))&\"\")"
+    },
+    {
+     "cell": "G18",
+     "formula": "=IF($S18=\"\",\"\",INDEX('Subscriptions'!$K$6:$K$55,MOD($S18,1000))&\"\")"
+    },
+    {
+     "cell": "H18",
+     "formula": "=IF($S18=\"\",\"\",IF(INDEX('Subscriptions'!$S$6:$S$55,MOD($S18,1000))=2,IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S18,1000))=\"\",\"Trial\",IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S18,1000))<0,\"Trial over\",\"Trial ends in \"&INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S18,1000))&IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S18,1000))=1,\" day\",\" days\"))),IF(INDEX('Subscriptions'!$AM$6:$AM$55,MOD($S18,1000))=3,\"Cancel before this!\",IF(C18<=3,\"Soon\",\"\"))))"
+    },
+    {
+     "cell": "S19",
+     "formula": "=IFERROR(SMALL('Subscriptions'!$AG$6:$AG$55,14),\"\")"
+    },
+    {
+     "cell": "B19",
+     "formula": "=IF($S19=\"\",\"\",INT($S19/1000))",
+     "number_format": "ddd mmm d"
+    },
+    {
+     "cell": "C19",
+     "formula": "=IF($S19=\"\",\"\",B19-'Setup'!$R$5)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D19",
+     "formula": "=IF($S19=\"\",\"\",INDEX('Subscriptions'!$B$6:$B$55,MOD($S19,1000)))"
+    },
+    {
+     "cell": "E19",
+     "formula": "=IF($S19=\"\",\"\",INDEX('Subscriptions'!$D$6:$D$55,MOD($S19,1000)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F19",
+     "formula": "=IF($S19=\"\",\"\",INDEX('Subscriptions'!$I$6:$I$55,MOD($S19,1000))&\"\")"
+    },
+    {
+     "cell": "G19",
+     "formula": "=IF($S19=\"\",\"\",INDEX('Subscriptions'!$K$6:$K$55,MOD($S19,1000))&\"\")"
+    },
+    {
+     "cell": "H19",
+     "formula": "=IF($S19=\"\",\"\",IF(INDEX('Subscriptions'!$S$6:$S$55,MOD($S19,1000))=2,IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S19,1000))=\"\",\"Trial\",IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S19,1000))<0,\"Trial over\",\"Trial ends in \"&INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S19,1000))&IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S19,1000))=1,\" day\",\" days\"))),IF(INDEX('Subscriptions'!$AM$6:$AM$55,MOD($S19,1000))=3,\"Cancel before this!\",IF(C19<=3,\"Soon\",\"\"))))"
+    },
+    {
+     "cell": "S20",
+     "formula": "=IFERROR(SMALL('Subscriptions'!$AG$6:$AG$55,15),\"\")"
+    },
+    {
+     "cell": "B20",
+     "formula": "=IF($S20=\"\",\"\",INT($S20/1000))",
+     "number_format": "ddd mmm d"
+    },
+    {
+     "cell": "C20",
+     "formula": "=IF($S20=\"\",\"\",B20-'Setup'!$R$5)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D20",
+     "formula": "=IF($S20=\"\",\"\",INDEX('Subscriptions'!$B$6:$B$55,MOD($S20,1000)))"
+    },
+    {
+     "cell": "E20",
+     "formula": "=IF($S20=\"\",\"\",INDEX('Subscriptions'!$D$6:$D$55,MOD($S20,1000)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F20",
+     "formula": "=IF($S20=\"\",\"\",INDEX('Subscriptions'!$I$6:$I$55,MOD($S20,1000))&\"\")"
+    },
+    {
+     "cell": "G20",
+     "formula": "=IF($S20=\"\",\"\",INDEX('Subscriptions'!$K$6:$K$55,MOD($S20,1000))&\"\")"
+    },
+    {
+     "cell": "H20",
+     "formula": "=IF($S20=\"\",\"\",IF(INDEX('Subscriptions'!$S$6:$S$55,MOD($S20,1000))=2,IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S20,1000))=\"\",\"Trial\",IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S20,1000))<0,\"Trial over\",\"Trial ends in \"&INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S20,1000))&IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S20,1000))=1,\" day\",\" days\"))),IF(INDEX('Subscriptions'!$AM$6:$AM$55,MOD($S20,1000))=3,\"Cancel before this!\",IF(C20<=3,\"Soon\",\"\"))))"
+    },
+    {
+     "cell": "S21",
+     "formula": "=IFERROR(SMALL('Subscriptions'!$AG$6:$AG$55,16),\"\")"
+    },
+    {
+     "cell": "B21",
+     "formula": "=IF($S21=\"\",\"\",INT($S21/1000))",
+     "number_format": "ddd mmm d"
+    },
+    {
+     "cell": "C21",
+     "formula": "=IF($S21=\"\",\"\",B21-'Setup'!$R$5)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D21",
+     "formula": "=IF($S21=\"\",\"\",INDEX('Subscriptions'!$B$6:$B$55,MOD($S21,1000)))"
+    },
+    {
+     "cell": "E21",
+     "formula": "=IF($S21=\"\",\"\",INDEX('Subscriptions'!$D$6:$D$55,MOD($S21,1000)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F21",
+     "formula": "=IF($S21=\"\",\"\",INDEX('Subscriptions'!$I$6:$I$55,MOD($S21,1000))&\"\")"
+    },
+    {
+     "cell": "G21",
+     "formula": "=IF($S21=\"\",\"\",INDEX('Subscriptions'!$K$6:$K$55,MOD($S21,1000))&\"\")"
+    },
+    {
+     "cell": "H21",
+     "formula": "=IF($S21=\"\",\"\",IF(INDEX('Subscriptions'!$S$6:$S$55,MOD($S21,1000))=2,IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S21,1000))=\"\",\"Trial\",IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S21,1000))<0,\"Trial over\",\"Trial ends in \"&INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S21,1000))&IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S21,1000))=1,\" day\",\" days\"))),IF(INDEX('Subscriptions'!$AM$6:$AM$55,MOD($S21,1000))=3,\"Cancel before this!\",IF(C21<=3,\"Soon\",\"\"))))"
+    },
+    {
+     "cell": "S22",
+     "formula": "=IFERROR(SMALL('Subscriptions'!$AG$6:$AG$55,17),\"\")"
+    },
+    {
+     "cell": "B22",
+     "formula": "=IF($S22=\"\",\"\",INT($S22/1000))",
+     "number_format": "ddd mmm d"
+    },
+    {
+     "cell": "C22",
+     "formula": "=IF($S22=\"\",\"\",B22-'Setup'!$R$5)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D22",
+     "formula": "=IF($S22=\"\",\"\",INDEX('Subscriptions'!$B$6:$B$55,MOD($S22,1000)))"
+    },
+    {
+     "cell": "E22",
+     "formula": "=IF($S22=\"\",\"\",INDEX('Subscriptions'!$D$6:$D$55,MOD($S22,1000)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F22",
+     "formula": "=IF($S22=\"\",\"\",INDEX('Subscriptions'!$I$6:$I$55,MOD($S22,1000))&\"\")"
+    },
+    {
+     "cell": "G22",
+     "formula": "=IF($S22=\"\",\"\",INDEX('Subscriptions'!$K$6:$K$55,MOD($S22,1000))&\"\")"
+    },
+    {
+     "cell": "H22",
+     "formula": "=IF($S22=\"\",\"\",IF(INDEX('Subscriptions'!$S$6:$S$55,MOD($S22,1000))=2,IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S22,1000))=\"\",\"Trial\",IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S22,1000))<0,\"Trial over\",\"Trial ends in \"&INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S22,1000))&IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S22,1000))=1,\" day\",\" days\"))),IF(INDEX('Subscriptions'!$AM$6:$AM$55,MOD($S22,1000))=3,\"Cancel before this!\",IF(C22<=3,\"Soon\",\"\"))))"
+    },
+    {
+     "cell": "S23",
+     "formula": "=IFERROR(SMALL('Subscriptions'!$AG$6:$AG$55,18),\"\")"
+    },
+    {
+     "cell": "B23",
+     "formula": "=IF($S23=\"\",\"\",INT($S23/1000))",
+     "number_format": "ddd mmm d"
+    },
+    {
+     "cell": "C23",
+     "formula": "=IF($S23=\"\",\"\",B23-'Setup'!$R$5)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D23",
+     "formula": "=IF($S23=\"\",\"\",INDEX('Subscriptions'!$B$6:$B$55,MOD($S23,1000)))"
+    },
+    {
+     "cell": "E23",
+     "formula": "=IF($S23=\"\",\"\",INDEX('Subscriptions'!$D$6:$D$55,MOD($S23,1000)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F23",
+     "formula": "=IF($S23=\"\",\"\",INDEX('Subscriptions'!$I$6:$I$55,MOD($S23,1000))&\"\")"
+    },
+    {
+     "cell": "G23",
+     "formula": "=IF($S23=\"\",\"\",INDEX('Subscriptions'!$K$6:$K$55,MOD($S23,1000))&\"\")"
+    },
+    {
+     "cell": "H23",
+     "formula": "=IF($S23=\"\",\"\",IF(INDEX('Subscriptions'!$S$6:$S$55,MOD($S23,1000))=2,IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S23,1000))=\"\",\"Trial\",IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S23,1000))<0,\"Trial over\",\"Trial ends in \"&INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S23,1000))&IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S23,1000))=1,\" day\",\" days\"))),IF(INDEX('Subscriptions'!$AM$6:$AM$55,MOD($S23,1000))=3,\"Cancel before this!\",IF(C23<=3,\"Soon\",\"\"))))"
+    },
+    {
+     "cell": "S24",
+     "formula": "=IFERROR(SMALL('Subscriptions'!$AG$6:$AG$55,19),\"\")"
+    },
+    {
+     "cell": "B24",
+     "formula": "=IF($S24=\"\",\"\",INT($S24/1000))",
+     "number_format": "ddd mmm d"
+    },
+    {
+     "cell": "C24",
+     "formula": "=IF($S24=\"\",\"\",B24-'Setup'!$R$5)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D24",
+     "formula": "=IF($S24=\"\",\"\",INDEX('Subscriptions'!$B$6:$B$55,MOD($S24,1000)))"
+    },
+    {
+     "cell": "E24",
+     "formula": "=IF($S24=\"\",\"\",INDEX('Subscriptions'!$D$6:$D$55,MOD($S24,1000)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F24",
+     "formula": "=IF($S24=\"\",\"\",INDEX('Subscriptions'!$I$6:$I$55,MOD($S24,1000))&\"\")"
+    },
+    {
+     "cell": "G24",
+     "formula": "=IF($S24=\"\",\"\",INDEX('Subscriptions'!$K$6:$K$55,MOD($S24,1000))&\"\")"
+    },
+    {
+     "cell": "H24",
+     "formula": "=IF($S24=\"\",\"\",IF(INDEX('Subscriptions'!$S$6:$S$55,MOD($S24,1000))=2,IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S24,1000))=\"\",\"Trial\",IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S24,1000))<0,\"Trial over\",\"Trial ends in \"&INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S24,1000))&IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S24,1000))=1,\" day\",\" days\"))),IF(INDEX('Subscriptions'!$AM$6:$AM$55,MOD($S24,1000))=3,\"Cancel before this!\",IF(C24<=3,\"Soon\",\"\"))))"
+    },
+    {
+     "cell": "S25",
+     "formula": "=IFERROR(SMALL('Subscriptions'!$AG$6:$AG$55,20),\"\")"
+    },
+    {
+     "cell": "B25",
+     "formula": "=IF($S25=\"\",\"\",INT($S25/1000))",
+     "number_format": "ddd mmm d"
+    },
+    {
+     "cell": "C25",
+     "formula": "=IF($S25=\"\",\"\",B25-'Setup'!$R$5)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D25",
+     "formula": "=IF($S25=\"\",\"\",INDEX('Subscriptions'!$B$6:$B$55,MOD($S25,1000)))"
+    },
+    {
+     "cell": "E25",
+     "formula": "=IF($S25=\"\",\"\",INDEX('Subscriptions'!$D$6:$D$55,MOD($S25,1000)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F25",
+     "formula": "=IF($S25=\"\",\"\",INDEX('Subscriptions'!$I$6:$I$55,MOD($S25,1000))&\"\")"
+    },
+    {
+     "cell": "G25",
+     "formula": "=IF($S25=\"\",\"\",INDEX('Subscriptions'!$K$6:$K$55,MOD($S25,1000))&\"\")"
+    },
+    {
+     "cell": "H25",
+     "formula": "=IF($S25=\"\",\"\",IF(INDEX('Subscriptions'!$S$6:$S$55,MOD($S25,1000))=2,IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S25,1000))=\"\",\"Trial\",IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S25,1000))<0,\"Trial over\",\"Trial ends in \"&INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S25,1000))&IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S25,1000))=1,\" day\",\" days\"))),IF(INDEX('Subscriptions'!$AM$6:$AM$55,MOD($S25,1000))=3,\"Cancel before this!\",IF(C25<=3,\"Soon\",\"\"))))"
+    },
+    {
+     "cell": "S26",
+     "formula": "=IFERROR(SMALL('Subscriptions'!$AG$6:$AG$55,21),\"\")"
+    },
+    {
+     "cell": "B26",
+     "formula": "=IF($S26=\"\",\"\",INT($S26/1000))",
+     "number_format": "ddd mmm d"
+    },
+    {
+     "cell": "C26",
+     "formula": "=IF($S26=\"\",\"\",B26-'Setup'!$R$5)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D26",
+     "formula": "=IF($S26=\"\",\"\",INDEX('Subscriptions'!$B$6:$B$55,MOD($S26,1000)))"
+    },
+    {
+     "cell": "E26",
+     "formula": "=IF($S26=\"\",\"\",INDEX('Subscriptions'!$D$6:$D$55,MOD($S26,1000)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F26",
+     "formula": "=IF($S26=\"\",\"\",INDEX('Subscriptions'!$I$6:$I$55,MOD($S26,1000))&\"\")"
+    },
+    {
+     "cell": "G26",
+     "formula": "=IF($S26=\"\",\"\",INDEX('Subscriptions'!$K$6:$K$55,MOD($S26,1000))&\"\")"
+    },
+    {
+     "cell": "H26",
+     "formula": "=IF($S26=\"\",\"\",IF(INDEX('Subscriptions'!$S$6:$S$55,MOD($S26,1000))=2,IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S26,1000))=\"\",\"Trial\",IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S26,1000))<0,\"Trial over\",\"Trial ends in \"&INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S26,1000))&IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S26,1000))=1,\" day\",\" days\"))),IF(INDEX('Subscriptions'!$AM$6:$AM$55,MOD($S26,1000))=3,\"Cancel before this!\",IF(C26<=3,\"Soon\",\"\"))))"
+    },
+    {
+     "cell": "S27",
+     "formula": "=IFERROR(SMALL('Subscriptions'!$AG$6:$AG$55,22),\"\")"
+    },
+    {
+     "cell": "B27",
+     "formula": "=IF($S27=\"\",\"\",INT($S27/1000))",
+     "number_format": "ddd mmm d"
+    },
+    {
+     "cell": "C27",
+     "formula": "=IF($S27=\"\",\"\",B27-'Setup'!$R$5)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D27",
+     "formula": "=IF($S27=\"\",\"\",INDEX('Subscriptions'!$B$6:$B$55,MOD($S27,1000)))"
+    },
+    {
+     "cell": "E27",
+     "formula": "=IF($S27=\"\",\"\",INDEX('Subscriptions'!$D$6:$D$55,MOD($S27,1000)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F27",
+     "formula": "=IF($S27=\"\",\"\",INDEX('Subscriptions'!$I$6:$I$55,MOD($S27,1000))&\"\")"
+    },
+    {
+     "cell": "G27",
+     "formula": "=IF($S27=\"\",\"\",INDEX('Subscriptions'!$K$6:$K$55,MOD($S27,1000))&\"\")"
+    },
+    {
+     "cell": "H27",
+     "formula": "=IF($S27=\"\",\"\",IF(INDEX('Subscriptions'!$S$6:$S$55,MOD($S27,1000))=2,IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S27,1000))=\"\",\"Trial\",IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S27,1000))<0,\"Trial over\",\"Trial ends in \"&INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S27,1000))&IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S27,1000))=1,\" day\",\" days\"))),IF(INDEX('Subscriptions'!$AM$6:$AM$55,MOD($S27,1000))=3,\"Cancel before this!\",IF(C27<=3,\"Soon\",\"\"))))"
+    },
+    {
+     "cell": "S28",
+     "formula": "=IFERROR(SMALL('Subscriptions'!$AG$6:$AG$55,23),\"\")"
+    },
+    {
+     "cell": "B28",
+     "formula": "=IF($S28=\"\",\"\",INT($S28/1000))",
+     "number_format": "ddd mmm d"
+    },
+    {
+     "cell": "C28",
+     "formula": "=IF($S28=\"\",\"\",B28-'Setup'!$R$5)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D28",
+     "formula": "=IF($S28=\"\",\"\",INDEX('Subscriptions'!$B$6:$B$55,MOD($S28,1000)))"
+    },
+    {
+     "cell": "E28",
+     "formula": "=IF($S28=\"\",\"\",INDEX('Subscriptions'!$D$6:$D$55,MOD($S28,1000)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F28",
+     "formula": "=IF($S28=\"\",\"\",INDEX('Subscriptions'!$I$6:$I$55,MOD($S28,1000))&\"\")"
+    },
+    {
+     "cell": "G28",
+     "formula": "=IF($S28=\"\",\"\",INDEX('Subscriptions'!$K$6:$K$55,MOD($S28,1000))&\"\")"
+    },
+    {
+     "cell": "H28",
+     "formula": "=IF($S28=\"\",\"\",IF(INDEX('Subscriptions'!$S$6:$S$55,MOD($S28,1000))=2,IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S28,1000))=\"\",\"Trial\",IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S28,1000))<0,\"Trial over\",\"Trial ends in \"&INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S28,1000))&IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S28,1000))=1,\" day\",\" days\"))),IF(INDEX('Subscriptions'!$AM$6:$AM$55,MOD($S28,1000))=3,\"Cancel before this!\",IF(C28<=3,\"Soon\",\"\"))))"
+    },
+    {
+     "cell": "S29",
+     "formula": "=IFERROR(SMALL('Subscriptions'!$AG$6:$AG$55,24),\"\")"
+    },
+    {
+     "cell": "B29",
+     "formula": "=IF($S29=\"\",\"\",INT($S29/1000))",
+     "number_format": "ddd mmm d"
+    },
+    {
+     "cell": "C29",
+     "formula": "=IF($S29=\"\",\"\",B29-'Setup'!$R$5)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D29",
+     "formula": "=IF($S29=\"\",\"\",INDEX('Subscriptions'!$B$6:$B$55,MOD($S29,1000)))"
+    },
+    {
+     "cell": "E29",
+     "formula": "=IF($S29=\"\",\"\",INDEX('Subscriptions'!$D$6:$D$55,MOD($S29,1000)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F29",
+     "formula": "=IF($S29=\"\",\"\",INDEX('Subscriptions'!$I$6:$I$55,MOD($S29,1000))&\"\")"
+    },
+    {
+     "cell": "G29",
+     "formula": "=IF($S29=\"\",\"\",INDEX('Subscriptions'!$K$6:$K$55,MOD($S29,1000))&\"\")"
+    },
+    {
+     "cell": "H29",
+     "formula": "=IF($S29=\"\",\"\",IF(INDEX('Subscriptions'!$S$6:$S$55,MOD($S29,1000))=2,IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S29,1000))=\"\",\"Trial\",IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S29,1000))<0,\"Trial over\",\"Trial ends in \"&INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S29,1000))&IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S29,1000))=1,\" day\",\" days\"))),IF(INDEX('Subscriptions'!$AM$6:$AM$55,MOD($S29,1000))=3,\"Cancel before this!\",IF(C29<=3,\"Soon\",\"\"))))"
+    },
+    {
+     "cell": "S30",
+     "formula": "=IFERROR(SMALL('Subscriptions'!$AG$6:$AG$55,25),\"\")"
+    },
+    {
+     "cell": "B30",
+     "formula": "=IF($S30=\"\",\"\",INT($S30/1000))",
+     "number_format": "ddd mmm d"
+    },
+    {
+     "cell": "C30",
+     "formula": "=IF($S30=\"\",\"\",B30-'Setup'!$R$5)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D30",
+     "formula": "=IF($S30=\"\",\"\",INDEX('Subscriptions'!$B$6:$B$55,MOD($S30,1000)))"
+    },
+    {
+     "cell": "E30",
+     "formula": "=IF($S30=\"\",\"\",INDEX('Subscriptions'!$D$6:$D$55,MOD($S30,1000)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F30",
+     "formula": "=IF($S30=\"\",\"\",INDEX('Subscriptions'!$I$6:$I$55,MOD($S30,1000))&\"\")"
+    },
+    {
+     "cell": "G30",
+     "formula": "=IF($S30=\"\",\"\",INDEX('Subscriptions'!$K$6:$K$55,MOD($S30,1000))&\"\")"
+    },
+    {
+     "cell": "H30",
+     "formula": "=IF($S30=\"\",\"\",IF(INDEX('Subscriptions'!$S$6:$S$55,MOD($S30,1000))=2,IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S30,1000))=\"\",\"Trial\",IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S30,1000))<0,\"Trial over\",\"Trial ends in \"&INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S30,1000))&IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S30,1000))=1,\" day\",\" days\"))),IF(INDEX('Subscriptions'!$AM$6:$AM$55,MOD($S30,1000))=3,\"Cancel before this!\",IF(C30<=3,\"Soon\",\"\"))))"
+    },
+    {
+     "cell": "S31",
+     "formula": "=IFERROR(SMALL('Subscriptions'!$AG$6:$AG$55,26),\"\")"
+    },
+    {
+     "cell": "B31",
+     "formula": "=IF($S31=\"\",\"\",INT($S31/1000))",
+     "number_format": "ddd mmm d"
+    },
+    {
+     "cell": "C31",
+     "formula": "=IF($S31=\"\",\"\",B31-'Setup'!$R$5)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D31",
+     "formula": "=IF($S31=\"\",\"\",INDEX('Subscriptions'!$B$6:$B$55,MOD($S31,1000)))"
+    },
+    {
+     "cell": "E31",
+     "formula": "=IF($S31=\"\",\"\",INDEX('Subscriptions'!$D$6:$D$55,MOD($S31,1000)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F31",
+     "formula": "=IF($S31=\"\",\"\",INDEX('Subscriptions'!$I$6:$I$55,MOD($S31,1000))&\"\")"
+    },
+    {
+     "cell": "G31",
+     "formula": "=IF($S31=\"\",\"\",INDEX('Subscriptions'!$K$6:$K$55,MOD($S31,1000))&\"\")"
+    },
+    {
+     "cell": "H31",
+     "formula": "=IF($S31=\"\",\"\",IF(INDEX('Subscriptions'!$S$6:$S$55,MOD($S31,1000))=2,IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S31,1000))=\"\",\"Trial\",IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S31,1000))<0,\"Trial over\",\"Trial ends in \"&INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S31,1000))&IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S31,1000))=1,\" day\",\" days\"))),IF(INDEX('Subscriptions'!$AM$6:$AM$55,MOD($S31,1000))=3,\"Cancel before this!\",IF(C31<=3,\"Soon\",\"\"))))"
+    },
+    {
+     "cell": "S32",
+     "formula": "=IFERROR(SMALL('Subscriptions'!$AG$6:$AG$55,27),\"\")"
+    },
+    {
+     "cell": "B32",
+     "formula": "=IF($S32=\"\",\"\",INT($S32/1000))",
+     "number_format": "ddd mmm d"
+    },
+    {
+     "cell": "C32",
+     "formula": "=IF($S32=\"\",\"\",B32-'Setup'!$R$5)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D32",
+     "formula": "=IF($S32=\"\",\"\",INDEX('Subscriptions'!$B$6:$B$55,MOD($S32,1000)))"
+    },
+    {
+     "cell": "E32",
+     "formula": "=IF($S32=\"\",\"\",INDEX('Subscriptions'!$D$6:$D$55,MOD($S32,1000)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F32",
+     "formula": "=IF($S32=\"\",\"\",INDEX('Subscriptions'!$I$6:$I$55,MOD($S32,1000))&\"\")"
+    },
+    {
+     "cell": "G32",
+     "formula": "=IF($S32=\"\",\"\",INDEX('Subscriptions'!$K$6:$K$55,MOD($S32,1000))&\"\")"
+    },
+    {
+     "cell": "H32",
+     "formula": "=IF($S32=\"\",\"\",IF(INDEX('Subscriptions'!$S$6:$S$55,MOD($S32,1000))=2,IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S32,1000))=\"\",\"Trial\",IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S32,1000))<0,\"Trial over\",\"Trial ends in \"&INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S32,1000))&IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S32,1000))=1,\" day\",\" days\"))),IF(INDEX('Subscriptions'!$AM$6:$AM$55,MOD($S32,1000))=3,\"Cancel before this!\",IF(C32<=3,\"Soon\",\"\"))))"
+    },
+    {
+     "cell": "S33",
+     "formula": "=IFERROR(SMALL('Subscriptions'!$AG$6:$AG$55,28),\"\")"
+    },
+    {
+     "cell": "B33",
+     "formula": "=IF($S33=\"\",\"\",INT($S33/1000))",
+     "number_format": "ddd mmm d"
+    },
+    {
+     "cell": "C33",
+     "formula": "=IF($S33=\"\",\"\",B33-'Setup'!$R$5)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D33",
+     "formula": "=IF($S33=\"\",\"\",INDEX('Subscriptions'!$B$6:$B$55,MOD($S33,1000)))"
+    },
+    {
+     "cell": "E33",
+     "formula": "=IF($S33=\"\",\"\",INDEX('Subscriptions'!$D$6:$D$55,MOD($S33,1000)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F33",
+     "formula": "=IF($S33=\"\",\"\",INDEX('Subscriptions'!$I$6:$I$55,MOD($S33,1000))&\"\")"
+    },
+    {
+     "cell": "G33",
+     "formula": "=IF($S33=\"\",\"\",INDEX('Subscriptions'!$K$6:$K$55,MOD($S33,1000))&\"\")"
+    },
+    {
+     "cell": "H33",
+     "formula": "=IF($S33=\"\",\"\",IF(INDEX('Subscriptions'!$S$6:$S$55,MOD($S33,1000))=2,IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S33,1000))=\"\",\"Trial\",IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S33,1000))<0,\"Trial over\",\"Trial ends in \"&INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S33,1000))&IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S33,1000))=1,\" day\",\" days\"))),IF(INDEX('Subscriptions'!$AM$6:$AM$55,MOD($S33,1000))=3,\"Cancel before this!\",IF(C33<=3,\"Soon\",\"\"))))"
+    },
+    {
+     "cell": "S34",
+     "formula": "=IFERROR(SMALL('Subscriptions'!$AG$6:$AG$55,29),\"\")"
+    },
+    {
+     "cell": "B34",
+     "formula": "=IF($S34=\"\",\"\",INT($S34/1000))",
+     "number_format": "ddd mmm d"
+    },
+    {
+     "cell": "C34",
+     "formula": "=IF($S34=\"\",\"\",B34-'Setup'!$R$5)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D34",
+     "formula": "=IF($S34=\"\",\"\",INDEX('Subscriptions'!$B$6:$B$55,MOD($S34,1000)))"
+    },
+    {
+     "cell": "E34",
+     "formula": "=IF($S34=\"\",\"\",INDEX('Subscriptions'!$D$6:$D$55,MOD($S34,1000)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F34",
+     "formula": "=IF($S34=\"\",\"\",INDEX('Subscriptions'!$I$6:$I$55,MOD($S34,1000))&\"\")"
+    },
+    {
+     "cell": "G34",
+     "formula": "=IF($S34=\"\",\"\",INDEX('Subscriptions'!$K$6:$K$55,MOD($S34,1000))&\"\")"
+    },
+    {
+     "cell": "H34",
+     "formula": "=IF($S34=\"\",\"\",IF(INDEX('Subscriptions'!$S$6:$S$55,MOD($S34,1000))=2,IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S34,1000))=\"\",\"Trial\",IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S34,1000))<0,\"Trial over\",\"Trial ends in \"&INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S34,1000))&IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S34,1000))=1,\" day\",\" days\"))),IF(INDEX('Subscriptions'!$AM$6:$AM$55,MOD($S34,1000))=3,\"Cancel before this!\",IF(C34<=3,\"Soon\",\"\"))))"
+    },
+    {
+     "cell": "S35",
+     "formula": "=IFERROR(SMALL('Subscriptions'!$AG$6:$AG$55,30),\"\")"
+    },
+    {
+     "cell": "B35",
+     "formula": "=IF($S35=\"\",\"\",INT($S35/1000))",
+     "number_format": "ddd mmm d"
+    },
+    {
+     "cell": "C35",
+     "formula": "=IF($S35=\"\",\"\",B35-'Setup'!$R$5)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D35",
+     "formula": "=IF($S35=\"\",\"\",INDEX('Subscriptions'!$B$6:$B$55,MOD($S35,1000)))"
+    },
+    {
+     "cell": "E35",
+     "formula": "=IF($S35=\"\",\"\",INDEX('Subscriptions'!$D$6:$D$55,MOD($S35,1000)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F35",
+     "formula": "=IF($S35=\"\",\"\",INDEX('Subscriptions'!$I$6:$I$55,MOD($S35,1000))&\"\")"
+    },
+    {
+     "cell": "G35",
+     "formula": "=IF($S35=\"\",\"\",INDEX('Subscriptions'!$K$6:$K$55,MOD($S35,1000))&\"\")"
+    },
+    {
+     "cell": "H35",
+     "formula": "=IF($S35=\"\",\"\",IF(INDEX('Subscriptions'!$S$6:$S$55,MOD($S35,1000))=2,IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S35,1000))=\"\",\"Trial\",IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S35,1000))<0,\"Trial over\",\"Trial ends in \"&INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S35,1000))&IF(INDEX('Subscriptions'!$AJ$6:$AJ$55,MOD($S35,1000))=1,\" day\",\" days\"))),IF(INDEX('Subscriptions'!$AM$6:$AM$55,MOD($S35,1000))=3,\"Cancel before this!\",IF(C35<=3,\"Soon\",\"\"))))"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "B6:H35",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER($C6),$C6<=3)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "B6:H35",
+     "type": "formula",
+     "formula": [
+      "LEFT($H6,5)=\"Trial\""
+     ],
+     "fill": "FFF1C2"
+    },
+    {
+     "range": "B6:H35",
+     "type": "formula",
+     "formula": [
+      "$G6=\"Cancel\""
+     ],
+     "fill": "FCE4EC"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B5:H5",
+     "color": "1F1D47"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:H35",
+     "color": "D9D9F2"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "1F1D47"
+    },
+    {
+     "range": "B5:H5",
+     "bold": true,
+     "size": 10,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "B6:G35",
+     "align": "center"
+    },
+    {
+     "range": "H6:H35",
+     "bold": true,
+     "size": 10,
+     "color": "E0457B"
+    }
+   ]
+  },
+  {
+   "name": "Audit",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "4CAF7A",
+   "grid_rows": 26,
+   "grid_cols": 20,
+   "column_widths": {
+    "A": 2.5,
+    "B": 34,
+    "C": 12,
+    "D": 13,
+    "E": 12,
+    "F": 11,
+    "G": 16,
+    "H": 2.5,
+    "S": 3
+   },
+   "hidden_columns": [
+    "S"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:G2",
+     "label": "SUBSCRIPTION AUDIT",
+     "size": 16,
+     "color": "1F1D47",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B4",
+     "formula": "If you cancel everything marked Cancel"
+    },
+    {
+     "cell": "D4",
+     "formula": "=ROUND(SUMIFS('Subscriptions'!$N$6:$N$55,'Subscriptions'!$AM$6:$AM$55,3),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E4",
+     "formula": "a year"
+    },
+    {
+     "cell": "B5",
+     "formula": "If you also cancel the Maybes"
+    },
+    {
+     "cell": "D5",
+     "formula": "=ROUND(SUMIFS('Subscriptions'!$N$6:$N$55,'Subscriptions'!$AM$6:$AM$55,\">=2\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E5",
+     "formula": "a year"
+    },
+    {
+     "cell": "B6",
+     "formula": "Already cancelled or paused"
+    },
+    {
+     "cell": "D6",
+     "formula": "=ROUND(SUMIFS('Subscriptions'!$AN$6:$AN$55,'Subscriptions'!$S$6:$S$55,\">2\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E6",
+     "formula": "a year you no longer pay"
+    },
+    {
+     "cell": "B8",
+     "formula": "Highest cost per use (active and trials)"
+    },
+    {
+     "cell": "B9",
+     "formula": "Subscription"
+    },
+    {
+     "cell": "C9",
+     "formula": "Per month"
+    },
+    {
+     "cell": "D9",
+     "formula": "Uses a month"
+    },
+    {
+     "cell": "E9",
+     "formula": "Cost per use"
+    },
+    {
+     "cell": "F9",
+     "formula": "Decision"
+    },
+    {
+     "cell": "G9",
+     "formula": "Verdict"
+    },
+    {
+     "cell": "S10",
+     "formula": "=IFERROR(LARGE('Subscriptions'!$AI$6:$AI$55,1),\"\")"
+    },
+    {
+     "cell": "B10",
+     "formula": "=IF($S10=\"\",\"\",INDEX('Subscriptions'!$B$6:$B$55,(1000-MOD($S10,1000))))"
+    },
+    {
+     "cell": "C10",
+     "formula": "=IF($S10=\"\",\"\",INDEX('Subscriptions'!$M$6:$M$55,(1000-MOD($S10,1000))))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D10",
+     "formula": "=IF($S10=\"\",\"\",IF(ISNUMBER(INDEX('Subscriptions'!$J$6:$J$55,(1000-MOD($S10,1000)))),INDEX('Subscriptions'!$J$6:$J$55,(1000-MOD($S10,1000))),\"-\"))"
+    },
+    {
+     "cell": "E10",
+     "formula": "=IF($S10=\"\",\"\",INDEX('Subscriptions'!$AH$6:$AH$55,(1000-MOD($S10,1000))))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F10",
+     "formula": "=IF($S10=\"\",\"\",INDEX('Subscriptions'!$K$6:$K$55,(1000-MOD($S10,1000)))&\"\")"
+    },
+    {
+     "cell": "G10",
+     "formula": "=IF($S10=\"\",\"\",IF(E10>=10,\"Pricey per use\",IF(E10>=3,\"Worth a look\",\"Good value\")))"
+    },
+    {
+     "cell": "S11",
+     "formula": "=IFERROR(LARGE('Subscriptions'!$AI$6:$AI$55,2),\"\")"
+    },
+    {
+     "cell": "B11",
+     "formula": "=IF($S11=\"\",\"\",INDEX('Subscriptions'!$B$6:$B$55,(1000-MOD($S11,1000))))"
+    },
+    {
+     "cell": "C11",
+     "formula": "=IF($S11=\"\",\"\",INDEX('Subscriptions'!$M$6:$M$55,(1000-MOD($S11,1000))))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D11",
+     "formula": "=IF($S11=\"\",\"\",IF(ISNUMBER(INDEX('Subscriptions'!$J$6:$J$55,(1000-MOD($S11,1000)))),INDEX('Subscriptions'!$J$6:$J$55,(1000-MOD($S11,1000))),\"-\"))"
+    },
+    {
+     "cell": "E11",
+     "formula": "=IF($S11=\"\",\"\",INDEX('Subscriptions'!$AH$6:$AH$55,(1000-MOD($S11,1000))))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F11",
+     "formula": "=IF($S11=\"\",\"\",INDEX('Subscriptions'!$K$6:$K$55,(1000-MOD($S11,1000)))&\"\")"
+    },
+    {
+     "cell": "G11",
+     "formula": "=IF($S11=\"\",\"\",IF(E11>=10,\"Pricey per use\",IF(E11>=3,\"Worth a look\",\"Good value\")))"
+    },
+    {
+     "cell": "S12",
+     "formula": "=IFERROR(LARGE('Subscriptions'!$AI$6:$AI$55,3),\"\")"
+    },
+    {
+     "cell": "B12",
+     "formula": "=IF($S12=\"\",\"\",INDEX('Subscriptions'!$B$6:$B$55,(1000-MOD($S12,1000))))"
+    },
+    {
+     "cell": "C12",
+     "formula": "=IF($S12=\"\",\"\",INDEX('Subscriptions'!$M$6:$M$55,(1000-MOD($S12,1000))))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D12",
+     "formula": "=IF($S12=\"\",\"\",IF(ISNUMBER(INDEX('Subscriptions'!$J$6:$J$55,(1000-MOD($S12,1000)))),INDEX('Subscriptions'!$J$6:$J$55,(1000-MOD($S12,1000))),\"-\"))"
+    },
+    {
+     "cell": "E12",
+     "formula": "=IF($S12=\"\",\"\",INDEX('Subscriptions'!$AH$6:$AH$55,(1000-MOD($S12,1000))))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F12",
+     "formula": "=IF($S12=\"\",\"\",INDEX('Subscriptions'!$K$6:$K$55,(1000-MOD($S12,1000)))&\"\")"
+    },
+    {
+     "cell": "G12",
+     "formula": "=IF($S12=\"\",\"\",IF(E12>=10,\"Pricey per use\",IF(E12>=3,\"Worth a look\",\"Good value\")))"
+    },
+    {
+     "cell": "S13",
+     "formula": "=IFERROR(LARGE('Subscriptions'!$AI$6:$AI$55,4),\"\")"
+    },
+    {
+     "cell": "B13",
+     "formula": "=IF($S13=\"\",\"\",INDEX('Subscriptions'!$B$6:$B$55,(1000-MOD($S13,1000))))"
+    },
+    {
+     "cell": "C13",
+     "formula": "=IF($S13=\"\",\"\",INDEX('Subscriptions'!$M$6:$M$55,(1000-MOD($S13,1000))))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D13",
+     "formula": "=IF($S13=\"\",\"\",IF(ISNUMBER(INDEX('Subscriptions'!$J$6:$J$55,(1000-MOD($S13,1000)))),INDEX('Subscriptions'!$J$6:$J$55,(1000-MOD($S13,1000))),\"-\"))"
+    },
+    {
+     "cell": "E13",
+     "formula": "=IF($S13=\"\",\"\",INDEX('Subscriptions'!$AH$6:$AH$55,(1000-MOD($S13,1000))))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F13",
+     "formula": "=IF($S13=\"\",\"\",INDEX('Subscriptions'!$K$6:$K$55,(1000-MOD($S13,1000)))&\"\")"
+    },
+    {
+     "cell": "G13",
+     "formula": "=IF($S13=\"\",\"\",IF(E13>=10,\"Pricey per use\",IF(E13>=3,\"Worth a look\",\"Good value\")))"
+    },
+    {
+     "cell": "S14",
+     "formula": "=IFERROR(LARGE('Subscriptions'!$AI$6:$AI$55,5),\"\")"
+    },
+    {
+     "cell": "B14",
+     "formula": "=IF($S14=\"\",\"\",INDEX('Subscriptions'!$B$6:$B$55,(1000-MOD($S14,1000))))"
+    },
+    {
+     "cell": "C14",
+     "formula": "=IF($S14=\"\",\"\",INDEX('Subscriptions'!$M$6:$M$55,(1000-MOD($S14,1000))))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D14",
+     "formula": "=IF($S14=\"\",\"\",IF(ISNUMBER(INDEX('Subscriptions'!$J$6:$J$55,(1000-MOD($S14,1000)))),INDEX('Subscriptions'!$J$6:$J$55,(1000-MOD($S14,1000))),\"-\"))"
+    },
+    {
+     "cell": "E14",
+     "formula": "=IF($S14=\"\",\"\",INDEX('Subscriptions'!$AH$6:$AH$55,(1000-MOD($S14,1000))))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F14",
+     "formula": "=IF($S14=\"\",\"\",INDEX('Subscriptions'!$K$6:$K$55,(1000-MOD($S14,1000)))&\"\")"
+    },
+    {
+     "cell": "G14",
+     "formula": "=IF($S14=\"\",\"\",IF(E14>=10,\"Pricey per use\",IF(E14>=3,\"Worth a look\",\"Good value\")))"
+    },
+    {
+     "cell": "S15",
+     "formula": "=IFERROR(LARGE('Subscriptions'!$AI$6:$AI$55,6),\"\")"
+    },
+    {
+     "cell": "B15",
+     "formula": "=IF($S15=\"\",\"\",INDEX('Subscriptions'!$B$6:$B$55,(1000-MOD($S15,1000))))"
+    },
+    {
+     "cell": "C15",
+     "formula": "=IF($S15=\"\",\"\",INDEX('Subscriptions'!$M$6:$M$55,(1000-MOD($S15,1000))))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D15",
+     "formula": "=IF($S15=\"\",\"\",IF(ISNUMBER(INDEX('Subscriptions'!$J$6:$J$55,(1000-MOD($S15,1000)))),INDEX('Subscriptions'!$J$6:$J$55,(1000-MOD($S15,1000))),\"-\"))"
+    },
+    {
+     "cell": "E15",
+     "formula": "=IF($S15=\"\",\"\",INDEX('Subscriptions'!$AH$6:$AH$55,(1000-MOD($S15,1000))))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F15",
+     "formula": "=IF($S15=\"\",\"\",INDEX('Subscriptions'!$K$6:$K$55,(1000-MOD($S15,1000)))&\"\")"
+    },
+    {
+     "cell": "G15",
+     "formula": "=IF($S15=\"\",\"\",IF(E15>=10,\"Pricey per use\",IF(E15>=3,\"Worth a look\",\"Good value\")))"
+    },
+    {
+     "cell": "S16",
+     "formula": "=IFERROR(LARGE('Subscriptions'!$AI$6:$AI$55,7),\"\")"
+    },
+    {
+     "cell": "B16",
+     "formula": "=IF($S16=\"\",\"\",INDEX('Subscriptions'!$B$6:$B$55,(1000-MOD($S16,1000))))"
+    },
+    {
+     "cell": "C16",
+     "formula": "=IF($S16=\"\",\"\",INDEX('Subscriptions'!$M$6:$M$55,(1000-MOD($S16,1000))))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D16",
+     "formula": "=IF($S16=\"\",\"\",IF(ISNUMBER(INDEX('Subscriptions'!$J$6:$J$55,(1000-MOD($S16,1000)))),INDEX('Subscriptions'!$J$6:$J$55,(1000-MOD($S16,1000))),\"-\"))"
+    },
+    {
+     "cell": "E16",
+     "formula": "=IF($S16=\"\",\"\",INDEX('Subscriptions'!$AH$6:$AH$55,(1000-MOD($S16,1000))))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F16",
+     "formula": "=IF($S16=\"\",\"\",INDEX('Subscriptions'!$K$6:$K$55,(1000-MOD($S16,1000)))&\"\")"
+    },
+    {
+     "cell": "G16",
+     "formula": "=IF($S16=\"\",\"\",IF(E16>=10,\"Pricey per use\",IF(E16>=3,\"Worth a look\",\"Good value\")))"
+    },
+    {
+     "cell": "S17",
+     "formula": "=IFERROR(LARGE('Subscriptions'!$AI$6:$AI$55,8),\"\")"
+    },
+    {
+     "cell": "B17",
+     "formula": "=IF($S17=\"\",\"\",INDEX('Subscriptions'!$B$6:$B$55,(1000-MOD($S17,1000))))"
+    },
+    {
+     "cell": "C17",
+     "formula": "=IF($S17=\"\",\"\",INDEX('Subscriptions'!$M$6:$M$55,(1000-MOD($S17,1000))))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D17",
+     "formula": "=IF($S17=\"\",\"\",IF(ISNUMBER(INDEX('Subscriptions'!$J$6:$J$55,(1000-MOD($S17,1000)))),INDEX('Subscriptions'!$J$6:$J$55,(1000-MOD($S17,1000))),\"-\"))"
+    },
+    {
+     "cell": "E17",
+     "formula": "=IF($S17=\"\",\"\",INDEX('Subscriptions'!$AH$6:$AH$55,(1000-MOD($S17,1000))))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F17",
+     "formula": "=IF($S17=\"\",\"\",INDEX('Subscriptions'!$K$6:$K$55,(1000-MOD($S17,1000)))&\"\")"
+    },
+    {
+     "cell": "G17",
+     "formula": "=IF($S17=\"\",\"\",IF(E17>=10,\"Pricey per use\",IF(E17>=3,\"Worth a look\",\"Good value\")))"
+    },
+    {
+     "cell": "S18",
+     "formula": "=IFERROR(LARGE('Subscriptions'!$AI$6:$AI$55,9),\"\")"
+    },
+    {
+     "cell": "B18",
+     "formula": "=IF($S18=\"\",\"\",INDEX('Subscriptions'!$B$6:$B$55,(1000-MOD($S18,1000))))"
+    },
+    {
+     "cell": "C18",
+     "formula": "=IF($S18=\"\",\"\",INDEX('Subscriptions'!$M$6:$M$55,(1000-MOD($S18,1000))))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D18",
+     "formula": "=IF($S18=\"\",\"\",IF(ISNUMBER(INDEX('Subscriptions'!$J$6:$J$55,(1000-MOD($S18,1000)))),INDEX('Subscriptions'!$J$6:$J$55,(1000-MOD($S18,1000))),\"-\"))"
+    },
+    {
+     "cell": "E18",
+     "formula": "=IF($S18=\"\",\"\",INDEX('Subscriptions'!$AH$6:$AH$55,(1000-MOD($S18,1000))))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F18",
+     "formula": "=IF($S18=\"\",\"\",INDEX('Subscriptions'!$K$6:$K$55,(1000-MOD($S18,1000)))&\"\")"
+    },
+    {
+     "cell": "G18",
+     "formula": "=IF($S18=\"\",\"\",IF(E18>=10,\"Pricey per use\",IF(E18>=3,\"Worth a look\",\"Good value\")))"
+    },
+    {
+     "cell": "S19",
+     "formula": "=IFERROR(LARGE('Subscriptions'!$AI$6:$AI$55,10),\"\")"
+    },
+    {
+     "cell": "B19",
+     "formula": "=IF($S19=\"\",\"\",INDEX('Subscriptions'!$B$6:$B$55,(1000-MOD($S19,1000))))"
+    },
+    {
+     "cell": "C19",
+     "formula": "=IF($S19=\"\",\"\",INDEX('Subscriptions'!$M$6:$M$55,(1000-MOD($S19,1000))))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D19",
+     "formula": "=IF($S19=\"\",\"\",IF(ISNUMBER(INDEX('Subscriptions'!$J$6:$J$55,(1000-MOD($S19,1000)))),INDEX('Subscriptions'!$J$6:$J$55,(1000-MOD($S19,1000))),\"-\"))"
+    },
+    {
+     "cell": "E19",
+     "formula": "=IF($S19=\"\",\"\",INDEX('Subscriptions'!$AH$6:$AH$55,(1000-MOD($S19,1000))))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F19",
+     "formula": "=IF($S19=\"\",\"\",INDEX('Subscriptions'!$K$6:$K$55,(1000-MOD($S19,1000)))&\"\")"
+    },
+    {
+     "cell": "G19",
+     "formula": "=IF($S19=\"\",\"\",IF(E19>=10,\"Pricey per use\",IF(E19>=3,\"Worth a look\",\"Good value\")))"
+    },
+    {
+     "cell": "S20",
+     "formula": "=IFERROR(LARGE('Subscriptions'!$AI$6:$AI$55,11),\"\")"
+    },
+    {
+     "cell": "B20",
+     "formula": "=IF($S20=\"\",\"\",INDEX('Subscriptions'!$B$6:$B$55,(1000-MOD($S20,1000))))"
+    },
+    {
+     "cell": "C20",
+     "formula": "=IF($S20=\"\",\"\",INDEX('Subscriptions'!$M$6:$M$55,(1000-MOD($S20,1000))))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D20",
+     "formula": "=IF($S20=\"\",\"\",IF(ISNUMBER(INDEX('Subscriptions'!$J$6:$J$55,(1000-MOD($S20,1000)))),INDEX('Subscriptions'!$J$6:$J$55,(1000-MOD($S20,1000))),\"-\"))"
+    },
+    {
+     "cell": "E20",
+     "formula": "=IF($S20=\"\",\"\",INDEX('Subscriptions'!$AH$6:$AH$55,(1000-MOD($S20,1000))))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F20",
+     "formula": "=IF($S20=\"\",\"\",INDEX('Subscriptions'!$K$6:$K$55,(1000-MOD($S20,1000)))&\"\")"
+    },
+    {
+     "cell": "G20",
+     "formula": "=IF($S20=\"\",\"\",IF(E20>=10,\"Pricey per use\",IF(E20>=3,\"Worth a look\",\"Good value\")))"
+    },
+    {
+     "cell": "S21",
+     "formula": "=IFERROR(LARGE('Subscriptions'!$AI$6:$AI$55,12),\"\")"
+    },
+    {
+     "cell": "B21",
+     "formula": "=IF($S21=\"\",\"\",INDEX('Subscriptions'!$B$6:$B$55,(1000-MOD($S21,1000))))"
+    },
+    {
+     "cell": "C21",
+     "formula": "=IF($S21=\"\",\"\",INDEX('Subscriptions'!$M$6:$M$55,(1000-MOD($S21,1000))))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D21",
+     "formula": "=IF($S21=\"\",\"\",IF(ISNUMBER(INDEX('Subscriptions'!$J$6:$J$55,(1000-MOD($S21,1000)))),INDEX('Subscriptions'!$J$6:$J$55,(1000-MOD($S21,1000))),\"-\"))"
+    },
+    {
+     "cell": "E21",
+     "formula": "=IF($S21=\"\",\"\",INDEX('Subscriptions'!$AH$6:$AH$55,(1000-MOD($S21,1000))))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F21",
+     "formula": "=IF($S21=\"\",\"\",INDEX('Subscriptions'!$K$6:$K$55,(1000-MOD($S21,1000)))&\"\")"
+    },
+    {
+     "cell": "G21",
+     "formula": "=IF($S21=\"\",\"\",IF(E21>=10,\"Pricey per use\",IF(E21>=3,\"Worth a look\",\"Good value\")))"
+    },
+    {
+     "cell": "S22",
+     "formula": "=IFERROR(LARGE('Subscriptions'!$AI$6:$AI$55,13),\"\")"
+    },
+    {
+     "cell": "B22",
+     "formula": "=IF($S22=\"\",\"\",INDEX('Subscriptions'!$B$6:$B$55,(1000-MOD($S22,1000))))"
+    },
+    {
+     "cell": "C22",
+     "formula": "=IF($S22=\"\",\"\",INDEX('Subscriptions'!$M$6:$M$55,(1000-MOD($S22,1000))))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D22",
+     "formula": "=IF($S22=\"\",\"\",IF(ISNUMBER(INDEX('Subscriptions'!$J$6:$J$55,(1000-MOD($S22,1000)))),INDEX('Subscriptions'!$J$6:$J$55,(1000-MOD($S22,1000))),\"-\"))"
+    },
+    {
+     "cell": "E22",
+     "formula": "=IF($S22=\"\",\"\",INDEX('Subscriptions'!$AH$6:$AH$55,(1000-MOD($S22,1000))))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F22",
+     "formula": "=IF($S22=\"\",\"\",INDEX('Subscriptions'!$K$6:$K$55,(1000-MOD($S22,1000)))&\"\")"
+    },
+    {
+     "cell": "G22",
+     "formula": "=IF($S22=\"\",\"\",IF(E22>=10,\"Pricey per use\",IF(E22>=3,\"Worth a look\",\"Good value\")))"
+    },
+    {
+     "cell": "S23",
+     "formula": "=IFERROR(LARGE('Subscriptions'!$AI$6:$AI$55,14),\"\")"
+    },
+    {
+     "cell": "B23",
+     "formula": "=IF($S23=\"\",\"\",INDEX('Subscriptions'!$B$6:$B$55,(1000-MOD($S23,1000))))"
+    },
+    {
+     "cell": "C23",
+     "formula": "=IF($S23=\"\",\"\",INDEX('Subscriptions'!$M$6:$M$55,(1000-MOD($S23,1000))))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D23",
+     "formula": "=IF($S23=\"\",\"\",IF(ISNUMBER(INDEX('Subscriptions'!$J$6:$J$55,(1000-MOD($S23,1000)))),INDEX('Subscriptions'!$J$6:$J$55,(1000-MOD($S23,1000))),\"-\"))"
+    },
+    {
+     "cell": "E23",
+     "formula": "=IF($S23=\"\",\"\",INDEX('Subscriptions'!$AH$6:$AH$55,(1000-MOD($S23,1000))))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F23",
+     "formula": "=IF($S23=\"\",\"\",INDEX('Subscriptions'!$K$6:$K$55,(1000-MOD($S23,1000)))&\"\")"
+    },
+    {
+     "cell": "G23",
+     "formula": "=IF($S23=\"\",\"\",IF(E23>=10,\"Pricey per use\",IF(E23>=3,\"Worth a look\",\"Good value\")))"
+    },
+    {
+     "cell": "S24",
+     "formula": "=IFERROR(LARGE('Subscriptions'!$AI$6:$AI$55,15),\"\")"
+    },
+    {
+     "cell": "B24",
+     "formula": "=IF($S24=\"\",\"\",INDEX('Subscriptions'!$B$6:$B$55,(1000-MOD($S24,1000))))"
+    },
+    {
+     "cell": "C24",
+     "formula": "=IF($S24=\"\",\"\",INDEX('Subscriptions'!$M$6:$M$55,(1000-MOD($S24,1000))))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D24",
+     "formula": "=IF($S24=\"\",\"\",IF(ISNUMBER(INDEX('Subscriptions'!$J$6:$J$55,(1000-MOD($S24,1000)))),INDEX('Subscriptions'!$J$6:$J$55,(1000-MOD($S24,1000))),\"-\"))"
+    },
+    {
+     "cell": "E24",
+     "formula": "=IF($S24=\"\",\"\",INDEX('Subscriptions'!$AH$6:$AH$55,(1000-MOD($S24,1000))))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F24",
+     "formula": "=IF($S24=\"\",\"\",INDEX('Subscriptions'!$K$6:$K$55,(1000-MOD($S24,1000)))&\"\")"
+    },
+    {
+     "cell": "G24",
+     "formula": "=IF($S24=\"\",\"\",IF(E24>=10,\"Pricey per use\",IF(E24>=3,\"Worth a look\",\"Good value\")))"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "B10:G24",
+     "type": "formula",
+     "formula": [
+      "$G10=\"Pricey per use\""
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "B10:G24",
+     "type": "formula",
+     "formula": [
+      "$G10=\"Good value\""
+     ],
+     "fill": "D7EFDD"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B4:E6",
+     "color": "E3F4EA"
+    },
+    {
+     "range": "B9:G9",
+     "color": "1F1D47"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B4:E6",
+     "color": "D9D9F2"
+    },
+    {
+     "range": "B9:G24",
+     "color": "D9D9F2"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B4:B6",
+     "bold": true,
+     "size": 10,
+     "color": "1F1D47"
+    },
+    {
+     "range": "D4:D6",
+     "bold": true,
+     "size": 13,
+     "color": "4CAF7A",
+     "align": "center"
+    },
+    {
+     "range": "E4:E6",
+     "italic": true,
+     "size": 9,
+     "color": "1F1D47"
+    },
+    {
+     "range": "B8",
+     "bold": true,
+     "size": 11,
+     "color": "1F1D47"
+    },
+    {
+     "range": "B9:G9",
+     "bold": true,
+     "size": 10,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "C10:G24",
+     "align": "center"
+    }
+   ]
+  },
+  {
+   "name": "Monthly",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "1F1D47",
+   "grid_rows": 38,
+   "grid_cols": 19,
+   "column_widths": {
+    "A": 2.5,
+    "B": 9,
+    "C": 13,
+    "D": 8,
+    "E": 2.5,
+    "R": 4
+   },
+   "hidden_columns": [
+    "R"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:D2",
+     "label": "MONTH BY MONTH",
+     "size": 16,
+     "color": "1F1D47",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B5",
+     "formula": "Month"
+    },
+    {
+     "cell": "C5",
+     "formula": "Charges"
+    },
+    {
+     "cell": "D5",
+     "formula": "Count"
+    },
+    {
+     "cell": "B6",
+     "formula": "Jan"
+    },
+    {
+     "cell": "C6",
+     "formula": "=ROUND(SUM('Subscriptions'!$U$6:$U$55),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D6",
+     "formula": "=COUNTIF('Subscriptions'!$U$6:$U$55,\">0\")"
+    },
+    {
+     "cell": "B7",
+     "formula": "Feb"
+    },
+    {
+     "cell": "C7",
+     "formula": "=ROUND(SUM('Subscriptions'!$V$6:$V$55),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D7",
+     "formula": "=COUNTIF('Subscriptions'!$V$6:$V$55,\">0\")"
+    },
+    {
+     "cell": "B8",
+     "formula": "Mar"
+    },
+    {
+     "cell": "C8",
+     "formula": "=ROUND(SUM('Subscriptions'!$W$6:$W$55),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D8",
+     "formula": "=COUNTIF('Subscriptions'!$W$6:$W$55,\">0\")"
+    },
+    {
+     "cell": "B9",
+     "formula": "Apr"
+    },
+    {
+     "cell": "C9",
+     "formula": "=ROUND(SUM('Subscriptions'!$X$6:$X$55),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D9",
+     "formula": "=COUNTIF('Subscriptions'!$X$6:$X$55,\">0\")"
+    },
+    {
+     "cell": "B10",
+     "formula": "May"
+    },
+    {
+     "cell": "C10",
+     "formula": "=ROUND(SUM('Subscriptions'!$Y$6:$Y$55),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D10",
+     "formula": "=COUNTIF('Subscriptions'!$Y$6:$Y$55,\">0\")"
+    },
+    {
+     "cell": "B11",
+     "formula": "Jun"
+    },
+    {
+     "cell": "C11",
+     "formula": "=ROUND(SUM('Subscriptions'!$Z$6:$Z$55),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D11",
+     "formula": "=COUNTIF('Subscriptions'!$Z$6:$Z$55,\">0\")"
+    },
+    {
+     "cell": "B12",
+     "formula": "Jul"
+    },
+    {
+     "cell": "C12",
+     "formula": "=ROUND(SUM('Subscriptions'!$AA$6:$AA$55),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D12",
+     "formula": "=COUNTIF('Subscriptions'!$AA$6:$AA$55,\">0\")"
+    },
+    {
+     "cell": "B13",
+     "formula": "Aug"
+    },
+    {
+     "cell": "C13",
+     "formula": "=ROUND(SUM('Subscriptions'!$AB$6:$AB$55),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D13",
+     "formula": "=COUNTIF('Subscriptions'!$AB$6:$AB$55,\">0\")"
+    },
+    {
+     "cell": "B14",
+     "formula": "Sep"
+    },
+    {
+     "cell": "C14",
+     "formula": "=ROUND(SUM('Subscriptions'!$AC$6:$AC$55),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D14",
+     "formula": "=COUNTIF('Subscriptions'!$AC$6:$AC$55,\">0\")"
+    },
+    {
+     "cell": "B15",
+     "formula": "Oct"
+    },
+    {
+     "cell": "C15",
+     "formula": "=ROUND(SUM('Subscriptions'!$AD$6:$AD$55),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D15",
+     "formula": "=COUNTIF('Subscriptions'!$AD$6:$AD$55,\">0\")"
+    },
+    {
+     "cell": "B16",
+     "formula": "Nov"
+    },
+    {
+     "cell": "C16",
+     "formula": "=ROUND(SUM('Subscriptions'!$AE$6:$AE$55),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D16",
+     "formula": "=COUNTIF('Subscriptions'!$AE$6:$AE$55,\">0\")"
+    },
+    {
+     "cell": "B17",
+     "formula": "Dec"
+    },
+    {
+     "cell": "C17",
+     "formula": "=ROUND(SUM('Subscriptions'!$AF$6:$AF$55),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D17",
+     "formula": "=COUNTIF('Subscriptions'!$AF$6:$AF$55,\">0\")"
+    },
+    {
+     "cell": "B18",
+     "formula": "Year"
+    },
+    {
+     "cell": "C18",
+     "formula": "=ROUND(SUM(C6:C17),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B3",
+     "formula": "=\"Expected charges in \"&'Setup'!$R$4&\" from active subscriptions and trials.\""
+    },
+    {
+     "cell": "R4",
+     "formula": "=IF(YEAR('Setup'!$R$5)='Setup'!$R$4,MONTH('Setup'!$R$5),0)"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "B6:D17",
+     "type": "formula",
+     "formula": [
+      "ROW()-5=$R$4"
+     ],
+     "fill": "FCE4EC"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B5:D5",
+     "color": "1F1D47"
+    },
+    {
+     "range": "B18:D18",
+     "color": "ECECFB"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:D18",
+     "color": "D9D9F2"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "1F1D47"
+    },
+    {
+     "range": "B5:D5",
+     "bold": true,
+     "size": 10,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "B6:D18",
+     "align": "center"
+    },
+    {
+     "range": "B6:B18",
+     "bold": true,
+     "size": 10,
+     "color": "1F1D47",
+     "align": "center"
+    },
+    {
+     "range": "B18:D18",
+     "bold": true,
+     "size": 10,
+     "color": "1F1D47",
+     "align": "center"
+    }
+   ],
+   "charts": [
+    {
+     "type": "bar",
+     "anchor": "F5",
+     "data": "Monthly!C5:C17",
+     "categories": "Monthly!B6:B17",
+     "width": 16,
+     "height": 7,
+     "colors": [
+      "5B5BD6"
+     ]
+    }
+   ]
+  }
+ ]
+}
