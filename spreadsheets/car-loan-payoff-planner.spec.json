@@ -1,0 +1,3150 @@
+{
+ "filename": "Car Loan Payoff Planner",
+ "locale": "en_US",
+ "theme": {
+  "header_font": "FFFFFF",
+  "border": "CBD2DC",
+  "accent": "2B2D42",
+  "section_colors": [
+   "2B2D42",
+   "EDF2F4",
+   "FBE3E7"
+  ],
+  "chart_palette": [
+   "D90429",
+   "2A9D8F",
+   "5C677D",
+   "2B2D42"
+  ]
+ },
+ "tabs": [
+  {
+   "name": "Start Here",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "D90429",
+   "grid_rows": 29,
+   "column_widths": {
+    "A": 2.5,
+    "B": 22,
+    "C": 100,
+    "D": 2.5
+   },
+   "section_bars": [
+    {
+     "range": "B2:C2",
+     "label": "CAR LOAN PAYOFF PLANNER",
+     "size": 18,
+     "color": "2B2D42",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "B5:C5",
+     "label": "HOW TO USE IT",
+     "color": "EDF2F4",
+     "font_color": "2B2D42",
+     "align": "left"
+    },
+    {
+     "range": "B13:C13",
+     "label": "GOOD TO KNOW",
+     "color": "D90429",
+     "font_color": "FFFFFF",
+     "align": "left"
+    },
+    {
+     "range": "B19:C19",
+     "label": "COLOR GUIDE",
+     "color": "EDF2F4",
+     "font_color": "2B2D42",
+     "align": "left"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Pay off your car faster and see every dollar of interest you save."
+    },
+    {
+     "cell": "B6",
+     "formula": "Loan: type your loan amount, APR, term and first payment date. Payment fills itself in (or type your own)."
+    },
+    {
+     "cell": "B7",
+     "formula": "Loan: add an extra amount you can pay every month. Even $50 cuts months and interest."
+    },
+    {
+     "cell": "B8",
+     "formula": "Schedule: every month of the loan. Type one-time extras (tax refund, bonus) in the Extra column."
+    },
+    {
+     "cell": "B9",
+     "formula": "Schedule: tick Paid each month you pay. The Dashboard tracks your real progress."
+    },
+    {
+     "cell": "B10",
+     "formula": "Payoff Goal: pick a date to be car-loan-free and see the payment it takes."
+    },
+    {
+     "cell": "B11",
+     "formula": "Car Costs: insurance, gas and upkeep for the true monthly cost of your car."
+    },
+    {
+     "cell": "B14",
+     "formula": "Extra payments"
+    },
+    {
+     "cell": "C14",
+     "formula": "Ask your lender to apply extra money to principal, not the next payment."
+    },
+    {
+     "cell": "B15",
+     "formula": "APR"
+    },
+    {
+     "cell": "C15",
+     "formula": "Type 6.49 or 6.49%. Both work."
+    },
+    {
+     "cell": "B16",
+     "formula": "Without extra"
+    },
+    {
+     "cell": "C16",
+     "formula": "The Schedule keeps a second balance with no extras, so you can see what you saved."
+    },
+    {
+     "cell": "B17",
+     "formula": "Max length"
+    },
+    {
+     "cell": "C17",
+     "formula": "96 months (8 years)."
+    },
+    {
+     "cell": "C20",
+     "formula": "White cells are for typing."
+    },
+    {
+     "cell": "C21",
+     "formula": "Grey cells calculate. No need to touch."
+    },
+    {
+     "cell": "C22",
+     "formula": "Red means something needs a look."
+    },
+    {
+     "cell": "C23",
+     "formula": "Green means paid or done."
+    },
+    {
+     "cell": "B25",
+     "formula": "Drive it like you own it. Soon you will."
+    }
+   ],
+   "fills": [
+    {
+     "range": "B14:C17",
+     "color": "FBE3E7"
+    },
+    {
+     "range": "B20",
+     "color": "FFFFFF"
+    },
+    {
+     "range": "B21",
+     "color": "F5F7FA"
+    },
+    {
+     "range": "B22",
+     "color": "F6CACA"
+    },
+    {
+     "range": "B23",
+     "color": "D7EFDD"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B20",
+     "color": "CBD2DC"
+    },
+    {
+     "range": "B21",
+     "color": "CBD2DC"
+    },
+    {
+     "range": "B22",
+     "color": "CBD2DC"
+    },
+    {
+     "range": "B23",
+     "color": "CBD2DC"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 11,
+     "color": "2B2D42"
+    },
+    {
+     "range": "B14:B17",
+     "bold": true,
+     "size": 11,
+     "color": "2B2D42"
+    },
+    {
+     "range": "B25",
+     "italic": true,
+     "bold": true,
+     "size": 11,
+     "color": "2B2D42"
+    }
+   ]
+  },
+  {
+   "name": "Dashboard",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "D90429",
+   "grid_rows": 38,
+   "grid_cols": 19,
+   "column_widths": {
+    "A": 2.5,
+    "B": 16,
+    "C": 16,
+    "D": 16,
+    "E": 16,
+    "F": 16,
+    "G": 16,
+    "H": 16,
+    "I": 16,
+    "J": 2.5,
+    "R": 10
+   },
+   "hidden_columns": [
+    "R"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:I2",
+     "label": "CAR LOAN DASHBOARD",
+     "size": 16,
+     "color": "2B2D42",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "B15:E15",
+     "label": "EXTRA PAYMENTS VS NONE",
+     "color": "EDF2F4",
+     "font_color": "2B2D42",
+     "align": "left"
+    },
+    {
+     "range": "F15:I15",
+     "label": "BALANCE: WITH EXTRA VS WITHOUT",
+     "color": "EDF2F4",
+     "font_color": "2B2D42",
+     "align": "left"
+    }
+   ],
+   "kpi_cards": [
+    {
+     "anchor": "B5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "BALANCE LEFT",
+     "value": "=R10",
+     "fill": "2B2D42",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "D5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "PAID OFF BY",
+     "value": "=IF('Loan'!$R$4<=0,\"-\",IF(R12>0,\"96+ months\",EDATE('Loan'!$R$7,R4-1)))",
+     "fill": "D90429",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "mmm yyyy"
+    },
+    {
+     "anchor": "F5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "INTEREST SAVED",
+     "value": "=IF('Loan'!$R$4<=0,\"-\",ROUND(R7-R6,2))",
+     "fill": "2A9D8F",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "H5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "MONTHS SAVED",
+     "value": "=IF('Loan'!$R$4<=0,\"-\",R5-R4)",
+     "fill": "5C677D",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "0"
+    },
+    {
+     "anchor": "B9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "MONTHLY PAYMENT",
+     "value": "='Loan'!$R$9+'Loan'!$R$10",
+     "fill": "5C677D",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "D9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "PAID SO FAR",
+     "value": "=ROUND(SUMIFS('Schedule'!$G$6:$G$101,'Schedule'!$W$6:$W$101,1),2)",
+     "fill": "2A9D8F",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "F9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "INTEREST PAID",
+     "value": "=ROUND(SUMIFS('Schedule'!$F$6:$F$101,'Schedule'!$W$6:$W$101,1),2)",
+     "fill": "D90429",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "H9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "PAYMENTS MADE",
+     "value": "=COUNTIF('Schedule'!$W$6:$W$101,1)&\" of \"&R4",
+     "fill": "2B2D42",
+     "font_color": "FFFFFF",
+     "value_size": 16
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "=IF('Loan'!$R$12=\"\",\"My car loan\",'Loan'!$R$12)&\"  |  \"&TEXT('Loan'!$R$11,\"mmm d, yyyy\")"
+    },
+    {
+     "cell": "R4",
+     "formula": "=COUNTIF('Schedule'!$G$6:$G$101,\">0\")"
+    },
+    {
+     "cell": "R5",
+     "formula": "=COUNTIF('Schedule'!$T$6:$T$101,\">0\")"
+    },
+    {
+     "cell": "R6",
+     "formula": "=ROUND(SUM('Schedule'!$F$6:$F$101),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R7",
+     "formula": "=ROUND(SUM('Schedule'!$S$6:$S$101),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R8",
+     "formula": "=MAX('Schedule'!$X$6:$X$101)"
+    },
+    {
+     "cell": "R9",
+     "formula": "=MIN('Schedule'!$Y$6:$Y$101)"
+    },
+    {
+     "cell": "R10",
+     "formula": "=IF(R8=0,'Loan'!$R$4,INDEX('Schedule'!$I$6:$I$101,R8))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R11",
+     "formula": "=IF('Loan'!$R$4<=0,0,MIN(1,MAX(0,1-R10/'Loan'!$R$4)))",
+     "number_format": "0%"
+    },
+    {
+     "cell": "R12",
+     "formula": "=INDEX('Schedule'!$I$6:$I$101,96)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B13",
+     "formula": "=REPT(\"█\",ROUND(MIN(1,MAX(0,R11))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,R11))*10,0))&\"  \"&TEXT(R11,\"0%\")&\" paid off\""
+    },
+    {
+     "cell": "B14",
+     "formula": "=IF('Loan'!$R$4<=0,\"Start on the Loan tab.\",IF(R9=9999,\"Paid off. Enjoy the car, no payments!\",\"Next payment: \"&TEXT(EDATE('Loan'!$R$7,R9-1),\"mmm d, yyyy\")&\"  |  \"&TEXT(INDEX('Schedule'!$G$6:$G$101,R9),\"$#,##0.00\")))"
+    },
+    {
+     "cell": "B16",
+     "formula": "With extra"
+    },
+    {
+     "cell": "C16",
+     "formula": "Months"
+    },
+    {
+     "cell": "D16",
+     "formula": "Total interest"
+    },
+    {
+     "cell": "E16",
+     "formula": "Paid off"
+    },
+    {
+     "cell": "B17",
+     "formula": "Your plan"
+    },
+    {
+     "cell": "C17",
+     "formula": "=R4",
+     "number_format": "0"
+    },
+    {
+     "cell": "D17",
+     "formula": "=R6",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E17",
+     "formula": "=IF(OR('Loan'!$R$4<=0,R12>0),\"-\",EDATE('Loan'!$R$7,R4-1))",
+     "number_format": "mmm yyyy"
+    },
+    {
+     "cell": "B18",
+     "formula": "No extra"
+    },
+    {
+     "cell": "C18",
+     "formula": "=R5",
+     "number_format": "0"
+    },
+    {
+     "cell": "D18",
+     "formula": "=R7",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E18",
+     "formula": "=IF(OR('Loan'!$R$4<=0,INDEX('Schedule'!$U$6:$U$101,96)>0),\"-\",EDATE('Loan'!$R$7,R5-1))",
+     "number_format": "mmm yyyy"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "B14:I14",
+     "type": "formula",
+     "formula": [
+      "$R$9=9999"
+     ],
+     "fill": "D7EFDD"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B16:E16",
+     "color": "2B2D42"
+    },
+    {
+     "range": "C17:E18",
+     "color": "F5F7FA"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:C7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "D5:E7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "F5:G7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "H5:I7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "B9:C11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "D9:E11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "F9:G11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "H9:I11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "B16:E18",
+     "color": "CBD2DC"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 11,
+     "color": "2B2D42"
+    },
+    {
+     "range": "B13",
+     "bold": true,
+     "size": 12,
+     "color": "2A9D8F"
+    },
+    {
+     "range": "B14",
+     "bold": true,
+     "size": 11,
+     "color": "2B2D42"
+    },
+    {
+     "range": "B16:E16",
+     "bold": true,
+     "size": 10,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "B17:B18",
+     "bold": true,
+     "size": 10,
+     "color": "2B2D42"
+    },
+    {
+     "range": "C17:E18",
+     "bold": true,
+     "size": 11,
+     "color": "2B2D42",
+     "align": "center"
+    }
+   ],
+   "charts": [
+    {
+     "type": "line",
+     "anchor": "F16",
+     "data": "Schedule!I5:J101",
+     "categories": "Schedule!C6:C101",
+     "width": 16,
+     "height": 7,
+     "colors": [
+      "D90429",
+      "5C677D"
+     ]
+    },
+    {
+     "type": "bar",
+     "anchor": "B20",
+     "data": "Yearly!E5:E14",
+     "categories": "Yearly!B6:B14",
+     "width": 12,
+     "height": 7,
+     "colors": [
+      "D90429"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Loan",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "2B2D42",
+   "grid_rows": 25,
+   "grid_cols": 19,
+   "column_widths": {
+    "A": 2.5,
+    "B": 22,
+    "C": 22,
+    "D": 36,
+    "E": 2.5,
+    "R": 12
+   },
+   "hidden_columns": [
+    "R"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:D2",
+     "label": "MY CAR LOAN",
+     "size": 16,
+     "color": "2B2D42",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B4",
+     "formula": "Item"
+    },
+    {
+     "cell": "C4",
+     "formula": "Your loan"
+    },
+    {
+     "cell": "D4",
+     "formula": "Note"
+    },
+    {
+     "cell": "B5",
+     "formula": "Car"
+    },
+    {
+     "cell": "C5",
+     "formula": "2026 Toyota RAV4"
+    },
+    {
+     "cell": "D5",
+     "formula": "Make and model."
+    },
+    {
+     "cell": "B6",
+     "formula": "Lender"
+    },
+    {
+     "cell": "C6",
+     "formula": "Hometown Credit Union"
+    },
+    {
+     "cell": "B7",
+     "formula": "Loan amount"
+    },
+    {
+     "cell": "C7",
+     "formula": 31500
+    },
+    {
+     "cell": "D7",
+     "formula": "What you borrowed."
+    },
+    {
+     "cell": "B8",
+     "formula": "APR %"
+    },
+    {
+     "cell": "C8",
+     "formula": 6.49
+    },
+    {
+     "cell": "D8",
+     "formula": "From your loan papers."
+    },
+    {
+     "cell": "B9",
+     "formula": "Term (months)"
+    },
+    {
+     "cell": "C9",
+     "formula": 72
+    },
+    {
+     "cell": "D9",
+     "formula": "36, 48, 60, 72, 84 or 96."
+    },
+    {
+     "cell": "B10",
+     "formula": "First payment date"
+    },
+    {
+     "cell": "C10",
+     "formula": "=DATE(2026,2,15)"
+    },
+    {
+     "cell": "B11",
+     "formula": "Monthly payment"
+    },
+    {
+     "cell": "D11",
+     "formula": "Blank = calculated for you."
+    },
+    {
+     "cell": "B12",
+     "formula": "Extra every month"
+    },
+    {
+     "cell": "C12",
+     "formula": 100
+    },
+    {
+     "cell": "D12",
+     "formula": "Optional. Goes straight to principal."
+    },
+    {
+     "cell": "B13",
+     "formula": "Today"
+    },
+    {
+     "cell": "C13",
+     "formula": "=DATE(2027,6,20)"
+    },
+    {
+     "cell": "D13",
+     "formula": "Blank = today."
+    },
+    {
+     "cell": "R4",
+     "formula": "=IF(AND(ISNUMBER(C7),N(C7)>0),ROUND(C7,2),0)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R5",
+     "formula": "=MAX(0,IF(N(C8)>=1,N(C8)/100,N(C8)))/12",
+     "number_format": "0.000000"
+    },
+    {
+     "cell": "R6",
+     "formula": "=IF(AND(ISNUMBER(C9),N(C9)>=1),MIN(96,INT(C9)),60)",
+     "number_format": "0"
+    },
+    {
+     "cell": "R7",
+     "formula": "=IF(AND(ISNUMBER(C10),N(C10)>=1),INT(C10),DATE(YEAR(TODAY()),MONTH(TODAY()),1))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "R8",
+     "formula": "=IF(R4<=0,0,IF(R5=0,ROUNDUP(R4/R6,2),ROUNDUP(PMT(R5,R6,-R4),2)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R9",
+     "formula": "=IF(AND(ISNUMBER(C11),N(C11)>0),ROUND(C11,2),R8)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R10",
+     "formula": "=IF(ISNUMBER(C12),MAX(0,ROUND(C12,2)),0)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R11",
+     "formula": "=IF(AND(ISNUMBER(C13),N(C13)>=1),INT(C13),TODAY())",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "R12",
+     "formula": "=TRIM(C5&\"\")"
+    },
+    {
+     "cell": "B15",
+     "formula": "Calculated"
+    },
+    {
+     "cell": "C15",
+     "formula": "Amount"
+    },
+    {
+     "cell": "B16",
+     "formula": "Calculated payment"
+    },
+    {
+     "cell": "C16",
+     "formula": "=R8",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B17",
+     "formula": "Payment used"
+    },
+    {
+     "cell": "C17",
+     "formula": "=R9",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B18",
+     "formula": "Paying each month"
+    },
+    {
+     "cell": "C18",
+     "formula": "=R9+R10",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B19",
+     "formula": "Monthly interest rate"
+    },
+    {
+     "cell": "C19",
+     "formula": "=R5",
+     "number_format": "0.000%"
+    },
+    {
+     "cell": "B20",
+     "formula": "First month's interest"
+    },
+    {
+     "cell": "C20",
+     "formula": "=ROUND(R4*R5,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B22",
+     "formula": "=IF(R4<=0,\"Type your loan amount to start.\",IF(AND(R9>0,R9<=ROUND(R4*R5,2)),\"Your payment does not cover the interest. Raise it.\",IF(AND(ISNUMBER(C9),N(C9)>96),\"Terms over 96 months are cut to 96.\",\"All set. Check the Dashboard.\")))"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "C7:C9",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C7<>\"\",NOT(ISNUMBER(C7))),N(C7)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C11:C12",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C11<>\"\",NOT(ISNUMBER(C11))),N(C11)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C10",
+     "type": "formula",
+     "formula": [
+      "AND(C10<>\"\",OR(NOT(ISNUMBER(C10)),N(C10)<1))"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C13",
+     "type": "formula",
+     "formula": [
+      "AND(C13<>\"\",OR(NOT(ISNUMBER(C13)),N(C13)<1))"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "B22:D22",
+     "type": "formula",
+     "formula": [
+      "LEFT($B$22,3)<>\"All\""
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "B22:D22",
+     "type": "formula",
+     "formula": [
+      "LEFT($B$22,3)=\"All\""
+     ],
+     "fill": "D7EFDD"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B4:D4",
+     "color": "EDF2F4"
+    },
+    {
+     "range": "C5:C13",
+     "color": "FFFFFF"
+    },
+    {
+     "range": "B15:D15",
+     "color": "EDF2F4"
+    },
+    {
+     "range": "C16:C20",
+     "color": "F5F7FA"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B4:D13",
+     "color": "CBD2DC"
+    },
+    {
+     "range": "B15:D20",
+     "color": "CBD2DC"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B4:D4",
+     "bold": true,
+     "size": 10,
+     "color": "2B2D42",
+     "align": "center"
+    },
+    {
+     "range": "B15:D15",
+     "bold": true,
+     "size": 10,
+     "color": "2B2D42",
+     "align": "center"
+    },
+    {
+     "range": "B5:B13",
+     "bold": true,
+     "size": 10,
+     "color": "2B2D42"
+    },
+    {
+     "range": "B16:B20",
+     "bold": true,
+     "size": 10,
+     "color": "2B2D42"
+    },
+    {
+     "range": "D5:D13",
+     "italic": true,
+     "size": 9,
+     "color": "2B2D42"
+    },
+    {
+     "range": "C5:C13",
+     "bold": true,
+     "size": 11,
+     "color": "2B2D42",
+     "align": "center"
+    },
+    {
+     "range": "C16:C20",
+     "bold": true,
+     "size": 11,
+     "color": "D90429",
+     "align": "center"
+    },
+    {
+     "range": "B22",
+     "bold": true,
+     "size": 11,
+     "color": "2B2D42"
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "C7",
+     "format": "$#,##0.00"
+    },
+    {
+     "range": "C8",
+     "format": "0.00"
+    },
+    {
+     "range": "C9",
+     "format": "0"
+    },
+    {
+     "range": "C10",
+     "format": "mmm d, yyyy"
+    },
+    {
+     "range": "C11",
+     "format": "$#,##0.00"
+    },
+    {
+     "range": "C12",
+     "format": "$#,##0.00"
+    },
+    {
+     "range": "C13",
+     "format": "mmm d, yyyy"
+    }
+   ]
+  },
+  {
+   "name": "Schedule",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "D90429",
+   "grid_rows": 103,
+   "grid_cols": 26,
+   "freeze": "A6",
+   "column_widths": {
+    "A": 2.5,
+    "B": 5,
+    "C": 11,
+    "D": 12,
+    "E": 13,
+    "F": 11,
+    "G": 11,
+    "H": 11,
+    "I": 13,
+    "J": 14,
+    "K": 7,
+    "L": 2.5,
+    "R": 3,
+    "S": 3,
+    "T": 3,
+    "U": 3,
+    "V": 3,
+    "W": 3,
+    "X": 3,
+    "Y": 3,
+    "Z": 3
+   },
+   "hidden_columns": [
+    "R",
+    "S",
+    "T",
+    "U",
+    "V",
+    "W",
+    "X",
+    "Y",
+    "Z"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:K2",
+     "label": "PAYMENT SCHEDULE",
+     "size": 16,
+     "color": "2B2D42",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B5",
+     "formula": "#"
+    },
+    {
+     "cell": "C5",
+     "formula": "Date"
+    },
+    {
+     "cell": "D5",
+     "formula": "Extra this month"
+    },
+    {
+     "cell": "E5",
+     "formula": "Start balance"
+    },
+    {
+     "cell": "F5",
+     "formula": "Interest"
+    },
+    {
+     "cell": "G5",
+     "formula": "Payment"
+    },
+    {
+     "cell": "H5",
+     "formula": "Principal"
+    },
+    {
+     "cell": "I5",
+     "formula": "End balance"
+    },
+    {
+     "cell": "J5",
+     "formula": "Balance without extra"
+    },
+    {
+     "cell": "K5",
+     "formula": "Paid"
+    },
+    {
+     "cell": "B3",
+     "formula": "Tick Paid each month. Type one-time extras in column D."
+    },
+    {
+     "cell": "B6",
+     "formula": 1
+    },
+    {
+     "cell": "K6",
+     "formula": true
+    },
+    {
+     "cell": "B7",
+     "formula": 2
+    },
+    {
+     "cell": "K7",
+     "formula": true
+    },
+    {
+     "cell": "B8",
+     "formula": 3
+    },
+    {
+     "cell": "K8",
+     "formula": true
+    },
+    {
+     "cell": "B9",
+     "formula": 4
+    },
+    {
+     "cell": "K9",
+     "formula": true
+    },
+    {
+     "cell": "B10",
+     "formula": 5
+    },
+    {
+     "cell": "K10",
+     "formula": true
+    },
+    {
+     "cell": "B11",
+     "formula": 6
+    },
+    {
+     "cell": "K11",
+     "formula": true
+    },
+    {
+     "cell": "B12",
+     "formula": 7
+    },
+    {
+     "cell": "K12",
+     "formula": true
+    },
+    {
+     "cell": "B13",
+     "formula": 8
+    },
+    {
+     "cell": "K13",
+     "formula": true
+    },
+    {
+     "cell": "B14",
+     "formula": 9
+    },
+    {
+     "cell": "K14",
+     "formula": true
+    },
+    {
+     "cell": "B15",
+     "formula": 10
+    },
+    {
+     "cell": "K15",
+     "formula": true
+    },
+    {
+     "cell": "B16",
+     "formula": 11
+    },
+    {
+     "cell": "K16",
+     "formula": true
+    },
+    {
+     "cell": "B17",
+     "formula": 12
+    },
+    {
+     "cell": "D17",
+     "formula": 1000
+    },
+    {
+     "cell": "K17",
+     "formula": true
+    },
+    {
+     "cell": "B18",
+     "formula": 13
+    },
+    {
+     "cell": "K18",
+     "formula": true
+    },
+    {
+     "cell": "B19",
+     "formula": 14
+    },
+    {
+     "cell": "K19",
+     "formula": true
+    },
+    {
+     "cell": "B20",
+     "formula": 15
+    },
+    {
+     "cell": "K20",
+     "formula": true
+    },
+    {
+     "cell": "B21",
+     "formula": 16
+    },
+    {
+     "cell": "K21",
+     "formula": true
+    },
+    {
+     "cell": "B22",
+     "formula": 17
+    },
+    {
+     "cell": "K22",
+     "formula": true
+    },
+    {
+     "cell": "B23",
+     "formula": 18
+    },
+    {
+     "cell": "B24",
+     "formula": 19
+    },
+    {
+     "cell": "B25",
+     "formula": 20
+    },
+    {
+     "cell": "B26",
+     "formula": 21
+    },
+    {
+     "cell": "B27",
+     "formula": 22
+    },
+    {
+     "cell": "B28",
+     "formula": 23
+    },
+    {
+     "cell": "B29",
+     "formula": 24
+    },
+    {
+     "cell": "B30",
+     "formula": 25
+    },
+    {
+     "cell": "B31",
+     "formula": 26
+    },
+    {
+     "cell": "B32",
+     "formula": 27
+    },
+    {
+     "cell": "B33",
+     "formula": 28
+    },
+    {
+     "cell": "B34",
+     "formula": 29
+    },
+    {
+     "cell": "B35",
+     "formula": 30
+    },
+    {
+     "cell": "B36",
+     "formula": 31
+    },
+    {
+     "cell": "B37",
+     "formula": 32
+    },
+    {
+     "cell": "B38",
+     "formula": 33
+    },
+    {
+     "cell": "B39",
+     "formula": 34
+    },
+    {
+     "cell": "B40",
+     "formula": 35
+    },
+    {
+     "cell": "B41",
+     "formula": 36
+    },
+    {
+     "cell": "B42",
+     "formula": 37
+    },
+    {
+     "cell": "B43",
+     "formula": 38
+    },
+    {
+     "cell": "B44",
+     "formula": 39
+    },
+    {
+     "cell": "B45",
+     "formula": 40
+    },
+    {
+     "cell": "B46",
+     "formula": 41
+    },
+    {
+     "cell": "B47",
+     "formula": 42
+    },
+    {
+     "cell": "B48",
+     "formula": 43
+    },
+    {
+     "cell": "B49",
+     "formula": 44
+    },
+    {
+     "cell": "B50",
+     "formula": 45
+    },
+    {
+     "cell": "B51",
+     "formula": 46
+    },
+    {
+     "cell": "B52",
+     "formula": 47
+    },
+    {
+     "cell": "B53",
+     "formula": 48
+    },
+    {
+     "cell": "B54",
+     "formula": 49
+    },
+    {
+     "cell": "B55",
+     "formula": 50
+    },
+    {
+     "cell": "B56",
+     "formula": 51
+    },
+    {
+     "cell": "B57",
+     "formula": 52
+    },
+    {
+     "cell": "B58",
+     "formula": 53
+    },
+    {
+     "cell": "B59",
+     "formula": 54
+    },
+    {
+     "cell": "B60",
+     "formula": 55
+    },
+    {
+     "cell": "B61",
+     "formula": 56
+    },
+    {
+     "cell": "B62",
+     "formula": 57
+    },
+    {
+     "cell": "B63",
+     "formula": 58
+    },
+    {
+     "cell": "B64",
+     "formula": 59
+    },
+    {
+     "cell": "B65",
+     "formula": 60
+    },
+    {
+     "cell": "B66",
+     "formula": 61
+    },
+    {
+     "cell": "B67",
+     "formula": 62
+    },
+    {
+     "cell": "B68",
+     "formula": 63
+    },
+    {
+     "cell": "B69",
+     "formula": 64
+    },
+    {
+     "cell": "B70",
+     "formula": 65
+    },
+    {
+     "cell": "B71",
+     "formula": 66
+    },
+    {
+     "cell": "B72",
+     "formula": 67
+    },
+    {
+     "cell": "B73",
+     "formula": 68
+    },
+    {
+     "cell": "B74",
+     "formula": 69
+    },
+    {
+     "cell": "B75",
+     "formula": 70
+    },
+    {
+     "cell": "B76",
+     "formula": 71
+    },
+    {
+     "cell": "B77",
+     "formula": 72
+    },
+    {
+     "cell": "B78",
+     "formula": 73
+    },
+    {
+     "cell": "B79",
+     "formula": 74
+    },
+    {
+     "cell": "B80",
+     "formula": 75
+    },
+    {
+     "cell": "B81",
+     "formula": 76
+    },
+    {
+     "cell": "B82",
+     "formula": 77
+    },
+    {
+     "cell": "B83",
+     "formula": 78
+    },
+    {
+     "cell": "B84",
+     "formula": 79
+    },
+    {
+     "cell": "B85",
+     "formula": 80
+    },
+    {
+     "cell": "B86",
+     "formula": 81
+    },
+    {
+     "cell": "B87",
+     "formula": 82
+    },
+    {
+     "cell": "B88",
+     "formula": 83
+    },
+    {
+     "cell": "B89",
+     "formula": 84
+    },
+    {
+     "cell": "B90",
+     "formula": 85
+    },
+    {
+     "cell": "B91",
+     "formula": 86
+    },
+    {
+     "cell": "B92",
+     "formula": 87
+    },
+    {
+     "cell": "B93",
+     "formula": 88
+    },
+    {
+     "cell": "B94",
+     "formula": 89
+    },
+    {
+     "cell": "B95",
+     "formula": 90
+    },
+    {
+     "cell": "B96",
+     "formula": 91
+    },
+    {
+     "cell": "B97",
+     "formula": 92
+    },
+    {
+     "cell": "B98",
+     "formula": 93
+    },
+    {
+     "cell": "B99",
+     "formula": 94
+    },
+    {
+     "cell": "B100",
+     "formula": 95
+    },
+    {
+     "cell": "B101",
+     "formula": 96
+    },
+    {
+     "col": "C",
+     "range_rows": [
+      6,
+      101
+     ],
+     "formula": "=IF(OR(E{row}>0,R{row}>0),EDATE('Loan'!$R$7,B{row}-1),\"\")",
+     "number_format": "mmm yyyy"
+    },
+    {
+     "col": "E",
+     "range_rows": [
+      6,
+      101
+     ],
+     "formula": "=IF(B{row}=1,'Loan'!$R$4,I{row-1})",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "F",
+     "range_rows": [
+      6,
+      101
+     ],
+     "formula": "=IF(E{row}<=0,0,ROUND(E{row}*'Loan'!$R$5,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "G",
+     "range_rows": [
+      6,
+      101
+     ],
+     "formula": "=IF(E{row}<=0,0,MIN(ROUND(E{row}+F{row},2),ROUND('Loan'!$R$9+'Loan'!$R$10+IF(ISNUMBER(D{row}),MAX(0,D{row}),0),2)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "H",
+     "range_rows": [
+      6,
+      101
+     ],
+     "formula": "=ROUND(G{row}-F{row},2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "I",
+     "range_rows": [
+      6,
+      101
+     ],
+     "formula": "=ROUND(E{row}-H{row},2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "J",
+     "range_rows": [
+      6,
+      101
+     ],
+     "formula": "=U{row}",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "R",
+     "range_rows": [
+      6,
+      101
+     ],
+     "formula": "=IF(B{row}=1,'Loan'!$R$4,U{row-1})",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "S",
+     "range_rows": [
+      6,
+      101
+     ],
+     "formula": "=IF(R{row}<=0,0,ROUND(R{row}*'Loan'!$R$5,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "T",
+     "range_rows": [
+      6,
+      101
+     ],
+     "formula": "=IF(R{row}<=0,0,MIN(ROUND(R{row}+S{row},2),'Loan'!$R$9))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "Z",
+     "range_rows": [
+      6,
+      101
+     ],
+     "formula": "=ROUND(T{row}-S{row},2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "U",
+     "range_rows": [
+      6,
+      101
+     ],
+     "formula": "=ROUND(R{row}-Z{row},2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "V",
+     "range_rows": [
+      6,
+      101
+     ],
+     "formula": "=IF(C{row}=\"\",0,YEAR(C{row}))"
+    },
+    {
+     "col": "W",
+     "range_rows": [
+      6,
+      101
+     ],
+     "formula": "=IF(AND(K{row}=TRUE,G{row}>0),1,0)"
+    },
+    {
+     "col": "X",
+     "range_rows": [
+      6,
+      101
+     ],
+     "formula": "=IF(W{row}=1,B{row},0)"
+    },
+    {
+     "col": "Y",
+     "range_rows": [
+      6,
+      101
+     ],
+     "formula": "=IF(AND(W{row}=0,G{row}>0),B{row},9999)"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "B6:K101",
+     "type": "formula",
+     "formula": [
+      "$W6=1"
+     ],
+     "fill": "D7EFDD"
+    },
+    {
+     "range": "B6:K101",
+     "type": "formula",
+     "formula": [
+      "AND($C6<>\"\",$G6=0)"
+     ],
+     "fill": "EDF2F4"
+    },
+    {
+     "range": "D6:D101",
+     "type": "formula",
+     "formula": [
+      "OR(AND(D6<>\"\",NOT(ISNUMBER(D6))),N(D6)<0)"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B5:K5",
+     "color": "2B2D42"
+    },
+    {
+     "range": "D6:D101",
+     "color": "FFFFFF"
+    },
+    {
+     "range": "E6:J101",
+     "color": "F5F7FA"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:K101",
+     "color": "CBD2DC"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B5:K5",
+     "bold": true,
+     "size": 9,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "B5:K5",
+     "wrap": true,
+     "bold": true,
+     "size": 9,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "2B2D42"
+    },
+    {
+     "range": "B6:C101",
+     "align": "center"
+    },
+    {
+     "range": "I6:I101",
+     "bold": true,
+     "size": 10,
+     "color": "2B2D42"
+    },
+    {
+     "range": "K6:K101",
+     "align": "center"
+    },
+    {
+     "range": "J6:J101",
+     "color": "5C677D"
+    }
+   ],
+   "row_heights": {
+    "5": 32
+   },
+   "validations": [
+    {
+     "range": "K6:K101",
+     "type": "checkbox"
+    }
+   ]
+  },
+  {
+   "name": "Yearly",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "5C677D",
+   "grid_rows": 35,
+   "grid_cols": 19,
+   "column_widths": {
+    "A": 2.5,
+    "B": 9,
+    "C": 13,
+    "D": 13,
+    "E": 12,
+    "F": 14,
+    "G": 14,
+    "H": 13,
+    "I": 15,
+    "J": 2.5,
+    "R": 6
+   },
+   "hidden_columns": [
+    "R"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:I2",
+     "label": "YEAR BY YEAR",
+     "size": 16,
+     "color": "2B2D42",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B5",
+     "formula": "Year"
+    },
+    {
+     "cell": "C5",
+     "formula": "Paid"
+    },
+    {
+     "cell": "D5",
+     "formula": "Principal"
+    },
+    {
+     "cell": "E5",
+     "formula": "Interest"
+    },
+    {
+     "cell": "F5",
+     "formula": "End balance"
+    },
+    {
+     "cell": "G5",
+     "formula": "Interest without extra"
+    },
+    {
+     "cell": "H5",
+     "formula": "Interest saved"
+    },
+    {
+     "cell": "I5",
+     "formula": "Balance without extra"
+    },
+    {
+     "cell": "B3",
+     "formula": "Each calendar year of the loan."
+    },
+    {
+     "cell": "B6",
+     "formula": "=YEAR('Loan'!$R$7)+0"
+    },
+    {
+     "cell": "C6",
+     "formula": "=ROUND(SUMIFS('Schedule'!$G$6:$G$101,'Schedule'!$V$6:$V$101,B6),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D6",
+     "formula": "=ROUND(SUMIFS('Schedule'!$H$6:$H$101,'Schedule'!$V$6:$V$101,B6),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E6",
+     "formula": "=ROUND(SUMIFS('Schedule'!$F$6:$F$101,'Schedule'!$V$6:$V$101,B6),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F6",
+     "formula": "=ROUND('Loan'!$R$4-SUMIFS('Schedule'!$H$6:$H$101,'Schedule'!$V$6:$V$101,\"<=\"&B6,'Schedule'!$V$6:$V$101,\">0\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G6",
+     "formula": "=ROUND(SUMIFS('Schedule'!$S$6:$S$101,'Schedule'!$V$6:$V$101,B6),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H6",
+     "formula": "=ROUND(G6-E6,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I6",
+     "formula": "=ROUND('Loan'!$R$4-SUMIFS('Schedule'!$Z$6:$Z$101,'Schedule'!$V$6:$V$101,\"<=\"&B6,'Schedule'!$V$6:$V$101,\">0\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B7",
+     "formula": "=YEAR('Loan'!$R$7)+1"
+    },
+    {
+     "cell": "C7",
+     "formula": "=ROUND(SUMIFS('Schedule'!$G$6:$G$101,'Schedule'!$V$6:$V$101,B7),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D7",
+     "formula": "=ROUND(SUMIFS('Schedule'!$H$6:$H$101,'Schedule'!$V$6:$V$101,B7),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E7",
+     "formula": "=ROUND(SUMIFS('Schedule'!$F$6:$F$101,'Schedule'!$V$6:$V$101,B7),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F7",
+     "formula": "=ROUND('Loan'!$R$4-SUMIFS('Schedule'!$H$6:$H$101,'Schedule'!$V$6:$V$101,\"<=\"&B7,'Schedule'!$V$6:$V$101,\">0\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G7",
+     "formula": "=ROUND(SUMIFS('Schedule'!$S$6:$S$101,'Schedule'!$V$6:$V$101,B7),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H7",
+     "formula": "=ROUND(G7-E7,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I7",
+     "formula": "=ROUND('Loan'!$R$4-SUMIFS('Schedule'!$Z$6:$Z$101,'Schedule'!$V$6:$V$101,\"<=\"&B7,'Schedule'!$V$6:$V$101,\">0\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B8",
+     "formula": "=YEAR('Loan'!$R$7)+2"
+    },
+    {
+     "cell": "C8",
+     "formula": "=ROUND(SUMIFS('Schedule'!$G$6:$G$101,'Schedule'!$V$6:$V$101,B8),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D8",
+     "formula": "=ROUND(SUMIFS('Schedule'!$H$6:$H$101,'Schedule'!$V$6:$V$101,B8),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E8",
+     "formula": "=ROUND(SUMIFS('Schedule'!$F$6:$F$101,'Schedule'!$V$6:$V$101,B8),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F8",
+     "formula": "=ROUND('Loan'!$R$4-SUMIFS('Schedule'!$H$6:$H$101,'Schedule'!$V$6:$V$101,\"<=\"&B8,'Schedule'!$V$6:$V$101,\">0\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G8",
+     "formula": "=ROUND(SUMIFS('Schedule'!$S$6:$S$101,'Schedule'!$V$6:$V$101,B8),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H8",
+     "formula": "=ROUND(G8-E8,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I8",
+     "formula": "=ROUND('Loan'!$R$4-SUMIFS('Schedule'!$Z$6:$Z$101,'Schedule'!$V$6:$V$101,\"<=\"&B8,'Schedule'!$V$6:$V$101,\">0\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B9",
+     "formula": "=YEAR('Loan'!$R$7)+3"
+    },
+    {
+     "cell": "C9",
+     "formula": "=ROUND(SUMIFS('Schedule'!$G$6:$G$101,'Schedule'!$V$6:$V$101,B9),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D9",
+     "formula": "=ROUND(SUMIFS('Schedule'!$H$6:$H$101,'Schedule'!$V$6:$V$101,B9),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E9",
+     "formula": "=ROUND(SUMIFS('Schedule'!$F$6:$F$101,'Schedule'!$V$6:$V$101,B9),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F9",
+     "formula": "=ROUND('Loan'!$R$4-SUMIFS('Schedule'!$H$6:$H$101,'Schedule'!$V$6:$V$101,\"<=\"&B9,'Schedule'!$V$6:$V$101,\">0\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G9",
+     "formula": "=ROUND(SUMIFS('Schedule'!$S$6:$S$101,'Schedule'!$V$6:$V$101,B9),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H9",
+     "formula": "=ROUND(G9-E9,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I9",
+     "formula": "=ROUND('Loan'!$R$4-SUMIFS('Schedule'!$Z$6:$Z$101,'Schedule'!$V$6:$V$101,\"<=\"&B9,'Schedule'!$V$6:$V$101,\">0\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B10",
+     "formula": "=YEAR('Loan'!$R$7)+4"
+    },
+    {
+     "cell": "C10",
+     "formula": "=ROUND(SUMIFS('Schedule'!$G$6:$G$101,'Schedule'!$V$6:$V$101,B10),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D10",
+     "formula": "=ROUND(SUMIFS('Schedule'!$H$6:$H$101,'Schedule'!$V$6:$V$101,B10),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E10",
+     "formula": "=ROUND(SUMIFS('Schedule'!$F$6:$F$101,'Schedule'!$V$6:$V$101,B10),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F10",
+     "formula": "=ROUND('Loan'!$R$4-SUMIFS('Schedule'!$H$6:$H$101,'Schedule'!$V$6:$V$101,\"<=\"&B10,'Schedule'!$V$6:$V$101,\">0\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G10",
+     "formula": "=ROUND(SUMIFS('Schedule'!$S$6:$S$101,'Schedule'!$V$6:$V$101,B10),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H10",
+     "formula": "=ROUND(G10-E10,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I10",
+     "formula": "=ROUND('Loan'!$R$4-SUMIFS('Schedule'!$Z$6:$Z$101,'Schedule'!$V$6:$V$101,\"<=\"&B10,'Schedule'!$V$6:$V$101,\">0\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B11",
+     "formula": "=YEAR('Loan'!$R$7)+5"
+    },
+    {
+     "cell": "C11",
+     "formula": "=ROUND(SUMIFS('Schedule'!$G$6:$G$101,'Schedule'!$V$6:$V$101,B11),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D11",
+     "formula": "=ROUND(SUMIFS('Schedule'!$H$6:$H$101,'Schedule'!$V$6:$V$101,B11),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E11",
+     "formula": "=ROUND(SUMIFS('Schedule'!$F$6:$F$101,'Schedule'!$V$6:$V$101,B11),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F11",
+     "formula": "=ROUND('Loan'!$R$4-SUMIFS('Schedule'!$H$6:$H$101,'Schedule'!$V$6:$V$101,\"<=\"&B11,'Schedule'!$V$6:$V$101,\">0\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G11",
+     "formula": "=ROUND(SUMIFS('Schedule'!$S$6:$S$101,'Schedule'!$V$6:$V$101,B11),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H11",
+     "formula": "=ROUND(G11-E11,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I11",
+     "formula": "=ROUND('Loan'!$R$4-SUMIFS('Schedule'!$Z$6:$Z$101,'Schedule'!$V$6:$V$101,\"<=\"&B11,'Schedule'!$V$6:$V$101,\">0\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B12",
+     "formula": "=YEAR('Loan'!$R$7)+6"
+    },
+    {
+     "cell": "C12",
+     "formula": "=ROUND(SUMIFS('Schedule'!$G$6:$G$101,'Schedule'!$V$6:$V$101,B12),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D12",
+     "formula": "=ROUND(SUMIFS('Schedule'!$H$6:$H$101,'Schedule'!$V$6:$V$101,B12),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E12",
+     "formula": "=ROUND(SUMIFS('Schedule'!$F$6:$F$101,'Schedule'!$V$6:$V$101,B12),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F12",
+     "formula": "=ROUND('Loan'!$R$4-SUMIFS('Schedule'!$H$6:$H$101,'Schedule'!$V$6:$V$101,\"<=\"&B12,'Schedule'!$V$6:$V$101,\">0\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G12",
+     "formula": "=ROUND(SUMIFS('Schedule'!$S$6:$S$101,'Schedule'!$V$6:$V$101,B12),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H12",
+     "formula": "=ROUND(G12-E12,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I12",
+     "formula": "=ROUND('Loan'!$R$4-SUMIFS('Schedule'!$Z$6:$Z$101,'Schedule'!$V$6:$V$101,\"<=\"&B12,'Schedule'!$V$6:$V$101,\">0\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B13",
+     "formula": "=YEAR('Loan'!$R$7)+7"
+    },
+    {
+     "cell": "C13",
+     "formula": "=ROUND(SUMIFS('Schedule'!$G$6:$G$101,'Schedule'!$V$6:$V$101,B13),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D13",
+     "formula": "=ROUND(SUMIFS('Schedule'!$H$6:$H$101,'Schedule'!$V$6:$V$101,B13),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E13",
+     "formula": "=ROUND(SUMIFS('Schedule'!$F$6:$F$101,'Schedule'!$V$6:$V$101,B13),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F13",
+     "formula": "=ROUND('Loan'!$R$4-SUMIFS('Schedule'!$H$6:$H$101,'Schedule'!$V$6:$V$101,\"<=\"&B13,'Schedule'!$V$6:$V$101,\">0\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G13",
+     "formula": "=ROUND(SUMIFS('Schedule'!$S$6:$S$101,'Schedule'!$V$6:$V$101,B13),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H13",
+     "formula": "=ROUND(G13-E13,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I13",
+     "formula": "=ROUND('Loan'!$R$4-SUMIFS('Schedule'!$Z$6:$Z$101,'Schedule'!$V$6:$V$101,\"<=\"&B13,'Schedule'!$V$6:$V$101,\">0\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B14",
+     "formula": "=YEAR('Loan'!$R$7)+8"
+    },
+    {
+     "cell": "C14",
+     "formula": "=ROUND(SUMIFS('Schedule'!$G$6:$G$101,'Schedule'!$V$6:$V$101,B14),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D14",
+     "formula": "=ROUND(SUMIFS('Schedule'!$H$6:$H$101,'Schedule'!$V$6:$V$101,B14),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E14",
+     "formula": "=ROUND(SUMIFS('Schedule'!$F$6:$F$101,'Schedule'!$V$6:$V$101,B14),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F14",
+     "formula": "=ROUND('Loan'!$R$4-SUMIFS('Schedule'!$H$6:$H$101,'Schedule'!$V$6:$V$101,\"<=\"&B14,'Schedule'!$V$6:$V$101,\">0\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G14",
+     "formula": "=ROUND(SUMIFS('Schedule'!$S$6:$S$101,'Schedule'!$V$6:$V$101,B14),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H14",
+     "formula": "=ROUND(G14-E14,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I14",
+     "formula": "=ROUND('Loan'!$R$4-SUMIFS('Schedule'!$Z$6:$Z$101,'Schedule'!$V$6:$V$101,\"<=\"&B14,'Schedule'!$V$6:$V$101,\">0\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B15",
+     "formula": "Total"
+    },
+    {
+     "cell": "C15",
+     "formula": "=ROUND(SUM(C6:C14),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D15",
+     "formula": "=ROUND(SUM(D6:D14),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E15",
+     "formula": "=ROUND(SUM(E6:E14),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G15",
+     "formula": "=ROUND(SUM(G6:G14),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H15",
+     "formula": "=ROUND(SUM(H6:H14),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R4",
+     "formula": "=YEAR('Loan'!$R$11)"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "B6:I14",
+     "type": "formula",
+     "formula": [
+      "$B6=$R$4"
+     ],
+     "fill": "FBE3E7"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B5:I5",
+     "color": "2B2D42"
+    },
+    {
+     "range": "B15:I15",
+     "color": "EDF2F4"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:I15",
+     "color": "CBD2DC"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B5:I5",
+     "wrap": true,
+     "bold": true,
+     "size": 9,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "2B2D42"
+    },
+    {
+     "range": "B6:B15",
+     "bold": true,
+     "size": 10,
+     "color": "2B2D42",
+     "align": "center"
+    },
+    {
+     "range": "H6:H15",
+     "bold": true,
+     "size": 10,
+     "color": "2A9D8F"
+    },
+    {
+     "range": "B15:I15",
+     "bold": true,
+     "size": 10,
+     "color": "2B2D42"
+    }
+   ],
+   "row_heights": {
+    "5": 32
+   },
+   "charts": [
+    {
+     "type": "bar",
+     "anchor": "B17",
+     "data": "Yearly!D5:E14",
+     "categories": "Yearly!B6:B14",
+     "width": 20,
+     "height": 7,
+     "colors": [
+      "2A9D8F",
+      "D90429"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Payoff Goal",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "2A9D8F",
+   "grid_rows": 22,
+   "grid_cols": 19,
+   "column_widths": {
+    "A": 2.5,
+    "B": 24,
+    "C": 13,
+    "D": 13,
+    "E": 15,
+    "F": 15,
+    "G": 2.5,
+    "R": 8
+   },
+   "hidden_columns": [
+    "R"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:F2",
+     "label": "PAYOFF GOAL",
+     "size": 16,
+     "color": "2B2D42",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B4",
+     "formula": "Debt-free by"
+    },
+    {
+     "cell": "B5",
+     "formula": "Months from first payment"
+    },
+    {
+     "cell": "B6",
+     "formula": "Payment needed"
+    },
+    {
+     "cell": "B7",
+     "formula": "Extra needed each month"
+    },
+    {
+     "cell": "B8",
+     "formula": "What it means"
+    },
+    {
+     "cell": "C4",
+     "formula": "=DATE(2030,6,15)"
+    },
+    {
+     "cell": "C5",
+     "formula": "=IF(AND(ISNUMBER(C4),N(C4)>=1),MAX(1,(YEAR(C4)-YEAR('Loan'!$R$7))*12+MONTH(C4)-MONTH('Loan'!$R$7)+1),\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "C6",
+     "formula": "=IF(OR(C5=\"\",'Loan'!$R$4<=0),\"\",IF('Loan'!$R$5=0,ROUNDUP('Loan'!$R$4/C5,2),ROUNDUP(PMT('Loan'!$R$5,C5,-'Loan'!$R$4),2)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "C7",
+     "formula": "=IF(C6=\"\",\"\",MAX(0,ROUND(C6-'Loan'!$R$9,2)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "C8",
+     "formula": "=IF(C6=\"\",\"Pick a date.\",IF(C7=0,\"Your regular payment already gets you there.\",\"Pay \"&TEXT(C7,\"$#,##0\")&\" extra a month from the start.\"))"
+    },
+    {
+     "cell": "B11",
+     "formula": "Extra a month"
+    },
+    {
+     "cell": "C11",
+     "formula": "Months"
+    },
+    {
+     "cell": "D11",
+     "formula": "Paid off"
+    },
+    {
+     "cell": "E11",
+     "formula": "Interest (about)"
+    },
+    {
+     "cell": "F11",
+     "formula": "Saved vs no extra"
+    },
+    {
+     "cell": "B10",
+     "formula": "What if you paid extra? From the loan start, at the same rate."
+    },
+    {
+     "cell": "B12",
+     "formula": 0
+    },
+    {
+     "cell": "C12",
+     "formula": "=IF('Loan'!$R$4<=0,\"-\",IF(('Loan'!$R$9+B12)<=ROUND('Loan'!$R$4*'Loan'!$R$5,2),\"Never\",IF('Loan'!$R$5=0,ROUNDUP('Loan'!$R$4/('Loan'!$R$9+B12),0),ROUNDUP(NPER('Loan'!$R$5,-('Loan'!$R$9+B12),'Loan'!$R$4),0))))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D12",
+     "formula": "=IF(ISNUMBER(C12),EDATE('Loan'!$R$7,C12-1),\"-\")",
+     "number_format": "mmm yyyy"
+    },
+    {
+     "cell": "E12",
+     "formula": "=IF(ISNUMBER(C12),MAX(0,ROUND(IF('Loan'!$R$5=0,0,('Loan'!$R$9+B12)*NPER('Loan'!$R$5,-('Loan'!$R$9+B12),'Loan'!$R$4)-'Loan'!$R$4),2)),\"-\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F12",
+     "formula": "=IF(AND(ISNUMBER(E12),ISNUMBER($E$12)),ROUND($E$12-E12,2),\"-\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B13",
+     "formula": 25
+    },
+    {
+     "cell": "C13",
+     "formula": "=IF('Loan'!$R$4<=0,\"-\",IF(('Loan'!$R$9+B13)<=ROUND('Loan'!$R$4*'Loan'!$R$5,2),\"Never\",IF('Loan'!$R$5=0,ROUNDUP('Loan'!$R$4/('Loan'!$R$9+B13),0),ROUNDUP(NPER('Loan'!$R$5,-('Loan'!$R$9+B13),'Loan'!$R$4),0))))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D13",
+     "formula": "=IF(ISNUMBER(C13),EDATE('Loan'!$R$7,C13-1),\"-\")",
+     "number_format": "mmm yyyy"
+    },
+    {
+     "cell": "E13",
+     "formula": "=IF(ISNUMBER(C13),MAX(0,ROUND(IF('Loan'!$R$5=0,0,('Loan'!$R$9+B13)*NPER('Loan'!$R$5,-('Loan'!$R$9+B13),'Loan'!$R$4)-'Loan'!$R$4),2)),\"-\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F13",
+     "formula": "=IF(AND(ISNUMBER(E13),ISNUMBER($E$12)),ROUND($E$12-E13,2),\"-\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B14",
+     "formula": 50
+    },
+    {
+     "cell": "C14",
+     "formula": "=IF('Loan'!$R$4<=0,\"-\",IF(('Loan'!$R$9+B14)<=ROUND('Loan'!$R$4*'Loan'!$R$5,2),\"Never\",IF('Loan'!$R$5=0,ROUNDUP('Loan'!$R$4/('Loan'!$R$9+B14),0),ROUNDUP(NPER('Loan'!$R$5,-('Loan'!$R$9+B14),'Loan'!$R$4),0))))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D14",
+     "formula": "=IF(ISNUMBER(C14),EDATE('Loan'!$R$7,C14-1),\"-\")",
+     "number_format": "mmm yyyy"
+    },
+    {
+     "cell": "E14",
+     "formula": "=IF(ISNUMBER(C14),MAX(0,ROUND(IF('Loan'!$R$5=0,0,('Loan'!$R$9+B14)*NPER('Loan'!$R$5,-('Loan'!$R$9+B14),'Loan'!$R$4)-'Loan'!$R$4),2)),\"-\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F14",
+     "formula": "=IF(AND(ISNUMBER(E14),ISNUMBER($E$12)),ROUND($E$12-E14,2),\"-\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B15",
+     "formula": 100
+    },
+    {
+     "cell": "C15",
+     "formula": "=IF('Loan'!$R$4<=0,\"-\",IF(('Loan'!$R$9+B15)<=ROUND('Loan'!$R$4*'Loan'!$R$5,2),\"Never\",IF('Loan'!$R$5=0,ROUNDUP('Loan'!$R$4/('Loan'!$R$9+B15),0),ROUNDUP(NPER('Loan'!$R$5,-('Loan'!$R$9+B15),'Loan'!$R$4),0))))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D15",
+     "formula": "=IF(ISNUMBER(C15),EDATE('Loan'!$R$7,C15-1),\"-\")",
+     "number_format": "mmm yyyy"
+    },
+    {
+     "cell": "E15",
+     "formula": "=IF(ISNUMBER(C15),MAX(0,ROUND(IF('Loan'!$R$5=0,0,('Loan'!$R$9+B15)*NPER('Loan'!$R$5,-('Loan'!$R$9+B15),'Loan'!$R$4)-'Loan'!$R$4),2)),\"-\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F15",
+     "formula": "=IF(AND(ISNUMBER(E15),ISNUMBER($E$12)),ROUND($E$12-E15,2),\"-\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B16",
+     "formula": 150
+    },
+    {
+     "cell": "C16",
+     "formula": "=IF('Loan'!$R$4<=0,\"-\",IF(('Loan'!$R$9+B16)<=ROUND('Loan'!$R$4*'Loan'!$R$5,2),\"Never\",IF('Loan'!$R$5=0,ROUNDUP('Loan'!$R$4/('Loan'!$R$9+B16),0),ROUNDUP(NPER('Loan'!$R$5,-('Loan'!$R$9+B16),'Loan'!$R$4),0))))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D16",
+     "formula": "=IF(ISNUMBER(C16),EDATE('Loan'!$R$7,C16-1),\"-\")",
+     "number_format": "mmm yyyy"
+    },
+    {
+     "cell": "E16",
+     "formula": "=IF(ISNUMBER(C16),MAX(0,ROUND(IF('Loan'!$R$5=0,0,('Loan'!$R$9+B16)*NPER('Loan'!$R$5,-('Loan'!$R$9+B16),'Loan'!$R$4)-'Loan'!$R$4),2)),\"-\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F16",
+     "formula": "=IF(AND(ISNUMBER(E16),ISNUMBER($E$12)),ROUND($E$12-E16,2),\"-\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B17",
+     "formula": 200
+    },
+    {
+     "cell": "C17",
+     "formula": "=IF('Loan'!$R$4<=0,\"-\",IF(('Loan'!$R$9+B17)<=ROUND('Loan'!$R$4*'Loan'!$R$5,2),\"Never\",IF('Loan'!$R$5=0,ROUNDUP('Loan'!$R$4/('Loan'!$R$9+B17),0),ROUNDUP(NPER('Loan'!$R$5,-('Loan'!$R$9+B17),'Loan'!$R$4),0))))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D17",
+     "formula": "=IF(ISNUMBER(C17),EDATE('Loan'!$R$7,C17-1),\"-\")",
+     "number_format": "mmm yyyy"
+    },
+    {
+     "cell": "E17",
+     "formula": "=IF(ISNUMBER(C17),MAX(0,ROUND(IF('Loan'!$R$5=0,0,('Loan'!$R$9+B17)*NPER('Loan'!$R$5,-('Loan'!$R$9+B17),'Loan'!$R$4)-'Loan'!$R$4),2)),\"-\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F17",
+     "formula": "=IF(AND(ISNUMBER(E17),ISNUMBER($E$12)),ROUND($E$12-E17,2),\"-\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B18",
+     "formula": 300
+    },
+    {
+     "cell": "C18",
+     "formula": "=IF('Loan'!$R$4<=0,\"-\",IF(('Loan'!$R$9+B18)<=ROUND('Loan'!$R$4*'Loan'!$R$5,2),\"Never\",IF('Loan'!$R$5=0,ROUNDUP('Loan'!$R$4/('Loan'!$R$9+B18),0),ROUNDUP(NPER('Loan'!$R$5,-('Loan'!$R$9+B18),'Loan'!$R$4),0))))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D18",
+     "formula": "=IF(ISNUMBER(C18),EDATE('Loan'!$R$7,C18-1),\"-\")",
+     "number_format": "mmm yyyy"
+    },
+    {
+     "cell": "E18",
+     "formula": "=IF(ISNUMBER(C18),MAX(0,ROUND(IF('Loan'!$R$5=0,0,('Loan'!$R$9+B18)*NPER('Loan'!$R$5,-('Loan'!$R$9+B18),'Loan'!$R$4)-'Loan'!$R$4),2)),\"-\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F18",
+     "formula": "=IF(AND(ISNUMBER(E18),ISNUMBER($E$12)),ROUND($E$12-E18,2),\"-\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B19",
+     "formula": 500
+    },
+    {
+     "cell": "C19",
+     "formula": "=IF('Loan'!$R$4<=0,\"-\",IF(('Loan'!$R$9+B19)<=ROUND('Loan'!$R$4*'Loan'!$R$5,2),\"Never\",IF('Loan'!$R$5=0,ROUNDUP('Loan'!$R$4/('Loan'!$R$9+B19),0),ROUNDUP(NPER('Loan'!$R$5,-('Loan'!$R$9+B19),'Loan'!$R$4),0))))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D19",
+     "formula": "=IF(ISNUMBER(C19),EDATE('Loan'!$R$7,C19-1),\"-\")",
+     "number_format": "mmm yyyy"
+    },
+    {
+     "cell": "E19",
+     "formula": "=IF(ISNUMBER(C19),MAX(0,ROUND(IF('Loan'!$R$5=0,0,('Loan'!$R$9+B19)*NPER('Loan'!$R$5,-('Loan'!$R$9+B19),'Loan'!$R$4)-'Loan'!$R$4),2)),\"-\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F19",
+     "formula": "=IF(AND(ISNUMBER(E19),ISNUMBER($E$12)),ROUND($E$12-E19,2),\"-\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R4",
+     "formula": "='Loan'!$R$10",
+     "number_format": "$#,##0.00"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "C4",
+     "type": "formula",
+     "formula": [
+      "AND(C4<>\"\",OR(NOT(ISNUMBER(C4)),N(C4)<1))"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "B12:B19",
+     "type": "formula",
+     "formula": [
+      "OR(AND(B12<>\"\",NOT(ISNUMBER(B12))),N(B12)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "B12:F19",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER($B12),$B12=$R$4)"
+     ],
+     "fill": "FBE3E7"
+    }
+   ],
+   "fills": [
+    {
+     "range": "C4",
+     "color": "FFFFFF"
+    },
+    {
+     "range": "C5:F8",
+     "color": "F5F7FA"
+    },
+    {
+     "range": "B11:F11",
+     "color": "2B2D42"
+    },
+    {
+     "range": "B12:B19",
+     "color": "FFFFFF"
+    },
+    {
+     "range": "C12:F19",
+     "color": "F5F7FA"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B4:F8",
+     "color": "CBD2DC",
+     "inner_vertical": false
+    },
+    {
+     "range": "B11:F19",
+     "color": "CBD2DC"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B4:B8",
+     "bold": true,
+     "size": 10,
+     "color": "2B2D42"
+    },
+    {
+     "range": "C4:C7",
+     "bold": true,
+     "size": 12,
+     "color": "D90429",
+     "align": "center"
+    },
+    {
+     "range": "C8",
+     "bold": true,
+     "size": 11,
+     "color": "2A9D8F"
+    },
+    {
+     "range": "B10",
+     "italic": true,
+     "size": 10,
+     "color": "2B2D42"
+    },
+    {
+     "range": "B11:F11",
+     "wrap": true,
+     "bold": true,
+     "size": 9,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "B12:F19",
+     "align": "center"
+    },
+    {
+     "range": "F12:F19",
+     "bold": true,
+     "size": 10,
+     "color": "2A9D8F",
+     "align": "center"
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "C4",
+     "format": "mmm d, yyyy"
+    },
+    {
+     "range": "B12:B19",
+     "format": "$#,##0"
+    }
+   ]
+  },
+  {
+   "name": "Car Costs",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "5C677D",
+   "grid_rows": 22,
+   "grid_cols": 8,
+   "column_widths": {
+    "A": 2.5,
+    "B": 24,
+    "C": 13,
+    "D": 22,
+    "E": 13,
+    "F": 13,
+    "G": 2.5
+   },
+   "section_bars": [
+    {
+     "range": "B2:F2",
+     "label": "CAR COSTS",
+     "size": 16,
+     "color": "2B2D42",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B5",
+     "formula": "Cost"
+    },
+    {
+     "cell": "C5",
+     "formula": "Amount"
+    },
+    {
+     "cell": "D5",
+     "formula": "How often"
+    },
+    {
+     "cell": "E5",
+     "formula": "Per month"
+    },
+    {
+     "cell": "F5",
+     "formula": "Per year"
+    },
+    {
+     "cell": "B3",
+     "formula": "The true cost of your car, not just the loan."
+    },
+    {
+     "cell": "B6",
+     "formula": "Car loan payment"
+    },
+    {
+     "cell": "C6",
+     "formula": "='Loan'!$R$9+'Loan'!$R$10",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D6",
+     "formula": "Monthly"
+    },
+    {
+     "cell": "E6",
+     "formula": "=ROUND(C6,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F6",
+     "formula": "=ROUND(E6*12,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B7",
+     "formula": "Insurance"
+    },
+    {
+     "cell": "C7",
+     "formula": 145
+    },
+    {
+     "cell": "D7",
+     "formula": "Monthly"
+    },
+    {
+     "cell": "E7",
+     "formula": "=IF(NOT(ISNUMBER(C7)),0,ROUND(IF(LOWER(TRIM(D7&\"\"))=\"yearly\",C7/12,C7),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F7",
+     "formula": "=ROUND(E7*12,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B8",
+     "formula": "Gas"
+    },
+    {
+     "cell": "C8",
+     "formula": 160
+    },
+    {
+     "cell": "D8",
+     "formula": "Monthly"
+    },
+    {
+     "cell": "E8",
+     "formula": "=IF(NOT(ISNUMBER(C8)),0,ROUND(IF(LOWER(TRIM(D8&\"\"))=\"yearly\",C8/12,C8),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F8",
+     "formula": "=ROUND(E8*12,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B9",
+     "formula": "Maintenance & oil"
+    },
+    {
+     "cell": "C9",
+     "formula": 480
+    },
+    {
+     "cell": "D9",
+     "formula": "Yearly"
+    },
+    {
+     "cell": "E9",
+     "formula": "=IF(NOT(ISNUMBER(C9)),0,ROUND(IF(LOWER(TRIM(D9&\"\"))=\"yearly\",C9/12,C9),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F9",
+     "formula": "=ROUND(E9*12,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B10",
+     "formula": "Registration"
+    },
+    {
+     "cell": "C10",
+     "formula": 190
+    },
+    {
+     "cell": "D10",
+     "formula": "Yearly"
+    },
+    {
+     "cell": "E10",
+     "formula": "=IF(NOT(ISNUMBER(C10)),0,ROUND(IF(LOWER(TRIM(D10&\"\"))=\"yearly\",C10/12,C10),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F10",
+     "formula": "=ROUND(E10*12,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B11",
+     "formula": "Tires (saving up)"
+    },
+    {
+     "cell": "C11",
+     "formula": 600
+    },
+    {
+     "cell": "D11",
+     "formula": "Yearly"
+    },
+    {
+     "cell": "E11",
+     "formula": "=IF(NOT(ISNUMBER(C11)),0,ROUND(IF(LOWER(TRIM(D11&\"\"))=\"yearly\",C11/12,C11),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F11",
+     "formula": "=ROUND(E11*12,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B12",
+     "formula": "Parking & tolls"
+    },
+    {
+     "cell": "C12",
+     "formula": 25
+    },
+    {
+     "cell": "D12",
+     "formula": "Monthly"
+    },
+    {
+     "cell": "E12",
+     "formula": "=IF(NOT(ISNUMBER(C12)),0,ROUND(IF(LOWER(TRIM(D12&\"\"))=\"yearly\",C12/12,C12),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F12",
+     "formula": "=ROUND(E12*12,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B13",
+     "formula": "Car wash"
+    },
+    {
+     "cell": "C13",
+     "formula": 15
+    },
+    {
+     "cell": "D13",
+     "formula": "Monthly"
+    },
+    {
+     "cell": "E13",
+     "formula": "=IF(NOT(ISNUMBER(C13)),0,ROUND(IF(LOWER(TRIM(D13&\"\"))=\"yearly\",C13/12,C13),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F13",
+     "formula": "=ROUND(E13*12,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E14",
+     "formula": "=IF(NOT(ISNUMBER(C14)),0,ROUND(IF(LOWER(TRIM(D14&\"\"))=\"yearly\",C14/12,C14),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F14",
+     "formula": "=ROUND(E14*12,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E15",
+     "formula": "=IF(NOT(ISNUMBER(C15)),0,ROUND(IF(LOWER(TRIM(D15&\"\"))=\"yearly\",C15/12,C15),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F15",
+     "formula": "=ROUND(E15*12,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B16",
+     "formula": "Total"
+    },
+    {
+     "cell": "E16",
+     "formula": "=ROUND(SUM(E6:E15),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F16",
+     "formula": "=ROUND(SUM(F6:F15),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B18",
+     "formula": "Miles a month"
+    },
+    {
+     "cell": "B19",
+     "formula": "Cost per mile"
+    },
+    {
+     "cell": "C19",
+     "formula": "=IF(AND(ISNUMBER(C18),N(C18)>0),ROUND(E16/C18,2),\"-\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B20",
+     "formula": "Without the loan"
+    },
+    {
+     "cell": "C20",
+     "formula": "=ROUND(E16-E6,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D20",
+     "formula": "a month once it's paid off"
+    },
+    {
+     "cell": "C18",
+     "formula": 1100
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "C7:C15",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C7<>\"\",NOT(ISNUMBER(C7))),N(C7)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C18",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C18<>\"\",NOT(ISNUMBER(C18))),N(C18)<0)"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B5:F5",
+     "color": "2B2D42"
+    },
+    {
+     "range": "B6:F6",
+     "color": "FBE3E7"
+    },
+    {
+     "range": "B7:D15",
+     "color": "FFFFFF"
+    },
+    {
+     "range": "E7:F15",
+     "color": "F5F7FA"
+    },
+    {
+     "range": "B16:F16",
+     "color": "EDF2F4"
+    },
+    {
+     "range": "C18",
+     "color": "FFFFFF"
+    },
+    {
+     "range": "C19:C20",
+     "color": "F5F7FA"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:F16",
+     "color": "CBD2DC"
+    },
+    {
+     "range": "B18:C20",
+     "color": "CBD2DC"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B5:F5",
+     "bold": true,
+     "size": 10,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "2B2D42"
+    },
+    {
+     "range": "B16:F16",
+     "bold": true,
+     "size": 11,
+     "color": "2B2D42"
+    },
+    {
+     "range": "B18:B20",
+     "bold": true,
+     "size": 10,
+     "color": "2B2D42"
+    },
+    {
+     "range": "C19:C20",
+     "bold": true,
+     "size": 11,
+     "color": "D90429",
+     "align": "center"
+    },
+    {
+     "range": "D20",
+     "italic": true,
+     "size": 9,
+     "color": "2B2D42"
+    },
+    {
+     "range": "D6:D15",
+     "align": "center"
+    }
+   ],
+   "validations": [
+    {
+     "range": "D7:D15",
+     "type": "list",
+     "values": [
+      "Monthly",
+      "Yearly"
+     ]
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "C7:C15",
+     "format": "$#,##0.00"
+    },
+    {
+     "range": "C18",
+     "format": "#,##0"
+    }
+   ]
+  }
+ ]
+}
