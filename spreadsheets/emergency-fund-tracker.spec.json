@@ -2015,7 +2015,7 @@
     {
      "range": "E6:E505",
      "type": "list_range",
-     "source": "='Accounts'!$B$6:$B$10",
+     "source": "'Accounts'!$B$6:$B$10",
      "strict": false
     }
    ],
