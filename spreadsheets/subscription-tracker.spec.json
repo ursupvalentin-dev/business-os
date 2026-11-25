@@ -1647,7 +1647,8 @@
       6,
       55
      ],
-     "formula": "=IF(AL{row}=\"\",0,(YEAR('Setup'!$R$5)-YEAR(AL{row}))*12+MONTH('Setup'!$R$5)-MONTH(AL{row}))"
+     "formula": "=IF(AL{row}=\"\",0,(YEAR('Setup'!$R$5)-YEAR(AL{row}))*12+MONTH('Setup'!$R$5)-MONTH(AL{row}))",
+     "number_format": "0"
     },
     {
      "col": "O",
@@ -1673,7 +1674,8 @@
       6,
       55
      ],
-     "formula": "=IF(O{row}=\"\",\"\",O{row}*1000+ROW()-5)"
+     "formula": "=IF(O{row}=\"\",\"\",O{row}*1000+ROW()-5)",
+     "number_format": "0"
     },
     {
      "col": "AH",
@@ -1690,7 +1692,8 @@
       6,
       55
      ],
-     "formula": "=IF(AH{row}=\"\",\"\",ROUND(AH{row}*100,0)*1000+1000-ROW()+5)"
+     "formula": "=IF(AH{row}=\"\",\"\",ROUND(AH{row}*100,0)*1000+1000-ROW()+5)",
+     "number_format": "0"
     },
     {
      "col": "AN",
