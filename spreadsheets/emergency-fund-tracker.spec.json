@@ -1,0 +1,2977 @@
+{
+ "filename": "Emergency Fund Tracker",
+ "locale": "en_US",
+ "theme": {
+  "header_font": "FFFFFF",
+  "border": "C5DEDC",
+  "accent": "0E7C7B",
+  "section_colors": [
+   "0A4F4E",
+   "E7F4F3",
+   "FDF1DC"
+  ],
+  "chart_palette": [
+   "0E7C7B",
+   "D98A0B",
+   "3D8EB9",
+   "0A4F4E"
+  ]
+ },
+ "tabs": [
+  {
+   "name": "Start Here",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "0E7C7B",
+   "grid_rows": 29,
+   "column_widths": {
+    "A": 2.5,
+    "B": 22,
+    "C": 100,
+    "D": 2.5
+   },
+   "section_bars": [
+    {
+     "range": "B2:C2",
+     "label": "EMERGENCY FUND TRACKER",
+     "size": 18,
+     "color": "0A4F4E",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "B5:C5",
+     "label": "HOW TO USE IT",
+     "color": "E7F4F3",
+     "font_color": "0A4F4E",
+     "align": "left"
+    },
+    {
+     "range": "B13:C13",
+     "label": "GOOD TO KNOW",
+     "color": "D98A0B",
+     "font_color": "FFFFFF",
+     "align": "left"
+    },
+    {
+     "range": "B19:C19",
+     "label": "COLOR GUIDE",
+     "color": "E7F4F3",
+     "font_color": "0A4F4E",
+     "align": "left"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Build your safety net, one deposit at a time."
+    },
+    {
+     "cell": "B6",
+     "formula": "Setup: your name, how many months of expenses you want saved (3 to 6 is common) and your monthly saving plan."
+    },
+    {
+     "cell": "B7",
+     "formula": "Essentials: the bills you must pay even in a bad month. This sets your goal."
+    },
+    {
+     "cell": "B8",
+     "formula": "Accounts: where your fund lives, with each starting balance and interest rate."
+    },
+    {
+     "cell": "B9",
+     "formula": "Log: every deposit, withdrawal (when you use it) and interest payment."
+    },
+    {
+     "cell": "B10",
+     "formula": "Dashboard: saved, goal, months covered and the date you'll be fully funded."
+    },
+    {
+     "cell": "B11",
+     "formula": "Milestones: celebrate $1,000, then 1, 3 and 6 months."
+    },
+    {
+     "cell": "B14",
+     "formula": "Essentials only"
+    },
+    {
+     "cell": "C14",
+     "formula": "Count needs, not wants. Skip eating out and subscriptions."
+    },
+    {
+     "cell": "B15",
+     "formula": "Withdrawals"
+    },
+    {
+     "cell": "C15",
+     "formula": "Using the fund is what it's for. Log it, then rebuild."
+    },
+    {
+     "cell": "B16",
+     "formula": "Where to keep it"
+    },
+    {
+     "cell": "C16",
+     "formula": "A high-yield savings account: safe, separate, and easy to reach."
+    },
+    {
+     "cell": "B17",
+     "formula": "Amounts"
+    },
+    {
+     "cell": "C17",
+     "formula": "Always type positive amounts. Pick the Type to say in or out."
+    },
+    {
+     "cell": "C20",
+     "formula": "White cells are for typing."
+    },
+    {
+     "cell": "C21",
+     "formula": "Grey cells calculate."
+    },
+    {
+     "cell": "C22",
+     "formula": "Red means something needs a look."
+    },
+    {
+     "cell": "C23",
+     "formula": "Green means reached."
+    },
+    {
+     "cell": "B25",
+     "formula": "Peace of mind, fully funded."
+    }
+   ],
+   "fills": [
+    {
+     "range": "B14:C17",
+     "color": "FDF1DC"
+    },
+    {
+     "range": "B20",
+     "color": "FFFFFF"
+    },
+    {
+     "range": "B21",
+     "color": "F4F8F8"
+    },
+    {
+     "range": "B22",
+     "color": "F6CACA"
+    },
+    {
+     "range": "B23",
+     "color": "D7EFDD"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B20",
+     "color": "C5DEDC"
+    },
+    {
+     "range": "B21",
+     "color": "C5DEDC"
+    },
+    {
+     "range": "B22",
+     "color": "C5DEDC"
+    },
+    {
+     "range": "B23",
+     "color": "C5DEDC"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 11,
+     "color": "0A4F4E"
+    },
+    {
+     "range": "B14:B17",
+     "bold": true,
+     "size": 11,
+     "color": "0A4F4E"
+    },
+    {
+     "range": "B25",
+     "italic": true,
+     "bold": true,
+     "size": 11,
+     "color": "0A4F4E"
+    }
+   ]
+  },
+  {
+   "name": "Dashboard",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "0E7C7B",
+   "grid_rows": 34,
+   "grid_cols": 19,
+   "column_widths": {
+    "A": 2.5,
+    "B": 16,
+    "C": 16,
+    "D": 16,
+    "E": 16,
+    "F": 16,
+    "G": 16,
+    "H": 16,
+    "I": 16,
+    "J": 2.5,
+    "R": 10
+   },
+   "hidden_columns": [
+    "R"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:I2",
+     "label": "EMERGENCY FUND DASHBOARD",
+     "size": 16,
+     "color": "0A4F4E",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "B16:E16",
+     "label": "BALANCE VS GOAL",
+     "color": "E7F4F3",
+     "font_color": "0A4F4E",
+     "align": "left"
+    },
+    {
+     "range": "F16:I16",
+     "label": "WHERE IT LIVES",
+     "color": "E7F4F3",
+     "font_color": "0A4F4E",
+     "align": "left"
+    }
+   ],
+   "kpi_cards": [
+    {
+     "anchor": "B5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "SAVED NOW",
+     "value": "='Setup'!$R$13",
+     "fill": "0E7C7B",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "D5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "GOAL",
+     "value": "='Setup'!$R$11",
+     "fill": "0A4F4E",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "F5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "MONTHS COVERED",
+     "value": "=IF('Setup'!$R$10>0,ROUND(R6,1),\"-\")",
+     "fill": "D98A0B",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "0.0"
+    },
+    {
+     "anchor": "H5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "LEFT TO GO",
+     "value": "=R4",
+     "fill": "3D8EB9",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "B9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "FULLY FUNDED BY",
+     "value": "=IF('Setup'!$R$11<=0,\"-\",IF(R4=0,\"Done!\",IF('Setup'!$R$9<=0,\"Add a plan\",EDATE('Setup'!$R$6,ROUNDUP(R4/'Setup'!$R$9,0)))))",
+     "fill": "D98A0B",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "mmm yyyy"
+    },
+    {
+     "anchor": "D9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "ADDED THIS YEAR",
+     "value": "=ROUND(SUMIFS('Log'!$H$6:$H$505,'Log'!$I$6:$I$505,\">0\",'Log'!$L$6:$L$505,\"<>2\"),2)",
+     "fill": "0E7C7B",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "F9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "USED THIS YEAR",
+     "value": "=ROUND(SUMIFS('Log'!$D$6:$D$505,'Log'!$I$6:$I$505,\">0\",'Log'!$L$6:$L$505,2,'Log'!$G$6:$G$505,\"OK\"),2)",
+     "fill": "3D8EB9",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "H9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "INTEREST A YEAR",
+     "value": "='Accounts'!H12",
+     "fill": "0A4F4E",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "=IF('Setup'!$R$7=\"\",\"My\",'Setup'!$R$7&\"'s\")&\" emergency fund  |  \"&TEXT('Setup'!$R$6,\"mmm d, yyyy\")"
+    },
+    {
+     "cell": "R4",
+     "formula": "=MAX(0,ROUND('Setup'!$R$11-'Setup'!$R$13,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R5",
+     "formula": "=IF('Setup'!$R$11>0,MIN(1,MAX(0,'Setup'!$R$13/'Setup'!$R$11)),0)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "R6",
+     "formula": "=IF('Setup'!$R$10>0,'Setup'!$R$13/'Setup'!$R$10,0)",
+     "number_format": "0.0"
+    },
+    {
+     "cell": "B13",
+     "formula": "=REPT(\"█\",ROUND(MIN(1,MAX(0,R5))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,R5))*10,0))&\"  \"&TEXT(R5,\"0%\")&\" of your goal\""
+    },
+    {
+     "cell": "B14",
+     "formula": "=IF('Setup'!$R$11<=0,\"Add your essentials to set a goal.\",IF(R4=0,\"Fully funded. You did it!\",IF(R6<1,\"Getting started. Every deposit counts.\",IF(R6<3,\"Good start. You can cover a surprise bill.\",\"Strong. You could ride out \"&INT(R6)&\" months.\"))))"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "B14:I14",
+     "type": "formula",
+     "formula": [
+      "$R$4=0"
+     ],
+     "fill": "D7EFDD"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:C7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "D5:E7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "F5:G7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "H5:I7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "B9:C11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "D9:E11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "F9:G11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "H9:I11",
+     "color": "FFFFFF",
+     "style": "medium"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 11,
+     "color": "0A4F4E"
+    },
+    {
+     "range": "B13",
+     "bold": true,
+     "size": 12,
+     "color": "0E7C7B"
+    },
+    {
+     "range": "B14",
+     "bold": true,
+     "size": 11,
+     "color": "0A4F4E"
+    }
+   ],
+   "charts": [
+    {
+     "type": "line",
+     "anchor": "B17",
+     "data": "Monthly!G5:H17",
+     "categories": "Monthly!B6:B17",
+     "width": 16,
+     "height": 7,
+     "colors": [
+      "0E7C7B",
+      "D98A0B"
+     ]
+    },
+    {
+     "type": "doughnut",
+     "anchor": "F17",
+     "data": "Accounts!G6:G11",
+     "categories": "Accounts!B6:B11",
+     "width": 14,
+     "height": 7,
+     "titles_from_data": false,
+     "colors": [
+      "0E7C7B",
+      "D98A0B",
+      "3D8EB9",
+      "0A4F4E",
+      "8CC7C5",
+      "BBBBBB"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Setup",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "0A4F4E",
+   "grid_rows": 14,
+   "grid_cols": 19,
+   "column_widths": {
+    "A": 2.5,
+    "B": 26,
+    "C": 18,
+    "D": 34,
+    "E": 2.5,
+    "R": 12
+   },
+   "hidden_columns": [
+    "R"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:D2",
+     "label": "SETUP",
+     "size": 16,
+     "color": "0A4F4E",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B4",
+     "formula": "Setting"
+    },
+    {
+     "cell": "C4",
+     "formula": "Yours"
+    },
+    {
+     "cell": "D4",
+     "formula": "Note"
+    },
+    {
+     "cell": "B5",
+     "formula": "Your name"
+    },
+    {
+     "cell": "C5",
+     "formula": "Jordan"
+    },
+    {
+     "cell": "B6",
+     "formula": "Year"
+    },
+    {
+     "cell": "C6",
+     "formula": 2027
+    },
+    {
+     "cell": "D6",
+     "formula": "Blank = this year."
+    },
+    {
+     "cell": "B7",
+     "formula": "Today"
+    },
+    {
+     "cell": "C7",
+     "formula": "=DATE(2027,6,20)"
+    },
+    {
+     "cell": "D7",
+     "formula": "Blank = today."
+    },
+    {
+     "cell": "B8",
+     "formula": "Months of expenses to save"
+    },
+    {
+     "cell": "C8",
+     "formula": 6
+    },
+    {
+     "cell": "D8",
+     "formula": "3, 6, 9 or 12."
+    },
+    {
+     "cell": "B9",
+     "formula": "Monthly saving plan"
+    },
+    {
+     "cell": "C9",
+     "formula": 500
+    },
+    {
+     "cell": "D9",
+     "formula": "What you can add each month."
+    },
+    {
+     "cell": "R4",
+     "formula": "=IF(AND(ISNUMBER(C6),N(C6)>=1900,N(C6)<=9999),INT(C6),YEAR(TODAY()))"
+    },
+    {
+     "cell": "R6",
+     "formula": "=IF(AND(ISNUMBER(C7),N(C7)>=1),INT(C7),TODAY())",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "R5",
+     "formula": "=IF(YEAR(R6)=R4,MONTH(R6),IF(YEAR(R6)>R4,12,1))"
+    },
+    {
+     "cell": "R7",
+     "formula": "=TRIM(C5&\"\")"
+    },
+    {
+     "cell": "R8",
+     "formula": "=IF(ISNUMBER(C8),IF(C8>0,C8,6),IF(TRIM(C8&\"\")=\"\",6,IFERROR(MAX(1,VALUE(TRIM(C8&\"\"))),6)))"
+    },
+    {
+     "cell": "R9",
+     "formula": "=IF(ISNUMBER(C9),MAX(0,ROUND(C9,2)),0)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R10",
+     "formula": "='Essentials'!C18",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R11",
+     "formula": "=ROUND(R10*R8,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R12",
+     "formula": "=ROUND(SUM('Accounts'!E6:E10),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R13",
+     "formula": "=ROUND(R12+SUM('Log'!$H$6:$H$505),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B11",
+     "formula": "Your goal"
+    },
+    {
+     "cell": "C11",
+     "formula": "=R11",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D11",
+     "formula": "=\"= \"&TEXT(R10,\"$#,##0\")&\" a month x \"&R8&\" months\""
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "C7",
+     "type": "formula",
+     "formula": [
+      "AND(C7<>\"\",OR(NOT(ISNUMBER(C7)),N(C7)<1))"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C6",
+     "type": "formula",
+     "formula": [
+      "AND(C6<>\"\",OR(NOT(ISNUMBER(C6)),N(C6)<1900,N(C6)>9999))"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C9",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C9<>\"\",NOT(ISNUMBER(C9))),N(C9)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C8",
+     "type": "formula",
+     "formula": [
+      "AND(C8<>\"\",ISNUMBER(C8),C8<=0)"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B4:D4",
+     "color": "E7F4F3"
+    },
+    {
+     "range": "C5:C9",
+     "color": "FFFFFF"
+    },
+    {
+     "range": "B11:D11",
+     "color": "FDF1DC"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B4:D9",
+     "color": "C5DEDC"
+    },
+    {
+     "range": "B11:D11",
+     "color": "C5DEDC"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B4:D4",
+     "bold": true,
+     "size": 10,
+     "color": "0A4F4E",
+     "align": "center"
+    },
+    {
+     "range": "B5:B9",
+     "bold": true,
+     "size": 10,
+     "color": "0A4F4E"
+    },
+    {
+     "range": "D5:D9",
+     "italic": true,
+     "size": 9,
+     "color": "0A4F4E"
+    },
+    {
+     "range": "C5:C9",
+     "bold": true,
+     "size": 11,
+     "color": "0A4F4E",
+     "align": "center"
+    },
+    {
+     "range": "B11:C11",
+     "bold": true,
+     "size": 12,
+     "color": "D98A0B"
+    },
+    {
+     "range": "D11",
+     "italic": true,
+     "size": 10,
+     "color": "0A4F4E"
+    }
+   ],
+   "validations": [
+    {
+     "range": "C8",
+     "type": "list",
+     "values": [
+      "3",
+      "6",
+      "9",
+      "12"
+     ],
+     "strict": false
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "C6",
+     "format": "0"
+    },
+    {
+     "range": "C7",
+     "format": "mmm d, yyyy"
+    },
+    {
+     "range": "C8",
+     "format": "0"
+    },
+    {
+     "range": "C9",
+     "format": "$#,##0.00"
+    }
+   ]
+  },
+  {
+   "name": "Essentials",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "D98A0B",
+   "grid_rows": 21,
+   "grid_cols": 6,
+   "column_widths": {
+    "A": 2.5,
+    "B": 28,
+    "C": 16,
+    "D": 12,
+    "E": 2.5
+   },
+   "section_bars": [
+    {
+     "range": "B2:D2",
+     "label": "MONTHLY ESSENTIALS",
+     "size": 16,
+     "color": "0A4F4E",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Must-pay bills for one month. Your goal is this total times your months."
+    },
+    {
+     "cell": "B5",
+     "formula": "Essential expense"
+    },
+    {
+     "cell": "C5",
+     "formula": "Per month"
+    },
+    {
+     "cell": "D5",
+     "formula": "Share"
+    },
+    {
+     "cell": "B6",
+     "formula": "Rent / mortgage"
+    },
+    {
+     "cell": "C6",
+     "formula": 1450
+    },
+    {
+     "cell": "D6",
+     "formula": "=IF(AND(ISNUMBER(C6),C$18>0),C6/C$18,\"\")",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B7",
+     "formula": "Utilities"
+    },
+    {
+     "cell": "C7",
+     "formula": 210
+    },
+    {
+     "cell": "D7",
+     "formula": "=IF(AND(ISNUMBER(C7),C$18>0),C7/C$18,\"\")",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B8",
+     "formula": "Groceries"
+    },
+    {
+     "cell": "C8",
+     "formula": 520
+    },
+    {
+     "cell": "D8",
+     "formula": "=IF(AND(ISNUMBER(C8),C$18>0),C8/C$18,\"\")",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B9",
+     "formula": "Insurance"
+    },
+    {
+     "cell": "C9",
+     "formula": 260
+    },
+    {
+     "cell": "D9",
+     "formula": "=IF(AND(ISNUMBER(C9),C$18>0),C9/C$18,\"\")",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B10",
+     "formula": "Transportation"
+    },
+    {
+     "cell": "C10",
+     "formula": 240
+    },
+    {
+     "cell": "D10",
+     "formula": "=IF(AND(ISNUMBER(C10),C$18>0),C10/C$18,\"\")",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B11",
+     "formula": "Phone & internet"
+    },
+    {
+     "cell": "C11",
+     "formula": 120
+    },
+    {
+     "cell": "D11",
+     "formula": "=IF(AND(ISNUMBER(C11),C$18>0),C11/C$18,\"\")",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B12",
+     "formula": "Minimum debt payments"
+    },
+    {
+     "cell": "C12",
+     "formula": 180
+    },
+    {
+     "cell": "D12",
+     "formula": "=IF(AND(ISNUMBER(C12),C$18>0),C12/C$18,\"\")",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B13",
+     "formula": "Medical"
+    },
+    {
+     "cell": "C13",
+     "formula": 60
+    },
+    {
+     "cell": "D13",
+     "formula": "=IF(AND(ISNUMBER(C13),C$18>0),C13/C$18,\"\")",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B14",
+     "formula": "Other must-haves"
+    },
+    {
+     "cell": "C14",
+     "formula": 100
+    },
+    {
+     "cell": "D14",
+     "formula": "=IF(AND(ISNUMBER(C14),C$18>0),C14/C$18,\"\")",
+     "number_format": "0%"
+    },
+    {
+     "cell": "D15",
+     "formula": "=IF(AND(ISNUMBER(C15),C$18>0),C15/C$18,\"\")",
+     "number_format": "0%"
+    },
+    {
+     "cell": "D16",
+     "formula": "=IF(AND(ISNUMBER(C16),C$18>0),C16/C$18,\"\")",
+     "number_format": "0%"
+    },
+    {
+     "cell": "D17",
+     "formula": "=IF(AND(ISNUMBER(C17),C$18>0),C17/C$18,\"\")",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B18",
+     "formula": "Total each month"
+    },
+    {
+     "cell": "C18",
+     "formula": "=ROUND(SUMIF(C6:C17,\">0\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B19",
+     "formula": "Goal"
+    },
+    {
+     "cell": "C19",
+     "formula": "='Setup'!$R$11",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D19",
+     "formula": "=\"x \"&'Setup'!$R$8&\" months\""
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "C6:C17",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C6<>\"\",NOT(ISNUMBER(C6))),N(C6)<0)"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B5:D5",
+     "color": "0A4F4E"
+    },
+    {
+     "range": "B6:C17",
+     "color": "FFFFFF"
+    },
+    {
+     "range": "D6:D17",
+     "color": "F4F8F8"
+    },
+    {
+     "range": "B18:D18",
+     "color": "E7F4F3"
+    },
+    {
+     "range": "B19:D19",
+     "color": "FDF1DC"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:D19",
+     "color": "C5DEDC"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "0A4F4E"
+    },
+    {
+     "range": "B5:D5",
+     "bold": true,
+     "size": 10,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "C6:D17",
+     "align": "center"
+    },
+    {
+     "range": "B18:C19",
+     "bold": true,
+     "size": 11,
+     "color": "0A4F4E"
+    },
+    {
+     "range": "C18:C19",
+     "align": "center"
+    },
+    {
+     "range": "D19",
+     "italic": true,
+     "size": 10,
+     "color": "0A4F4E"
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "C6:C17",
+     "format": "$#,##0.00"
+    }
+   ]
+  },
+  {
+   "name": "Accounts",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "3D8EB9",
+   "grid_rows": 15,
+   "grid_cols": 19,
+   "column_widths": {
+    "A": 2.5,
+    "B": 22,
+    "C": 18,
+    "D": 9,
+    "E": 14,
+    "F": 13,
+    "G": 14,
+    "H": 14,
+    "I": 9,
+    "J": 2.5,
+    "R": 8
+   },
+   "hidden_columns": [
+    "R"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:I2",
+     "label": "ACCOUNTS",
+     "size": 16,
+     "color": "0A4F4E",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Where your fund lives. Starting balance = what was there before your first Log entry."
+    },
+    {
+     "cell": "B5",
+     "formula": "Account"
+    },
+    {
+     "cell": "C5",
+     "formula": "Type"
+    },
+    {
+     "cell": "D5",
+     "formula": "APY %"
+    },
+    {
+     "cell": "E5",
+     "formula": "Starting balance"
+    },
+    {
+     "cell": "F5",
+     "formula": "Added since"
+    },
+    {
+     "cell": "G5",
+     "formula": "Balance now"
+    },
+    {
+     "cell": "H5",
+     "formula": "Interest a year (about)"
+    },
+    {
+     "cell": "I5",
+     "formula": "Share"
+    },
+    {
+     "cell": "B6",
+     "formula": "High-yield savings"
+    },
+    {
+     "cell": "C6",
+     "formula": "High-yield savings"
+    },
+    {
+     "cell": "D6",
+     "formula": 4.1
+    },
+    {
+     "cell": "E6",
+     "formula": 2500
+    },
+    {
+     "cell": "F6",
+     "formula": "=ROUND(SUMIFS('Log'!$H$6:$H$505,'Log'!$J$6:$J$505,1),2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "G6",
+     "formula": "=ROUND(IF(ISNUMBER(E6),E6,0)+F6,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H6",
+     "formula": "=ROUND(MAX(0,G6)*MAX(0,IF(N(D6)>=1,N(D6)/100,N(D6))),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I6",
+     "formula": "=IF($G$12>0,G6/$G$12,\"\")",
+     "number_format": "0%"
+    },
+    {
+     "cell": "R6",
+     "formula": "=LOWER(TRIM(B6&\"\"))"
+    },
+    {
+     "cell": "B7",
+     "formula": "Bank savings"
+    },
+    {
+     "cell": "C7",
+     "formula": "Savings"
+    },
+    {
+     "cell": "D7",
+     "formula": 0.5
+    },
+    {
+     "cell": "E7",
+     "formula": 400
+    },
+    {
+     "cell": "F7",
+     "formula": "=ROUND(SUMIFS('Log'!$H$6:$H$505,'Log'!$J$6:$J$505,2),2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "G7",
+     "formula": "=ROUND(IF(ISNUMBER(E7),E7,0)+F7,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H7",
+     "formula": "=ROUND(MAX(0,G7)*MAX(0,IF(N(D7)>=1,N(D7)/100,N(D7))),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I7",
+     "formula": "=IF($G$12>0,G7/$G$12,\"\")",
+     "number_format": "0%"
+    },
+    {
+     "cell": "R7",
+     "formula": "=LOWER(TRIM(B7&\"\"))"
+    },
+    {
+     "cell": "B8",
+     "formula": "Cash"
+    },
+    {
+     "cell": "C8",
+     "formula": "Cash"
+    },
+    {
+     "cell": "D8",
+     "formula": 0
+    },
+    {
+     "cell": "E8",
+     "formula": 200
+    },
+    {
+     "cell": "F8",
+     "formula": "=ROUND(SUMIFS('Log'!$H$6:$H$505,'Log'!$J$6:$J$505,3),2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "G8",
+     "formula": "=ROUND(IF(ISNUMBER(E8),E8,0)+F8,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H8",
+     "formula": "=ROUND(MAX(0,G8)*MAX(0,IF(N(D8)>=1,N(D8)/100,N(D8))),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I8",
+     "formula": "=IF($G$12>0,G8/$G$12,\"\")",
+     "number_format": "0%"
+    },
+    {
+     "cell": "R8",
+     "formula": "=LOWER(TRIM(B8&\"\"))"
+    },
+    {
+     "cell": "F9",
+     "formula": "=ROUND(SUMIFS('Log'!$H$6:$H$505,'Log'!$J$6:$J$505,4),2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "G9",
+     "formula": "=ROUND(IF(ISNUMBER(E9),E9,0)+F9,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H9",
+     "formula": "=ROUND(MAX(0,G9)*MAX(0,IF(N(D9)>=1,N(D9)/100,N(D9))),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I9",
+     "formula": "=IF($G$12>0,G9/$G$12,\"\")",
+     "number_format": "0%"
+    },
+    {
+     "cell": "R9",
+     "formula": "=LOWER(TRIM(B9&\"\"))"
+    },
+    {
+     "cell": "F10",
+     "formula": "=ROUND(SUMIFS('Log'!$H$6:$H$505,'Log'!$J$6:$J$505,5),2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "G10",
+     "formula": "=ROUND(IF(ISNUMBER(E10),E10,0)+F10,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H10",
+     "formula": "=ROUND(MAX(0,G10)*MAX(0,IF(N(D10)>=1,N(D10)/100,N(D10))),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I10",
+     "formula": "=IF($G$12>0,G10/$G$12,\"\")",
+     "number_format": "0%"
+    },
+    {
+     "cell": "R10",
+     "formula": "=LOWER(TRIM(B10&\"\"))"
+    },
+    {
+     "cell": "B11",
+     "formula": "No account picked"
+    },
+    {
+     "cell": "F11",
+     "formula": "=ROUND(SUMIFS('Log'!$H$6:$H$505,'Log'!$J$6:$J$505,0),2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "G11",
+     "formula": "=F11",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I11",
+     "formula": "=IF($G$12>0,G11/$G$12,\"\")",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B12",
+     "formula": "Total"
+    },
+    {
+     "cell": "E12",
+     "formula": "=ROUND(SUM(E6:E10),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F12",
+     "formula": "=ROUND(SUM(F6:F11),2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "G12",
+     "formula": "=ROUND(SUM(G6:G11),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H12",
+     "formula": "=ROUND(SUM(H6:H10),2)",
+     "number_format": "$#,##0.00"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "D6:E10",
+     "type": "formula",
+     "formula": [
+      "OR(AND(D6<>\"\",NOT(ISNUMBER(D6))),N(D6)<0)"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B5:I5",
+     "color": "0A4F4E"
+    },
+    {
+     "range": "B6:E10",
+     "color": "FFFFFF"
+    },
+    {
+     "range": "F6:I11",
+     "color": "F4F8F8"
+    },
+    {
+     "range": "B12:I12",
+     "color": "E7F4F3"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:I12",
+     "color": "C5DEDC"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "0A4F4E"
+    },
+    {
+     "range": "B5:I5",
+     "wrap": true,
+     "bold": true,
+     "size": 9,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "C6:I12",
+     "align": "center"
+    },
+    {
+     "range": "G6:G12",
+     "bold": true,
+     "size": 11,
+     "color": "0E7C7B",
+     "align": "center"
+    },
+    {
+     "range": "B12:I12",
+     "bold": true,
+     "size": 11,
+     "color": "0A4F4E"
+    },
+    {
+     "range": "B11",
+     "italic": true,
+     "size": 10,
+     "color": "0A4F4E"
+    }
+   ],
+   "row_heights": {
+    "5": 32
+   },
+   "validations": [
+    {
+     "range": "C6:C10",
+     "type": "list",
+     "values": [
+      "High-yield savings",
+      "Savings",
+      "Money market",
+      "CD",
+      "Cash",
+      "Other"
+     ],
+     "strict": false
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "D6:D10",
+     "format": "0.00"
+    },
+    {
+     "range": "E6:E10",
+     "format": "$#,##0.00"
+    }
+   ]
+  },
+  {
+   "name": "Log",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "0E7C7B",
+   "grid_rows": 507,
+   "grid_cols": 13,
+   "freeze": "A6",
+   "column_widths": {
+    "A": 2.5,
+    "B": 13,
+    "C": 13,
+    "D": 13,
+    "E": 22,
+    "F": 30,
+    "G": 3,
+    "H": 3,
+    "I": 3,
+    "J": 3,
+    "K": 3,
+    "L": 3,
+    "M": 3
+   },
+   "hidden_columns": [
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L",
+    "M"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:F2",
+     "label": "LOG",
+     "size": 16,
+     "color": "0A4F4E",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Every move in or out. Amounts are always positive; the Type says which way."
+    },
+    {
+     "cell": "B5",
+     "formula": "Date"
+    },
+    {
+     "cell": "C5",
+     "formula": "Type"
+    },
+    {
+     "cell": "D5",
+     "formula": "Amount"
+    },
+    {
+     "cell": "E5",
+     "formula": "Account"
+    },
+    {
+     "cell": "F5",
+     "formula": "Note"
+    },
+    {
+     "cell": "B6",
+     "formula": "=DATE(2027,1,1)"
+    },
+    {
+     "cell": "C6",
+     "formula": "Deposit"
+    },
+    {
+     "cell": "D6",
+     "formula": 250
+    },
+    {
+     "cell": "E6",
+     "formula": "High-yield savings"
+    },
+    {
+     "cell": "F6",
+     "formula": "Payday transfer"
+    },
+    {
+     "cell": "B7",
+     "formula": "=DATE(2027,1,15)"
+    },
+    {
+     "cell": "C7",
+     "formula": "Deposit"
+    },
+    {
+     "cell": "D7",
+     "formula": 250
+    },
+    {
+     "cell": "E7",
+     "formula": "High-yield savings"
+    },
+    {
+     "cell": "F7",
+     "formula": "Payday transfer"
+    },
+    {
+     "cell": "B8",
+     "formula": "=DATE(2027,1,28)"
+    },
+    {
+     "cell": "C8",
+     "formula": "Interest"
+    },
+    {
+     "cell": "D8",
+     "formula": 14.1
+    },
+    {
+     "cell": "E8",
+     "formula": "High-yield savings"
+    },
+    {
+     "cell": "B9",
+     "formula": "=DATE(2027,2,1)"
+    },
+    {
+     "cell": "C9",
+     "formula": "Deposit"
+    },
+    {
+     "cell": "D9",
+     "formula": 250
+    },
+    {
+     "cell": "E9",
+     "formula": "High-yield savings"
+    },
+    {
+     "cell": "F9",
+     "formula": "Payday transfer"
+    },
+    {
+     "cell": "B10",
+     "formula": "=DATE(2027,2,15)"
+    },
+    {
+     "cell": "C10",
+     "formula": "Deposit"
+    },
+    {
+     "cell": "D10",
+     "formula": 250
+    },
+    {
+     "cell": "E10",
+     "formula": "High-yield savings"
+    },
+    {
+     "cell": "F10",
+     "formula": "Payday transfer"
+    },
+    {
+     "cell": "B11",
+     "formula": "=DATE(2027,3,9)"
+    },
+    {
+     "cell": "C11",
+     "formula": "Withdrawal"
+    },
+    {
+     "cell": "D11",
+     "formula": 650
+    },
+    {
+     "cell": "E11",
+     "formula": "High-yield savings"
+    },
+    {
+     "cell": "F11",
+     "formula": "Car repair"
+    },
+    {
+     "cell": "B12",
+     "formula": "=DATE(2027,2,28)"
+    },
+    {
+     "cell": "C12",
+     "formula": "Interest"
+    },
+    {
+     "cell": "D12",
+     "formula": 16.2
+    },
+    {
+     "cell": "E12",
+     "formula": "High-yield savings"
+    },
+    {
+     "cell": "B13",
+     "formula": "=DATE(2027,3,1)"
+    },
+    {
+     "cell": "C13",
+     "formula": "Deposit"
+    },
+    {
+     "cell": "D13",
+     "formula": 250
+    },
+    {
+     "cell": "E13",
+     "formula": "High-yield savings"
+    },
+    {
+     "cell": "F13",
+     "formula": "Payday transfer"
+    },
+    {
+     "cell": "B14",
+     "formula": "=DATE(2027,4,12)"
+    },
+    {
+     "cell": "C14",
+     "formula": "Deposit"
+    },
+    {
+     "cell": "D14",
+     "formula": 1200
+    },
+    {
+     "cell": "E14",
+     "formula": "High-yield savings"
+    },
+    {
+     "cell": "F14",
+     "formula": "Tax refund"
+    },
+    {
+     "cell": "B15",
+     "formula": "=DATE(2027,3,15)"
+    },
+    {
+     "cell": "C15",
+     "formula": "Deposit"
+    },
+    {
+     "cell": "D15",
+     "formula": 250
+    },
+    {
+     "cell": "E15",
+     "formula": "High-yield savings"
+    },
+    {
+     "cell": "F15",
+     "formula": "Payday transfer"
+    },
+    {
+     "cell": "B16",
+     "formula": "=DATE(2027,3,28)"
+    },
+    {
+     "cell": "C16",
+     "formula": "Interest"
+    },
+    {
+     "cell": "D16",
+     "formula": 18.3
+    },
+    {
+     "cell": "E16",
+     "formula": "High-yield savings"
+    },
+    {
+     "cell": "B17",
+     "formula": "=DATE(2027,4,1)"
+    },
+    {
+     "cell": "C17",
+     "formula": "Deposit"
+    },
+    {
+     "cell": "D17",
+     "formula": 250
+    },
+    {
+     "cell": "E17",
+     "formula": "High-yield savings"
+    },
+    {
+     "cell": "F17",
+     "formula": "Payday transfer"
+    },
+    {
+     "cell": "B18",
+     "formula": "=DATE(2027,4,15)"
+    },
+    {
+     "cell": "C18",
+     "formula": "Deposit"
+    },
+    {
+     "cell": "D18",
+     "formula": 250
+    },
+    {
+     "cell": "E18",
+     "formula": "High-yield savings"
+    },
+    {
+     "cell": "F18",
+     "formula": "Payday transfer"
+    },
+    {
+     "cell": "B19",
+     "formula": "=DATE(2027,4,28)"
+    },
+    {
+     "cell": "C19",
+     "formula": "Interest"
+    },
+    {
+     "cell": "D19",
+     "formula": 20.4
+    },
+    {
+     "cell": "E19",
+     "formula": "High-yield savings"
+    },
+    {
+     "cell": "B20",
+     "formula": "=DATE(2027,5,1)"
+    },
+    {
+     "cell": "C20",
+     "formula": "Deposit"
+    },
+    {
+     "cell": "D20",
+     "formula": 250
+    },
+    {
+     "cell": "E20",
+     "formula": "High-yield savings"
+    },
+    {
+     "cell": "F20",
+     "formula": "Payday transfer"
+    },
+    {
+     "cell": "B21",
+     "formula": "=DATE(2027,5,15)"
+    },
+    {
+     "cell": "C21",
+     "formula": "Deposit"
+    },
+    {
+     "cell": "D21",
+     "formula": 250
+    },
+    {
+     "cell": "E21",
+     "formula": "High-yield savings"
+    },
+    {
+     "cell": "F21",
+     "formula": "Payday transfer"
+    },
+    {
+     "cell": "B22",
+     "formula": "=DATE(2027,5,28)"
+    },
+    {
+     "cell": "C22",
+     "formula": "Interest"
+    },
+    {
+     "cell": "D22",
+     "formula": 22.5
+    },
+    {
+     "cell": "E22",
+     "formula": "High-yield savings"
+    },
+    {
+     "cell": "B23",
+     "formula": "=DATE(2027,6,1)"
+    },
+    {
+     "cell": "C23",
+     "formula": "Deposit"
+    },
+    {
+     "cell": "D23",
+     "formula": 250
+    },
+    {
+     "cell": "E23",
+     "formula": "High-yield savings"
+    },
+    {
+     "cell": "F23",
+     "formula": "Payday transfer"
+    },
+    {
+     "cell": "B24",
+     "formula": "=DATE(2027,6,15)"
+    },
+    {
+     "cell": "C24",
+     "formula": "Deposit"
+    },
+    {
+     "cell": "D24",
+     "formula": 250
+    },
+    {
+     "cell": "E24",
+     "formula": "High-yield savings"
+    },
+    {
+     "cell": "F24",
+     "formula": "Payday transfer"
+    },
+    {
+     "cell": "B25",
+     "formula": "=DATE(2027,6,19)"
+    },
+    {
+     "cell": "C25",
+     "formula": "Interest"
+    },
+    {
+     "cell": "D25",
+     "formula": 24.6
+    },
+    {
+     "cell": "E25",
+     "formula": "High-yield savings"
+    },
+    {
+     "cell": "B26",
+     "formula": "=DATE(2027,5,3)"
+    },
+    {
+     "cell": "C26",
+     "formula": "Deposit"
+    },
+    {
+     "cell": "D26",
+     "formula": 60
+    },
+    {
+     "cell": "E26",
+     "formula": "Cash"
+    },
+    {
+     "cell": "F26",
+     "formula": "Sold old bike"
+    },
+    {
+     "col": "L",
+     "range_rows": [
+      6,
+      505
+     ],
+     "formula": "=IF(TRIM(C{row}&\"\")=\"\",1,IFERROR(MATCH(LOWER(TRIM(C{row}&\"\")),{\"deposit\",\"withdrawal\",\"interest\"},0),0))"
+    },
+    {
+     "col": "J",
+     "range_rows": [
+      6,
+      505
+     ],
+     "formula": "=IF(TRIM(E{row}&\"\")=\"\",0,IFERROR(MATCH(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(LOWER(TRIM(E{row}&\"\")),\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"),'Accounts'!$R$6:$R$10,0),-1))"
+    },
+    {
+     "col": "G",
+     "range_rows": [
+      6,
+      505
+     ],
+     "formula": "=IF(AND(TRIM(B{row}&\"\")=\"\",TRIM(D{row}&\"\")=\"\"),\"\",IF(OR(NOT(ISNUMBER(B{row})),N(B{row})<1,NOT(ISNUMBER(D{row})),N(D{row})<0,L{row}=0,J{row}<0),\"?\",\"OK\"))"
+    },
+    {
+     "col": "H",
+     "range_rows": [
+      6,
+      505
+     ],
+     "formula": "=IF(G{row}<>\"OK\",0,IF(L{row}=2,-D{row},D{row}))"
+    },
+    {
+     "col": "I",
+     "range_rows": [
+      6,
+      505
+     ],
+     "formula": "=IF(G{row}<>\"OK\",0,IF(YEAR(B{row})='Setup'!$R$4,MONTH(B{row}),0))"
+    },
+    {
+     "col": "M",
+     "range_rows": [
+      6,
+      505
+     ],
+     "formula": "=IF(G{row}=\"OK\",INT(B{row}),99999)"
+    },
+    {
+     "col": "K",
+     "range_rows": [
+      6,
+      505
+     ],
+     "formula": "=IF(G{row}<>\"OK\",-1,ROUND('Setup'!$R$12+SUMIFS($H$6:$H$505,$B$6:$B$505,\"<=\"&B{row}),2))"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "B6:F505",
+     "type": "formula",
+     "formula": [
+      "$G6=\"?\""
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "B6:F505",
+     "type": "formula",
+     "formula": [
+      "AND($G6=\"OK\",$L6=2)"
+     ],
+     "fill": "FDF1DC"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B5:F5",
+     "color": "0A4F4E"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:F505",
+     "color": "C5DEDC"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "0A4F4E"
+    },
+    {
+     "range": "B5:F5",
+     "bold": true,
+     "size": 10,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "B6:D505",
+     "align": "center"
+    }
+   ],
+   "validations": [
+    {
+     "range": "C6:C505",
+     "type": "list",
+     "values": [
+      "Deposit",
+      "Withdrawal",
+      "Interest"
+     ],
+     "strict": false
+    },
+    {
+     "range": "E6:E505",
+     "type": "list_range",
+     "source": "='Accounts'!$B$6:$B$10",
+     "strict": false
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "B6:B505",
+     "format": "mmm d, yyyy"
+    },
+    {
+     "range": "D6:D505",
+     "format": "$#,##0.00"
+    }
+   ]
+  },
+  {
+   "name": "Monthly",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "0A4F4E",
+   "grid_rows": 38,
+   "grid_cols": 19,
+   "column_widths": {
+    "A": 2.5,
+    "B": 9,
+    "C": 13,
+    "D": 13,
+    "E": 12,
+    "F": 12,
+    "G": 15,
+    "H": 13,
+    "I": 10,
+    "J": 2.5,
+    "R": 4
+   },
+   "hidden_columns": [
+    "R"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:I2",
+     "label": "MONTH BY MONTH",
+     "size": 16,
+     "color": "0A4F4E",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B5",
+     "formula": "Month"
+    },
+    {
+     "cell": "C5",
+     "formula": "Deposits"
+    },
+    {
+     "cell": "D5",
+     "formula": "Withdrawals"
+    },
+    {
+     "cell": "E5",
+     "formula": "Interest"
+    },
+    {
+     "cell": "F5",
+     "formula": "Net"
+    },
+    {
+     "cell": "G5",
+     "formula": "Balance at month end"
+    },
+    {
+     "cell": "H5",
+     "formula": "Goal"
+    },
+    {
+     "cell": "I5",
+     "formula": "Months covered"
+    },
+    {
+     "cell": "B6",
+     "formula": "Jan"
+    },
+    {
+     "cell": "C6",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$505,'Log'!$I$6:$I$505,1,'Log'!$L$6:$L$505,1,'Log'!$G$6:$G$505,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D6",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$505,'Log'!$I$6:$I$505,1,'Log'!$L$6:$L$505,2,'Log'!$G$6:$G$505,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E6",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$505,'Log'!$I$6:$I$505,1,'Log'!$L$6:$L$505,3,'Log'!$G$6:$G$505,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F6",
+     "formula": "=ROUND(C6-D6+E6,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "G6",
+     "formula": "=IF(1>'Setup'!$R$5,\"\",ROUND('Setup'!$R$12+SUMIFS('Log'!$H$6:$H$505,'Log'!$B$6:$B$505,\"<=\"&EOMONTH(DATE('Setup'!$R$4,1,1),0)),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H6",
+     "formula": "='Setup'!$R$11",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I6",
+     "formula": "=IF(G6=\"\",\"\",IF('Setup'!$R$10>0,G6/'Setup'!$R$10,\"-\"))",
+     "number_format": "0.0"
+    },
+    {
+     "cell": "B7",
+     "formula": "Feb"
+    },
+    {
+     "cell": "C7",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$505,'Log'!$I$6:$I$505,2,'Log'!$L$6:$L$505,1,'Log'!$G$6:$G$505,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D7",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$505,'Log'!$I$6:$I$505,2,'Log'!$L$6:$L$505,2,'Log'!$G$6:$G$505,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E7",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$505,'Log'!$I$6:$I$505,2,'Log'!$L$6:$L$505,3,'Log'!$G$6:$G$505,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F7",
+     "formula": "=ROUND(C7-D7+E7,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "G7",
+     "formula": "=IF(2>'Setup'!$R$5,\"\",ROUND('Setup'!$R$12+SUMIFS('Log'!$H$6:$H$505,'Log'!$B$6:$B$505,\"<=\"&EOMONTH(DATE('Setup'!$R$4,2,1),0)),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H7",
+     "formula": "='Setup'!$R$11",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I7",
+     "formula": "=IF(G7=\"\",\"\",IF('Setup'!$R$10>0,G7/'Setup'!$R$10,\"-\"))",
+     "number_format": "0.0"
+    },
+    {
+     "cell": "B8",
+     "formula": "Mar"
+    },
+    {
+     "cell": "C8",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$505,'Log'!$I$6:$I$505,3,'Log'!$L$6:$L$505,1,'Log'!$G$6:$G$505,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D8",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$505,'Log'!$I$6:$I$505,3,'Log'!$L$6:$L$505,2,'Log'!$G$6:$G$505,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E8",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$505,'Log'!$I$6:$I$505,3,'Log'!$L$6:$L$505,3,'Log'!$G$6:$G$505,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F8",
+     "formula": "=ROUND(C8-D8+E8,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "G8",
+     "formula": "=IF(3>'Setup'!$R$5,\"\",ROUND('Setup'!$R$12+SUMIFS('Log'!$H$6:$H$505,'Log'!$B$6:$B$505,\"<=\"&EOMONTH(DATE('Setup'!$R$4,3,1),0)),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H8",
+     "formula": "='Setup'!$R$11",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I8",
+     "formula": "=IF(G8=\"\",\"\",IF('Setup'!$R$10>0,G8/'Setup'!$R$10,\"-\"))",
+     "number_format": "0.0"
+    },
+    {
+     "cell": "B9",
+     "formula": "Apr"
+    },
+    {
+     "cell": "C9",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$505,'Log'!$I$6:$I$505,4,'Log'!$L$6:$L$505,1,'Log'!$G$6:$G$505,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D9",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$505,'Log'!$I$6:$I$505,4,'Log'!$L$6:$L$505,2,'Log'!$G$6:$G$505,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E9",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$505,'Log'!$I$6:$I$505,4,'Log'!$L$6:$L$505,3,'Log'!$G$6:$G$505,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F9",
+     "formula": "=ROUND(C9-D9+E9,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "G9",
+     "formula": "=IF(4>'Setup'!$R$5,\"\",ROUND('Setup'!$R$12+SUMIFS('Log'!$H$6:$H$505,'Log'!$B$6:$B$505,\"<=\"&EOMONTH(DATE('Setup'!$R$4,4,1),0)),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H9",
+     "formula": "='Setup'!$R$11",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I9",
+     "formula": "=IF(G9=\"\",\"\",IF('Setup'!$R$10>0,G9/'Setup'!$R$10,\"-\"))",
+     "number_format": "0.0"
+    },
+    {
+     "cell": "B10",
+     "formula": "May"
+    },
+    {
+     "cell": "C10",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$505,'Log'!$I$6:$I$505,5,'Log'!$L$6:$L$505,1,'Log'!$G$6:$G$505,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D10",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$505,'Log'!$I$6:$I$505,5,'Log'!$L$6:$L$505,2,'Log'!$G$6:$G$505,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E10",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$505,'Log'!$I$6:$I$505,5,'Log'!$L$6:$L$505,3,'Log'!$G$6:$G$505,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F10",
+     "formula": "=ROUND(C10-D10+E10,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "G10",
+     "formula": "=IF(5>'Setup'!$R$5,\"\",ROUND('Setup'!$R$12+SUMIFS('Log'!$H$6:$H$505,'Log'!$B$6:$B$505,\"<=\"&EOMONTH(DATE('Setup'!$R$4,5,1),0)),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H10",
+     "formula": "='Setup'!$R$11",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I10",
+     "formula": "=IF(G10=\"\",\"\",IF('Setup'!$R$10>0,G10/'Setup'!$R$10,\"-\"))",
+     "number_format": "0.0"
+    },
+    {
+     "cell": "B11",
+     "formula": "Jun"
+    },
+    {
+     "cell": "C11",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$505,'Log'!$I$6:$I$505,6,'Log'!$L$6:$L$505,1,'Log'!$G$6:$G$505,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D11",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$505,'Log'!$I$6:$I$505,6,'Log'!$L$6:$L$505,2,'Log'!$G$6:$G$505,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E11",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$505,'Log'!$I$6:$I$505,6,'Log'!$L$6:$L$505,3,'Log'!$G$6:$G$505,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F11",
+     "formula": "=ROUND(C11-D11+E11,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "G11",
+     "formula": "=IF(6>'Setup'!$R$5,\"\",ROUND('Setup'!$R$12+SUMIFS('Log'!$H$6:$H$505,'Log'!$B$6:$B$505,\"<=\"&EOMONTH(DATE('Setup'!$R$4,6,1),0)),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H11",
+     "formula": "='Setup'!$R$11",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I11",
+     "formula": "=IF(G11=\"\",\"\",IF('Setup'!$R$10>0,G11/'Setup'!$R$10,\"-\"))",
+     "number_format": "0.0"
+    },
+    {
+     "cell": "B12",
+     "formula": "Jul"
+    },
+    {
+     "cell": "C12",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$505,'Log'!$I$6:$I$505,7,'Log'!$L$6:$L$505,1,'Log'!$G$6:$G$505,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D12",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$505,'Log'!$I$6:$I$505,7,'Log'!$L$6:$L$505,2,'Log'!$G$6:$G$505,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E12",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$505,'Log'!$I$6:$I$505,7,'Log'!$L$6:$L$505,3,'Log'!$G$6:$G$505,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F12",
+     "formula": "=ROUND(C12-D12+E12,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "G12",
+     "formula": "=IF(7>'Setup'!$R$5,\"\",ROUND('Setup'!$R$12+SUMIFS('Log'!$H$6:$H$505,'Log'!$B$6:$B$505,\"<=\"&EOMONTH(DATE('Setup'!$R$4,7,1),0)),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H12",
+     "formula": "='Setup'!$R$11",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I12",
+     "formula": "=IF(G12=\"\",\"\",IF('Setup'!$R$10>0,G12/'Setup'!$R$10,\"-\"))",
+     "number_format": "0.0"
+    },
+    {
+     "cell": "B13",
+     "formula": "Aug"
+    },
+    {
+     "cell": "C13",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$505,'Log'!$I$6:$I$505,8,'Log'!$L$6:$L$505,1,'Log'!$G$6:$G$505,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D13",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$505,'Log'!$I$6:$I$505,8,'Log'!$L$6:$L$505,2,'Log'!$G$6:$G$505,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E13",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$505,'Log'!$I$6:$I$505,8,'Log'!$L$6:$L$505,3,'Log'!$G$6:$G$505,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F13",
+     "formula": "=ROUND(C13-D13+E13,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "G13",
+     "formula": "=IF(8>'Setup'!$R$5,\"\",ROUND('Setup'!$R$12+SUMIFS('Log'!$H$6:$H$505,'Log'!$B$6:$B$505,\"<=\"&EOMONTH(DATE('Setup'!$R$4,8,1),0)),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H13",
+     "formula": "='Setup'!$R$11",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I13",
+     "formula": "=IF(G13=\"\",\"\",IF('Setup'!$R$10>0,G13/'Setup'!$R$10,\"-\"))",
+     "number_format": "0.0"
+    },
+    {
+     "cell": "B14",
+     "formula": "Sep"
+    },
+    {
+     "cell": "C14",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$505,'Log'!$I$6:$I$505,9,'Log'!$L$6:$L$505,1,'Log'!$G$6:$G$505,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D14",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$505,'Log'!$I$6:$I$505,9,'Log'!$L$6:$L$505,2,'Log'!$G$6:$G$505,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E14",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$505,'Log'!$I$6:$I$505,9,'Log'!$L$6:$L$505,3,'Log'!$G$6:$G$505,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F14",
+     "formula": "=ROUND(C14-D14+E14,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "G14",
+     "formula": "=IF(9>'Setup'!$R$5,\"\",ROUND('Setup'!$R$12+SUMIFS('Log'!$H$6:$H$505,'Log'!$B$6:$B$505,\"<=\"&EOMONTH(DATE('Setup'!$R$4,9,1),0)),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H14",
+     "formula": "='Setup'!$R$11",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I14",
+     "formula": "=IF(G14=\"\",\"\",IF('Setup'!$R$10>0,G14/'Setup'!$R$10,\"-\"))",
+     "number_format": "0.0"
+    },
+    {
+     "cell": "B15",
+     "formula": "Oct"
+    },
+    {
+     "cell": "C15",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$505,'Log'!$I$6:$I$505,10,'Log'!$L$6:$L$505,1,'Log'!$G$6:$G$505,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D15",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$505,'Log'!$I$6:$I$505,10,'Log'!$L$6:$L$505,2,'Log'!$G$6:$G$505,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E15",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$505,'Log'!$I$6:$I$505,10,'Log'!$L$6:$L$505,3,'Log'!$G$6:$G$505,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F15",
+     "formula": "=ROUND(C15-D15+E15,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "G15",
+     "formula": "=IF(10>'Setup'!$R$5,\"\",ROUND('Setup'!$R$12+SUMIFS('Log'!$H$6:$H$505,'Log'!$B$6:$B$505,\"<=\"&EOMONTH(DATE('Setup'!$R$4,10,1),0)),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H15",
+     "formula": "='Setup'!$R$11",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I15",
+     "formula": "=IF(G15=\"\",\"\",IF('Setup'!$R$10>0,G15/'Setup'!$R$10,\"-\"))",
+     "number_format": "0.0"
+    },
+    {
+     "cell": "B16",
+     "formula": "Nov"
+    },
+    {
+     "cell": "C16",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$505,'Log'!$I$6:$I$505,11,'Log'!$L$6:$L$505,1,'Log'!$G$6:$G$505,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D16",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$505,'Log'!$I$6:$I$505,11,'Log'!$L$6:$L$505,2,'Log'!$G$6:$G$505,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E16",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$505,'Log'!$I$6:$I$505,11,'Log'!$L$6:$L$505,3,'Log'!$G$6:$G$505,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F16",
+     "formula": "=ROUND(C16-D16+E16,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "G16",
+     "formula": "=IF(11>'Setup'!$R$5,\"\",ROUND('Setup'!$R$12+SUMIFS('Log'!$H$6:$H$505,'Log'!$B$6:$B$505,\"<=\"&EOMONTH(DATE('Setup'!$R$4,11,1),0)),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H16",
+     "formula": "='Setup'!$R$11",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I16",
+     "formula": "=IF(G16=\"\",\"\",IF('Setup'!$R$10>0,G16/'Setup'!$R$10,\"-\"))",
+     "number_format": "0.0"
+    },
+    {
+     "cell": "B17",
+     "formula": "Dec"
+    },
+    {
+     "cell": "C17",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$505,'Log'!$I$6:$I$505,12,'Log'!$L$6:$L$505,1,'Log'!$G$6:$G$505,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D17",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$505,'Log'!$I$6:$I$505,12,'Log'!$L$6:$L$505,2,'Log'!$G$6:$G$505,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E17",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$505,'Log'!$I$6:$I$505,12,'Log'!$L$6:$L$505,3,'Log'!$G$6:$G$505,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F17",
+     "formula": "=ROUND(C17-D17+E17,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "G17",
+     "formula": "=IF(12>'Setup'!$R$5,\"\",ROUND('Setup'!$R$12+SUMIFS('Log'!$H$6:$H$505,'Log'!$B$6:$B$505,\"<=\"&EOMONTH(DATE('Setup'!$R$4,12,1),0)),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H17",
+     "formula": "='Setup'!$R$11",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I17",
+     "formula": "=IF(G17=\"\",\"\",IF('Setup'!$R$10>0,G17/'Setup'!$R$10,\"-\"))",
+     "number_format": "0.0"
+    },
+    {
+     "cell": "B18",
+     "formula": "Year"
+    },
+    {
+     "cell": "C18",
+     "formula": "=ROUND(SUM(C6:C17),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D18",
+     "formula": "=ROUND(SUM(D6:D17),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E18",
+     "formula": "=ROUND(SUM(E6:E17),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F18",
+     "formula": "=ROUND(SUM(F6:F17),2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "B3",
+     "formula": "=\"Your fund in \"&'Setup'!$R$4"
+    },
+    {
+     "cell": "R4",
+     "formula": "='Setup'!$R$5"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "B6:I17",
+     "type": "formula",
+     "formula": [
+      "ROW()-5=$R$4"
+     ],
+     "fill": "FDF1DC"
+    },
+    {
+     "range": "F6:F18",
+     "type": "formula",
+     "formula": [
+      "F6<0"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B5:I5",
+     "color": "0A4F4E"
+    },
+    {
+     "range": "B18:I18",
+     "color": "E7F4F3"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:I18",
+     "color": "C5DEDC"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "0A4F4E"
+    },
+    {
+     "range": "B5:I5",
+     "wrap": true,
+     "bold": true,
+     "size": 9,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "B6:I18",
+     "align": "center"
+    },
+    {
+     "range": "B6:B18",
+     "bold": true,
+     "size": 10,
+     "color": "0A4F4E",
+     "align": "center"
+    },
+    {
+     "range": "G6:G17",
+     "bold": true,
+     "size": 10,
+     "color": "0E7C7B",
+     "align": "center"
+    },
+    {
+     "range": "B18:F18",
+     "bold": true,
+     "size": 10,
+     "color": "0A4F4E",
+     "align": "center"
+    }
+   ],
+   "row_heights": {
+    "5": 32
+   },
+   "charts": [
+    {
+     "type": "line",
+     "anchor": "B20",
+     "data": "Monthly!G5:H17",
+     "categories": "Monthly!B6:B17",
+     "width": 20,
+     "height": 7,
+     "colors": [
+      "0E7C7B",
+      "D98A0B"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Milestones",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "D98A0B",
+   "grid_rows": 17,
+   "grid_cols": 19,
+   "column_widths": {
+    "A": 2.5,
+    "B": 26,
+    "C": 14,
+    "D": 22,
+    "E": 16,
+    "F": 2.5,
+    "R": 10
+   },
+   "hidden_columns": [
+    "R"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:E2",
+     "label": "MILESTONES",
+     "size": 16,
+     "color": "0A4F4E",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Every step counts. Green = reached."
+    },
+    {
+     "cell": "B5",
+     "formula": "Milestone"
+    },
+    {
+     "cell": "C5",
+     "formula": "Amount"
+    },
+    {
+     "cell": "D5",
+     "formula": "Progress"
+    },
+    {
+     "cell": "E5",
+     "formula": "First reached"
+    },
+    {
+     "cell": "B6",
+     "formula": "$1,000 starter fund"
+    },
+    {
+     "cell": "C6",
+     "formula": "=1000",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D6",
+     "formula": "=IF(C6<=0,\"\",IF('Setup'!$R$13>=C6,\"Reached\",REPT(\"█\",ROUND(MIN(1,MAX(0,'Setup'!$R$13/C6))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,'Setup'!$R$13/C6))*10,0))&\" \"&TEXT(MAX(0,'Setup'!$R$13/C6),\"0%\")))"
+    },
+    {
+     "cell": "E6",
+     "formula": "=IF(C6<=0,\"\",IF('Setup'!$R$12>=C6,\"From the start\",IF(SUMPRODUCT(MIN('Log'!$M$6:$M$505+('Log'!$K$6:$K$505<C6)*99999))>=99999,\"Not yet\",SUMPRODUCT(MIN('Log'!$M$6:$M$505+('Log'!$K$6:$K$505<C6)*99999)))))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "B7",
+     "formula": "1 month of essentials"
+    },
+    {
+     "cell": "C7",
+     "formula": "=ROUND('Setup'!$R$10*1,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D7",
+     "formula": "=IF(C7<=0,\"\",IF('Setup'!$R$13>=C7,\"Reached\",REPT(\"█\",ROUND(MIN(1,MAX(0,'Setup'!$R$13/C7))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,'Setup'!$R$13/C7))*10,0))&\" \"&TEXT(MAX(0,'Setup'!$R$13/C7),\"0%\")))"
+    },
+    {
+     "cell": "E7",
+     "formula": "=IF(C7<=0,\"\",IF('Setup'!$R$12>=C7,\"From the start\",IF(SUMPRODUCT(MIN('Log'!$M$6:$M$505+('Log'!$K$6:$K$505<C7)*99999))>=99999,\"Not yet\",SUMPRODUCT(MIN('Log'!$M$6:$M$505+('Log'!$K$6:$K$505<C7)*99999)))))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "B8",
+     "formula": "2 months of essentials"
+    },
+    {
+     "cell": "C8",
+     "formula": "=ROUND('Setup'!$R$10*2,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D8",
+     "formula": "=IF(C8<=0,\"\",IF('Setup'!$R$13>=C8,\"Reached\",REPT(\"█\",ROUND(MIN(1,MAX(0,'Setup'!$R$13/C8))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,'Setup'!$R$13/C8))*10,0))&\" \"&TEXT(MAX(0,'Setup'!$R$13/C8),\"0%\")))"
+    },
+    {
+     "cell": "E8",
+     "formula": "=IF(C8<=0,\"\",IF('Setup'!$R$12>=C8,\"From the start\",IF(SUMPRODUCT(MIN('Log'!$M$6:$M$505+('Log'!$K$6:$K$505<C8)*99999))>=99999,\"Not yet\",SUMPRODUCT(MIN('Log'!$M$6:$M$505+('Log'!$K$6:$K$505<C8)*99999)))))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "B9",
+     "formula": "3 months of essentials"
+    },
+    {
+     "cell": "C9",
+     "formula": "=ROUND('Setup'!$R$10*3,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D9",
+     "formula": "=IF(C9<=0,\"\",IF('Setup'!$R$13>=C9,\"Reached\",REPT(\"█\",ROUND(MIN(1,MAX(0,'Setup'!$R$13/C9))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,'Setup'!$R$13/C9))*10,0))&\" \"&TEXT(MAX(0,'Setup'!$R$13/C9),\"0%\")))"
+    },
+    {
+     "cell": "E9",
+     "formula": "=IF(C9<=0,\"\",IF('Setup'!$R$12>=C9,\"From the start\",IF(SUMPRODUCT(MIN('Log'!$M$6:$M$505+('Log'!$K$6:$K$505<C9)*99999))>=99999,\"Not yet\",SUMPRODUCT(MIN('Log'!$M$6:$M$505+('Log'!$K$6:$K$505<C9)*99999)))))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "B10",
+     "formula": "4 months of essentials"
+    },
+    {
+     "cell": "C10",
+     "formula": "=ROUND('Setup'!$R$10*4,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D10",
+     "formula": "=IF(C10<=0,\"\",IF('Setup'!$R$13>=C10,\"Reached\",REPT(\"█\",ROUND(MIN(1,MAX(0,'Setup'!$R$13/C10))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,'Setup'!$R$13/C10))*10,0))&\" \"&TEXT(MAX(0,'Setup'!$R$13/C10),\"0%\")))"
+    },
+    {
+     "cell": "E10",
+     "formula": "=IF(C10<=0,\"\",IF('Setup'!$R$12>=C10,\"From the start\",IF(SUMPRODUCT(MIN('Log'!$M$6:$M$505+('Log'!$K$6:$K$505<C10)*99999))>=99999,\"Not yet\",SUMPRODUCT(MIN('Log'!$M$6:$M$505+('Log'!$K$6:$K$505<C10)*99999)))))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "B11",
+     "formula": "5 months of essentials"
+    },
+    {
+     "cell": "C11",
+     "formula": "=ROUND('Setup'!$R$10*5,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D11",
+     "formula": "=IF(C11<=0,\"\",IF('Setup'!$R$13>=C11,\"Reached\",REPT(\"█\",ROUND(MIN(1,MAX(0,'Setup'!$R$13/C11))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,'Setup'!$R$13/C11))*10,0))&\" \"&TEXT(MAX(0,'Setup'!$R$13/C11),\"0%\")))"
+    },
+    {
+     "cell": "E11",
+     "formula": "=IF(C11<=0,\"\",IF('Setup'!$R$12>=C11,\"From the start\",IF(SUMPRODUCT(MIN('Log'!$M$6:$M$505+('Log'!$K$6:$K$505<C11)*99999))>=99999,\"Not yet\",SUMPRODUCT(MIN('Log'!$M$6:$M$505+('Log'!$K$6:$K$505<C11)*99999)))))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "B12",
+     "formula": "6 months of essentials"
+    },
+    {
+     "cell": "C12",
+     "formula": "=ROUND('Setup'!$R$10*6,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D12",
+     "formula": "=IF(C12<=0,\"\",IF('Setup'!$R$13>=C12,\"Reached\",REPT(\"█\",ROUND(MIN(1,MAX(0,'Setup'!$R$13/C12))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,'Setup'!$R$13/C12))*10,0))&\" \"&TEXT(MAX(0,'Setup'!$R$13/C12),\"0%\")))"
+    },
+    {
+     "cell": "E12",
+     "formula": "=IF(C12<=0,\"\",IF('Setup'!$R$12>=C12,\"From the start\",IF(SUMPRODUCT(MIN('Log'!$M$6:$M$505+('Log'!$K$6:$K$505<C12)*99999))>=99999,\"Not yet\",SUMPRODUCT(MIN('Log'!$M$6:$M$505+('Log'!$K$6:$K$505<C12)*99999)))))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "B13",
+     "formula": "9 months of essentials"
+    },
+    {
+     "cell": "C13",
+     "formula": "=ROUND('Setup'!$R$10*9,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D13",
+     "formula": "=IF(C13<=0,\"\",IF('Setup'!$R$13>=C13,\"Reached\",REPT(\"█\",ROUND(MIN(1,MAX(0,'Setup'!$R$13/C13))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,'Setup'!$R$13/C13))*10,0))&\" \"&TEXT(MAX(0,'Setup'!$R$13/C13),\"0%\")))"
+    },
+    {
+     "cell": "E13",
+     "formula": "=IF(C13<=0,\"\",IF('Setup'!$R$12>=C13,\"From the start\",IF(SUMPRODUCT(MIN('Log'!$M$6:$M$505+('Log'!$K$6:$K$505<C13)*99999))>=99999,\"Not yet\",SUMPRODUCT(MIN('Log'!$M$6:$M$505+('Log'!$K$6:$K$505<C13)*99999)))))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "B14",
+     "formula": "12 months of essentials"
+    },
+    {
+     "cell": "C14",
+     "formula": "=ROUND('Setup'!$R$10*12,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D14",
+     "formula": "=IF(C14<=0,\"\",IF('Setup'!$R$13>=C14,\"Reached\",REPT(\"█\",ROUND(MIN(1,MAX(0,'Setup'!$R$13/C14))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,'Setup'!$R$13/C14))*10,0))&\" \"&TEXT(MAX(0,'Setup'!$R$13/C14),\"0%\")))"
+    },
+    {
+     "cell": "E14",
+     "formula": "=IF(C14<=0,\"\",IF('Setup'!$R$12>=C14,\"From the start\",IF(SUMPRODUCT(MIN('Log'!$M$6:$M$505+('Log'!$K$6:$K$505<C14)*99999))>=99999,\"Not yet\",SUMPRODUCT(MIN('Log'!$M$6:$M$505+('Log'!$K$6:$K$505<C14)*99999)))))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "R4",
+     "formula": "='Setup'!$R$11",
+     "number_format": "$#,##0.00"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "D6:D14",
+     "type": "formula",
+     "formula": [
+      "$D6=\"Reached\""
+     ],
+     "fill": "D7EFDD"
+    },
+    {
+     "range": "B6:C14",
+     "type": "formula",
+     "formula": [
+      "AND($C6>0,ABS($C6-$R$4)<0.005)"
+     ],
+     "fill": "FDF1DC"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B5:E5",
+     "color": "0A4F4E"
+    },
+    {
+     "range": "C6:E14",
+     "color": "F4F8F8"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:E14",
+     "color": "C5DEDC"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "0A4F4E"
+    },
+    {
+     "range": "B5:E5",
+     "bold": true,
+     "size": 10,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "B6:B14",
+     "bold": true,
+     "size": 10,
+     "color": "0A4F4E"
+    },
+    {
+     "range": "C6:E14",
+     "align": "center"
+    },
+    {
+     "range": "D6:D14",
+     "bold": true,
+     "size": 10,
+     "color": "0E7C7B",
+     "align": "center"
+    }
+   ]
+  }
+ ]
+}
