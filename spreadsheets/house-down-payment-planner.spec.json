@@ -1,0 +1,3340 @@
+{
+ "filename": "House Down Payment Planner",
+ "locale": "en_US",
+ "theme": {
+  "header_font": "FFFFFF",
+  "border": "E0D4C3",
+  "accent": "C8553D",
+  "section_colors": [
+   "2F3E46",
+   "F6EEE3",
+   "F9E3DC"
+  ],
+  "chart_palette": [
+   "C8553D",
+   "588157",
+   "D99A3E",
+   "2F3E46"
+  ]
+ },
+ "tabs": [
+  {
+   "name": "Start Here",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "C8553D",
+   "grid_rows": 29,
+   "column_widths": {
+    "A": 2.5,
+    "B": 22,
+    "C": 100,
+    "D": 2.5
+   },
+   "section_bars": [
+    {
+     "range": "B2:C2",
+     "label": "HOUSE DOWN PAYMENT PLANNER",
+     "size": 18,
+     "color": "2F3E46",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "B5:C5",
+     "label": "HOW TO USE IT",
+     "color": "F6EEE3",
+     "font_color": "2F3E46",
+     "align": "left"
+    },
+    {
+     "range": "B13:C13",
+     "label": "GOOD TO KNOW",
+     "color": "588157",
+     "font_color": "FFFFFF",
+     "align": "left"
+    },
+    {
+     "range": "B19:C19",
+     "label": "COLOR GUIDE",
+     "color": "F6EEE3",
+     "font_color": "2F3E46",
+     "align": "left"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Save for the keys to your first (or next) home."
+    },
+    {
+     "cell": "B6",
+     "formula": "Home Goal: the price you're aiming for, your down payment %, closing costs and a target date."
+    },
+    {
+     "cell": "B7",
+     "formula": "Home Goal: add what you've already saved and what you can save each month."
+    },
+    {
+     "cell": "B8",
+     "formula": "Log: every deposit, withdrawal and interest payment."
+    },
+    {
+     "cell": "B9",
+     "formula": "Dashboard: saved, left to go, what you need each month, and the date you'll be ready."
+    },
+    {
+     "cell": "B10",
+     "formula": "Price Scenarios: cash needed at different prices and down payments."
+    },
+    {
+     "cell": "B11",
+     "formula": "Affordability: what price fits your income (28/36 rule) and an estimated monthly payment."
+    },
+    {
+     "cell": "B14",
+     "formula": "Closing costs"
+    },
+    {
+     "cell": "C14",
+     "formula": "Usually 2% to 5% of the price. 3% is a fair guess."
+    },
+    {
+     "cell": "B15",
+     "formula": "Cushion"
+    },
+    {
+     "cell": "C15",
+     "formula": "Keep some savings after closing for repairs and surprises."
+    },
+    {
+     "cell": "B16",
+     "formula": "20% down"
+    },
+    {
+     "cell": "C16",
+     "formula": "Avoids PMI on most loans. Less down is fine, it just costs more each month."
+    },
+    {
+     "cell": "B17",
+     "formula": "Interest"
+    },
+    {
+     "cell": "C17",
+     "formula": "Keep the fund in high-yield savings and log the interest."
+    },
+    {
+     "cell": "C20",
+     "formula": "White cells are for typing."
+    },
+    {
+     "cell": "C21",
+     "formula": "Grey cells calculate."
+    },
+    {
+     "cell": "C22",
+     "formula": "Red means something needs a look."
+    },
+    {
+     "cell": "C23",
+     "formula": "Green means ready or reached."
+    },
+    {
+     "cell": "B25",
+     "formula": "Home sweet home is on its way."
+    }
+   ],
+   "fills": [
+    {
+     "range": "B14:C17",
+     "color": "E3EEDB"
+    },
+    {
+     "range": "B20",
+     "color": "FFFFFF"
+    },
+    {
+     "range": "B21",
+     "color": "FAF7F2"
+    },
+    {
+     "range": "B22",
+     "color": "F6CACA"
+    },
+    {
+     "range": "B23",
+     "color": "D7EFDD"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B20",
+     "color": "E0D4C3"
+    },
+    {
+     "range": "B21",
+     "color": "E0D4C3"
+    },
+    {
+     "range": "B22",
+     "color": "E0D4C3"
+    },
+    {
+     "range": "B23",
+     "color": "E0D4C3"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 11,
+     "color": "2F3E46"
+    },
+    {
+     "range": "B14:B17",
+     "bold": true,
+     "size": 11,
+     "color": "2F3E46"
+    },
+    {
+     "range": "B25",
+     "italic": true,
+     "bold": true,
+     "size": 11,
+     "color": "2F3E46"
+    }
+   ]
+  },
+  {
+   "name": "Dashboard",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "C8553D",
+   "grid_rows": 34,
+   "grid_cols": 19,
+   "column_widths": {
+    "A": 2.5,
+    "B": 16,
+    "C": 16,
+    "D": 16,
+    "E": 16,
+    "F": 16,
+    "G": 16,
+    "H": 16,
+    "I": 16,
+    "J": 2.5,
+    "R": 10
+   },
+   "hidden_columns": [
+    "R"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:I2",
+     "label": "DOWN PAYMENT DASHBOARD",
+     "size": 16,
+     "color": "2F3E46",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "B16:E16",
+     "label": "SAVED VS GOAL",
+     "color": "F6EEE3",
+     "font_color": "2F3E46",
+     "align": "left"
+    },
+    {
+     "range": "F16:I16",
+     "label": "WHAT YOU'RE SAVING FOR",
+     "color": "F6EEE3",
+     "font_color": "2F3E46",
+     "align": "left"
+    }
+   ],
+   "kpi_cards": [
+    {
+     "anchor": "B5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "SAVED NOW",
+     "value": "='Home Goal'!$R$20",
+     "fill": "588157",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "D5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "TOTAL NEEDED",
+     "value": "='Home Goal'!$R$19",
+     "fill": "2F3E46",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "F5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "LEFT TO GO",
+     "value": "=R4",
+     "fill": "C8553D",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "H5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "PROGRESS",
+     "value": "=R5",
+     "fill": "D99A3E",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "0%"
+    },
+    {
+     "anchor": "B9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "NEEDED EACH MONTH",
+     "value": "='Home Goal'!$C$28",
+     "fill": "C8553D",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "D9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "READY BY (YOUR PLAN)",
+     "value": "=IF('Home Goal'!$R$19<=0,\"-\",IF(R4=0,\"Ready now!\",IF(R6=\"\",\"Add a plan\",R7)))",
+     "fill": "588157",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "mmm yyyy"
+    },
+    {
+     "anchor": "F9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "TARGET DATE",
+     "value": "=IF('Home Goal'!$R$14=\"\",\"Not set\",'Home Goal'!$R$14)",
+     "fill": "2F3E46",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "mmm yyyy"
+    },
+    {
+     "anchor": "H9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "ADDED THIS YEAR",
+     "value": "=ROUND(SUMIFS('Log'!$H$6:$H$405,'Log'!$I$6:$I$405,\">0\",'Log'!$L$6:$L$405,\"<>2\"),2)",
+     "fill": "D99A3E",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "=IF('Home Goal'!$R$7=\"\",\"My\",'Home Goal'!$R$7)&\" home fund  |  \"&TEXT('Home Goal'!$R$6,\"mmm d, yyyy\")"
+    },
+    {
+     "cell": "R4",
+     "formula": "=MAX(0,ROUND('Home Goal'!$R$19-'Home Goal'!$R$20,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R5",
+     "formula": "=IF('Home Goal'!$R$19>0,MIN(1,MAX(0,'Home Goal'!$R$20/'Home Goal'!$R$19)),0)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "R6",
+     "formula": "=IF(R4=0,0,IF('Home Goal'!$R$16<=0,\"\",IF('Home Goal'!$R$15=0,ROUNDUP(R4/'Home Goal'!$R$16,0),ROUNDUP(NPER('Home Goal'!$R$15,-'Home Goal'!$R$16,-MAX(0,'Home Goal'!$R$20),'Home Goal'!$R$19),0))))"
+    },
+    {
+     "cell": "R7",
+     "formula": "=IF(R6=\"\",\"\",EDATE('Home Goal'!$R$6,R6))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "B13",
+     "formula": "=REPT(\"█\",ROUND(MIN(1,MAX(0,R5))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,R5))*10,0))&\"  \"&TEXT(R5,\"0%\")&\" of the way to your new home\""
+    },
+    {
+     "cell": "B14",
+     "formula": "=IF('Home Goal'!$R$19<=0,\"Set your home price on the Home Goal tab.\",IF(R4=0,\"You have it all. Time to call a lender!\",IF('Home Goal'!$R$14=\"\",\"Set a target date to see if you are on track.\",IF(R6=\"\",\"Add a monthly plan to see your ready date.\",IF(R7<='Home Goal'!$R$14,\"On track. Your plan gets you there by your target date.\",\"Behind. Save \"&TEXT(MAX(0,'Home Goal'!$C$28-'Home Goal'!$R$16),\"$#,##0\")&\" more a month to hit your date.\")))))"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "B14:I14",
+     "type": "formula",
+     "formula": [
+      "OR(LEFT($B$14,2)=\"On\",LEFT($B$14,3)=\"You\")"
+     ],
+     "fill": "D7EFDD"
+    },
+    {
+     "range": "B14:I14",
+     "type": "formula",
+     "formula": [
+      "LEFT($B$14,6)=\"Behind\""
+     ],
+     "fill": "F9E3DC"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:C7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "D5:E7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "F5:G7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "H5:I7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "B9:C11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "D9:E11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "F9:G11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "H9:I11",
+     "color": "FFFFFF",
+     "style": "medium"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 11,
+     "color": "2F3E46"
+    },
+    {
+     "range": "B13",
+     "bold": true,
+     "size": 12,
+     "color": "588157"
+    },
+    {
+     "range": "B14",
+     "bold": true,
+     "size": 11,
+     "color": "2F3E46"
+    }
+   ],
+   "charts": [
+    {
+     "type": "line",
+     "anchor": "B17",
+     "data": "Monthly!G5:H17",
+     "categories": "Monthly!B6:B17",
+     "width": 16,
+     "height": 7,
+     "colors": [
+      "588157",
+      "C8553D"
+     ]
+    },
+    {
+     "type": "doughnut",
+     "anchor": "F17",
+     "data": "Home Goal!C19:C22",
+     "categories": "Home Goal!B19:B22",
+     "width": 14,
+     "height": 7,
+     "titles_from_data": false,
+     "colors": [
+      "C8553D",
+      "D99A3E",
+      "588157",
+      "2F3E46"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Home Goal",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "C8553D",
+   "grid_rows": 31,
+   "grid_cols": 19,
+   "column_widths": {
+    "A": 2.5,
+    "B": 26,
+    "C": 18,
+    "D": 32,
+    "E": 2.5,
+    "R": 12
+   },
+   "hidden_columns": [
+    "R"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:D2",
+     "label": "MY HOME GOAL",
+     "size": 16,
+     "color": "2F3E46",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B4",
+     "formula": "Setting"
+    },
+    {
+     "cell": "C4",
+     "formula": "Yours"
+    },
+    {
+     "cell": "D4",
+     "formula": "Note"
+    },
+    {
+     "cell": "B5",
+     "formula": "Your name(s)"
+    },
+    {
+     "cell": "C5",
+     "formula": "Alex & Sam"
+    },
+    {
+     "cell": "B6",
+     "formula": "Today"
+    },
+    {
+     "cell": "C6",
+     "formula": "=DATE(2027,6,20)"
+    },
+    {
+     "cell": "D6",
+     "formula": "Blank = today."
+    },
+    {
+     "cell": "B7",
+     "formula": "Year to track"
+    },
+    {
+     "cell": "C7",
+     "formula": 2027
+    },
+    {
+     "cell": "D7",
+     "formula": "Blank = this year."
+    },
+    {
+     "cell": "B8",
+     "formula": "Target home price"
+    },
+    {
+     "cell": "C8",
+     "formula": 400000
+    },
+    {
+     "cell": "B9",
+     "formula": "Down payment %"
+    },
+    {
+     "cell": "C9",
+     "formula": 20
+    },
+    {
+     "cell": "D9",
+     "formula": "3.5, 5, 10 or 20 are common."
+    },
+    {
+     "cell": "B10",
+     "formula": "Closing costs %"
+    },
+    {
+     "cell": "C10",
+     "formula": 3
+    },
+    {
+     "cell": "D10",
+     "formula": "Usually 2 to 5."
+    },
+    {
+     "cell": "B11",
+     "formula": "Moving & setup"
+    },
+    {
+     "cell": "C11",
+     "formula": 3000
+    },
+    {
+     "cell": "D11",
+     "formula": "Movers, furniture, utilities."
+    },
+    {
+     "cell": "B12",
+     "formula": "Cushion after closing"
+    },
+    {
+     "cell": "C12",
+     "formula": 5000
+    },
+    {
+     "cell": "D12",
+     "formula": "Money left over for surprises."
+    },
+    {
+     "cell": "B13",
+     "formula": "Already saved"
+    },
+    {
+     "cell": "C13",
+     "formula": 18000
+    },
+    {
+     "cell": "D13",
+     "formula": "Before your first Log entry."
+    },
+    {
+     "cell": "B14",
+     "formula": "Target date"
+    },
+    {
+     "cell": "C14",
+     "formula": "=DATE(2029,6,1)"
+    },
+    {
+     "cell": "D14",
+     "formula": "When you want to buy."
+    },
+    {
+     "cell": "B15",
+     "formula": "Savings APY %"
+    },
+    {
+     "cell": "C15",
+     "formula": 4.0
+    },
+    {
+     "cell": "D15",
+     "formula": "Your account's interest rate."
+    },
+    {
+     "cell": "B16",
+     "formula": "Monthly saving plan"
+    },
+    {
+     "cell": "C16",
+     "formula": 1500
+    },
+    {
+     "cell": "D16",
+     "formula": "What you can add each month."
+    },
+    {
+     "cell": "R4",
+     "formula": "=IF(AND(ISNUMBER(C7),N(C7)>=1900,N(C7)<=9999),INT(C7),YEAR(R6))"
+    },
+    {
+     "cell": "R6",
+     "formula": "=IF(AND(ISNUMBER(C6),N(C6)>=1),INT(C6),TODAY())",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "R5",
+     "formula": "=IF(YEAR(R6)=R4,MONTH(R6),IF(YEAR(R6)>R4,12,1))"
+    },
+    {
+     "cell": "R7",
+     "formula": "=TRIM(C5&\"\")"
+    },
+    {
+     "cell": "R8",
+     "formula": "=ROUND(IF(ISNUMBER(C8),MAX(0,C8),0),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R9",
+     "formula": "=MAX(0,IF(N(C9)>=1,N(C9)/100,N(C9)))",
+     "number_format": "0.0%"
+    },
+    {
+     "cell": "R10",
+     "formula": "=MAX(0,IF(N(C10)>=1,N(C10)/100,N(C10)))",
+     "number_format": "0.0%"
+    },
+    {
+     "cell": "R11",
+     "formula": "=ROUND(IF(ISNUMBER(C11),MAX(0,C11),0),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R12",
+     "formula": "=ROUND(IF(ISNUMBER(C12),MAX(0,C12),0),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R13",
+     "formula": "=ROUND(IF(ISNUMBER(C13),MAX(0,C13),0),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R14",
+     "formula": "=IF(AND(ISNUMBER(C14),N(C14)>=1),INT(C14),\"\")",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "R15",
+     "formula": "=MAX(0,IF(N(C15)>=1,N(C15)/100,N(C15)))/12",
+     "number_format": "0.0000%"
+    },
+    {
+     "cell": "R16",
+     "formula": "=ROUND(IF(ISNUMBER(C16),MAX(0,C16),0),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R17",
+     "formula": "=ROUND(R8*R9,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R18",
+     "formula": "=ROUND(R8*R10,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R19",
+     "formula": "=ROUND(R17+R18+R11+R12,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R20",
+     "formula": "=ROUND(R13+SUM('Log'!$H$6:$H$405),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R21",
+     "formula": "=IF(R14=\"\",\"\",MAX(1,(YEAR(R14)-YEAR(R6))*12+MONTH(R14)-MONTH(R6)))"
+    },
+    {
+     "cell": "B18",
+     "formula": "Cash you need"
+    },
+    {
+     "cell": "C18",
+     "formula": "Amount"
+    },
+    {
+     "cell": "D18",
+     "formula": "Share"
+    },
+    {
+     "cell": "B19",
+     "formula": "Down payment"
+    },
+    {
+     "cell": "C19",
+     "formula": "=R17",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D19",
+     "formula": "=IF($R$19>0,C19/$R$19,0)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B20",
+     "formula": "Closing costs"
+    },
+    {
+     "cell": "C20",
+     "formula": "=R18",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D20",
+     "formula": "=IF($R$19>0,C20/$R$19,0)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B21",
+     "formula": "Moving & setup"
+    },
+    {
+     "cell": "C21",
+     "formula": "=R11",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D21",
+     "formula": "=IF($R$19>0,C21/$R$19,0)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B22",
+     "formula": "Cushion"
+    },
+    {
+     "cell": "C22",
+     "formula": "=R12",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D22",
+     "formula": "=IF($R$19>0,C22/$R$19,0)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B23",
+     "formula": "Total you need"
+    },
+    {
+     "cell": "C23",
+     "formula": "=R19",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B25",
+     "formula": "Saved now"
+    },
+    {
+     "cell": "C25",
+     "formula": "=R20",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B26",
+     "formula": "Left to go"
+    },
+    {
+     "cell": "C26",
+     "formula": "=MAX(0,ROUND(R19-R20,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B27",
+     "formula": "Months until target date"
+    },
+    {
+     "cell": "C27",
+     "formula": "=IF(R21=\"\",\"-\",R21)",
+     "number_format": "0"
+    },
+    {
+     "cell": "B28",
+     "formula": "Needed each month"
+    },
+    {
+     "cell": "C28",
+     "formula": "=IF(R21=\"\",\"Pick a date\",IF(C26=0,0,IF(R15=0,ROUND(C26/R21,2),ROUND(MAX(0,(R19-MAX(0,R20)*(1+R15)^R21)*R15/((1+R15)^R21-1)),2))))",
+     "number_format": "$#,##0.00"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "C8:C13",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C8<>\"\",NOT(ISNUMBER(C8))),N(C8)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C15:C16",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C15<>\"\",NOT(ISNUMBER(C15))),N(C15)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C6",
+     "type": "formula",
+     "formula": [
+      "AND(C6<>\"\",OR(NOT(ISNUMBER(C6)),N(C6)<1))"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C14",
+     "type": "formula",
+     "formula": [
+      "AND(C14<>\"\",OR(NOT(ISNUMBER(C14)),N(C14)<1))"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C7",
+     "type": "formula",
+     "formula": [
+      "AND(C7<>\"\",OR(NOT(ISNUMBER(C7)),N(C7)<1900,N(C7)>9999))"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B4:D4",
+     "color": "F6EEE3"
+    },
+    {
+     "range": "C5:C16",
+     "color": "FFFFFF"
+    },
+    {
+     "range": "B18:D18",
+     "color": "F6EEE3"
+    },
+    {
+     "range": "C19:D23",
+     "color": "FAF7F2"
+    },
+    {
+     "range": "B23:D23",
+     "color": "F9E3DC"
+    },
+    {
+     "range": "C25:C28",
+     "color": "FAF7F2"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B4:D16",
+     "color": "E0D4C3"
+    },
+    {
+     "range": "B18:D23",
+     "color": "E0D4C3"
+    },
+    {
+     "range": "B25:C28",
+     "color": "E0D4C3"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B4:D4",
+     "bold": true,
+     "size": 10,
+     "color": "2F3E46",
+     "align": "center"
+    },
+    {
+     "range": "B18:D18",
+     "bold": true,
+     "size": 10,
+     "color": "2F3E46",
+     "align": "center"
+    },
+    {
+     "range": "B5:B16",
+     "bold": true,
+     "size": 10,
+     "color": "2F3E46"
+    },
+    {
+     "range": "D5:D16",
+     "italic": true,
+     "size": 9,
+     "color": "2F3E46"
+    },
+    {
+     "range": "C5:C16",
+     "bold": true,
+     "size": 11,
+     "color": "2F3E46",
+     "align": "center"
+    },
+    {
+     "range": "B19:B23",
+     "bold": true,
+     "size": 10,
+     "color": "2F3E46"
+    },
+    {
+     "range": "C19:C23",
+     "bold": true,
+     "size": 11,
+     "color": "C8553D",
+     "align": "center"
+    },
+    {
+     "range": "D19:D22",
+     "align": "center"
+    },
+    {
+     "range": "B23:C23",
+     "bold": true,
+     "size": 12,
+     "color": "C8553D"
+    },
+    {
+     "range": "B25:B28",
+     "bold": true,
+     "size": 10,
+     "color": "2F3E46"
+    },
+    {
+     "range": "C25:C28",
+     "bold": true,
+     "size": 11,
+     "color": "588157",
+     "align": "center"
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "C6",
+     "format": "mmm d, yyyy"
+    },
+    {
+     "range": "C7",
+     "format": "0"
+    },
+    {
+     "range": "C8",
+     "format": "$#,##0.00"
+    },
+    {
+     "range": "C9",
+     "format": "0.0"
+    },
+    {
+     "range": "C10",
+     "format": "0.0"
+    },
+    {
+     "range": "C11",
+     "format": "$#,##0.00"
+    },
+    {
+     "range": "C12",
+     "format": "$#,##0.00"
+    },
+    {
+     "range": "C13",
+     "format": "$#,##0.00"
+    },
+    {
+     "range": "C14",
+     "format": "mmm d, yyyy"
+    },
+    {
+     "range": "C15",
+     "format": "0.00"
+    },
+    {
+     "range": "C16",
+     "format": "$#,##0.00"
+    }
+   ]
+  },
+  {
+   "name": "Log",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "588157",
+   "grid_rows": 407,
+   "grid_cols": 13,
+   "freeze": "A6",
+   "column_widths": {
+    "A": 2.5,
+    "B": 13,
+    "C": 13,
+    "D": 13,
+    "E": 18,
+    "F": 32,
+    "G": 3,
+    "H": 3,
+    "I": 3,
+    "K": 3,
+    "L": 3,
+    "M": 3
+   },
+   "hidden_columns": [
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L",
+    "M"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:F2",
+     "label": "SAVINGS LOG",
+     "size": 16,
+     "color": "2F3E46",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Every move in or out. Amounts are always positive; the Type says which way."
+    },
+    {
+     "cell": "B5",
+     "formula": "Date"
+    },
+    {
+     "cell": "C5",
+     "formula": "Type"
+    },
+    {
+     "cell": "D5",
+     "formula": "Amount"
+    },
+    {
+     "cell": "E5",
+     "formula": "Source"
+    },
+    {
+     "cell": "F5",
+     "formula": "Note"
+    },
+    {
+     "cell": "B6",
+     "formula": "=DATE(2027,1,2)"
+    },
+    {
+     "cell": "C6",
+     "formula": "Deposit"
+    },
+    {
+     "cell": "D6",
+     "formula": 600
+    },
+    {
+     "cell": "E6",
+     "formula": "Paycheck"
+    },
+    {
+     "cell": "B7",
+     "formula": "=DATE(2027,1,16)"
+    },
+    {
+     "cell": "C7",
+     "formula": "Deposit"
+    },
+    {
+     "cell": "D7",
+     "formula": 600
+    },
+    {
+     "cell": "E7",
+     "formula": "Paycheck"
+    },
+    {
+     "cell": "B8",
+     "formula": "=DATE(2027,1,28)"
+    },
+    {
+     "cell": "C8",
+     "formula": "Interest"
+    },
+    {
+     "cell": "D8",
+     "formula": 65.4
+    },
+    {
+     "cell": "B9",
+     "formula": "=DATE(2027,2,2)"
+    },
+    {
+     "cell": "C9",
+     "formula": "Deposit"
+    },
+    {
+     "cell": "D9",
+     "formula": 600
+    },
+    {
+     "cell": "E9",
+     "formula": "Paycheck"
+    },
+    {
+     "cell": "B10",
+     "formula": "=DATE(2027,2,16)"
+    },
+    {
+     "cell": "C10",
+     "formula": "Deposit"
+    },
+    {
+     "cell": "D10",
+     "formula": 600
+    },
+    {
+     "cell": "E10",
+     "formula": "Paycheck"
+    },
+    {
+     "cell": "B11",
+     "formula": "=DATE(2027,2,28)"
+    },
+    {
+     "cell": "C11",
+     "formula": "Interest"
+    },
+    {
+     "cell": "D11",
+     "formula": 68.8
+    },
+    {
+     "cell": "B12",
+     "formula": "=DATE(2027,3,3)"
+    },
+    {
+     "cell": "C12",
+     "formula": "Deposit"
+    },
+    {
+     "cell": "D12",
+     "formula": 2400
+    },
+    {
+     "cell": "E12",
+     "formula": "Tax refund"
+    },
+    {
+     "cell": "B13",
+     "formula": "=DATE(2027,3,2)"
+    },
+    {
+     "cell": "C13",
+     "formula": "Deposit"
+    },
+    {
+     "cell": "D13",
+     "formula": 600
+    },
+    {
+     "cell": "E13",
+     "formula": "Paycheck"
+    },
+    {
+     "cell": "B14",
+     "formula": "=DATE(2027,3,16)"
+    },
+    {
+     "cell": "C14",
+     "formula": "Deposit"
+    },
+    {
+     "cell": "D14",
+     "formula": 600
+    },
+    {
+     "cell": "E14",
+     "formula": "Paycheck"
+    },
+    {
+     "cell": "B15",
+     "formula": "=DATE(2027,4,20)"
+    },
+    {
+     "cell": "C15",
+     "formula": "Deposit"
+    },
+    {
+     "cell": "D15",
+     "formula": 1000
+    },
+    {
+     "cell": "E15",
+     "formula": "Gift"
+    },
+    {
+     "cell": "F15",
+     "formula": "From Mom & Dad"
+    },
+    {
+     "cell": "B16",
+     "formula": "=DATE(2027,3,28)"
+    },
+    {
+     "cell": "C16",
+     "formula": "Interest"
+    },
+    {
+     "cell": "D16",
+     "formula": 72.2
+    },
+    {
+     "cell": "B17",
+     "formula": "=DATE(2027,4,2)"
+    },
+    {
+     "cell": "C17",
+     "formula": "Deposit"
+    },
+    {
+     "cell": "D17",
+     "formula": 600
+    },
+    {
+     "cell": "E17",
+     "formula": "Paycheck"
+    },
+    {
+     "cell": "B18",
+     "formula": "=DATE(2027,5,9)"
+    },
+    {
+     "cell": "C18",
+     "formula": "Withdrawal"
+    },
+    {
+     "cell": "D18",
+     "formula": 400
+    },
+    {
+     "cell": "F18",
+     "formula": "Car insurance (paid back later)"
+    },
+    {
+     "cell": "B19",
+     "formula": "=DATE(2027,4,16)"
+    },
+    {
+     "cell": "C19",
+     "formula": "Deposit"
+    },
+    {
+     "cell": "D19",
+     "formula": 600
+    },
+    {
+     "cell": "E19",
+     "formula": "Paycheck"
+    },
+    {
+     "cell": "B20",
+     "formula": "=DATE(2027,4,28)"
+    },
+    {
+     "cell": "C20",
+     "formula": "Interest"
+    },
+    {
+     "cell": "D20",
+     "formula": 75.6
+    },
+    {
+     "cell": "B21",
+     "formula": "=DATE(2027,5,2)"
+    },
+    {
+     "cell": "C21",
+     "formula": "Deposit"
+    },
+    {
+     "cell": "D21",
+     "formula": 600
+    },
+    {
+     "cell": "E21",
+     "formula": "Paycheck"
+    },
+    {
+     "cell": "B22",
+     "formula": "=DATE(2027,5,16)"
+    },
+    {
+     "cell": "C22",
+     "formula": "Deposit"
+    },
+    {
+     "cell": "D22",
+     "formula": 600
+    },
+    {
+     "cell": "E22",
+     "formula": "Paycheck"
+    },
+    {
+     "cell": "B23",
+     "formula": "=DATE(2027,5,28)"
+    },
+    {
+     "cell": "C23",
+     "formula": "Interest"
+    },
+    {
+     "cell": "D23",
+     "formula": 79.0
+    },
+    {
+     "cell": "B24",
+     "formula": "=DATE(2027,6,2)"
+    },
+    {
+     "cell": "C24",
+     "formula": "Deposit"
+    },
+    {
+     "cell": "D24",
+     "formula": 600
+    },
+    {
+     "cell": "E24",
+     "formula": "Paycheck"
+    },
+    {
+     "cell": "B25",
+     "formula": "=DATE(2027,6,16)"
+    },
+    {
+     "cell": "C25",
+     "formula": "Deposit"
+    },
+    {
+     "cell": "D25",
+     "formula": 600
+    },
+    {
+     "cell": "E25",
+     "formula": "Paycheck"
+    },
+    {
+     "cell": "B26",
+     "formula": "=DATE(2027,6,19)"
+    },
+    {
+     "cell": "C26",
+     "formula": "Interest"
+    },
+    {
+     "cell": "D26",
+     "formula": 82.4
+    },
+    {
+     "col": "L",
+     "range_rows": [
+      6,
+      405
+     ],
+     "formula": "=IF(TRIM(C{row}&\"\")=\"\",1,IFERROR(MATCH(LOWER(TRIM(C{row}&\"\")),{\"deposit\",\"withdrawal\",\"interest\"},0),0))"
+    },
+    {
+     "col": "G",
+     "range_rows": [
+      6,
+      405
+     ],
+     "formula": "=IF(AND(TRIM(B{row}&\"\")=\"\",TRIM(D{row}&\"\")=\"\"),\"\",IF(OR(NOT(ISNUMBER(B{row})),N(B{row})<1,NOT(ISNUMBER(D{row})),N(D{row})<0,L{row}=0),\"?\",\"OK\"))"
+    },
+    {
+     "col": "H",
+     "range_rows": [
+      6,
+      405
+     ],
+     "formula": "=IF(G{row}<>\"OK\",0,IF(L{row}=2,-D{row},D{row}))"
+    },
+    {
+     "col": "I",
+     "range_rows": [
+      6,
+      405
+     ],
+     "formula": "=IF(G{row}<>\"OK\",0,IF(YEAR(B{row})='Home Goal'!$R$4,MONTH(B{row}),0))"
+    },
+    {
+     "col": "M",
+     "range_rows": [
+      6,
+      405
+     ],
+     "formula": "=IF(G{row}=\"OK\",INT(B{row}),99999)"
+    },
+    {
+     "col": "K",
+     "range_rows": [
+      6,
+      405
+     ],
+     "formula": "=IF(G{row}<>\"OK\",-1,ROUND('Home Goal'!$R$13+SUMIFS($H$6:$H$405,$B$6:$B$405,\"<=\"&B{row}),2))"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "B6:F405",
+     "type": "formula",
+     "formula": [
+      "$G6=\"?\""
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "B6:F405",
+     "type": "formula",
+     "formula": [
+      "AND($G6=\"OK\",$L6=2)"
+     ],
+     "fill": "F9E3DC"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B5:F5",
+     "color": "2F3E46"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:F405",
+     "color": "E0D4C3"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "2F3E46"
+    },
+    {
+     "range": "B5:F5",
+     "bold": true,
+     "size": 10,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "B6:E405",
+     "align": "center"
+    }
+   ],
+   "validations": [
+    {
+     "range": "C6:C405",
+     "type": "list",
+     "values": [
+      "Deposit",
+      "Withdrawal",
+      "Interest"
+     ],
+     "strict": false
+    },
+    {
+     "range": "E6:E405",
+     "type": "list",
+     "values": [
+      "Paycheck",
+      "Bonus",
+      "Tax refund",
+      "Gift",
+      "Side income",
+      "Sold something",
+      "Other"
+     ],
+     "strict": false
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "B6:B405",
+     "format": "mmm d, yyyy"
+    },
+    {
+     "range": "D6:D405",
+     "format": "$#,##0.00"
+    }
+   ]
+  },
+  {
+   "name": "Monthly",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "2F3E46",
+   "grid_rows": 38,
+   "grid_cols": 19,
+   "column_widths": {
+    "A": 2.5,
+    "B": 9,
+    "C": 13,
+    "D": 13,
+    "E": 12,
+    "F": 12,
+    "G": 15,
+    "H": 13,
+    "I": 10,
+    "J": 2.5,
+    "R": 4
+   },
+   "hidden_columns": [
+    "R"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:I2",
+     "label": "MONTH BY MONTH",
+     "size": 16,
+     "color": "2F3E46",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B5",
+     "formula": "Month"
+    },
+    {
+     "cell": "C5",
+     "formula": "Deposits"
+    },
+    {
+     "cell": "D5",
+     "formula": "Withdrawals"
+    },
+    {
+     "cell": "E5",
+     "formula": "Interest"
+    },
+    {
+     "cell": "F5",
+     "formula": "Net"
+    },
+    {
+     "cell": "G5",
+     "formula": "Saved at month end"
+    },
+    {
+     "cell": "H5",
+     "formula": "Goal"
+    },
+    {
+     "cell": "I5",
+     "formula": "% of goal"
+    },
+    {
+     "cell": "B6",
+     "formula": "Jan"
+    },
+    {
+     "cell": "C6",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$405,'Log'!$I$6:$I$405,1,'Log'!$L$6:$L$405,1,'Log'!$G$6:$G$405,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D6",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$405,'Log'!$I$6:$I$405,1,'Log'!$L$6:$L$405,2,'Log'!$G$6:$G$405,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E6",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$405,'Log'!$I$6:$I$405,1,'Log'!$L$6:$L$405,3,'Log'!$G$6:$G$405,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F6",
+     "formula": "=ROUND(C6-D6+E6,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "G6",
+     "formula": "=IF(1>'Home Goal'!$R$5,\"\",ROUND('Home Goal'!$R$13+SUMIFS('Log'!$H$6:$H$405,'Log'!$B$6:$B$405,\"<=\"&EOMONTH(DATE('Home Goal'!$R$4,1,1),0)),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H6",
+     "formula": "='Home Goal'!$R$19",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I6",
+     "formula": "=IF(OR(G6=\"\",'Home Goal'!$R$19<=0),\"\",MAX(0,G6)/'Home Goal'!$R$19)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B7",
+     "formula": "Feb"
+    },
+    {
+     "cell": "C7",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$405,'Log'!$I$6:$I$405,2,'Log'!$L$6:$L$405,1,'Log'!$G$6:$G$405,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D7",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$405,'Log'!$I$6:$I$405,2,'Log'!$L$6:$L$405,2,'Log'!$G$6:$G$405,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E7",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$405,'Log'!$I$6:$I$405,2,'Log'!$L$6:$L$405,3,'Log'!$G$6:$G$405,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F7",
+     "formula": "=ROUND(C7-D7+E7,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "G7",
+     "formula": "=IF(2>'Home Goal'!$R$5,\"\",ROUND('Home Goal'!$R$13+SUMIFS('Log'!$H$6:$H$405,'Log'!$B$6:$B$405,\"<=\"&EOMONTH(DATE('Home Goal'!$R$4,2,1),0)),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H7",
+     "formula": "='Home Goal'!$R$19",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I7",
+     "formula": "=IF(OR(G7=\"\",'Home Goal'!$R$19<=0),\"\",MAX(0,G7)/'Home Goal'!$R$19)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B8",
+     "formula": "Mar"
+    },
+    {
+     "cell": "C8",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$405,'Log'!$I$6:$I$405,3,'Log'!$L$6:$L$405,1,'Log'!$G$6:$G$405,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D8",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$405,'Log'!$I$6:$I$405,3,'Log'!$L$6:$L$405,2,'Log'!$G$6:$G$405,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E8",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$405,'Log'!$I$6:$I$405,3,'Log'!$L$6:$L$405,3,'Log'!$G$6:$G$405,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F8",
+     "formula": "=ROUND(C8-D8+E8,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "G8",
+     "formula": "=IF(3>'Home Goal'!$R$5,\"\",ROUND('Home Goal'!$R$13+SUMIFS('Log'!$H$6:$H$405,'Log'!$B$6:$B$405,\"<=\"&EOMONTH(DATE('Home Goal'!$R$4,3,1),0)),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H8",
+     "formula": "='Home Goal'!$R$19",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I8",
+     "formula": "=IF(OR(G8=\"\",'Home Goal'!$R$19<=0),\"\",MAX(0,G8)/'Home Goal'!$R$19)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B9",
+     "formula": "Apr"
+    },
+    {
+     "cell": "C9",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$405,'Log'!$I$6:$I$405,4,'Log'!$L$6:$L$405,1,'Log'!$G$6:$G$405,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D9",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$405,'Log'!$I$6:$I$405,4,'Log'!$L$6:$L$405,2,'Log'!$G$6:$G$405,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E9",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$405,'Log'!$I$6:$I$405,4,'Log'!$L$6:$L$405,3,'Log'!$G$6:$G$405,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F9",
+     "formula": "=ROUND(C9-D9+E9,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "G9",
+     "formula": "=IF(4>'Home Goal'!$R$5,\"\",ROUND('Home Goal'!$R$13+SUMIFS('Log'!$H$6:$H$405,'Log'!$B$6:$B$405,\"<=\"&EOMONTH(DATE('Home Goal'!$R$4,4,1),0)),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H9",
+     "formula": "='Home Goal'!$R$19",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I9",
+     "formula": "=IF(OR(G9=\"\",'Home Goal'!$R$19<=0),\"\",MAX(0,G9)/'Home Goal'!$R$19)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B10",
+     "formula": "May"
+    },
+    {
+     "cell": "C10",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$405,'Log'!$I$6:$I$405,5,'Log'!$L$6:$L$405,1,'Log'!$G$6:$G$405,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D10",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$405,'Log'!$I$6:$I$405,5,'Log'!$L$6:$L$405,2,'Log'!$G$6:$G$405,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E10",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$405,'Log'!$I$6:$I$405,5,'Log'!$L$6:$L$405,3,'Log'!$G$6:$G$405,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F10",
+     "formula": "=ROUND(C10-D10+E10,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "G10",
+     "formula": "=IF(5>'Home Goal'!$R$5,\"\",ROUND('Home Goal'!$R$13+SUMIFS('Log'!$H$6:$H$405,'Log'!$B$6:$B$405,\"<=\"&EOMONTH(DATE('Home Goal'!$R$4,5,1),0)),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H10",
+     "formula": "='Home Goal'!$R$19",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I10",
+     "formula": "=IF(OR(G10=\"\",'Home Goal'!$R$19<=0),\"\",MAX(0,G10)/'Home Goal'!$R$19)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B11",
+     "formula": "Jun"
+    },
+    {
+     "cell": "C11",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$405,'Log'!$I$6:$I$405,6,'Log'!$L$6:$L$405,1,'Log'!$G$6:$G$405,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D11",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$405,'Log'!$I$6:$I$405,6,'Log'!$L$6:$L$405,2,'Log'!$G$6:$G$405,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E11",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$405,'Log'!$I$6:$I$405,6,'Log'!$L$6:$L$405,3,'Log'!$G$6:$G$405,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F11",
+     "formula": "=ROUND(C11-D11+E11,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "G11",
+     "formula": "=IF(6>'Home Goal'!$R$5,\"\",ROUND('Home Goal'!$R$13+SUMIFS('Log'!$H$6:$H$405,'Log'!$B$6:$B$405,\"<=\"&EOMONTH(DATE('Home Goal'!$R$4,6,1),0)),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H11",
+     "formula": "='Home Goal'!$R$19",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I11",
+     "formula": "=IF(OR(G11=\"\",'Home Goal'!$R$19<=0),\"\",MAX(0,G11)/'Home Goal'!$R$19)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B12",
+     "formula": "Jul"
+    },
+    {
+     "cell": "C12",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$405,'Log'!$I$6:$I$405,7,'Log'!$L$6:$L$405,1,'Log'!$G$6:$G$405,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D12",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$405,'Log'!$I$6:$I$405,7,'Log'!$L$6:$L$405,2,'Log'!$G$6:$G$405,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E12",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$405,'Log'!$I$6:$I$405,7,'Log'!$L$6:$L$405,3,'Log'!$G$6:$G$405,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F12",
+     "formula": "=ROUND(C12-D12+E12,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "G12",
+     "formula": "=IF(7>'Home Goal'!$R$5,\"\",ROUND('Home Goal'!$R$13+SUMIFS('Log'!$H$6:$H$405,'Log'!$B$6:$B$405,\"<=\"&EOMONTH(DATE('Home Goal'!$R$4,7,1),0)),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H12",
+     "formula": "='Home Goal'!$R$19",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I12",
+     "formula": "=IF(OR(G12=\"\",'Home Goal'!$R$19<=0),\"\",MAX(0,G12)/'Home Goal'!$R$19)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B13",
+     "formula": "Aug"
+    },
+    {
+     "cell": "C13",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$405,'Log'!$I$6:$I$405,8,'Log'!$L$6:$L$405,1,'Log'!$G$6:$G$405,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D13",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$405,'Log'!$I$6:$I$405,8,'Log'!$L$6:$L$405,2,'Log'!$G$6:$G$405,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E13",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$405,'Log'!$I$6:$I$405,8,'Log'!$L$6:$L$405,3,'Log'!$G$6:$G$405,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F13",
+     "formula": "=ROUND(C13-D13+E13,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "G13",
+     "formula": "=IF(8>'Home Goal'!$R$5,\"\",ROUND('Home Goal'!$R$13+SUMIFS('Log'!$H$6:$H$405,'Log'!$B$6:$B$405,\"<=\"&EOMONTH(DATE('Home Goal'!$R$4,8,1),0)),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H13",
+     "formula": "='Home Goal'!$R$19",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I13",
+     "formula": "=IF(OR(G13=\"\",'Home Goal'!$R$19<=0),\"\",MAX(0,G13)/'Home Goal'!$R$19)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B14",
+     "formula": "Sep"
+    },
+    {
+     "cell": "C14",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$405,'Log'!$I$6:$I$405,9,'Log'!$L$6:$L$405,1,'Log'!$G$6:$G$405,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D14",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$405,'Log'!$I$6:$I$405,9,'Log'!$L$6:$L$405,2,'Log'!$G$6:$G$405,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E14",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$405,'Log'!$I$6:$I$405,9,'Log'!$L$6:$L$405,3,'Log'!$G$6:$G$405,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F14",
+     "formula": "=ROUND(C14-D14+E14,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "G14",
+     "formula": "=IF(9>'Home Goal'!$R$5,\"\",ROUND('Home Goal'!$R$13+SUMIFS('Log'!$H$6:$H$405,'Log'!$B$6:$B$405,\"<=\"&EOMONTH(DATE('Home Goal'!$R$4,9,1),0)),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H14",
+     "formula": "='Home Goal'!$R$19",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I14",
+     "formula": "=IF(OR(G14=\"\",'Home Goal'!$R$19<=0),\"\",MAX(0,G14)/'Home Goal'!$R$19)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B15",
+     "formula": "Oct"
+    },
+    {
+     "cell": "C15",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$405,'Log'!$I$6:$I$405,10,'Log'!$L$6:$L$405,1,'Log'!$G$6:$G$405,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D15",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$405,'Log'!$I$6:$I$405,10,'Log'!$L$6:$L$405,2,'Log'!$G$6:$G$405,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E15",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$405,'Log'!$I$6:$I$405,10,'Log'!$L$6:$L$405,3,'Log'!$G$6:$G$405,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F15",
+     "formula": "=ROUND(C15-D15+E15,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "G15",
+     "formula": "=IF(10>'Home Goal'!$R$5,\"\",ROUND('Home Goal'!$R$13+SUMIFS('Log'!$H$6:$H$405,'Log'!$B$6:$B$405,\"<=\"&EOMONTH(DATE('Home Goal'!$R$4,10,1),0)),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H15",
+     "formula": "='Home Goal'!$R$19",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I15",
+     "formula": "=IF(OR(G15=\"\",'Home Goal'!$R$19<=0),\"\",MAX(0,G15)/'Home Goal'!$R$19)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B16",
+     "formula": "Nov"
+    },
+    {
+     "cell": "C16",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$405,'Log'!$I$6:$I$405,11,'Log'!$L$6:$L$405,1,'Log'!$G$6:$G$405,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D16",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$405,'Log'!$I$6:$I$405,11,'Log'!$L$6:$L$405,2,'Log'!$G$6:$G$405,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E16",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$405,'Log'!$I$6:$I$405,11,'Log'!$L$6:$L$405,3,'Log'!$G$6:$G$405,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F16",
+     "formula": "=ROUND(C16-D16+E16,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "G16",
+     "formula": "=IF(11>'Home Goal'!$R$5,\"\",ROUND('Home Goal'!$R$13+SUMIFS('Log'!$H$6:$H$405,'Log'!$B$6:$B$405,\"<=\"&EOMONTH(DATE('Home Goal'!$R$4,11,1),0)),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H16",
+     "formula": "='Home Goal'!$R$19",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I16",
+     "formula": "=IF(OR(G16=\"\",'Home Goal'!$R$19<=0),\"\",MAX(0,G16)/'Home Goal'!$R$19)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B17",
+     "formula": "Dec"
+    },
+    {
+     "cell": "C17",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$405,'Log'!$I$6:$I$405,12,'Log'!$L$6:$L$405,1,'Log'!$G$6:$G$405,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D17",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$405,'Log'!$I$6:$I$405,12,'Log'!$L$6:$L$405,2,'Log'!$G$6:$G$405,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E17",
+     "formula": "=ROUND(SUMIFS('Log'!$D$6:$D$405,'Log'!$I$6:$I$405,12,'Log'!$L$6:$L$405,3,'Log'!$G$6:$G$405,\"OK\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F17",
+     "formula": "=ROUND(C17-D17+E17,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "G17",
+     "formula": "=IF(12>'Home Goal'!$R$5,\"\",ROUND('Home Goal'!$R$13+SUMIFS('Log'!$H$6:$H$405,'Log'!$B$6:$B$405,\"<=\"&EOMONTH(DATE('Home Goal'!$R$4,12,1),0)),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H17",
+     "formula": "='Home Goal'!$R$19",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I17",
+     "formula": "=IF(OR(G17=\"\",'Home Goal'!$R$19<=0),\"\",MAX(0,G17)/'Home Goal'!$R$19)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B18",
+     "formula": "Year"
+    },
+    {
+     "cell": "C18",
+     "formula": "=ROUND(SUM(C6:C17),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D18",
+     "formula": "=ROUND(SUM(D6:D17),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E18",
+     "formula": "=ROUND(SUM(E6:E17),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F18",
+     "formula": "=ROUND(SUM(F6:F17),2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "B3",
+     "formula": "=\"Your down payment fund in \"&'Home Goal'!$R$4"
+    },
+    {
+     "cell": "R4",
+     "formula": "='Home Goal'!$R$5"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "B6:I17",
+     "type": "formula",
+     "formula": [
+      "ROW()-5=$R$4"
+     ],
+     "fill": "F9E3DC"
+    },
+    {
+     "range": "F6:F18",
+     "type": "formula",
+     "formula": [
+      "F6<0"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B5:I5",
+     "color": "2F3E46"
+    },
+    {
+     "range": "B18:I18",
+     "color": "F6EEE3"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:I18",
+     "color": "E0D4C3"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "2F3E46"
+    },
+    {
+     "range": "B5:I5",
+     "wrap": true,
+     "bold": true,
+     "size": 9,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "B6:I18",
+     "align": "center"
+    },
+    {
+     "range": "B6:B18",
+     "bold": true,
+     "size": 10,
+     "color": "2F3E46",
+     "align": "center"
+    },
+    {
+     "range": "G6:G17",
+     "bold": true,
+     "size": 10,
+     "color": "588157",
+     "align": "center"
+    },
+    {
+     "range": "B18:F18",
+     "bold": true,
+     "size": 10,
+     "color": "2F3E46",
+     "align": "center"
+    }
+   ],
+   "row_heights": {
+    "5": 32
+   },
+   "charts": [
+    {
+     "type": "line",
+     "anchor": "B20",
+     "data": "Monthly!G5:H17",
+     "categories": "Monthly!B6:B17",
+     "width": 20,
+     "height": 7,
+     "colors": [
+      "588157",
+      "C8553D"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Price Scenarios",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "D99A3E",
+   "grid_rows": 22,
+   "grid_cols": 19,
+   "column_widths": {
+    "A": 2.5,
+    "B": 18,
+    "C": 14,
+    "D": 14,
+    "E": 14,
+    "F": 14,
+    "G": 2.5,
+    "R": 10
+   },
+   "hidden_columns": [
+    "R"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:F2",
+     "label": "PRICE SCENARIOS",
+     "size": 16,
+     "color": "2F3E46",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Cash needed (down payment + closing + moving + cushion). Green = you have it now."
+    },
+    {
+     "cell": "B6",
+     "formula": "Home price"
+    },
+    {
+     "cell": "C6",
+     "formula": "3.5% down"
+    },
+    {
+     "cell": "D6",
+     "formula": "5% down"
+    },
+    {
+     "cell": "E6",
+     "formula": "10% down"
+    },
+    {
+     "cell": "F6",
+     "formula": "20% down"
+    },
+    {
+     "cell": "B7",
+     "formula": "=MAX(0,'Home Goal'!$R$8+(-100000))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "C7",
+     "formula": "=IF(B7<=0,0,ROUND(B7*0.035+ROUND(B7*'Home Goal'!$R$10,2)+'Home Goal'!$R$11+'Home Goal'!$R$12,2))",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "D7",
+     "formula": "=IF(B7<=0,0,ROUND(B7*0.05+ROUND(B7*'Home Goal'!$R$10,2)+'Home Goal'!$R$11+'Home Goal'!$R$12,2))",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "E7",
+     "formula": "=IF(B7<=0,0,ROUND(B7*0.1+ROUND(B7*'Home Goal'!$R$10,2)+'Home Goal'!$R$11+'Home Goal'!$R$12,2))",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "F7",
+     "formula": "=IF(B7<=0,0,ROUND(B7*0.2+ROUND(B7*'Home Goal'!$R$10,2)+'Home Goal'!$R$11+'Home Goal'!$R$12,2))",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "B8",
+     "formula": "=MAX(0,'Home Goal'!$R$8+(-50000))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "C8",
+     "formula": "=IF(B8<=0,0,ROUND(B8*0.035+ROUND(B8*'Home Goal'!$R$10,2)+'Home Goal'!$R$11+'Home Goal'!$R$12,2))",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "D8",
+     "formula": "=IF(B8<=0,0,ROUND(B8*0.05+ROUND(B8*'Home Goal'!$R$10,2)+'Home Goal'!$R$11+'Home Goal'!$R$12,2))",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "E8",
+     "formula": "=IF(B8<=0,0,ROUND(B8*0.1+ROUND(B8*'Home Goal'!$R$10,2)+'Home Goal'!$R$11+'Home Goal'!$R$12,2))",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "F8",
+     "formula": "=IF(B8<=0,0,ROUND(B8*0.2+ROUND(B8*'Home Goal'!$R$10,2)+'Home Goal'!$R$11+'Home Goal'!$R$12,2))",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "B9",
+     "formula": "=MAX(0,'Home Goal'!$R$8+(0))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "C9",
+     "formula": "=IF(B9<=0,0,ROUND(B9*0.035+ROUND(B9*'Home Goal'!$R$10,2)+'Home Goal'!$R$11+'Home Goal'!$R$12,2))",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "D9",
+     "formula": "=IF(B9<=0,0,ROUND(B9*0.05+ROUND(B9*'Home Goal'!$R$10,2)+'Home Goal'!$R$11+'Home Goal'!$R$12,2))",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "E9",
+     "formula": "=IF(B9<=0,0,ROUND(B9*0.1+ROUND(B9*'Home Goal'!$R$10,2)+'Home Goal'!$R$11+'Home Goal'!$R$12,2))",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "F9",
+     "formula": "=IF(B9<=0,0,ROUND(B9*0.2+ROUND(B9*'Home Goal'!$R$10,2)+'Home Goal'!$R$11+'Home Goal'!$R$12,2))",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "B10",
+     "formula": "=MAX(0,'Home Goal'!$R$8+(50000))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "C10",
+     "formula": "=IF(B10<=0,0,ROUND(B10*0.035+ROUND(B10*'Home Goal'!$R$10,2)+'Home Goal'!$R$11+'Home Goal'!$R$12,2))",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "D10",
+     "formula": "=IF(B10<=0,0,ROUND(B10*0.05+ROUND(B10*'Home Goal'!$R$10,2)+'Home Goal'!$R$11+'Home Goal'!$R$12,2))",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "E10",
+     "formula": "=IF(B10<=0,0,ROUND(B10*0.1+ROUND(B10*'Home Goal'!$R$10,2)+'Home Goal'!$R$11+'Home Goal'!$R$12,2))",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "F10",
+     "formula": "=IF(B10<=0,0,ROUND(B10*0.2+ROUND(B10*'Home Goal'!$R$10,2)+'Home Goal'!$R$11+'Home Goal'!$R$12,2))",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "B11",
+     "formula": "=MAX(0,'Home Goal'!$R$8+(100000))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "C11",
+     "formula": "=IF(B11<=0,0,ROUND(B11*0.035+ROUND(B11*'Home Goal'!$R$10,2)+'Home Goal'!$R$11+'Home Goal'!$R$12,2))",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "D11",
+     "formula": "=IF(B11<=0,0,ROUND(B11*0.05+ROUND(B11*'Home Goal'!$R$10,2)+'Home Goal'!$R$11+'Home Goal'!$R$12,2))",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "E11",
+     "formula": "=IF(B11<=0,0,ROUND(B11*0.1+ROUND(B11*'Home Goal'!$R$10,2)+'Home Goal'!$R$11+'Home Goal'!$R$12,2))",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "F11",
+     "formula": "=IF(B11<=0,0,ROUND(B11*0.2+ROUND(B11*'Home Goal'!$R$10,2)+'Home Goal'!$R$11+'Home Goal'!$R$12,2))",
+     "number_format": "$#,##0"
+    },
+    {
+     "cell": "B13",
+     "formula": "Months away at your monthly plan (with interest)"
+    },
+    {
+     "cell": "B14",
+     "formula": "Home price"
+    },
+    {
+     "cell": "C14",
+     "formula": "3.5% down"
+    },
+    {
+     "cell": "D14",
+     "formula": "5% down"
+    },
+    {
+     "cell": "E14",
+     "formula": "10% down"
+    },
+    {
+     "cell": "F14",
+     "formula": "20% down"
+    },
+    {
+     "cell": "B15",
+     "formula": "=B7",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "C15",
+     "formula": "=IF(C7<=0,\"-\",IF('Home Goal'!$R$20>=C7,\"Ready\",IF('Home Goal'!$R$16<=0,\"Add a plan\",IF('Home Goal'!$R$15=0,ROUNDUP((C7-'Home Goal'!$R$20)/'Home Goal'!$R$16,0),ROUNDUP(NPER('Home Goal'!$R$15,-'Home Goal'!$R$16,-MAX(0,'Home Goal'!$R$20),C7),0)))))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D15",
+     "formula": "=IF(D7<=0,\"-\",IF('Home Goal'!$R$20>=D7,\"Ready\",IF('Home Goal'!$R$16<=0,\"Add a plan\",IF('Home Goal'!$R$15=0,ROUNDUP((D7-'Home Goal'!$R$20)/'Home Goal'!$R$16,0),ROUNDUP(NPER('Home Goal'!$R$15,-'Home Goal'!$R$16,-MAX(0,'Home Goal'!$R$20),D7),0)))))",
+     "number_format": "0"
+    },
+    {
+     "cell": "E15",
+     "formula": "=IF(E7<=0,\"-\",IF('Home Goal'!$R$20>=E7,\"Ready\",IF('Home Goal'!$R$16<=0,\"Add a plan\",IF('Home Goal'!$R$15=0,ROUNDUP((E7-'Home Goal'!$R$20)/'Home Goal'!$R$16,0),ROUNDUP(NPER('Home Goal'!$R$15,-'Home Goal'!$R$16,-MAX(0,'Home Goal'!$R$20),E7),0)))))",
+     "number_format": "0"
+    },
+    {
+     "cell": "F15",
+     "formula": "=IF(F7<=0,\"-\",IF('Home Goal'!$R$20>=F7,\"Ready\",IF('Home Goal'!$R$16<=0,\"Add a plan\",IF('Home Goal'!$R$15=0,ROUNDUP((F7-'Home Goal'!$R$20)/'Home Goal'!$R$16,0),ROUNDUP(NPER('Home Goal'!$R$15,-'Home Goal'!$R$16,-MAX(0,'Home Goal'!$R$20),F7),0)))))",
+     "number_format": "0"
+    },
+    {
+     "cell": "B16",
+     "formula": "=B8",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "C16",
+     "formula": "=IF(C8<=0,\"-\",IF('Home Goal'!$R$20>=C8,\"Ready\",IF('Home Goal'!$R$16<=0,\"Add a plan\",IF('Home Goal'!$R$15=0,ROUNDUP((C8-'Home Goal'!$R$20)/'Home Goal'!$R$16,0),ROUNDUP(NPER('Home Goal'!$R$15,-'Home Goal'!$R$16,-MAX(0,'Home Goal'!$R$20),C8),0)))))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D16",
+     "formula": "=IF(D8<=0,\"-\",IF('Home Goal'!$R$20>=D8,\"Ready\",IF('Home Goal'!$R$16<=0,\"Add a plan\",IF('Home Goal'!$R$15=0,ROUNDUP((D8-'Home Goal'!$R$20)/'Home Goal'!$R$16,0),ROUNDUP(NPER('Home Goal'!$R$15,-'Home Goal'!$R$16,-MAX(0,'Home Goal'!$R$20),D8),0)))))",
+     "number_format": "0"
+    },
+    {
+     "cell": "E16",
+     "formula": "=IF(E8<=0,\"-\",IF('Home Goal'!$R$20>=E8,\"Ready\",IF('Home Goal'!$R$16<=0,\"Add a plan\",IF('Home Goal'!$R$15=0,ROUNDUP((E8-'Home Goal'!$R$20)/'Home Goal'!$R$16,0),ROUNDUP(NPER('Home Goal'!$R$15,-'Home Goal'!$R$16,-MAX(0,'Home Goal'!$R$20),E8),0)))))",
+     "number_format": "0"
+    },
+    {
+     "cell": "F16",
+     "formula": "=IF(F8<=0,\"-\",IF('Home Goal'!$R$20>=F8,\"Ready\",IF('Home Goal'!$R$16<=0,\"Add a plan\",IF('Home Goal'!$R$15=0,ROUNDUP((F8-'Home Goal'!$R$20)/'Home Goal'!$R$16,0),ROUNDUP(NPER('Home Goal'!$R$15,-'Home Goal'!$R$16,-MAX(0,'Home Goal'!$R$20),F8),0)))))",
+     "number_format": "0"
+    },
+    {
+     "cell": "B17",
+     "formula": "=B9",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "C17",
+     "formula": "=IF(C9<=0,\"-\",IF('Home Goal'!$R$20>=C9,\"Ready\",IF('Home Goal'!$R$16<=0,\"Add a plan\",IF('Home Goal'!$R$15=0,ROUNDUP((C9-'Home Goal'!$R$20)/'Home Goal'!$R$16,0),ROUNDUP(NPER('Home Goal'!$R$15,-'Home Goal'!$R$16,-MAX(0,'Home Goal'!$R$20),C9),0)))))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D17",
+     "formula": "=IF(D9<=0,\"-\",IF('Home Goal'!$R$20>=D9,\"Ready\",IF('Home Goal'!$R$16<=0,\"Add a plan\",IF('Home Goal'!$R$15=0,ROUNDUP((D9-'Home Goal'!$R$20)/'Home Goal'!$R$16,0),ROUNDUP(NPER('Home Goal'!$R$15,-'Home Goal'!$R$16,-MAX(0,'Home Goal'!$R$20),D9),0)))))",
+     "number_format": "0"
+    },
+    {
+     "cell": "E17",
+     "formula": "=IF(E9<=0,\"-\",IF('Home Goal'!$R$20>=E9,\"Ready\",IF('Home Goal'!$R$16<=0,\"Add a plan\",IF('Home Goal'!$R$15=0,ROUNDUP((E9-'Home Goal'!$R$20)/'Home Goal'!$R$16,0),ROUNDUP(NPER('Home Goal'!$R$15,-'Home Goal'!$R$16,-MAX(0,'Home Goal'!$R$20),E9),0)))))",
+     "number_format": "0"
+    },
+    {
+     "cell": "F17",
+     "formula": "=IF(F9<=0,\"-\",IF('Home Goal'!$R$20>=F9,\"Ready\",IF('Home Goal'!$R$16<=0,\"Add a plan\",IF('Home Goal'!$R$15=0,ROUNDUP((F9-'Home Goal'!$R$20)/'Home Goal'!$R$16,0),ROUNDUP(NPER('Home Goal'!$R$15,-'Home Goal'!$R$16,-MAX(0,'Home Goal'!$R$20),F9),0)))))",
+     "number_format": "0"
+    },
+    {
+     "cell": "B18",
+     "formula": "=B10",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "C18",
+     "formula": "=IF(C10<=0,\"-\",IF('Home Goal'!$R$20>=C10,\"Ready\",IF('Home Goal'!$R$16<=0,\"Add a plan\",IF('Home Goal'!$R$15=0,ROUNDUP((C10-'Home Goal'!$R$20)/'Home Goal'!$R$16,0),ROUNDUP(NPER('Home Goal'!$R$15,-'Home Goal'!$R$16,-MAX(0,'Home Goal'!$R$20),C10),0)))))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D18",
+     "formula": "=IF(D10<=0,\"-\",IF('Home Goal'!$R$20>=D10,\"Ready\",IF('Home Goal'!$R$16<=0,\"Add a plan\",IF('Home Goal'!$R$15=0,ROUNDUP((D10-'Home Goal'!$R$20)/'Home Goal'!$R$16,0),ROUNDUP(NPER('Home Goal'!$R$15,-'Home Goal'!$R$16,-MAX(0,'Home Goal'!$R$20),D10),0)))))",
+     "number_format": "0"
+    },
+    {
+     "cell": "E18",
+     "formula": "=IF(E10<=0,\"-\",IF('Home Goal'!$R$20>=E10,\"Ready\",IF('Home Goal'!$R$16<=0,\"Add a plan\",IF('Home Goal'!$R$15=0,ROUNDUP((E10-'Home Goal'!$R$20)/'Home Goal'!$R$16,0),ROUNDUP(NPER('Home Goal'!$R$15,-'Home Goal'!$R$16,-MAX(0,'Home Goal'!$R$20),E10),0)))))",
+     "number_format": "0"
+    },
+    {
+     "cell": "F18",
+     "formula": "=IF(F10<=0,\"-\",IF('Home Goal'!$R$20>=F10,\"Ready\",IF('Home Goal'!$R$16<=0,\"Add a plan\",IF('Home Goal'!$R$15=0,ROUNDUP((F10-'Home Goal'!$R$20)/'Home Goal'!$R$16,0),ROUNDUP(NPER('Home Goal'!$R$15,-'Home Goal'!$R$16,-MAX(0,'Home Goal'!$R$20),F10),0)))))",
+     "number_format": "0"
+    },
+    {
+     "cell": "B19",
+     "formula": "=B11",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "C19",
+     "formula": "=IF(C11<=0,\"-\",IF('Home Goal'!$R$20>=C11,\"Ready\",IF('Home Goal'!$R$16<=0,\"Add a plan\",IF('Home Goal'!$R$15=0,ROUNDUP((C11-'Home Goal'!$R$20)/'Home Goal'!$R$16,0),ROUNDUP(NPER('Home Goal'!$R$15,-'Home Goal'!$R$16,-MAX(0,'Home Goal'!$R$20),C11),0)))))",
+     "number_format": "0"
+    },
+    {
+     "cell": "D19",
+     "formula": "=IF(D11<=0,\"-\",IF('Home Goal'!$R$20>=D11,\"Ready\",IF('Home Goal'!$R$16<=0,\"Add a plan\",IF('Home Goal'!$R$15=0,ROUNDUP((D11-'Home Goal'!$R$20)/'Home Goal'!$R$16,0),ROUNDUP(NPER('Home Goal'!$R$15,-'Home Goal'!$R$16,-MAX(0,'Home Goal'!$R$20),D11),0)))))",
+     "number_format": "0"
+    },
+    {
+     "cell": "E19",
+     "formula": "=IF(E11<=0,\"-\",IF('Home Goal'!$R$20>=E11,\"Ready\",IF('Home Goal'!$R$16<=0,\"Add a plan\",IF('Home Goal'!$R$15=0,ROUNDUP((E11-'Home Goal'!$R$20)/'Home Goal'!$R$16,0),ROUNDUP(NPER('Home Goal'!$R$15,-'Home Goal'!$R$16,-MAX(0,'Home Goal'!$R$20),E11),0)))))",
+     "number_format": "0"
+    },
+    {
+     "cell": "F19",
+     "formula": "=IF(F11<=0,\"-\",IF('Home Goal'!$R$20>=F11,\"Ready\",IF('Home Goal'!$R$16<=0,\"Add a plan\",IF('Home Goal'!$R$15=0,ROUNDUP((F11-'Home Goal'!$R$20)/'Home Goal'!$R$16,0),ROUNDUP(NPER('Home Goal'!$R$15,-'Home Goal'!$R$16,-MAX(0,'Home Goal'!$R$20),F11),0)))))",
+     "number_format": "0"
+    },
+    {
+     "cell": "R4",
+     "formula": "='Home Goal'!$R$20",
+     "number_format": "$#,##0.00"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "C7:F11",
+     "type": "formula",
+     "formula": [
+      "AND(C7>0,$R$4>=C7)"
+     ],
+     "fill": "D7EFDD"
+    },
+    {
+     "range": "C15:F19",
+     "type": "formula",
+     "formula": [
+      "$C15=\"Ready\""
+     ],
+     "fill": "D7EFDD"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B6:F6",
+     "color": "2F3E46"
+    },
+    {
+     "range": "B14:F14",
+     "color": "2F3E46"
+    },
+    {
+     "range": "C7:F11",
+     "color": "FAF7F2"
+    },
+    {
+     "range": "C15:F19",
+     "color": "FAF7F2"
+    },
+    {
+     "range": "B9",
+     "color": "F9E3DC"
+    },
+    {
+     "range": "B17",
+     "color": "F9E3DC"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B6:F11",
+     "color": "E0D4C3"
+    },
+    {
+     "range": "B14:F19",
+     "color": "E0D4C3"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "2F3E46"
+    },
+    {
+     "range": "B6:F6",
+     "bold": true,
+     "size": 10,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "B14:F14",
+     "bold": true,
+     "size": 10,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "B13",
+     "bold": true,
+     "size": 11,
+     "color": "2F3E46"
+    },
+    {
+     "range": "B7:B11",
+     "bold": true,
+     "size": 10,
+     "color": "2F3E46",
+     "align": "center"
+    },
+    {
+     "range": "B15:B19",
+     "bold": true,
+     "size": 10,
+     "color": "2F3E46",
+     "align": "center"
+    },
+    {
+     "range": "C7:F11",
+     "align": "center"
+    },
+    {
+     "range": "C15:F19",
+     "align": "center"
+    }
+   ]
+  },
+  {
+   "name": "Affordability",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "588157",
+   "grid_rows": 28,
+   "grid_cols": 19,
+   "column_widths": {
+    "A": 2.5,
+    "B": 36,
+    "C": 16,
+    "D": 32,
+    "E": 2.5,
+    "R": 10
+   },
+   "hidden_columns": [
+    "R"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:D2",
+     "label": "AFFORDABILITY",
+     "size": 16,
+     "color": "2F3E46",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B4",
+     "formula": "Your numbers"
+    },
+    {
+     "cell": "C4",
+     "formula": "Amount"
+    },
+    {
+     "cell": "D4",
+     "formula": "Note"
+    },
+    {
+     "cell": "B5",
+     "formula": "Gross monthly income"
+    },
+    {
+     "cell": "D5",
+     "formula": "Before taxes, everyone on the loan."
+    },
+    {
+     "cell": "C5",
+     "formula": 9500
+    },
+    {
+     "cell": "B6",
+     "formula": "Monthly debt payments"
+    },
+    {
+     "cell": "D6",
+     "formula": "Car, student loans, cards."
+    },
+    {
+     "cell": "C6",
+     "formula": 650
+    },
+    {
+     "cell": "B7",
+     "formula": "Mortgage rate %"
+    },
+    {
+     "cell": "D7",
+     "formula": "Today's rate for you."
+    },
+    {
+     "cell": "C7",
+     "formula": 6.5
+    },
+    {
+     "cell": "B8",
+     "formula": "Taxes + insurance a month"
+    },
+    {
+     "cell": "D8",
+     "formula": "Estimate for the area."
+    },
+    {
+     "cell": "C8",
+     "formula": 550
+    },
+    {
+     "cell": "R4",
+     "formula": "=MAX(0,IF(N(C7)>=1,N(C7)/100,N(C7)))/12",
+     "number_format": "0.0000%"
+    },
+    {
+     "cell": "B10",
+     "formula": "What fits (28/36 rule)"
+    },
+    {
+     "cell": "C10",
+     "formula": "Amount"
+    },
+    {
+     "cell": "B11",
+     "formula": "Max housing payment (28%)"
+    },
+    {
+     "cell": "C11",
+     "formula": "=ROUND(IF(ISNUMBER(C5),MAX(0,C5),0)*0.28,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B12",
+     "formula": "Max with debts (36%)"
+    },
+    {
+     "cell": "C12",
+     "formula": "=ROUND(MAX(0,IF(ISNUMBER(C5),MAX(0,C5),0)*0.36-IF(ISNUMBER(C6),MAX(0,C6),0)),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B13",
+     "formula": "Max total payment"
+    },
+    {
+     "cell": "C13",
+     "formula": "=MIN(C11,C12)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B14",
+     "formula": "Max principal & interest"
+    },
+    {
+     "cell": "C14",
+     "formula": "=MAX(0,ROUND(C13-IF(ISNUMBER(C8),MAX(0,C8),0),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B15",
+     "formula": "Max loan (30 years)"
+    },
+    {
+     "cell": "C15",
+     "formula": "=IF(C14<=0,0,ROUND(IF(R4=0,C14*360,PV(R4,360,-C14)),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B16",
+     "formula": "Max home price at your down %"
+    },
+    {
+     "cell": "C16",
+     "formula": "=IF('Home Goal'!$R$9>=1,0,ROUND(C15/(1-'Home Goal'!$R$9),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B18",
+     "formula": "Your target home"
+    },
+    {
+     "cell": "C18",
+     "formula": "Amount"
+    },
+    {
+     "cell": "B19",
+     "formula": "Loan amount"
+    },
+    {
+     "cell": "C19",
+     "formula": "=ROUND(MAX(0,'Home Goal'!$R$8-'Home Goal'!$R$17),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B20",
+     "formula": "Principal & interest"
+    },
+    {
+     "cell": "C20",
+     "formula": "=IF(C19<=0,0,IF(R4=0,ROUND(C19/360,2),ROUND(PMT(R4,360,-C19),2)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B21",
+     "formula": "Taxes + insurance"
+    },
+    {
+     "cell": "C21",
+     "formula": "=ROUND(IF(ISNUMBER(C8),MAX(0,C8),0),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B22",
+     "formula": "PMI (about 0.5% a year if under 20% down)"
+    },
+    {
+     "cell": "C22",
+     "formula": "=IF('Home Goal'!$R$9>=0.2,0,ROUND(C19*0.005/12,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B23",
+     "formula": "Estimated monthly payment"
+    },
+    {
+     "cell": "C23",
+     "formula": "=ROUND(SUM(C20:C22),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B24",
+     "formula": "Share of income"
+    },
+    {
+     "cell": "C24",
+     "formula": "=IF(IF(ISNUMBER(C5),MAX(0,C5),0)>0,C23/IF(ISNUMBER(C5),MAX(0,C5),0),\"-\")",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B26",
+     "formula": "=IF(IF(ISNUMBER(C5),MAX(0,C5),0)<=0,\"Add your income to check affordability.\",IF('Home Goal'!$R$8<=C16,\"Your target price fits the 28/36 rule.\",\"Your target is above the 28/36 guide. Consider a lower price or more down.\"))"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "C5:C8",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C5<>\"\",NOT(ISNUMBER(C5))),N(C5)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C24",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER(C24),C24>0.28)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "B26:D26",
+     "type": "formula",
+     "formula": [
+      "LEFT($B$26,4)=\"Your\""
+     ],
+     "fill": "E3EEDB"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B4:D4",
+     "color": "F6EEE3"
+    },
+    {
+     "range": "C5:C8",
+     "color": "FFFFFF"
+    },
+    {
+     "range": "B10:C10",
+     "color": "F6EEE3"
+    },
+    {
+     "range": "C11:C16",
+     "color": "FAF7F2"
+    },
+    {
+     "range": "B18:C18",
+     "color": "F6EEE3"
+    },
+    {
+     "range": "C19:C24",
+     "color": "FAF7F2"
+    },
+    {
+     "range": "B16:C16",
+     "color": "E3EEDB"
+    },
+    {
+     "range": "B23:C23",
+     "color": "F9E3DC"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B4:D8",
+     "color": "E0D4C3"
+    },
+    {
+     "range": "B10:C16",
+     "color": "E0D4C3"
+    },
+    {
+     "range": "B18:C24",
+     "color": "E0D4C3"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B4:D4",
+     "bold": true,
+     "size": 10,
+     "color": "2F3E46",
+     "align": "center"
+    },
+    {
+     "range": "B5:B8",
+     "bold": true,
+     "size": 10,
+     "color": "2F3E46"
+    },
+    {
+     "range": "D5:D8",
+     "italic": true,
+     "size": 9,
+     "color": "2F3E46"
+    },
+    {
+     "range": "C5:C8",
+     "bold": true,
+     "size": 11,
+     "color": "2F3E46",
+     "align": "center"
+    },
+    {
+     "range": "B10:C10",
+     "bold": true,
+     "size": 10,
+     "color": "2F3E46",
+     "align": "center"
+    },
+    {
+     "range": "B18:C18",
+     "bold": true,
+     "size": 10,
+     "color": "2F3E46",
+     "align": "center"
+    },
+    {
+     "range": "B11:B16",
+     "bold": true,
+     "size": 10,
+     "color": "2F3E46"
+    },
+    {
+     "range": "B19:B24",
+     "bold": true,
+     "size": 10,
+     "color": "2F3E46"
+    },
+    {
+     "range": "C11:C24",
+     "bold": true,
+     "size": 11,
+     "color": "588157",
+     "align": "center"
+    },
+    {
+     "range": "B16:C16",
+     "bold": true,
+     "size": 11,
+     "color": "588157"
+    },
+    {
+     "range": "B23:C23",
+     "bold": true,
+     "size": 11,
+     "color": "C8553D"
+    },
+    {
+     "range": "B26",
+     "bold": true,
+     "size": 11,
+     "color": "2F3E46"
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "C5",
+     "format": "$#,##0.00"
+    },
+    {
+     "range": "C6",
+     "format": "$#,##0.00"
+    },
+    {
+     "range": "C7",
+     "format": "0.000"
+    },
+    {
+     "range": "C8",
+     "format": "$#,##0.00"
+    }
+   ]
+  },
+  {
+   "name": "Milestones",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "C8553D",
+   "grid_rows": 16,
+   "grid_cols": 6,
+   "column_widths": {
+    "A": 2.5,
+    "B": 30,
+    "C": 14,
+    "D": 22,
+    "E": 16,
+    "F": 2.5
+   },
+   "section_bars": [
+    {
+     "range": "B2:E2",
+     "label": "MILESTONES",
+     "size": 16,
+     "color": "2F3E46",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Each step gets you closer to the keys. Green = reached."
+    },
+    {
+     "cell": "B5",
+     "formula": "Milestone"
+    },
+    {
+     "cell": "C5",
+     "formula": "Amount"
+    },
+    {
+     "cell": "D5",
+     "formula": "Progress"
+    },
+    {
+     "cell": "E5",
+     "formula": "First reached"
+    },
+    {
+     "cell": "B6",
+     "formula": "3.5% down + closing costs"
+    },
+    {
+     "cell": "C6",
+     "formula": "=ROUND('Home Goal'!$R$8*0.035,2)+'Home Goal'!$R$18",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D6",
+     "formula": "=IF(C6<=0,\"\",IF('Home Goal'!$R$20>=C6,\"Reached\",REPT(\"█\",ROUND(MIN(1,MAX(0,'Home Goal'!$R$20/C6))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,'Home Goal'!$R$20/C6))*10,0))&\" \"&TEXT(MAX(0,'Home Goal'!$R$20/C6),\"0%\")))"
+    },
+    {
+     "cell": "E6",
+     "formula": "=IF(C6<=0,\"\",IF('Home Goal'!$R$13>=C6,\"From the start\",IF(SUMPRODUCT(MIN('Log'!$M$6:$M$405+('Log'!$K$6:$K$405<C6)*99999))>=99999,\"Not yet\",SUMPRODUCT(MIN('Log'!$M$6:$M$405+('Log'!$K$6:$K$405<C6)*99999)))))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "B7",
+     "formula": "5% down + closing costs"
+    },
+    {
+     "cell": "C7",
+     "formula": "=ROUND('Home Goal'!$R$8*0.05,2)+'Home Goal'!$R$18",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D7",
+     "formula": "=IF(C7<=0,\"\",IF('Home Goal'!$R$20>=C7,\"Reached\",REPT(\"█\",ROUND(MIN(1,MAX(0,'Home Goal'!$R$20/C7))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,'Home Goal'!$R$20/C7))*10,0))&\" \"&TEXT(MAX(0,'Home Goal'!$R$20/C7),\"0%\")))"
+    },
+    {
+     "cell": "E7",
+     "formula": "=IF(C7<=0,\"\",IF('Home Goal'!$R$13>=C7,\"From the start\",IF(SUMPRODUCT(MIN('Log'!$M$6:$M$405+('Log'!$K$6:$K$405<C7)*99999))>=99999,\"Not yet\",SUMPRODUCT(MIN('Log'!$M$6:$M$405+('Log'!$K$6:$K$405<C7)*99999)))))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "B8",
+     "formula": "10% down + closing costs"
+    },
+    {
+     "cell": "C8",
+     "formula": "=ROUND('Home Goal'!$R$8*0.1,2)+'Home Goal'!$R$18",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D8",
+     "formula": "=IF(C8<=0,\"\",IF('Home Goal'!$R$20>=C8,\"Reached\",REPT(\"█\",ROUND(MIN(1,MAX(0,'Home Goal'!$R$20/C8))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,'Home Goal'!$R$20/C8))*10,0))&\" \"&TEXT(MAX(0,'Home Goal'!$R$20/C8),\"0%\")))"
+    },
+    {
+     "cell": "E8",
+     "formula": "=IF(C8<=0,\"\",IF('Home Goal'!$R$13>=C8,\"From the start\",IF(SUMPRODUCT(MIN('Log'!$M$6:$M$405+('Log'!$K$6:$K$405<C8)*99999))>=99999,\"Not yet\",SUMPRODUCT(MIN('Log'!$M$6:$M$405+('Log'!$K$6:$K$405<C8)*99999)))))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "B9",
+     "formula": "20% down + closing costs"
+    },
+    {
+     "cell": "C9",
+     "formula": "=ROUND('Home Goal'!$R$8*0.2,2)+'Home Goal'!$R$18",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D9",
+     "formula": "=IF(C9<=0,\"\",IF('Home Goal'!$R$20>=C9,\"Reached\",REPT(\"█\",ROUND(MIN(1,MAX(0,'Home Goal'!$R$20/C9))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,'Home Goal'!$R$20/C9))*10,0))&\" \"&TEXT(MAX(0,'Home Goal'!$R$20/C9),\"0%\")))"
+    },
+    {
+     "cell": "E9",
+     "formula": "=IF(C9<=0,\"\",IF('Home Goal'!$R$13>=C9,\"From the start\",IF(SUMPRODUCT(MIN('Log'!$M$6:$M$405+('Log'!$K$6:$K$405<C9)*99999))>=99999,\"Not yet\",SUMPRODUCT(MIN('Log'!$M$6:$M$405+('Log'!$K$6:$K$405<C9)*99999)))))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "B10",
+     "formula": "25% of your total goal"
+    },
+    {
+     "cell": "C10",
+     "formula": "=ROUND('Home Goal'!$R$19*0.25,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D10",
+     "formula": "=IF(C10<=0,\"\",IF('Home Goal'!$R$20>=C10,\"Reached\",REPT(\"█\",ROUND(MIN(1,MAX(0,'Home Goal'!$R$20/C10))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,'Home Goal'!$R$20/C10))*10,0))&\" \"&TEXT(MAX(0,'Home Goal'!$R$20/C10),\"0%\")))"
+    },
+    {
+     "cell": "E10",
+     "formula": "=IF(C10<=0,\"\",IF('Home Goal'!$R$13>=C10,\"From the start\",IF(SUMPRODUCT(MIN('Log'!$M$6:$M$405+('Log'!$K$6:$K$405<C10)*99999))>=99999,\"Not yet\",SUMPRODUCT(MIN('Log'!$M$6:$M$405+('Log'!$K$6:$K$405<C10)*99999)))))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "B11",
+     "formula": "50% of your total goal"
+    },
+    {
+     "cell": "C11",
+     "formula": "=ROUND('Home Goal'!$R$19*0.5,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D11",
+     "formula": "=IF(C11<=0,\"\",IF('Home Goal'!$R$20>=C11,\"Reached\",REPT(\"█\",ROUND(MIN(1,MAX(0,'Home Goal'!$R$20/C11))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,'Home Goal'!$R$20/C11))*10,0))&\" \"&TEXT(MAX(0,'Home Goal'!$R$20/C11),\"0%\")))"
+    },
+    {
+     "cell": "E11",
+     "formula": "=IF(C11<=0,\"\",IF('Home Goal'!$R$13>=C11,\"From the start\",IF(SUMPRODUCT(MIN('Log'!$M$6:$M$405+('Log'!$K$6:$K$405<C11)*99999))>=99999,\"Not yet\",SUMPRODUCT(MIN('Log'!$M$6:$M$405+('Log'!$K$6:$K$405<C11)*99999)))))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "B12",
+     "formula": "75% of your total goal"
+    },
+    {
+     "cell": "C12",
+     "formula": "=ROUND('Home Goal'!$R$19*0.75,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D12",
+     "formula": "=IF(C12<=0,\"\",IF('Home Goal'!$R$20>=C12,\"Reached\",REPT(\"█\",ROUND(MIN(1,MAX(0,'Home Goal'!$R$20/C12))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,'Home Goal'!$R$20/C12))*10,0))&\" \"&TEXT(MAX(0,'Home Goal'!$R$20/C12),\"0%\")))"
+    },
+    {
+     "cell": "E12",
+     "formula": "=IF(C12<=0,\"\",IF('Home Goal'!$R$13>=C12,\"From the start\",IF(SUMPRODUCT(MIN('Log'!$M$6:$M$405+('Log'!$K$6:$K$405<C12)*99999))>=99999,\"Not yet\",SUMPRODUCT(MIN('Log'!$M$6:$M$405+('Log'!$K$6:$K$405<C12)*99999)))))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "B13",
+     "formula": "100% of your total goal"
+    },
+    {
+     "cell": "C13",
+     "formula": "=ROUND('Home Goal'!$R$19*1.0,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D13",
+     "formula": "=IF(C13<=0,\"\",IF('Home Goal'!$R$20>=C13,\"Reached\",REPT(\"█\",ROUND(MIN(1,MAX(0,'Home Goal'!$R$20/C13))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,'Home Goal'!$R$20/C13))*10,0))&\" \"&TEXT(MAX(0,'Home Goal'!$R$20/C13),\"0%\")))"
+    },
+    {
+     "cell": "E13",
+     "formula": "=IF(C13<=0,\"\",IF('Home Goal'!$R$13>=C13,\"From the start\",IF(SUMPRODUCT(MIN('Log'!$M$6:$M$405+('Log'!$K$6:$K$405<C13)*99999))>=99999,\"Not yet\",SUMPRODUCT(MIN('Log'!$M$6:$M$405+('Log'!$K$6:$K$405<C13)*99999)))))",
+     "number_format": "mmm d, yyyy"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "D6:D13",
+     "type": "formula",
+     "formula": [
+      "$D6=\"Reached\""
+     ],
+     "fill": "D7EFDD"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B5:E5",
+     "color": "2F3E46"
+    },
+    {
+     "range": "C6:E13",
+     "color": "FAF7F2"
+    },
+    {
+     "range": "B10:E10",
+     "color": "F6EEE3"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:E13",
+     "color": "E0D4C3"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "2F3E46"
+    },
+    {
+     "range": "B5:E5",
+     "bold": true,
+     "size": 10,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "B6:B13",
+     "bold": true,
+     "size": 10,
+     "color": "2F3E46"
+    },
+    {
+     "range": "C6:E13",
+     "align": "center"
+    },
+    {
+     "range": "D6:D13",
+     "bold": true,
+     "size": 10,
+     "color": "588157",
+     "align": "center"
+    }
+   ]
+  }
+ ]
+}
