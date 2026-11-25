@@ -1,0 +1,3583 @@
+{
+ "filename": "Destination Wedding Planner",
+ "locale": "en_US",
+ "theme": {
+  "header_font": "FFFFFF",
+  "border": "CFE2E2",
+  "accent": "1C7C7D",
+  "section_colors": [
+   "22304A",
+   "DCEFEF",
+   "F8F1E4"
+  ],
+  "chart_palette": [
+   "1C7C7D",
+   "E07A5F",
+   "C9A227",
+   "22304A",
+   "7FC8C9",
+   "F2B4A3",
+   "E3CF85",
+   "6C7A96",
+   "A7D3C4",
+   "D98C7A",
+   "B8A15C",
+   "9AA5B8"
+  ]
+ },
+ "tabs": [
+  {
+   "name": "Start Here",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "1C7C7D",
+   "grid_rows": 28,
+   "column_widths": {
+    "A": 2.5,
+    "B": 22,
+    "C": 100,
+    "D": 2.5
+   },
+   "section_bars": [
+    {
+     "range": "B2:C2",
+     "label": "DESTINATION WEDDING PLANNER",
+     "size": 18,
+     "color": "22304A",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "B5:C5",
+     "label": "HOW TO USE IT",
+     "color": "DCEFEF",
+     "font_color": "22304A",
+     "align": "left"
+    },
+    {
+     "range": "B12:C12",
+     "label": "GOOD TO KNOW",
+     "color": "E07A5F",
+     "font_color": "FFFFFF",
+     "align": "left"
+    },
+    {
+     "range": "B18:C18",
+     "label": "COLOR GUIDE",
+     "color": "DCEFEF",
+     "font_color": "22304A",
+     "align": "left"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Say I do somewhere beautiful, with every peso and dollar in view."
+    },
+    {
+     "cell": "B6",
+     "formula": "Setup: names, destination, wedding date, the local currency and today's exchange rate."
+    },
+    {
+     "cell": "B7",
+     "formula": "Budget: every vendor. Pick USD or Local for each line; everything is converted to dollars for the totals."
+    },
+    {
+     "cell": "B8",
+     "formula": "Guests: party size, RSVP, rooms needed, whether they booked in your block and when they arrive."
+    },
+    {
+     "cell": "B9",
+     "formula": "Room Block: your hotel contract. See if you'll hit the minimum before the cut-off."
+    },
+    {
+     "cell": "B10",
+     "formula": "Timeline: tasks dated back from the wedding. Payments: what's due next."
+    },
+    {
+     "cell": "B13",
+     "formula": "Exchange rate"
+    },
+    {
+     "cell": "C13",
+     "formula": "Type how many local units equal 1 USD (for example 17.5 pesos). Update it now and then."
+    },
+    {
+     "cell": "B14",
+     "formula": "Room block minimums"
+    },
+    {
+     "cell": "C14",
+     "formula": "Many resorts charge for unbooked rooms. Watch the shortfall number."
+    },
+    {
+     "cell": "B15",
+     "formula": "Legal rules"
+    },
+    {
+     "cell": "C15",
+     "formula": "Some couples do the legal part at home and the ceremony abroad."
+    },
+    {
+     "cell": "B16",
+     "formula": "Guests pay their own way"
+    },
+    {
+     "cell": "C16",
+     "formula": "Most destination guests cover travel. Thank them with a welcome bag."
+    },
+    {
+     "cell": "C19",
+     "formula": "White cells are for typing."
+    },
+    {
+     "cell": "C20",
+     "formula": "Grey cells calculate."
+    },
+    {
+     "cell": "C21",
+     "formula": "Green = paid / done / booked."
+    },
+    {
+     "cell": "C22",
+     "formula": "Red = due soon or overdue."
+    },
+    {
+     "cell": "B24",
+     "formula": "Cheers to forever, wherever you are."
+    }
+   ],
+   "fills": [
+    {
+     "range": "B13:C16",
+     "color": "FBE5DF"
+    },
+    {
+     "range": "B19",
+     "color": "FFFFFF"
+    },
+    {
+     "range": "B20",
+     "color": "F6FAFA"
+    },
+    {
+     "range": "B21",
+     "color": "D7EFDD"
+    },
+    {
+     "range": "B22",
+     "color": "F6CACA"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B19",
+     "color": "CFE2E2"
+    },
+    {
+     "range": "B20",
+     "color": "CFE2E2"
+    },
+    {
+     "range": "B21",
+     "color": "CFE2E2"
+    },
+    {
+     "range": "B22",
+     "color": "CFE2E2"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 11,
+     "color": "22304A"
+    },
+    {
+     "range": "B13:B16",
+     "bold": true,
+     "size": 11,
+     "color": "22304A"
+    },
+    {
+     "range": "B24",
+     "italic": true,
+     "bold": true,
+     "size": 11,
+     "color": "22304A"
+    }
+   ]
+  },
+  {
+   "name": "Dashboard",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "1C7C7D",
+   "grid_rows": 31,
+   "grid_cols": 19,
+   "column_widths": {
+    "A": 2.5,
+    "B": 18,
+    "C": 14,
+    "D": 16,
+    "E": 16,
+    "F": 16,
+    "G": 16,
+    "H": 16,
+    "I": 16,
+    "J": 2.5,
+    "R": 10
+   },
+   "hidden_columns": [
+    "R"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:I2",
+     "label": "WEDDING DASHBOARD",
+     "size": 16,
+     "color": "22304A",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "B15:C15",
+     "label": "BY CATEGORY",
+     "color": "DCEFEF",
+     "font_color": "22304A",
+     "align": "left"
+    },
+    {
+     "range": "D15:I15",
+     "label": "WHERE THE MONEY GOES",
+     "color": "DCEFEF",
+     "font_color": "22304A",
+     "align": "left"
+    }
+   ],
+   "kpi_cards": [
+    {
+     "anchor": "B5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "DAYS TO GO",
+     "value": "=IF('Setup'!$R$11=\"\",\"Add date\",IF('Setup'!$R$11<0,\"Married!\",'Setup'!$R$11))",
+     "fill": "E07A5F",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "0"
+    },
+    {
+     "anchor": "D5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "BUDGET",
+     "value": "='Setup'!$R$10",
+     "fill": "22304A",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "F5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "COST SO FAR (USD)",
+     "value": "='Budget'!$I$36",
+     "fill": "1C7C7D",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "H5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "OVER / UNDER",
+     "value": "=IF('Setup'!$R$10=0,\"-\",IF('Budget'!$I$36>'Setup'!$R$10,\"Over \"&TEXT('Budget'!$I$36-'Setup'!$R$10,\"$#,##0\"),\"Under \"&TEXT('Setup'!$R$10-'Budget'!$I$36,\"$#,##0\")))",
+     "fill": "C9A227",
+     "font_color": "FFFFFF",
+     "value_size": 16
+    },
+    {
+     "anchor": "B9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "PAID",
+     "value": "='Budget'!$J$36",
+     "fill": "1C7C7D",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "D9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "STILL OWED",
+     "value": "='Budget'!$K$36",
+     "fill": "E07A5F",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "F9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "GUESTS COMING",
+     "value": "=R4&\" of \"&R5",
+     "fill": "22304A",
+     "font_color": "FFFFFF",
+     "value_size": 16
+    },
+    {
+     "anchor": "H9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "ROOMS BOOKED",
+     "value": "=R6&\" of \"&R7",
+     "fill": "C9A227",
+     "font_color": "FFFFFF",
+     "value_size": 16
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "=IF('Setup'!$R$4=\"\",\"Our wedding\",'Setup'!$R$4)&IF('Setup'!$R$5=\"\",\"\",\" in \"&'Setup'!$R$5)&IF('Setup'!$R$6=\"\",\"\",\"  |  \"&TEXT('Setup'!$R$6,\"mmmm d, yyyy\"))"
+    },
+    {
+     "cell": "R4",
+     "formula": "=SUMIFS('Guests'!$C$6:$C$125,'Guests'!$L$6:$L$125,1)"
+    },
+    {
+     "cell": "R5",
+     "formula": "=SUMIFS('Guests'!$C$6:$C$125,'Guests'!$L$6:$L$125,\">0\")"
+    },
+    {
+     "cell": "R6",
+     "formula": "='Room Block'!C11"
+    },
+    {
+     "cell": "R7",
+     "formula": "=IF(ISNUMBER('Room Block'!C5),'Room Block'!C5,0)"
+    },
+    {
+     "cell": "R8",
+     "formula": "='Payments'!S6",
+     "number_format": "0"
+    },
+    {
+     "cell": "R9",
+     "formula": "=IF('Budget'!$I$36>0,MIN(1,'Budget'!$J$36/'Budget'!$I$36),0)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "R10",
+     "formula": "=COUNTIF('Budget'!$L$6:$L$35,\"Overdue\")+COUNTIF('Budget'!$L$6:$L$35,\"Due soon\")"
+    },
+    {
+     "cell": "B13",
+     "formula": "=REPT(\"█\",ROUND(MIN(1,MAX(0,R9))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,R9))*10,0))&\"  \"&TEXT(R9,\"0%\")&\" of vendor costs paid\""
+    },
+    {
+     "cell": "B14",
+     "formula": "=IF('Budget'!$I$36<=0,\"Add vendors on the Budget tab.\",IF(R10>0,R10&IF(R10=1,\" payment is\",\" payments are\")&\" due within 30 days (or late).\",IF(R8=\"\",\"Every vendor balance is paid. Enjoy!\",\"Next payment: \"&INDEX('Budget'!$B$6:$B$35,MOD(R8,1000))&\" on \"&TEXT(INT(R8/1000),\"mmm d\")&\" (\"&TEXT(INDEX('Budget'!$K$6:$K$35,MOD(R8,1000)),\"$#,##0\")&\")\")))"
+    },
+    {
+     "cell": "B16",
+     "formula": "Category"
+    },
+    {
+     "cell": "C16",
+     "formula": "Cost (USD)"
+    },
+    {
+     "cell": "B17",
+     "formula": "Venue"
+    },
+    {
+     "cell": "C17",
+     "formula": "=ROUND(SUMIFS('Budget'!$I$6:$I$35,'Budget'!$C$6:$C$35,B17),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B18",
+     "formula": "Catering"
+    },
+    {
+     "cell": "C18",
+     "formula": "=ROUND(SUMIFS('Budget'!$I$6:$I$35,'Budget'!$C$6:$C$35,B18),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B19",
+     "formula": "Photo & video"
+    },
+    {
+     "cell": "C19",
+     "formula": "=ROUND(SUMIFS('Budget'!$I$6:$I$35,'Budget'!$C$6:$C$35,B19),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B20",
+     "formula": "Flowers & decor"
+    },
+    {
+     "cell": "C20",
+     "formula": "=ROUND(SUMIFS('Budget'!$I$6:$I$35,'Budget'!$C$6:$C$35,B20),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B21",
+     "formula": "Music"
+    },
+    {
+     "cell": "C21",
+     "formula": "=ROUND(SUMIFS('Budget'!$I$6:$I$35,'Budget'!$C$6:$C$35,B21),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B22",
+     "formula": "Officiant & legal"
+    },
+    {
+     "cell": "C22",
+     "formula": "=ROUND(SUMIFS('Budget'!$I$6:$I$35,'Budget'!$C$6:$C$35,B22),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B23",
+     "formula": "Attire & beauty"
+    },
+    {
+     "cell": "C23",
+     "formula": "=ROUND(SUMIFS('Budget'!$I$6:$I$35,'Budget'!$C$6:$C$35,B23),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B24",
+     "formula": "Couple travel"
+    },
+    {
+     "cell": "C24",
+     "formula": "=ROUND(SUMIFS('Budget'!$I$6:$I$35,'Budget'!$C$6:$C$35,B24),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B25",
+     "formula": "Welcome events"
+    },
+    {
+     "cell": "C25",
+     "formula": "=ROUND(SUMIFS('Budget'!$I$6:$I$35,'Budget'!$C$6:$C$35,B25),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B26",
+     "formula": "Guest gifts"
+    },
+    {
+     "cell": "C26",
+     "formula": "=ROUND(SUMIFS('Budget'!$I$6:$I$35,'Budget'!$C$6:$C$35,B26),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B27",
+     "formula": "Stationery"
+    },
+    {
+     "cell": "C27",
+     "formula": "=ROUND(SUMIFS('Budget'!$I$6:$I$35,'Budget'!$C$6:$C$35,B27),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B28",
+     "formula": "Other"
+    },
+    {
+     "cell": "C28",
+     "formula": "=ROUND(SUMIFS('Budget'!$I$6:$I$35,'Budget'!$C$6:$C$35,B28),2)",
+     "number_format": "$#,##0.00"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "B14:I14",
+     "type": "formula",
+     "formula": [
+      "$R$10>0"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "H6",
+     "type": "formula",
+     "formula": [
+      "LEFT($H$6,4)=\"Over\""
+     ],
+     "fill": "E07A5F"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B16:C16",
+     "color": "22304A"
+    },
+    {
+     "range": "C17:C28",
+     "color": "F6FAFA"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:C7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "D5:E7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "F5:G7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "H5:I7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "B9:C11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "D9:E11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "F9:G11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "H9:I11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "B16:C28",
+     "color": "CFE2E2"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 11,
+     "color": "22304A"
+    },
+    {
+     "range": "B13",
+     "bold": true,
+     "size": 12,
+     "color": "1C7C7D"
+    },
+    {
+     "range": "B14",
+     "bold": true,
+     "size": 11,
+     "color": "22304A"
+    },
+    {
+     "range": "B16:C16",
+     "bold": true,
+     "size": 10,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "B17:B28",
+     "bold": true,
+     "size": 10,
+     "color": "22304A"
+    },
+    {
+     "range": "C17:C28",
+     "align": "center"
+    }
+   ],
+   "charts": [
+    {
+     "type": "doughnut",
+     "anchor": "D16",
+     "data": "Dashboard!C17:C28",
+     "categories": "Dashboard!B17:B28",
+     "width": 16,
+     "height": 9,
+     "titles_from_data": false
+    }
+   ]
+  },
+  {
+   "name": "Setup",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "22304A",
+   "grid_rows": 16,
+   "grid_cols": 19,
+   "column_widths": {
+    "A": 2.5,
+    "B": 20,
+    "C": 22,
+    "D": 30,
+    "E": 2.5,
+    "R": 12
+   },
+   "hidden_columns": [
+    "R"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:D2",
+     "label": "SETUP",
+     "size": 16,
+     "color": "22304A",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B4",
+     "formula": "Setting"
+    },
+    {
+     "cell": "C4",
+     "formula": "Yours"
+    },
+    {
+     "cell": "D4",
+     "formula": "Note"
+    },
+    {
+     "cell": "B5",
+     "formula": "Couple"
+    },
+    {
+     "cell": "C5",
+     "formula": "Elena & Marcus"
+    },
+    {
+     "cell": "B6",
+     "formula": "Destination"
+    },
+    {
+     "cell": "C6",
+     "formula": "Tulum, Mexico"
+    },
+    {
+     "cell": "B7",
+     "formula": "Wedding date"
+    },
+    {
+     "cell": "C7",
+     "formula": "=DATE(2027,11,13)"
+    },
+    {
+     "cell": "B8",
+     "formula": "Today"
+    },
+    {
+     "cell": "D8",
+     "formula": "Blank = today."
+    },
+    {
+     "cell": "C8",
+     "formula": "=DATE(2027,6,20)"
+    },
+    {
+     "cell": "B9",
+     "formula": "Local currency"
+    },
+    {
+     "cell": "D9",
+     "formula": "For example MXN, EUR, THB."
+    },
+    {
+     "cell": "C9",
+     "formula": "MXN"
+    },
+    {
+     "cell": "B10",
+     "formula": "1 USD ="
+    },
+    {
+     "cell": "D10",
+     "formula": "Local units for one dollar."
+    },
+    {
+     "cell": "C10",
+     "formula": 17.5
+    },
+    {
+     "cell": "B11",
+     "formula": "Total budget (USD)"
+    },
+    {
+     "cell": "D11",
+     "formula": "What you plan to spend."
+    },
+    {
+     "cell": "C11",
+     "formula": 30000
+    },
+    {
+     "cell": "R4",
+     "formula": "=TRIM(C5&\"\")"
+    },
+    {
+     "cell": "R5",
+     "formula": "=TRIM(C6&\"\")"
+    },
+    {
+     "cell": "R6",
+     "formula": "=IF(AND(ISNUMBER(C7),N(C7)>=1),INT(C7),\"\")",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "R7",
+     "formula": "=IF(AND(ISNUMBER(C8),N(C8)>=1),INT(C8),TODAY())",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "R8",
+     "formula": "=IF(TRIM(C9&\"\")=\"\",\"Local\",UPPER(TRIM(C9&\"\")))"
+    },
+    {
+     "cell": "R9",
+     "formula": "=IF(AND(ISNUMBER(C10),N(C10)>0),C10,1)"
+    },
+    {
+     "cell": "R10",
+     "formula": "=IF(ISNUMBER(C11),MAX(0,C11),0)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R11",
+     "formula": "=IF(R6=\"\",\"\",R6-R7)"
+    },
+    {
+     "cell": "B13",
+     "formula": "Countdown"
+    },
+    {
+     "cell": "C13",
+     "formula": "=IF(R11=\"\",\"Add your date\",IF(R11<0,\"Married!\",R11&\" days\"))"
+    },
+    {
+     "cell": "B14",
+     "formula": "Quick convert"
+    },
+    {
+     "cell": "C14",
+     "formula": "=\"1,000 \"&R8&\" = \"&TEXT(1000/R9,\"$#,##0.00\")"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "C7:C8",
+     "type": "formula",
+     "formula": [
+      "AND(C7<>\"\",OR(NOT(ISNUMBER(C7)),N(C7)<1))"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C10:C11",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C10<>\"\",NOT(ISNUMBER(C10))),N(C10)<0)"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B4:D4",
+     "color": "DCEFEF"
+    },
+    {
+     "range": "C5:C11",
+     "color": "FFFFFF"
+    },
+    {
+     "range": "C13:C14",
+     "color": "F6FAFA"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B4:D11",
+     "color": "CFE2E2"
+    },
+    {
+     "range": "B13:C14",
+     "color": "CFE2E2"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B4:D4",
+     "bold": true,
+     "size": 10,
+     "color": "22304A",
+     "align": "center"
+    },
+    {
+     "range": "B5:B11",
+     "bold": true,
+     "size": 10,
+     "color": "22304A"
+    },
+    {
+     "range": "D5:D11",
+     "italic": true,
+     "size": 9,
+     "color": "22304A"
+    },
+    {
+     "range": "C5:C11",
+     "bold": true,
+     "size": 11,
+     "color": "22304A",
+     "align": "center"
+    },
+    {
+     "range": "B13:B14",
+     "bold": true,
+     "size": 10,
+     "color": "22304A"
+    },
+    {
+     "range": "C13:C14",
+     "bold": true,
+     "size": 11,
+     "color": "1C7C7D",
+     "align": "center"
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "C7",
+     "format": "mmm d, yyyy"
+    },
+    {
+     "range": "C8",
+     "format": "mmm d, yyyy"
+    },
+    {
+     "range": "C10",
+     "format": "0.0000"
+    },
+    {
+     "range": "C11",
+     "format": "$#,##0.00"
+    }
+   ]
+  },
+  {
+   "name": "Budget",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "E07A5F",
+   "grid_rows": 38,
+   "grid_cols": 21,
+   "freeze": "C6",
+   "column_widths": {
+    "A": 2.5,
+    "B": 22,
+    "C": 15,
+    "D": 9,
+    "E": 11,
+    "F": 11,
+    "G": 11,
+    "H": 12,
+    "I": 11,
+    "J": 11,
+    "K": 11,
+    "L": 12,
+    "M": 2.5,
+    "R": 3,
+    "S": 3,
+    "T": 3
+   },
+   "hidden_columns": [
+    "R",
+    "S",
+    "T"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:L2",
+     "label": "WEDDING BUDGET",
+     "size": 16,
+     "color": "22304A",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "=\"Amounts in the currency you pick. Local = \"&'Setup'!$R$8&\" at \"&'Setup'!$R$9&\" to 1 USD.\""
+    },
+    {
+     "cell": "B5",
+     "formula": "Item"
+    },
+    {
+     "cell": "C5",
+     "formula": "Category"
+    },
+    {
+     "cell": "D5",
+     "formula": "Currency"
+    },
+    {
+     "cell": "E5",
+     "formula": "Estimate"
+    },
+    {
+     "cell": "F5",
+     "formula": "Booked price"
+    },
+    {
+     "cell": "G5",
+     "formula": "Paid so far"
+    },
+    {
+     "cell": "H5",
+     "formula": "Balance due"
+    },
+    {
+     "cell": "I5",
+     "formula": "Cost (USD)"
+    },
+    {
+     "cell": "J5",
+     "formula": "Paid (USD)"
+    },
+    {
+     "cell": "K5",
+     "formula": "Left (USD)"
+    },
+    {
+     "cell": "L5",
+     "formula": "Status"
+    },
+    {
+     "cell": "B6",
+     "formula": "Beach venue & chairs"
+    },
+    {
+     "cell": "C6",
+     "formula": "Venue"
+    },
+    {
+     "cell": "D6",
+     "formula": "Local"
+    },
+    {
+     "cell": "E6",
+     "formula": 85000
+    },
+    {
+     "cell": "F6",
+     "formula": 82000
+    },
+    {
+     "cell": "G6",
+     "formula": 40000
+    },
+    {
+     "cell": "H6",
+     "formula": "=DATE(2027,9,13)"
+    },
+    {
+     "cell": "B7",
+     "formula": "Dinner, 60 guests"
+    },
+    {
+     "cell": "C7",
+     "formula": "Catering"
+    },
+    {
+     "cell": "D7",
+     "formula": "Local"
+    },
+    {
+     "cell": "E7",
+     "formula": 140000
+    },
+    {
+     "cell": "F7",
+     "formula": 136500
+    },
+    {
+     "cell": "G7",
+     "formula": 50000
+    },
+    {
+     "cell": "H7",
+     "formula": "=DATE(2027,10,14)"
+    },
+    {
+     "cell": "B8",
+     "formula": "Photographer"
+    },
+    {
+     "cell": "C8",
+     "formula": "Photo & video"
+    },
+    {
+     "cell": "D8",
+     "formula": "USD"
+    },
+    {
+     "cell": "E8",
+     "formula": 3200
+    },
+    {
+     "cell": "F8",
+     "formula": 3000
+    },
+    {
+     "cell": "G8",
+     "formula": 1000
+    },
+    {
+     "cell": "H8",
+     "formula": "=DATE(2027,10,1)"
+    },
+    {
+     "cell": "B9",
+     "formula": "Florals & arch"
+    },
+    {
+     "cell": "C9",
+     "formula": "Flowers & decor"
+    },
+    {
+     "cell": "D9",
+     "formula": "Local"
+    },
+    {
+     "cell": "E9",
+     "formula": 30000
+    },
+    {
+     "cell": "G9",
+     "formula": 0
+    },
+    {
+     "cell": "B10",
+     "formula": "DJ & sound"
+    },
+    {
+     "cell": "C10",
+     "formula": "Music"
+    },
+    {
+     "cell": "D10",
+     "formula": "Local"
+    },
+    {
+     "cell": "E10",
+     "formula": 18000
+    },
+    {
+     "cell": "F10",
+     "formula": 17000
+    },
+    {
+     "cell": "G10",
+     "formula": 17000
+    },
+    {
+     "cell": "H10",
+     "formula": "=DATE(2027,4,1)"
+    },
+    {
+     "cell": "B11",
+     "formula": "Officiant"
+    },
+    {
+     "cell": "C11",
+     "formula": "Officiant & legal"
+    },
+    {
+     "cell": "D11",
+     "formula": "USD"
+    },
+    {
+     "cell": "E11",
+     "formula": 600
+    },
+    {
+     "cell": "F11",
+     "formula": 600
+    },
+    {
+     "cell": "G11",
+     "formula": 200
+    },
+    {
+     "cell": "H11",
+     "formula": "=DATE(2027,7,15)"
+    },
+    {
+     "cell": "B12",
+     "formula": "Dress & suit"
+    },
+    {
+     "cell": "C12",
+     "formula": "Attire & beauty"
+    },
+    {
+     "cell": "D12",
+     "formula": "USD"
+    },
+    {
+     "cell": "E12",
+     "formula": 2200
+    },
+    {
+     "cell": "F12",
+     "formula": 1950
+    },
+    {
+     "cell": "G12",
+     "formula": 1950
+    },
+    {
+     "cell": "B13",
+     "formula": "Hair & makeup"
+    },
+    {
+     "cell": "C13",
+     "formula": "Attire & beauty"
+    },
+    {
+     "cell": "D13",
+     "formula": "Local"
+    },
+    {
+     "cell": "E13",
+     "formula": 9000
+    },
+    {
+     "cell": "G13",
+     "formula": 0
+    },
+    {
+     "cell": "B14",
+     "formula": "Our flights"
+    },
+    {
+     "cell": "C14",
+     "formula": "Couple travel"
+    },
+    {
+     "cell": "D14",
+     "formula": "USD"
+    },
+    {
+     "cell": "E14",
+     "formula": 900
+    },
+    {
+     "cell": "F14",
+     "formula": 870
+    },
+    {
+     "cell": "G14",
+     "formula": 870
+    },
+    {
+     "cell": "B15",
+     "formula": "Welcome drinks"
+    },
+    {
+     "cell": "C15",
+     "formula": "Welcome events"
+    },
+    {
+     "cell": "D15",
+     "formula": "Local"
+    },
+    {
+     "cell": "E15",
+     "formula": 25000
+    },
+    {
+     "cell": "G15",
+     "formula": 0
+    },
+    {
+     "cell": "B16",
+     "formula": "Welcome bags"
+    },
+    {
+     "cell": "C16",
+     "formula": "Guest gifts"
+    },
+    {
+     "cell": "D16",
+     "formula": "USD"
+    },
+    {
+     "cell": "E16",
+     "formula": 450
+    },
+    {
+     "cell": "G16",
+     "formula": 0
+    },
+    {
+     "cell": "B17",
+     "formula": "Invitations"
+    },
+    {
+     "cell": "C17",
+     "formula": "Stationery"
+    },
+    {
+     "cell": "D17",
+     "formula": "USD"
+    },
+    {
+     "cell": "E17",
+     "formula": 350
+    },
+    {
+     "cell": "F17",
+     "formula": 320
+    },
+    {
+     "cell": "G17",
+     "formula": 320
+    },
+    {
+     "col": "R",
+     "range_rows": [
+      6,
+      35
+     ],
+     "formula": "=IF(LOWER(TRIM(D{row}&\"\"))=\"local\",1,0)"
+    },
+    {
+     "col": "S",
+     "range_rows": [
+      6,
+      35
+     ],
+     "formula": "=IF(AND(TRIM(B{row}&\"\")=\"\",NOT(ISNUMBER(E{row})),NOT(ISNUMBER(F{row}))),0,1)"
+    },
+    {
+     "col": "I",
+     "range_rows": [
+      6,
+      35
+     ],
+     "formula": "=IF(S{row}=0,\"\",ROUND(IF(ISNUMBER(F{row}),F{row},IF(ISNUMBER(E{row}),E{row},0))/IF(R{row}=1,'Setup'!$R$9,1),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "J",
+     "range_rows": [
+      6,
+      35
+     ],
+     "formula": "=IF(S{row}=0,\"\",ROUND(N(G{row})/IF(R{row}=1,'Setup'!$R$9,1),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "K",
+     "range_rows": [
+      6,
+      35
+     ],
+     "formula": "=IF(S{row}=0,\"\",MAX(0,ROUND(I{row}-J{row},2)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "L",
+     "range_rows": [
+      6,
+      35
+     ],
+     "formula": "=IF(S{row}=0,\"\",IF(AND(I{row}>0,K{row}=0),\"Paid in full\",IF(NOT(ISNUMBER(F{row})),\"Planning\",IF(AND(ISNUMBER(H{row}),N(H{row})>=1,H{row}<'Setup'!$R$7),\"Overdue\",IF(AND(ISNUMBER(H{row}),N(H{row})>=1,H{row}-'Setup'!$R$7<=30),\"Due soon\",\"Booked\")))))"
+    },
+    {
+     "col": "T",
+     "range_rows": [
+      6,
+      35
+     ],
+     "formula": "=IF(AND(N(K{row})>0,ISNUMBER(H{row}),N(H{row})>=1),INT(H{row})*1000+ROW()-5,\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "B36",
+     "formula": "Total (USD)"
+    },
+    {
+     "cell": "I36",
+     "formula": "=ROUND(SUM(I6:I35),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J36",
+     "formula": "=ROUND(SUM(J6:J35),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K36",
+     "formula": "=ROUND(SUM(K6:K35),2)",
+     "number_format": "$#,##0.00"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "E6:G35",
+     "type": "formula",
+     "formula": [
+      "OR(AND(E6<>\"\",NOT(ISNUMBER(E6))),N(E6)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "H6:H35",
+     "type": "formula",
+     "formula": [
+      "AND(H6<>\"\",OR(NOT(ISNUMBER(H6)),N(H6)<1))"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "B6:L35",
+     "type": "formula",
+     "formula": [
+      "$L6=\"Paid in full\""
+     ],
+     "fill": "D7EFDD"
+    },
+    {
+     "range": "B6:L35",
+     "type": "formula",
+     "formula": [
+      "OR($L6=\"Overdue\",$L6=\"Due soon\")"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "D6:D35",
+     "type": "formula",
+     "formula": [
+      "AND(TRIM($D6&\"\")<>\"\",$R6=0,LOWER(TRIM($D6&\"\"))<>\"usd\")"
+     ],
+     "fill": "FFF1C2"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B5:L5",
+     "color": "22304A"
+    },
+    {
+     "range": "B6:H35",
+     "color": "FFFFFF"
+    },
+    {
+     "range": "I6:K35",
+     "color": "F6FAFA"
+    },
+    {
+     "range": "B36:L36",
+     "color": "DCEFEF"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:L36",
+     "color": "CFE2E2"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "22304A"
+    },
+    {
+     "range": "B5:L5",
+     "wrap": true,
+     "bold": true,
+     "size": 9,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "C6:L36",
+     "align": "center"
+    },
+    {
+     "range": "I6:K36",
+     "bold": true,
+     "size": 10,
+     "color": "1C7C7D",
+     "align": "center"
+    },
+    {
+     "range": "B36:L36",
+     "bold": true,
+     "size": 10,
+     "color": "22304A"
+    }
+   ],
+   "row_heights": {
+    "5": 30
+   },
+   "validations": [
+    {
+     "range": "C6:C35",
+     "type": "list",
+     "values": [
+      "Venue",
+      "Catering",
+      "Photo & video",
+      "Flowers & decor",
+      "Music",
+      "Officiant & legal",
+      "Attire & beauty",
+      "Couple travel",
+      "Welcome events",
+      "Guest gifts",
+      "Stationery",
+      "Other"
+     ],
+     "strict": false
+    },
+    {
+     "range": "D6:D35",
+     "type": "list",
+     "values": [
+      "USD",
+      "Local"
+     ],
+     "strict": false
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "E6:G35",
+     "format": "#,##0.00"
+    },
+    {
+     "range": "H6:H35",
+     "format": "mmm d, yyyy"
+    }
+   ]
+  },
+  {
+   "name": "Payments",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "C9A227",
+   "grid_rows": 28,
+   "grid_cols": 20,
+   "column_widths": {
+    "A": 2.5,
+    "B": 14,
+    "C": 10,
+    "D": 24,
+    "E": 13,
+    "F": 12,
+    "G": 2.5,
+    "S": 3
+   },
+   "hidden_columns": [
+    "S"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:F2",
+     "label": "PAYMENTS COMING UP",
+     "size": 16,
+     "color": "22304A",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Balances still owed, by due date (USD)."
+    },
+    {
+     "cell": "B5",
+     "formula": "Due"
+    },
+    {
+     "cell": "C5",
+     "formula": "Days away"
+    },
+    {
+     "cell": "D5",
+     "formula": "Vendor"
+    },
+    {
+     "cell": "E5",
+     "formula": "Left (USD)"
+    },
+    {
+     "cell": "F5",
+     "formula": "Status"
+    },
+    {
+     "cell": "S6",
+     "formula": "=IFERROR(SMALL('Budget'!$T$6:$T$35,1),\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "B6",
+     "formula": "=IF($S6=\"\",\"\",INT($S6/1000))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "C6",
+     "formula": "=IF($S6=\"\",\"\",B6-'Setup'!$R$7)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D6",
+     "formula": "=IF($S6=\"\",\"\",INDEX('Budget'!$B$6:$B$35,MOD($S6,1000)))"
+    },
+    {
+     "cell": "E6",
+     "formula": "=IF($S6=\"\",\"\",INDEX('Budget'!$K$6:$K$35,MOD($S6,1000)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F6",
+     "formula": "=IF($S6=\"\",\"\",INDEX('Budget'!$L$6:$L$35,MOD($S6,1000)))"
+    },
+    {
+     "cell": "S7",
+     "formula": "=IFERROR(SMALL('Budget'!$T$6:$T$35,2),\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "B7",
+     "formula": "=IF($S7=\"\",\"\",INT($S7/1000))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "C7",
+     "formula": "=IF($S7=\"\",\"\",B7-'Setup'!$R$7)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D7",
+     "formula": "=IF($S7=\"\",\"\",INDEX('Budget'!$B$6:$B$35,MOD($S7,1000)))"
+    },
+    {
+     "cell": "E7",
+     "formula": "=IF($S7=\"\",\"\",INDEX('Budget'!$K$6:$K$35,MOD($S7,1000)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F7",
+     "formula": "=IF($S7=\"\",\"\",INDEX('Budget'!$L$6:$L$35,MOD($S7,1000)))"
+    },
+    {
+     "cell": "S8",
+     "formula": "=IFERROR(SMALL('Budget'!$T$6:$T$35,3),\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "B8",
+     "formula": "=IF($S8=\"\",\"\",INT($S8/1000))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "C8",
+     "formula": "=IF($S8=\"\",\"\",B8-'Setup'!$R$7)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D8",
+     "formula": "=IF($S8=\"\",\"\",INDEX('Budget'!$B$6:$B$35,MOD($S8,1000)))"
+    },
+    {
+     "cell": "E8",
+     "formula": "=IF($S8=\"\",\"\",INDEX('Budget'!$K$6:$K$35,MOD($S8,1000)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F8",
+     "formula": "=IF($S8=\"\",\"\",INDEX('Budget'!$L$6:$L$35,MOD($S8,1000)))"
+    },
+    {
+     "cell": "S9",
+     "formula": "=IFERROR(SMALL('Budget'!$T$6:$T$35,4),\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "B9",
+     "formula": "=IF($S9=\"\",\"\",INT($S9/1000))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "C9",
+     "formula": "=IF($S9=\"\",\"\",B9-'Setup'!$R$7)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D9",
+     "formula": "=IF($S9=\"\",\"\",INDEX('Budget'!$B$6:$B$35,MOD($S9,1000)))"
+    },
+    {
+     "cell": "E9",
+     "formula": "=IF($S9=\"\",\"\",INDEX('Budget'!$K$6:$K$35,MOD($S9,1000)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F9",
+     "formula": "=IF($S9=\"\",\"\",INDEX('Budget'!$L$6:$L$35,MOD($S9,1000)))"
+    },
+    {
+     "cell": "S10",
+     "formula": "=IFERROR(SMALL('Budget'!$T$6:$T$35,5),\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "B10",
+     "formula": "=IF($S10=\"\",\"\",INT($S10/1000))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "C10",
+     "formula": "=IF($S10=\"\",\"\",B10-'Setup'!$R$7)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D10",
+     "formula": "=IF($S10=\"\",\"\",INDEX('Budget'!$B$6:$B$35,MOD($S10,1000)))"
+    },
+    {
+     "cell": "E10",
+     "formula": "=IF($S10=\"\",\"\",INDEX('Budget'!$K$6:$K$35,MOD($S10,1000)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F10",
+     "formula": "=IF($S10=\"\",\"\",INDEX('Budget'!$L$6:$L$35,MOD($S10,1000)))"
+    },
+    {
+     "cell": "S11",
+     "formula": "=IFERROR(SMALL('Budget'!$T$6:$T$35,6),\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "B11",
+     "formula": "=IF($S11=\"\",\"\",INT($S11/1000))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "C11",
+     "formula": "=IF($S11=\"\",\"\",B11-'Setup'!$R$7)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D11",
+     "formula": "=IF($S11=\"\",\"\",INDEX('Budget'!$B$6:$B$35,MOD($S11,1000)))"
+    },
+    {
+     "cell": "E11",
+     "formula": "=IF($S11=\"\",\"\",INDEX('Budget'!$K$6:$K$35,MOD($S11,1000)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F11",
+     "formula": "=IF($S11=\"\",\"\",INDEX('Budget'!$L$6:$L$35,MOD($S11,1000)))"
+    },
+    {
+     "cell": "S12",
+     "formula": "=IFERROR(SMALL('Budget'!$T$6:$T$35,7),\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "B12",
+     "formula": "=IF($S12=\"\",\"\",INT($S12/1000))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "C12",
+     "formula": "=IF($S12=\"\",\"\",B12-'Setup'!$R$7)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D12",
+     "formula": "=IF($S12=\"\",\"\",INDEX('Budget'!$B$6:$B$35,MOD($S12,1000)))"
+    },
+    {
+     "cell": "E12",
+     "formula": "=IF($S12=\"\",\"\",INDEX('Budget'!$K$6:$K$35,MOD($S12,1000)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F12",
+     "formula": "=IF($S12=\"\",\"\",INDEX('Budget'!$L$6:$L$35,MOD($S12,1000)))"
+    },
+    {
+     "cell": "S13",
+     "formula": "=IFERROR(SMALL('Budget'!$T$6:$T$35,8),\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "B13",
+     "formula": "=IF($S13=\"\",\"\",INT($S13/1000))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "C13",
+     "formula": "=IF($S13=\"\",\"\",B13-'Setup'!$R$7)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D13",
+     "formula": "=IF($S13=\"\",\"\",INDEX('Budget'!$B$6:$B$35,MOD($S13,1000)))"
+    },
+    {
+     "cell": "E13",
+     "formula": "=IF($S13=\"\",\"\",INDEX('Budget'!$K$6:$K$35,MOD($S13,1000)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F13",
+     "formula": "=IF($S13=\"\",\"\",INDEX('Budget'!$L$6:$L$35,MOD($S13,1000)))"
+    },
+    {
+     "cell": "S14",
+     "formula": "=IFERROR(SMALL('Budget'!$T$6:$T$35,9),\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "B14",
+     "formula": "=IF($S14=\"\",\"\",INT($S14/1000))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "C14",
+     "formula": "=IF($S14=\"\",\"\",B14-'Setup'!$R$7)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D14",
+     "formula": "=IF($S14=\"\",\"\",INDEX('Budget'!$B$6:$B$35,MOD($S14,1000)))"
+    },
+    {
+     "cell": "E14",
+     "formula": "=IF($S14=\"\",\"\",INDEX('Budget'!$K$6:$K$35,MOD($S14,1000)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F14",
+     "formula": "=IF($S14=\"\",\"\",INDEX('Budget'!$L$6:$L$35,MOD($S14,1000)))"
+    },
+    {
+     "cell": "S15",
+     "formula": "=IFERROR(SMALL('Budget'!$T$6:$T$35,10),\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "B15",
+     "formula": "=IF($S15=\"\",\"\",INT($S15/1000))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "C15",
+     "formula": "=IF($S15=\"\",\"\",B15-'Setup'!$R$7)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D15",
+     "formula": "=IF($S15=\"\",\"\",INDEX('Budget'!$B$6:$B$35,MOD($S15,1000)))"
+    },
+    {
+     "cell": "E15",
+     "formula": "=IF($S15=\"\",\"\",INDEX('Budget'!$K$6:$K$35,MOD($S15,1000)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F15",
+     "formula": "=IF($S15=\"\",\"\",INDEX('Budget'!$L$6:$L$35,MOD($S15,1000)))"
+    },
+    {
+     "cell": "S16",
+     "formula": "=IFERROR(SMALL('Budget'!$T$6:$T$35,11),\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "B16",
+     "formula": "=IF($S16=\"\",\"\",INT($S16/1000))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "C16",
+     "formula": "=IF($S16=\"\",\"\",B16-'Setup'!$R$7)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D16",
+     "formula": "=IF($S16=\"\",\"\",INDEX('Budget'!$B$6:$B$35,MOD($S16,1000)))"
+    },
+    {
+     "cell": "E16",
+     "formula": "=IF($S16=\"\",\"\",INDEX('Budget'!$K$6:$K$35,MOD($S16,1000)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F16",
+     "formula": "=IF($S16=\"\",\"\",INDEX('Budget'!$L$6:$L$35,MOD($S16,1000)))"
+    },
+    {
+     "cell": "S17",
+     "formula": "=IFERROR(SMALL('Budget'!$T$6:$T$35,12),\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "B17",
+     "formula": "=IF($S17=\"\",\"\",INT($S17/1000))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "C17",
+     "formula": "=IF($S17=\"\",\"\",B17-'Setup'!$R$7)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D17",
+     "formula": "=IF($S17=\"\",\"\",INDEX('Budget'!$B$6:$B$35,MOD($S17,1000)))"
+    },
+    {
+     "cell": "E17",
+     "formula": "=IF($S17=\"\",\"\",INDEX('Budget'!$K$6:$K$35,MOD($S17,1000)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F17",
+     "formula": "=IF($S17=\"\",\"\",INDEX('Budget'!$L$6:$L$35,MOD($S17,1000)))"
+    },
+    {
+     "cell": "S18",
+     "formula": "=IFERROR(SMALL('Budget'!$T$6:$T$35,13),\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "B18",
+     "formula": "=IF($S18=\"\",\"\",INT($S18/1000))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "C18",
+     "formula": "=IF($S18=\"\",\"\",B18-'Setup'!$R$7)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D18",
+     "formula": "=IF($S18=\"\",\"\",INDEX('Budget'!$B$6:$B$35,MOD($S18,1000)))"
+    },
+    {
+     "cell": "E18",
+     "formula": "=IF($S18=\"\",\"\",INDEX('Budget'!$K$6:$K$35,MOD($S18,1000)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F18",
+     "formula": "=IF($S18=\"\",\"\",INDEX('Budget'!$L$6:$L$35,MOD($S18,1000)))"
+    },
+    {
+     "cell": "S19",
+     "formula": "=IFERROR(SMALL('Budget'!$T$6:$T$35,14),\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "B19",
+     "formula": "=IF($S19=\"\",\"\",INT($S19/1000))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "C19",
+     "formula": "=IF($S19=\"\",\"\",B19-'Setup'!$R$7)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D19",
+     "formula": "=IF($S19=\"\",\"\",INDEX('Budget'!$B$6:$B$35,MOD($S19,1000)))"
+    },
+    {
+     "cell": "E19",
+     "formula": "=IF($S19=\"\",\"\",INDEX('Budget'!$K$6:$K$35,MOD($S19,1000)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F19",
+     "formula": "=IF($S19=\"\",\"\",INDEX('Budget'!$L$6:$L$35,MOD($S19,1000)))"
+    },
+    {
+     "cell": "S20",
+     "formula": "=IFERROR(SMALL('Budget'!$T$6:$T$35,15),\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "B20",
+     "formula": "=IF($S20=\"\",\"\",INT($S20/1000))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "C20",
+     "formula": "=IF($S20=\"\",\"\",B20-'Setup'!$R$7)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D20",
+     "formula": "=IF($S20=\"\",\"\",INDEX('Budget'!$B$6:$B$35,MOD($S20,1000)))"
+    },
+    {
+     "cell": "E20",
+     "formula": "=IF($S20=\"\",\"\",INDEX('Budget'!$K$6:$K$35,MOD($S20,1000)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F20",
+     "formula": "=IF($S20=\"\",\"\",INDEX('Budget'!$L$6:$L$35,MOD($S20,1000)))"
+    },
+    {
+     "cell": "S21",
+     "formula": "=IFERROR(SMALL('Budget'!$T$6:$T$35,16),\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "B21",
+     "formula": "=IF($S21=\"\",\"\",INT($S21/1000))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "C21",
+     "formula": "=IF($S21=\"\",\"\",B21-'Setup'!$R$7)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D21",
+     "formula": "=IF($S21=\"\",\"\",INDEX('Budget'!$B$6:$B$35,MOD($S21,1000)))"
+    },
+    {
+     "cell": "E21",
+     "formula": "=IF($S21=\"\",\"\",INDEX('Budget'!$K$6:$K$35,MOD($S21,1000)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F21",
+     "formula": "=IF($S21=\"\",\"\",INDEX('Budget'!$L$6:$L$35,MOD($S21,1000)))"
+    },
+    {
+     "cell": "S22",
+     "formula": "=IFERROR(SMALL('Budget'!$T$6:$T$35,17),\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "B22",
+     "formula": "=IF($S22=\"\",\"\",INT($S22/1000))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "C22",
+     "formula": "=IF($S22=\"\",\"\",B22-'Setup'!$R$7)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D22",
+     "formula": "=IF($S22=\"\",\"\",INDEX('Budget'!$B$6:$B$35,MOD($S22,1000)))"
+    },
+    {
+     "cell": "E22",
+     "formula": "=IF($S22=\"\",\"\",INDEX('Budget'!$K$6:$K$35,MOD($S22,1000)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F22",
+     "formula": "=IF($S22=\"\",\"\",INDEX('Budget'!$L$6:$L$35,MOD($S22,1000)))"
+    },
+    {
+     "cell": "S23",
+     "formula": "=IFERROR(SMALL('Budget'!$T$6:$T$35,18),\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "B23",
+     "formula": "=IF($S23=\"\",\"\",INT($S23/1000))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "C23",
+     "formula": "=IF($S23=\"\",\"\",B23-'Setup'!$R$7)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D23",
+     "formula": "=IF($S23=\"\",\"\",INDEX('Budget'!$B$6:$B$35,MOD($S23,1000)))"
+    },
+    {
+     "cell": "E23",
+     "formula": "=IF($S23=\"\",\"\",INDEX('Budget'!$K$6:$K$35,MOD($S23,1000)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F23",
+     "formula": "=IF($S23=\"\",\"\",INDEX('Budget'!$L$6:$L$35,MOD($S23,1000)))"
+    },
+    {
+     "cell": "S24",
+     "formula": "=IFERROR(SMALL('Budget'!$T$6:$T$35,19),\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "B24",
+     "formula": "=IF($S24=\"\",\"\",INT($S24/1000))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "C24",
+     "formula": "=IF($S24=\"\",\"\",B24-'Setup'!$R$7)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D24",
+     "formula": "=IF($S24=\"\",\"\",INDEX('Budget'!$B$6:$B$35,MOD($S24,1000)))"
+    },
+    {
+     "cell": "E24",
+     "formula": "=IF($S24=\"\",\"\",INDEX('Budget'!$K$6:$K$35,MOD($S24,1000)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F24",
+     "formula": "=IF($S24=\"\",\"\",INDEX('Budget'!$L$6:$L$35,MOD($S24,1000)))"
+    },
+    {
+     "cell": "S25",
+     "formula": "=IFERROR(SMALL('Budget'!$T$6:$T$35,20),\"\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "B25",
+     "formula": "=IF($S25=\"\",\"\",INT($S25/1000))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "C25",
+     "formula": "=IF($S25=\"\",\"\",B25-'Setup'!$R$7)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D25",
+     "formula": "=IF($S25=\"\",\"\",INDEX('Budget'!$B$6:$B$35,MOD($S25,1000)))"
+    },
+    {
+     "cell": "E25",
+     "formula": "=IF($S25=\"\",\"\",INDEX('Budget'!$K$6:$K$35,MOD($S25,1000)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F25",
+     "formula": "=IF($S25=\"\",\"\",INDEX('Budget'!$L$6:$L$35,MOD($S25,1000)))"
+    },
+    {
+     "cell": "B26",
+     "formula": "Total owed"
+    },
+    {
+     "cell": "E26",
+     "formula": "='Budget'!K36",
+     "number_format": "$#,##0.00"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "B6:F25",
+     "type": "formula",
+     "formula": [
+      "OR($F6=\"Overdue\",$F6=\"Due soon\")"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B5:F5",
+     "color": "22304A"
+    },
+    {
+     "range": "B26:F26",
+     "color": "DCEFEF"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:F26",
+     "color": "CFE2E2"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "22304A"
+    },
+    {
+     "range": "B5:F5",
+     "bold": true,
+     "size": 10,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "B6:F26",
+     "align": "center"
+    },
+    {
+     "range": "B26:F26",
+     "bold": true,
+     "size": 10,
+     "color": "22304A"
+    }
+   ]
+  },
+  {
+   "name": "Guests",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "1C7C7D",
+   "grid_rows": 127,
+   "grid_cols": 13,
+   "freeze": "C6",
+   "column_widths": {
+    "A": 2.5,
+    "B": 24,
+    "C": 8,
+    "D": 10,
+    "E": 8,
+    "F": 10,
+    "G": 11,
+    "H": 11,
+    "I": 9,
+    "J": 22,
+    "K": 2.5,
+    "L": 3
+   },
+   "hidden_columns": [
+    "L"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:J2",
+     "label": "GUEST LIST",
+     "size": 16,
+     "color": "22304A",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "=SUMIFS('Guests'!$C$6:$C$125,'Guests'!$L$6:$L$125,1)&\" coming, \"&SUMIFS('Guests'!$C$6:$C$125,'Guests'!$L$6:$L$125,3)+SUMIFS('Guests'!$C$6:$C$125,'Guests'!$L$6:$L$125,4)&\" not sure yet, \"&SUMIFS('Guests'!$C$6:$C$125,'Guests'!$L$6:$L$125,2)&\" can't make it.\""
+    },
+    {
+     "cell": "B5",
+     "formula": "Guest / party"
+    },
+    {
+     "cell": "C5",
+     "formula": "People"
+    },
+    {
+     "cell": "D5",
+     "formula": "RSVP"
+    },
+    {
+     "cell": "E5",
+     "formula": "Rooms"
+    },
+    {
+     "cell": "F5",
+     "formula": "Booked in block"
+    },
+    {
+     "cell": "G5",
+     "formula": "Arrives"
+    },
+    {
+     "cell": "H5",
+     "formula": "Leaves"
+    },
+    {
+     "cell": "I5",
+     "formula": "Welcome bag"
+    },
+    {
+     "cell": "J5",
+     "formula": "Notes"
+    },
+    {
+     "cell": "B6",
+     "formula": "Mom & Dad (Lopez)"
+    },
+    {
+     "cell": "C6",
+     "formula": 2
+    },
+    {
+     "cell": "D6",
+     "formula": "Yes"
+    },
+    {
+     "cell": "E6",
+     "formula": 1
+    },
+    {
+     "cell": "F6",
+     "formula": true
+    },
+    {
+     "cell": "G6",
+     "formula": "=DATE(2027,11,10)"
+    },
+    {
+     "cell": "H6",
+     "formula": "=DATE(2027,11,15)"
+    },
+    {
+     "cell": "I6",
+     "formula": true
+    },
+    {
+     "cell": "B7",
+     "formula": "Grandma Rose"
+    },
+    {
+     "cell": "C7",
+     "formula": 1
+    },
+    {
+     "cell": "D7",
+     "formula": "Yes"
+    },
+    {
+     "cell": "E7",
+     "formula": 1
+    },
+    {
+     "cell": "F7",
+     "formula": true
+    },
+    {
+     "cell": "G7",
+     "formula": "=DATE(2027,11,11)"
+    },
+    {
+     "cell": "H7",
+     "formula": "=DATE(2027,11,14)"
+    },
+    {
+     "cell": "I7",
+     "formula": true
+    },
+    {
+     "cell": "J7",
+     "formula": "Ground floor room"
+    },
+    {
+     "cell": "B8",
+     "formula": "Uncle Ben & Aunt Kim"
+    },
+    {
+     "cell": "C8",
+     "formula": 2
+    },
+    {
+     "cell": "D8",
+     "formula": "Yes"
+    },
+    {
+     "cell": "E8",
+     "formula": 1
+    },
+    {
+     "cell": "F8",
+     "formula": false
+    },
+    {
+     "cell": "G8",
+     "formula": "=DATE(2027,11,11)"
+    },
+    {
+     "cell": "H8",
+     "formula": "=DATE(2027,11,15)"
+    },
+    {
+     "cell": "I8",
+     "formula": false
+    },
+    {
+     "cell": "B9",
+     "formula": "Maya (maid of honor)"
+    },
+    {
+     "cell": "C9",
+     "formula": 2
+    },
+    {
+     "cell": "D9",
+     "formula": "Yes"
+    },
+    {
+     "cell": "E9",
+     "formula": 1
+    },
+    {
+     "cell": "F9",
+     "formula": true
+    },
+    {
+     "cell": "G9",
+     "formula": "=DATE(2027,11,10)"
+    },
+    {
+     "cell": "H9",
+     "formula": "=DATE(2027,11,15)"
+    },
+    {
+     "cell": "I9",
+     "formula": true
+    },
+    {
+     "cell": "J9",
+     "formula": "Vegetarian"
+    },
+    {
+     "cell": "B10",
+     "formula": "Chris (best man)"
+    },
+    {
+     "cell": "C10",
+     "formula": 1
+    },
+    {
+     "cell": "D10",
+     "formula": "Yes"
+    },
+    {
+     "cell": "E10",
+     "formula": 1
+    },
+    {
+     "cell": "F10",
+     "formula": true
+    },
+    {
+     "cell": "G10",
+     "formula": "=DATE(2027,11,11)"
+    },
+    {
+     "cell": "H10",
+     "formula": "=DATE(2027,11,14)"
+    },
+    {
+     "cell": "I10",
+     "formula": false
+    },
+    {
+     "cell": "B11",
+     "formula": "The Nguyens"
+    },
+    {
+     "cell": "C11",
+     "formula": 4
+    },
+    {
+     "cell": "D11",
+     "formula": "Maybe"
+    },
+    {
+     "cell": "E11",
+     "formula": 2
+    },
+    {
+     "cell": "F11",
+     "formula": false
+    },
+    {
+     "cell": "I11",
+     "formula": false
+    },
+    {
+     "cell": "J11",
+     "formula": "Kids 6 and 9"
+    },
+    {
+     "cell": "B12",
+     "formula": "Sam & Taylor"
+    },
+    {
+     "cell": "C12",
+     "formula": 2
+    },
+    {
+     "cell": "D12",
+     "formula": "Yes"
+    },
+    {
+     "cell": "E12",
+     "formula": 1
+    },
+    {
+     "cell": "F12",
+     "formula": true
+    },
+    {
+     "cell": "G12",
+     "formula": "=DATE(2027,11,12)"
+    },
+    {
+     "cell": "H12",
+     "formula": "=DATE(2027,11,15)"
+    },
+    {
+     "cell": "I12",
+     "formula": false
+    },
+    {
+     "cell": "B13",
+     "formula": "Coworkers group"
+    },
+    {
+     "cell": "C13",
+     "formula": 3
+    },
+    {
+     "cell": "D13",
+     "formula": "No"
+    },
+    {
+     "cell": "E13",
+     "formula": 0
+    },
+    {
+     "cell": "F13",
+     "formula": false
+    },
+    {
+     "cell": "I13",
+     "formula": false
+    },
+    {
+     "cell": "B14",
+     "formula": "Cousin Leo"
+    },
+    {
+     "cell": "C14",
+     "formula": 1
+    },
+    {
+     "cell": "D14",
+     "formula": "Pending"
+    },
+    {
+     "cell": "E14",
+     "formula": 1
+    },
+    {
+     "cell": "F14",
+     "formula": false
+    },
+    {
+     "cell": "I14",
+     "formula": false
+    },
+    {
+     "cell": "B15",
+     "formula": "Jordan & Pat"
+    },
+    {
+     "cell": "C15",
+     "formula": 2
+    },
+    {
+     "cell": "D15",
+     "formula": "Yes"
+    },
+    {
+     "cell": "E15",
+     "formula": 1
+    },
+    {
+     "cell": "F15",
+     "formula": false
+    },
+    {
+     "cell": "G15",
+     "formula": "=DATE(2027,11,12)"
+    },
+    {
+     "cell": "H15",
+     "formula": "=DATE(2027,11,14)"
+    },
+    {
+     "cell": "I15",
+     "formula": false
+    },
+    {
+     "cell": "J15",
+     "formula": "Gluten free"
+    },
+    {
+     "cell": "B16",
+     "formula": "Aunt Gloria"
+    },
+    {
+     "cell": "C16",
+     "formula": 1
+    },
+    {
+     "cell": "D16",
+     "formula": "Yes"
+    },
+    {
+     "cell": "E16",
+     "formula": 1
+    },
+    {
+     "cell": "F16",
+     "formula": true
+    },
+    {
+     "cell": "G16",
+     "formula": "=DATE(2027,11,11)"
+    },
+    {
+     "cell": "H16",
+     "formula": "=DATE(2027,11,15)"
+    },
+    {
+     "cell": "I16",
+     "formula": false
+    },
+    {
+     "cell": "B17",
+     "formula": "College friends"
+    },
+    {
+     "cell": "C17",
+     "formula": 4
+    },
+    {
+     "cell": "D17",
+     "formula": "Pending"
+    },
+    {
+     "cell": "E17",
+     "formula": 2
+    },
+    {
+     "cell": "F17",
+     "formula": false
+    },
+    {
+     "cell": "I17",
+     "formula": false
+    },
+    {
+     "col": "L",
+     "range_rows": [
+      6,
+      125
+     ],
+     "formula": "=IF(AND(TRIM(B{row}&\"\")=\"\",NOT(ISNUMBER(C{row}))),0,IF(TRIM(D{row}&\"\")=\"\",4,IFERROR(MATCH(LOWER(TRIM(D{row}&\"\")),{\"yes\",\"no\",\"maybe\",\"pending\"},0),4)))"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "B6:J125",
+     "type": "formula",
+     "formula": [
+      "$L6=1"
+     ],
+     "fill": "D7EFDD"
+    },
+    {
+     "range": "B6:J125",
+     "type": "formula",
+     "formula": [
+      "$L6=2"
+     ],
+     "fill": "EEEEEE"
+    },
+    {
+     "range": "F6:F125",
+     "type": "formula",
+     "formula": [
+      "AND($L6=1,$F6<>TRUE,N($E6)>0)"
+     ],
+     "fill": "FFF1C2"
+    },
+    {
+     "range": "C6:C125",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C6<>\"\",NOT(ISNUMBER(C6))),N(C6)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "E6:E125",
+     "type": "formula",
+     "formula": [
+      "OR(AND(E6<>\"\",NOT(ISNUMBER(E6))),N(E6)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "G6:H125",
+     "type": "formula",
+     "formula": [
+      "AND(G6<>\"\",OR(NOT(ISNUMBER(G6)),N(G6)<1))"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B5:J5",
+     "color": "22304A"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:J125",
+     "color": "CFE2E2"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "bold": true,
+     "size": 11,
+     "color": "1C7C7D"
+    },
+    {
+     "range": "B5:J5",
+     "wrap": true,
+     "bold": true,
+     "size": 9,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "C6:I125",
+     "align": "center"
+    }
+   ],
+   "row_heights": {
+    "5": 30
+   },
+   "validations": [
+    {
+     "range": "D6:D125",
+     "type": "list",
+     "values": [
+      "Yes",
+      "No",
+      "Maybe",
+      "Pending"
+     ],
+     "strict": false
+    },
+    {
+     "range": "F6:F125",
+     "type": "checkbox"
+    },
+    {
+     "range": "I6:I125",
+     "type": "checkbox"
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "G6:H125",
+     "format": "mmm d"
+    }
+   ]
+  },
+  {
+   "name": "Room Block",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "22304A",
+   "grid_rows": 27,
+   "grid_cols": 6,
+   "column_widths": {
+    "A": 2.5,
+    "B": 30,
+    "C": 14,
+    "D": 10,
+    "E": 2.5
+   },
+   "section_bars": [
+    {
+     "range": "B2:D2",
+     "label": "ROOM BLOCK",
+     "size": 16,
+     "color": "22304A",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B4",
+     "formula": "Your contract"
+    },
+    {
+     "cell": "C4",
+     "formula": "Amount"
+    },
+    {
+     "cell": "B5",
+     "formula": "Rooms in your block"
+    },
+    {
+     "cell": "C5",
+     "formula": 20
+    },
+    {
+     "cell": "B6",
+     "formula": "Rate per night (USD)"
+    },
+    {
+     "cell": "C6",
+     "formula": 245
+    },
+    {
+     "cell": "B7",
+     "formula": "Nights"
+    },
+    {
+     "cell": "C7",
+     "formula": 3
+    },
+    {
+     "cell": "B8",
+     "formula": "Minimum you must fill (%)"
+    },
+    {
+     "cell": "C8",
+     "formula": 80
+    },
+    {
+     "cell": "B10",
+     "formula": "Where you stand"
+    },
+    {
+     "cell": "C10",
+     "formula": ""
+    },
+    {
+     "cell": "B11",
+     "formula": "Rooms booked by guests"
+    },
+    {
+     "cell": "C11",
+     "formula": "=SUMIFS('Guests'!$E$6:$E$125,'Guests'!$F$6:$F$125,TRUE,'Guests'!$L$6:$L$125,\"<>2\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "B12",
+     "formula": "Rooms needed (coming)"
+    },
+    {
+     "cell": "C12",
+     "formula": "=SUMIFS('Guests'!$E$6:$E$125,'Guests'!$L$6:$L$125,1)",
+     "number_format": "0"
+    },
+    {
+     "cell": "B13",
+     "formula": "Minimum rooms"
+    },
+    {
+     "cell": "C13",
+     "formula": "=ROUNDUP(IF(ISNUMBER(C5),MAX(0,C5),0)*MAX(0,IF(N(C8)>=1,N(C8)/100,N(C8))),0)",
+     "number_format": "0"
+    },
+    {
+     "cell": "B14",
+     "formula": "Still to fill to reach minimum"
+    },
+    {
+     "cell": "C14",
+     "formula": "=MAX(0,C13-C11)",
+     "number_format": "0"
+    },
+    {
+     "cell": "B15",
+     "formula": "Possible charge if not filled"
+    },
+    {
+     "cell": "C15",
+     "formula": "=ROUND(C14*IF(ISNUMBER(C6),MAX(0,C6),0)*IF(ISNUMBER(C7),MAX(0,C7),0),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B16",
+     "formula": "Block filled"
+    },
+    {
+     "cell": "C16",
+     "formula": "=IF(IF(ISNUMBER(C5),MAX(0,C5),0)>0,C11/IF(ISNUMBER(C5),MAX(0,C5),0),\"-\")",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B18",
+     "formula": "Arrivals"
+    },
+    {
+     "cell": "C18",
+     "formula": "Parties"
+    },
+    {
+     "cell": "D18",
+     "formula": "People"
+    },
+    {
+     "cell": "B19",
+     "formula": "=IF('Setup'!$R$6=\"\",\"\",('Setup'!$R$6-4))",
+     "number_format": "ddd mmm d"
+    },
+    {
+     "cell": "C19",
+     "formula": "=IF(B19=\"\",\"\",COUNTIFS('Guests'!$G$6:$G$125,B19,'Guests'!$L$6:$L$125,1))"
+    },
+    {
+     "cell": "D19",
+     "formula": "=IF(B19=\"\",\"\",SUMIFS('Guests'!$C$6:$C$125,'Guests'!$G$6:$G$125,B19,'Guests'!$L$6:$L$125,1))"
+    },
+    {
+     "cell": "B20",
+     "formula": "=IF('Setup'!$R$6=\"\",\"\",('Setup'!$R$6-3))",
+     "number_format": "ddd mmm d"
+    },
+    {
+     "cell": "C20",
+     "formula": "=IF(B20=\"\",\"\",COUNTIFS('Guests'!$G$6:$G$125,B20,'Guests'!$L$6:$L$125,1))"
+    },
+    {
+     "cell": "D20",
+     "formula": "=IF(B20=\"\",\"\",SUMIFS('Guests'!$C$6:$C$125,'Guests'!$G$6:$G$125,B20,'Guests'!$L$6:$L$125,1))"
+    },
+    {
+     "cell": "B21",
+     "formula": "=IF('Setup'!$R$6=\"\",\"\",('Setup'!$R$6-2))",
+     "number_format": "ddd mmm d"
+    },
+    {
+     "cell": "C21",
+     "formula": "=IF(B21=\"\",\"\",COUNTIFS('Guests'!$G$6:$G$125,B21,'Guests'!$L$6:$L$125,1))"
+    },
+    {
+     "cell": "D21",
+     "formula": "=IF(B21=\"\",\"\",SUMIFS('Guests'!$C$6:$C$125,'Guests'!$G$6:$G$125,B21,'Guests'!$L$6:$L$125,1))"
+    },
+    {
+     "cell": "B22",
+     "formula": "=IF('Setup'!$R$6=\"\",\"\",('Setup'!$R$6-1))",
+     "number_format": "ddd mmm d"
+    },
+    {
+     "cell": "C22",
+     "formula": "=IF(B22=\"\",\"\",COUNTIFS('Guests'!$G$6:$G$125,B22,'Guests'!$L$6:$L$125,1))"
+    },
+    {
+     "cell": "D22",
+     "formula": "=IF(B22=\"\",\"\",SUMIFS('Guests'!$C$6:$C$125,'Guests'!$G$6:$G$125,B22,'Guests'!$L$6:$L$125,1))"
+    },
+    {
+     "cell": "B23",
+     "formula": "=IF('Setup'!$R$6=\"\",\"\",('Setup'!$R$6-0))",
+     "number_format": "ddd mmm d"
+    },
+    {
+     "cell": "C23",
+     "formula": "=IF(B23=\"\",\"\",COUNTIFS('Guests'!$G$6:$G$125,B23,'Guests'!$L$6:$L$125,1))"
+    },
+    {
+     "cell": "D23",
+     "formula": "=IF(B23=\"\",\"\",SUMIFS('Guests'!$C$6:$C$125,'Guests'!$G$6:$G$125,B23,'Guests'!$L$6:$L$125,1))"
+    },
+    {
+     "cell": "B24",
+     "formula": "=IF('Setup'!$R$6=\"\",\"\",('Setup'!$R$6--1))",
+     "number_format": "ddd mmm d"
+    },
+    {
+     "cell": "C24",
+     "formula": "=IF(B24=\"\",\"\",COUNTIFS('Guests'!$G$6:$G$125,B24,'Guests'!$L$6:$L$125,1))"
+    },
+    {
+     "cell": "D24",
+     "formula": "=IF(B24=\"\",\"\",SUMIFS('Guests'!$C$6:$C$125,'Guests'!$G$6:$G$125,B24,'Guests'!$L$6:$L$125,1))"
+    },
+    {
+     "cell": "B25",
+     "formula": "Coming, no arrival date yet"
+    },
+    {
+     "cell": "C25",
+     "formula": "=COUNTIFS('Guests'!$L$6:$L$125,1,'Guests'!$G$6:$G$125,\"\")"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "C5:C8",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C5<>\"\",NOT(ISNUMBER(C5))),N(C5)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "B14:C15",
+     "type": "formula",
+     "formula": [
+      "$C$14>0"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "B14:C15",
+     "type": "formula",
+     "formula": [
+      "$C$14=0"
+     ],
+     "fill": "D7EFDD"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B4:C4",
+     "color": "DCEFEF"
+    },
+    {
+     "range": "C5:C8",
+     "color": "FFFFFF"
+    },
+    {
+     "range": "B10:C10",
+     "color": "DCEFEF"
+    },
+    {
+     "range": "C11:C16",
+     "color": "F6FAFA"
+    },
+    {
+     "range": "B18:D18",
+     "color": "22304A"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B4:C8",
+     "color": "CFE2E2"
+    },
+    {
+     "range": "B10:C16",
+     "color": "CFE2E2"
+    },
+    {
+     "range": "B18:D25",
+     "color": "CFE2E2"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B4:C4",
+     "bold": true,
+     "size": 10,
+     "color": "22304A",
+     "align": "center"
+    },
+    {
+     "range": "B5:B8",
+     "bold": true,
+     "size": 10,
+     "color": "22304A"
+    },
+    {
+     "range": "C5:C8",
+     "bold": true,
+     "size": 11,
+     "color": "22304A",
+     "align": "center"
+    },
+    {
+     "range": "B10:C10",
+     "bold": true,
+     "size": 10,
+     "color": "22304A",
+     "align": "center"
+    },
+    {
+     "range": "B11:B16",
+     "bold": true,
+     "size": 10,
+     "color": "22304A"
+    },
+    {
+     "range": "C11:C16",
+     "bold": true,
+     "size": 11,
+     "color": "1C7C7D",
+     "align": "center"
+    },
+    {
+     "range": "B18:D18",
+     "bold": true,
+     "size": 10,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "B19:D25",
+     "align": "center"
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "C5",
+     "format": "0"
+    },
+    {
+     "range": "C6",
+     "format": "$#,##0.00"
+    },
+    {
+     "range": "C7:C8",
+     "format": "0"
+    }
+   ]
+  },
+  {
+   "name": "Timeline",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "E07A5F",
+   "grid_rows": 26,
+   "grid_cols": 7,
+   "column_widths": {
+    "A": 2.5,
+    "B": 16,
+    "C": 34,
+    "D": 14,
+    "E": 8,
+    "F": 12,
+    "G": 2.5
+   },
+   "section_bars": [
+    {
+     "range": "B2:F2",
+     "label": "PLANNING TIMELINE",
+     "size": 16,
+     "color": "22304A",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Dates count back from your wedding day. Tick Done as you go."
+    },
+    {
+     "cell": "B5",
+     "formula": "When"
+    },
+    {
+     "cell": "C5",
+     "formula": "Task"
+    },
+    {
+     "cell": "D5",
+     "formula": "Do by"
+    },
+    {
+     "cell": "E5",
+     "formula": "Done"
+    },
+    {
+     "cell": "F5",
+     "formula": "Status"
+    },
+    {
+     "cell": "B6",
+     "formula": "12 months before"
+    },
+    {
+     "cell": "C6",
+     "formula": "Set the budget and guest list"
+    },
+    {
+     "cell": "D6",
+     "formula": "=IF('Setup'!$R$6=\"\",\"\",EDATE('Setup'!$R$6,-12))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "F6",
+     "formula": "=IF(E6=TRUE,\"Done\",IF(D6=\"\",\"\",IF(D6<'Setup'!$R$7,\"Overdue\",IF(D6-'Setup'!$R$7<=30,\"This month\",\"\"))))"
+    },
+    {
+     "cell": "E6",
+     "formula": true
+    },
+    {
+     "cell": "B7",
+     "formula": "12 months before"
+    },
+    {
+     "cell": "C7",
+     "formula": "Book the venue"
+    },
+    {
+     "cell": "D7",
+     "formula": "=IF('Setup'!$R$6=\"\",\"\",EDATE('Setup'!$R$6,-12))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "F7",
+     "formula": "=IF(E7=TRUE,\"Done\",IF(D7=\"\",\"\",IF(D7<'Setup'!$R$7,\"Overdue\",IF(D7-'Setup'!$R$7<=30,\"This month\",\"\"))))"
+    },
+    {
+     "cell": "E7",
+     "formula": true
+    },
+    {
+     "cell": "B8",
+     "formula": "11 months before"
+    },
+    {
+     "cell": "C8",
+     "formula": "Book photographer & videographer"
+    },
+    {
+     "cell": "D8",
+     "formula": "=IF('Setup'!$R$6=\"\",\"\",EDATE('Setup'!$R$6,-11))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "F8",
+     "formula": "=IF(E8=TRUE,\"Done\",IF(D8=\"\",\"\",IF(D8<'Setup'!$R$7,\"Overdue\",IF(D8-'Setup'!$R$7<=30,\"This month\",\"\"))))"
+    },
+    {
+     "cell": "E8",
+     "formula": true
+    },
+    {
+     "cell": "B9",
+     "formula": "10 months before"
+    },
+    {
+     "cell": "C9",
+     "formula": "Send save-the-dates"
+    },
+    {
+     "cell": "D9",
+     "formula": "=IF('Setup'!$R$6=\"\",\"\",EDATE('Setup'!$R$6,-10))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "F9",
+     "formula": "=IF(E9=TRUE,\"Done\",IF(D9=\"\",\"\",IF(D9<'Setup'!$R$7,\"Overdue\",IF(D9-'Setup'!$R$7<=30,\"This month\",\"\"))))"
+    },
+    {
+     "cell": "E9",
+     "formula": true
+    },
+    {
+     "cell": "B10",
+     "formula": "10 months before"
+    },
+    {
+     "cell": "C10",
+     "formula": "Reserve the hotel room block"
+    },
+    {
+     "cell": "D10",
+     "formula": "=IF('Setup'!$R$6=\"\",\"\",EDATE('Setup'!$R$6,-10))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "F10",
+     "formula": "=IF(E10=TRUE,\"Done\",IF(D10=\"\",\"\",IF(D10<'Setup'!$R$7,\"Overdue\",IF(D10-'Setup'!$R$7<=30,\"This month\",\"\"))))"
+    },
+    {
+     "cell": "E10",
+     "formula": true
+    },
+    {
+     "cell": "B11",
+     "formula": "9 months before"
+    },
+    {
+     "cell": "C11",
+     "formula": "Book officiant & check legal rules"
+    },
+    {
+     "cell": "D11",
+     "formula": "=IF('Setup'!$R$6=\"\",\"\",EDATE('Setup'!$R$6,-9))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "F11",
+     "formula": "=IF(E11=TRUE,\"Done\",IF(D11=\"\",\"\",IF(D11<'Setup'!$R$7,\"Overdue\",IF(D11-'Setup'!$R$7<=30,\"This month\",\"\"))))"
+    },
+    {
+     "cell": "E11",
+     "formula": true
+    },
+    {
+     "cell": "B12",
+     "formula": "8 months before"
+    },
+    {
+     "cell": "C12",
+     "formula": "Buy wedding attire"
+    },
+    {
+     "cell": "D12",
+     "formula": "=IF('Setup'!$R$6=\"\",\"\",EDATE('Setup'!$R$6,-8))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "F12",
+     "formula": "=IF(E12=TRUE,\"Done\",IF(D12=\"\",\"\",IF(D12<'Setup'!$R$7,\"Overdue\",IF(D12-'Setup'!$R$7<=30,\"This month\",\"\"))))"
+    },
+    {
+     "cell": "E12",
+     "formula": true
+    },
+    {
+     "cell": "B13",
+     "formula": "7 months before"
+    },
+    {
+     "cell": "C13",
+     "formula": "Book hair & makeup"
+    },
+    {
+     "cell": "D13",
+     "formula": "=IF('Setup'!$R$6=\"\",\"\",EDATE('Setup'!$R$6,-7))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "F13",
+     "formula": "=IF(E13=TRUE,\"Done\",IF(D13=\"\",\"\",IF(D13<'Setup'!$R$7,\"Overdue\",IF(D13-'Setup'!$R$7<=30,\"This month\",\"\"))))"
+    },
+    {
+     "cell": "E13",
+     "formula": true
+    },
+    {
+     "cell": "B14",
+     "formula": "6 months before"
+    },
+    {
+     "cell": "C14",
+     "formula": "Send invitations"
+    },
+    {
+     "cell": "D14",
+     "formula": "=IF('Setup'!$R$6=\"\",\"\",EDATE('Setup'!$R$6,-6))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "F14",
+     "formula": "=IF(E14=TRUE,\"Done\",IF(D14=\"\",\"\",IF(D14<'Setup'!$R$7,\"Overdue\",IF(D14-'Setup'!$R$7<=30,\"This month\",\"\"))))"
+    },
+    {
+     "cell": "E14",
+     "formula": true
+    },
+    {
+     "cell": "B15",
+     "formula": "6 months before"
+    },
+    {
+     "cell": "C15",
+     "formula": "Book your flights"
+    },
+    {
+     "cell": "D15",
+     "formula": "=IF('Setup'!$R$6=\"\",\"\",EDATE('Setup'!$R$6,-6))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "F15",
+     "formula": "=IF(E15=TRUE,\"Done\",IF(D15=\"\",\"\",IF(D15<'Setup'!$R$7,\"Overdue\",IF(D15-'Setup'!$R$7<=30,\"This month\",\"\"))))"
+    },
+    {
+     "cell": "B16",
+     "formula": "5 months before"
+    },
+    {
+     "cell": "C16",
+     "formula": "Plan the welcome party"
+    },
+    {
+     "cell": "D16",
+     "formula": "=IF('Setup'!$R$6=\"\",\"\",EDATE('Setup'!$R$6,-5))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "F16",
+     "formula": "=IF(E16=TRUE,\"Done\",IF(D16=\"\",\"\",IF(D16<'Setup'!$R$7,\"Overdue\",IF(D16-'Setup'!$R$7<=30,\"This month\",\"\"))))"
+    },
+    {
+     "cell": "B17",
+     "formula": "4 months before"
+    },
+    {
+     "cell": "C17",
+     "formula": "Order welcome bags"
+    },
+    {
+     "cell": "D17",
+     "formula": "=IF('Setup'!$R$6=\"\",\"\",EDATE('Setup'!$R$6,-4))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "F17",
+     "formula": "=IF(E17=TRUE,\"Done\",IF(D17=\"\",\"\",IF(D17<'Setup'!$R$7,\"Overdue\",IF(D17-'Setup'!$R$7<=30,\"This month\",\"\"))))"
+    },
+    {
+     "cell": "B18",
+     "formula": "3 months before"
+    },
+    {
+     "cell": "C18",
+     "formula": "Finalize the menu"
+    },
+    {
+     "cell": "D18",
+     "formula": "=IF('Setup'!$R$6=\"\",\"\",EDATE('Setup'!$R$6,-3))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "F18",
+     "formula": "=IF(E18=TRUE,\"Done\",IF(D18=\"\",\"\",IF(D18<'Setup'!$R$7,\"Overdue\",IF(D18-'Setup'!$R$7<=30,\"This month\",\"\"))))"
+    },
+    {
+     "cell": "B19",
+     "formula": "2 months before"
+    },
+    {
+     "cell": "C19",
+     "formula": "Confirm room block numbers"
+    },
+    {
+     "cell": "D19",
+     "formula": "=IF('Setup'!$R$6=\"\",\"\",EDATE('Setup'!$R$6,-2))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "F19",
+     "formula": "=IF(E19=TRUE,\"Done\",IF(D19=\"\",\"\",IF(D19<'Setup'!$R$7,\"Overdue\",IF(D19-'Setup'!$R$7<=30,\"This month\",\"\"))))"
+    },
+    {
+     "cell": "B20",
+     "formula": "2 months before"
+    },
+    {
+     "cell": "C20",
+     "formula": "Final dress fitting"
+    },
+    {
+     "cell": "D20",
+     "formula": "=IF('Setup'!$R$6=\"\",\"\",EDATE('Setup'!$R$6,-2))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "F20",
+     "formula": "=IF(E20=TRUE,\"Done\",IF(D20=\"\",\"\",IF(D20<'Setup'!$R$7,\"Overdue\",IF(D20-'Setup'!$R$7<=30,\"This month\",\"\"))))"
+    },
+    {
+     "cell": "B21",
+     "formula": "1 month before"
+    },
+    {
+     "cell": "C21",
+     "formula": "Make final vendor payments"
+    },
+    {
+     "cell": "D21",
+     "formula": "=IF('Setup'!$R$6=\"\",\"\",EDATE('Setup'!$R$6,-1))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "F21",
+     "formula": "=IF(E21=TRUE,\"Done\",IF(D21=\"\",\"\",IF(D21<'Setup'!$R$7,\"Overdue\",IF(D21-'Setup'!$R$7<=30,\"This month\",\"\"))))"
+    },
+    {
+     "cell": "B22",
+     "formula": "1 month before"
+    },
+    {
+     "cell": "C22",
+     "formula": "Seating chart & day-of schedule"
+    },
+    {
+     "cell": "D22",
+     "formula": "=IF('Setup'!$R$6=\"\",\"\",EDATE('Setup'!$R$6,-1))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "F22",
+     "formula": "=IF(E22=TRUE,\"Done\",IF(D22=\"\",\"\",IF(D22<'Setup'!$R$7,\"Overdue\",IF(D22-'Setup'!$R$7<=30,\"This month\",\"\"))))"
+    },
+    {
+     "cell": "B23",
+     "formula": "Wedding week"
+    },
+    {
+     "cell": "C23",
+     "formula": "Pack, relax and say I do"
+    },
+    {
+     "cell": "D23",
+     "formula": "=IF('Setup'!$R$6=\"\",\"\",EDATE('Setup'!$R$6,-0))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "F23",
+     "formula": "=IF(E23=TRUE,\"Done\",IF(D23=\"\",\"\",IF(D23<'Setup'!$R$7,\"Overdue\",IF(D23-'Setup'!$R$7<=30,\"This month\",\"\"))))"
+    },
+    {
+     "cell": "B25",
+     "formula": "=COUNTIF(F6:F23,\"Done\")&\" of 18 done\""
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "B6:F23",
+     "type": "formula",
+     "formula": [
+      "$F6=\"Done\""
+     ],
+     "fill": "D7EFDD"
+    },
+    {
+     "range": "B6:F23",
+     "type": "formula",
+     "formula": [
+      "$F6=\"Overdue\""
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "B6:F23",
+     "type": "formula",
+     "formula": [
+      "$F6=\"This month\""
+     ],
+     "fill": "FFF1C2"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B5:F5",
+     "color": "22304A"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:F23",
+     "color": "CFE2E2"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "22304A"
+    },
+    {
+     "range": "B5:F5",
+     "bold": true,
+     "size": 10,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "B6:B23",
+     "italic": true,
+     "size": 9,
+     "color": "22304A"
+    },
+    {
+     "range": "D6:F23",
+     "align": "center"
+    },
+    {
+     "range": "B25",
+     "bold": true,
+     "size": 11,
+     "color": "1C7C7D"
+    }
+   ],
+   "validations": [
+    {
+     "range": "E6:E23",
+     "type": "checkbox"
+    }
+   ]
+  }
+ ]
+}
