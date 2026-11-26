@@ -1,0 +1,2464 @@
+{
+ "filename": "Black Friday Deal Planner",
+ "locale": "en_US",
+ "theme": {
+  "header_font": "FFFFFF",
+  "border": "DADADF",
+  "accent": "E8336D",
+  "section_colors": [
+   "1C1C1E",
+   "F4F4F5",
+   "FDE6EE"
+  ],
+  "chart_palette": [
+   "E8336D",
+   "E39A06",
+   "14A3A3",
+   "1C1C1E"
+  ]
+ },
+ "tabs": [
+  {
+   "name": "Start Here",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "E8336D",
+   "grid_rows": 28,
+   "column_widths": {
+    "A": 2.5,
+    "B": 22,
+    "C": 100,
+    "D": 2.5
+   },
+   "section_bars": [
+    {
+     "range": "B2:C2",
+     "label": "BLACK FRIDAY DEAL PLANNER",
+     "size": 18,
+     "color": "1C1C1E",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "B5:C5",
+     "label": "HOW TO USE IT",
+     "color": "F4F4F5",
+     "font_color": "1C1C1E",
+     "align": "left"
+    },
+    {
+     "range": "B12:C12",
+     "label": "GOOD TO KNOW",
+     "color": "E8336D",
+     "font_color": "FFFFFF",
+     "align": "left"
+    },
+    {
+     "range": "B18:C18",
+     "label": "COLOR GUIDE",
+     "color": "F4F4F5",
+     "font_color": "1C1C1E",
+     "align": "left"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Shop the sales with a plan, a budget and a target price for everything."
+    },
+    {
+     "cell": "B6",
+     "formula": "Setup: the year and your total budget. Black Friday and Cyber Monday dates fill themselves in."
+    },
+    {
+     "cell": "B7",
+     "formula": "Wish List: everything you want, with the regular price and the most you'd pay (your target)."
+    },
+    {
+     "cell": "B8",
+     "formula": "As sales go live, type the deal price. 'Buy now' shows when it hits your target."
+    },
+    {
+     "cell": "B9",
+     "formula": "Mark Bought (with the date) or Skipped. Return-by dates use each store's return window."
+    },
+    {
+     "cell": "B10",
+     "formula": "Stores: sale start dates, return windows and free-shipping minimums."
+    },
+    {
+     "cell": "B13",
+     "formula": "Set targets early"
+    },
+    {
+     "cell": "C13",
+     "formula": "Decide your max price before the hype. It stops impulse buys."
+    },
+    {
+     "cell": "B14",
+     "formula": "Must haves first"
+    },
+    {
+     "cell": "C14",
+     "formula": "Budget for must haves, then add nice-to-haves if there's room."
+    },
+    {
+     "cell": "B15",
+     "formula": "Price history"
+    },
+    {
+     "cell": "C15",
+     "formula": "A 'sale' isn't always a deal. Compare with the regular price."
+    },
+    {
+     "cell": "B16",
+     "formula": "Return windows"
+    },
+    {
+     "cell": "C16",
+     "formula": "Holiday returns are often extended. Note it on the Stores tab."
+    },
+    {
+     "cell": "C19",
+     "formula": "White cells are for typing."
+    },
+    {
+     "cell": "C20",
+     "formula": "Grey cells calculate."
+    },
+    {
+     "cell": "C21",
+     "formula": "Green = buy now / bought / great deal."
+    },
+    {
+     "cell": "C22",
+     "formula": "Red = over budget or return closing."
+    },
+    {
+     "cell": "B24",
+     "formula": "Happy hunting!"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B13:C16",
+     "color": "FDE6EE"
+    },
+    {
+     "range": "B19",
+     "color": "FFFFFF"
+    },
+    {
+     "range": "B20",
+     "color": "F8F8FA"
+    },
+    {
+     "range": "B21",
+     "color": "D7EFDD"
+    },
+    {
+     "range": "B22",
+     "color": "F6CACA"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B19",
+     "color": "DADADF"
+    },
+    {
+     "range": "B20",
+     "color": "DADADF"
+    },
+    {
+     "range": "B21",
+     "color": "DADADF"
+    },
+    {
+     "range": "B22",
+     "color": "DADADF"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 11,
+     "color": "1C1C1E"
+    },
+    {
+     "range": "B13:B16",
+     "bold": true,
+     "size": 11,
+     "color": "1C1C1E"
+    },
+    {
+     "range": "B24",
+     "italic": true,
+     "bold": true,
+     "size": 11,
+     "color": "1C1C1E"
+    }
+   ]
+  },
+  {
+   "name": "Dashboard",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "E8336D",
+   "grid_rows": 28,
+   "grid_cols": 19,
+   "column_widths": {
+    "A": 2.5,
+    "B": 18,
+    "C": 12,
+    "D": 12,
+    "E": 16,
+    "F": 16,
+    "G": 16,
+    "H": 16,
+    "I": 16,
+    "J": 2.5,
+    "R": 10
+   },
+   "hidden_columns": [
+    "R"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:I2",
+     "label": "BLACK FRIDAY DASHBOARD",
+     "size": 16,
+     "color": "1C1C1E",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "B15:D15",
+     "label": "BY CATEGORY",
+     "color": "F4F4F5",
+     "font_color": "1C1C1E",
+     "align": "left"
+    },
+    {
+     "range": "E15:I15",
+     "label": "WHERE THE MONEY GOES",
+     "color": "F4F4F5",
+     "font_color": "1C1C1E",
+     "align": "left"
+    }
+   ],
+   "kpi_cards": [
+    {
+     "anchor": "B5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "DAYS TO BLACK FRIDAY",
+     "value": "=IF(R10>0,R10,IF(R10=0,\"Today\",\"Sale is on\"))",
+     "fill": "E8336D",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "0"
+    },
+    {
+     "anchor": "D5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "BUDGET",
+     "value": "='Setup'!$R$6",
+     "fill": "1C1C1E",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "F5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "PLANNED SPEND",
+     "value": "=R4",
+     "fill": "E39A06",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "H5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "LEFT / OVER",
+     "value": "=IF(R9>=0,TEXT(R9,\"$#,##0\")&\" left\",\"Over \"&TEXT(-R9,\"$#,##0\"))",
+     "fill": "14A3A3",
+     "font_color": "FFFFFF",
+     "value_size": 16
+    },
+    {
+     "anchor": "B9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "SPENT SO FAR",
+     "value": "=R5",
+     "fill": "1C1C1E",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "D9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "SAVED VS REGULAR",
+     "value": "=R6",
+     "fill": "14A3A3",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "F9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "READY TO BUY",
+     "value": "=R7&IF(R7=1,\" deal\",\" deals\")",
+     "fill": "E8336D",
+     "font_color": "FFFFFF",
+     "value_size": 16
+    },
+    {
+     "anchor": "H9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "MUST HAVES",
+     "value": "=R11",
+     "fill": "E39A06",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "=\"Black Friday \"&'Setup'!$R$4&\"  |  \"&TEXT('Setup'!$R$7,\"ddd, mmm d\")&\"  |  Cyber Monday \"&TEXT('Setup'!$R$8,\"mmm d\")"
+    },
+    {
+     "cell": "R4",
+     "formula": "='Wish List'!N66",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R5",
+     "formula": "=ROUND(SUMIFS('Wish List'!$N$6:$N$65,'Wish List'!$R$6:$R$65,2),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R6",
+     "formula": "='Wish List'!O66",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R7",
+     "formula": "=COUNTIF('Wish List'!$M$6:$M$65,\"Buy now\")"
+    },
+    {
+     "cell": "R8",
+     "formula": "=COUNTIFS('Wish List'!$U$6:$U$65,\">=0\",'Wish List'!$U$6:$U$65,\"<=7\")"
+    },
+    {
+     "cell": "R9",
+     "formula": "=ROUND('Setup'!$R$6-R4,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "R10",
+     "formula": "='Setup'!$R$7-'Setup'!$R$5"
+    },
+    {
+     "cell": "R11",
+     "formula": "=ROUND(SUMIFS('Wish List'!$N$6:$N$65,'Wish List'!$S$6:$S$65,1),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B13",
+     "formula": "=REPT(\"█\",ROUND(MIN(1,MAX(0,IF('Setup'!$R$6>0,R5/'Setup'!$R$6,0)))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,IF('Setup'!$R$6>0,R5/'Setup'!$R$6,0)))*10,0))&\"  \"&TEXT(IF('Setup'!$R$6>0,R5/'Setup'!$R$6,0),\"0%\")&\" of the budget spent\""
+    },
+    {
+     "cell": "B14",
+     "formula": "=IF(R9<0,\"Your plan is \"&TEXT(-R9,\"$#,##0\")&\" over budget. Skip a Maybe or two.\",IF(R7>0,R7&IF(R7=1,\" deal has\",\" deals have\")&\" hit your target. Go get it!\",IF(R8>0,R8&IF(R8=1,\" return window closes\",\" return windows close\")&\" within a week.\",\"On plan. Happy hunting!\")))"
+    },
+    {
+     "cell": "B16",
+     "formula": "Category"
+    },
+    {
+     "cell": "C16",
+     "formula": "Planned"
+    },
+    {
+     "cell": "D16",
+     "formula": "Saved"
+    },
+    {
+     "cell": "B17",
+     "formula": "Tech"
+    },
+    {
+     "cell": "C17",
+     "formula": "=ROUND(SUMIFS('Wish List'!$N$6:$N$65,'Wish List'!$D$6:$D$65,B17),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D17",
+     "formula": "=ROUND(SUMIFS('Wish List'!$O$6:$O$65,'Wish List'!$D$6:$D$65,B17),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B18",
+     "formula": "TV & audio"
+    },
+    {
+     "cell": "C18",
+     "formula": "=ROUND(SUMIFS('Wish List'!$N$6:$N$65,'Wish List'!$D$6:$D$65,B18),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D18",
+     "formula": "=ROUND(SUMIFS('Wish List'!$O$6:$O$65,'Wish List'!$D$6:$D$65,B18),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B19",
+     "formula": "Home & kitchen"
+    },
+    {
+     "cell": "C19",
+     "formula": "=ROUND(SUMIFS('Wish List'!$N$6:$N$65,'Wish List'!$D$6:$D$65,B19),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D19",
+     "formula": "=ROUND(SUMIFS('Wish List'!$O$6:$O$65,'Wish List'!$D$6:$D$65,B19),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B20",
+     "formula": "Toys & games"
+    },
+    {
+     "cell": "C20",
+     "formula": "=ROUND(SUMIFS('Wish List'!$N$6:$N$65,'Wish List'!$D$6:$D$65,B20),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D20",
+     "formula": "=ROUND(SUMIFS('Wish List'!$O$6:$O$65,'Wish List'!$D$6:$D$65,B20),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B21",
+     "formula": "Clothes & shoes"
+    },
+    {
+     "cell": "C21",
+     "formula": "=ROUND(SUMIFS('Wish List'!$N$6:$N$65,'Wish List'!$D$6:$D$65,B21),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D21",
+     "formula": "=ROUND(SUMIFS('Wish List'!$O$6:$O$65,'Wish List'!$D$6:$D$65,B21),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B22",
+     "formula": "Beauty"
+    },
+    {
+     "cell": "C22",
+     "formula": "=ROUND(SUMIFS('Wish List'!$N$6:$N$65,'Wish List'!$D$6:$D$65,B22),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D22",
+     "formula": "=ROUND(SUMIFS('Wish List'!$O$6:$O$65,'Wish List'!$D$6:$D$65,B22),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B23",
+     "formula": "Tools & outdoor"
+    },
+    {
+     "cell": "C23",
+     "formula": "=ROUND(SUMIFS('Wish List'!$N$6:$N$65,'Wish List'!$D$6:$D$65,B23),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D23",
+     "formula": "=ROUND(SUMIFS('Wish List'!$O$6:$O$65,'Wish List'!$D$6:$D$65,B23),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B24",
+     "formula": "Gift cards"
+    },
+    {
+     "cell": "C24",
+     "formula": "=ROUND(SUMIFS('Wish List'!$N$6:$N$65,'Wish List'!$D$6:$D$65,B24),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D24",
+     "formula": "=ROUND(SUMIFS('Wish List'!$O$6:$O$65,'Wish List'!$D$6:$D$65,B24),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B25",
+     "formula": "Other"
+    },
+    {
+     "cell": "C25",
+     "formula": "=ROUND(SUMIFS('Wish List'!$N$6:$N$65,'Wish List'!$D$6:$D$65,B25),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D25",
+     "formula": "=ROUND(SUMIFS('Wish List'!$O$6:$O$65,'Wish List'!$D$6:$D$65,B25),2)",
+     "number_format": "$#,##0.00"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "B14:I14",
+     "type": "formula",
+     "formula": [
+      "$R$9<0"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "B14:I14",
+     "type": "formula",
+     "formula": [
+      "AND($R$9>=0,$R$7>0)"
+     ],
+     "fill": "D7EFDD"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B16:D16",
+     "color": "1C1C1E"
+    },
+    {
+     "range": "C17:D25",
+     "color": "F8F8FA"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:C7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "D5:E7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "F5:G7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "H5:I7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "B9:C11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "D9:E11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "F9:G11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "H9:I11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "B16:D25",
+     "color": "DADADF"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 11,
+     "color": "1C1C1E"
+    },
+    {
+     "range": "B13",
+     "bold": true,
+     "size": 12,
+     "color": "E8336D"
+    },
+    {
+     "range": "B14",
+     "bold": true,
+     "size": 11,
+     "color": "1C1C1E"
+    },
+    {
+     "range": "B16:D16",
+     "bold": true,
+     "size": 10,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "B17:B25",
+     "bold": true,
+     "size": 10,
+     "color": "1C1C1E"
+    },
+    {
+     "range": "C17:D25",
+     "align": "center"
+    }
+   ],
+   "charts": [
+    {
+     "type": "doughnut",
+     "anchor": "E16",
+     "data": "Dashboard!C17:C25",
+     "categories": "Dashboard!B17:B25",
+     "width": 16,
+     "height": 8,
+     "titles_from_data": false,
+     "colors": [
+      "E8336D",
+      "E39A06",
+      "14A3A3",
+      "1C1C1E",
+      "F48FB1",
+      "FFD180",
+      "80DEEA",
+      "757575",
+      "BDBDBD"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Setup",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "1C1C1E",
+   "grid_rows": 13,
+   "grid_cols": 19,
+   "column_widths": {
+    "A": 2.5,
+    "B": 18,
+    "C": 18,
+    "D": 22,
+    "E": 2.5,
+    "R": 12
+   },
+   "hidden_columns": [
+    "R"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:D2",
+     "label": "SETUP",
+     "size": 16,
+     "color": "1C1C1E",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B4",
+     "formula": "Setting"
+    },
+    {
+     "cell": "C4",
+     "formula": "Yours"
+    },
+    {
+     "cell": "D4",
+     "formula": "Note"
+    },
+    {
+     "cell": "B5",
+     "formula": "Year"
+    },
+    {
+     "cell": "D5",
+     "formula": "Blank = this year."
+    },
+    {
+     "cell": "C5",
+     "formula": 2027
+    },
+    {
+     "cell": "B6",
+     "formula": "Today"
+    },
+    {
+     "cell": "D6",
+     "formula": "Blank = today."
+    },
+    {
+     "cell": "C6",
+     "formula": "=DATE(2027,11,28)"
+    },
+    {
+     "cell": "B7",
+     "formula": "Total budget"
+    },
+    {
+     "cell": "C7",
+     "formula": 1500
+    },
+    {
+     "cell": "R5",
+     "formula": "=IF(AND(ISNUMBER(C6),N(C6)>=1),INT(C6),TODAY())",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "R4",
+     "formula": "=IF(AND(ISNUMBER(C5),N(C5)>=1900,N(C5)<=9999),INT(C5),YEAR(R5))"
+    },
+    {
+     "cell": "R6",
+     "formula": "=IF(ISNUMBER(C7),MAX(0,C7),0)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R7",
+     "formula": "=DATE(R4,11,1)+MOD(5-WEEKDAY(DATE(R4,11,1)),7)+22",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "R8",
+     "formula": "=R7+3",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "B9",
+     "formula": "Thanksgiving"
+    },
+    {
+     "cell": "C9",
+     "formula": "=TEXT(R7-1,\"ddd, mmm d\")"
+    },
+    {
+     "cell": "B10",
+     "formula": "Black Friday"
+    },
+    {
+     "cell": "C10",
+     "formula": "=TEXT(R7,\"ddd, mmm d\")"
+    },
+    {
+     "cell": "B11",
+     "formula": "Cyber Monday"
+    },
+    {
+     "cell": "C11",
+     "formula": "=TEXT(R8,\"ddd, mmm d\")"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "C6",
+     "type": "formula",
+     "formula": [
+      "AND(C6<>\"\",OR(NOT(ISNUMBER(C6)),N(C6)<1))"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C7",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C7<>\"\",NOT(ISNUMBER(C7))),N(C7)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C5",
+     "type": "formula",
+     "formula": [
+      "AND(C5<>\"\",OR(NOT(ISNUMBER(C5)),N(C5)<1900,N(C5)>9999))"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B4:D4",
+     "color": "F4F4F5"
+    },
+    {
+     "range": "C5:C7",
+     "color": "FFFFFF"
+    },
+    {
+     "range": "C9:C11",
+     "color": "F8F8FA"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B4:D7",
+     "color": "DADADF"
+    },
+    {
+     "range": "B9:C11",
+     "color": "DADADF"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B4:D4",
+     "bold": true,
+     "size": 10,
+     "color": "1C1C1E",
+     "align": "center"
+    },
+    {
+     "range": "B5:B7",
+     "bold": true,
+     "size": 10,
+     "color": "1C1C1E"
+    },
+    {
+     "range": "D5:D7",
+     "italic": true,
+     "size": 9,
+     "color": "1C1C1E"
+    },
+    {
+     "range": "C5:C7",
+     "bold": true,
+     "size": 11,
+     "color": "1C1C1E",
+     "align": "center"
+    },
+    {
+     "range": "B9:B11",
+     "bold": true,
+     "size": 10,
+     "color": "1C1C1E"
+    },
+    {
+     "range": "C9:C11",
+     "bold": true,
+     "size": 11,
+     "color": "E8336D",
+     "align": "center"
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "C5",
+     "format": "0"
+    },
+    {
+     "range": "C6",
+     "format": "mmm d, yyyy"
+    },
+    {
+     "range": "C7",
+     "format": "$#,##0.00"
+    }
+   ]
+  },
+  {
+   "name": "Wish List",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "E8336D",
+   "grid_rows": 68,
+   "grid_cols": 22,
+   "freeze": "C6",
+   "column_widths": {
+    "A": 2.5,
+    "B": 22,
+    "C": 11,
+    "D": 15,
+    "E": 13,
+    "F": 12,
+    "G": 10,
+    "H": 10,
+    "I": 10,
+    "J": 10,
+    "K": 10,
+    "L": 7,
+    "M": 15,
+    "N": 10,
+    "O": 9,
+    "P": 10,
+    "Q": 2.5,
+    "R": 3,
+    "S": 3,
+    "T": 3,
+    "U": 3
+   },
+   "hidden_columns": [
+    "R",
+    "S",
+    "T",
+    "U"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:P2",
+     "label": "WISH LIST",
+     "size": 16,
+     "color": "1C1C1E",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Target = the most you'll pay. When the deal price hits it, the verdict says Buy now"
+    },
+    {
+     "cell": "B5",
+     "formula": "Item"
+    },
+    {
+     "cell": "C5",
+     "formula": "For"
+    },
+    {
+     "cell": "D5",
+     "formula": "Category"
+    },
+    {
+     "cell": "E5",
+     "formula": "Store"
+    },
+    {
+     "cell": "F5",
+     "formula": "Priority"
+    },
+    {
+     "cell": "G5",
+     "formula": "Regular price"
+    },
+    {
+     "cell": "H5",
+     "formula": "My target"
+    },
+    {
+     "cell": "I5",
+     "formula": "Deal price"
+    },
+    {
+     "cell": "J5",
+     "formula": "Status"
+    },
+    {
+     "cell": "K5",
+     "formula": "Bought on"
+    },
+    {
+     "cell": "L5",
+     "formula": "% off"
+    },
+    {
+     "cell": "M5",
+     "formula": "Verdict"
+    },
+    {
+     "cell": "N5",
+     "formula": "Planned"
+    },
+    {
+     "cell": "O5",
+     "formula": "Saved"
+    },
+    {
+     "cell": "P5",
+     "formula": "Return by"
+    },
+    {
+     "cell": "B6",
+     "formula": "55in 4K TV"
+    },
+    {
+     "cell": "C6",
+     "formula": "Family"
+    },
+    {
+     "cell": "D6",
+     "formula": "TV & audio"
+    },
+    {
+     "cell": "E6",
+     "formula": "Best Buy"
+    },
+    {
+     "cell": "F6",
+     "formula": "Must have"
+    },
+    {
+     "cell": "G6",
+     "formula": 599
+    },
+    {
+     "cell": "H6",
+     "formula": 399
+    },
+    {
+     "cell": "I6",
+     "formula": 379
+    },
+    {
+     "cell": "J6",
+     "formula": "Bought"
+    },
+    {
+     "cell": "K6",
+     "formula": "=DATE(2027,11,26)"
+    },
+    {
+     "cell": "B7",
+     "formula": "Air fryer"
+    },
+    {
+     "cell": "C7",
+     "formula": "Mom"
+    },
+    {
+     "cell": "D7",
+     "formula": "Home & kitchen"
+    },
+    {
+     "cell": "E7",
+     "formula": "Target"
+    },
+    {
+     "cell": "F7",
+     "formula": "Nice to have"
+    },
+    {
+     "cell": "G7",
+     "formula": 129
+    },
+    {
+     "cell": "H7",
+     "formula": 79
+    },
+    {
+     "cell": "I7",
+     "formula": 89
+    },
+    {
+     "cell": "J7",
+     "formula": "Watching"
+    },
+    {
+     "cell": "B8",
+     "formula": "Wireless earbuds"
+    },
+    {
+     "cell": "C8",
+     "formula": "Me"
+    },
+    {
+     "cell": "D8",
+     "formula": "Tech"
+    },
+    {
+     "cell": "E8",
+     "formula": "Amazon"
+    },
+    {
+     "cell": "F8",
+     "formula": "Must have"
+    },
+    {
+     "cell": "G8",
+     "formula": 249
+    },
+    {
+     "cell": "H8",
+     "formula": 179
+    },
+    {
+     "cell": "I8",
+     "formula": 169
+    },
+    {
+     "cell": "J8",
+     "formula": "Bought"
+    },
+    {
+     "cell": "K8",
+     "formula": "=DATE(2027,11,22)"
+    },
+    {
+     "cell": "B9",
+     "formula": "Robot vacuum"
+    },
+    {
+     "cell": "C9",
+     "formula": "Home"
+    },
+    {
+     "cell": "D9",
+     "formula": "Home & kitchen"
+    },
+    {
+     "cell": "E9",
+     "formula": "Amazon"
+    },
+    {
+     "cell": "F9",
+     "formula": "Nice to have"
+    },
+    {
+     "cell": "G9",
+     "formula": 399
+    },
+    {
+     "cell": "H9",
+     "formula": 229
+    },
+    {
+     "cell": "J9",
+     "formula": "Watching"
+    },
+    {
+     "cell": "B10",
+     "formula": "LEGO set"
+    },
+    {
+     "cell": "C10",
+     "formula": "Jack"
+    },
+    {
+     "cell": "D10",
+     "formula": "Toys & games"
+    },
+    {
+     "cell": "E10",
+     "formula": "Walmart"
+    },
+    {
+     "cell": "F10",
+     "formula": "Must have"
+    },
+    {
+     "cell": "G10",
+     "formula": 99
+    },
+    {
+     "cell": "H10",
+     "formula": 70
+    },
+    {
+     "cell": "I10",
+     "formula": 64.99
+    },
+    {
+     "cell": "J10",
+     "formula": "Watching"
+    },
+    {
+     "cell": "B11",
+     "formula": "Winter boots"
+    },
+    {
+     "cell": "C11",
+     "formula": "Emma"
+    },
+    {
+     "cell": "D11",
+     "formula": "Clothes & shoes"
+    },
+    {
+     "cell": "E11",
+     "formula": "Nordstrom"
+    },
+    {
+     "cell": "F11",
+     "formula": "Must have"
+    },
+    {
+     "cell": "G11",
+     "formula": 140
+    },
+    {
+     "cell": "H11",
+     "formula": 90
+    },
+    {
+     "cell": "I11",
+     "formula": 98
+    },
+    {
+     "cell": "J11",
+     "formula": "Watching"
+    },
+    {
+     "cell": "B12",
+     "formula": "Skincare set"
+    },
+    {
+     "cell": "C12",
+     "formula": "Kate"
+    },
+    {
+     "cell": "D12",
+     "formula": "Beauty"
+    },
+    {
+     "cell": "E12",
+     "formula": "Sephora"
+    },
+    {
+     "cell": "F12",
+     "formula": "Nice to have"
+    },
+    {
+     "cell": "G12",
+     "formula": 85
+    },
+    {
+     "cell": "H12",
+     "formula": 55
+    },
+    {
+     "cell": "I12",
+     "formula": 59.5
+    },
+    {
+     "cell": "J12",
+     "formula": "Bought"
+    },
+    {
+     "cell": "K12",
+     "formula": "=DATE(2027,11,28)"
+    },
+    {
+     "cell": "B13",
+     "formula": "Cordless drill"
+    },
+    {
+     "cell": "C13",
+     "formula": "Dad"
+    },
+    {
+     "cell": "D13",
+     "formula": "Tools & outdoor"
+    },
+    {
+     "cell": "E13",
+     "formula": "Home Depot"
+    },
+    {
+     "cell": "F13",
+     "formula": "Nice to have"
+    },
+    {
+     "cell": "G13",
+     "formula": 179
+    },
+    {
+     "cell": "H13",
+     "formula": 99
+    },
+    {
+     "cell": "I13",
+     "formula": 99
+    },
+    {
+     "cell": "J13",
+     "formula": "Watching"
+    },
+    {
+     "cell": "B14",
+     "formula": "Gaming console"
+    },
+    {
+     "cell": "C14",
+     "formula": "Kids"
+    },
+    {
+     "cell": "D14",
+     "formula": "Toys & games"
+    },
+    {
+     "cell": "E14",
+     "formula": "Best Buy"
+    },
+    {
+     "cell": "F14",
+     "formula": "Maybe"
+    },
+    {
+     "cell": "G14",
+     "formula": 499
+    },
+    {
+     "cell": "H14",
+     "formula": 399
+    },
+    {
+     "cell": "I14",
+     "formula": 449
+    },
+    {
+     "cell": "J14",
+     "formula": "Skipped"
+    },
+    {
+     "cell": "B15",
+     "formula": "Streaming gift card"
+    },
+    {
+     "cell": "C15",
+     "formula": "Grandma"
+    },
+    {
+     "cell": "D15",
+     "formula": "Gift cards"
+    },
+    {
+     "cell": "E15",
+     "formula": "Amazon"
+    },
+    {
+     "cell": "F15",
+     "formula": "Maybe"
+    },
+    {
+     "cell": "G15",
+     "formula": 50
+    },
+    {
+     "cell": "H15",
+     "formula": 40
+    },
+    {
+     "cell": "I15",
+     "formula": 40
+    },
+    {
+     "cell": "J15",
+     "formula": "Watching"
+    },
+    {
+     "col": "R",
+     "range_rows": [
+      6,
+      65
+     ],
+     "formula": "=IF(TRIM(B{row}&\"\")=\"\",0,IF(TRIM(J{row}&\"\")=\"\",1,IFERROR(MATCH(LOWER(TRIM(J{row}&\"\")),{\"watching\",\"bought\",\"skipped\"},0),1)))"
+    },
+    {
+     "col": "S",
+     "range_rows": [
+      6,
+      65
+     ],
+     "formula": "=IF(TRIM(F{row}&\"\")=\"\",2,IFERROR(MATCH(LOWER(TRIM(F{row}&\"\")),{\"must have\",\"nice to have\",\"maybe\"},0),2))"
+    },
+    {
+     "col": "T",
+     "range_rows": [
+      6,
+      65
+     ],
+     "formula": "=IF(TRIM(E{row}&\"\")=\"\",0,IFERROR(MATCH(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(LOWER(TRIM(E{row}&\"\")),\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"),'Stores'!$R$6:$R$20,0),0))"
+    },
+    {
+     "col": "L",
+     "range_rows": [
+      6,
+      65
+     ],
+     "formula": "=IF(AND(ISNUMBER(G{row}),G{row}>0,ISNUMBER(I{row})),MAX(0,1-I{row}/G{row}),\"\")",
+     "number_format": "0%"
+    },
+    {
+     "col": "M",
+     "range_rows": [
+      6,
+      65
+     ],
+     "formula": "=IF(R{row}=0,\"\",IF(R{row}=2,\"Bought\",IF(R{row}=3,\"Skipped\",IF(NOT(ISNUMBER(I{row})),\"Waiting for a deal\",IF(AND(ISNUMBER(H{row}),I{row}<=H{row}),\"Buy now\",\"Wait\")))))"
+    },
+    {
+     "col": "N",
+     "range_rows": [
+      6,
+      65
+     ],
+     "formula": "=IF(OR(R{row}=0,R{row}=3),0,ROUND(IF(ISNUMBER(I{row}),I{row},IF(ISNUMBER(H{row}),H{row},N(G{row}))),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "O",
+     "range_rows": [
+      6,
+      65
+     ],
+     "formula": "=IF(AND(R{row}=2,ISNUMBER(G{row}),ISNUMBER(I{row})),MAX(0,ROUND(G{row}-I{row},2)),0)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "P",
+     "range_rows": [
+      6,
+      65
+     ],
+     "formula": "=IF(AND(R{row}=2,ISNUMBER(K{row}),N(K{row})>=1,T{row}>0),IF(ISNUMBER(INDEX('Stores'!$D$6:$D$20,T{row})),INT(K{row})+INDEX('Stores'!$D$6:$D$20,T{row}),\"\"),\"\")",
+     "number_format": "mmm d"
+    },
+    {
+     "col": "U",
+     "range_rows": [
+      6,
+      65
+     ],
+     "formula": "=IF(P{row}=\"\",\"\",P{row}-'Setup'!$R$5)"
+    },
+    {
+     "cell": "B66",
+     "formula": "Total"
+    },
+    {
+     "cell": "G66",
+     "formula": "=ROUND(SUMIFS(G6:G65,R6:R65,\"<>3\",R6:R65,\">0\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "N66",
+     "formula": "=ROUND(SUM(N6:N65),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "O66",
+     "formula": "=ROUND(SUM(O6:O65),2)",
+     "number_format": "$#,##0.00"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "B6:P65",
+     "type": "formula",
+     "formula": [
+      "$M6=\"Buy now\""
+     ],
+     "fill": "D7EFDD"
+    },
+    {
+     "range": "B6:P65",
+     "type": "formula",
+     "formula": [
+      "$M6=\"Bought\""
+     ],
+     "fill": "DDF3F3"
+    },
+    {
+     "range": "B6:P65",
+     "type": "formula",
+     "formula": [
+      "$M6=\"Skipped\""
+     ],
+     "fill": "EEEEEE"
+    },
+    {
+     "range": "P6:P65",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER($U6),$U6>=0,$U6<=7)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "L6:L65",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER(L6),L6>=0.4)"
+     ],
+     "fill": "FFF3D6"
+    },
+    {
+     "range": "G6:I65",
+     "type": "formula",
+     "formula": [
+      "OR(AND(G6<>\"\",NOT(ISNUMBER(G6))),N(G6)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "K6:K65",
+     "type": "formula",
+     "formula": [
+      "AND(K6<>\"\",OR(NOT(ISNUMBER(K6)),N(K6)<1))"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B5:P5",
+     "color": "1C1C1E"
+    },
+    {
+     "range": "L6:P65",
+     "color": "F8F8FA"
+    },
+    {
+     "range": "B66:P66",
+     "color": "F4F4F5"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:P66",
+     "color": "DADADF"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "1C1C1E"
+    },
+    {
+     "range": "B5:P5",
+     "wrap": true,
+     "bold": true,
+     "size": 9,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "C6:P66",
+     "align": "center"
+    },
+    {
+     "range": "M6:M65",
+     "bold": true,
+     "size": 10,
+     "color": "E8336D",
+     "align": "center"
+    },
+    {
+     "range": "O6:O66",
+     "bold": true,
+     "size": 10,
+     "color": "14A3A3",
+     "align": "center"
+    },
+    {
+     "range": "B66:P66",
+     "bold": true,
+     "size": 10,
+     "color": "1C1C1E"
+    }
+   ],
+   "row_heights": {
+    "5": 30
+   },
+   "validations": [
+    {
+     "range": "D6:D65",
+     "type": "list",
+     "values": [
+      "Tech",
+      "TV & audio",
+      "Home & kitchen",
+      "Toys & games",
+      "Clothes & shoes",
+      "Beauty",
+      "Tools & outdoor",
+      "Gift cards",
+      "Other"
+     ],
+     "strict": false
+    },
+    {
+     "range": "E6:E65",
+     "type": "list_range",
+     "source": "'Stores'!$B$6:$B$20",
+     "strict": false
+    },
+    {
+     "range": "F6:F65",
+     "type": "list",
+     "values": [
+      "Must have",
+      "Nice to have",
+      "Maybe"
+     ],
+     "strict": false
+    },
+    {
+     "range": "J6:J65",
+     "type": "list",
+     "values": [
+      "Watching",
+      "Bought",
+      "Skipped"
+     ],
+     "strict": false
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "G6:I65",
+     "format": "$#,##0.00"
+    },
+    {
+     "range": "K6:K65",
+     "format": "mmm d"
+    }
+   ]
+  },
+  {
+   "name": "Stores",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "E39A06",
+   "grid_rows": 39,
+   "grid_cols": 19,
+   "column_widths": {
+    "A": 2.5,
+    "B": 16,
+    "C": 11,
+    "D": 11,
+    "E": 11,
+    "F": 26,
+    "G": 12,
+    "H": 11,
+    "I": 7,
+    "J": 2.5,
+    "R": 3
+   },
+   "hidden_columns": [
+    "R"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:I2",
+     "label": "STORES",
+     "size": 16,
+     "color": "1C1C1E",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Return window = days you have to return. Leave Free shipping blank if there's none."
+    },
+    {
+     "cell": "B5",
+     "formula": "Store"
+    },
+    {
+     "cell": "C5",
+     "formula": "Sale starts"
+    },
+    {
+     "cell": "D5",
+     "formula": "Return window (days)"
+    },
+    {
+     "cell": "E5",
+     "formula": "Free shipping over"
+    },
+    {
+     "cell": "F5",
+     "formula": "Notes"
+    },
+    {
+     "cell": "G5",
+     "formula": "Bought here"
+    },
+    {
+     "cell": "H5",
+     "formula": "You saved"
+    },
+    {
+     "cell": "I5",
+     "formula": "Items"
+    },
+    {
+     "cell": "B6",
+     "formula": "Best Buy"
+    },
+    {
+     "cell": "C6",
+     "formula": "=DATE(2027,11,21)"
+    },
+    {
+     "cell": "D6",
+     "formula": 15
+    },
+    {
+     "cell": "E6",
+     "formula": 35
+    },
+    {
+     "cell": "F6",
+     "formula": "Price match until Dec 24"
+    },
+    {
+     "cell": "R6",
+     "formula": "=LOWER(TRIM(B6&\"\"))"
+    },
+    {
+     "cell": "G6",
+     "formula": "=IF(TRIM(B6&\"\")=\"\",\"\",ROUND(SUMIFS('Wish List'!$N$6:$N$65,'Wish List'!$T$6:$T$65,1,'Wish List'!$R$6:$R$65,2),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H6",
+     "formula": "=IF(TRIM(B6&\"\")=\"\",\"\",ROUND(SUMIFS('Wish List'!$O$6:$O$65,'Wish List'!$T$6:$T$65,1),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I6",
+     "formula": "=IF(TRIM(B6&\"\")=\"\",\"\",COUNTIFS('Wish List'!$T$6:$T$65,1,'Wish List'!$R$6:$R$65,\"<>3\"))"
+    },
+    {
+     "cell": "B7",
+     "formula": "Amazon"
+    },
+    {
+     "cell": "C7",
+     "formula": "=DATE(2027,11,21)"
+    },
+    {
+     "cell": "D7",
+     "formula": 30
+    },
+    {
+     "cell": "E7",
+     "formula": 35
+    },
+    {
+     "cell": "F7",
+     "formula": "Extended holiday returns"
+    },
+    {
+     "cell": "R7",
+     "formula": "=LOWER(TRIM(B7&\"\"))"
+    },
+    {
+     "cell": "G7",
+     "formula": "=IF(TRIM(B7&\"\")=\"\",\"\",ROUND(SUMIFS('Wish List'!$N$6:$N$65,'Wish List'!$T$6:$T$65,2,'Wish List'!$R$6:$R$65,2),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H7",
+     "formula": "=IF(TRIM(B7&\"\")=\"\",\"\",ROUND(SUMIFS('Wish List'!$O$6:$O$65,'Wish List'!$T$6:$T$65,2),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I7",
+     "formula": "=IF(TRIM(B7&\"\")=\"\",\"\",COUNTIFS('Wish List'!$T$6:$T$65,2,'Wish List'!$R$6:$R$65,\"<>3\"))"
+    },
+    {
+     "cell": "B8",
+     "formula": "Target"
+    },
+    {
+     "cell": "C8",
+     "formula": "=DATE(2027,11,23)"
+    },
+    {
+     "cell": "D8",
+     "formula": 90
+    },
+    {
+     "cell": "E8",
+     "formula": 35
+    },
+    {
+     "cell": "F8",
+     "formula": "Circle week deals"
+    },
+    {
+     "cell": "R8",
+     "formula": "=LOWER(TRIM(B8&\"\"))"
+    },
+    {
+     "cell": "G8",
+     "formula": "=IF(TRIM(B8&\"\")=\"\",\"\",ROUND(SUMIFS('Wish List'!$N$6:$N$65,'Wish List'!$T$6:$T$65,3,'Wish List'!$R$6:$R$65,2),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H8",
+     "formula": "=IF(TRIM(B8&\"\")=\"\",\"\",ROUND(SUMIFS('Wish List'!$O$6:$O$65,'Wish List'!$T$6:$T$65,3),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I8",
+     "formula": "=IF(TRIM(B8&\"\")=\"\",\"\",COUNTIFS('Wish List'!$T$6:$T$65,3,'Wish List'!$R$6:$R$65,\"<>3\"))"
+    },
+    {
+     "cell": "B9",
+     "formula": "Walmart"
+    },
+    {
+     "cell": "C9",
+     "formula": "=DATE(2027,11,24)"
+    },
+    {
+     "cell": "D9",
+     "formula": 90
+    },
+    {
+     "cell": "E9",
+     "formula": 35
+    },
+    {
+     "cell": "R9",
+     "formula": "=LOWER(TRIM(B9&\"\"))"
+    },
+    {
+     "cell": "G9",
+     "formula": "=IF(TRIM(B9&\"\")=\"\",\"\",ROUND(SUMIFS('Wish List'!$N$6:$N$65,'Wish List'!$T$6:$T$65,4,'Wish List'!$R$6:$R$65,2),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H9",
+     "formula": "=IF(TRIM(B9&\"\")=\"\",\"\",ROUND(SUMIFS('Wish List'!$O$6:$O$65,'Wish List'!$T$6:$T$65,4),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I9",
+     "formula": "=IF(TRIM(B9&\"\")=\"\",\"\",COUNTIFS('Wish List'!$T$6:$T$65,4,'Wish List'!$R$6:$R$65,\"<>3\"))"
+    },
+    {
+     "cell": "B10",
+     "formula": "Nordstrom"
+    },
+    {
+     "cell": "C10",
+     "formula": "=DATE(2027,11,25)"
+    },
+    {
+     "cell": "D10",
+     "formula": 45
+    },
+    {
+     "cell": "E10",
+     "formula": 0
+    },
+    {
+     "cell": "F10",
+     "formula": "Free shipping always"
+    },
+    {
+     "cell": "R10",
+     "formula": "=LOWER(TRIM(B10&\"\"))"
+    },
+    {
+     "cell": "G10",
+     "formula": "=IF(TRIM(B10&\"\")=\"\",\"\",ROUND(SUMIFS('Wish List'!$N$6:$N$65,'Wish List'!$T$6:$T$65,5,'Wish List'!$R$6:$R$65,2),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H10",
+     "formula": "=IF(TRIM(B10&\"\")=\"\",\"\",ROUND(SUMIFS('Wish List'!$O$6:$O$65,'Wish List'!$T$6:$T$65,5),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I10",
+     "formula": "=IF(TRIM(B10&\"\")=\"\",\"\",COUNTIFS('Wish List'!$T$6:$T$65,5,'Wish List'!$R$6:$R$65,\"<>3\"))"
+    },
+    {
+     "cell": "B11",
+     "formula": "Sephora"
+    },
+    {
+     "cell": "C11",
+     "formula": "=DATE(2027,11,22)"
+    },
+    {
+     "cell": "D11",
+     "formula": 30
+    },
+    {
+     "cell": "E11",
+     "formula": 50
+    },
+    {
+     "cell": "R11",
+     "formula": "=LOWER(TRIM(B11&\"\"))"
+    },
+    {
+     "cell": "G11",
+     "formula": "=IF(TRIM(B11&\"\")=\"\",\"\",ROUND(SUMIFS('Wish List'!$N$6:$N$65,'Wish List'!$T$6:$T$65,6,'Wish List'!$R$6:$R$65,2),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H11",
+     "formula": "=IF(TRIM(B11&\"\")=\"\",\"\",ROUND(SUMIFS('Wish List'!$O$6:$O$65,'Wish List'!$T$6:$T$65,6),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I11",
+     "formula": "=IF(TRIM(B11&\"\")=\"\",\"\",COUNTIFS('Wish List'!$T$6:$T$65,6,'Wish List'!$R$6:$R$65,\"<>3\"))"
+    },
+    {
+     "cell": "B12",
+     "formula": "Home Depot"
+    },
+    {
+     "cell": "C12",
+     "formula": "=DATE(2027,11,18)"
+    },
+    {
+     "cell": "D12",
+     "formula": 90
+    },
+    {
+     "cell": "E12",
+     "formula": 45
+    },
+    {
+     "cell": "R12",
+     "formula": "=LOWER(TRIM(B12&\"\"))"
+    },
+    {
+     "cell": "G12",
+     "formula": "=IF(TRIM(B12&\"\")=\"\",\"\",ROUND(SUMIFS('Wish List'!$N$6:$N$65,'Wish List'!$T$6:$T$65,7,'Wish List'!$R$6:$R$65,2),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H12",
+     "formula": "=IF(TRIM(B12&\"\")=\"\",\"\",ROUND(SUMIFS('Wish List'!$O$6:$O$65,'Wish List'!$T$6:$T$65,7),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I12",
+     "formula": "=IF(TRIM(B12&\"\")=\"\",\"\",COUNTIFS('Wish List'!$T$6:$T$65,7,'Wish List'!$R$6:$R$65,\"<>3\"))"
+    },
+    {
+     "cell": "R13",
+     "formula": "=LOWER(TRIM(B13&\"\"))"
+    },
+    {
+     "cell": "G13",
+     "formula": "=IF(TRIM(B13&\"\")=\"\",\"\",ROUND(SUMIFS('Wish List'!$N$6:$N$65,'Wish List'!$T$6:$T$65,8,'Wish List'!$R$6:$R$65,2),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H13",
+     "formula": "=IF(TRIM(B13&\"\")=\"\",\"\",ROUND(SUMIFS('Wish List'!$O$6:$O$65,'Wish List'!$T$6:$T$65,8),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I13",
+     "formula": "=IF(TRIM(B13&\"\")=\"\",\"\",COUNTIFS('Wish List'!$T$6:$T$65,8,'Wish List'!$R$6:$R$65,\"<>3\"))"
+    },
+    {
+     "cell": "R14",
+     "formula": "=LOWER(TRIM(B14&\"\"))"
+    },
+    {
+     "cell": "G14",
+     "formula": "=IF(TRIM(B14&\"\")=\"\",\"\",ROUND(SUMIFS('Wish List'!$N$6:$N$65,'Wish List'!$T$6:$T$65,9,'Wish List'!$R$6:$R$65,2),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H14",
+     "formula": "=IF(TRIM(B14&\"\")=\"\",\"\",ROUND(SUMIFS('Wish List'!$O$6:$O$65,'Wish List'!$T$6:$T$65,9),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I14",
+     "formula": "=IF(TRIM(B14&\"\")=\"\",\"\",COUNTIFS('Wish List'!$T$6:$T$65,9,'Wish List'!$R$6:$R$65,\"<>3\"))"
+    },
+    {
+     "cell": "R15",
+     "formula": "=LOWER(TRIM(B15&\"\"))"
+    },
+    {
+     "cell": "G15",
+     "formula": "=IF(TRIM(B15&\"\")=\"\",\"\",ROUND(SUMIFS('Wish List'!$N$6:$N$65,'Wish List'!$T$6:$T$65,10,'Wish List'!$R$6:$R$65,2),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H15",
+     "formula": "=IF(TRIM(B15&\"\")=\"\",\"\",ROUND(SUMIFS('Wish List'!$O$6:$O$65,'Wish List'!$T$6:$T$65,10),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I15",
+     "formula": "=IF(TRIM(B15&\"\")=\"\",\"\",COUNTIFS('Wish List'!$T$6:$T$65,10,'Wish List'!$R$6:$R$65,\"<>3\"))"
+    },
+    {
+     "cell": "R16",
+     "formula": "=LOWER(TRIM(B16&\"\"))"
+    },
+    {
+     "cell": "G16",
+     "formula": "=IF(TRIM(B16&\"\")=\"\",\"\",ROUND(SUMIFS('Wish List'!$N$6:$N$65,'Wish List'!$T$6:$T$65,11,'Wish List'!$R$6:$R$65,2),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H16",
+     "formula": "=IF(TRIM(B16&\"\")=\"\",\"\",ROUND(SUMIFS('Wish List'!$O$6:$O$65,'Wish List'!$T$6:$T$65,11),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I16",
+     "formula": "=IF(TRIM(B16&\"\")=\"\",\"\",COUNTIFS('Wish List'!$T$6:$T$65,11,'Wish List'!$R$6:$R$65,\"<>3\"))"
+    },
+    {
+     "cell": "R17",
+     "formula": "=LOWER(TRIM(B17&\"\"))"
+    },
+    {
+     "cell": "G17",
+     "formula": "=IF(TRIM(B17&\"\")=\"\",\"\",ROUND(SUMIFS('Wish List'!$N$6:$N$65,'Wish List'!$T$6:$T$65,12,'Wish List'!$R$6:$R$65,2),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H17",
+     "formula": "=IF(TRIM(B17&\"\")=\"\",\"\",ROUND(SUMIFS('Wish List'!$O$6:$O$65,'Wish List'!$T$6:$T$65,12),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I17",
+     "formula": "=IF(TRIM(B17&\"\")=\"\",\"\",COUNTIFS('Wish List'!$T$6:$T$65,12,'Wish List'!$R$6:$R$65,\"<>3\"))"
+    },
+    {
+     "cell": "R18",
+     "formula": "=LOWER(TRIM(B18&\"\"))"
+    },
+    {
+     "cell": "G18",
+     "formula": "=IF(TRIM(B18&\"\")=\"\",\"\",ROUND(SUMIFS('Wish List'!$N$6:$N$65,'Wish List'!$T$6:$T$65,13,'Wish List'!$R$6:$R$65,2),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H18",
+     "formula": "=IF(TRIM(B18&\"\")=\"\",\"\",ROUND(SUMIFS('Wish List'!$O$6:$O$65,'Wish List'!$T$6:$T$65,13),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I18",
+     "formula": "=IF(TRIM(B18&\"\")=\"\",\"\",COUNTIFS('Wish List'!$T$6:$T$65,13,'Wish List'!$R$6:$R$65,\"<>3\"))"
+    },
+    {
+     "cell": "R19",
+     "formula": "=LOWER(TRIM(B19&\"\"))"
+    },
+    {
+     "cell": "G19",
+     "formula": "=IF(TRIM(B19&\"\")=\"\",\"\",ROUND(SUMIFS('Wish List'!$N$6:$N$65,'Wish List'!$T$6:$T$65,14,'Wish List'!$R$6:$R$65,2),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H19",
+     "formula": "=IF(TRIM(B19&\"\")=\"\",\"\",ROUND(SUMIFS('Wish List'!$O$6:$O$65,'Wish List'!$T$6:$T$65,14),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I19",
+     "formula": "=IF(TRIM(B19&\"\")=\"\",\"\",COUNTIFS('Wish List'!$T$6:$T$65,14,'Wish List'!$R$6:$R$65,\"<>3\"))"
+    },
+    {
+     "cell": "R20",
+     "formula": "=LOWER(TRIM(B20&\"\"))"
+    },
+    {
+     "cell": "G20",
+     "formula": "=IF(TRIM(B20&\"\")=\"\",\"\",ROUND(SUMIFS('Wish List'!$N$6:$N$65,'Wish List'!$T$6:$T$65,15,'Wish List'!$R$6:$R$65,2),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H20",
+     "formula": "=IF(TRIM(B20&\"\")=\"\",\"\",ROUND(SUMIFS('Wish List'!$O$6:$O$65,'Wish List'!$T$6:$T$65,15),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I20",
+     "formula": "=IF(TRIM(B20&\"\")=\"\",\"\",COUNTIFS('Wish List'!$T$6:$T$65,15,'Wish List'!$R$6:$R$65,\"<>3\"))"
+    },
+    {
+     "cell": "B21",
+     "formula": "Total"
+    },
+    {
+     "cell": "G21",
+     "formula": "=ROUND(SUM(G6:G20),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H21",
+     "formula": "=ROUND(SUM(H6:H20),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I21",
+     "formula": "=SUM(I6:I20)"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "C6:C20",
+     "type": "formula",
+     "formula": [
+      "AND(C6<>\"\",OR(NOT(ISNUMBER(C6)),N(C6)<1))"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "D6:E20",
+     "type": "formula",
+     "formula": [
+      "OR(AND(D6<>\"\",NOT(ISNUMBER(D6))),N(D6)<0)"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B5:I5",
+     "color": "1C1C1E"
+    },
+    {
+     "range": "B6:F20",
+     "color": "FFFFFF"
+    },
+    {
+     "range": "G6:I20",
+     "color": "F8F8FA"
+    },
+    {
+     "range": "B21:I21",
+     "color": "F4F4F5"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:I21",
+     "color": "DADADF"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "1C1C1E"
+    },
+    {
+     "range": "B5:I5",
+     "wrap": true,
+     "bold": true,
+     "size": 9,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "B6:B21",
+     "bold": true,
+     "size": 10,
+     "color": "1C1C1E"
+    },
+    {
+     "range": "C6:I21",
+     "align": "center"
+    },
+    {
+     "range": "F6:F20",
+     "align": "left"
+    },
+    {
+     "range": "H6:H21",
+     "bold": true,
+     "size": 10,
+     "color": "14A3A3",
+     "align": "center"
+    }
+   ],
+   "row_heights": {
+    "5": 30
+   },
+   "number_formats": [
+    {
+     "range": "C6:C20",
+     "format": "mmm d"
+    },
+    {
+     "range": "D6:D20",
+     "format": "0"
+    },
+    {
+     "range": "E6:E20",
+     "format": "$#,##0.00"
+    }
+   ],
+   "charts": [
+    {
+     "type": "bar",
+     "anchor": "B23",
+     "data": "Stores!G5:H20",
+     "categories": "Stores!B6:B20",
+     "width": 18,
+     "height": 7,
+     "colors": [
+      "E8336D",
+      "14A3A3"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Key Dates",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "14A3A3",
+   "grid_rows": 15,
+   "grid_cols": 5,
+   "column_widths": {
+    "A": 2.5,
+    "B": 34,
+    "C": 16,
+    "D": 13,
+    "E": 2.5
+   },
+   "section_bars": [
+    {
+     "range": "B2:D2",
+     "label": "KEY DATES",
+     "size": 16,
+     "color": "1C1C1E",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B5",
+     "formula": "Event"
+    },
+    {
+     "cell": "C5",
+     "formula": "Date"
+    },
+    {
+     "cell": "D5",
+     "formula": "Countdown"
+    },
+    {
+     "cell": "B6",
+     "formula": "Early deals start"
+    },
+    {
+     "cell": "C6",
+     "formula": "='Setup'!$R$7-14",
+     "number_format": "ddd, mmm d"
+    },
+    {
+     "cell": "D6",
+     "formula": "=IF(C6-'Setup'!$R$5>1,C6-'Setup'!$R$5&\" days\",IF(C6-'Setup'!$R$5=1,\"Tomorrow\",IF(C6='Setup'!$R$5,\"Today\",\"Done\")))"
+    },
+    {
+     "cell": "B7",
+     "formula": "Thanksgiving"
+    },
+    {
+     "cell": "C7",
+     "formula": "='Setup'!$R$7-1",
+     "number_format": "ddd, mmm d"
+    },
+    {
+     "cell": "D7",
+     "formula": "=IF(C7-'Setup'!$R$5>1,C7-'Setup'!$R$5&\" days\",IF(C7-'Setup'!$R$5=1,\"Tomorrow\",IF(C7='Setup'!$R$5,\"Today\",\"Done\")))"
+    },
+    {
+     "cell": "B8",
+     "formula": "Black Friday"
+    },
+    {
+     "cell": "C8",
+     "formula": "='Setup'!$R$7",
+     "number_format": "ddd, mmm d"
+    },
+    {
+     "cell": "D8",
+     "formula": "=IF(C8-'Setup'!$R$5>1,C8-'Setup'!$R$5&\" days\",IF(C8-'Setup'!$R$5=1,\"Tomorrow\",IF(C8='Setup'!$R$5,\"Today\",\"Done\")))"
+    },
+    {
+     "cell": "B9",
+     "formula": "Small Business Saturday"
+    },
+    {
+     "cell": "C9",
+     "formula": "='Setup'!$R$7+1",
+     "number_format": "ddd, mmm d"
+    },
+    {
+     "cell": "D9",
+     "formula": "=IF(C9-'Setup'!$R$5>1,C9-'Setup'!$R$5&\" days\",IF(C9-'Setup'!$R$5=1,\"Tomorrow\",IF(C9='Setup'!$R$5,\"Today\",\"Done\")))"
+    },
+    {
+     "cell": "B10",
+     "formula": "Cyber Monday"
+    },
+    {
+     "cell": "C10",
+     "formula": "='Setup'!$R$8",
+     "number_format": "ddd, mmm d"
+    },
+    {
+     "cell": "D10",
+     "formula": "=IF(C10-'Setup'!$R$5>1,C10-'Setup'!$R$5&\" days\",IF(C10-'Setup'!$R$5=1,\"Tomorrow\",IF(C10='Setup'!$R$5,\"Today\",\"Done\")))"
+    },
+    {
+     "cell": "B11",
+     "formula": "Giving Tuesday"
+    },
+    {
+     "cell": "C11",
+     "formula": "='Setup'!$R$8+1",
+     "number_format": "ddd, mmm d"
+    },
+    {
+     "cell": "D11",
+     "formula": "=IF(C11-'Setup'!$R$5>1,C11-'Setup'!$R$5&\" days\",IF(C11-'Setup'!$R$5=1,\"Tomorrow\",IF(C11='Setup'!$R$5,\"Today\",\"Done\")))"
+    },
+    {
+     "cell": "B12",
+     "formula": "Last day for holiday shipping (approx.)"
+    },
+    {
+     "cell": "C12",
+     "formula": "=DATE('Setup'!$R$4,12,15)",
+     "number_format": "ddd, mmm d"
+    },
+    {
+     "cell": "D12",
+     "formula": "=IF(C12-'Setup'!$R$5>1,C12-'Setup'!$R$5&\" days\",IF(C12-'Setup'!$R$5=1,\"Tomorrow\",IF(C12='Setup'!$R$5,\"Today\",\"Done\")))"
+    },
+    {
+     "cell": "B13",
+     "formula": "Christmas"
+    },
+    {
+     "cell": "C13",
+     "formula": "=DATE('Setup'!$R$4,12,25)",
+     "number_format": "ddd, mmm d"
+    },
+    {
+     "cell": "D13",
+     "formula": "=IF(C13-'Setup'!$R$5>1,C13-'Setup'!$R$5&\" days\",IF(C13-'Setup'!$R$5=1,\"Tomorrow\",IF(C13='Setup'!$R$5,\"Today\",\"Done\")))"
+    },
+    {
+     "cell": "B3",
+     "formula": "=\"Sale season \"&'Setup'!$R$4"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "D6:D13",
+     "type": "formula",
+     "formula": [
+      "$D6=\"Today\""
+     ],
+     "fill": "D7EFDD"
+    },
+    {
+     "range": "B6:D13",
+     "type": "formula",
+     "formula": [
+      "$D6=\"Done\""
+     ],
+     "fill": "EEEEEE"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B5:D5",
+     "color": "1C1C1E"
+    },
+    {
+     "range": "C6:D13",
+     "color": "F8F8FA"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:D13",
+     "color": "DADADF"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "bold": true,
+     "size": 12,
+     "color": "E8336D"
+    },
+    {
+     "range": "B5:D5",
+     "bold": true,
+     "size": 10,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "B6:B13",
+     "bold": true,
+     "size": 10,
+     "color": "1C1C1E"
+    },
+    {
+     "range": "C6:D13",
+     "align": "center"
+    },
+    {
+     "range": "D6:D13",
+     "bold": true,
+     "size": 10,
+     "color": "E8336D",
+     "align": "center"
+    }
+   ]
+  }
+ ]
+}
