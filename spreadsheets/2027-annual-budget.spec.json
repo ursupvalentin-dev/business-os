@@ -1,0 +1,6578 @@
+{
+ "filename": "2027 Annual Budget",
+ "locale": "en_US",
+ "theme": {
+  "header_font": "FFFFFF",
+  "border": "CCD5E6",
+  "accent": "22335B",
+  "section_colors": [
+   "22335B",
+   "E6EBF5",
+   "DDF2F0"
+  ],
+  "chart_palette": [
+   "22335B",
+   "E2654D",
+   "D9A21B",
+   "17998E"
+  ]
+ },
+ "tabs": [
+  {
+   "name": "Start Here",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "22335B",
+   "grid_rows": 28,
+   "column_widths": {
+    "A": 2.5,
+    "B": 22,
+    "C": 100,
+    "D": 2.5
+   },
+   "section_bars": [
+    {
+     "range": "B2:C2",
+     "label": "2027 ANNUAL BUDGET",
+     "size": 18,
+     "color": "22335B",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "B5:C5",
+     "label": "HOW TO USE IT",
+     "color": "E6EBF5",
+     "font_color": "22335B",
+     "align": "left"
+    },
+    {
+     "range": "B12:C12",
+     "label": "GOOD TO KNOW",
+     "color": "17998E",
+     "font_color": "FFFFFF",
+     "align": "left"
+    },
+    {
+     "range": "B18:C18",
+     "label": "COLOR GUIDE",
+     "color": "E6EBF5",
+     "font_color": "22335B",
+     "align": "left"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Plan the whole year, track every month, finish 2027 ahead."
+    },
+    {
+     "cell": "B6",
+     "formula": "Setup: your name and the year (2027 is set for you)."
+    },
+    {
+     "cell": "B7",
+     "formula": "Income Plan: each paycheck or income with how often it comes. Expense Plan: each category with an amount and how often."
+    },
+    {
+     "cell": "B8",
+     "formula": "Yearly, quarterly and one-time items need a month. Weekly and every-2-weeks are spread across months for you."
+    },
+    {
+     "cell": "B9",
+     "formula": "Transactions: log real income and spending all year."
+    },
+    {
+     "cell": "B10",
+     "formula": "Monthly and Categories: plan vs actual. Dashboard: the whole year at a glance. Goals: your big targets."
+    },
+    {
+     "cell": "B13",
+     "formula": "Every 2 weeks"
+    },
+    {
+     "cell": "C13",
+     "formula": "26 paychecks a year. Two months get a third check, so the plan spreads them evenly."
+    },
+    {
+     "cell": "B14",
+     "formula": "Needs / Wants / Savings"
+    },
+    {
+     "cell": "C14",
+     "formula": "A common guide is 50 / 30 / 20 of take-home pay."
+    },
+    {
+     "cell": "B15",
+     "formula": "Pay yourself first"
+    },
+    {
+     "cell": "C15",
+     "formula": "Put savings in the Expense Plan as a Savings line so it gets planned."
+    },
+    {
+     "cell": "B16",
+     "formula": "Year to date"
+    },
+    {
+     "cell": "C16",
+     "formula": "Categories compares spending with the plan so far, not the whole year."
+    },
+    {
+     "cell": "C19",
+     "formula": "White cells are for typing."
+    },
+    {
+     "cell": "C20",
+     "formula": "Grey cells calculate."
+    },
+    {
+     "cell": "C21",
+     "formula": "Green = under plan / on track."
+    },
+    {
+     "cell": "C22",
+     "formula": "Red = over plan."
+    },
+    {
+     "cell": "B24",
+     "formula": "Here's to your best money year yet."
+    }
+   ],
+   "fills": [
+    {
+     "range": "B13:C16",
+     "color": "DDF2F0"
+    },
+    {
+     "range": "B19",
+     "color": "FFFFFF"
+    },
+    {
+     "range": "B20",
+     "color": "F6F8FC"
+    },
+    {
+     "range": "B21",
+     "color": "D7EFDD"
+    },
+    {
+     "range": "B22",
+     "color": "F6CACA"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B19",
+     "color": "CCD5E6"
+    },
+    {
+     "range": "B20",
+     "color": "CCD5E6"
+    },
+    {
+     "range": "B21",
+     "color": "CCD5E6"
+    },
+    {
+     "range": "B22",
+     "color": "CCD5E6"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 11,
+     "color": "22335B"
+    },
+    {
+     "range": "B13:B16",
+     "bold": true,
+     "size": 11,
+     "color": "22335B"
+    },
+    {
+     "range": "B24",
+     "italic": true,
+     "bold": true,
+     "size": 11,
+     "color": "22335B"
+    }
+   ]
+  },
+  {
+   "name": "Dashboard",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "17998E",
+   "grid_rows": 40,
+   "grid_cols": 19,
+   "column_widths": {
+    "A": 2.5,
+    "B": 16,
+    "C": 13,
+    "D": 13,
+    "E": 16,
+    "F": 16,
+    "G": 16,
+    "H": 16,
+    "I": 16,
+    "J": 2.5,
+    "R": 10
+   },
+   "hidden_columns": [
+    "R"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:I2",
+     "label": "ANNUAL BUDGET DASHBOARD",
+     "size": 16,
+     "color": "22335B",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "B15:D15",
+     "label": "NEEDS, WANTS, SAVINGS",
+     "color": "E6EBF5",
+     "font_color": "22335B",
+     "align": "left"
+    },
+    {
+     "range": "E15:I15",
+     "label": "WHERE THE PLAN GOES",
+     "color": "E6EBF5",
+     "font_color": "22335B",
+     "align": "left"
+    },
+    {
+     "range": "B23:I23",
+     "label": "SPENDING: PLAN VS ACTUAL BY MONTH",
+     "color": "E6EBF5",
+     "font_color": "22335B",
+     "align": "left"
+    }
+   ],
+   "kpi_cards": [
+    {
+     "anchor": "B5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "PLANNED INCOME",
+     "value": "=R4",
+     "fill": "17998E",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "D5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "PLANNED SPENDING",
+     "value": "=R5",
+     "fill": "E2654D",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "F5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "PLANNED LEFT OVER",
+     "value": "=R6",
+     "fill": "22335B",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "anchor": "H5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "SAVINGS IN PLAN",
+     "value": "=ROUND(SUMIFS('Expense Plan'!$G$6:$G$40,'Expense Plan'!$C$6:$C$40,\"Savings\"),2)",
+     "fill": "D9A21B",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "B9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "EARNED SO FAR",
+     "value": "=R7",
+     "fill": "17998E",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "D9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "SPENT SO FAR",
+     "value": "=R8",
+     "fill": "E2654D",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "F9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "VS PLAN SO FAR",
+     "value": "=IF(R10-R8>=0,\"Under by \"&TEXT(R10-R8,\"$#,##0\"),\"Over by \"&TEXT(R8-R10,\"$#,##0\"))",
+     "fill": "22335B",
+     "font_color": "FFFFFF",
+     "value_size": 16
+    },
+    {
+     "anchor": "H9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "KEPT SO FAR",
+     "value": "=R11",
+     "fill": "D9A21B",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "0%"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "=IF('Setup'!$R$7=\"\",\"\",'Setup'!$R$7&\"  |  \")&'Setup'!$R$4&\" budget  |  \"&'Setup'!C9"
+    },
+    {
+     "cell": "R4",
+     "formula": "='Income Plan'!F16",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R5",
+     "formula": "='Expense Plan'!G41",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R6",
+     "formula": "=ROUND(R4-R5,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "R7",
+     "formula": "='Monthly'!D18",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R8",
+     "formula": "='Monthly'!F18",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R9",
+     "formula": "=ROUND(R7-R8,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "R10",
+     "formula": "=ROUND(IF(1<='Setup'!$R$6,'Expense Plan'!T41,0)+IF(2<='Setup'!$R$6,'Expense Plan'!U41,0)+IF(3<='Setup'!$R$6,'Expense Plan'!V41,0)+IF(4<='Setup'!$R$6,'Expense Plan'!W41,0)+IF(5<='Setup'!$R$6,'Expense Plan'!X41,0)+IF(6<='Setup'!$R$6,'Expense Plan'!Y41,0)+IF(7<='Setup'!$R$6,'Expense Plan'!Z41,0)+IF(8<='Setup'!$R$6,'Expense Plan'!AA41,0)+IF(9<='Setup'!$R$6,'Expense Plan'!AB41,0)+IF(10<='Setup'!$R$6,'Expense Plan'!AC41,0)+IF(11<='Setup'!$R$6,'Expense Plan'!AD41,0)+IF(12<='Setup'!$R$6,'Expense Plan'!AE41,0),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R11",
+     "formula": "=IF(R7>0,R9/R7,0)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "R12",
+     "formula": "=COUNTIF('Categories'!I6:I40,\"Over the year\")+COUNTIF('Categories'!I6:I40,\"Over so far\")"
+    },
+    {
+     "cell": "B13",
+     "formula": "=REPT(\"█\",ROUND(MIN(1,MAX(0,'Setup'!$R$6/12))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,'Setup'!$R$6/12))*10,0))&\"  \"&'Setup'!$R$6&\" of 12 months\""
+    },
+    {
+     "cell": "B14",
+     "formula": "=IF(R4=0,\"Fill in the Income and Expense Plans to start.\",IF(R6<0,\"Your plan spends \"&TEXT(-R6,\"$#,##0\")&\" more than you earn. Trim a few lines.\",IF(R12>0,R12&IF(R12=1,\" category is\",\" categories are\")&\" over plan so far. See the Categories tab.\",\"On track for \"&'Setup'!$R$4&\". Nice work!\")))"
+    },
+    {
+     "cell": "B16",
+     "formula": "Group"
+    },
+    {
+     "cell": "C16",
+     "formula": "Planned"
+    },
+    {
+     "cell": "D16",
+     "formula": "Share of income"
+    },
+    {
+     "cell": "B17",
+     "formula": "Needs"
+    },
+    {
+     "cell": "C17",
+     "formula": "=ROUND(SUMIFS('Expense Plan'!$G$6:$G$40,'Expense Plan'!$C$6:$C$40,B17),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D17",
+     "formula": "=IF($R$4>0,C17/$R$4,0)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B18",
+     "formula": "Wants"
+    },
+    {
+     "cell": "C18",
+     "formula": "=ROUND(SUMIFS('Expense Plan'!$G$6:$G$40,'Expense Plan'!$C$6:$C$40,B18),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D18",
+     "formula": "=IF($R$4>0,C18/$R$4,0)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B19",
+     "formula": "Savings"
+    },
+    {
+     "cell": "C19",
+     "formula": "=ROUND(SUMIFS('Expense Plan'!$G$6:$G$40,'Expense Plan'!$C$6:$C$40,B19),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D19",
+     "formula": "=IF($R$4>0,C19/$R$4,0)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B20",
+     "formula": "Debt"
+    },
+    {
+     "cell": "C20",
+     "formula": "=ROUND(SUMIFS('Expense Plan'!$G$6:$G$40,'Expense Plan'!$C$6:$C$40,B20),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D20",
+     "formula": "=IF($R$4>0,C20/$R$4,0)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B21",
+     "formula": "Left over"
+    },
+    {
+     "cell": "C21",
+     "formula": "=MAX(0,R6)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D21",
+     "formula": "=IF($R$4>0,C21/$R$4,0)",
+     "number_format": "0%"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "B14:I14",
+     "type": "formula",
+     "formula": [
+      "$R$6<0"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "B14:I14",
+     "type": "formula",
+     "formula": [
+      "LEFT($B$14,2)=\"On\""
+     ],
+     "fill": "D7EFDD"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B16:D16",
+     "color": "22335B"
+    },
+    {
+     "range": "C17:D21",
+     "color": "F6F8FC"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:C7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "D5:E7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "F5:G7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "H5:I7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "B9:C11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "D9:E11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "F9:G11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "H9:I11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "B16:D21",
+     "color": "CCD5E6"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 11,
+     "color": "22335B"
+    },
+    {
+     "range": "B13",
+     "bold": true,
+     "size": 12,
+     "color": "17998E"
+    },
+    {
+     "range": "B14",
+     "bold": true,
+     "size": 11,
+     "color": "22335B"
+    },
+    {
+     "range": "B16:D16",
+     "bold": true,
+     "size": 10,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "B17:B21",
+     "bold": true,
+     "size": 10,
+     "color": "22335B"
+    },
+    {
+     "range": "C17:D21",
+     "align": "center"
+    }
+   ],
+   "charts": [
+    {
+     "type": "doughnut",
+     "anchor": "E16",
+     "data": "Dashboard!C17:C21",
+     "categories": "Dashboard!B17:B21",
+     "width": 16,
+     "height": 6,
+     "titles_from_data": false,
+     "colors": [
+      "22335B",
+      "E2654D",
+      "D9A21B",
+      "17998E",
+      "9AA9C8"
+     ]
+    },
+    {
+     "type": "bar",
+     "anchor": "B24",
+     "data": "Monthly!E5:F17",
+     "categories": "Monthly!B6:B17",
+     "width": 24,
+     "height": 7,
+     "colors": [
+      "22335B",
+      "E2654D"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Setup",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "22335B",
+   "grid_rows": 11,
+   "grid_cols": 19,
+   "column_widths": {
+    "A": 2.5,
+    "B": 22,
+    "C": 24,
+    "D": 18,
+    "E": 2.5,
+    "R": 10
+   },
+   "hidden_columns": [
+    "R"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:D2",
+     "label": "SETUP",
+     "size": 16,
+     "color": "22335B",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B4",
+     "formula": "Setting"
+    },
+    {
+     "cell": "C4",
+     "formula": "Yours"
+    },
+    {
+     "cell": "D4",
+     "formula": "Note"
+    },
+    {
+     "cell": "B5",
+     "formula": "Name"
+    },
+    {
+     "cell": "C5",
+     "formula": "The Parkers"
+    },
+    {
+     "cell": "B6",
+     "formula": "Year"
+    },
+    {
+     "cell": "C6",
+     "formula": 2027
+    },
+    {
+     "cell": "B7",
+     "formula": "Today"
+    },
+    {
+     "cell": "D7",
+     "formula": "Blank = today."
+    },
+    {
+     "cell": "C7",
+     "formula": "=DATE(2027,6,20)"
+    },
+    {
+     "cell": "R5",
+     "formula": "=IF(AND(ISNUMBER(C7),N(C7)>=1),INT(C7),TODAY())",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "R4",
+     "formula": "=IF(AND(ISNUMBER(C6),N(C6)>=1900,N(C6)<=9999),INT(C6),2027)"
+    },
+    {
+     "cell": "R6",
+     "formula": "=IF(YEAR(R5)=R4,MONTH(R5),IF(YEAR(R5)>R4,12,0))"
+    },
+    {
+     "cell": "R7",
+     "formula": "=TRIM(C5&\"\")"
+    },
+    {
+     "cell": "B9",
+     "formula": "Months done so far"
+    },
+    {
+     "cell": "C9",
+     "formula": "=IF(R6=0,\"The year hasn't started yet\",R6&\" of 12\")"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "C7",
+     "type": "formula",
+     "formula": [
+      "AND(C7<>\"\",OR(NOT(ISNUMBER(C7)),N(C7)<1))"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C6",
+     "type": "formula",
+     "formula": [
+      "AND(C6<>\"\",OR(NOT(ISNUMBER(C6)),N(C6)<1900,N(C6)>9999))"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B4:D4",
+     "color": "E6EBF5"
+    },
+    {
+     "range": "C5:C7",
+     "color": "FFFFFF"
+    },
+    {
+     "range": "C9",
+     "color": "F6F8FC"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B4:D7",
+     "color": "CCD5E6"
+    },
+    {
+     "range": "B9:C9",
+     "color": "CCD5E6"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B4:D4",
+     "bold": true,
+     "size": 10,
+     "color": "22335B",
+     "align": "center"
+    },
+    {
+     "range": "B5:B7",
+     "bold": true,
+     "size": 10,
+     "color": "22335B"
+    },
+    {
+     "range": "D5:D7",
+     "italic": true,
+     "size": 9,
+     "color": "22335B"
+    },
+    {
+     "range": "C5:C7",
+     "bold": true,
+     "size": 11,
+     "color": "22335B",
+     "align": "center"
+    },
+    {
+     "range": "B9:C9",
+     "bold": true,
+     "size": 11,
+     "color": "17998E"
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "C6",
+     "format": "0"
+    },
+    {
+     "range": "C7",
+     "format": "mmm d, yyyy"
+    }
+   ]
+  },
+  {
+   "name": "Income Plan",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "17998E",
+   "grid_rows": 18,
+   "grid_cols": 32,
+   "column_widths": {
+    "A": 2.5,
+    "B": 24,
+    "C": 12,
+    "D": 14,
+    "E": 12,
+    "F": 13,
+    "G": 13,
+    "H": 2.5,
+    "P": 3,
+    "Q": 3,
+    "R": 3,
+    "S": 3,
+    "T": 3,
+    "U": 3,
+    "V": 3,
+    "W": 3,
+    "X": 3,
+    "Y": 3,
+    "Z": 3,
+    "AA": 3,
+    "AB": 3,
+    "AC": 3,
+    "AD": 3,
+    "AE": 3
+   },
+   "hidden_columns": [
+    "P",
+    "Q",
+    "R",
+    "S",
+    "T",
+    "U",
+    "V",
+    "W",
+    "X",
+    "Y",
+    "Z",
+    "AA",
+    "AB",
+    "AC",
+    "AD",
+    "AE"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:G2",
+     "label": "INCOME PLAN",
+     "size": 16,
+     "color": "22335B",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Take-home pay (after tax). One-time and yearly items need the month they arrive."
+    },
+    {
+     "cell": "B5",
+     "formula": "Income"
+    },
+    {
+     "cell": "C5",
+     "formula": "Amount"
+    },
+    {
+     "cell": "D5",
+     "formula": "How often"
+    },
+    {
+     "cell": "E5",
+     "formula": "Month"
+    },
+    {
+     "cell": "F5",
+     "formula": "Per year"
+    },
+    {
+     "cell": "G5",
+     "formula": "Per month (avg)"
+    },
+    {
+     "cell": "B6",
+     "formula": "Paycheck (me)"
+    },
+    {
+     "cell": "C6",
+     "formula": 2150
+    },
+    {
+     "cell": "D6",
+     "formula": "Every 2 weeks"
+    },
+    {
+     "cell": "B7",
+     "formula": "Paycheck (partner)"
+    },
+    {
+     "cell": "C7",
+     "formula": 3100
+    },
+    {
+     "cell": "D7",
+     "formula": "Monthly"
+    },
+    {
+     "cell": "B8",
+     "formula": "Side gig"
+    },
+    {
+     "cell": "C8",
+     "formula": 300
+    },
+    {
+     "cell": "D8",
+     "formula": "Monthly"
+    },
+    {
+     "cell": "B9",
+     "formula": "Tax refund"
+    },
+    {
+     "cell": "C9",
+     "formula": 1800
+    },
+    {
+     "cell": "D9",
+     "formula": "One-time"
+    },
+    {
+     "cell": "E9",
+     "formula": "April"
+    },
+    {
+     "cell": "B10",
+     "formula": "Holiday bonus"
+    },
+    {
+     "cell": "C10",
+     "formula": 1500
+    },
+    {
+     "cell": "D10",
+     "formula": "One-time"
+    },
+    {
+     "cell": "E10",
+     "formula": "December"
+    },
+    {
+     "col": "R",
+     "range_rows": [
+      6,
+      15
+     ],
+     "formula": "=IF(TRIM(D{row}&\"\")=\"\",1,IFERROR(MATCH(LOWER(TRIM(D{row}&\"\")),{\"monthly\",\"every 2 weeks\",\"weekly\",\"quarterly\",\"yearly\",\"one-time\"},0),0))"
+    },
+    {
+     "col": "S",
+     "range_rows": [
+      6,
+      15
+     ],
+     "formula": "=IFERROR(MATCH(LOWER(TRIM(E{row}&\"\")),{\"january\",\"february\",\"march\",\"april\",\"may\",\"june\",\"july\",\"august\",\"september\",\"october\",\"november\",\"december\"},0),0)"
+    },
+    {
+     "col": "Q",
+     "range_rows": [
+      6,
+      15
+     ],
+     "formula": "=IF(AND(ISNUMBER(C{row}),R{row}>0,OR(R{row}<4,S{row}>0)),1,0)"
+    },
+    {
+     "col": "T",
+     "range_rows": [
+      6,
+      15
+     ],
+     "formula": "=IF(Q{row}=0,0,CHOOSE(R{row},C{row},C{row}*26/12,C{row}*52/12,IF(AND(S{row}>0,MOD(1-S{row},3)=0),C{row},0),IF(S{row}=1,C{row},0),IF(S{row}=1,C{row},0)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "U",
+     "range_rows": [
+      6,
+      15
+     ],
+     "formula": "=IF(Q{row}=0,0,CHOOSE(R{row},C{row},C{row}*26/12,C{row}*52/12,IF(AND(S{row}>0,MOD(2-S{row},3)=0),C{row},0),IF(S{row}=2,C{row},0),IF(S{row}=2,C{row},0)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "V",
+     "range_rows": [
+      6,
+      15
+     ],
+     "formula": "=IF(Q{row}=0,0,CHOOSE(R{row},C{row},C{row}*26/12,C{row}*52/12,IF(AND(S{row}>0,MOD(3-S{row},3)=0),C{row},0),IF(S{row}=3,C{row},0),IF(S{row}=3,C{row},0)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "W",
+     "range_rows": [
+      6,
+      15
+     ],
+     "formula": "=IF(Q{row}=0,0,CHOOSE(R{row},C{row},C{row}*26/12,C{row}*52/12,IF(AND(S{row}>0,MOD(4-S{row},3)=0),C{row},0),IF(S{row}=4,C{row},0),IF(S{row}=4,C{row},0)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "X",
+     "range_rows": [
+      6,
+      15
+     ],
+     "formula": "=IF(Q{row}=0,0,CHOOSE(R{row},C{row},C{row}*26/12,C{row}*52/12,IF(AND(S{row}>0,MOD(5-S{row},3)=0),C{row},0),IF(S{row}=5,C{row},0),IF(S{row}=5,C{row},0)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "Y",
+     "range_rows": [
+      6,
+      15
+     ],
+     "formula": "=IF(Q{row}=0,0,CHOOSE(R{row},C{row},C{row}*26/12,C{row}*52/12,IF(AND(S{row}>0,MOD(6-S{row},3)=0),C{row},0),IF(S{row}=6,C{row},0),IF(S{row}=6,C{row},0)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "Z",
+     "range_rows": [
+      6,
+      15
+     ],
+     "formula": "=IF(Q{row}=0,0,CHOOSE(R{row},C{row},C{row}*26/12,C{row}*52/12,IF(AND(S{row}>0,MOD(7-S{row},3)=0),C{row},0),IF(S{row}=7,C{row},0),IF(S{row}=7,C{row},0)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "AA",
+     "range_rows": [
+      6,
+      15
+     ],
+     "formula": "=IF(Q{row}=0,0,CHOOSE(R{row},C{row},C{row}*26/12,C{row}*52/12,IF(AND(S{row}>0,MOD(8-S{row},3)=0),C{row},0),IF(S{row}=8,C{row},0),IF(S{row}=8,C{row},0)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "AB",
+     "range_rows": [
+      6,
+      15
+     ],
+     "formula": "=IF(Q{row}=0,0,CHOOSE(R{row},C{row},C{row}*26/12,C{row}*52/12,IF(AND(S{row}>0,MOD(9-S{row},3)=0),C{row},0),IF(S{row}=9,C{row},0),IF(S{row}=9,C{row},0)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "AC",
+     "range_rows": [
+      6,
+      15
+     ],
+     "formula": "=IF(Q{row}=0,0,CHOOSE(R{row},C{row},C{row}*26/12,C{row}*52/12,IF(AND(S{row}>0,MOD(10-S{row},3)=0),C{row},0),IF(S{row}=10,C{row},0),IF(S{row}=10,C{row},0)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "AD",
+     "range_rows": [
+      6,
+      15
+     ],
+     "formula": "=IF(Q{row}=0,0,CHOOSE(R{row},C{row},C{row}*26/12,C{row}*52/12,IF(AND(S{row}>0,MOD(11-S{row},3)=0),C{row},0),IF(S{row}=11,C{row},0),IF(S{row}=11,C{row},0)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "AE",
+     "range_rows": [
+      6,
+      15
+     ],
+     "formula": "=IF(Q{row}=0,0,CHOOSE(R{row},C{row},C{row}*26/12,C{row}*52/12,IF(AND(S{row}>0,MOD(12-S{row},3)=0),C{row},0),IF(S{row}=12,C{row},0),IF(S{row}=12,C{row},0)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "F",
+     "range_rows": [
+      6,
+      15
+     ],
+     "formula": "=IF(AND(TRIM(B{row}&\"\")=\"\",NOT(ISNUMBER(C{row}))),\"\",ROUND(SUM(T{row}:AE{row}),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "G",
+     "range_rows": [
+      6,
+      15
+     ],
+     "formula": "=IF(F{row}=\"\",\"\",ROUND(F{row}/12,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "P",
+     "range_rows": [
+      6,
+      15
+     ],
+     "formula": "=LOWER(TRIM(B{row}&\"\"))"
+    },
+    {
+     "cell": "B16",
+     "formula": "Total"
+    },
+    {
+     "cell": "F16",
+     "formula": "=ROUND(SUM(F6:F15),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G16",
+     "formula": "=ROUND(SUM(G6:G15),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "T16",
+     "formula": "=ROUND(SUM(T6:T15),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "U16",
+     "formula": "=ROUND(SUM(U6:U15),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "V16",
+     "formula": "=ROUND(SUM(V6:V15),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "W16",
+     "formula": "=ROUND(SUM(W6:W15),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "X16",
+     "formula": "=ROUND(SUM(X6:X15),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "Y16",
+     "formula": "=ROUND(SUM(Y6:Y15),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "Z16",
+     "formula": "=ROUND(SUM(Z6:Z15),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "AA16",
+     "formula": "=ROUND(SUM(AA6:AA15),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "AB16",
+     "formula": "=ROUND(SUM(AB6:AB15),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "AC16",
+     "formula": "=ROUND(SUM(AC6:AC15),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "AD16",
+     "formula": "=ROUND(SUM(AD6:AD15),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "AE16",
+     "formula": "=ROUND(SUM(AE6:AE15),2)",
+     "number_format": "$#,##0.00"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "C6:C15",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C6<>\"\",NOT(ISNUMBER(C6))),N(C6)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "D6:D15",
+     "type": "formula",
+     "formula": [
+      "$R6=0"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "E6:E15",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER($C6),$R6>=4,$S6=0)"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B5:G5",
+     "color": "22335B"
+    },
+    {
+     "range": "B6:E15",
+     "color": "FFFFFF"
+    },
+    {
+     "range": "F6:G15",
+     "color": "F6F8FC"
+    },
+    {
+     "range": "B16:G16",
+     "color": "DDF2F0"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:G16",
+     "color": "CCD5E6"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "22335B"
+    },
+    {
+     "range": "B5:G5",
+     "bold": true,
+     "size": 10,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "C6:G16",
+     "align": "center"
+    },
+    {
+     "range": "F6:G16",
+     "bold": true,
+     "size": 10,
+     "color": "17998E",
+     "align": "center"
+    },
+    {
+     "range": "B16:G16",
+     "bold": true,
+     "size": 10,
+     "color": "22335B"
+    }
+   ],
+   "validations": [
+    {
+     "range": "D6:D15",
+     "type": "list",
+     "values": [
+      "Monthly",
+      "Every 2 weeks",
+      "Weekly",
+      "Quarterly",
+      "Yearly",
+      "One-time"
+     ],
+     "strict": false
+    },
+    {
+     "range": "E6:E15",
+     "type": "list",
+     "values": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+     ],
+     "strict": false
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "C6:C15",
+     "format": "$#,##0.00"
+    }
+   ]
+  },
+  {
+   "name": "Expense Plan",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "E2654D",
+   "grid_rows": 43,
+   "grid_cols": 32,
+   "freeze": "C6",
+   "column_widths": {
+    "A": 2.5,
+    "B": 22,
+    "C": 11,
+    "D": 11,
+    "E": 14,
+    "F": 12,
+    "G": 12,
+    "H": 13,
+    "I": 2.5,
+    "P": 3,
+    "Q": 3,
+    "R": 3,
+    "S": 3,
+    "T": 3,
+    "U": 3,
+    "V": 3,
+    "W": 3,
+    "X": 3,
+    "Y": 3,
+    "Z": 3,
+    "AA": 3,
+    "AB": 3,
+    "AC": 3,
+    "AD": 3,
+    "AE": 3
+   },
+   "hidden_columns": [
+    "P",
+    "Q",
+    "R",
+    "S",
+    "T",
+    "U",
+    "V",
+    "W",
+    "X",
+    "Y",
+    "Z",
+    "AA",
+    "AB",
+    "AC",
+    "AD",
+    "AE"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:H2",
+     "label": "EXPENSE PLAN",
+     "size": 16,
+     "color": "22335B",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Every bill and spending category for the year. Quarterly starts in the month you pick and repeats every 3 months."
+    },
+    {
+     "cell": "B5",
+     "formula": "Category"
+    },
+    {
+     "cell": "C5",
+     "formula": "Group"
+    },
+    {
+     "cell": "D5",
+     "formula": "Amount"
+    },
+    {
+     "cell": "E5",
+     "formula": "How often"
+    },
+    {
+     "cell": "F5",
+     "formula": "Month"
+    },
+    {
+     "cell": "G5",
+     "formula": "Per year"
+    },
+    {
+     "cell": "H5",
+     "formula": "Per month (avg)"
+    },
+    {
+     "cell": "B6",
+     "formula": "Rent"
+    },
+    {
+     "cell": "C6",
+     "formula": "Needs"
+    },
+    {
+     "cell": "D6",
+     "formula": 1650
+    },
+    {
+     "cell": "E6",
+     "formula": "Monthly"
+    },
+    {
+     "cell": "B7",
+     "formula": "Utilities"
+    },
+    {
+     "cell": "C7",
+     "formula": "Needs"
+    },
+    {
+     "cell": "D7",
+     "formula": 210
+    },
+    {
+     "cell": "E7",
+     "formula": "Monthly"
+    },
+    {
+     "cell": "B8",
+     "formula": "Groceries"
+    },
+    {
+     "cell": "C8",
+     "formula": "Needs"
+    },
+    {
+     "cell": "D8",
+     "formula": 160
+    },
+    {
+     "cell": "E8",
+     "formula": "Weekly"
+    },
+    {
+     "cell": "B9",
+     "formula": "Car payment"
+    },
+    {
+     "cell": "C9",
+     "formula": "Debt"
+    },
+    {
+     "cell": "D9",
+     "formula": 385
+    },
+    {
+     "cell": "E9",
+     "formula": "Monthly"
+    },
+    {
+     "cell": "B10",
+     "formula": "Car insurance"
+    },
+    {
+     "cell": "C10",
+     "formula": "Needs"
+    },
+    {
+     "cell": "D10",
+     "formula": 720
+    },
+    {
+     "cell": "E10",
+     "formula": "Yearly"
+    },
+    {
+     "cell": "F10",
+     "formula": "March"
+    },
+    {
+     "cell": "B11",
+     "formula": "Gas"
+    },
+    {
+     "cell": "C11",
+     "formula": "Needs"
+    },
+    {
+     "cell": "D11",
+     "formula": 180
+    },
+    {
+     "cell": "E11",
+     "formula": "Monthly"
+    },
+    {
+     "cell": "B12",
+     "formula": "Phone & internet"
+    },
+    {
+     "cell": "C12",
+     "formula": "Needs"
+    },
+    {
+     "cell": "D12",
+     "formula": 140
+    },
+    {
+     "cell": "E12",
+     "formula": "Monthly"
+    },
+    {
+     "cell": "B13",
+     "formula": "Health insurance"
+    },
+    {
+     "cell": "C13",
+     "formula": "Needs"
+    },
+    {
+     "cell": "D13",
+     "formula": 320
+    },
+    {
+     "cell": "E13",
+     "formula": "Monthly"
+    },
+    {
+     "cell": "B14",
+     "formula": "Student loan"
+    },
+    {
+     "cell": "C14",
+     "formula": "Debt"
+    },
+    {
+     "cell": "D14",
+     "formula": 260
+    },
+    {
+     "cell": "E14",
+     "formula": "Monthly"
+    },
+    {
+     "cell": "B15",
+     "formula": "Dining out"
+    },
+    {
+     "cell": "C15",
+     "formula": "Wants"
+    },
+    {
+     "cell": "D15",
+     "formula": 220
+    },
+    {
+     "cell": "E15",
+     "formula": "Monthly"
+    },
+    {
+     "cell": "B16",
+     "formula": "Entertainment"
+    },
+    {
+     "cell": "C16",
+     "formula": "Wants"
+    },
+    {
+     "cell": "D16",
+     "formula": 90
+    },
+    {
+     "cell": "E16",
+     "formula": "Monthly"
+    },
+    {
+     "cell": "B17",
+     "formula": "Subscriptions"
+    },
+    {
+     "cell": "C17",
+     "formula": "Wants"
+    },
+    {
+     "cell": "D17",
+     "formula": 45
+    },
+    {
+     "cell": "E17",
+     "formula": "Monthly"
+    },
+    {
+     "cell": "B18",
+     "formula": "Clothing"
+    },
+    {
+     "cell": "C18",
+     "formula": "Wants"
+    },
+    {
+     "cell": "D18",
+     "formula": 300
+    },
+    {
+     "cell": "E18",
+     "formula": "Quarterly"
+    },
+    {
+     "cell": "F18",
+     "formula": "January"
+    },
+    {
+     "cell": "B19",
+     "formula": "Gifts & holidays"
+    },
+    {
+     "cell": "C19",
+     "formula": "Wants"
+    },
+    {
+     "cell": "D19",
+     "formula": 900
+    },
+    {
+     "cell": "E19",
+     "formula": "One-time"
+    },
+    {
+     "cell": "F19",
+     "formula": "December"
+    },
+    {
+     "cell": "B20",
+     "formula": "Vacation"
+    },
+    {
+     "cell": "C20",
+     "formula": "Wants"
+    },
+    {
+     "cell": "D20",
+     "formula": 2400
+    },
+    {
+     "cell": "E20",
+     "formula": "One-time"
+    },
+    {
+     "cell": "F20",
+     "formula": "July"
+    },
+    {
+     "cell": "B21",
+     "formula": "Emergency fund"
+    },
+    {
+     "cell": "C21",
+     "formula": "Savings"
+    },
+    {
+     "cell": "D21",
+     "formula": 400
+    },
+    {
+     "cell": "E21",
+     "formula": "Monthly"
+    },
+    {
+     "cell": "B22",
+     "formula": "Retirement (IRA)"
+    },
+    {
+     "cell": "C22",
+     "formula": "Savings"
+    },
+    {
+     "cell": "D22",
+     "formula": 300
+    },
+    {
+     "cell": "E22",
+     "formula": "Monthly"
+    },
+    {
+     "cell": "B23",
+     "formula": "Home repairs"
+    },
+    {
+     "cell": "C23",
+     "formula": "Needs"
+    },
+    {
+     "cell": "D23",
+     "formula": 1200
+    },
+    {
+     "cell": "E23",
+     "formula": "Yearly"
+    },
+    {
+     "cell": "F23",
+     "formula": "June"
+    },
+    {
+     "cell": "B24",
+     "formula": "Pet care"
+    },
+    {
+     "cell": "C24",
+     "formula": "Needs"
+    },
+    {
+     "cell": "D24",
+     "formula": 75
+    },
+    {
+     "cell": "E24",
+     "formula": "Monthly"
+    },
+    {
+     "cell": "B25",
+     "formula": "Personal care"
+    },
+    {
+     "cell": "C25",
+     "formula": "Wants"
+    },
+    {
+     "cell": "D25",
+     "formula": 60
+    },
+    {
+     "cell": "E25",
+     "formula": "Monthly"
+    },
+    {
+     "col": "R",
+     "range_rows": [
+      6,
+      40
+     ],
+     "formula": "=IF(TRIM(E{row}&\"\")=\"\",1,IFERROR(MATCH(LOWER(TRIM(E{row}&\"\")),{\"monthly\",\"every 2 weeks\",\"weekly\",\"quarterly\",\"yearly\",\"one-time\"},0),0))"
+    },
+    {
+     "col": "S",
+     "range_rows": [
+      6,
+      40
+     ],
+     "formula": "=IFERROR(MATCH(LOWER(TRIM(F{row}&\"\")),{\"january\",\"february\",\"march\",\"april\",\"may\",\"june\",\"july\",\"august\",\"september\",\"october\",\"november\",\"december\"},0),0)"
+    },
+    {
+     "col": "Q",
+     "range_rows": [
+      6,
+      40
+     ],
+     "formula": "=IF(AND(ISNUMBER(D{row}),R{row}>0,OR(R{row}<4,S{row}>0)),1,0)"
+    },
+    {
+     "col": "T",
+     "range_rows": [
+      6,
+      40
+     ],
+     "formula": "=IF(Q{row}=0,0,CHOOSE(R{row},D{row},D{row}*26/12,D{row}*52/12,IF(AND(S{row}>0,MOD(1-S{row},3)=0),D{row},0),IF(S{row}=1,D{row},0),IF(S{row}=1,D{row},0)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "U",
+     "range_rows": [
+      6,
+      40
+     ],
+     "formula": "=IF(Q{row}=0,0,CHOOSE(R{row},D{row},D{row}*26/12,D{row}*52/12,IF(AND(S{row}>0,MOD(2-S{row},3)=0),D{row},0),IF(S{row}=2,D{row},0),IF(S{row}=2,D{row},0)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "V",
+     "range_rows": [
+      6,
+      40
+     ],
+     "formula": "=IF(Q{row}=0,0,CHOOSE(R{row},D{row},D{row}*26/12,D{row}*52/12,IF(AND(S{row}>0,MOD(3-S{row},3)=0),D{row},0),IF(S{row}=3,D{row},0),IF(S{row}=3,D{row},0)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "W",
+     "range_rows": [
+      6,
+      40
+     ],
+     "formula": "=IF(Q{row}=0,0,CHOOSE(R{row},D{row},D{row}*26/12,D{row}*52/12,IF(AND(S{row}>0,MOD(4-S{row},3)=0),D{row},0),IF(S{row}=4,D{row},0),IF(S{row}=4,D{row},0)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "X",
+     "range_rows": [
+      6,
+      40
+     ],
+     "formula": "=IF(Q{row}=0,0,CHOOSE(R{row},D{row},D{row}*26/12,D{row}*52/12,IF(AND(S{row}>0,MOD(5-S{row},3)=0),D{row},0),IF(S{row}=5,D{row},0),IF(S{row}=5,D{row},0)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "Y",
+     "range_rows": [
+      6,
+      40
+     ],
+     "formula": "=IF(Q{row}=0,0,CHOOSE(R{row},D{row},D{row}*26/12,D{row}*52/12,IF(AND(S{row}>0,MOD(6-S{row},3)=0),D{row},0),IF(S{row}=6,D{row},0),IF(S{row}=6,D{row},0)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "Z",
+     "range_rows": [
+      6,
+      40
+     ],
+     "formula": "=IF(Q{row}=0,0,CHOOSE(R{row},D{row},D{row}*26/12,D{row}*52/12,IF(AND(S{row}>0,MOD(7-S{row},3)=0),D{row},0),IF(S{row}=7,D{row},0),IF(S{row}=7,D{row},0)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "AA",
+     "range_rows": [
+      6,
+      40
+     ],
+     "formula": "=IF(Q{row}=0,0,CHOOSE(R{row},D{row},D{row}*26/12,D{row}*52/12,IF(AND(S{row}>0,MOD(8-S{row},3)=0),D{row},0),IF(S{row}=8,D{row},0),IF(S{row}=8,D{row},0)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "AB",
+     "range_rows": [
+      6,
+      40
+     ],
+     "formula": "=IF(Q{row}=0,0,CHOOSE(R{row},D{row},D{row}*26/12,D{row}*52/12,IF(AND(S{row}>0,MOD(9-S{row},3)=0),D{row},0),IF(S{row}=9,D{row},0),IF(S{row}=9,D{row},0)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "AC",
+     "range_rows": [
+      6,
+      40
+     ],
+     "formula": "=IF(Q{row}=0,0,CHOOSE(R{row},D{row},D{row}*26/12,D{row}*52/12,IF(AND(S{row}>0,MOD(10-S{row},3)=0),D{row},0),IF(S{row}=10,D{row},0),IF(S{row}=10,D{row},0)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "AD",
+     "range_rows": [
+      6,
+      40
+     ],
+     "formula": "=IF(Q{row}=0,0,CHOOSE(R{row},D{row},D{row}*26/12,D{row}*52/12,IF(AND(S{row}>0,MOD(11-S{row},3)=0),D{row},0),IF(S{row}=11,D{row},0),IF(S{row}=11,D{row},0)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "AE",
+     "range_rows": [
+      6,
+      40
+     ],
+     "formula": "=IF(Q{row}=0,0,CHOOSE(R{row},D{row},D{row}*26/12,D{row}*52/12,IF(AND(S{row}>0,MOD(12-S{row},3)=0),D{row},0),IF(S{row}=12,D{row},0),IF(S{row}=12,D{row},0)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "G",
+     "range_rows": [
+      6,
+      40
+     ],
+     "formula": "=IF(AND(TRIM(B{row}&\"\")=\"\",NOT(ISNUMBER(D{row}))),\"\",ROUND(SUM(T{row}:AE{row}),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "H",
+     "range_rows": [
+      6,
+      40
+     ],
+     "formula": "=IF(G{row}=\"\",\"\",ROUND(G{row}/12,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "P",
+     "range_rows": [
+      6,
+      40
+     ],
+     "formula": "=LOWER(TRIM(B{row}&\"\"))"
+    },
+    {
+     "cell": "B41",
+     "formula": "Total"
+    },
+    {
+     "cell": "G41",
+     "formula": "=ROUND(SUM(G6:G40),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H41",
+     "formula": "=ROUND(SUM(H6:H40),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "T41",
+     "formula": "=ROUND(SUM(T6:T40),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "U41",
+     "formula": "=ROUND(SUM(U6:U40),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "V41",
+     "formula": "=ROUND(SUM(V6:V40),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "W41",
+     "formula": "=ROUND(SUM(W6:W40),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "X41",
+     "formula": "=ROUND(SUM(X6:X40),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "Y41",
+     "formula": "=ROUND(SUM(Y6:Y40),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "Z41",
+     "formula": "=ROUND(SUM(Z6:Z40),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "AA41",
+     "formula": "=ROUND(SUM(AA6:AA40),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "AB41",
+     "formula": "=ROUND(SUM(AB6:AB40),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "AC41",
+     "formula": "=ROUND(SUM(AC6:AC40),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "AD41",
+     "formula": "=ROUND(SUM(AD6:AD40),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "AE41",
+     "formula": "=ROUND(SUM(AE6:AE40),2)",
+     "number_format": "$#,##0.00"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "D6:D40",
+     "type": "formula",
+     "formula": [
+      "OR(AND(D6<>\"\",NOT(ISNUMBER(D6))),N(D6)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "E6:E40",
+     "type": "formula",
+     "formula": [
+      "$R6=0"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "F6:F40",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER($D6),$R6>=4,$S6=0)"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B5:H5",
+     "color": "22335B"
+    },
+    {
+     "range": "B6:F40",
+     "color": "FFFFFF"
+    },
+    {
+     "range": "G6:H40",
+     "color": "F6F8FC"
+    },
+    {
+     "range": "B41:H41",
+     "color": "FCE5E0"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:H41",
+     "color": "CCD5E6"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "22335B"
+    },
+    {
+     "range": "B5:H5",
+     "bold": true,
+     "size": 10,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "C6:H41",
+     "align": "center"
+    },
+    {
+     "range": "G6:H41",
+     "bold": true,
+     "size": 10,
+     "color": "E2654D",
+     "align": "center"
+    },
+    {
+     "range": "B41:H41",
+     "bold": true,
+     "size": 10,
+     "color": "22335B"
+    }
+   ],
+   "validations": [
+    {
+     "range": "C6:C40",
+     "type": "list",
+     "values": [
+      "Needs",
+      "Wants",
+      "Savings",
+      "Debt"
+     ],
+     "strict": false
+    },
+    {
+     "range": "E6:E40",
+     "type": "list",
+     "values": [
+      "Monthly",
+      "Every 2 weeks",
+      "Weekly",
+      "Quarterly",
+      "Yearly",
+      "One-time"
+     ],
+     "strict": false
+    },
+    {
+     "range": "F6:F40",
+     "type": "list",
+     "values": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+     ],
+     "strict": false
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "D6:D40",
+     "format": "$#,##0.00"
+    }
+   ]
+  },
+  {
+   "name": "Transactions",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "D9A21B",
+   "grid_rows": 1007,
+   "grid_cols": 13,
+   "freeze": "A6",
+   "column_widths": {
+    "A": 2.5,
+    "B": 12,
+    "C": 10,
+    "D": 22,
+    "E": 12,
+    "F": 26,
+    "G": 3,
+    "H": 3,
+    "I": 3,
+    "J": 3,
+    "K": 3,
+    "L": 3
+   },
+   "hidden_columns": [
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:F2",
+     "label": "TRANSACTIONS",
+     "size": 16,
+     "color": "22335B",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Log real income and spending. Category must match a line on the Income or Expense Plan."
+    },
+    {
+     "cell": "B5",
+     "formula": "Date"
+    },
+    {
+     "cell": "C5",
+     "formula": "Type"
+    },
+    {
+     "cell": "D5",
+     "formula": "Category"
+    },
+    {
+     "cell": "E5",
+     "formula": "Amount"
+    },
+    {
+     "cell": "F5",
+     "formula": "Note"
+    },
+    {
+     "cell": "B6",
+     "formula": "=DATE(2027,1,1)"
+    },
+    {
+     "cell": "C6",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D6",
+     "formula": "Health insurance"
+    },
+    {
+     "cell": "E6",
+     "formula": 320
+    },
+    {
+     "cell": "B7",
+     "formula": "=DATE(2027,1,1)"
+    },
+    {
+     "cell": "C7",
+     "formula": "Income"
+    },
+    {
+     "cell": "D7",
+     "formula": "Paycheck (partner)"
+    },
+    {
+     "cell": "E7",
+     "formula": 3100
+    },
+    {
+     "cell": "B8",
+     "formula": "=DATE(2027,1,2)"
+    },
+    {
+     "cell": "C8",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D8",
+     "formula": "Emergency fund"
+    },
+    {
+     "cell": "E8",
+     "formula": 400
+    },
+    {
+     "cell": "B9",
+     "formula": "=DATE(2027,1,2)"
+    },
+    {
+     "cell": "C9",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D9",
+     "formula": "Retirement (IRA)"
+    },
+    {
+     "cell": "E9",
+     "formula": 300
+    },
+    {
+     "cell": "B10",
+     "formula": "=DATE(2027,1,3)"
+    },
+    {
+     "cell": "C10",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D10",
+     "formula": "Rent"
+    },
+    {
+     "cell": "E10",
+     "formula": 1650
+    },
+    {
+     "cell": "B11",
+     "formula": "=DATE(2027,1,5)"
+    },
+    {
+     "cell": "C11",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D11",
+     "formula": "Subscriptions"
+    },
+    {
+     "cell": "E11",
+     "formula": 45
+    },
+    {
+     "cell": "B12",
+     "formula": "=DATE(2027,1,8)"
+    },
+    {
+     "cell": "C12",
+     "formula": "Income"
+    },
+    {
+     "cell": "D12",
+     "formula": "Paycheck (me)"
+    },
+    {
+     "cell": "E12",
+     "formula": 2150
+    },
+    {
+     "cell": "B13",
+     "formula": "=DATE(2027,1,10)"
+    },
+    {
+     "cell": "C13",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D13",
+     "formula": "Utilities"
+    },
+    {
+     "cell": "E13",
+     "formula": 179.75
+    },
+    {
+     "cell": "B14",
+     "formula": "=DATE(2027,1,12)"
+    },
+    {
+     "cell": "C14",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D14",
+     "formula": "Car payment"
+    },
+    {
+     "cell": "E14",
+     "formula": 385
+    },
+    {
+     "cell": "B15",
+     "formula": "=DATE(2027,1,14)"
+    },
+    {
+     "cell": "C15",
+     "formula": "Income"
+    },
+    {
+     "cell": "D15",
+     "formula": "Side gig"
+    },
+    {
+     "cell": "E15",
+     "formula": 397.04
+    },
+    {
+     "cell": "B16",
+     "formula": "=DATE(2027,1,15)"
+    },
+    {
+     "cell": "C16",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D16",
+     "formula": "Groceries"
+    },
+    {
+     "cell": "E16",
+     "formula": 684.97
+    },
+    {
+     "cell": "F16",
+     "formula": "Month total"
+    },
+    {
+     "cell": "B17",
+     "formula": "=DATE(2027,1,18)"
+    },
+    {
+     "cell": "C17",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D17",
+     "formula": "Gas"
+    },
+    {
+     "cell": "E17",
+     "formula": 150.81
+    },
+    {
+     "cell": "B18",
+     "formula": "=DATE(2027,1,19)"
+    },
+    {
+     "cell": "C18",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D18",
+     "formula": "Pet care"
+    },
+    {
+     "cell": "E18",
+     "formula": 61.01
+    },
+    {
+     "cell": "B19",
+     "formula": "=DATE(2027,1,20)"
+    },
+    {
+     "cell": "C19",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D19",
+     "formula": "Clothing"
+    },
+    {
+     "cell": "E19",
+     "formula": 240
+    },
+    {
+     "cell": "B20",
+     "formula": "=DATE(2027,1,20)"
+    },
+    {
+     "cell": "C20",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D20",
+     "formula": "Phone & internet"
+    },
+    {
+     "cell": "E20",
+     "formula": 140
+    },
+    {
+     "cell": "B21",
+     "formula": "=DATE(2027,1,22)"
+    },
+    {
+     "cell": "C21",
+     "formula": "Income"
+    },
+    {
+     "cell": "D21",
+     "formula": "Paycheck (me)"
+    },
+    {
+     "cell": "E21",
+     "formula": 2150
+    },
+    {
+     "cell": "B22",
+     "formula": "=DATE(2027,1,25)"
+    },
+    {
+     "cell": "C22",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D22",
+     "formula": "Student loan"
+    },
+    {
+     "cell": "E22",
+     "formula": 260
+    },
+    {
+     "cell": "B23",
+     "formula": "=DATE(2027,1,26)"
+    },
+    {
+     "cell": "C23",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D23",
+     "formula": "Dining out"
+    },
+    {
+     "cell": "E23",
+     "formula": 201.6
+    },
+    {
+     "cell": "B24",
+     "formula": "=DATE(2027,1,27)"
+    },
+    {
+     "cell": "C24",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D24",
+     "formula": "Entertainment"
+    },
+    {
+     "cell": "E24",
+     "formula": 72.49
+    },
+    {
+     "cell": "B25",
+     "formula": "=DATE(2027,2,1)"
+    },
+    {
+     "cell": "C25",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D25",
+     "formula": "Health insurance"
+    },
+    {
+     "cell": "E25",
+     "formula": 320
+    },
+    {
+     "cell": "B26",
+     "formula": "=DATE(2027,2,1)"
+    },
+    {
+     "cell": "C26",
+     "formula": "Income"
+    },
+    {
+     "cell": "D26",
+     "formula": "Paycheck (partner)"
+    },
+    {
+     "cell": "E26",
+     "formula": 3100
+    },
+    {
+     "cell": "B27",
+     "formula": "=DATE(2027,2,2)"
+    },
+    {
+     "cell": "C27",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D27",
+     "formula": "Emergency fund"
+    },
+    {
+     "cell": "E27",
+     "formula": 400
+    },
+    {
+     "cell": "B28",
+     "formula": "=DATE(2027,2,2)"
+    },
+    {
+     "cell": "C28",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D28",
+     "formula": "Retirement (IRA)"
+    },
+    {
+     "cell": "E28",
+     "formula": 300
+    },
+    {
+     "cell": "B29",
+     "formula": "=DATE(2027,2,3)"
+    },
+    {
+     "cell": "C29",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D29",
+     "formula": "Rent"
+    },
+    {
+     "cell": "E29",
+     "formula": 1650
+    },
+    {
+     "cell": "B30",
+     "formula": "=DATE(2027,2,5)"
+    },
+    {
+     "cell": "C30",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D30",
+     "formula": "Subscriptions"
+    },
+    {
+     "cell": "E30",
+     "formula": 45
+    },
+    {
+     "cell": "B31",
+     "formula": "=DATE(2027,2,8)"
+    },
+    {
+     "cell": "C31",
+     "formula": "Income"
+    },
+    {
+     "cell": "D31",
+     "formula": "Paycheck (me)"
+    },
+    {
+     "cell": "E31",
+     "formula": 2150
+    },
+    {
+     "cell": "B32",
+     "formula": "=DATE(2027,2,10)"
+    },
+    {
+     "cell": "C32",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D32",
+     "formula": "Utilities"
+    },
+    {
+     "cell": "E32",
+     "formula": 186.21
+    },
+    {
+     "cell": "B33",
+     "formula": "=DATE(2027,2,12)"
+    },
+    {
+     "cell": "C33",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D33",
+     "formula": "Car payment"
+    },
+    {
+     "cell": "E33",
+     "formula": 385
+    },
+    {
+     "cell": "B34",
+     "formula": "=DATE(2027,2,14)"
+    },
+    {
+     "cell": "C34",
+     "formula": "Income"
+    },
+    {
+     "cell": "D34",
+     "formula": "Side gig"
+    },
+    {
+     "cell": "E34",
+     "formula": 338.45
+    },
+    {
+     "cell": "B35",
+     "formula": "=DATE(2027,2,15)"
+    },
+    {
+     "cell": "C35",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D35",
+     "formula": "Groceries"
+    },
+    {
+     "cell": "E35",
+     "formula": 703.35
+    },
+    {
+     "cell": "F35",
+     "formula": "Month total"
+    },
+    {
+     "cell": "B36",
+     "formula": "=DATE(2027,2,18)"
+    },
+    {
+     "cell": "C36",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D36",
+     "formula": "Gas"
+    },
+    {
+     "cell": "E36",
+     "formula": 166.6
+    },
+    {
+     "cell": "B37",
+     "formula": "=DATE(2027,2,19)"
+    },
+    {
+     "cell": "C37",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D37",
+     "formula": "Pet care"
+    },
+    {
+     "cell": "E37",
+     "formula": 68.13
+    },
+    {
+     "cell": "B38",
+     "formula": "=DATE(2027,2,20)"
+    },
+    {
+     "cell": "C38",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D38",
+     "formula": "Phone & internet"
+    },
+    {
+     "cell": "E38",
+     "formula": 140
+    },
+    {
+     "cell": "B39",
+     "formula": "=DATE(2027,2,22)"
+    },
+    {
+     "cell": "C39",
+     "formula": "Income"
+    },
+    {
+     "cell": "D39",
+     "formula": "Paycheck (me)"
+    },
+    {
+     "cell": "E39",
+     "formula": 2150
+    },
+    {
+     "cell": "B40",
+     "formula": "=DATE(2027,2,25)"
+    },
+    {
+     "cell": "C40",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D40",
+     "formula": "Student loan"
+    },
+    {
+     "cell": "E40",
+     "formula": 260
+    },
+    {
+     "cell": "B41",
+     "formula": "=DATE(2027,2,26)"
+    },
+    {
+     "cell": "C41",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D41",
+     "formula": "Dining out"
+    },
+    {
+     "cell": "E41",
+     "formula": 259.88
+    },
+    {
+     "cell": "B42",
+     "formula": "=DATE(2027,2,27)"
+    },
+    {
+     "cell": "C42",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D42",
+     "formula": "Entertainment"
+    },
+    {
+     "cell": "E42",
+     "formula": 46.13
+    },
+    {
+     "cell": "B43",
+     "formula": "=DATE(2027,3,1)"
+    },
+    {
+     "cell": "C43",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D43",
+     "formula": "Health insurance"
+    },
+    {
+     "cell": "E43",
+     "formula": 320
+    },
+    {
+     "cell": "B44",
+     "formula": "=DATE(2027,3,1)"
+    },
+    {
+     "cell": "C44",
+     "formula": "Income"
+    },
+    {
+     "cell": "D44",
+     "formula": "Paycheck (partner)"
+    },
+    {
+     "cell": "E44",
+     "formula": 3100
+    },
+    {
+     "cell": "B45",
+     "formula": "=DATE(2027,3,2)"
+    },
+    {
+     "cell": "C45",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D45",
+     "formula": "Emergency fund"
+    },
+    {
+     "cell": "E45",
+     "formula": 400
+    },
+    {
+     "cell": "B46",
+     "formula": "=DATE(2027,3,2)"
+    },
+    {
+     "cell": "C46",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D46",
+     "formula": "Retirement (IRA)"
+    },
+    {
+     "cell": "E46",
+     "formula": 300
+    },
+    {
+     "cell": "B47",
+     "formula": "=DATE(2027,3,3)"
+    },
+    {
+     "cell": "C47",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D47",
+     "formula": "Rent"
+    },
+    {
+     "cell": "E47",
+     "formula": 1650
+    },
+    {
+     "cell": "B48",
+     "formula": "=DATE(2027,3,4)"
+    },
+    {
+     "cell": "C48",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D48",
+     "formula": "Car insurance"
+    },
+    {
+     "cell": "E48",
+     "formula": 720
+    },
+    {
+     "cell": "B49",
+     "formula": "=DATE(2027,3,5)"
+    },
+    {
+     "cell": "C49",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D49",
+     "formula": "Subscriptions"
+    },
+    {
+     "cell": "E49",
+     "formula": 45
+    },
+    {
+     "cell": "B50",
+     "formula": "=DATE(2027,3,8)"
+    },
+    {
+     "cell": "C50",
+     "formula": "Income"
+    },
+    {
+     "cell": "D50",
+     "formula": "Paycheck (me)"
+    },
+    {
+     "cell": "E50",
+     "formula": 2150
+    },
+    {
+     "cell": "B51",
+     "formula": "=DATE(2027,3,10)"
+    },
+    {
+     "cell": "C51",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D51",
+     "formula": "Utilities"
+    },
+    {
+     "cell": "E51",
+     "formula": 192.92
+    },
+    {
+     "cell": "B52",
+     "formula": "=DATE(2027,3,12)"
+    },
+    {
+     "cell": "C52",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D52",
+     "formula": "Car payment"
+    },
+    {
+     "cell": "E52",
+     "formula": 385
+    },
+    {
+     "cell": "B53",
+     "formula": "=DATE(2027,3,14)"
+    },
+    {
+     "cell": "C53",
+     "formula": "Income"
+    },
+    {
+     "cell": "D53",
+     "formula": "Side gig"
+    },
+    {
+     "cell": "E53",
+     "formula": 234.84
+    },
+    {
+     "cell": "B54",
+     "formula": "=DATE(2027,3,15)"
+    },
+    {
+     "cell": "C54",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D54",
+     "formula": "Groceries"
+    },
+    {
+     "cell": "E54",
+     "formula": 725.18
+    },
+    {
+     "cell": "F54",
+     "formula": "Month total"
+    },
+    {
+     "cell": "B55",
+     "formula": "=DATE(2027,3,18)"
+    },
+    {
+     "cell": "C55",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D55",
+     "formula": "Gas"
+    },
+    {
+     "cell": "E55",
+     "formula": 206.17
+    },
+    {
+     "cell": "B56",
+     "formula": "=DATE(2027,3,19)"
+    },
+    {
+     "cell": "C56",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D56",
+     "formula": "Pet care"
+    },
+    {
+     "cell": "E56",
+     "formula": 94.04
+    },
+    {
+     "cell": "B57",
+     "formula": "=DATE(2027,3,20)"
+    },
+    {
+     "cell": "C57",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D57",
+     "formula": "Phone & internet"
+    },
+    {
+     "cell": "E57",
+     "formula": 140
+    },
+    {
+     "cell": "B58",
+     "formula": "=DATE(2027,3,22)"
+    },
+    {
+     "cell": "C58",
+     "formula": "Income"
+    },
+    {
+     "cell": "D58",
+     "formula": "Paycheck (me)"
+    },
+    {
+     "cell": "E58",
+     "formula": 2150
+    },
+    {
+     "cell": "B59",
+     "formula": "=DATE(2027,3,25)"
+    },
+    {
+     "cell": "C59",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D59",
+     "formula": "Student loan"
+    },
+    {
+     "cell": "E59",
+     "formula": 260
+    },
+    {
+     "cell": "B60",
+     "formula": "=DATE(2027,3,26)"
+    },
+    {
+     "cell": "C60",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D60",
+     "formula": "Dining out"
+    },
+    {
+     "cell": "E60",
+     "formula": 287.19
+    },
+    {
+     "cell": "B61",
+     "formula": "=DATE(2027,3,27)"
+    },
+    {
+     "cell": "C61",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D61",
+     "formula": "Entertainment"
+    },
+    {
+     "cell": "E61",
+     "formula": 74.02
+    },
+    {
+     "cell": "B62",
+     "formula": "=DATE(2027,4,1)"
+    },
+    {
+     "cell": "C62",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D62",
+     "formula": "Health insurance"
+    },
+    {
+     "cell": "E62",
+     "formula": 320
+    },
+    {
+     "cell": "B63",
+     "formula": "=DATE(2027,4,1)"
+    },
+    {
+     "cell": "C63",
+     "formula": "Income"
+    },
+    {
+     "cell": "D63",
+     "formula": "Paycheck (partner)"
+    },
+    {
+     "cell": "E63",
+     "formula": 3100
+    },
+    {
+     "cell": "B64",
+     "formula": "=DATE(2027,4,2)"
+    },
+    {
+     "cell": "C64",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D64",
+     "formula": "Emergency fund"
+    },
+    {
+     "cell": "E64",
+     "formula": 400
+    },
+    {
+     "cell": "B65",
+     "formula": "=DATE(2027,4,2)"
+    },
+    {
+     "cell": "C65",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D65",
+     "formula": "Retirement (IRA)"
+    },
+    {
+     "cell": "E65",
+     "formula": 300
+    },
+    {
+     "cell": "B66",
+     "formula": "=DATE(2027,4,3)"
+    },
+    {
+     "cell": "C66",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D66",
+     "formula": "Rent"
+    },
+    {
+     "cell": "E66",
+     "formula": 1650
+    },
+    {
+     "cell": "B67",
+     "formula": "=DATE(2027,4,5)"
+    },
+    {
+     "cell": "C67",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D67",
+     "formula": "Subscriptions"
+    },
+    {
+     "cell": "E67",
+     "formula": 45
+    },
+    {
+     "cell": "B68",
+     "formula": "=DATE(2027,4,8)"
+    },
+    {
+     "cell": "C68",
+     "formula": "Income"
+    },
+    {
+     "cell": "D68",
+     "formula": "Paycheck (me)"
+    },
+    {
+     "cell": "E68",
+     "formula": 2150
+    },
+    {
+     "cell": "B69",
+     "formula": "=DATE(2027,4,9)"
+    },
+    {
+     "cell": "C69",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D69",
+     "formula": "Clothing"
+    },
+    {
+     "cell": "E69",
+     "formula": 310
+    },
+    {
+     "cell": "B70",
+     "formula": "=DATE(2027,4,10)"
+    },
+    {
+     "cell": "C70",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D70",
+     "formula": "Utilities"
+    },
+    {
+     "cell": "E70",
+     "formula": 200.38
+    },
+    {
+     "cell": "B71",
+     "formula": "=DATE(2027,4,12)"
+    },
+    {
+     "cell": "C71",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D71",
+     "formula": "Car payment"
+    },
+    {
+     "cell": "E71",
+     "formula": 385
+    },
+    {
+     "cell": "B72",
+     "formula": "=DATE(2027,4,14)"
+    },
+    {
+     "cell": "C72",
+     "formula": "Income"
+    },
+    {
+     "cell": "D72",
+     "formula": "Side gig"
+    },
+    {
+     "cell": "E72",
+     "formula": 369.93
+    },
+    {
+     "cell": "B73",
+     "formula": "=DATE(2027,4,15)"
+    },
+    {
+     "cell": "C73",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D73",
+     "formula": "Groceries"
+    },
+    {
+     "cell": "E73",
+     "formula": 668.46
+    },
+    {
+     "cell": "F73",
+     "formula": "Month total"
+    },
+    {
+     "cell": "B74",
+     "formula": "=DATE(2027,4,15)"
+    },
+    {
+     "cell": "C74",
+     "formula": "Income"
+    },
+    {
+     "cell": "D74",
+     "formula": "Tax refund"
+    },
+    {
+     "cell": "E74",
+     "formula": 1850
+    },
+    {
+     "cell": "B75",
+     "formula": "=DATE(2027,4,18)"
+    },
+    {
+     "cell": "C75",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D75",
+     "formula": "Gas"
+    },
+    {
+     "cell": "E75",
+     "formula": 163.17
+    },
+    {
+     "cell": "B76",
+     "formula": "=DATE(2027,4,19)"
+    },
+    {
+     "cell": "C76",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D76",
+     "formula": "Pet care"
+    },
+    {
+     "cell": "E76",
+     "formula": 72.43
+    },
+    {
+     "cell": "B77",
+     "formula": "=DATE(2027,4,20)"
+    },
+    {
+     "cell": "C77",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D77",
+     "formula": "Phone & internet"
+    },
+    {
+     "cell": "E77",
+     "formula": 140
+    },
+    {
+     "cell": "B78",
+     "formula": "=DATE(2027,4,22)"
+    },
+    {
+     "cell": "C78",
+     "formula": "Income"
+    },
+    {
+     "cell": "D78",
+     "formula": "Paycheck (me)"
+    },
+    {
+     "cell": "E78",
+     "formula": 2150
+    },
+    {
+     "cell": "B79",
+     "formula": "=DATE(2027,4,25)"
+    },
+    {
+     "cell": "C79",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D79",
+     "formula": "Student loan"
+    },
+    {
+     "cell": "E79",
+     "formula": 260
+    },
+    {
+     "cell": "B80",
+     "formula": "=DATE(2027,4,26)"
+    },
+    {
+     "cell": "C80",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D80",
+     "formula": "Dining out"
+    },
+    {
+     "cell": "E80",
+     "formula": 222.62
+    },
+    {
+     "cell": "B81",
+     "formula": "=DATE(2027,4,27)"
+    },
+    {
+     "cell": "C81",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D81",
+     "formula": "Entertainment"
+    },
+    {
+     "cell": "E81",
+     "formula": 53.12
+    },
+    {
+     "cell": "B82",
+     "formula": "=DATE(2027,5,1)"
+    },
+    {
+     "cell": "C82",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D82",
+     "formula": "Health insurance"
+    },
+    {
+     "cell": "E82",
+     "formula": 320
+    },
+    {
+     "cell": "B83",
+     "formula": "=DATE(2027,5,1)"
+    },
+    {
+     "cell": "C83",
+     "formula": "Income"
+    },
+    {
+     "cell": "D83",
+     "formula": "Paycheck (partner)"
+    },
+    {
+     "cell": "E83",
+     "formula": 3100
+    },
+    {
+     "cell": "B84",
+     "formula": "=DATE(2027,5,2)"
+    },
+    {
+     "cell": "C84",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D84",
+     "formula": "Emergency fund"
+    },
+    {
+     "cell": "E84",
+     "formula": 400
+    },
+    {
+     "cell": "B85",
+     "formula": "=DATE(2027,5,2)"
+    },
+    {
+     "cell": "C85",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D85",
+     "formula": "Retirement (IRA)"
+    },
+    {
+     "cell": "E85",
+     "formula": 300
+    },
+    {
+     "cell": "B86",
+     "formula": "=DATE(2027,5,3)"
+    },
+    {
+     "cell": "C86",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D86",
+     "formula": "Rent"
+    },
+    {
+     "cell": "E86",
+     "formula": 1650
+    },
+    {
+     "cell": "B87",
+     "formula": "=DATE(2027,5,5)"
+    },
+    {
+     "cell": "C87",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D87",
+     "formula": "Subscriptions"
+    },
+    {
+     "cell": "E87",
+     "formula": 45
+    },
+    {
+     "cell": "B88",
+     "formula": "=DATE(2027,5,8)"
+    },
+    {
+     "cell": "C88",
+     "formula": "Income"
+    },
+    {
+     "cell": "D88",
+     "formula": "Paycheck (me)"
+    },
+    {
+     "cell": "E88",
+     "formula": 2150
+    },
+    {
+     "cell": "B89",
+     "formula": "=DATE(2027,5,10)"
+    },
+    {
+     "cell": "C89",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D89",
+     "formula": "Utilities"
+    },
+    {
+     "cell": "E89",
+     "formula": 236.3
+    },
+    {
+     "cell": "B90",
+     "formula": "=DATE(2027,5,12)"
+    },
+    {
+     "cell": "C90",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D90",
+     "formula": "Car payment"
+    },
+    {
+     "cell": "E90",
+     "formula": 385
+    },
+    {
+     "cell": "B91",
+     "formula": "=DATE(2027,5,14)"
+    },
+    {
+     "cell": "C91",
+     "formula": "Income"
+    },
+    {
+     "cell": "D91",
+     "formula": "Side gig"
+    },
+    {
+     "cell": "E91",
+     "formula": 386.49
+    },
+    {
+     "cell": "B92",
+     "formula": "=DATE(2027,5,15)"
+    },
+    {
+     "cell": "C92",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D92",
+     "formula": "Groceries"
+    },
+    {
+     "cell": "E92",
+     "formula": 664.13
+    },
+    {
+     "cell": "F92",
+     "formula": "Month total"
+    },
+    {
+     "cell": "B93",
+     "formula": "=DATE(2027,5,18)"
+    },
+    {
+     "cell": "C93",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D93",
+     "formula": "Gas"
+    },
+    {
+     "cell": "E93",
+     "formula": 200.55
+    },
+    {
+     "cell": "B94",
+     "formula": "=DATE(2027,5,19)"
+    },
+    {
+     "cell": "C94",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D94",
+     "formula": "Pet care"
+    },
+    {
+     "cell": "E94",
+     "formula": 53.71
+    },
+    {
+     "cell": "B95",
+     "formula": "=DATE(2027,5,20)"
+    },
+    {
+     "cell": "C95",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D95",
+     "formula": "Phone & internet"
+    },
+    {
+     "cell": "E95",
+     "formula": 140
+    },
+    {
+     "cell": "B96",
+     "formula": "=DATE(2027,5,22)"
+    },
+    {
+     "cell": "C96",
+     "formula": "Income"
+    },
+    {
+     "cell": "D96",
+     "formula": "Paycheck (me)"
+    },
+    {
+     "cell": "E96",
+     "formula": 2150
+    },
+    {
+     "cell": "B97",
+     "formula": "=DATE(2027,5,25)"
+    },
+    {
+     "cell": "C97",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D97",
+     "formula": "Student loan"
+    },
+    {
+     "cell": "E97",
+     "formula": 260
+    },
+    {
+     "cell": "B98",
+     "formula": "=DATE(2027,5,26)"
+    },
+    {
+     "cell": "C98",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D98",
+     "formula": "Dining out"
+    },
+    {
+     "cell": "E98",
+     "formula": 273.13
+    },
+    {
+     "cell": "B99",
+     "formula": "=DATE(2027,5,27)"
+    },
+    {
+     "cell": "C99",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D99",
+     "formula": "Entertainment"
+    },
+    {
+     "cell": "E99",
+     "formula": 110.56
+    },
+    {
+     "cell": "B100",
+     "formula": "=DATE(2027,6,1)"
+    },
+    {
+     "cell": "C100",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D100",
+     "formula": "Health insurance"
+    },
+    {
+     "cell": "E100",
+     "formula": 320
+    },
+    {
+     "cell": "B101",
+     "formula": "=DATE(2027,6,1)"
+    },
+    {
+     "cell": "C101",
+     "formula": "Income"
+    },
+    {
+     "cell": "D101",
+     "formula": "Paycheck (partner)"
+    },
+    {
+     "cell": "E101",
+     "formula": 3100
+    },
+    {
+     "cell": "B102",
+     "formula": "=DATE(2027,6,2)"
+    },
+    {
+     "cell": "C102",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D102",
+     "formula": "Emergency fund"
+    },
+    {
+     "cell": "E102",
+     "formula": 400
+    },
+    {
+     "cell": "B103",
+     "formula": "=DATE(2027,6,2)"
+    },
+    {
+     "cell": "C103",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D103",
+     "formula": "Retirement (IRA)"
+    },
+    {
+     "cell": "E103",
+     "formula": 300
+    },
+    {
+     "cell": "B104",
+     "formula": "=DATE(2027,6,3)"
+    },
+    {
+     "cell": "C104",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D104",
+     "formula": "Rent"
+    },
+    {
+     "cell": "E104",
+     "formula": 1650
+    },
+    {
+     "cell": "B105",
+     "formula": "=DATE(2027,6,5)"
+    },
+    {
+     "cell": "C105",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D105",
+     "formula": "Subscriptions"
+    },
+    {
+     "cell": "E105",
+     "formula": 45
+    },
+    {
+     "cell": "B106",
+     "formula": "=DATE(2027,6,8)"
+    },
+    {
+     "cell": "C106",
+     "formula": "Income"
+    },
+    {
+     "cell": "D106",
+     "formula": "Paycheck (me)"
+    },
+    {
+     "cell": "E106",
+     "formula": 2150
+    },
+    {
+     "cell": "B107",
+     "formula": "=DATE(2027,6,10)"
+    },
+    {
+     "cell": "C107",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D107",
+     "formula": "Utilities"
+    },
+    {
+     "cell": "E107",
+     "formula": 212.83
+    },
+    {
+     "cell": "B108",
+     "formula": "=DATE(2027,6,11)"
+    },
+    {
+     "cell": "C108",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D108",
+     "formula": "Home repairs"
+    },
+    {
+     "cell": "E108",
+     "formula": 480
+    },
+    {
+     "cell": "F108",
+     "formula": "Water heater part"
+    },
+    {
+     "cell": "B109",
+     "formula": "=DATE(2027,6,12)"
+    },
+    {
+     "cell": "C109",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D109",
+     "formula": "Car payment"
+    },
+    {
+     "cell": "E109",
+     "formula": 385
+    },
+    {
+     "cell": "B110",
+     "formula": "=DATE(2027,6,14)"
+    },
+    {
+     "cell": "C110",
+     "formula": "Income"
+    },
+    {
+     "cell": "D110",
+     "formula": "Side gig"
+    },
+    {
+     "cell": "E110",
+     "formula": 316.32
+    },
+    {
+     "cell": "B111",
+     "formula": "=DATE(2027,6,15)"
+    },
+    {
+     "cell": "C111",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D111",
+     "formula": "Groceries"
+    },
+    {
+     "cell": "E111",
+     "formula": 693.52
+    },
+    {
+     "cell": "F111",
+     "formula": "Month total"
+    },
+    {
+     "cell": "B112",
+     "formula": "=DATE(2027,6,18)"
+    },
+    {
+     "cell": "C112",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D112",
+     "formula": "Gas"
+    },
+    {
+     "cell": "E112",
+     "formula": 166.41
+    },
+    {
+     "cell": "B113",
+     "formula": "=DATE(2027,6,19)"
+    },
+    {
+     "cell": "C113",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D113",
+     "formula": "Pet care"
+    },
+    {
+     "cell": "E113",
+     "formula": 95.56
+    },
+    {
+     "cell": "B114",
+     "formula": "=DATE(2027,6,20)"
+    },
+    {
+     "cell": "C114",
+     "formula": "Expense"
+    },
+    {
+     "cell": "D114",
+     "formula": "Phone & internet"
+    },
+    {
+     "cell": "E114",
+     "formula": 140
+    },
+    {
+     "col": "I",
+     "range_rows": [
+      6,
+      1005
+     ],
+     "formula": "=IF(TRIM(C{row}&\"\")=\"\",2,IF(LOWER(TRIM(C{row}&\"\"))=\"income\",1,IF(LOWER(TRIM(C{row}&\"\"))=\"expense\",2,0)))"
+    },
+    {
+     "col": "J",
+     "range_rows": [
+      6,
+      1005
+     ],
+     "formula": "=IF(TRIM(D{row}&\"\")=\"\",0,IF(I{row}=1,IFERROR(MATCH(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(LOWER(TRIM(D{row}&\"\")),\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"),'Income Plan'!$P$6:$P$15,0),0),IFERROR(MATCH(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(LOWER(TRIM(D{row}&\"\")),\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"),'Expense Plan'!$P$6:$P$40,0),0)))"
+    },
+    {
+     "col": "G",
+     "range_rows": [
+      6,
+      1005
+     ],
+     "formula": "=IF(AND(TRIM(B{row}&\"\")=\"\",TRIM(E{row}&\"\")=\"\"),\"\",IF(OR(NOT(ISNUMBER(B{row})),N(B{row})<1,NOT(ISNUMBER(E{row})),I{row}=0,J{row}=0),\"?\",\"OK\"))"
+    },
+    {
+     "col": "H",
+     "range_rows": [
+      6,
+      1005
+     ],
+     "formula": "=IF(G{row}<>\"OK\",0,IF(YEAR(B{row})='Setup'!$R$4,MONTH(B{row}),0))"
+    },
+    {
+     "col": "K",
+     "range_rows": [
+      6,
+      1005
+     ],
+     "formula": "=IF(AND(H{row}>0,I{row}=1),E{row},0)"
+    },
+    {
+     "col": "L",
+     "range_rows": [
+      6,
+      1005
+     ],
+     "formula": "=IF(AND(H{row}>0,I{row}=2),E{row},0)"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "B6:F1005",
+     "type": "formula",
+     "formula": [
+      "$G6=\"?\""
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "B6:F1005",
+     "type": "formula",
+     "formula": [
+      "AND($G6=\"OK\",$I6=1)"
+     ],
+     "fill": "DDF2F0"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B5:F5",
+     "color": "22335B"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:F1005",
+     "color": "CCD5E6"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "22335B"
+    },
+    {
+     "range": "B5:F5",
+     "bold": true,
+     "size": 10,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "B6:C1005",
+     "align": "center"
+    },
+    {
+     "range": "E6:E1005",
+     "align": "center"
+    }
+   ],
+   "validations": [
+    {
+     "range": "C6:C1005",
+     "type": "list",
+     "values": [
+      "Expense",
+      "Income"
+     ],
+     "strict": false
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "B6:B1005",
+     "format": "mmm d, yyyy"
+    },
+    {
+     "range": "E6:E1005",
+     "format": "$#,##0.00"
+    }
+   ]
+  },
+  {
+   "name": "Monthly",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "22335B",
+   "grid_rows": 38,
+   "grid_cols": 19,
+   "column_widths": {
+    "A": 2.5,
+    "B": 8,
+    "C": 12,
+    "D": 12,
+    "E": 12,
+    "F": 12,
+    "G": 12,
+    "H": 12,
+    "I": 9,
+    "J": 2.5,
+    "R": 4
+   },
+   "hidden_columns": [
+    "R"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:I2",
+     "label": "MONTH BY MONTH",
+     "size": 16,
+     "color": "22335B",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B5",
+     "formula": "Month"
+    },
+    {
+     "cell": "C5",
+     "formula": "Income plan"
+    },
+    {
+     "cell": "D5",
+     "formula": "Income actual"
+    },
+    {
+     "cell": "E5",
+     "formula": "Spending plan"
+    },
+    {
+     "cell": "F5",
+     "formula": "Spending actual"
+    },
+    {
+     "cell": "G5",
+     "formula": "Net plan"
+    },
+    {
+     "cell": "H5",
+     "formula": "Net actual"
+    },
+    {
+     "cell": "I5",
+     "formula": "Saved %"
+    },
+    {
+     "cell": "B6",
+     "formula": "Jan"
+    },
+    {
+     "cell": "C6",
+     "formula": "='Income Plan'!T16",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D6",
+     "formula": "=IF(1>'Setup'!$R$6,\"\",ROUND(SUMIFS('Transactions'!$K$6:$K$1005,'Transactions'!$H$6:$H$1005,1),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E6",
+     "formula": "='Expense Plan'!T41",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F6",
+     "formula": "=IF(1>'Setup'!$R$6,\"\",ROUND(SUMIFS('Transactions'!$L$6:$L$1005,'Transactions'!$H$6:$H$1005,1),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G6",
+     "formula": "=ROUND(C6-E6,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "H6",
+     "formula": "=IF(D6=\"\",\"\",ROUND(D6-F6,2))",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "I6",
+     "formula": "=IF(OR(D6=\"\",N(D6)<=0),\"\",H6/D6)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B7",
+     "formula": "Feb"
+    },
+    {
+     "cell": "C7",
+     "formula": "='Income Plan'!U16",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D7",
+     "formula": "=IF(2>'Setup'!$R$6,\"\",ROUND(SUMIFS('Transactions'!$K$6:$K$1005,'Transactions'!$H$6:$H$1005,2),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E7",
+     "formula": "='Expense Plan'!U41",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F7",
+     "formula": "=IF(2>'Setup'!$R$6,\"\",ROUND(SUMIFS('Transactions'!$L$6:$L$1005,'Transactions'!$H$6:$H$1005,2),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G7",
+     "formula": "=ROUND(C7-E7,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "H7",
+     "formula": "=IF(D7=\"\",\"\",ROUND(D7-F7,2))",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "I7",
+     "formula": "=IF(OR(D7=\"\",N(D7)<=0),\"\",H7/D7)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B8",
+     "formula": "Mar"
+    },
+    {
+     "cell": "C8",
+     "formula": "='Income Plan'!V16",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D8",
+     "formula": "=IF(3>'Setup'!$R$6,\"\",ROUND(SUMIFS('Transactions'!$K$6:$K$1005,'Transactions'!$H$6:$H$1005,3),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E8",
+     "formula": "='Expense Plan'!V41",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F8",
+     "formula": "=IF(3>'Setup'!$R$6,\"\",ROUND(SUMIFS('Transactions'!$L$6:$L$1005,'Transactions'!$H$6:$H$1005,3),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G8",
+     "formula": "=ROUND(C8-E8,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "H8",
+     "formula": "=IF(D8=\"\",\"\",ROUND(D8-F8,2))",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "I8",
+     "formula": "=IF(OR(D8=\"\",N(D8)<=0),\"\",H8/D8)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B9",
+     "formula": "Apr"
+    },
+    {
+     "cell": "C9",
+     "formula": "='Income Plan'!W16",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D9",
+     "formula": "=IF(4>'Setup'!$R$6,\"\",ROUND(SUMIFS('Transactions'!$K$6:$K$1005,'Transactions'!$H$6:$H$1005,4),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E9",
+     "formula": "='Expense Plan'!W41",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F9",
+     "formula": "=IF(4>'Setup'!$R$6,\"\",ROUND(SUMIFS('Transactions'!$L$6:$L$1005,'Transactions'!$H$6:$H$1005,4),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G9",
+     "formula": "=ROUND(C9-E9,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "H9",
+     "formula": "=IF(D9=\"\",\"\",ROUND(D9-F9,2))",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "I9",
+     "formula": "=IF(OR(D9=\"\",N(D9)<=0),\"\",H9/D9)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B10",
+     "formula": "May"
+    },
+    {
+     "cell": "C10",
+     "formula": "='Income Plan'!X16",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D10",
+     "formula": "=IF(5>'Setup'!$R$6,\"\",ROUND(SUMIFS('Transactions'!$K$6:$K$1005,'Transactions'!$H$6:$H$1005,5),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E10",
+     "formula": "='Expense Plan'!X41",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F10",
+     "formula": "=IF(5>'Setup'!$R$6,\"\",ROUND(SUMIFS('Transactions'!$L$6:$L$1005,'Transactions'!$H$6:$H$1005,5),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G10",
+     "formula": "=ROUND(C10-E10,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "H10",
+     "formula": "=IF(D10=\"\",\"\",ROUND(D10-F10,2))",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "I10",
+     "formula": "=IF(OR(D10=\"\",N(D10)<=0),\"\",H10/D10)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B11",
+     "formula": "Jun"
+    },
+    {
+     "cell": "C11",
+     "formula": "='Income Plan'!Y16",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D11",
+     "formula": "=IF(6>'Setup'!$R$6,\"\",ROUND(SUMIFS('Transactions'!$K$6:$K$1005,'Transactions'!$H$6:$H$1005,6),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E11",
+     "formula": "='Expense Plan'!Y41",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F11",
+     "formula": "=IF(6>'Setup'!$R$6,\"\",ROUND(SUMIFS('Transactions'!$L$6:$L$1005,'Transactions'!$H$6:$H$1005,6),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G11",
+     "formula": "=ROUND(C11-E11,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "H11",
+     "formula": "=IF(D11=\"\",\"\",ROUND(D11-F11,2))",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "I11",
+     "formula": "=IF(OR(D11=\"\",N(D11)<=0),\"\",H11/D11)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B12",
+     "formula": "Jul"
+    },
+    {
+     "cell": "C12",
+     "formula": "='Income Plan'!Z16",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D12",
+     "formula": "=IF(7>'Setup'!$R$6,\"\",ROUND(SUMIFS('Transactions'!$K$6:$K$1005,'Transactions'!$H$6:$H$1005,7),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E12",
+     "formula": "='Expense Plan'!Z41",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F12",
+     "formula": "=IF(7>'Setup'!$R$6,\"\",ROUND(SUMIFS('Transactions'!$L$6:$L$1005,'Transactions'!$H$6:$H$1005,7),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G12",
+     "formula": "=ROUND(C12-E12,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "H12",
+     "formula": "=IF(D12=\"\",\"\",ROUND(D12-F12,2))",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "I12",
+     "formula": "=IF(OR(D12=\"\",N(D12)<=0),\"\",H12/D12)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B13",
+     "formula": "Aug"
+    },
+    {
+     "cell": "C13",
+     "formula": "='Income Plan'!AA16",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D13",
+     "formula": "=IF(8>'Setup'!$R$6,\"\",ROUND(SUMIFS('Transactions'!$K$6:$K$1005,'Transactions'!$H$6:$H$1005,8),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E13",
+     "formula": "='Expense Plan'!AA41",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F13",
+     "formula": "=IF(8>'Setup'!$R$6,\"\",ROUND(SUMIFS('Transactions'!$L$6:$L$1005,'Transactions'!$H$6:$H$1005,8),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G13",
+     "formula": "=ROUND(C13-E13,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "H13",
+     "formula": "=IF(D13=\"\",\"\",ROUND(D13-F13,2))",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "I13",
+     "formula": "=IF(OR(D13=\"\",N(D13)<=0),\"\",H13/D13)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B14",
+     "formula": "Sep"
+    },
+    {
+     "cell": "C14",
+     "formula": "='Income Plan'!AB16",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D14",
+     "formula": "=IF(9>'Setup'!$R$6,\"\",ROUND(SUMIFS('Transactions'!$K$6:$K$1005,'Transactions'!$H$6:$H$1005,9),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E14",
+     "formula": "='Expense Plan'!AB41",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F14",
+     "formula": "=IF(9>'Setup'!$R$6,\"\",ROUND(SUMIFS('Transactions'!$L$6:$L$1005,'Transactions'!$H$6:$H$1005,9),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G14",
+     "formula": "=ROUND(C14-E14,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "H14",
+     "formula": "=IF(D14=\"\",\"\",ROUND(D14-F14,2))",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "I14",
+     "formula": "=IF(OR(D14=\"\",N(D14)<=0),\"\",H14/D14)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B15",
+     "formula": "Oct"
+    },
+    {
+     "cell": "C15",
+     "formula": "='Income Plan'!AC16",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D15",
+     "formula": "=IF(10>'Setup'!$R$6,\"\",ROUND(SUMIFS('Transactions'!$K$6:$K$1005,'Transactions'!$H$6:$H$1005,10),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E15",
+     "formula": "='Expense Plan'!AC41",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F15",
+     "formula": "=IF(10>'Setup'!$R$6,\"\",ROUND(SUMIFS('Transactions'!$L$6:$L$1005,'Transactions'!$H$6:$H$1005,10),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G15",
+     "formula": "=ROUND(C15-E15,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "H15",
+     "formula": "=IF(D15=\"\",\"\",ROUND(D15-F15,2))",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "I15",
+     "formula": "=IF(OR(D15=\"\",N(D15)<=0),\"\",H15/D15)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B16",
+     "formula": "Nov"
+    },
+    {
+     "cell": "C16",
+     "formula": "='Income Plan'!AD16",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D16",
+     "formula": "=IF(11>'Setup'!$R$6,\"\",ROUND(SUMIFS('Transactions'!$K$6:$K$1005,'Transactions'!$H$6:$H$1005,11),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E16",
+     "formula": "='Expense Plan'!AD41",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F16",
+     "formula": "=IF(11>'Setup'!$R$6,\"\",ROUND(SUMIFS('Transactions'!$L$6:$L$1005,'Transactions'!$H$6:$H$1005,11),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G16",
+     "formula": "=ROUND(C16-E16,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "H16",
+     "formula": "=IF(D16=\"\",\"\",ROUND(D16-F16,2))",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "I16",
+     "formula": "=IF(OR(D16=\"\",N(D16)<=0),\"\",H16/D16)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B17",
+     "formula": "Dec"
+    },
+    {
+     "cell": "C17",
+     "formula": "='Income Plan'!AE16",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D17",
+     "formula": "=IF(12>'Setup'!$R$6,\"\",ROUND(SUMIFS('Transactions'!$K$6:$K$1005,'Transactions'!$H$6:$H$1005,12),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E17",
+     "formula": "='Expense Plan'!AE41",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F17",
+     "formula": "=IF(12>'Setup'!$R$6,\"\",ROUND(SUMIFS('Transactions'!$L$6:$L$1005,'Transactions'!$H$6:$H$1005,12),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G17",
+     "formula": "=ROUND(C17-E17,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "H17",
+     "formula": "=IF(D17=\"\",\"\",ROUND(D17-F17,2))",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "I17",
+     "formula": "=IF(OR(D17=\"\",N(D17)<=0),\"\",H17/D17)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B18",
+     "formula": "Year"
+    },
+    {
+     "cell": "C18",
+     "formula": "='Income Plan'!F16",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E18",
+     "formula": "='Expense Plan'!G41",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G18",
+     "formula": "=ROUND(C18-E18,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "D18",
+     "formula": "=ROUND(SUM(D6:D17),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F18",
+     "formula": "=ROUND(SUM(F6:F17),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H18",
+     "formula": "=ROUND(SUM(H6:H17),2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "I18",
+     "formula": "=IF(D18<=0,\"\",H18/D18)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B3",
+     "formula": "=\"Plan vs actual for \"&'Setup'!$R$4&\". Actual shows months up to today.\""
+    },
+    {
+     "cell": "R4",
+     "formula": "='Setup'!$R$6"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "H6:H18",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER(H6),H6<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "F6:F17",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER(F6),F6>E6)"
+     ],
+     "fill": "FCE5E0"
+    },
+    {
+     "range": "B6:B17",
+     "type": "formula",
+     "formula": [
+      "ROW()-5=$R$4"
+     ],
+     "fill": "D9A21B"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B5:I5",
+     "color": "22335B"
+    },
+    {
+     "range": "B18:I18",
+     "color": "E6EBF5"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:I18",
+     "color": "CCD5E6"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "22335B"
+    },
+    {
+     "range": "B5:I5",
+     "wrap": true,
+     "bold": true,
+     "size": 9,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "B6:I18",
+     "align": "center"
+    },
+    {
+     "range": "B6:B18",
+     "bold": true,
+     "size": 10,
+     "color": "22335B",
+     "align": "center"
+    },
+    {
+     "range": "H6:H18",
+     "bold": true,
+     "size": 10,
+     "color": "17998E",
+     "align": "center"
+    },
+    {
+     "range": "B18:I18",
+     "bold": true,
+     "size": 10,
+     "color": "22335B",
+     "align": "center"
+    }
+   ],
+   "row_heights": {
+    "5": 30
+   },
+   "charts": [
+    {
+     "type": "bar",
+     "anchor": "B20",
+     "data": "Monthly!E5:F17",
+     "categories": "Monthly!B6:B17",
+     "width": 20,
+     "height": 7,
+     "colors": [
+      "22335B",
+      "E2654D"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Categories",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "E2654D",
+   "grid_rows": 43,
+   "grid_cols": 10,
+   "freeze": "C6",
+   "column_widths": {
+    "A": 2.5,
+    "B": 22,
+    "C": 10,
+    "D": 12,
+    "E": 12,
+    "F": 12,
+    "G": 12,
+    "H": 9,
+    "I": 14,
+    "J": 2.5
+   },
+   "section_bars": [
+    {
+     "range": "B2:I2",
+     "label": "CATEGORIES",
+     "size": 16,
+     "color": "22335B",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Plan so far = what the plan expected by the end of this month. Difference = plan so far minus spent."
+    },
+    {
+     "cell": "B5",
+     "formula": "Category"
+    },
+    {
+     "cell": "C5",
+     "formula": "Group"
+    },
+    {
+     "cell": "D5",
+     "formula": "Plan (year)"
+    },
+    {
+     "cell": "E5",
+     "formula": "Plan so far"
+    },
+    {
+     "cell": "F5",
+     "formula": "Spent so far"
+    },
+    {
+     "cell": "G5",
+     "formula": "Difference"
+    },
+    {
+     "cell": "H5",
+     "formula": "Used of year"
+    },
+    {
+     "cell": "I5",
+     "formula": "Status"
+    },
+    {
+     "cell": "B6",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B6&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D6))),\"\",IF(TRIM('Expense Plan'!B6&\"\")=\"\",\"(no name)\",TRIM('Expense Plan'!B6&\"\")))"
+    },
+    {
+     "cell": "C6",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B6&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D6))),\"\",'Expense Plan'!C6&\"\")"
+    },
+    {
+     "cell": "D6",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B6&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D6))),\"\",N('Expense Plan'!G6))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E6",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B6&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D6))),\"\",ROUND(IF(1<='Setup'!$R$6,'Expense Plan'!T6,0)+IF(2<='Setup'!$R$6,'Expense Plan'!U6,0)+IF(3<='Setup'!$R$6,'Expense Plan'!V6,0)+IF(4<='Setup'!$R$6,'Expense Plan'!W6,0)+IF(5<='Setup'!$R$6,'Expense Plan'!X6,0)+IF(6<='Setup'!$R$6,'Expense Plan'!Y6,0)+IF(7<='Setup'!$R$6,'Expense Plan'!Z6,0)+IF(8<='Setup'!$R$6,'Expense Plan'!AA6,0)+IF(9<='Setup'!$R$6,'Expense Plan'!AB6,0)+IF(10<='Setup'!$R$6,'Expense Plan'!AC6,0)+IF(11<='Setup'!$R$6,'Expense Plan'!AD6,0)+IF(12<='Setup'!$R$6,'Expense Plan'!AE6,0),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F6",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B6&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D6))),\"\",ROUND(SUMIFS('Transactions'!$L$6:$L$1005,'Transactions'!$J$6:$J$1005,1),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G6",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B6&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D6))),\"\",ROUND(E6-F6,2))",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "H6",
+     "formula": "=IF(OR(AND(TRIM('Expense Plan'!B6&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D6))),N(D6)=0),\"\",F6/D6)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "I6",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B6&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D6))),\"\",IF(F6>D6,\"Over the year\",IF(G6<0,\"Over so far\",\"On track\")))"
+    },
+    {
+     "cell": "B7",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B7&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D7))),\"\",IF(TRIM('Expense Plan'!B7&\"\")=\"\",\"(no name)\",TRIM('Expense Plan'!B7&\"\")))"
+    },
+    {
+     "cell": "C7",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B7&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D7))),\"\",'Expense Plan'!C7&\"\")"
+    },
+    {
+     "cell": "D7",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B7&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D7))),\"\",N('Expense Plan'!G7))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E7",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B7&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D7))),\"\",ROUND(IF(1<='Setup'!$R$6,'Expense Plan'!T7,0)+IF(2<='Setup'!$R$6,'Expense Plan'!U7,0)+IF(3<='Setup'!$R$6,'Expense Plan'!V7,0)+IF(4<='Setup'!$R$6,'Expense Plan'!W7,0)+IF(5<='Setup'!$R$6,'Expense Plan'!X7,0)+IF(6<='Setup'!$R$6,'Expense Plan'!Y7,0)+IF(7<='Setup'!$R$6,'Expense Plan'!Z7,0)+IF(8<='Setup'!$R$6,'Expense Plan'!AA7,0)+IF(9<='Setup'!$R$6,'Expense Plan'!AB7,0)+IF(10<='Setup'!$R$6,'Expense Plan'!AC7,0)+IF(11<='Setup'!$R$6,'Expense Plan'!AD7,0)+IF(12<='Setup'!$R$6,'Expense Plan'!AE7,0),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F7",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B7&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D7))),\"\",ROUND(SUMIFS('Transactions'!$L$6:$L$1005,'Transactions'!$J$6:$J$1005,2),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G7",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B7&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D7))),\"\",ROUND(E7-F7,2))",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "H7",
+     "formula": "=IF(OR(AND(TRIM('Expense Plan'!B7&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D7))),N(D7)=0),\"\",F7/D7)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "I7",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B7&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D7))),\"\",IF(F7>D7,\"Over the year\",IF(G7<0,\"Over so far\",\"On track\")))"
+    },
+    {
+     "cell": "B8",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B8&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D8))),\"\",IF(TRIM('Expense Plan'!B8&\"\")=\"\",\"(no name)\",TRIM('Expense Plan'!B8&\"\")))"
+    },
+    {
+     "cell": "C8",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B8&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D8))),\"\",'Expense Plan'!C8&\"\")"
+    },
+    {
+     "cell": "D8",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B8&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D8))),\"\",N('Expense Plan'!G8))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E8",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B8&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D8))),\"\",ROUND(IF(1<='Setup'!$R$6,'Expense Plan'!T8,0)+IF(2<='Setup'!$R$6,'Expense Plan'!U8,0)+IF(3<='Setup'!$R$6,'Expense Plan'!V8,0)+IF(4<='Setup'!$R$6,'Expense Plan'!W8,0)+IF(5<='Setup'!$R$6,'Expense Plan'!X8,0)+IF(6<='Setup'!$R$6,'Expense Plan'!Y8,0)+IF(7<='Setup'!$R$6,'Expense Plan'!Z8,0)+IF(8<='Setup'!$R$6,'Expense Plan'!AA8,0)+IF(9<='Setup'!$R$6,'Expense Plan'!AB8,0)+IF(10<='Setup'!$R$6,'Expense Plan'!AC8,0)+IF(11<='Setup'!$R$6,'Expense Plan'!AD8,0)+IF(12<='Setup'!$R$6,'Expense Plan'!AE8,0),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F8",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B8&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D8))),\"\",ROUND(SUMIFS('Transactions'!$L$6:$L$1005,'Transactions'!$J$6:$J$1005,3),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G8",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B8&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D8))),\"\",ROUND(E8-F8,2))",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "H8",
+     "formula": "=IF(OR(AND(TRIM('Expense Plan'!B8&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D8))),N(D8)=0),\"\",F8/D8)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "I8",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B8&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D8))),\"\",IF(F8>D8,\"Over the year\",IF(G8<0,\"Over so far\",\"On track\")))"
+    },
+    {
+     "cell": "B9",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B9&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D9))),\"\",IF(TRIM('Expense Plan'!B9&\"\")=\"\",\"(no name)\",TRIM('Expense Plan'!B9&\"\")))"
+    },
+    {
+     "cell": "C9",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B9&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D9))),\"\",'Expense Plan'!C9&\"\")"
+    },
+    {
+     "cell": "D9",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B9&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D9))),\"\",N('Expense Plan'!G9))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E9",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B9&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D9))),\"\",ROUND(IF(1<='Setup'!$R$6,'Expense Plan'!T9,0)+IF(2<='Setup'!$R$6,'Expense Plan'!U9,0)+IF(3<='Setup'!$R$6,'Expense Plan'!V9,0)+IF(4<='Setup'!$R$6,'Expense Plan'!W9,0)+IF(5<='Setup'!$R$6,'Expense Plan'!X9,0)+IF(6<='Setup'!$R$6,'Expense Plan'!Y9,0)+IF(7<='Setup'!$R$6,'Expense Plan'!Z9,0)+IF(8<='Setup'!$R$6,'Expense Plan'!AA9,0)+IF(9<='Setup'!$R$6,'Expense Plan'!AB9,0)+IF(10<='Setup'!$R$6,'Expense Plan'!AC9,0)+IF(11<='Setup'!$R$6,'Expense Plan'!AD9,0)+IF(12<='Setup'!$R$6,'Expense Plan'!AE9,0),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F9",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B9&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D9))),\"\",ROUND(SUMIFS('Transactions'!$L$6:$L$1005,'Transactions'!$J$6:$J$1005,4),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G9",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B9&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D9))),\"\",ROUND(E9-F9,2))",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "H9",
+     "formula": "=IF(OR(AND(TRIM('Expense Plan'!B9&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D9))),N(D9)=0),\"\",F9/D9)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "I9",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B9&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D9))),\"\",IF(F9>D9,\"Over the year\",IF(G9<0,\"Over so far\",\"On track\")))"
+    },
+    {
+     "cell": "B10",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B10&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D10))),\"\",IF(TRIM('Expense Plan'!B10&\"\")=\"\",\"(no name)\",TRIM('Expense Plan'!B10&\"\")))"
+    },
+    {
+     "cell": "C10",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B10&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D10))),\"\",'Expense Plan'!C10&\"\")"
+    },
+    {
+     "cell": "D10",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B10&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D10))),\"\",N('Expense Plan'!G10))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E10",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B10&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D10))),\"\",ROUND(IF(1<='Setup'!$R$6,'Expense Plan'!T10,0)+IF(2<='Setup'!$R$6,'Expense Plan'!U10,0)+IF(3<='Setup'!$R$6,'Expense Plan'!V10,0)+IF(4<='Setup'!$R$6,'Expense Plan'!W10,0)+IF(5<='Setup'!$R$6,'Expense Plan'!X10,0)+IF(6<='Setup'!$R$6,'Expense Plan'!Y10,0)+IF(7<='Setup'!$R$6,'Expense Plan'!Z10,0)+IF(8<='Setup'!$R$6,'Expense Plan'!AA10,0)+IF(9<='Setup'!$R$6,'Expense Plan'!AB10,0)+IF(10<='Setup'!$R$6,'Expense Plan'!AC10,0)+IF(11<='Setup'!$R$6,'Expense Plan'!AD10,0)+IF(12<='Setup'!$R$6,'Expense Plan'!AE10,0),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F10",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B10&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D10))),\"\",ROUND(SUMIFS('Transactions'!$L$6:$L$1005,'Transactions'!$J$6:$J$1005,5),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G10",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B10&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D10))),\"\",ROUND(E10-F10,2))",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "H10",
+     "formula": "=IF(OR(AND(TRIM('Expense Plan'!B10&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D10))),N(D10)=0),\"\",F10/D10)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "I10",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B10&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D10))),\"\",IF(F10>D10,\"Over the year\",IF(G10<0,\"Over so far\",\"On track\")))"
+    },
+    {
+     "cell": "B11",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B11&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D11))),\"\",IF(TRIM('Expense Plan'!B11&\"\")=\"\",\"(no name)\",TRIM('Expense Plan'!B11&\"\")))"
+    },
+    {
+     "cell": "C11",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B11&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D11))),\"\",'Expense Plan'!C11&\"\")"
+    },
+    {
+     "cell": "D11",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B11&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D11))),\"\",N('Expense Plan'!G11))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E11",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B11&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D11))),\"\",ROUND(IF(1<='Setup'!$R$6,'Expense Plan'!T11,0)+IF(2<='Setup'!$R$6,'Expense Plan'!U11,0)+IF(3<='Setup'!$R$6,'Expense Plan'!V11,0)+IF(4<='Setup'!$R$6,'Expense Plan'!W11,0)+IF(5<='Setup'!$R$6,'Expense Plan'!X11,0)+IF(6<='Setup'!$R$6,'Expense Plan'!Y11,0)+IF(7<='Setup'!$R$6,'Expense Plan'!Z11,0)+IF(8<='Setup'!$R$6,'Expense Plan'!AA11,0)+IF(9<='Setup'!$R$6,'Expense Plan'!AB11,0)+IF(10<='Setup'!$R$6,'Expense Plan'!AC11,0)+IF(11<='Setup'!$R$6,'Expense Plan'!AD11,0)+IF(12<='Setup'!$R$6,'Expense Plan'!AE11,0),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F11",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B11&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D11))),\"\",ROUND(SUMIFS('Transactions'!$L$6:$L$1005,'Transactions'!$J$6:$J$1005,6),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G11",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B11&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D11))),\"\",ROUND(E11-F11,2))",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "H11",
+     "formula": "=IF(OR(AND(TRIM('Expense Plan'!B11&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D11))),N(D11)=0),\"\",F11/D11)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "I11",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B11&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D11))),\"\",IF(F11>D11,\"Over the year\",IF(G11<0,\"Over so far\",\"On track\")))"
+    },
+    {
+     "cell": "B12",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B12&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D12))),\"\",IF(TRIM('Expense Plan'!B12&\"\")=\"\",\"(no name)\",TRIM('Expense Plan'!B12&\"\")))"
+    },
+    {
+     "cell": "C12",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B12&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D12))),\"\",'Expense Plan'!C12&\"\")"
+    },
+    {
+     "cell": "D12",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B12&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D12))),\"\",N('Expense Plan'!G12))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E12",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B12&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D12))),\"\",ROUND(IF(1<='Setup'!$R$6,'Expense Plan'!T12,0)+IF(2<='Setup'!$R$6,'Expense Plan'!U12,0)+IF(3<='Setup'!$R$6,'Expense Plan'!V12,0)+IF(4<='Setup'!$R$6,'Expense Plan'!W12,0)+IF(5<='Setup'!$R$6,'Expense Plan'!X12,0)+IF(6<='Setup'!$R$6,'Expense Plan'!Y12,0)+IF(7<='Setup'!$R$6,'Expense Plan'!Z12,0)+IF(8<='Setup'!$R$6,'Expense Plan'!AA12,0)+IF(9<='Setup'!$R$6,'Expense Plan'!AB12,0)+IF(10<='Setup'!$R$6,'Expense Plan'!AC12,0)+IF(11<='Setup'!$R$6,'Expense Plan'!AD12,0)+IF(12<='Setup'!$R$6,'Expense Plan'!AE12,0),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F12",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B12&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D12))),\"\",ROUND(SUMIFS('Transactions'!$L$6:$L$1005,'Transactions'!$J$6:$J$1005,7),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G12",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B12&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D12))),\"\",ROUND(E12-F12,2))",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "H12",
+     "formula": "=IF(OR(AND(TRIM('Expense Plan'!B12&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D12))),N(D12)=0),\"\",F12/D12)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "I12",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B12&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D12))),\"\",IF(F12>D12,\"Over the year\",IF(G12<0,\"Over so far\",\"On track\")))"
+    },
+    {
+     "cell": "B13",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B13&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D13))),\"\",IF(TRIM('Expense Plan'!B13&\"\")=\"\",\"(no name)\",TRIM('Expense Plan'!B13&\"\")))"
+    },
+    {
+     "cell": "C13",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B13&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D13))),\"\",'Expense Plan'!C13&\"\")"
+    },
+    {
+     "cell": "D13",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B13&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D13))),\"\",N('Expense Plan'!G13))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E13",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B13&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D13))),\"\",ROUND(IF(1<='Setup'!$R$6,'Expense Plan'!T13,0)+IF(2<='Setup'!$R$6,'Expense Plan'!U13,0)+IF(3<='Setup'!$R$6,'Expense Plan'!V13,0)+IF(4<='Setup'!$R$6,'Expense Plan'!W13,0)+IF(5<='Setup'!$R$6,'Expense Plan'!X13,0)+IF(6<='Setup'!$R$6,'Expense Plan'!Y13,0)+IF(7<='Setup'!$R$6,'Expense Plan'!Z13,0)+IF(8<='Setup'!$R$6,'Expense Plan'!AA13,0)+IF(9<='Setup'!$R$6,'Expense Plan'!AB13,0)+IF(10<='Setup'!$R$6,'Expense Plan'!AC13,0)+IF(11<='Setup'!$R$6,'Expense Plan'!AD13,0)+IF(12<='Setup'!$R$6,'Expense Plan'!AE13,0),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F13",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B13&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D13))),\"\",ROUND(SUMIFS('Transactions'!$L$6:$L$1005,'Transactions'!$J$6:$J$1005,8),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G13",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B13&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D13))),\"\",ROUND(E13-F13,2))",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "H13",
+     "formula": "=IF(OR(AND(TRIM('Expense Plan'!B13&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D13))),N(D13)=0),\"\",F13/D13)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "I13",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B13&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D13))),\"\",IF(F13>D13,\"Over the year\",IF(G13<0,\"Over so far\",\"On track\")))"
+    },
+    {
+     "cell": "B14",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B14&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D14))),\"\",IF(TRIM('Expense Plan'!B14&\"\")=\"\",\"(no name)\",TRIM('Expense Plan'!B14&\"\")))"
+    },
+    {
+     "cell": "C14",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B14&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D14))),\"\",'Expense Plan'!C14&\"\")"
+    },
+    {
+     "cell": "D14",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B14&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D14))),\"\",N('Expense Plan'!G14))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E14",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B14&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D14))),\"\",ROUND(IF(1<='Setup'!$R$6,'Expense Plan'!T14,0)+IF(2<='Setup'!$R$6,'Expense Plan'!U14,0)+IF(3<='Setup'!$R$6,'Expense Plan'!V14,0)+IF(4<='Setup'!$R$6,'Expense Plan'!W14,0)+IF(5<='Setup'!$R$6,'Expense Plan'!X14,0)+IF(6<='Setup'!$R$6,'Expense Plan'!Y14,0)+IF(7<='Setup'!$R$6,'Expense Plan'!Z14,0)+IF(8<='Setup'!$R$6,'Expense Plan'!AA14,0)+IF(9<='Setup'!$R$6,'Expense Plan'!AB14,0)+IF(10<='Setup'!$R$6,'Expense Plan'!AC14,0)+IF(11<='Setup'!$R$6,'Expense Plan'!AD14,0)+IF(12<='Setup'!$R$6,'Expense Plan'!AE14,0),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F14",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B14&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D14))),\"\",ROUND(SUMIFS('Transactions'!$L$6:$L$1005,'Transactions'!$J$6:$J$1005,9),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G14",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B14&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D14))),\"\",ROUND(E14-F14,2))",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "H14",
+     "formula": "=IF(OR(AND(TRIM('Expense Plan'!B14&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D14))),N(D14)=0),\"\",F14/D14)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "I14",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B14&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D14))),\"\",IF(F14>D14,\"Over the year\",IF(G14<0,\"Over so far\",\"On track\")))"
+    },
+    {
+     "cell": "B15",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B15&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D15))),\"\",IF(TRIM('Expense Plan'!B15&\"\")=\"\",\"(no name)\",TRIM('Expense Plan'!B15&\"\")))"
+    },
+    {
+     "cell": "C15",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B15&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D15))),\"\",'Expense Plan'!C15&\"\")"
+    },
+    {
+     "cell": "D15",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B15&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D15))),\"\",N('Expense Plan'!G15))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E15",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B15&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D15))),\"\",ROUND(IF(1<='Setup'!$R$6,'Expense Plan'!T15,0)+IF(2<='Setup'!$R$6,'Expense Plan'!U15,0)+IF(3<='Setup'!$R$6,'Expense Plan'!V15,0)+IF(4<='Setup'!$R$6,'Expense Plan'!W15,0)+IF(5<='Setup'!$R$6,'Expense Plan'!X15,0)+IF(6<='Setup'!$R$6,'Expense Plan'!Y15,0)+IF(7<='Setup'!$R$6,'Expense Plan'!Z15,0)+IF(8<='Setup'!$R$6,'Expense Plan'!AA15,0)+IF(9<='Setup'!$R$6,'Expense Plan'!AB15,0)+IF(10<='Setup'!$R$6,'Expense Plan'!AC15,0)+IF(11<='Setup'!$R$6,'Expense Plan'!AD15,0)+IF(12<='Setup'!$R$6,'Expense Plan'!AE15,0),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F15",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B15&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D15))),\"\",ROUND(SUMIFS('Transactions'!$L$6:$L$1005,'Transactions'!$J$6:$J$1005,10),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G15",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B15&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D15))),\"\",ROUND(E15-F15,2))",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "H15",
+     "formula": "=IF(OR(AND(TRIM('Expense Plan'!B15&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D15))),N(D15)=0),\"\",F15/D15)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "I15",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B15&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D15))),\"\",IF(F15>D15,\"Over the year\",IF(G15<0,\"Over so far\",\"On track\")))"
+    },
+    {
+     "cell": "B16",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B16&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D16))),\"\",IF(TRIM('Expense Plan'!B16&\"\")=\"\",\"(no name)\",TRIM('Expense Plan'!B16&\"\")))"
+    },
+    {
+     "cell": "C16",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B16&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D16))),\"\",'Expense Plan'!C16&\"\")"
+    },
+    {
+     "cell": "D16",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B16&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D16))),\"\",N('Expense Plan'!G16))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E16",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B16&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D16))),\"\",ROUND(IF(1<='Setup'!$R$6,'Expense Plan'!T16,0)+IF(2<='Setup'!$R$6,'Expense Plan'!U16,0)+IF(3<='Setup'!$R$6,'Expense Plan'!V16,0)+IF(4<='Setup'!$R$6,'Expense Plan'!W16,0)+IF(5<='Setup'!$R$6,'Expense Plan'!X16,0)+IF(6<='Setup'!$R$6,'Expense Plan'!Y16,0)+IF(7<='Setup'!$R$6,'Expense Plan'!Z16,0)+IF(8<='Setup'!$R$6,'Expense Plan'!AA16,0)+IF(9<='Setup'!$R$6,'Expense Plan'!AB16,0)+IF(10<='Setup'!$R$6,'Expense Plan'!AC16,0)+IF(11<='Setup'!$R$6,'Expense Plan'!AD16,0)+IF(12<='Setup'!$R$6,'Expense Plan'!AE16,0),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F16",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B16&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D16))),\"\",ROUND(SUMIFS('Transactions'!$L$6:$L$1005,'Transactions'!$J$6:$J$1005,11),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G16",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B16&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D16))),\"\",ROUND(E16-F16,2))",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "H16",
+     "formula": "=IF(OR(AND(TRIM('Expense Plan'!B16&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D16))),N(D16)=0),\"\",F16/D16)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "I16",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B16&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D16))),\"\",IF(F16>D16,\"Over the year\",IF(G16<0,\"Over so far\",\"On track\")))"
+    },
+    {
+     "cell": "B17",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B17&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D17))),\"\",IF(TRIM('Expense Plan'!B17&\"\")=\"\",\"(no name)\",TRIM('Expense Plan'!B17&\"\")))"
+    },
+    {
+     "cell": "C17",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B17&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D17))),\"\",'Expense Plan'!C17&\"\")"
+    },
+    {
+     "cell": "D17",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B17&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D17))),\"\",N('Expense Plan'!G17))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E17",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B17&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D17))),\"\",ROUND(IF(1<='Setup'!$R$6,'Expense Plan'!T17,0)+IF(2<='Setup'!$R$6,'Expense Plan'!U17,0)+IF(3<='Setup'!$R$6,'Expense Plan'!V17,0)+IF(4<='Setup'!$R$6,'Expense Plan'!W17,0)+IF(5<='Setup'!$R$6,'Expense Plan'!X17,0)+IF(6<='Setup'!$R$6,'Expense Plan'!Y17,0)+IF(7<='Setup'!$R$6,'Expense Plan'!Z17,0)+IF(8<='Setup'!$R$6,'Expense Plan'!AA17,0)+IF(9<='Setup'!$R$6,'Expense Plan'!AB17,0)+IF(10<='Setup'!$R$6,'Expense Plan'!AC17,0)+IF(11<='Setup'!$R$6,'Expense Plan'!AD17,0)+IF(12<='Setup'!$R$6,'Expense Plan'!AE17,0),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F17",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B17&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D17))),\"\",ROUND(SUMIFS('Transactions'!$L$6:$L$1005,'Transactions'!$J$6:$J$1005,12),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G17",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B17&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D17))),\"\",ROUND(E17-F17,2))",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "H17",
+     "formula": "=IF(OR(AND(TRIM('Expense Plan'!B17&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D17))),N(D17)=0),\"\",F17/D17)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "I17",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B17&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D17))),\"\",IF(F17>D17,\"Over the year\",IF(G17<0,\"Over so far\",\"On track\")))"
+    },
+    {
+     "cell": "B18",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B18&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D18))),\"\",IF(TRIM('Expense Plan'!B18&\"\")=\"\",\"(no name)\",TRIM('Expense Plan'!B18&\"\")))"
+    },
+    {
+     "cell": "C18",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B18&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D18))),\"\",'Expense Plan'!C18&\"\")"
+    },
+    {
+     "cell": "D18",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B18&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D18))),\"\",N('Expense Plan'!G18))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E18",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B18&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D18))),\"\",ROUND(IF(1<='Setup'!$R$6,'Expense Plan'!T18,0)+IF(2<='Setup'!$R$6,'Expense Plan'!U18,0)+IF(3<='Setup'!$R$6,'Expense Plan'!V18,0)+IF(4<='Setup'!$R$6,'Expense Plan'!W18,0)+IF(5<='Setup'!$R$6,'Expense Plan'!X18,0)+IF(6<='Setup'!$R$6,'Expense Plan'!Y18,0)+IF(7<='Setup'!$R$6,'Expense Plan'!Z18,0)+IF(8<='Setup'!$R$6,'Expense Plan'!AA18,0)+IF(9<='Setup'!$R$6,'Expense Plan'!AB18,0)+IF(10<='Setup'!$R$6,'Expense Plan'!AC18,0)+IF(11<='Setup'!$R$6,'Expense Plan'!AD18,0)+IF(12<='Setup'!$R$6,'Expense Plan'!AE18,0),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F18",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B18&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D18))),\"\",ROUND(SUMIFS('Transactions'!$L$6:$L$1005,'Transactions'!$J$6:$J$1005,13),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G18",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B18&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D18))),\"\",ROUND(E18-F18,2))",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "H18",
+     "formula": "=IF(OR(AND(TRIM('Expense Plan'!B18&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D18))),N(D18)=0),\"\",F18/D18)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "I18",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B18&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D18))),\"\",IF(F18>D18,\"Over the year\",IF(G18<0,\"Over so far\",\"On track\")))"
+    },
+    {
+     "cell": "B19",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B19&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D19))),\"\",IF(TRIM('Expense Plan'!B19&\"\")=\"\",\"(no name)\",TRIM('Expense Plan'!B19&\"\")))"
+    },
+    {
+     "cell": "C19",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B19&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D19))),\"\",'Expense Plan'!C19&\"\")"
+    },
+    {
+     "cell": "D19",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B19&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D19))),\"\",N('Expense Plan'!G19))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E19",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B19&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D19))),\"\",ROUND(IF(1<='Setup'!$R$6,'Expense Plan'!T19,0)+IF(2<='Setup'!$R$6,'Expense Plan'!U19,0)+IF(3<='Setup'!$R$6,'Expense Plan'!V19,0)+IF(4<='Setup'!$R$6,'Expense Plan'!W19,0)+IF(5<='Setup'!$R$6,'Expense Plan'!X19,0)+IF(6<='Setup'!$R$6,'Expense Plan'!Y19,0)+IF(7<='Setup'!$R$6,'Expense Plan'!Z19,0)+IF(8<='Setup'!$R$6,'Expense Plan'!AA19,0)+IF(9<='Setup'!$R$6,'Expense Plan'!AB19,0)+IF(10<='Setup'!$R$6,'Expense Plan'!AC19,0)+IF(11<='Setup'!$R$6,'Expense Plan'!AD19,0)+IF(12<='Setup'!$R$6,'Expense Plan'!AE19,0),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F19",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B19&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D19))),\"\",ROUND(SUMIFS('Transactions'!$L$6:$L$1005,'Transactions'!$J$6:$J$1005,14),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G19",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B19&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D19))),\"\",ROUND(E19-F19,2))",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "H19",
+     "formula": "=IF(OR(AND(TRIM('Expense Plan'!B19&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D19))),N(D19)=0),\"\",F19/D19)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "I19",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B19&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D19))),\"\",IF(F19>D19,\"Over the year\",IF(G19<0,\"Over so far\",\"On track\")))"
+    },
+    {
+     "cell": "B20",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B20&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D20))),\"\",IF(TRIM('Expense Plan'!B20&\"\")=\"\",\"(no name)\",TRIM('Expense Plan'!B20&\"\")))"
+    },
+    {
+     "cell": "C20",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B20&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D20))),\"\",'Expense Plan'!C20&\"\")"
+    },
+    {
+     "cell": "D20",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B20&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D20))),\"\",N('Expense Plan'!G20))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E20",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B20&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D20))),\"\",ROUND(IF(1<='Setup'!$R$6,'Expense Plan'!T20,0)+IF(2<='Setup'!$R$6,'Expense Plan'!U20,0)+IF(3<='Setup'!$R$6,'Expense Plan'!V20,0)+IF(4<='Setup'!$R$6,'Expense Plan'!W20,0)+IF(5<='Setup'!$R$6,'Expense Plan'!X20,0)+IF(6<='Setup'!$R$6,'Expense Plan'!Y20,0)+IF(7<='Setup'!$R$6,'Expense Plan'!Z20,0)+IF(8<='Setup'!$R$6,'Expense Plan'!AA20,0)+IF(9<='Setup'!$R$6,'Expense Plan'!AB20,0)+IF(10<='Setup'!$R$6,'Expense Plan'!AC20,0)+IF(11<='Setup'!$R$6,'Expense Plan'!AD20,0)+IF(12<='Setup'!$R$6,'Expense Plan'!AE20,0),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F20",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B20&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D20))),\"\",ROUND(SUMIFS('Transactions'!$L$6:$L$1005,'Transactions'!$J$6:$J$1005,15),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G20",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B20&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D20))),\"\",ROUND(E20-F20,2))",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "H20",
+     "formula": "=IF(OR(AND(TRIM('Expense Plan'!B20&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D20))),N(D20)=0),\"\",F20/D20)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "I20",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B20&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D20))),\"\",IF(F20>D20,\"Over the year\",IF(G20<0,\"Over so far\",\"On track\")))"
+    },
+    {
+     "cell": "B21",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B21&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D21))),\"\",IF(TRIM('Expense Plan'!B21&\"\")=\"\",\"(no name)\",TRIM('Expense Plan'!B21&\"\")))"
+    },
+    {
+     "cell": "C21",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B21&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D21))),\"\",'Expense Plan'!C21&\"\")"
+    },
+    {
+     "cell": "D21",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B21&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D21))),\"\",N('Expense Plan'!G21))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E21",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B21&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D21))),\"\",ROUND(IF(1<='Setup'!$R$6,'Expense Plan'!T21,0)+IF(2<='Setup'!$R$6,'Expense Plan'!U21,0)+IF(3<='Setup'!$R$6,'Expense Plan'!V21,0)+IF(4<='Setup'!$R$6,'Expense Plan'!W21,0)+IF(5<='Setup'!$R$6,'Expense Plan'!X21,0)+IF(6<='Setup'!$R$6,'Expense Plan'!Y21,0)+IF(7<='Setup'!$R$6,'Expense Plan'!Z21,0)+IF(8<='Setup'!$R$6,'Expense Plan'!AA21,0)+IF(9<='Setup'!$R$6,'Expense Plan'!AB21,0)+IF(10<='Setup'!$R$6,'Expense Plan'!AC21,0)+IF(11<='Setup'!$R$6,'Expense Plan'!AD21,0)+IF(12<='Setup'!$R$6,'Expense Plan'!AE21,0),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F21",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B21&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D21))),\"\",ROUND(SUMIFS('Transactions'!$L$6:$L$1005,'Transactions'!$J$6:$J$1005,16),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G21",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B21&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D21))),\"\",ROUND(E21-F21,2))",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "H21",
+     "formula": "=IF(OR(AND(TRIM('Expense Plan'!B21&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D21))),N(D21)=0),\"\",F21/D21)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "I21",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B21&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D21))),\"\",IF(F21>D21,\"Over the year\",IF(G21<0,\"Over so far\",\"On track\")))"
+    },
+    {
+     "cell": "B22",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B22&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D22))),\"\",IF(TRIM('Expense Plan'!B22&\"\")=\"\",\"(no name)\",TRIM('Expense Plan'!B22&\"\")))"
+    },
+    {
+     "cell": "C22",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B22&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D22))),\"\",'Expense Plan'!C22&\"\")"
+    },
+    {
+     "cell": "D22",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B22&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D22))),\"\",N('Expense Plan'!G22))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E22",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B22&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D22))),\"\",ROUND(IF(1<='Setup'!$R$6,'Expense Plan'!T22,0)+IF(2<='Setup'!$R$6,'Expense Plan'!U22,0)+IF(3<='Setup'!$R$6,'Expense Plan'!V22,0)+IF(4<='Setup'!$R$6,'Expense Plan'!W22,0)+IF(5<='Setup'!$R$6,'Expense Plan'!X22,0)+IF(6<='Setup'!$R$6,'Expense Plan'!Y22,0)+IF(7<='Setup'!$R$6,'Expense Plan'!Z22,0)+IF(8<='Setup'!$R$6,'Expense Plan'!AA22,0)+IF(9<='Setup'!$R$6,'Expense Plan'!AB22,0)+IF(10<='Setup'!$R$6,'Expense Plan'!AC22,0)+IF(11<='Setup'!$R$6,'Expense Plan'!AD22,0)+IF(12<='Setup'!$R$6,'Expense Plan'!AE22,0),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F22",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B22&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D22))),\"\",ROUND(SUMIFS('Transactions'!$L$6:$L$1005,'Transactions'!$J$6:$J$1005,17),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G22",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B22&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D22))),\"\",ROUND(E22-F22,2))",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "H22",
+     "formula": "=IF(OR(AND(TRIM('Expense Plan'!B22&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D22))),N(D22)=0),\"\",F22/D22)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "I22",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B22&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D22))),\"\",IF(F22>D22,\"Over the year\",IF(G22<0,\"Over so far\",\"On track\")))"
+    },
+    {
+     "cell": "B23",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B23&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D23))),\"\",IF(TRIM('Expense Plan'!B23&\"\")=\"\",\"(no name)\",TRIM('Expense Plan'!B23&\"\")))"
+    },
+    {
+     "cell": "C23",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B23&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D23))),\"\",'Expense Plan'!C23&\"\")"
+    },
+    {
+     "cell": "D23",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B23&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D23))),\"\",N('Expense Plan'!G23))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E23",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B23&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D23))),\"\",ROUND(IF(1<='Setup'!$R$6,'Expense Plan'!T23,0)+IF(2<='Setup'!$R$6,'Expense Plan'!U23,0)+IF(3<='Setup'!$R$6,'Expense Plan'!V23,0)+IF(4<='Setup'!$R$6,'Expense Plan'!W23,0)+IF(5<='Setup'!$R$6,'Expense Plan'!X23,0)+IF(6<='Setup'!$R$6,'Expense Plan'!Y23,0)+IF(7<='Setup'!$R$6,'Expense Plan'!Z23,0)+IF(8<='Setup'!$R$6,'Expense Plan'!AA23,0)+IF(9<='Setup'!$R$6,'Expense Plan'!AB23,0)+IF(10<='Setup'!$R$6,'Expense Plan'!AC23,0)+IF(11<='Setup'!$R$6,'Expense Plan'!AD23,0)+IF(12<='Setup'!$R$6,'Expense Plan'!AE23,0),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F23",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B23&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D23))),\"\",ROUND(SUMIFS('Transactions'!$L$6:$L$1005,'Transactions'!$J$6:$J$1005,18),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G23",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B23&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D23))),\"\",ROUND(E23-F23,2))",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "H23",
+     "formula": "=IF(OR(AND(TRIM('Expense Plan'!B23&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D23))),N(D23)=0),\"\",F23/D23)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "I23",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B23&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D23))),\"\",IF(F23>D23,\"Over the year\",IF(G23<0,\"Over so far\",\"On track\")))"
+    },
+    {
+     "cell": "B24",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B24&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D24))),\"\",IF(TRIM('Expense Plan'!B24&\"\")=\"\",\"(no name)\",TRIM('Expense Plan'!B24&\"\")))"
+    },
+    {
+     "cell": "C24",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B24&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D24))),\"\",'Expense Plan'!C24&\"\")"
+    },
+    {
+     "cell": "D24",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B24&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D24))),\"\",N('Expense Plan'!G24))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E24",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B24&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D24))),\"\",ROUND(IF(1<='Setup'!$R$6,'Expense Plan'!T24,0)+IF(2<='Setup'!$R$6,'Expense Plan'!U24,0)+IF(3<='Setup'!$R$6,'Expense Plan'!V24,0)+IF(4<='Setup'!$R$6,'Expense Plan'!W24,0)+IF(5<='Setup'!$R$6,'Expense Plan'!X24,0)+IF(6<='Setup'!$R$6,'Expense Plan'!Y24,0)+IF(7<='Setup'!$R$6,'Expense Plan'!Z24,0)+IF(8<='Setup'!$R$6,'Expense Plan'!AA24,0)+IF(9<='Setup'!$R$6,'Expense Plan'!AB24,0)+IF(10<='Setup'!$R$6,'Expense Plan'!AC24,0)+IF(11<='Setup'!$R$6,'Expense Plan'!AD24,0)+IF(12<='Setup'!$R$6,'Expense Plan'!AE24,0),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F24",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B24&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D24))),\"\",ROUND(SUMIFS('Transactions'!$L$6:$L$1005,'Transactions'!$J$6:$J$1005,19),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G24",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B24&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D24))),\"\",ROUND(E24-F24,2))",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "H24",
+     "formula": "=IF(OR(AND(TRIM('Expense Plan'!B24&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D24))),N(D24)=0),\"\",F24/D24)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "I24",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B24&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D24))),\"\",IF(F24>D24,\"Over the year\",IF(G24<0,\"Over so far\",\"On track\")))"
+    },
+    {
+     "cell": "B25",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B25&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D25))),\"\",IF(TRIM('Expense Plan'!B25&\"\")=\"\",\"(no name)\",TRIM('Expense Plan'!B25&\"\")))"
+    },
+    {
+     "cell": "C25",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B25&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D25))),\"\",'Expense Plan'!C25&\"\")"
+    },
+    {
+     "cell": "D25",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B25&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D25))),\"\",N('Expense Plan'!G25))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E25",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B25&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D25))),\"\",ROUND(IF(1<='Setup'!$R$6,'Expense Plan'!T25,0)+IF(2<='Setup'!$R$6,'Expense Plan'!U25,0)+IF(3<='Setup'!$R$6,'Expense Plan'!V25,0)+IF(4<='Setup'!$R$6,'Expense Plan'!W25,0)+IF(5<='Setup'!$R$6,'Expense Plan'!X25,0)+IF(6<='Setup'!$R$6,'Expense Plan'!Y25,0)+IF(7<='Setup'!$R$6,'Expense Plan'!Z25,0)+IF(8<='Setup'!$R$6,'Expense Plan'!AA25,0)+IF(9<='Setup'!$R$6,'Expense Plan'!AB25,0)+IF(10<='Setup'!$R$6,'Expense Plan'!AC25,0)+IF(11<='Setup'!$R$6,'Expense Plan'!AD25,0)+IF(12<='Setup'!$R$6,'Expense Plan'!AE25,0),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F25",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B25&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D25))),\"\",ROUND(SUMIFS('Transactions'!$L$6:$L$1005,'Transactions'!$J$6:$J$1005,20),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G25",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B25&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D25))),\"\",ROUND(E25-F25,2))",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "H25",
+     "formula": "=IF(OR(AND(TRIM('Expense Plan'!B25&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D25))),N(D25)=0),\"\",F25/D25)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "I25",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B25&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D25))),\"\",IF(F25>D25,\"Over the year\",IF(G25<0,\"Over so far\",\"On track\")))"
+    },
+    {
+     "cell": "B26",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B26&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D26))),\"\",IF(TRIM('Expense Plan'!B26&\"\")=\"\",\"(no name)\",TRIM('Expense Plan'!B26&\"\")))"
+    },
+    {
+     "cell": "C26",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B26&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D26))),\"\",'Expense Plan'!C26&\"\")"
+    },
+    {
+     "cell": "D26",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B26&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D26))),\"\",N('Expense Plan'!G26))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E26",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B26&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D26))),\"\",ROUND(IF(1<='Setup'!$R$6,'Expense Plan'!T26,0)+IF(2<='Setup'!$R$6,'Expense Plan'!U26,0)+IF(3<='Setup'!$R$6,'Expense Plan'!V26,0)+IF(4<='Setup'!$R$6,'Expense Plan'!W26,0)+IF(5<='Setup'!$R$6,'Expense Plan'!X26,0)+IF(6<='Setup'!$R$6,'Expense Plan'!Y26,0)+IF(7<='Setup'!$R$6,'Expense Plan'!Z26,0)+IF(8<='Setup'!$R$6,'Expense Plan'!AA26,0)+IF(9<='Setup'!$R$6,'Expense Plan'!AB26,0)+IF(10<='Setup'!$R$6,'Expense Plan'!AC26,0)+IF(11<='Setup'!$R$6,'Expense Plan'!AD26,0)+IF(12<='Setup'!$R$6,'Expense Plan'!AE26,0),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F26",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B26&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D26))),\"\",ROUND(SUMIFS('Transactions'!$L$6:$L$1005,'Transactions'!$J$6:$J$1005,21),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G26",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B26&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D26))),\"\",ROUND(E26-F26,2))",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "H26",
+     "formula": "=IF(OR(AND(TRIM('Expense Plan'!B26&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D26))),N(D26)=0),\"\",F26/D26)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "I26",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B26&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D26))),\"\",IF(F26>D26,\"Over the year\",IF(G26<0,\"Over so far\",\"On track\")))"
+    },
+    {
+     "cell": "B27",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B27&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D27))),\"\",IF(TRIM('Expense Plan'!B27&\"\")=\"\",\"(no name)\",TRIM('Expense Plan'!B27&\"\")))"
+    },
+    {
+     "cell": "C27",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B27&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D27))),\"\",'Expense Plan'!C27&\"\")"
+    },
+    {
+     "cell": "D27",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B27&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D27))),\"\",N('Expense Plan'!G27))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E27",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B27&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D27))),\"\",ROUND(IF(1<='Setup'!$R$6,'Expense Plan'!T27,0)+IF(2<='Setup'!$R$6,'Expense Plan'!U27,0)+IF(3<='Setup'!$R$6,'Expense Plan'!V27,0)+IF(4<='Setup'!$R$6,'Expense Plan'!W27,0)+IF(5<='Setup'!$R$6,'Expense Plan'!X27,0)+IF(6<='Setup'!$R$6,'Expense Plan'!Y27,0)+IF(7<='Setup'!$R$6,'Expense Plan'!Z27,0)+IF(8<='Setup'!$R$6,'Expense Plan'!AA27,0)+IF(9<='Setup'!$R$6,'Expense Plan'!AB27,0)+IF(10<='Setup'!$R$6,'Expense Plan'!AC27,0)+IF(11<='Setup'!$R$6,'Expense Plan'!AD27,0)+IF(12<='Setup'!$R$6,'Expense Plan'!AE27,0),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F27",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B27&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D27))),\"\",ROUND(SUMIFS('Transactions'!$L$6:$L$1005,'Transactions'!$J$6:$J$1005,22),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G27",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B27&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D27))),\"\",ROUND(E27-F27,2))",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "H27",
+     "formula": "=IF(OR(AND(TRIM('Expense Plan'!B27&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D27))),N(D27)=0),\"\",F27/D27)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "I27",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B27&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D27))),\"\",IF(F27>D27,\"Over the year\",IF(G27<0,\"Over so far\",\"On track\")))"
+    },
+    {
+     "cell": "B28",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B28&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D28))),\"\",IF(TRIM('Expense Plan'!B28&\"\")=\"\",\"(no name)\",TRIM('Expense Plan'!B28&\"\")))"
+    },
+    {
+     "cell": "C28",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B28&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D28))),\"\",'Expense Plan'!C28&\"\")"
+    },
+    {
+     "cell": "D28",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B28&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D28))),\"\",N('Expense Plan'!G28))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E28",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B28&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D28))),\"\",ROUND(IF(1<='Setup'!$R$6,'Expense Plan'!T28,0)+IF(2<='Setup'!$R$6,'Expense Plan'!U28,0)+IF(3<='Setup'!$R$6,'Expense Plan'!V28,0)+IF(4<='Setup'!$R$6,'Expense Plan'!W28,0)+IF(5<='Setup'!$R$6,'Expense Plan'!X28,0)+IF(6<='Setup'!$R$6,'Expense Plan'!Y28,0)+IF(7<='Setup'!$R$6,'Expense Plan'!Z28,0)+IF(8<='Setup'!$R$6,'Expense Plan'!AA28,0)+IF(9<='Setup'!$R$6,'Expense Plan'!AB28,0)+IF(10<='Setup'!$R$6,'Expense Plan'!AC28,0)+IF(11<='Setup'!$R$6,'Expense Plan'!AD28,0)+IF(12<='Setup'!$R$6,'Expense Plan'!AE28,0),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F28",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B28&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D28))),\"\",ROUND(SUMIFS('Transactions'!$L$6:$L$1005,'Transactions'!$J$6:$J$1005,23),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G28",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B28&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D28))),\"\",ROUND(E28-F28,2))",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "H28",
+     "formula": "=IF(OR(AND(TRIM('Expense Plan'!B28&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D28))),N(D28)=0),\"\",F28/D28)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "I28",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B28&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D28))),\"\",IF(F28>D28,\"Over the year\",IF(G28<0,\"Over so far\",\"On track\")))"
+    },
+    {
+     "cell": "B29",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B29&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D29))),\"\",IF(TRIM('Expense Plan'!B29&\"\")=\"\",\"(no name)\",TRIM('Expense Plan'!B29&\"\")))"
+    },
+    {
+     "cell": "C29",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B29&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D29))),\"\",'Expense Plan'!C29&\"\")"
+    },
+    {
+     "cell": "D29",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B29&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D29))),\"\",N('Expense Plan'!G29))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E29",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B29&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D29))),\"\",ROUND(IF(1<='Setup'!$R$6,'Expense Plan'!T29,0)+IF(2<='Setup'!$R$6,'Expense Plan'!U29,0)+IF(3<='Setup'!$R$6,'Expense Plan'!V29,0)+IF(4<='Setup'!$R$6,'Expense Plan'!W29,0)+IF(5<='Setup'!$R$6,'Expense Plan'!X29,0)+IF(6<='Setup'!$R$6,'Expense Plan'!Y29,0)+IF(7<='Setup'!$R$6,'Expense Plan'!Z29,0)+IF(8<='Setup'!$R$6,'Expense Plan'!AA29,0)+IF(9<='Setup'!$R$6,'Expense Plan'!AB29,0)+IF(10<='Setup'!$R$6,'Expense Plan'!AC29,0)+IF(11<='Setup'!$R$6,'Expense Plan'!AD29,0)+IF(12<='Setup'!$R$6,'Expense Plan'!AE29,0),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F29",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B29&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D29))),\"\",ROUND(SUMIFS('Transactions'!$L$6:$L$1005,'Transactions'!$J$6:$J$1005,24),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G29",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B29&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D29))),\"\",ROUND(E29-F29,2))",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "H29",
+     "formula": "=IF(OR(AND(TRIM('Expense Plan'!B29&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D29))),N(D29)=0),\"\",F29/D29)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "I29",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B29&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D29))),\"\",IF(F29>D29,\"Over the year\",IF(G29<0,\"Over so far\",\"On track\")))"
+    },
+    {
+     "cell": "B30",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B30&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D30))),\"\",IF(TRIM('Expense Plan'!B30&\"\")=\"\",\"(no name)\",TRIM('Expense Plan'!B30&\"\")))"
+    },
+    {
+     "cell": "C30",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B30&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D30))),\"\",'Expense Plan'!C30&\"\")"
+    },
+    {
+     "cell": "D30",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B30&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D30))),\"\",N('Expense Plan'!G30))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E30",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B30&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D30))),\"\",ROUND(IF(1<='Setup'!$R$6,'Expense Plan'!T30,0)+IF(2<='Setup'!$R$6,'Expense Plan'!U30,0)+IF(3<='Setup'!$R$6,'Expense Plan'!V30,0)+IF(4<='Setup'!$R$6,'Expense Plan'!W30,0)+IF(5<='Setup'!$R$6,'Expense Plan'!X30,0)+IF(6<='Setup'!$R$6,'Expense Plan'!Y30,0)+IF(7<='Setup'!$R$6,'Expense Plan'!Z30,0)+IF(8<='Setup'!$R$6,'Expense Plan'!AA30,0)+IF(9<='Setup'!$R$6,'Expense Plan'!AB30,0)+IF(10<='Setup'!$R$6,'Expense Plan'!AC30,0)+IF(11<='Setup'!$R$6,'Expense Plan'!AD30,0)+IF(12<='Setup'!$R$6,'Expense Plan'!AE30,0),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F30",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B30&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D30))),\"\",ROUND(SUMIFS('Transactions'!$L$6:$L$1005,'Transactions'!$J$6:$J$1005,25),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G30",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B30&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D30))),\"\",ROUND(E30-F30,2))",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "H30",
+     "formula": "=IF(OR(AND(TRIM('Expense Plan'!B30&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D30))),N(D30)=0),\"\",F30/D30)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "I30",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B30&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D30))),\"\",IF(F30>D30,\"Over the year\",IF(G30<0,\"Over so far\",\"On track\")))"
+    },
+    {
+     "cell": "B31",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B31&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D31))),\"\",IF(TRIM('Expense Plan'!B31&\"\")=\"\",\"(no name)\",TRIM('Expense Plan'!B31&\"\")))"
+    },
+    {
+     "cell": "C31",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B31&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D31))),\"\",'Expense Plan'!C31&\"\")"
+    },
+    {
+     "cell": "D31",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B31&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D31))),\"\",N('Expense Plan'!G31))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E31",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B31&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D31))),\"\",ROUND(IF(1<='Setup'!$R$6,'Expense Plan'!T31,0)+IF(2<='Setup'!$R$6,'Expense Plan'!U31,0)+IF(3<='Setup'!$R$6,'Expense Plan'!V31,0)+IF(4<='Setup'!$R$6,'Expense Plan'!W31,0)+IF(5<='Setup'!$R$6,'Expense Plan'!X31,0)+IF(6<='Setup'!$R$6,'Expense Plan'!Y31,0)+IF(7<='Setup'!$R$6,'Expense Plan'!Z31,0)+IF(8<='Setup'!$R$6,'Expense Plan'!AA31,0)+IF(9<='Setup'!$R$6,'Expense Plan'!AB31,0)+IF(10<='Setup'!$R$6,'Expense Plan'!AC31,0)+IF(11<='Setup'!$R$6,'Expense Plan'!AD31,0)+IF(12<='Setup'!$R$6,'Expense Plan'!AE31,0),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F31",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B31&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D31))),\"\",ROUND(SUMIFS('Transactions'!$L$6:$L$1005,'Transactions'!$J$6:$J$1005,26),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G31",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B31&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D31))),\"\",ROUND(E31-F31,2))",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "H31",
+     "formula": "=IF(OR(AND(TRIM('Expense Plan'!B31&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D31))),N(D31)=0),\"\",F31/D31)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "I31",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B31&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D31))),\"\",IF(F31>D31,\"Over the year\",IF(G31<0,\"Over so far\",\"On track\")))"
+    },
+    {
+     "cell": "B32",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B32&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D32))),\"\",IF(TRIM('Expense Plan'!B32&\"\")=\"\",\"(no name)\",TRIM('Expense Plan'!B32&\"\")))"
+    },
+    {
+     "cell": "C32",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B32&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D32))),\"\",'Expense Plan'!C32&\"\")"
+    },
+    {
+     "cell": "D32",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B32&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D32))),\"\",N('Expense Plan'!G32))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E32",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B32&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D32))),\"\",ROUND(IF(1<='Setup'!$R$6,'Expense Plan'!T32,0)+IF(2<='Setup'!$R$6,'Expense Plan'!U32,0)+IF(3<='Setup'!$R$6,'Expense Plan'!V32,0)+IF(4<='Setup'!$R$6,'Expense Plan'!W32,0)+IF(5<='Setup'!$R$6,'Expense Plan'!X32,0)+IF(6<='Setup'!$R$6,'Expense Plan'!Y32,0)+IF(7<='Setup'!$R$6,'Expense Plan'!Z32,0)+IF(8<='Setup'!$R$6,'Expense Plan'!AA32,0)+IF(9<='Setup'!$R$6,'Expense Plan'!AB32,0)+IF(10<='Setup'!$R$6,'Expense Plan'!AC32,0)+IF(11<='Setup'!$R$6,'Expense Plan'!AD32,0)+IF(12<='Setup'!$R$6,'Expense Plan'!AE32,0),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F32",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B32&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D32))),\"\",ROUND(SUMIFS('Transactions'!$L$6:$L$1005,'Transactions'!$J$6:$J$1005,27),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G32",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B32&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D32))),\"\",ROUND(E32-F32,2))",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "H32",
+     "formula": "=IF(OR(AND(TRIM('Expense Plan'!B32&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D32))),N(D32)=0),\"\",F32/D32)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "I32",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B32&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D32))),\"\",IF(F32>D32,\"Over the year\",IF(G32<0,\"Over so far\",\"On track\")))"
+    },
+    {
+     "cell": "B33",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B33&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D33))),\"\",IF(TRIM('Expense Plan'!B33&\"\")=\"\",\"(no name)\",TRIM('Expense Plan'!B33&\"\")))"
+    },
+    {
+     "cell": "C33",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B33&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D33))),\"\",'Expense Plan'!C33&\"\")"
+    },
+    {
+     "cell": "D33",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B33&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D33))),\"\",N('Expense Plan'!G33))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E33",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B33&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D33))),\"\",ROUND(IF(1<='Setup'!$R$6,'Expense Plan'!T33,0)+IF(2<='Setup'!$R$6,'Expense Plan'!U33,0)+IF(3<='Setup'!$R$6,'Expense Plan'!V33,0)+IF(4<='Setup'!$R$6,'Expense Plan'!W33,0)+IF(5<='Setup'!$R$6,'Expense Plan'!X33,0)+IF(6<='Setup'!$R$6,'Expense Plan'!Y33,0)+IF(7<='Setup'!$R$6,'Expense Plan'!Z33,0)+IF(8<='Setup'!$R$6,'Expense Plan'!AA33,0)+IF(9<='Setup'!$R$6,'Expense Plan'!AB33,0)+IF(10<='Setup'!$R$6,'Expense Plan'!AC33,0)+IF(11<='Setup'!$R$6,'Expense Plan'!AD33,0)+IF(12<='Setup'!$R$6,'Expense Plan'!AE33,0),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F33",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B33&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D33))),\"\",ROUND(SUMIFS('Transactions'!$L$6:$L$1005,'Transactions'!$J$6:$J$1005,28),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G33",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B33&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D33))),\"\",ROUND(E33-F33,2))",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "H33",
+     "formula": "=IF(OR(AND(TRIM('Expense Plan'!B33&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D33))),N(D33)=0),\"\",F33/D33)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "I33",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B33&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D33))),\"\",IF(F33>D33,\"Over the year\",IF(G33<0,\"Over so far\",\"On track\")))"
+    },
+    {
+     "cell": "B34",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B34&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D34))),\"\",IF(TRIM('Expense Plan'!B34&\"\")=\"\",\"(no name)\",TRIM('Expense Plan'!B34&\"\")))"
+    },
+    {
+     "cell": "C34",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B34&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D34))),\"\",'Expense Plan'!C34&\"\")"
+    },
+    {
+     "cell": "D34",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B34&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D34))),\"\",N('Expense Plan'!G34))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E34",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B34&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D34))),\"\",ROUND(IF(1<='Setup'!$R$6,'Expense Plan'!T34,0)+IF(2<='Setup'!$R$6,'Expense Plan'!U34,0)+IF(3<='Setup'!$R$6,'Expense Plan'!V34,0)+IF(4<='Setup'!$R$6,'Expense Plan'!W34,0)+IF(5<='Setup'!$R$6,'Expense Plan'!X34,0)+IF(6<='Setup'!$R$6,'Expense Plan'!Y34,0)+IF(7<='Setup'!$R$6,'Expense Plan'!Z34,0)+IF(8<='Setup'!$R$6,'Expense Plan'!AA34,0)+IF(9<='Setup'!$R$6,'Expense Plan'!AB34,0)+IF(10<='Setup'!$R$6,'Expense Plan'!AC34,0)+IF(11<='Setup'!$R$6,'Expense Plan'!AD34,0)+IF(12<='Setup'!$R$6,'Expense Plan'!AE34,0),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F34",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B34&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D34))),\"\",ROUND(SUMIFS('Transactions'!$L$6:$L$1005,'Transactions'!$J$6:$J$1005,29),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G34",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B34&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D34))),\"\",ROUND(E34-F34,2))",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "H34",
+     "formula": "=IF(OR(AND(TRIM('Expense Plan'!B34&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D34))),N(D34)=0),\"\",F34/D34)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "I34",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B34&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D34))),\"\",IF(F34>D34,\"Over the year\",IF(G34<0,\"Over so far\",\"On track\")))"
+    },
+    {
+     "cell": "B35",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B35&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D35))),\"\",IF(TRIM('Expense Plan'!B35&\"\")=\"\",\"(no name)\",TRIM('Expense Plan'!B35&\"\")))"
+    },
+    {
+     "cell": "C35",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B35&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D35))),\"\",'Expense Plan'!C35&\"\")"
+    },
+    {
+     "cell": "D35",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B35&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D35))),\"\",N('Expense Plan'!G35))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E35",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B35&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D35))),\"\",ROUND(IF(1<='Setup'!$R$6,'Expense Plan'!T35,0)+IF(2<='Setup'!$R$6,'Expense Plan'!U35,0)+IF(3<='Setup'!$R$6,'Expense Plan'!V35,0)+IF(4<='Setup'!$R$6,'Expense Plan'!W35,0)+IF(5<='Setup'!$R$6,'Expense Plan'!X35,0)+IF(6<='Setup'!$R$6,'Expense Plan'!Y35,0)+IF(7<='Setup'!$R$6,'Expense Plan'!Z35,0)+IF(8<='Setup'!$R$6,'Expense Plan'!AA35,0)+IF(9<='Setup'!$R$6,'Expense Plan'!AB35,0)+IF(10<='Setup'!$R$6,'Expense Plan'!AC35,0)+IF(11<='Setup'!$R$6,'Expense Plan'!AD35,0)+IF(12<='Setup'!$R$6,'Expense Plan'!AE35,0),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F35",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B35&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D35))),\"\",ROUND(SUMIFS('Transactions'!$L$6:$L$1005,'Transactions'!$J$6:$J$1005,30),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G35",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B35&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D35))),\"\",ROUND(E35-F35,2))",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "H35",
+     "formula": "=IF(OR(AND(TRIM('Expense Plan'!B35&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D35))),N(D35)=0),\"\",F35/D35)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "I35",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B35&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D35))),\"\",IF(F35>D35,\"Over the year\",IF(G35<0,\"Over so far\",\"On track\")))"
+    },
+    {
+     "cell": "B36",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B36&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D36))),\"\",IF(TRIM('Expense Plan'!B36&\"\")=\"\",\"(no name)\",TRIM('Expense Plan'!B36&\"\")))"
+    },
+    {
+     "cell": "C36",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B36&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D36))),\"\",'Expense Plan'!C36&\"\")"
+    },
+    {
+     "cell": "D36",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B36&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D36))),\"\",N('Expense Plan'!G36))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E36",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B36&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D36))),\"\",ROUND(IF(1<='Setup'!$R$6,'Expense Plan'!T36,0)+IF(2<='Setup'!$R$6,'Expense Plan'!U36,0)+IF(3<='Setup'!$R$6,'Expense Plan'!V36,0)+IF(4<='Setup'!$R$6,'Expense Plan'!W36,0)+IF(5<='Setup'!$R$6,'Expense Plan'!X36,0)+IF(6<='Setup'!$R$6,'Expense Plan'!Y36,0)+IF(7<='Setup'!$R$6,'Expense Plan'!Z36,0)+IF(8<='Setup'!$R$6,'Expense Plan'!AA36,0)+IF(9<='Setup'!$R$6,'Expense Plan'!AB36,0)+IF(10<='Setup'!$R$6,'Expense Plan'!AC36,0)+IF(11<='Setup'!$R$6,'Expense Plan'!AD36,0)+IF(12<='Setup'!$R$6,'Expense Plan'!AE36,0),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F36",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B36&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D36))),\"\",ROUND(SUMIFS('Transactions'!$L$6:$L$1005,'Transactions'!$J$6:$J$1005,31),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G36",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B36&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D36))),\"\",ROUND(E36-F36,2))",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "H36",
+     "formula": "=IF(OR(AND(TRIM('Expense Plan'!B36&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D36))),N(D36)=0),\"\",F36/D36)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "I36",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B36&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D36))),\"\",IF(F36>D36,\"Over the year\",IF(G36<0,\"Over so far\",\"On track\")))"
+    },
+    {
+     "cell": "B37",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B37&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D37))),\"\",IF(TRIM('Expense Plan'!B37&\"\")=\"\",\"(no name)\",TRIM('Expense Plan'!B37&\"\")))"
+    },
+    {
+     "cell": "C37",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B37&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D37))),\"\",'Expense Plan'!C37&\"\")"
+    },
+    {
+     "cell": "D37",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B37&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D37))),\"\",N('Expense Plan'!G37))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E37",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B37&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D37))),\"\",ROUND(IF(1<='Setup'!$R$6,'Expense Plan'!T37,0)+IF(2<='Setup'!$R$6,'Expense Plan'!U37,0)+IF(3<='Setup'!$R$6,'Expense Plan'!V37,0)+IF(4<='Setup'!$R$6,'Expense Plan'!W37,0)+IF(5<='Setup'!$R$6,'Expense Plan'!X37,0)+IF(6<='Setup'!$R$6,'Expense Plan'!Y37,0)+IF(7<='Setup'!$R$6,'Expense Plan'!Z37,0)+IF(8<='Setup'!$R$6,'Expense Plan'!AA37,0)+IF(9<='Setup'!$R$6,'Expense Plan'!AB37,0)+IF(10<='Setup'!$R$6,'Expense Plan'!AC37,0)+IF(11<='Setup'!$R$6,'Expense Plan'!AD37,0)+IF(12<='Setup'!$R$6,'Expense Plan'!AE37,0),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F37",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B37&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D37))),\"\",ROUND(SUMIFS('Transactions'!$L$6:$L$1005,'Transactions'!$J$6:$J$1005,32),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G37",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B37&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D37))),\"\",ROUND(E37-F37,2))",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "H37",
+     "formula": "=IF(OR(AND(TRIM('Expense Plan'!B37&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D37))),N(D37)=0),\"\",F37/D37)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "I37",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B37&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D37))),\"\",IF(F37>D37,\"Over the year\",IF(G37<0,\"Over so far\",\"On track\")))"
+    },
+    {
+     "cell": "B38",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B38&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D38))),\"\",IF(TRIM('Expense Plan'!B38&\"\")=\"\",\"(no name)\",TRIM('Expense Plan'!B38&\"\")))"
+    },
+    {
+     "cell": "C38",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B38&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D38))),\"\",'Expense Plan'!C38&\"\")"
+    },
+    {
+     "cell": "D38",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B38&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D38))),\"\",N('Expense Plan'!G38))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E38",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B38&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D38))),\"\",ROUND(IF(1<='Setup'!$R$6,'Expense Plan'!T38,0)+IF(2<='Setup'!$R$6,'Expense Plan'!U38,0)+IF(3<='Setup'!$R$6,'Expense Plan'!V38,0)+IF(4<='Setup'!$R$6,'Expense Plan'!W38,0)+IF(5<='Setup'!$R$6,'Expense Plan'!X38,0)+IF(6<='Setup'!$R$6,'Expense Plan'!Y38,0)+IF(7<='Setup'!$R$6,'Expense Plan'!Z38,0)+IF(8<='Setup'!$R$6,'Expense Plan'!AA38,0)+IF(9<='Setup'!$R$6,'Expense Plan'!AB38,0)+IF(10<='Setup'!$R$6,'Expense Plan'!AC38,0)+IF(11<='Setup'!$R$6,'Expense Plan'!AD38,0)+IF(12<='Setup'!$R$6,'Expense Plan'!AE38,0),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F38",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B38&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D38))),\"\",ROUND(SUMIFS('Transactions'!$L$6:$L$1005,'Transactions'!$J$6:$J$1005,33),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G38",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B38&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D38))),\"\",ROUND(E38-F38,2))",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "H38",
+     "formula": "=IF(OR(AND(TRIM('Expense Plan'!B38&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D38))),N(D38)=0),\"\",F38/D38)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "I38",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B38&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D38))),\"\",IF(F38>D38,\"Over the year\",IF(G38<0,\"Over so far\",\"On track\")))"
+    },
+    {
+     "cell": "B39",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B39&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D39))),\"\",IF(TRIM('Expense Plan'!B39&\"\")=\"\",\"(no name)\",TRIM('Expense Plan'!B39&\"\")))"
+    },
+    {
+     "cell": "C39",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B39&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D39))),\"\",'Expense Plan'!C39&\"\")"
+    },
+    {
+     "cell": "D39",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B39&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D39))),\"\",N('Expense Plan'!G39))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E39",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B39&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D39))),\"\",ROUND(IF(1<='Setup'!$R$6,'Expense Plan'!T39,0)+IF(2<='Setup'!$R$6,'Expense Plan'!U39,0)+IF(3<='Setup'!$R$6,'Expense Plan'!V39,0)+IF(4<='Setup'!$R$6,'Expense Plan'!W39,0)+IF(5<='Setup'!$R$6,'Expense Plan'!X39,0)+IF(6<='Setup'!$R$6,'Expense Plan'!Y39,0)+IF(7<='Setup'!$R$6,'Expense Plan'!Z39,0)+IF(8<='Setup'!$R$6,'Expense Plan'!AA39,0)+IF(9<='Setup'!$R$6,'Expense Plan'!AB39,0)+IF(10<='Setup'!$R$6,'Expense Plan'!AC39,0)+IF(11<='Setup'!$R$6,'Expense Plan'!AD39,0)+IF(12<='Setup'!$R$6,'Expense Plan'!AE39,0),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F39",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B39&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D39))),\"\",ROUND(SUMIFS('Transactions'!$L$6:$L$1005,'Transactions'!$J$6:$J$1005,34),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G39",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B39&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D39))),\"\",ROUND(E39-F39,2))",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "H39",
+     "formula": "=IF(OR(AND(TRIM('Expense Plan'!B39&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D39))),N(D39)=0),\"\",F39/D39)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "I39",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B39&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D39))),\"\",IF(F39>D39,\"Over the year\",IF(G39<0,\"Over so far\",\"On track\")))"
+    },
+    {
+     "cell": "B40",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B40&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D40))),\"\",IF(TRIM('Expense Plan'!B40&\"\")=\"\",\"(no name)\",TRIM('Expense Plan'!B40&\"\")))"
+    },
+    {
+     "cell": "C40",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B40&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D40))),\"\",'Expense Plan'!C40&\"\")"
+    },
+    {
+     "cell": "D40",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B40&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D40))),\"\",N('Expense Plan'!G40))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E40",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B40&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D40))),\"\",ROUND(IF(1<='Setup'!$R$6,'Expense Plan'!T40,0)+IF(2<='Setup'!$R$6,'Expense Plan'!U40,0)+IF(3<='Setup'!$R$6,'Expense Plan'!V40,0)+IF(4<='Setup'!$R$6,'Expense Plan'!W40,0)+IF(5<='Setup'!$R$6,'Expense Plan'!X40,0)+IF(6<='Setup'!$R$6,'Expense Plan'!Y40,0)+IF(7<='Setup'!$R$6,'Expense Plan'!Z40,0)+IF(8<='Setup'!$R$6,'Expense Plan'!AA40,0)+IF(9<='Setup'!$R$6,'Expense Plan'!AB40,0)+IF(10<='Setup'!$R$6,'Expense Plan'!AC40,0)+IF(11<='Setup'!$R$6,'Expense Plan'!AD40,0)+IF(12<='Setup'!$R$6,'Expense Plan'!AE40,0),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F40",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B40&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D40))),\"\",ROUND(SUMIFS('Transactions'!$L$6:$L$1005,'Transactions'!$J$6:$J$1005,35),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G40",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B40&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D40))),\"\",ROUND(E40-F40,2))",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "H40",
+     "formula": "=IF(OR(AND(TRIM('Expense Plan'!B40&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D40))),N(D40)=0),\"\",F40/D40)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "I40",
+     "formula": "=IF(AND(TRIM('Expense Plan'!B40&\"\")=\"\",NOT(ISNUMBER('Expense Plan'!D40))),\"\",IF(F40>D40,\"Over the year\",IF(G40<0,\"Over so far\",\"On track\")))"
+    },
+    {
+     "cell": "B41",
+     "formula": "Total"
+    },
+    {
+     "cell": "D41",
+     "formula": "=ROUND(SUM(D6:D40),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E41",
+     "formula": "=ROUND(SUM(E6:E40),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F41",
+     "formula": "=ROUND(SUM(F6:F40),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G41",
+     "formula": "=ROUND(SUM(G6:G40),2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "B6:I40",
+     "type": "formula",
+     "formula": [
+      "$I6=\"Over the year\""
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "B6:I40",
+     "type": "formula",
+     "formula": [
+      "$I6=\"Over so far\""
+     ],
+     "fill": "FCE5E0"
+    },
+    {
+     "range": "I6:I40",
+     "type": "formula",
+     "formula": [
+      "$I6=\"On track\""
+     ],
+     "fill": "D7EFDD"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B5:I5",
+     "color": "22335B"
+    },
+    {
+     "range": "B41:I41",
+     "color": "E6EBF5"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:I41",
+     "color": "CCD5E6"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "22335B"
+    },
+    {
+     "range": "B5:I5",
+     "wrap": true,
+     "bold": true,
+     "size": 9,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "B6:B41",
+     "bold": true,
+     "size": 10,
+     "color": "22335B"
+    },
+    {
+     "range": "C6:I41",
+     "align": "center"
+    },
+    {
+     "range": "G6:G41",
+     "bold": true,
+     "size": 10,
+     "color": "17998E",
+     "align": "center"
+    }
+   ],
+   "row_heights": {
+    "5": 30
+   }
+  },
+  {
+   "name": "Goals",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "D9A21B",
+   "grid_rows": 15,
+   "grid_cols": 9,
+   "column_widths": {
+    "A": 2.5,
+    "B": 28,
+    "C": 11,
+    "D": 12,
+    "E": 12,
+    "F": 20,
+    "G": 9,
+    "H": 13,
+    "I": 2.5
+   },
+   "section_bars": [
+    {
+     "range": "B2:H2",
+     "label": "GOALS",
+     "size": 16,
+     "color": "22335B",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Your big money goals for the year. Update Saved so far as you go."
+    },
+    {
+     "cell": "B5",
+     "formula": "Goal"
+    },
+    {
+     "cell": "C5",
+     "formula": "Target"
+    },
+    {
+     "cell": "D5",
+     "formula": "Saved so far"
+    },
+    {
+     "cell": "E5",
+     "formula": "By"
+    },
+    {
+     "cell": "F5",
+     "formula": "Progress"
+    },
+    {
+     "cell": "G5",
+     "formula": "Months left"
+    },
+    {
+     "cell": "H5",
+     "formula": "Per month needed"
+    },
+    {
+     "cell": "B6",
+     "formula": "Emergency fund to $10,000"
+    },
+    {
+     "cell": "C6",
+     "formula": 10000
+    },
+    {
+     "cell": "D6",
+     "formula": 6400
+    },
+    {
+     "cell": "E6",
+     "formula": "=DATE(2027,12,31)"
+    },
+    {
+     "cell": "F6",
+     "formula": "=IF(OR(TRIM(B6&\"\")=\"\",NOT(ISNUMBER(C6)),N(C6)<=0),\"\",IF(N(D6)>=C6,\"Done\",REPT(\"█\",ROUND(MIN(1,MAX(0,N(D6)/C6))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,N(D6)/C6))*10,0))&\" \"&TEXT(MAX(0,N(D6)/C6),\"0%\")))"
+    },
+    {
+     "cell": "G6",
+     "formula": "=IF(OR(TRIM(B6&\"\")=\"\",NOT(ISNUMBER(E6))),\"\",MAX(1,(YEAR(E6)-YEAR('Setup'!$R$5))*12+MONTH(E6)-MONTH('Setup'!$R$5)))",
+     "number_format": "0"
+    },
+    {
+     "cell": "H6",
+     "formula": "=IF(OR(G6=\"\",NOT(ISNUMBER(C6))),\"\",MAX(0,ROUND((C6-N(D6))/G6,2)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B7",
+     "formula": "Pay off student loan early"
+    },
+    {
+     "cell": "C7",
+     "formula": 4200
+    },
+    {
+     "cell": "D7",
+     "formula": 1560
+    },
+    {
+     "cell": "E7",
+     "formula": "=DATE(2028,6,30)"
+    },
+    {
+     "cell": "F7",
+     "formula": "=IF(OR(TRIM(B7&\"\")=\"\",NOT(ISNUMBER(C7)),N(C7)<=0),\"\",IF(N(D7)>=C7,\"Done\",REPT(\"█\",ROUND(MIN(1,MAX(0,N(D7)/C7))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,N(D7)/C7))*10,0))&\" \"&TEXT(MAX(0,N(D7)/C7),\"0%\")))"
+    },
+    {
+     "cell": "G7",
+     "formula": "=IF(OR(TRIM(B7&\"\")=\"\",NOT(ISNUMBER(E7))),\"\",MAX(1,(YEAR(E7)-YEAR('Setup'!$R$5))*12+MONTH(E7)-MONTH('Setup'!$R$5)))",
+     "number_format": "0"
+    },
+    {
+     "cell": "H7",
+     "formula": "=IF(OR(G7=\"\",NOT(ISNUMBER(C7))),\"\",MAX(0,ROUND((C7-N(D7))/G7,2)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B8",
+     "formula": "Vacation fund"
+    },
+    {
+     "cell": "C8",
+     "formula": 2400
+    },
+    {
+     "cell": "D8",
+     "formula": 1300
+    },
+    {
+     "cell": "E8",
+     "formula": "=DATE(2027,7,1)"
+    },
+    {
+     "cell": "F8",
+     "formula": "=IF(OR(TRIM(B8&\"\")=\"\",NOT(ISNUMBER(C8)),N(C8)<=0),\"\",IF(N(D8)>=C8,\"Done\",REPT(\"█\",ROUND(MIN(1,MAX(0,N(D8)/C8))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,N(D8)/C8))*10,0))&\" \"&TEXT(MAX(0,N(D8)/C8),\"0%\")))"
+    },
+    {
+     "cell": "G8",
+     "formula": "=IF(OR(TRIM(B8&\"\")=\"\",NOT(ISNUMBER(E8))),\"\",MAX(1,(YEAR(E8)-YEAR('Setup'!$R$5))*12+MONTH(E8)-MONTH('Setup'!$R$5)))",
+     "number_format": "0"
+    },
+    {
+     "cell": "H8",
+     "formula": "=IF(OR(G8=\"\",NOT(ISNUMBER(C8))),\"\",MAX(0,ROUND((C8-N(D8))/G8,2)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B9",
+     "formula": "Max out IRA"
+    },
+    {
+     "cell": "C9",
+     "formula": 7000
+    },
+    {
+     "cell": "D9",
+     "formula": 1800
+    },
+    {
+     "cell": "E9",
+     "formula": "=DATE(2027,12,31)"
+    },
+    {
+     "cell": "F9",
+     "formula": "=IF(OR(TRIM(B9&\"\")=\"\",NOT(ISNUMBER(C9)),N(C9)<=0),\"\",IF(N(D9)>=C9,\"Done\",REPT(\"█\",ROUND(MIN(1,MAX(0,N(D9)/C9))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,N(D9)/C9))*10,0))&\" \"&TEXT(MAX(0,N(D9)/C9),\"0%\")))"
+    },
+    {
+     "cell": "G9",
+     "formula": "=IF(OR(TRIM(B9&\"\")=\"\",NOT(ISNUMBER(E9))),\"\",MAX(1,(YEAR(E9)-YEAR('Setup'!$R$5))*12+MONTH(E9)-MONTH('Setup'!$R$5)))",
+     "number_format": "0"
+    },
+    {
+     "cell": "H9",
+     "formula": "=IF(OR(G9=\"\",NOT(ISNUMBER(C9))),\"\",MAX(0,ROUND((C9-N(D9))/G9,2)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F10",
+     "formula": "=IF(OR(TRIM(B10&\"\")=\"\",NOT(ISNUMBER(C10)),N(C10)<=0),\"\",IF(N(D10)>=C10,\"Done\",REPT(\"█\",ROUND(MIN(1,MAX(0,N(D10)/C10))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,N(D10)/C10))*10,0))&\" \"&TEXT(MAX(0,N(D10)/C10),\"0%\")))"
+    },
+    {
+     "cell": "G10",
+     "formula": "=IF(OR(TRIM(B10&\"\")=\"\",NOT(ISNUMBER(E10))),\"\",MAX(1,(YEAR(E10)-YEAR('Setup'!$R$5))*12+MONTH(E10)-MONTH('Setup'!$R$5)))",
+     "number_format": "0"
+    },
+    {
+     "cell": "H10",
+     "formula": "=IF(OR(G10=\"\",NOT(ISNUMBER(C10))),\"\",MAX(0,ROUND((C10-N(D10))/G10,2)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F11",
+     "formula": "=IF(OR(TRIM(B11&\"\")=\"\",NOT(ISNUMBER(C11)),N(C11)<=0),\"\",IF(N(D11)>=C11,\"Done\",REPT(\"█\",ROUND(MIN(1,MAX(0,N(D11)/C11))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,N(D11)/C11))*10,0))&\" \"&TEXT(MAX(0,N(D11)/C11),\"0%\")))"
+    },
+    {
+     "cell": "G11",
+     "formula": "=IF(OR(TRIM(B11&\"\")=\"\",NOT(ISNUMBER(E11))),\"\",MAX(1,(YEAR(E11)-YEAR('Setup'!$R$5))*12+MONTH(E11)-MONTH('Setup'!$R$5)))",
+     "number_format": "0"
+    },
+    {
+     "cell": "H11",
+     "formula": "=IF(OR(G11=\"\",NOT(ISNUMBER(C11))),\"\",MAX(0,ROUND((C11-N(D11))/G11,2)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F12",
+     "formula": "=IF(OR(TRIM(B12&\"\")=\"\",NOT(ISNUMBER(C12)),N(C12)<=0),\"\",IF(N(D12)>=C12,\"Done\",REPT(\"█\",ROUND(MIN(1,MAX(0,N(D12)/C12))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,N(D12)/C12))*10,0))&\" \"&TEXT(MAX(0,N(D12)/C12),\"0%\")))"
+    },
+    {
+     "cell": "G12",
+     "formula": "=IF(OR(TRIM(B12&\"\")=\"\",NOT(ISNUMBER(E12))),\"\",MAX(1,(YEAR(E12)-YEAR('Setup'!$R$5))*12+MONTH(E12)-MONTH('Setup'!$R$5)))",
+     "number_format": "0"
+    },
+    {
+     "cell": "H12",
+     "formula": "=IF(OR(G12=\"\",NOT(ISNUMBER(C12))),\"\",MAX(0,ROUND((C12-N(D12))/G12,2)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F13",
+     "formula": "=IF(OR(TRIM(B13&\"\")=\"\",NOT(ISNUMBER(C13)),N(C13)<=0),\"\",IF(N(D13)>=C13,\"Done\",REPT(\"█\",ROUND(MIN(1,MAX(0,N(D13)/C13))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,N(D13)/C13))*10,0))&\" \"&TEXT(MAX(0,N(D13)/C13),\"0%\")))"
+    },
+    {
+     "cell": "G13",
+     "formula": "=IF(OR(TRIM(B13&\"\")=\"\",NOT(ISNUMBER(E13))),\"\",MAX(1,(YEAR(E13)-YEAR('Setup'!$R$5))*12+MONTH(E13)-MONTH('Setup'!$R$5)))",
+     "number_format": "0"
+    },
+    {
+     "cell": "H13",
+     "formula": "=IF(OR(G13=\"\",NOT(ISNUMBER(C13))),\"\",MAX(0,ROUND((C13-N(D13))/G13,2)))",
+     "number_format": "$#,##0.00"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "F6:F13",
+     "type": "formula",
+     "formula": [
+      "$F6=\"Done\""
+     ],
+     "fill": "D7EFDD"
+    },
+    {
+     "range": "C6:D13",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C6<>\"\",NOT(ISNUMBER(C6))),N(C6)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "E6:E13",
+     "type": "formula",
+     "formula": [
+      "AND(E6<>\"\",OR(NOT(ISNUMBER(E6)),N(E6)<1))"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B5:H5",
+     "color": "22335B"
+    },
+    {
+     "range": "B6:E13",
+     "color": "FFFFFF"
+    },
+    {
+     "range": "F6:H13",
+     "color": "F6F8FC"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:H13",
+     "color": "CCD5E6"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "22335B"
+    },
+    {
+     "range": "B5:H5",
+     "wrap": true,
+     "bold": true,
+     "size": 9,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "C6:H13",
+     "align": "center"
+    },
+    {
+     "range": "F6:F13",
+     "bold": true,
+     "size": 10,
+     "color": "17998E",
+     "align": "center"
+    },
+    {
+     "range": "H6:H13",
+     "bold": true,
+     "size": 10,
+     "color": "22335B",
+     "align": "center"
+    }
+   ],
+   "row_heights": {
+    "5": 30
+   },
+   "number_formats": [
+    {
+     "range": "C6:D13",
+     "format": "$#,##0.00"
+    },
+    {
+     "range": "E6:E13",
+     "format": "mmm d, yyyy"
+    }
+   ]
+  }
+ ]
+}
