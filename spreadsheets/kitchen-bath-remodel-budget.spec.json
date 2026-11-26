@@ -1,0 +1,3548 @@
+{
+ "filename": "Kitchen & Bath Remodel Budget",
+ "locale": "en_US",
+ "theme": {
+  "header_font": "FFFFFF",
+  "border": "DDD3C4",
+  "accent": "B8733D",
+  "section_colors": [
+   "34495E",
+   "F4EFE6",
+   "F6E7DA"
+  ],
+  "chart_palette": [
+   "B8733D",
+   "5D7A94",
+   "6E9580",
+   "34495E"
+  ]
+ },
+ "tabs": [
+  {
+   "name": "Start Here",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "B8733D",
+   "grid_rows": 28,
+   "column_widths": {
+    "A": 2.5,
+    "B": 22,
+    "C": 100,
+    "D": 2.5
+   },
+   "section_bars": [
+    {
+     "range": "B2:C2",
+     "label": "KITCHEN & BATH REMODEL",
+     "size": 18,
+     "color": "34495E",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "B5:C5",
+     "label": "HOW TO USE IT",
+     "color": "F4EFE6",
+     "font_color": "34495E",
+     "align": "left"
+    },
+    {
+     "range": "B12:C12",
+     "label": "GOOD TO KNOW",
+     "color": "B8733D",
+     "font_color": "FFFFFF",
+     "align": "left"
+    },
+    {
+     "range": "B18:C18",
+     "label": "COLOR GUIDE",
+     "color": "F4EFE6",
+     "font_color": "34495E",
+     "align": "left"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Keep your remodel on budget, on schedule and surprise-proof."
+    },
+    {
+     "cell": "B6",
+     "formula": "Project: total budget, how much to hold back for surprises (10-20%), square feet and start date."
+    },
+    {
+     "cell": "B7",
+     "formula": "Quotes: compare up to 3 bids per trade. Pick the one you chose."
+    },
+    {
+     "cell": "B8",
+     "formula": "Budget: every line item with estimate, actual and what you've paid. Payments: your contractor's draw schedule."
+    },
+    {
+     "cell": "B9",
+     "formula": "Selections: finishes with lead times. The sheet tells you when to order so nothing holds up the job."
+    },
+    {
+     "cell": "B10",
+     "formula": "Change Orders: every extra the contractor asks for. Timeline: phases with dates and done ticks."
+    },
+    {
+     "cell": "B13",
+     "formula": "Contingency"
+    },
+    {
+     "cell": "C13",
+     "formula": "Remodels almost always find surprises. Keep 10-20% in reserve."
+    },
+    {
+     "cell": "B14",
+     "formula": "Get 3 bids"
+    },
+    {
+     "cell": "C14",
+     "formula": "And compare what each one includes, not just the price."
+    },
+    {
+     "cell": "B15",
+     "formula": "Order early"
+    },
+    {
+     "cell": "C15",
+     "formula": "Cabinets and tile can take 6-12 weeks. Watch the order-by dates."
+    },
+    {
+     "cell": "B16",
+     "formula": "Change orders"
+    },
+    {
+     "cell": "C16",
+     "formula": "Approve them in writing before the work happens."
+    },
+    {
+     "cell": "C19",
+     "formula": "White cells are for typing."
+    },
+    {
+     "cell": "C20",
+     "formula": "Grey cells calculate."
+    },
+    {
+     "cell": "C21",
+     "formula": "Green = paid / done / lowest bid."
+    },
+    {
+     "cell": "C22",
+     "formula": "Red = over budget or late."
+    },
+    {
+     "cell": "B24",
+     "formula": "Enjoy your new space."
+    }
+   ],
+   "fills": [
+    {
+     "range": "B13:C16",
+     "color": "F6E7DA"
+    },
+    {
+     "range": "B19",
+     "color": "FFFFFF"
+    },
+    {
+     "range": "B20",
+     "color": "FAF8F4"
+    },
+    {
+     "range": "B21",
+     "color": "D7EFDD"
+    },
+    {
+     "range": "B22",
+     "color": "F6CACA"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B19",
+     "color": "DDD3C4"
+    },
+    {
+     "range": "B20",
+     "color": "DDD3C4"
+    },
+    {
+     "range": "B21",
+     "color": "DDD3C4"
+    },
+    {
+     "range": "B22",
+     "color": "DDD3C4"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 11,
+     "color": "34495E"
+    },
+    {
+     "range": "B13:B16",
+     "bold": true,
+     "size": 11,
+     "color": "34495E"
+    },
+    {
+     "range": "B24",
+     "italic": true,
+     "bold": true,
+     "size": 11,
+     "color": "34495E"
+    }
+   ]
+  },
+  {
+   "name": "Dashboard",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "B8733D",
+   "grid_rows": 30,
+   "grid_cols": 19,
+   "column_widths": {
+    "A": 2.5,
+    "B": 20,
+    "C": 12,
+    "D": 12,
+    "E": 16,
+    "F": 16,
+    "G": 16,
+    "H": 16,
+    "I": 16,
+    "J": 2.5,
+    "R": 10
+   },
+   "hidden_columns": [
+    "R"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:I2",
+     "label": "REMODEL DASHBOARD",
+     "size": 16,
+     "color": "34495E",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "B15:D15",
+     "label": "BY CATEGORY",
+     "color": "F4EFE6",
+     "font_color": "34495E",
+     "align": "left"
+    },
+    {
+     "range": "E15:I15",
+     "label": "ESTIMATE VS EXPECTED",
+     "color": "F4EFE6",
+     "font_color": "34495E",
+     "align": "left"
+    }
+   ],
+   "kpi_cards": [
+    {
+     "anchor": "B5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "TOTAL BUDGET",
+     "value": "='Project'!$R$5",
+     "fill": "34495E",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "D5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "EXPECTED COST",
+     "value": "=R4",
+     "fill": "B8733D",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "F5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "LEFT / OVER",
+     "value": "=IF(R5>=0,TEXT(R5,\"$#,##0\")&\" left\",\"Over \"&TEXT(-R5,\"$#,##0\"))",
+     "fill": "6E9580",
+     "font_color": "FFFFFF",
+     "value_size": 16
+    },
+    {
+     "anchor": "H5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "CONTINGENCY LEFT",
+     "value": "=TEXT(R7,\"$#,##0\")&\" of \"&TEXT('Project'!$R$10,\"$#,##0\")",
+     "fill": "5D7A94",
+     "font_color": "FFFFFF",
+     "value_size": 16
+    },
+    {
+     "anchor": "B9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "PAID SO FAR",
+     "value": "='Budget'!$F$46",
+     "fill": "6E9580",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "D9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "STILL OWE",
+     "value": "='Budget'!$J$46",
+     "fill": "B8733D",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "F9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "CHANGE ORDERS",
+     "value": "='Change Orders'!$D$36",
+     "fill": "5D7A94",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "anchor": "H9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "COST PER SQ FT",
+     "value": "=IF('Project'!$R$7>0,ROUND(R4/'Project'!$R$7,2),\"-\")",
+     "fill": "34495E",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "=IF('Project'!$R$4=\"\",\"My remodel\",'Project'!$R$4)&\"  |  \"&TEXT('Project'!$R$9,\"mmm d, yyyy\")"
+    },
+    {
+     "cell": "R4",
+     "formula": "=ROUND('Budget'!$I$46+'Change Orders'!$D$36,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R5",
+     "formula": "=ROUND('Project'!$R$5-R4,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "R6",
+     "formula": "=MAX(0,ROUND(R4-('Project'!$R$5-'Project'!$R$10),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R7",
+     "formula": "=MAX(0,ROUND('Project'!$R$10-R6,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R8",
+     "formula": "=COUNTIF('Selections'!M6:M35,\"Order now!\")+COUNTIF('Selections'!M6:M35,\"Order soon\")"
+    },
+    {
+     "cell": "R9",
+     "formula": "=COUNTIF('Payments'!G7:G18,\"Overdue\")+COUNTIF('Payments'!G7:G18,\"Due soon\")"
+    },
+    {
+     "cell": "R10",
+     "formula": "=COUNTIF('Timeline'!G6:G19,\"Done\")"
+    },
+    {
+     "cell": "R11",
+     "formula": "=COUNTIF('Timeline'!B6:B19,\"?*\")"
+    },
+    {
+     "cell": "R12",
+     "formula": "=COUNTIF('Timeline'!G6:G19,\"Running late\")"
+    },
+    {
+     "cell": "B13",
+     "formula": "=REPT(\"█\",ROUND(MIN(1,MAX(0,IF(R11>0,R10/R11,0)))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,IF(R11>0,R10/R11,0)))*10,0))&\"  \"&R10&\" of \"&R11&\" phases done\""
+    },
+    {
+     "cell": "B14",
+     "formula": "=IF(R5<0,\"Over budget by \"&TEXT(-R5,\"$#,##0\")&\". Look for swaps on the Budget tab.\",IF(R8>0,R8&IF(R8=1,\" item needs\",\" items need\")&\" ordering soon (Selections).\",IF(R9>0,R9&IF(R9=1,\" payment is\",\" payments are\")&\" due soon or overdue (Payments).\",IF(R12>0,R12&IF(R12=1,\" phase is\",\" phases are\")&\" running late (Timeline).\",\"On budget and on track.\"))))"
+    },
+    {
+     "cell": "B16",
+     "formula": "Category"
+    },
+    {
+     "cell": "C16",
+     "formula": "Estimate"
+    },
+    {
+     "cell": "D16",
+     "formula": "Expected"
+    },
+    {
+     "cell": "B17",
+     "formula": "Demo & prep"
+    },
+    {
+     "cell": "C17",
+     "formula": "=ROUND(SUMIFS('Budget'!$D$6:$D$45,'Budget'!$B$6:$B$45,B17),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D17",
+     "formula": "=ROUND(SUMIFS('Budget'!$I$6:$I$45,'Budget'!$B$6:$B$45,B17),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B18",
+     "formula": "Cabinets"
+    },
+    {
+     "cell": "C18",
+     "formula": "=ROUND(SUMIFS('Budget'!$D$6:$D$45,'Budget'!$B$6:$B$45,B18),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D18",
+     "formula": "=ROUND(SUMIFS('Budget'!$I$6:$I$45,'Budget'!$B$6:$B$45,B18),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B19",
+     "formula": "Countertops"
+    },
+    {
+     "cell": "C19",
+     "formula": "=ROUND(SUMIFS('Budget'!$D$6:$D$45,'Budget'!$B$6:$B$45,B19),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D19",
+     "formula": "=ROUND(SUMIFS('Budget'!$I$6:$I$45,'Budget'!$B$6:$B$45,B19),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B20",
+     "formula": "Appliances"
+    },
+    {
+     "cell": "C20",
+     "formula": "=ROUND(SUMIFS('Budget'!$D$6:$D$45,'Budget'!$B$6:$B$45,B20),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D20",
+     "formula": "=ROUND(SUMIFS('Budget'!$I$6:$I$45,'Budget'!$B$6:$B$45,B20),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B21",
+     "formula": "Plumbing & fixtures"
+    },
+    {
+     "cell": "C21",
+     "formula": "=ROUND(SUMIFS('Budget'!$D$6:$D$45,'Budget'!$B$6:$B$45,B21),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D21",
+     "formula": "=ROUND(SUMIFS('Budget'!$I$6:$I$45,'Budget'!$B$6:$B$45,B21),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B22",
+     "formula": "Tile & flooring"
+    },
+    {
+     "cell": "C22",
+     "formula": "=ROUND(SUMIFS('Budget'!$D$6:$D$45,'Budget'!$B$6:$B$45,B22),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D22",
+     "formula": "=ROUND(SUMIFS('Budget'!$I$6:$I$45,'Budget'!$B$6:$B$45,B22),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B23",
+     "formula": "Lighting & electrical"
+    },
+    {
+     "cell": "C23",
+     "formula": "=ROUND(SUMIFS('Budget'!$D$6:$D$45,'Budget'!$B$6:$B$45,B23),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D23",
+     "formula": "=ROUND(SUMIFS('Budget'!$I$6:$I$45,'Budget'!$B$6:$B$45,B23),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B24",
+     "formula": "Paint & trim"
+    },
+    {
+     "cell": "C24",
+     "formula": "=ROUND(SUMIFS('Budget'!$D$6:$D$45,'Budget'!$B$6:$B$45,B24),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D24",
+     "formula": "=ROUND(SUMIFS('Budget'!$I$6:$I$45,'Budget'!$B$6:$B$45,B24),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B25",
+     "formula": "Labor"
+    },
+    {
+     "cell": "C25",
+     "formula": "=ROUND(SUMIFS('Budget'!$D$6:$D$45,'Budget'!$B$6:$B$45,B25),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D25",
+     "formula": "=ROUND(SUMIFS('Budget'!$I$6:$I$45,'Budget'!$B$6:$B$45,B25),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B26",
+     "formula": "Permits & design"
+    },
+    {
+     "cell": "C26",
+     "formula": "=ROUND(SUMIFS('Budget'!$D$6:$D$45,'Budget'!$B$6:$B$45,B26),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D26",
+     "formula": "=ROUND(SUMIFS('Budget'!$I$6:$I$45,'Budget'!$B$6:$B$45,B26),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B27",
+     "formula": "Other"
+    },
+    {
+     "cell": "C27",
+     "formula": "=ROUND(SUMIFS('Budget'!$D$6:$D$45,'Budget'!$B$6:$B$45,B27),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D27",
+     "formula": "=ROUND(SUMIFS('Budget'!$I$6:$I$45,'Budget'!$B$6:$B$45,B27),2)",
+     "number_format": "$#,##0.00"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "B14:I14",
+     "type": "formula",
+     "formula": [
+      "$R$5<0"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "B14:I14",
+     "type": "formula",
+     "formula": [
+      "LEFT($B$14,2)=\"On\""
+     ],
+     "fill": "D7EFDD"
+    },
+    {
+     "range": "D17:D27",
+     "type": "formula",
+     "formula": [
+      "D17>C17"
+     ],
+     "fill": "F6E7DA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B16:D16",
+     "color": "34495E"
+    },
+    {
+     "range": "C17:D27",
+     "color": "FAF8F4"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:C7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "D5:E7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "F5:G7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "H5:I7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "B9:C11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "D9:E11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "F9:G11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "H9:I11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "B16:D27",
+     "color": "DDD3C4"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 11,
+     "color": "34495E"
+    },
+    {
+     "range": "B13",
+     "bold": true,
+     "size": 12,
+     "color": "6E9580"
+    },
+    {
+     "range": "B14",
+     "bold": true,
+     "size": 11,
+     "color": "34495E"
+    },
+    {
+     "range": "B16:D16",
+     "bold": true,
+     "size": 10,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "B17:B27",
+     "bold": true,
+     "size": 10,
+     "color": "34495E"
+    },
+    {
+     "range": "C17:D27",
+     "align": "center"
+    }
+   ],
+   "charts": [
+    {
+     "type": "barh",
+     "anchor": "E16",
+     "data": "Dashboard!C16:D27",
+     "categories": "Dashboard!B17:B27",
+     "width": 16,
+     "height": 9,
+     "colors": [
+      "5D7A94",
+      "B8733D"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Project",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "34495E",
+   "grid_rows": 15,
+   "grid_cols": 19,
+   "column_widths": {
+    "A": 2.5,
+    "B": 24,
+    "C": 18,
+    "D": 30,
+    "E": 2.5,
+    "R": 12
+   },
+   "hidden_columns": [
+    "R"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:D2",
+     "label": "MY PROJECT",
+     "size": 16,
+     "color": "34495E",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B4",
+     "formula": "Setting"
+    },
+    {
+     "cell": "C4",
+     "formula": "Yours"
+    },
+    {
+     "cell": "D4",
+     "formula": "Note"
+    },
+    {
+     "cell": "B5",
+     "formula": "Project"
+    },
+    {
+     "cell": "C5",
+     "formula": "Kitchen + hall bath"
+    },
+    {
+     "cell": "B6",
+     "formula": "Total budget"
+    },
+    {
+     "cell": "D6",
+     "formula": "Everything you can spend."
+    },
+    {
+     "cell": "C6",
+     "formula": 52000
+    },
+    {
+     "cell": "B7",
+     "formula": "Contingency %"
+    },
+    {
+     "cell": "D7",
+     "formula": "Held back for surprises. 10-20%."
+    },
+    {
+     "cell": "C7",
+     "formula": 10
+    },
+    {
+     "cell": "B8",
+     "formula": "Square feet"
+    },
+    {
+     "cell": "D8",
+     "formula": "For cost per sq ft."
+    },
+    {
+     "cell": "C8",
+     "formula": 240
+    },
+    {
+     "cell": "B9",
+     "formula": "Start date"
+    },
+    {
+     "cell": "C9",
+     "formula": "=DATE(2027,4,1)"
+    },
+    {
+     "cell": "B10",
+     "formula": "Today"
+    },
+    {
+     "cell": "D10",
+     "formula": "Blank = today."
+    },
+    {
+     "cell": "C10",
+     "formula": "=DATE(2027,6,20)"
+    },
+    {
+     "cell": "R4",
+     "formula": "=TRIM(C5&\"\")"
+    },
+    {
+     "cell": "R5",
+     "formula": "=IF(ISNUMBER(C6),MAX(0,C6),0)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R6",
+     "formula": "=MAX(0,IF(N(C7)>=1,N(C7)/100,N(C7)))",
+     "number_format": "0%"
+    },
+    {
+     "cell": "R7",
+     "formula": "=IF(ISNUMBER(C8),MAX(0,C8),0)"
+    },
+    {
+     "cell": "R8",
+     "formula": "=IF(AND(ISNUMBER(C9),N(C9)>=1),INT(C9),\"\")",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "R9",
+     "formula": "=IF(AND(ISNUMBER(C10),N(C10)>=1),INT(C10),TODAY())",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "R10",
+     "formula": "=ROUND(R5*R6,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B12",
+     "formula": "Reserve for surprises"
+    },
+    {
+     "cell": "C12",
+     "formula": "=R10",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B13",
+     "formula": "Budget to plan with"
+    },
+    {
+     "cell": "C13",
+     "formula": "=ROUND(R5-R10,2)",
+     "number_format": "$#,##0.00"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "C6:C8",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C6<>\"\",NOT(ISNUMBER(C6))),N(C6)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C9:C10",
+     "type": "formula",
+     "formula": [
+      "AND(C9<>\"\",OR(NOT(ISNUMBER(C9)),N(C9)<1))"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B4:D4",
+     "color": "F4EFE6"
+    },
+    {
+     "range": "C5:C10",
+     "color": "FFFFFF"
+    },
+    {
+     "range": "C12:C13",
+     "color": "FAF8F4"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B4:D10",
+     "color": "DDD3C4"
+    },
+    {
+     "range": "B12:C13",
+     "color": "DDD3C4"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B4:D4",
+     "bold": true,
+     "size": 10,
+     "color": "34495E",
+     "align": "center"
+    },
+    {
+     "range": "B5:B10",
+     "bold": true,
+     "size": 10,
+     "color": "34495E"
+    },
+    {
+     "range": "D5:D10",
+     "italic": true,
+     "size": 9,
+     "color": "34495E"
+    },
+    {
+     "range": "C5:C10",
+     "bold": true,
+     "size": 11,
+     "color": "34495E",
+     "align": "center"
+    },
+    {
+     "range": "B12:B13",
+     "bold": true,
+     "size": 10,
+     "color": "34495E"
+    },
+    {
+     "range": "C12:C13",
+     "bold": true,
+     "size": 11,
+     "color": "B8733D",
+     "align": "center"
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "C6",
+     "format": "$#,##0.00"
+    },
+    {
+     "range": "C7",
+     "format": "0"
+    },
+    {
+     "range": "C8",
+     "format": "#,##0"
+    },
+    {
+     "range": "C9",
+     "format": "mmm d, yyyy"
+    },
+    {
+     "range": "C10",
+     "format": "mmm d, yyyy"
+    }
+   ]
+  },
+  {
+   "name": "Budget",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "B8733D",
+   "grid_rows": 48,
+   "grid_cols": 19,
+   "freeze": "D6",
+   "column_widths": {
+    "A": 2.5,
+    "B": 18,
+    "C": 26,
+    "D": 11,
+    "E": 11,
+    "F": 11,
+    "G": 16,
+    "H": 11,
+    "I": 11,
+    "J": 11,
+    "K": 11,
+    "L": 2.5,
+    "R": 3
+   },
+   "hidden_columns": [
+    "R"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:K2",
+     "label": "REMODEL BUDGET",
+     "size": 16,
+     "color": "34495E",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Expected = actual price once you have it, otherwise the estimate. Over / under compares actual to estimate."
+    },
+    {
+     "cell": "B5",
+     "formula": "Category"
+    },
+    {
+     "cell": "C5",
+     "formula": "Item"
+    },
+    {
+     "cell": "D5",
+     "formula": "Estimate"
+    },
+    {
+     "cell": "E5",
+     "formula": "Actual"
+    },
+    {
+     "cell": "F5",
+     "formula": "Paid"
+    },
+    {
+     "cell": "G5",
+     "formula": "Vendor"
+    },
+    {
+     "cell": "H5",
+     "formula": "Status"
+    },
+    {
+     "cell": "I5",
+     "formula": "Expected"
+    },
+    {
+     "cell": "J5",
+     "formula": "Still owe"
+    },
+    {
+     "cell": "K5",
+     "formula": "Over / under"
+    },
+    {
+     "cell": "B6",
+     "formula": "Demo & prep"
+    },
+    {
+     "cell": "C6",
+     "formula": "Demo & haul-away"
+    },
+    {
+     "cell": "D6",
+     "formula": 1800
+    },
+    {
+     "cell": "E6",
+     "formula": 1650
+    },
+    {
+     "cell": "F6",
+     "formula": 1650
+    },
+    {
+     "cell": "G6",
+     "formula": "Ace Builders"
+    },
+    {
+     "cell": "H6",
+     "formula": "Installed"
+    },
+    {
+     "cell": "B7",
+     "formula": "Cabinets"
+    },
+    {
+     "cell": "C7",
+     "formula": "Shaker cabinets, 22 lf"
+    },
+    {
+     "cell": "D7",
+     "formula": 9500
+    },
+    {
+     "cell": "E7",
+     "formula": 9180
+    },
+    {
+     "cell": "F7",
+     "formula": 4590
+    },
+    {
+     "cell": "G7",
+     "formula": "Cabinet Co."
+    },
+    {
+     "cell": "H7",
+     "formula": "Ordered"
+    },
+    {
+     "cell": "B8",
+     "formula": "Countertops"
+    },
+    {
+     "cell": "C8",
+     "formula": "Quartz, 48 sq ft"
+    },
+    {
+     "cell": "D8",
+     "formula": 4200
+    },
+    {
+     "cell": "F8",
+     "formula": 1000
+    },
+    {
+     "cell": "G8",
+     "formula": "Stone Works"
+    },
+    {
+     "cell": "H8",
+     "formula": "Planned"
+    },
+    {
+     "cell": "B9",
+     "formula": "Appliances"
+    },
+    {
+     "cell": "C9",
+     "formula": "Range, fridge, dishwasher"
+    },
+    {
+     "cell": "D9",
+     "formula": 5600
+    },
+    {
+     "cell": "E9",
+     "formula": 5390
+    },
+    {
+     "cell": "F9",
+     "formula": 5390
+    },
+    {
+     "cell": "G9",
+     "formula": "Big Box"
+    },
+    {
+     "cell": "H9",
+     "formula": "Delivered"
+    },
+    {
+     "cell": "B10",
+     "formula": "Plumbing & fixtures"
+    },
+    {
+     "cell": "C10",
+     "formula": "Sink, faucet, disposal"
+    },
+    {
+     "cell": "D10",
+     "formula": 1100
+    },
+    {
+     "cell": "E10",
+     "formula": 1240
+    },
+    {
+     "cell": "F10",
+     "formula": 1240
+    },
+    {
+     "cell": "G10",
+     "formula": "Plumb Pros"
+    },
+    {
+     "cell": "H10",
+     "formula": "Delivered"
+    },
+    {
+     "cell": "B11",
+     "formula": "Plumbing & fixtures"
+    },
+    {
+     "cell": "C11",
+     "formula": "Bath vanity & toilet"
+    },
+    {
+     "cell": "D11",
+     "formula": 1400
+    },
+    {
+     "cell": "F11",
+     "formula": 0
+    },
+    {
+     "cell": "G11",
+     "formula": "Plumb Pros"
+    },
+    {
+     "cell": "H11",
+     "formula": "Planned"
+    },
+    {
+     "cell": "B12",
+     "formula": "Tile & flooring"
+    },
+    {
+     "cell": "C12",
+     "formula": "LVP floor + backsplash tile"
+    },
+    {
+     "cell": "D12",
+     "formula": 3200
+    },
+    {
+     "cell": "F12",
+     "formula": 0
+    },
+    {
+     "cell": "G12",
+     "formula": "Tile Depot"
+    },
+    {
+     "cell": "H12",
+     "formula": "Ordered"
+    },
+    {
+     "cell": "B13",
+     "formula": "Lighting & electrical"
+    },
+    {
+     "cell": "C13",
+     "formula": "Recessed lights + pendants"
+    },
+    {
+     "cell": "D13",
+     "formula": 1900
+    },
+    {
+     "cell": "F13",
+     "formula": 500
+    },
+    {
+     "cell": "G13",
+     "formula": "Bright Electric"
+    },
+    {
+     "cell": "H13",
+     "formula": "Planned"
+    },
+    {
+     "cell": "B14",
+     "formula": "Paint & trim"
+    },
+    {
+     "cell": "C14",
+     "formula": "Paint, trim, hardware"
+    },
+    {
+     "cell": "D14",
+     "formula": 900
+    },
+    {
+     "cell": "F14",
+     "formula": 0
+    },
+    {
+     "cell": "H14",
+     "formula": "Planned"
+    },
+    {
+     "cell": "B15",
+     "formula": "Labor"
+    },
+    {
+     "cell": "C15",
+     "formula": "General contractor"
+    },
+    {
+     "cell": "D15",
+     "formula": 14000
+    },
+    {
+     "cell": "E15",
+     "formula": 14000
+    },
+    {
+     "cell": "F15",
+     "formula": 4200
+    },
+    {
+     "cell": "G15",
+     "formula": "Ace Builders"
+    },
+    {
+     "cell": "H15",
+     "formula": "Planned"
+    },
+    {
+     "cell": "B16",
+     "formula": "Permits & design"
+    },
+    {
+     "cell": "C16",
+     "formula": "Permit + drawings"
+    },
+    {
+     "cell": "D16",
+     "formula": 1200
+    },
+    {
+     "cell": "E16",
+     "formula": 1150
+    },
+    {
+     "cell": "F16",
+     "formula": 1150
+    },
+    {
+     "cell": "G16",
+     "formula": "City / Studio K"
+    },
+    {
+     "cell": "H16",
+     "formula": "Installed"
+    },
+    {
+     "col": "R",
+     "range_rows": [
+      6,
+      45
+     ],
+     "formula": "=IF(AND(TRIM(C{row}&\"\")=\"\",NOT(ISNUMBER(D{row})),NOT(ISNUMBER(E{row}))),0,1)"
+    },
+    {
+     "col": "I",
+     "range_rows": [
+      6,
+      45
+     ],
+     "formula": "=IF(R{row}=0,\"\",ROUND(IF(ISNUMBER(E{row}),E{row},N(D{row})),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "J",
+     "range_rows": [
+      6,
+      45
+     ],
+     "formula": "=IF(R{row}=0,\"\",MAX(0,ROUND(I{row}-N(F{row}),2)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "K",
+     "range_rows": [
+      6,
+      45
+     ],
+     "formula": "=IF(AND(ISNUMBER(D{row}),ISNUMBER(E{row})),ROUND(E{row}-D{row},2),\"\")",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "B46",
+     "formula": "Total"
+    },
+    {
+     "cell": "D46",
+     "formula": "=ROUND(SUM(D6:D45),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E46",
+     "formula": "=ROUND(SUM(E6:E45),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F46",
+     "formula": "=ROUND(SUM(F6:F45),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I46",
+     "formula": "=ROUND(SUM(I6:I45),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J46",
+     "formula": "=ROUND(SUM(J6:J45),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K46",
+     "formula": "=ROUND(SUM(K6:K45),2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "D6:F45",
+     "type": "formula",
+     "formula": [
+      "OR(AND(D6<>\"\",NOT(ISNUMBER(D6))),N(D6)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "K6:K46",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER(K6),K6>0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "K6:K46",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER(K6),K6<0)"
+     ],
+     "fill": "D7EFDD"
+    },
+    {
+     "range": "B6:K45",
+     "type": "formula",
+     "formula": [
+      "$H6=\"Installed\""
+     ],
+     "fill": "E6EFEA"
+    },
+    {
+     "range": "J6:J45",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER(J6),J6=0,$R6=1)"
+     ],
+     "fill": "D7EFDD"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B5:K5",
+     "color": "34495E"
+    },
+    {
+     "range": "I6:K45",
+     "color": "FAF8F4"
+    },
+    {
+     "range": "B46:K46",
+     "color": "F4EFE6"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:K46",
+     "color": "DDD3C4"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "34495E"
+    },
+    {
+     "range": "B5:K5",
+     "wrap": true,
+     "bold": true,
+     "size": 9,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "D6:K46",
+     "align": "center"
+    },
+    {
+     "range": "I6:I46",
+     "bold": true,
+     "size": 10,
+     "color": "B8733D",
+     "align": "center"
+    },
+    {
+     "range": "B46:K46",
+     "bold": true,
+     "size": 10,
+     "color": "34495E"
+    }
+   ],
+   "row_heights": {
+    "5": 30
+   },
+   "validations": [
+    {
+     "range": "B6:B45",
+     "type": "list",
+     "values": [
+      "Demo & prep",
+      "Cabinets",
+      "Countertops",
+      "Appliances",
+      "Plumbing & fixtures",
+      "Tile & flooring",
+      "Lighting & electrical",
+      "Paint & trim",
+      "Labor",
+      "Permits & design",
+      "Other"
+     ],
+     "strict": false
+    },
+    {
+     "range": "H6:H45",
+     "type": "list",
+     "values": [
+      "Planned",
+      "Ordered",
+      "Delivered",
+      "Installed"
+     ],
+     "strict": false
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "D6:F45",
+     "format": "$#,##0.00"
+    }
+   ]
+  },
+  {
+   "name": "Quotes",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "5D7A94",
+   "grid_rows": 22,
+   "grid_cols": 10,
+   "column_widths": {
+    "A": 2.5,
+    "B": 22,
+    "C": 14,
+    "D": 14,
+    "E": 14,
+    "F": 12,
+    "G": 11,
+    "H": 10,
+    "I": 13,
+    "J": 2.5
+   },
+   "section_bars": [
+    {
+     "range": "B2:I2",
+     "label": "COMPARE QUOTES",
+     "size": 16,
+     "color": "34495E",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Type each contractor's name in the grey row, then their bid for each trade. Green = lowest bid."
+    },
+    {
+     "cell": "B5",
+     "formula": "Contractor"
+    },
+    {
+     "cell": "B6",
+     "formula": "Trade"
+    },
+    {
+     "cell": "C5",
+     "formula": "Ace Builders"
+    },
+    {
+     "cell": "D5",
+     "formula": "Bright & Co"
+    },
+    {
+     "cell": "E5",
+     "formula": "Home Pros"
+    },
+    {
+     "cell": "C6",
+     "formula": "=IF(TRIM(C5&\"\")=\"\",\"Bid 1\",C5)"
+    },
+    {
+     "cell": "D6",
+     "formula": "=IF(TRIM(D5&\"\")=\"\",\"Bid 2\",D5)"
+    },
+    {
+     "cell": "E6",
+     "formula": "=IF(TRIM(E5&\"\")=\"\",\"Bid 3\",E5)"
+    },
+    {
+     "cell": "F6",
+     "formula": "Lowest"
+    },
+    {
+     "cell": "G6",
+     "formula": "Spread"
+    },
+    {
+     "cell": "H6",
+     "formula": "Chose bid #"
+    },
+    {
+     "cell": "I6",
+     "formula": "Chosen price"
+    },
+    {
+     "cell": "B7",
+     "formula": "General contractor"
+    },
+    {
+     "cell": "C7",
+     "formula": 15800
+    },
+    {
+     "cell": "D7",
+     "formula": 14000
+    },
+    {
+     "cell": "E7",
+     "formula": 16500
+    },
+    {
+     "cell": "H7",
+     "formula": 2
+    },
+    {
+     "cell": "F7",
+     "formula": "=IF(COUNT(C7:E7)=0,\"\",MIN(C7:E7))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G7",
+     "formula": "=IF(COUNT(C7:E7)<2,\"\",MAX(C7:E7)-MIN(C7:E7))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I7",
+     "formula": "=IF(AND(ISNUMBER(H7),N(H7)>=1,N(H7)<=3),IF(ISNUMBER(INDEX(C7:E7,1,INT(H7))),INDEX(C7:E7,1,INT(H7)),\"\"),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B8",
+     "formula": "Countertops"
+    },
+    {
+     "cell": "C8",
+     "formula": 4600
+    },
+    {
+     "cell": "D8",
+     "formula": 4200
+    },
+    {
+     "cell": "E8",
+     "formula": 4950
+    },
+    {
+     "cell": "H8",
+     "formula": 2
+    },
+    {
+     "cell": "F8",
+     "formula": "=IF(COUNT(C8:E8)=0,\"\",MIN(C8:E8))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G8",
+     "formula": "=IF(COUNT(C8:E8)<2,\"\",MAX(C8:E8)-MIN(C8:E8))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I8",
+     "formula": "=IF(AND(ISNUMBER(H8),N(H8)>=1,N(H8)<=3),IF(ISNUMBER(INDEX(C8:E8,1,INT(H8))),INDEX(C8:E8,1,INT(H8)),\"\"),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B9",
+     "formula": "Electrician"
+    },
+    {
+     "cell": "C9",
+     "formula": 2400
+    },
+    {
+     "cell": "D9",
+     "formula": 1900
+    },
+    {
+     "cell": "E9",
+     "formula": 2100
+    },
+    {
+     "cell": "H9",
+     "formula": 2
+    },
+    {
+     "cell": "F9",
+     "formula": "=IF(COUNT(C9:E9)=0,\"\",MIN(C9:E9))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G9",
+     "formula": "=IF(COUNT(C9:E9)<2,\"\",MAX(C9:E9)-MIN(C9:E9))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I9",
+     "formula": "=IF(AND(ISNUMBER(H9),N(H9)>=1,N(H9)<=3),IF(ISNUMBER(INDEX(C9:E9,1,INT(H9))),INDEX(C9:E9,1,INT(H9)),\"\"),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B10",
+     "formula": "Tile install"
+    },
+    {
+     "cell": "C10",
+     "formula": 2800
+    },
+    {
+     "cell": "D10",
+     "formula": 3100
+    },
+    {
+     "cell": "H10",
+     "formula": 1
+    },
+    {
+     "cell": "F10",
+     "formula": "=IF(COUNT(C10:E10)=0,\"\",MIN(C10:E10))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G10",
+     "formula": "=IF(COUNT(C10:E10)<2,\"\",MAX(C10:E10)-MIN(C10:E10))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I10",
+     "formula": "=IF(AND(ISNUMBER(H10),N(H10)>=1,N(H10)<=3),IF(ISNUMBER(INDEX(C10:E10,1,INT(H10))),INDEX(C10:E10,1,INT(H10)),\"\"),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B11",
+     "formula": "Painter"
+    },
+    {
+     "cell": "C11",
+     "formula": 1500
+    },
+    {
+     "cell": "D11",
+     "formula": 1200
+    },
+    {
+     "cell": "E11",
+     "formula": 1350
+    },
+    {
+     "cell": "F11",
+     "formula": "=IF(COUNT(C11:E11)=0,\"\",MIN(C11:E11))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G11",
+     "formula": "=IF(COUNT(C11:E11)<2,\"\",MAX(C11:E11)-MIN(C11:E11))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I11",
+     "formula": "=IF(AND(ISNUMBER(H11),N(H11)>=1,N(H11)<=3),IF(ISNUMBER(INDEX(C11:E11,1,INT(H11))),INDEX(C11:E11,1,INT(H11)),\"\"),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F12",
+     "formula": "=IF(COUNT(C12:E12)=0,\"\",MIN(C12:E12))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G12",
+     "formula": "=IF(COUNT(C12:E12)<2,\"\",MAX(C12:E12)-MIN(C12:E12))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I12",
+     "formula": "=IF(AND(ISNUMBER(H12),N(H12)>=1,N(H12)<=3),IF(ISNUMBER(INDEX(C12:E12,1,INT(H12))),INDEX(C12:E12,1,INT(H12)),\"\"),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F13",
+     "formula": "=IF(COUNT(C13:E13)=0,\"\",MIN(C13:E13))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G13",
+     "formula": "=IF(COUNT(C13:E13)<2,\"\",MAX(C13:E13)-MIN(C13:E13))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I13",
+     "formula": "=IF(AND(ISNUMBER(H13),N(H13)>=1,N(H13)<=3),IF(ISNUMBER(INDEX(C13:E13,1,INT(H13))),INDEX(C13:E13,1,INT(H13)),\"\"),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F14",
+     "formula": "=IF(COUNT(C14:E14)=0,\"\",MIN(C14:E14))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G14",
+     "formula": "=IF(COUNT(C14:E14)<2,\"\",MAX(C14:E14)-MIN(C14:E14))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I14",
+     "formula": "=IF(AND(ISNUMBER(H14),N(H14)>=1,N(H14)<=3),IF(ISNUMBER(INDEX(C14:E14,1,INT(H14))),INDEX(C14:E14,1,INT(H14)),\"\"),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F15",
+     "formula": "=IF(COUNT(C15:E15)=0,\"\",MIN(C15:E15))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G15",
+     "formula": "=IF(COUNT(C15:E15)<2,\"\",MAX(C15:E15)-MIN(C15:E15))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I15",
+     "formula": "=IF(AND(ISNUMBER(H15),N(H15)>=1,N(H15)<=3),IF(ISNUMBER(INDEX(C15:E15,1,INT(H15))),INDEX(C15:E15,1,INT(H15)),\"\"),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F16",
+     "formula": "=IF(COUNT(C16:E16)=0,\"\",MIN(C16:E16))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G16",
+     "formula": "=IF(COUNT(C16:E16)<2,\"\",MAX(C16:E16)-MIN(C16:E16))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I16",
+     "formula": "=IF(AND(ISNUMBER(H16),N(H16)>=1,N(H16)<=3),IF(ISNUMBER(INDEX(C16:E16,1,INT(H16))),INDEX(C16:E16,1,INT(H16)),\"\"),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F17",
+     "formula": "=IF(COUNT(C17:E17)=0,\"\",MIN(C17:E17))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G17",
+     "formula": "=IF(COUNT(C17:E17)<2,\"\",MAX(C17:E17)-MIN(C17:E17))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I17",
+     "formula": "=IF(AND(ISNUMBER(H17),N(H17)>=1,N(H17)<=3),IF(ISNUMBER(INDEX(C17:E17,1,INT(H17))),INDEX(C17:E17,1,INT(H17)),\"\"),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F18",
+     "formula": "=IF(COUNT(C18:E18)=0,\"\",MIN(C18:E18))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G18",
+     "formula": "=IF(COUNT(C18:E18)<2,\"\",MAX(C18:E18)-MIN(C18:E18))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I18",
+     "formula": "=IF(AND(ISNUMBER(H18),N(H18)>=1,N(H18)<=3),IF(ISNUMBER(INDEX(C18:E18,1,INT(H18))),INDEX(C18:E18,1,INT(H18)),\"\"),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B19",
+     "formula": "Chosen total"
+    },
+    {
+     "cell": "I19",
+     "formula": "=ROUND(SUM(I7:I18),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B20",
+     "formula": "If you took every lowest bid"
+    },
+    {
+     "cell": "I20",
+     "formula": "=ROUND(SUM(F7:F18),2)",
+     "number_format": "$#,##0.00"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "C7:E18",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER(C7),C7=$F7)"
+     ],
+     "fill": "D7EFDD"
+    },
+    {
+     "range": "C7:E18",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C7<>\"\",NOT(ISNUMBER(C7))),N(C7)<0)"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "C5:E5",
+     "color": "FFFFFF"
+    },
+    {
+     "range": "B5",
+     "color": "F4EFE6"
+    },
+    {
+     "range": "B6:I6",
+     "color": "34495E"
+    },
+    {
+     "range": "F7:G18",
+     "color": "FAF8F4"
+    },
+    {
+     "range": "I7:I18",
+     "color": "FAF8F4"
+    },
+    {
+     "range": "B19:I20",
+     "color": "F4EFE6"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:E5",
+     "color": "DDD3C4"
+    },
+    {
+     "range": "B6:I20",
+     "color": "DDD3C4"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "34495E"
+    },
+    {
+     "range": "B5:E5",
+     "bold": true,
+     "size": 10,
+     "color": "34495E",
+     "align": "center"
+    },
+    {
+     "range": "B6:I6",
+     "wrap": true,
+     "bold": true,
+     "size": 9,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "C7:I20",
+     "align": "center"
+    },
+    {
+     "range": "I7:I20",
+     "bold": true,
+     "size": 10,
+     "color": "B8733D",
+     "align": "center"
+    },
+    {
+     "range": "B19:B20",
+     "bold": true,
+     "size": 10,
+     "color": "34495E"
+    }
+   ],
+   "row_heights": {
+    "6": 30
+   },
+   "validations": [
+    {
+     "range": "H7:H18",
+     "type": "list",
+     "values": [
+      "1",
+      "2",
+      "3"
+     ],
+     "strict": false
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "C7:E18",
+     "format": "$#,##0.00"
+    }
+   ]
+  },
+  {
+   "name": "Payments",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "6E9580",
+   "grid_rows": 23,
+   "grid_cols": 8,
+   "column_widths": {
+    "A": 2.5,
+    "B": 26,
+    "C": 12,
+    "D": 13,
+    "E": 13,
+    "F": 8,
+    "G": 11,
+    "H": 2.5
+   },
+   "section_bars": [
+    {
+     "range": "B2:G2",
+     "label": "PAYMENT SCHEDULE",
+     "size": 16,
+     "color": "34495E",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Contract amount"
+    },
+    {
+     "cell": "B4",
+     "formula": "Approved change orders"
+    },
+    {
+     "cell": "D4",
+     "formula": "=ROUND(SUMIFS('Change Orders'!$D$6:$D$35,'Change Orders'!$E$6:$E$35,TRUE),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B5",
+     "formula": "Contract with changes"
+    },
+    {
+     "cell": "D5",
+     "formula": "=ROUND(N(D3)+D4,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D3",
+     "formula": 14000
+    },
+    {
+     "cell": "B6",
+     "formula": "Milestone"
+    },
+    {
+     "cell": "C6",
+     "formula": "% of contract"
+    },
+    {
+     "cell": "D6",
+     "formula": "Amount"
+    },
+    {
+     "cell": "E6",
+     "formula": "Due"
+    },
+    {
+     "cell": "F6",
+     "formula": "Paid"
+    },
+    {
+     "cell": "G6",
+     "formula": "Status"
+    },
+    {
+     "cell": "B7",
+     "formula": "Deposit at signing"
+    },
+    {
+     "cell": "C7",
+     "formula": 0.3
+    },
+    {
+     "cell": "E7",
+     "formula": "=DATE(2027,3,15)"
+    },
+    {
+     "cell": "F7",
+     "formula": true
+    },
+    {
+     "cell": "D7",
+     "formula": "=IF(ISNUMBER(C7),ROUND(N($D$3)*MAX(0,IF(N(C7)>=1,N(C7)/100,N(C7))),2),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G7",
+     "formula": "=IF(NOT(ISNUMBER(C7)),\"\",IF(F7=TRUE,\"Paid\",IF(AND(ISNUMBER(E7),N(E7)>=1),IF(E7<'Project'!$R$9,\"Overdue\",IF(E7-'Project'!$R$9<=14,\"Due soon\",\"Upcoming\")),\"Upcoming\")))"
+    },
+    {
+     "cell": "B8",
+     "formula": "Demo + rough-in done"
+    },
+    {
+     "cell": "C8",
+     "formula": 0.25
+    },
+    {
+     "cell": "E8",
+     "formula": "=DATE(2027,5,1)"
+    },
+    {
+     "cell": "F8",
+     "formula": false
+    },
+    {
+     "cell": "D8",
+     "formula": "=IF(ISNUMBER(C8),ROUND(N($D$3)*MAX(0,IF(N(C8)>=1,N(C8)/100,N(C8))),2),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G8",
+     "formula": "=IF(NOT(ISNUMBER(C8)),\"\",IF(F8=TRUE,\"Paid\",IF(AND(ISNUMBER(E8),N(E8)>=1),IF(E8<'Project'!$R$9,\"Overdue\",IF(E8-'Project'!$R$9<=14,\"Due soon\",\"Upcoming\")),\"Upcoming\")))"
+    },
+    {
+     "cell": "B9",
+     "formula": "Cabinets installed"
+    },
+    {
+     "cell": "C9",
+     "formula": 0.25
+    },
+    {
+     "cell": "E9",
+     "formula": "=DATE(2027,6,15)"
+    },
+    {
+     "cell": "F9",
+     "formula": false
+    },
+    {
+     "cell": "D9",
+     "formula": "=IF(ISNUMBER(C9),ROUND(N($D$3)*MAX(0,IF(N(C9)>=1,N(C9)/100,N(C9))),2),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G9",
+     "formula": "=IF(NOT(ISNUMBER(C9)),\"\",IF(F9=TRUE,\"Paid\",IF(AND(ISNUMBER(E9),N(E9)>=1),IF(E9<'Project'!$R$9,\"Overdue\",IF(E9-'Project'!$R$9<=14,\"Due soon\",\"Upcoming\")),\"Upcoming\")))"
+    },
+    {
+     "cell": "B10",
+     "formula": "Final walkthrough"
+    },
+    {
+     "cell": "C10",
+     "formula": 0.2
+    },
+    {
+     "cell": "E10",
+     "formula": "=DATE(2027,7,20)"
+    },
+    {
+     "cell": "F10",
+     "formula": false
+    },
+    {
+     "cell": "D10",
+     "formula": "=IF(ISNUMBER(C10),ROUND(N($D$3)*MAX(0,IF(N(C10)>=1,N(C10)/100,N(C10))),2),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G10",
+     "formula": "=IF(NOT(ISNUMBER(C10)),\"\",IF(F10=TRUE,\"Paid\",IF(AND(ISNUMBER(E10),N(E10)>=1),IF(E10<'Project'!$R$9,\"Overdue\",IF(E10-'Project'!$R$9<=14,\"Due soon\",\"Upcoming\")),\"Upcoming\")))"
+    },
+    {
+     "cell": "D11",
+     "formula": "=IF(ISNUMBER(C11),ROUND(N($D$3)*MAX(0,IF(N(C11)>=1,N(C11)/100,N(C11))),2),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G11",
+     "formula": "=IF(NOT(ISNUMBER(C11)),\"\",IF(F11=TRUE,\"Paid\",IF(AND(ISNUMBER(E11),N(E11)>=1),IF(E11<'Project'!$R$9,\"Overdue\",IF(E11-'Project'!$R$9<=14,\"Due soon\",\"Upcoming\")),\"Upcoming\")))"
+    },
+    {
+     "cell": "D12",
+     "formula": "=IF(ISNUMBER(C12),ROUND(N($D$3)*MAX(0,IF(N(C12)>=1,N(C12)/100,N(C12))),2),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G12",
+     "formula": "=IF(NOT(ISNUMBER(C12)),\"\",IF(F12=TRUE,\"Paid\",IF(AND(ISNUMBER(E12),N(E12)>=1),IF(E12<'Project'!$R$9,\"Overdue\",IF(E12-'Project'!$R$9<=14,\"Due soon\",\"Upcoming\")),\"Upcoming\")))"
+    },
+    {
+     "cell": "D13",
+     "formula": "=IF(ISNUMBER(C13),ROUND(N($D$3)*MAX(0,IF(N(C13)>=1,N(C13)/100,N(C13))),2),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G13",
+     "formula": "=IF(NOT(ISNUMBER(C13)),\"\",IF(F13=TRUE,\"Paid\",IF(AND(ISNUMBER(E13),N(E13)>=1),IF(E13<'Project'!$R$9,\"Overdue\",IF(E13-'Project'!$R$9<=14,\"Due soon\",\"Upcoming\")),\"Upcoming\")))"
+    },
+    {
+     "cell": "D14",
+     "formula": "=IF(ISNUMBER(C14),ROUND(N($D$3)*MAX(0,IF(N(C14)>=1,N(C14)/100,N(C14))),2),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G14",
+     "formula": "=IF(NOT(ISNUMBER(C14)),\"\",IF(F14=TRUE,\"Paid\",IF(AND(ISNUMBER(E14),N(E14)>=1),IF(E14<'Project'!$R$9,\"Overdue\",IF(E14-'Project'!$R$9<=14,\"Due soon\",\"Upcoming\")),\"Upcoming\")))"
+    },
+    {
+     "cell": "D15",
+     "formula": "=IF(ISNUMBER(C15),ROUND(N($D$3)*MAX(0,IF(N(C15)>=1,N(C15)/100,N(C15))),2),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G15",
+     "formula": "=IF(NOT(ISNUMBER(C15)),\"\",IF(F15=TRUE,\"Paid\",IF(AND(ISNUMBER(E15),N(E15)>=1),IF(E15<'Project'!$R$9,\"Overdue\",IF(E15-'Project'!$R$9<=14,\"Due soon\",\"Upcoming\")),\"Upcoming\")))"
+    },
+    {
+     "cell": "D16",
+     "formula": "=IF(ISNUMBER(C16),ROUND(N($D$3)*MAX(0,IF(N(C16)>=1,N(C16)/100,N(C16))),2),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G16",
+     "formula": "=IF(NOT(ISNUMBER(C16)),\"\",IF(F16=TRUE,\"Paid\",IF(AND(ISNUMBER(E16),N(E16)>=1),IF(E16<'Project'!$R$9,\"Overdue\",IF(E16-'Project'!$R$9<=14,\"Due soon\",\"Upcoming\")),\"Upcoming\")))"
+    },
+    {
+     "cell": "D17",
+     "formula": "=IF(ISNUMBER(C17),ROUND(N($D$3)*MAX(0,IF(N(C17)>=1,N(C17)/100,N(C17))),2),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G17",
+     "formula": "=IF(NOT(ISNUMBER(C17)),\"\",IF(F17=TRUE,\"Paid\",IF(AND(ISNUMBER(E17),N(E17)>=1),IF(E17<'Project'!$R$9,\"Overdue\",IF(E17-'Project'!$R$9<=14,\"Due soon\",\"Upcoming\")),\"Upcoming\")))"
+    },
+    {
+     "cell": "D18",
+     "formula": "=IF(ISNUMBER(C18),ROUND(N($D$3)*MAX(0,IF(N(C18)>=1,N(C18)/100,N(C18))),2),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G18",
+     "formula": "=IF(NOT(ISNUMBER(C18)),\"\",IF(F18=TRUE,\"Paid\",IF(AND(ISNUMBER(E18),N(E18)>=1),IF(E18<'Project'!$R$9,\"Overdue\",IF(E18-'Project'!$R$9<=14,\"Due soon\",\"Upcoming\")),\"Upcoming\")))"
+    },
+    {
+     "cell": "B19",
+     "formula": "Total"
+    },
+    {
+     "cell": "C19",
+     "formula": "=SUM(C7:C18)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "D19",
+     "formula": "=ROUND(SUM(D7:D18),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B20",
+     "formula": "Paid so far"
+    },
+    {
+     "cell": "D20",
+     "formula": "=ROUND(SUMIFS(D7:D18,F7:F18,TRUE),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B21",
+     "formula": "Left to pay (with changes)"
+    },
+    {
+     "cell": "D21",
+     "formula": "=ROUND(D5-D20,2)",
+     "number_format": "$#,##0.00"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "B7:G18",
+     "type": "formula",
+     "formula": [
+      "$G7=\"Paid\""
+     ],
+     "fill": "D7EFDD"
+    },
+    {
+     "range": "B7:G18",
+     "type": "formula",
+     "formula": [
+      "OR($G7=\"Overdue\",$G7=\"Due soon\")"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C19",
+     "type": "formula",
+     "formula": [
+      "AND(C19>0,ABS(C19-1)>0.001)"
+     ],
+     "fill": "FFF1C2"
+    },
+    {
+     "range": "D3",
+     "type": "formula",
+     "formula": [
+      "OR(AND(D3<>\"\",NOT(ISNUMBER(D3))),N(D3)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C7:C18",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C7<>\"\",NOT(ISNUMBER(C7))),N(C7)<0)"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "D3",
+     "color": "FFFFFF"
+    },
+    {
+     "range": "D4:D5",
+     "color": "FAF8F4"
+    },
+    {
+     "range": "B6:G6",
+     "color": "34495E"
+    },
+    {
+     "range": "D7:D18",
+     "color": "FAF8F4"
+    },
+    {
+     "range": "B19:G21",
+     "color": "F4EFE6"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B3:D5",
+     "color": "DDD3C4"
+    },
+    {
+     "range": "B6:G21",
+     "color": "DDD3C4"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3:B5",
+     "bold": true,
+     "size": 10,
+     "color": "34495E"
+    },
+    {
+     "range": "D3:D5",
+     "bold": true,
+     "size": 11,
+     "color": "B8733D",
+     "align": "center"
+    },
+    {
+     "range": "B6:G6",
+     "bold": true,
+     "size": 10,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "C7:G21",
+     "align": "center"
+    },
+    {
+     "range": "B19:D21",
+     "bold": true,
+     "size": 10,
+     "color": "34495E"
+    }
+   ],
+   "validations": [
+    {
+     "range": "F7:F18",
+     "type": "checkbox"
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "D3",
+     "format": "$#,##0.00"
+    },
+    {
+     "range": "C7:C18",
+     "format": "0%"
+    },
+    {
+     "range": "E7:E18",
+     "format": "mmm d, yyyy"
+    }
+   ]
+  },
+  {
+   "name": "Selections",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "B8733D",
+   "grid_rows": 38,
+   "grid_cols": 14,
+   "freeze": "C6",
+   "column_widths": {
+    "A": 2.5,
+    "B": 18,
+    "C": 10,
+    "D": 20,
+    "E": 14,
+    "F": 7,
+    "G": 10,
+    "H": 11,
+    "I": 10,
+    "J": 12,
+    "K": 9,
+    "L": 11,
+    "M": 12,
+    "N": 2.5
+   },
+   "section_bars": [
+    {
+     "range": "B2:M2",
+     "label": "SELECTIONS & ORDERS",
+     "size": 16,
+     "color": "34495E",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Order by = needed date minus lead time. Order early: delays here hold up the whole job."
+    },
+    {
+     "cell": "B5",
+     "formula": "Item"
+    },
+    {
+     "cell": "C5",
+     "formula": "Room"
+    },
+    {
+     "cell": "D5",
+     "formula": "Brand / model"
+    },
+    {
+     "cell": "E5",
+     "formula": "Finish / color"
+    },
+    {
+     "cell": "F5",
+     "formula": "Qty"
+    },
+    {
+     "cell": "G5",
+     "formula": "Each"
+    },
+    {
+     "cell": "H5",
+     "formula": "Total"
+    },
+    {
+     "cell": "I5",
+     "formula": "Lead time (weeks)"
+    },
+    {
+     "cell": "J5",
+     "formula": "Needed on site"
+    },
+    {
+     "cell": "K5",
+     "formula": "Ordered"
+    },
+    {
+     "cell": "L5",
+     "formula": "Order by"
+    },
+    {
+     "cell": "M5",
+     "formula": "Status"
+    },
+    {
+     "cell": "B6",
+     "formula": "Cabinet pulls"
+    },
+    {
+     "cell": "C6",
+     "formula": "Kitchen"
+    },
+    {
+     "cell": "D6",
+     "formula": "Amerock Bar Pull"
+    },
+    {
+     "cell": "E6",
+     "formula": "Matte black"
+    },
+    {
+     "cell": "F6",
+     "formula": 28
+    },
+    {
+     "cell": "G6",
+     "formula": 6.5
+    },
+    {
+     "cell": "I6",
+     "formula": 4
+    },
+    {
+     "cell": "J6",
+     "formula": "=DATE(2027,6,15)"
+    },
+    {
+     "cell": "K6",
+     "formula": true
+    },
+    {
+     "cell": "B7",
+     "formula": "Kitchen faucet"
+    },
+    {
+     "cell": "C7",
+     "formula": "Kitchen"
+    },
+    {
+     "cell": "D7",
+     "formula": "Delta Trinsic"
+    },
+    {
+     "cell": "E7",
+     "formula": "Matte black"
+    },
+    {
+     "cell": "F7",
+     "formula": 1
+    },
+    {
+     "cell": "G7",
+     "formula": 289
+    },
+    {
+     "cell": "I7",
+     "formula": 1
+    },
+    {
+     "cell": "J7",
+     "formula": "=DATE(2027,6,20)"
+    },
+    {
+     "cell": "K7",
+     "formula": true
+    },
+    {
+     "cell": "B8",
+     "formula": "Pendant lights"
+    },
+    {
+     "cell": "C8",
+     "formula": "Kitchen"
+    },
+    {
+     "cell": "D8",
+     "formula": "Globe 3-pack"
+    },
+    {
+     "cell": "E8",
+     "formula": "Brass"
+    },
+    {
+     "cell": "F8",
+     "formula": 3
+    },
+    {
+     "cell": "G8",
+     "formula": 89
+    },
+    {
+     "cell": "I8",
+     "formula": 3
+    },
+    {
+     "cell": "J8",
+     "formula": "=DATE(2027,7,1)"
+    },
+    {
+     "cell": "K8",
+     "formula": false
+    },
+    {
+     "cell": "B9",
+     "formula": "Backsplash tile"
+    },
+    {
+     "cell": "C9",
+     "formula": "Kitchen"
+    },
+    {
+     "cell": "D9",
+     "formula": "3x12 zellige"
+    },
+    {
+     "cell": "E9",
+     "formula": "White"
+    },
+    {
+     "cell": "F9",
+     "formula": 40
+    },
+    {
+     "cell": "G9",
+     "formula": 14.5
+    },
+    {
+     "cell": "I9",
+     "formula": 6
+    },
+    {
+     "cell": "J9",
+     "formula": "=DATE(2027,7,5)"
+    },
+    {
+     "cell": "K9",
+     "formula": false
+    },
+    {
+     "cell": "B10",
+     "formula": "Vanity"
+    },
+    {
+     "cell": "C10",
+     "formula": "Bath"
+    },
+    {
+     "cell": "D10",
+     "formula": "36in floating"
+    },
+    {
+     "cell": "E10",
+     "formula": "Walnut"
+    },
+    {
+     "cell": "F10",
+     "formula": 1
+    },
+    {
+     "cell": "G10",
+     "formula": 849
+    },
+    {
+     "cell": "I10",
+     "formula": 8
+    },
+    {
+     "cell": "J10",
+     "formula": "=DATE(2027,7,10)"
+    },
+    {
+     "cell": "K10",
+     "formula": false
+    },
+    {
+     "cell": "B11",
+     "formula": "Mirror"
+    },
+    {
+     "cell": "C11",
+     "formula": "Bath"
+    },
+    {
+     "cell": "D11",
+     "formula": "Round 30in"
+    },
+    {
+     "cell": "E11",
+     "formula": "Brass"
+    },
+    {
+     "cell": "F11",
+     "formula": 1
+    },
+    {
+     "cell": "G11",
+     "formula": 159
+    },
+    {
+     "cell": "I11",
+     "formula": 2
+    },
+    {
+     "cell": "J11",
+     "formula": "=DATE(2027,7,15)"
+    },
+    {
+     "cell": "K11",
+     "formula": false
+    },
+    {
+     "col": "H",
+     "range_rows": [
+      6,
+      35
+     ],
+     "formula": "=IF(AND(ISNUMBER(F{row}),ISNUMBER(G{row})),ROUND(F{row}*G{row},2),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "L",
+     "range_rows": [
+      6,
+      35
+     ],
+     "formula": "=IF(AND(ISNUMBER(J{row}),N(J{row})>=1),INT(J{row})-7*N(I{row}),\"\")",
+     "number_format": "mmm d"
+    },
+    {
+     "col": "M",
+     "range_rows": [
+      6,
+      35
+     ],
+     "formula": "=IF(TRIM(B{row}&\"\")=\"\",\"\",IF(K{row}=TRUE,\"Ordered\",IF(L{row}=\"\",\"Add dates\",IF(L{row}<'Project'!$R$9,\"Order now!\",IF(L{row}-'Project'!$R$9<=14,\"Order soon\",\"On track\")))))"
+    },
+    {
+     "cell": "B36",
+     "formula": "Total"
+    },
+    {
+     "cell": "H36",
+     "formula": "=ROUND(SUM(H6:H35),2)",
+     "number_format": "$#,##0.00"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "B6:M35",
+     "type": "formula",
+     "formula": [
+      "$M6=\"Ordered\""
+     ],
+     "fill": "D7EFDD"
+    },
+    {
+     "range": "B6:M35",
+     "type": "formula",
+     "formula": [
+      "LEFT($M6,9)=\"Order now\""
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "B6:M35",
+     "type": "formula",
+     "formula": [
+      "$M6=\"Order soon\""
+     ],
+     "fill": "FFF1C2"
+    },
+    {
+     "range": "F6:G35",
+     "type": "formula",
+     "formula": [
+      "OR(AND(F6<>\"\",NOT(ISNUMBER(F6))),N(F6)<0)"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B5:M5",
+     "color": "34495E"
+    },
+    {
+     "range": "H6:H35",
+     "color": "FAF8F4"
+    },
+    {
+     "range": "L6:M35",
+     "color": "FAF8F4"
+    },
+    {
+     "range": "B36:M36",
+     "color": "F4EFE6"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:M36",
+     "color": "DDD3C4"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "34495E"
+    },
+    {
+     "range": "B5:M5",
+     "wrap": true,
+     "bold": true,
+     "size": 9,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "C6:M36",
+     "align": "center"
+    },
+    {
+     "range": "M6:M35",
+     "bold": true,
+     "size": 10,
+     "color": "34495E",
+     "align": "center"
+    },
+    {
+     "range": "B36:M36",
+     "bold": true,
+     "size": 10,
+     "color": "34495E"
+    }
+   ],
+   "row_heights": {
+    "5": 30
+   },
+   "validations": [
+    {
+     "range": "C6:C35",
+     "type": "list",
+     "values": [
+      "Kitchen",
+      "Bath",
+      "Both"
+     ],
+     "strict": false
+    },
+    {
+     "range": "K6:K35",
+     "type": "checkbox"
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "G6:G35",
+     "format": "$#,##0.00"
+    },
+    {
+     "range": "J6:J35",
+     "format": "mmm d"
+    }
+   ]
+  },
+  {
+   "name": "Change Orders",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "5D7A94",
+   "grid_rows": 39,
+   "grid_cols": 7,
+   "column_widths": {
+    "A": 2.5,
+    "B": 12,
+    "C": 34,
+    "D": 13,
+    "E": 10,
+    "F": 24,
+    "G": 2.5
+   },
+   "section_bars": [
+    {
+     "range": "B2:F2",
+     "label": "CHANGE ORDERS",
+     "size": 16,
+     "color": "34495E",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Extras and surprises the contractor bills for. Only approved ones count."
+    },
+    {
+     "cell": "B5",
+     "formula": "Date"
+    },
+    {
+     "cell": "C5",
+     "formula": "What changed"
+    },
+    {
+     "cell": "D5",
+     "formula": "Cost change"
+    },
+    {
+     "cell": "E5",
+     "formula": "Approved"
+    },
+    {
+     "cell": "F5",
+     "formula": "Why"
+    },
+    {
+     "cell": "B6",
+     "formula": "=DATE(2027,4,2)"
+    },
+    {
+     "cell": "C6",
+     "formula": "Move outlet for island"
+    },
+    {
+     "cell": "D6",
+     "formula": 380
+    },
+    {
+     "cell": "E6",
+     "formula": true
+    },
+    {
+     "cell": "F6",
+     "formula": "Code"
+    },
+    {
+     "cell": "B7",
+     "formula": "=DATE(2027,4,20)"
+    },
+    {
+     "cell": "C7",
+     "formula": "Upgrade to soft-close drawers"
+    },
+    {
+     "cell": "D7",
+     "formula": 640
+    },
+    {
+     "cell": "E7",
+     "formula": true
+    },
+    {
+     "cell": "F7",
+     "formula": "Upgrade"
+    },
+    {
+     "cell": "B8",
+     "formula": "=DATE(2027,5,30)"
+    },
+    {
+     "cell": "C8",
+     "formula": "Extra subfloor repair"
+    },
+    {
+     "cell": "D8",
+     "formula": 950
+    },
+    {
+     "cell": "E8",
+     "formula": false
+    },
+    {
+     "cell": "F8",
+     "formula": "Found water damage"
+    },
+    {
+     "cell": "B36",
+     "formula": "Approved total"
+    },
+    {
+     "cell": "D36",
+     "formula": "=ROUND(SUMIFS(D6:D35,E6:E35,TRUE),2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "B37",
+     "formula": "Waiting on you"
+    },
+    {
+     "cell": "D37",
+     "formula": "=ROUND(SUM(D6:D35)-D36,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "B6:F35",
+     "type": "formula",
+     "formula": [
+      "$E6=TRUE"
+     ],
+     "fill": "E6EFEA"
+    },
+    {
+     "range": "B6:F35",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER($D6),$E6<>TRUE)"
+     ],
+     "fill": "FFF1C2"
+    },
+    {
+     "range": "D6:D35",
+     "type": "formula",
+     "formula": [
+      "AND(D6<>\"\",NOT(ISNUMBER(D6)))"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B5:F5",
+     "color": "34495E"
+    },
+    {
+     "range": "B36:F37",
+     "color": "F4EFE6"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:F37",
+     "color": "DDD3C4"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "34495E"
+    },
+    {
+     "range": "B5:F5",
+     "bold": true,
+     "size": 10,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "B6:B35",
+     "align": "center"
+    },
+    {
+     "range": "D6:E37",
+     "align": "center"
+    },
+    {
+     "range": "B36:D37",
+     "bold": true,
+     "size": 10,
+     "color": "34495E"
+    }
+   ],
+   "validations": [
+    {
+     "range": "E6:E35",
+     "type": "checkbox"
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "B6:B35",
+     "format": "mmm d"
+    },
+    {
+     "range": "D6:D35",
+     "format": "$#,##0.00;-$#,##0.00;$0.00"
+    }
+   ]
+  },
+  {
+   "name": "Timeline",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "6E9580",
+   "grid_rows": 22,
+   "grid_cols": 8,
+   "column_widths": {
+    "A": 2.5,
+    "B": 30,
+    "C": 11,
+    "D": 8,
+    "E": 11,
+    "F": 8,
+    "G": 13,
+    "H": 2.5
+   },
+   "section_bars": [
+    {
+     "range": "B2:G2",
+     "label": "TIMELINE",
+     "size": 16,
+     "color": "34495E",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Each phase with a start date and how many days it takes."
+    },
+    {
+     "cell": "B5",
+     "formula": "Phase"
+    },
+    {
+     "cell": "C5",
+     "formula": "Start"
+    },
+    {
+     "cell": "D5",
+     "formula": "Days"
+    },
+    {
+     "cell": "E5",
+     "formula": "Ends"
+    },
+    {
+     "cell": "F5",
+     "formula": "Done"
+    },
+    {
+     "cell": "G5",
+     "formula": "Status"
+    },
+    {
+     "cell": "B6",
+     "formula": "Design & permits"
+    },
+    {
+     "cell": "C6",
+     "formula": "=DATE(2027,2,1)"
+    },
+    {
+     "cell": "D6",
+     "formula": 30
+    },
+    {
+     "cell": "F6",
+     "formula": true
+    },
+    {
+     "cell": "E6",
+     "formula": "=IF(AND(ISNUMBER(C6),N(C6)>=1,ISNUMBER(D6),N(D6)>=1),INT(C6)+INT(D6)-1,\"\")",
+     "number_format": "mmm d"
+    },
+    {
+     "cell": "G6",
+     "formula": "=IF(TRIM(B6&\"\")=\"\",\"\",IF(F6=TRUE,\"Done\",IF(E6=\"\",\"Add dates\",IF(E6<'Project'!$R$9,\"Running late\",IF(C6<='Project'!$R$9,\"In progress\",\"Not started\")))))"
+    },
+    {
+     "cell": "B7",
+     "formula": "Demo"
+    },
+    {
+     "cell": "C7",
+     "formula": "=DATE(2027,4,1)"
+    },
+    {
+     "cell": "D7",
+     "formula": 5
+    },
+    {
+     "cell": "F7",
+     "formula": true
+    },
+    {
+     "cell": "E7",
+     "formula": "=IF(AND(ISNUMBER(C7),N(C7)>=1,ISNUMBER(D7),N(D7)>=1),INT(C7)+INT(D7)-1,\"\")",
+     "number_format": "mmm d"
+    },
+    {
+     "cell": "G7",
+     "formula": "=IF(TRIM(B7&\"\")=\"\",\"\",IF(F7=TRUE,\"Done\",IF(E7=\"\",\"Add dates\",IF(E7<'Project'!$R$9,\"Running late\",IF(C7<='Project'!$R$9,\"In progress\",\"Not started\")))))"
+    },
+    {
+     "cell": "B8",
+     "formula": "Plumbing & electrical rough-in"
+    },
+    {
+     "cell": "C8",
+     "formula": "=DATE(2027,4,6)"
+    },
+    {
+     "cell": "D8",
+     "formula": 10
+    },
+    {
+     "cell": "F8",
+     "formula": true
+    },
+    {
+     "cell": "E8",
+     "formula": "=IF(AND(ISNUMBER(C8),N(C8)>=1,ISNUMBER(D8),N(D8)>=1),INT(C8)+INT(D8)-1,\"\")",
+     "number_format": "mmm d"
+    },
+    {
+     "cell": "G8",
+     "formula": "=IF(TRIM(B8&\"\")=\"\",\"\",IF(F8=TRUE,\"Done\",IF(E8=\"\",\"Add dates\",IF(E8<'Project'!$R$9,\"Running late\",IF(C8<='Project'!$R$9,\"In progress\",\"Not started\")))))"
+    },
+    {
+     "cell": "B9",
+     "formula": "Drywall & paint"
+    },
+    {
+     "cell": "C9",
+     "formula": "=DATE(2027,4,20)"
+    },
+    {
+     "cell": "D9",
+     "formula": 10
+    },
+    {
+     "cell": "F9",
+     "formula": true
+    },
+    {
+     "cell": "E9",
+     "formula": "=IF(AND(ISNUMBER(C9),N(C9)>=1,ISNUMBER(D9),N(D9)>=1),INT(C9)+INT(D9)-1,\"\")",
+     "number_format": "mmm d"
+    },
+    {
+     "cell": "G9",
+     "formula": "=IF(TRIM(B9&\"\")=\"\",\"\",IF(F9=TRUE,\"Done\",IF(E9=\"\",\"Add dates\",IF(E9<'Project'!$R$9,\"Running late\",IF(C9<='Project'!$R$9,\"In progress\",\"Not started\")))))"
+    },
+    {
+     "cell": "B10",
+     "formula": "Cabinets install"
+    },
+    {
+     "cell": "C10",
+     "formula": "=DATE(2027,6,1)"
+    },
+    {
+     "cell": "D10",
+     "formula": 7
+    },
+    {
+     "cell": "F10",
+     "formula": false
+    },
+    {
+     "cell": "E10",
+     "formula": "=IF(AND(ISNUMBER(C10),N(C10)>=1,ISNUMBER(D10),N(D10)>=1),INT(C10)+INT(D10)-1,\"\")",
+     "number_format": "mmm d"
+    },
+    {
+     "cell": "G10",
+     "formula": "=IF(TRIM(B10&\"\")=\"\",\"\",IF(F10=TRUE,\"Done\",IF(E10=\"\",\"Add dates\",IF(E10<'Project'!$R$9,\"Running late\",IF(C10<='Project'!$R$9,\"In progress\",\"Not started\")))))"
+    },
+    {
+     "cell": "B11",
+     "formula": "Countertop template & install"
+    },
+    {
+     "cell": "C11",
+     "formula": "=DATE(2027,6,14)"
+    },
+    {
+     "cell": "D11",
+     "formula": 14
+    },
+    {
+     "cell": "F11",
+     "formula": false
+    },
+    {
+     "cell": "E11",
+     "formula": "=IF(AND(ISNUMBER(C11),N(C11)>=1,ISNUMBER(D11),N(D11)>=1),INT(C11)+INT(D11)-1,\"\")",
+     "number_format": "mmm d"
+    },
+    {
+     "cell": "G11",
+     "formula": "=IF(TRIM(B11&\"\")=\"\",\"\",IF(F11=TRUE,\"Done\",IF(E11=\"\",\"Add dates\",IF(E11<'Project'!$R$9,\"Running late\",IF(C11<='Project'!$R$9,\"In progress\",\"Not started\")))))"
+    },
+    {
+     "cell": "B12",
+     "formula": "Backsplash & tile"
+    },
+    {
+     "cell": "C12",
+     "formula": "=DATE(2027,7,1)"
+    },
+    {
+     "cell": "D12",
+     "formula": 6
+    },
+    {
+     "cell": "F12",
+     "formula": false
+    },
+    {
+     "cell": "E12",
+     "formula": "=IF(AND(ISNUMBER(C12),N(C12)>=1,ISNUMBER(D12),N(D12)>=1),INT(C12)+INT(D12)-1,\"\")",
+     "number_format": "mmm d"
+    },
+    {
+     "cell": "G12",
+     "formula": "=IF(TRIM(B12&\"\")=\"\",\"\",IF(F12=TRUE,\"Done\",IF(E12=\"\",\"Add dates\",IF(E12<'Project'!$R$9,\"Running late\",IF(C12<='Project'!$R$9,\"In progress\",\"Not started\")))))"
+    },
+    {
+     "cell": "B13",
+     "formula": "Fixtures & appliances"
+    },
+    {
+     "cell": "C13",
+     "formula": "=DATE(2027,7,8)"
+    },
+    {
+     "cell": "D13",
+     "formula": 4
+    },
+    {
+     "cell": "F13",
+     "formula": false
+    },
+    {
+     "cell": "E13",
+     "formula": "=IF(AND(ISNUMBER(C13),N(C13)>=1,ISNUMBER(D13),N(D13)>=1),INT(C13)+INT(D13)-1,\"\")",
+     "number_format": "mmm d"
+    },
+    {
+     "cell": "G13",
+     "formula": "=IF(TRIM(B13&\"\")=\"\",\"\",IF(F13=TRUE,\"Done\",IF(E13=\"\",\"Add dates\",IF(E13<'Project'!$R$9,\"Running late\",IF(C13<='Project'!$R$9,\"In progress\",\"Not started\")))))"
+    },
+    {
+     "cell": "B14",
+     "formula": "Punch list & final"
+    },
+    {
+     "cell": "C14",
+     "formula": "=DATE(2027,7,14)"
+    },
+    {
+     "cell": "D14",
+     "formula": 7
+    },
+    {
+     "cell": "F14",
+     "formula": false
+    },
+    {
+     "cell": "E14",
+     "formula": "=IF(AND(ISNUMBER(C14),N(C14)>=1,ISNUMBER(D14),N(D14)>=1),INT(C14)+INT(D14)-1,\"\")",
+     "number_format": "mmm d"
+    },
+    {
+     "cell": "G14",
+     "formula": "=IF(TRIM(B14&\"\")=\"\",\"\",IF(F14=TRUE,\"Done\",IF(E14=\"\",\"Add dates\",IF(E14<'Project'!$R$9,\"Running late\",IF(C14<='Project'!$R$9,\"In progress\",\"Not started\")))))"
+    },
+    {
+     "cell": "E15",
+     "formula": "=IF(AND(ISNUMBER(C15),N(C15)>=1,ISNUMBER(D15),N(D15)>=1),INT(C15)+INT(D15)-1,\"\")",
+     "number_format": "mmm d"
+    },
+    {
+     "cell": "G15",
+     "formula": "=IF(TRIM(B15&\"\")=\"\",\"\",IF(F15=TRUE,\"Done\",IF(E15=\"\",\"Add dates\",IF(E15<'Project'!$R$9,\"Running late\",IF(C15<='Project'!$R$9,\"In progress\",\"Not started\")))))"
+    },
+    {
+     "cell": "E16",
+     "formula": "=IF(AND(ISNUMBER(C16),N(C16)>=1,ISNUMBER(D16),N(D16)>=1),INT(C16)+INT(D16)-1,\"\")",
+     "number_format": "mmm d"
+    },
+    {
+     "cell": "G16",
+     "formula": "=IF(TRIM(B16&\"\")=\"\",\"\",IF(F16=TRUE,\"Done\",IF(E16=\"\",\"Add dates\",IF(E16<'Project'!$R$9,\"Running late\",IF(C16<='Project'!$R$9,\"In progress\",\"Not started\")))))"
+    },
+    {
+     "cell": "E17",
+     "formula": "=IF(AND(ISNUMBER(C17),N(C17)>=1,ISNUMBER(D17),N(D17)>=1),INT(C17)+INT(D17)-1,\"\")",
+     "number_format": "mmm d"
+    },
+    {
+     "cell": "G17",
+     "formula": "=IF(TRIM(B17&\"\")=\"\",\"\",IF(F17=TRUE,\"Done\",IF(E17=\"\",\"Add dates\",IF(E17<'Project'!$R$9,\"Running late\",IF(C17<='Project'!$R$9,\"In progress\",\"Not started\")))))"
+    },
+    {
+     "cell": "E18",
+     "formula": "=IF(AND(ISNUMBER(C18),N(C18)>=1,ISNUMBER(D18),N(D18)>=1),INT(C18)+INT(D18)-1,\"\")",
+     "number_format": "mmm d"
+    },
+    {
+     "cell": "G18",
+     "formula": "=IF(TRIM(B18&\"\")=\"\",\"\",IF(F18=TRUE,\"Done\",IF(E18=\"\",\"Add dates\",IF(E18<'Project'!$R$9,\"Running late\",IF(C18<='Project'!$R$9,\"In progress\",\"Not started\")))))"
+    },
+    {
+     "cell": "E19",
+     "formula": "=IF(AND(ISNUMBER(C19),N(C19)>=1,ISNUMBER(D19),N(D19)>=1),INT(C19)+INT(D19)-1,\"\")",
+     "number_format": "mmm d"
+    },
+    {
+     "cell": "G19",
+     "formula": "=IF(TRIM(B19&\"\")=\"\",\"\",IF(F19=TRUE,\"Done\",IF(E19=\"\",\"Add dates\",IF(E19<'Project'!$R$9,\"Running late\",IF(C19<='Project'!$R$9,\"In progress\",\"Not started\")))))"
+    },
+    {
+     "cell": "B20",
+     "formula": "=COUNTIF(G6:G19,\"Done\")&\" of \"&COUNTIF(B6:B19,\"?*\")&\" phases done\""
+    },
+    {
+     "cell": "E20",
+     "formula": "=IF(COUNT(E6:E19)=0,\"\",MAX(E6:E19))",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "D20",
+     "formula": "Finish:"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "B6:G19",
+     "type": "formula",
+     "formula": [
+      "$G6=\"Done\""
+     ],
+     "fill": "D7EFDD"
+    },
+    {
+     "range": "B6:G19",
+     "type": "formula",
+     "formula": [
+      "$G6=\"Running late\""
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "B6:G19",
+     "type": "formula",
+     "formula": [
+      "$G6=\"In progress\""
+     ],
+     "fill": "FFF1C2"
+    },
+    {
+     "range": "C6:C19",
+     "type": "formula",
+     "formula": [
+      "AND(C6<>\"\",OR(NOT(ISNUMBER(C6)),N(C6)<1))"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B5:G5",
+     "color": "34495E"
+    },
+    {
+     "range": "E6:E19",
+     "color": "FAF8F4"
+    },
+    {
+     "range": "G6:G19",
+     "color": "FAF8F4"
+    },
+    {
+     "range": "B20:G20",
+     "color": "F4EFE6"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:G20",
+     "color": "DDD3C4"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "34495E"
+    },
+    {
+     "range": "B5:G5",
+     "bold": true,
+     "size": 10,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "C6:G20",
+     "align": "center"
+    },
+    {
+     "range": "B20:G20",
+     "bold": true,
+     "size": 10,
+     "color": "34495E"
+    }
+   ],
+   "validations": [
+    {
+     "range": "F6:F19",
+     "type": "checkbox"
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "C6:C19",
+     "format": "mmm d"
+    }
+   ]
+  }
+ ]
+}
