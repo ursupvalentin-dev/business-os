@@ -1,0 +1,5231 @@
+{
+ "filename": "Content Creator Income Tracker",
+ "locale": "en_US",
+ "theme": {
+  "header_font": "FFFFFF",
+  "border": "DCD6EE",
+  "accent": "6A3FD1",
+  "section_colors": [
+   "241B3A",
+   "ECE6FB",
+   "DDF5F8"
+  ],
+  "chart_palette": [
+   "6A3FD1",
+   "F2456E",
+   "13B5C9",
+   "F7B32B"
+  ]
+ },
+ "tabs": [
+  {
+   "name": "Start Here",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "6A3FD1",
+   "grid_rows": 28,
+   "column_widths": {
+    "A": 2.5,
+    "B": 22,
+    "C": 100,
+    "D": 2.5
+   },
+   "section_bars": [
+    {
+     "range": "B2:C2",
+     "label": "CONTENT CREATOR INCOME",
+     "size": 18,
+     "color": "241B3A",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "B5:C5",
+     "label": "HOW TO USE IT",
+     "color": "ECE6FB",
+     "font_color": "241B3A",
+     "align": "left"
+    },
+    {
+     "range": "B12:C12",
+     "label": "GOOD TO KNOW",
+     "color": "6A3FD1",
+     "font_color": "FFFFFF",
+     "align": "left"
+    },
+    {
+     "range": "B18:C18",
+     "label": "COLOR GUIDE",
+     "color": "ECE6FB",
+     "font_color": "241B3A",
+     "align": "left"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Every income stream, brand deal and follower milestone in one place."
+    },
+    {
+     "cell": "B6",
+     "formula": "Setup: your name, the year, a tax set-aside %, a monthly goal and the rates you use to price sponsorships."
+    },
+    {
+     "cell": "B7",
+     "formula": "Platforms: each channel with followers on January 1 and now, average views and engagement."
+    },
+    {
+     "cell": "B8",
+     "formula": "Income: ad revenue, affiliate, memberships, merch and other money. Brand deals go on their own tab."
+    },
+    {
+     "cell": "B9",
+     "formula": "Brand Deals: every pitch and partnership. Add the paid date when the money lands and it counts as income."
+    },
+    {
+     "cell": "B10",
+     "formula": "Expenses, Monthly, Income Mix, Rate Card and Dashboard show where your money comes from."
+    },
+    {
+     "cell": "B13",
+     "formula": "No double count"
+    },
+    {
+     "cell": "C13",
+     "formula": "Sponsorships come only from Brand Deals. Don't add them to Income too."
+    },
+    {
+     "cell": "B14",
+     "formula": "Agency cut"
+    },
+    {
+     "cell": "C14",
+     "formula": "Put the agency % on the deal. Your take is what's left."
+    },
+    {
+     "cell": "B15",
+     "formula": "Rate Card"
+    },
+    {
+     "cell": "C15",
+     "formula": "A starting point. Engagement, niche and usage rights can push it higher."
+    },
+    {
+     "cell": "B16",
+     "formula": "Taxes"
+    },
+    {
+     "cell": "C16",
+     "formula": "Creator income is usually self-employment income. Set money aside every month."
+    },
+    {
+     "cell": "C19",
+     "formula": "White cells are for typing."
+    },
+    {
+     "cell": "C20",
+     "formula": "Grey cells calculate."
+    },
+    {
+     "cell": "C21",
+     "formula": "Green = paid or growing."
+    },
+    {
+     "cell": "C22",
+     "formula": "Red = overdue or a typo."
+    },
+    {
+     "cell": "B24",
+     "formula": "Keep creating. The money follows good work."
+    }
+   ],
+   "fills": [
+    {
+     "range": "B13:C16",
+     "color": "ECE6FB"
+    },
+    {
+     "range": "B19",
+     "color": "FFFFFF"
+    },
+    {
+     "range": "B20",
+     "color": "F7F6FC"
+    },
+    {
+     "range": "B21",
+     "color": "D7EFDD"
+    },
+    {
+     "range": "B22",
+     "color": "F6CACA"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B19",
+     "color": "DCD6EE"
+    },
+    {
+     "range": "B20",
+     "color": "DCD6EE"
+    },
+    {
+     "range": "B21",
+     "color": "DCD6EE"
+    },
+    {
+     "range": "B22",
+     "color": "DCD6EE"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 11,
+     "color": "241B3A"
+    },
+    {
+     "range": "B13:B16",
+     "bold": true,
+     "size": 11,
+     "color": "241B3A"
+    },
+    {
+     "range": "B24",
+     "italic": true,
+     "bold": true,
+     "size": 11,
+     "color": "241B3A"
+    }
+   ]
+  },
+  {
+   "name": "Dashboard",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "6A3FD1",
+   "grid_rows": 44,
+   "grid_cols": 19,
+   "column_widths": {
+    "A": 2.5,
+    "B": 16,
+    "C": 12,
+    "D": 12,
+    "E": 16,
+    "F": 16,
+    "G": 16,
+    "H": 16,
+    "I": 16,
+    "J": 2.5,
+    "R": 10
+   },
+   "hidden_columns": [
+    "R"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:I2",
+     "label": "CREATOR DASHBOARD",
+     "size": 16,
+     "color": "241B3A",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "B15:D15",
+     "label": "PLATFORMS",
+     "color": "ECE6FB",
+     "font_color": "241B3A",
+     "align": "left"
+    },
+    {
+     "range": "E15:I15",
+     "label": "INCOME MIX",
+     "color": "ECE6FB",
+     "font_color": "241B3A",
+     "align": "left"
+    },
+    {
+     "range": "B26:I26",
+     "label": "INCOME BY MONTH",
+     "color": "ECE6FB",
+     "font_color": "241B3A",
+     "align": "left"
+    }
+   ],
+   "kpi_cards": [
+    {
+     "anchor": "B5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "TOTAL INCOME",
+     "value": "=R4",
+     "fill": "6A3FD1",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "D5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "PROFIT",
+     "value": "=R5",
+     "fill": "241B3A",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "anchor": "F5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "BRAND DEALS PAID",
+     "value": "=R6",
+     "fill": "F2456E",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "H5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "DEALS IN THE WORKS",
+     "value": "=R7",
+     "fill": "13B5C9",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "B9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "FOLLOWERS",
+     "value": "=R9",
+     "fill": "13B5C9",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "#,##0"
+    },
+    {
+     "anchor": "D9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "NEW THIS YEAR",
+     "value": "=R10",
+     "fill": "6A3FD1",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "+#,##0;-#,##0"
+    },
+    {
+     "anchor": "F9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "TOP INCOME STREAM",
+     "value": "=R15",
+     "fill": "F2456E",
+     "font_color": "FFFFFF",
+     "value_size": 12
+    },
+    {
+     "anchor": "H9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "SET ASIDE FOR TAX",
+     "value": "=R11",
+     "fill": "241B3A",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "=IF('Setup'!$R$7=\"\",\"\",'Setup'!$R$7&\"  |  \")&'Setup'!$R$4"
+    },
+    {
+     "cell": "R4",
+     "formula": "='Monthly'!H18",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R5",
+     "formula": "='Monthly'!J18",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "R6",
+     "formula": "='Monthly'!C18",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R7",
+     "formula": "=ROUND(SUM('Brand Deals'!$V$6:$V$155),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R8",
+     "formula": "=COUNTIF('Brand Deals'!$K$6:$K$155,\"Content overdue\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "R9",
+     "formula": "='Platforms'!D16",
+     "number_format": "#,##0"
+    },
+    {
+     "cell": "R10",
+     "formula": "='Platforms'!G16",
+     "number_format": "#,##0;-#,##0"
+    },
+    {
+     "cell": "R11",
+     "formula": "='Monthly'!K18",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R12",
+     "formula": "=IF('Setup'!$R$6=0,0,INDEX('Monthly'!H6:H17,'Setup'!$R$6))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R13",
+     "formula": "='Setup'!$R$9",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R14",
+     "formula": "=IF(R13>0,R12/R13,0)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "R15",
+     "formula": "=IF(MAX('Income Mix'!C7:C14)<=0,IF('Income Mix'!C6>0,\"Sponsorships\",\"-\"),IF('Income Mix'!C6>=MAX('Income Mix'!C7:C14),\"Sponsorships\",INDEX('Income Mix'!B7:B14,MATCH(MAX('Income Mix'!C7:C14),'Income Mix'!C7:C14,0))))"
+    },
+    {
+     "cell": "R16",
+     "formula": "=COUNTIF('Brand Deals'!$K$6:$K$155,\"Waiting for payment\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "B13",
+     "formula": "=REPT(\"█\",ROUND(MIN(1,MAX(0,R14))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,R14))*10,0))&\"  This month: \"&TEXT(R12,\"$#,##0\")&\" of a \"&TEXT(R13,\"$#,##0\")&\" goal\""
+    },
+    {
+     "cell": "B14",
+     "formula": "=IF(AND(R4=0,R7=0),\"Add your platforms and first income to start.\",IF(R8>0,R8&IF(R8=1,\" sponsored post is\",\" sponsored posts are\")&\" overdue. Deliver or ask for more time.\",IF(R16>0,R16&IF(R16=1,\" brand owes\",\" brands owe\")&\" you money. Send a friendly invoice reminder.\",\"On track. Keep creating!\")))"
+    },
+    {
+     "cell": "B16",
+     "formula": "Platform"
+    },
+    {
+     "cell": "C16",
+     "formula": "Followers"
+    },
+    {
+     "cell": "D16",
+     "formula": "Growth"
+    },
+    {
+     "cell": "B17",
+     "formula": "=IF(TRIM('Platforms'!B6&\"\")=\"\",\"\",TRIM('Platforms'!B6&\"\"))"
+    },
+    {
+     "cell": "C17",
+     "formula": "=IF(B17=\"\",\"\",N('Platforms'!D6))",
+     "number_format": "#,##0"
+    },
+    {
+     "cell": "D17",
+     "formula": "=IF(B17=\"\",\"\",'Platforms'!H6)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B18",
+     "formula": "=IF(TRIM('Platforms'!B7&\"\")=\"\",\"\",TRIM('Platforms'!B7&\"\"))"
+    },
+    {
+     "cell": "C18",
+     "formula": "=IF(B18=\"\",\"\",N('Platforms'!D7))",
+     "number_format": "#,##0"
+    },
+    {
+     "cell": "D18",
+     "formula": "=IF(B18=\"\",\"\",'Platforms'!H7)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B19",
+     "formula": "=IF(TRIM('Platforms'!B8&\"\")=\"\",\"\",TRIM('Platforms'!B8&\"\"))"
+    },
+    {
+     "cell": "C19",
+     "formula": "=IF(B19=\"\",\"\",N('Platforms'!D8))",
+     "number_format": "#,##0"
+    },
+    {
+     "cell": "D19",
+     "formula": "=IF(B19=\"\",\"\",'Platforms'!H8)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B20",
+     "formula": "=IF(TRIM('Platforms'!B9&\"\")=\"\",\"\",TRIM('Platforms'!B9&\"\"))"
+    },
+    {
+     "cell": "C20",
+     "formula": "=IF(B20=\"\",\"\",N('Platforms'!D9))",
+     "number_format": "#,##0"
+    },
+    {
+     "cell": "D20",
+     "formula": "=IF(B20=\"\",\"\",'Platforms'!H9)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B21",
+     "formula": "=IF(TRIM('Platforms'!B10&\"\")=\"\",\"\",TRIM('Platforms'!B10&\"\"))"
+    },
+    {
+     "cell": "C21",
+     "formula": "=IF(B21=\"\",\"\",N('Platforms'!D10))",
+     "number_format": "#,##0"
+    },
+    {
+     "cell": "D21",
+     "formula": "=IF(B21=\"\",\"\",'Platforms'!H10)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B22",
+     "formula": "=IF(TRIM('Platforms'!B11&\"\")=\"\",\"\",TRIM('Platforms'!B11&\"\"))"
+    },
+    {
+     "cell": "C22",
+     "formula": "=IF(B22=\"\",\"\",N('Platforms'!D11))",
+     "number_format": "#,##0"
+    },
+    {
+     "cell": "D22",
+     "formula": "=IF(B22=\"\",\"\",'Platforms'!H11)",
+     "number_format": "0%"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "B14:I14",
+     "type": "formula",
+     "formula": [
+      "OR($R$8>0,$R$16>0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "B14:I14",
+     "type": "formula",
+     "formula": [
+      "LEFT($B$14,2)=\"On\""
+     ],
+     "fill": "D7EFDD"
+    },
+    {
+     "range": "D17:D22",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER(D17),D17>0)"
+     ],
+     "fill": "D7EFDD"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B16:D16",
+     "color": "241B3A"
+    },
+    {
+     "range": "C17:D22",
+     "color": "F7F6FC"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:C7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "D5:E7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "F5:G7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "H5:I7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "B9:C11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "D9:E11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "F9:G11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "H9:I11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "B16:D22",
+     "color": "DCD6EE"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 11,
+     "color": "241B3A"
+    },
+    {
+     "range": "B13",
+     "bold": true,
+     "size": 12,
+     "color": "6A3FD1"
+    },
+    {
+     "range": "B14",
+     "bold": true,
+     "size": 11,
+     "color": "241B3A"
+    },
+    {
+     "range": "B16:D16",
+     "bold": true,
+     "size": 10,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "B17:B22",
+     "bold": true,
+     "size": 10,
+     "color": "241B3A"
+    },
+    {
+     "range": "C17:D22",
+     "align": "center"
+    }
+   ],
+   "charts": [
+    {
+     "type": "doughnut",
+     "anchor": "E16",
+     "data": "Income Mix!C6:C14",
+     "categories": "Income Mix!B6:B14",
+     "width": 16,
+     "height": 7,
+     "titles_from_data": false,
+     "colors": [
+      "F2456E",
+      "6A3FD1",
+      "13B5C9",
+      "F7B32B",
+      "9B93B8",
+      "4FD1A5",
+      "F28C38",
+      "C9C3DE",
+      "6B6585"
+     ]
+    },
+    {
+     "type": "bar",
+     "anchor": "B27",
+     "data": "Monthly!H5:H17",
+     "categories": "Monthly!B6:B17",
+     "width": 24,
+     "height": 7,
+     "colors": [
+      "6A3FD1"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Setup",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "241B3A",
+   "grid_rows": 13,
+   "grid_cols": 19,
+   "column_widths": {
+    "A": 2.5,
+    "B": 30,
+    "C": 18,
+    "D": 26,
+    "E": 2.5,
+    "R": 10
+   },
+   "hidden_columns": [
+    "R"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:D2",
+     "label": "SETUP",
+     "size": 16,
+     "color": "241B3A",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B4",
+     "formula": "Setting"
+    },
+    {
+     "cell": "C4",
+     "formula": "Yours"
+    },
+    {
+     "cell": "D4",
+     "formula": "Note"
+    },
+    {
+     "cell": "B5",
+     "formula": "Your name or brand"
+    },
+    {
+     "cell": "C5",
+     "formula": "Jules Makes"
+    },
+    {
+     "cell": "B6",
+     "formula": "Year"
+    },
+    {
+     "cell": "C6",
+     "formula": 2027
+    },
+    {
+     "cell": "B7",
+     "formula": "Today"
+    },
+    {
+     "cell": "D7",
+     "formula": "Blank = today."
+    },
+    {
+     "cell": "C7",
+     "formula": "=DATE(2027,6,20)"
+    },
+    {
+     "cell": "B8",
+     "formula": "Tax set-aside %"
+    },
+    {
+     "cell": "C8",
+     "formula": 30
+    },
+    {
+     "cell": "B9",
+     "formula": "Monthly income goal"
+    },
+    {
+     "cell": "D9",
+     "formula": "All income after fees."
+    },
+    {
+     "cell": "C9",
+     "formula": 8000
+    },
+    {
+     "cell": "B10",
+     "formula": "Sponsor rate per 1,000 followers"
+    },
+    {
+     "cell": "D10",
+     "formula": "Used on the Rate Card."
+    },
+    {
+     "cell": "C10",
+     "formula": 10
+    },
+    {
+     "cell": "B11",
+     "formula": "Sponsor rate per 1,000 views"
+    },
+    {
+     "cell": "D11",
+     "formula": "Used on the Rate Card."
+    },
+    {
+     "cell": "C11",
+     "formula": 25
+    },
+    {
+     "cell": "R4",
+     "formula": "=IF(AND(ISNUMBER(C6),N(C6)>=1900,N(C6)<=9999),INT(C6),2027)"
+    },
+    {
+     "cell": "R5",
+     "formula": "=IF(AND(ISNUMBER(C7),N(C7)>=1),INT(C7),TODAY())",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "R6",
+     "formula": "=IF(YEAR(R5)=R4,MONTH(R5),IF(YEAR(R5)>R4,12,0))"
+    },
+    {
+     "cell": "R7",
+     "formula": "=TRIM(C5&\"\")"
+    },
+    {
+     "cell": "R8",
+     "formula": "=MIN(1,MAX(0,IF(N(C8)>=1,N(C8)/100,N(C8))))"
+    },
+    {
+     "cell": "R9",
+     "formula": "=MAX(0,N(C9))"
+    },
+    {
+     "cell": "R10",
+     "formula": "=MAX(0,N(C10))"
+    },
+    {
+     "cell": "R11",
+     "formula": "=MAX(0,N(C11))"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "C7",
+     "type": "formula",
+     "formula": [
+      "AND(C7<>\"\",OR(NOT(ISNUMBER(C7)),N(C7)<1))"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C8:C11",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C8<>\"\",NOT(ISNUMBER(C8))),N(C8)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C6",
+     "type": "formula",
+     "formula": [
+      "AND(C6<>\"\",OR(NOT(ISNUMBER(C6)),N(C6)<1900,N(C6)>9999))"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B4:D4",
+     "color": "ECE6FB"
+    },
+    {
+     "range": "C5:C11",
+     "color": "FFFFFF"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B4:D11",
+     "color": "DCD6EE"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B4:D4",
+     "bold": true,
+     "size": 10,
+     "color": "241B3A",
+     "align": "center"
+    },
+    {
+     "range": "B5:B11",
+     "bold": true,
+     "size": 10,
+     "color": "241B3A"
+    },
+    {
+     "range": "D5:D11",
+     "italic": true,
+     "size": 9,
+     "color": "241B3A"
+    },
+    {
+     "range": "C5:C11",
+     "bold": true,
+     "size": 11,
+     "color": "6A3FD1",
+     "align": "center"
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "C6",
+     "format": "0"
+    },
+    {
+     "range": "C7",
+     "format": "mmm d, yyyy"
+    },
+    {
+     "range": "C8",
+     "format": "0.##"
+    },
+    {
+     "range": "C9",
+     "format": "$#,##0.00"
+    },
+    {
+     "range": "C10",
+     "format": "$#,##0.00"
+    },
+    {
+     "range": "C11",
+     "format": "$#,##0.00"
+    }
+   ]
+  },
+  {
+   "name": "Platforms",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "6A3FD1",
+   "grid_rows": 34,
+   "grid_cols": 19,
+   "column_widths": {
+    "A": 2.5,
+    "B": 16,
+    "C": 12,
+    "D": 12,
+    "E": 11,
+    "F": 10,
+    "G": 11,
+    "H": 9,
+    "I": 13,
+    "J": 11,
+    "K": 2.5,
+    "R": 3
+   },
+   "hidden_columns": [
+    "R"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:J2",
+     "label": "PLATFORMS",
+     "size": 16,
+     "color": "241B3A",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Your channels. Followers can be subscribers, members or email readers. Income includes paid brand deals."
+    },
+    {
+     "cell": "B5",
+     "formula": "Platform"
+    },
+    {
+     "cell": "C5",
+     "formula": "Followers Jan 1"
+    },
+    {
+     "cell": "D5",
+     "formula": "Followers now"
+    },
+    {
+     "cell": "E5",
+     "formula": "Avg views per post"
+    },
+    {
+     "cell": "F5",
+     "formula": "Engagement %"
+    },
+    {
+     "cell": "G5",
+     "formula": "New followers"
+    },
+    {
+     "cell": "H5",
+     "formula": "Growth"
+    },
+    {
+     "cell": "I5",
+     "formula": "Income this year"
+    },
+    {
+     "cell": "J5",
+     "formula": "Income per 1k followers"
+    },
+    {
+     "cell": "B6",
+     "formula": "YouTube"
+    },
+    {
+     "cell": "C6",
+     "formula": 42000
+    },
+    {
+     "cell": "D6",
+     "formula": 58500
+    },
+    {
+     "cell": "E6",
+     "formula": 18000
+    },
+    {
+     "cell": "F6",
+     "formula": 6.2
+    },
+    {
+     "cell": "B7",
+     "formula": "TikTok"
+    },
+    {
+     "cell": "C7",
+     "formula": 88000
+    },
+    {
+     "cell": "D7",
+     "formula": 121000
+    },
+    {
+     "cell": "E7",
+     "formula": 35000
+    },
+    {
+     "cell": "F7",
+     "formula": 4.1
+    },
+    {
+     "cell": "B8",
+     "formula": "Instagram"
+    },
+    {
+     "cell": "C8",
+     "formula": 24500
+    },
+    {
+     "cell": "D8",
+     "formula": 29800
+    },
+    {
+     "cell": "E8",
+     "formula": 6500
+    },
+    {
+     "cell": "F8",
+     "formula": 3.4
+    },
+    {
+     "cell": "B9",
+     "formula": "Newsletter"
+    },
+    {
+     "cell": "C9",
+     "formula": 5200
+    },
+    {
+     "cell": "D9",
+     "formula": 7900
+    },
+    {
+     "cell": "E9",
+     "formula": 2800
+    },
+    {
+     "cell": "F9",
+     "formula": 45
+    },
+    {
+     "cell": "B10",
+     "formula": "Patreon"
+    },
+    {
+     "cell": "C10",
+     "formula": 310
+    },
+    {
+     "cell": "D10",
+     "formula": 420
+    },
+    {
+     "col": "R",
+     "range_rows": [
+      6,
+      15
+     ],
+     "formula": "=LOWER(TRIM(B{row}&\"\"))"
+    },
+    {
+     "col": "G",
+     "range_rows": [
+      6,
+      15
+     ],
+     "formula": "=IF(OR(TRIM(B{row}&\"\")=\"\",NOT(ISNUMBER(C{row})),NOT(ISNUMBER(D{row}))),\"\",D{row}-C{row})",
+     "number_format": "#,##0;-#,##0"
+    },
+    {
+     "col": "H",
+     "range_rows": [
+      6,
+      15
+     ],
+     "formula": "=IF(OR(G{row}=\"\",N(C{row})<=0),\"\",G{row}/C{row})",
+     "number_format": "0%"
+    },
+    {
+     "col": "I",
+     "range_rows": [
+      6,
+      15
+     ],
+     "formula": "=IF(TRIM(B{row}&\"\")=\"\",\"\",ROUND(SUMIFS('Income'!$I$6:$I$805,'Income'!$S$6:$S$805,ROW()-5,'Income'!$T$6:$T$805,\">0\")+SUMIFS('Brand Deals'!$J$6:$J$155,'Brand Deals'!$S$6:$S$155,ROW()-5,'Brand Deals'!$U$6:$U$155,\">0\"),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "J",
+     "range_rows": [
+      6,
+      15
+     ],
+     "formula": "=IF(OR(I{row}=\"\",N(D{row})<=0),\"\",ROUND(I{row}/(D{row}/1000),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B16",
+     "formula": "All platforms"
+    },
+    {
+     "cell": "C16",
+     "formula": "=SUM(C6:C15)",
+     "number_format": "#,##0"
+    },
+    {
+     "cell": "D16",
+     "formula": "=SUM(D6:D15)",
+     "number_format": "#,##0"
+    },
+    {
+     "cell": "G16",
+     "formula": "=SUM(G6:G15)",
+     "number_format": "#,##0;-#,##0"
+    },
+    {
+     "cell": "H16",
+     "formula": "=IF(C16>0,G16/C16,\"\")",
+     "number_format": "0%"
+    },
+    {
+     "cell": "I16",
+     "formula": "=ROUND(SUM(I6:I15),2)",
+     "number_format": "$#,##0.00"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "C6:F15",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C6<>\"\",NOT(ISNUMBER(C6))),N(C6)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "G6:H16",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER($G6),$G6>0)"
+     ],
+     "fill": "D7EFDD"
+    },
+    {
+     "range": "G6:H16",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER($G6),$G6<0)"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B5:J5",
+     "color": "241B3A"
+    },
+    {
+     "range": "B6:F15",
+     "color": "FFFFFF"
+    },
+    {
+     "range": "G6:J15",
+     "color": "F7F6FC"
+    },
+    {
+     "range": "B16:J16",
+     "color": "ECE6FB"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:J16",
+     "color": "DCD6EE"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "241B3A"
+    },
+    {
+     "range": "B5:J5",
+     "wrap": true,
+     "bold": true,
+     "size": 9,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "B6:B16",
+     "bold": true,
+     "size": 10,
+     "color": "241B3A"
+    },
+    {
+     "range": "C6:J16",
+     "align": "center"
+    },
+    {
+     "range": "I6:I16",
+     "bold": true,
+     "size": 10,
+     "color": "6A3FD1",
+     "align": "center"
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "C6:E15",
+     "format": "#,##0"
+    },
+    {
+     "range": "F6:F15",
+     "format": "0.0"
+    }
+   ],
+   "row_heights": {
+    "5": 30
+   },
+   "charts": [
+    {
+     "type": "bar",
+     "anchor": "B18",
+     "data": "Platforms!C5:D10",
+     "categories": "Platforms!B6:B10",
+     "width": 18,
+     "height": 7,
+     "colors": [
+      "ECE6FB",
+      "6A3FD1"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Income",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "13B5C9",
+   "grid_rows": 807,
+   "grid_cols": 23,
+   "freeze": "A6",
+   "column_widths": {
+    "A": 2.5,
+    "B": 12,
+    "C": 16,
+    "D": 13,
+    "E": 20,
+    "F": 11,
+    "G": 10,
+    "H": 20,
+    "I": 11,
+    "J": 2.5,
+    "R": 3,
+    "S": 3,
+    "T": 3,
+    "V": 3
+   },
+   "hidden_columns": [
+    "R",
+    "S",
+    "T",
+    "V"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:I2",
+     "label": "INCOME",
+     "size": 16,
+     "color": "241B3A",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Money that landed, by date received. Fees = platform, processing or production costs taken out. Brand deals go on Brand Deals."
+    },
+    {
+     "cell": "B5",
+     "formula": "Date received"
+    },
+    {
+     "cell": "C5",
+     "formula": "Type"
+    },
+    {
+     "cell": "D5",
+     "formula": "Platform"
+    },
+    {
+     "cell": "E5",
+     "formula": "From"
+    },
+    {
+     "cell": "F5",
+     "formula": "Gross"
+    },
+    {
+     "cell": "G5",
+     "formula": "Fees"
+    },
+    {
+     "cell": "H5",
+     "formula": "Note"
+    },
+    {
+     "cell": "I5",
+     "formula": "Net"
+    },
+    {
+     "cell": "B6",
+     "formula": "=DATE(2027,1,1)"
+    },
+    {
+     "cell": "C6",
+     "formula": "Memberships"
+    },
+    {
+     "cell": "D6",
+     "formula": "Patreon"
+    },
+    {
+     "cell": "E6",
+     "formula": "Patreon payout"
+    },
+    {
+     "cell": "F6",
+     "formula": 2108.58
+    },
+    {
+     "cell": "G6",
+     "formula": 210.86
+    },
+    {
+     "cell": "H6",
+     "formula": "Platform + processing"
+    },
+    {
+     "cell": "B7",
+     "formula": "=DATE(2027,1,15)"
+    },
+    {
+     "cell": "C7",
+     "formula": "Ad revenue"
+    },
+    {
+     "cell": "D7",
+     "formula": "TikTok"
+    },
+    {
+     "cell": "E7",
+     "formula": "Creator rewards"
+    },
+    {
+     "cell": "F7",
+     "formula": 227.34
+    },
+    {
+     "cell": "B8",
+     "formula": "=DATE(2027,1,21)"
+    },
+    {
+     "cell": "C8",
+     "formula": "Ad revenue"
+    },
+    {
+     "cell": "D8",
+     "formula": "YouTube"
+    },
+    {
+     "cell": "E8",
+     "formula": "AdSense"
+    },
+    {
+     "cell": "F8",
+     "formula": 980.12
+    },
+    {
+     "cell": "B9",
+     "formula": "=DATE(2027,1,28)"
+    },
+    {
+     "cell": "C9",
+     "formula": "Affiliate"
+    },
+    {
+     "cell": "D9",
+     "formula": "YouTube"
+    },
+    {
+     "cell": "E9",
+     "formula": "Amazon Associates"
+    },
+    {
+     "cell": "F9",
+     "formula": 442.07
+    },
+    {
+     "cell": "B10",
+     "formula": "=DATE(2027,2,1)"
+    },
+    {
+     "cell": "C10",
+     "formula": "Memberships"
+    },
+    {
+     "cell": "D10",
+     "formula": "Patreon"
+    },
+    {
+     "cell": "E10",
+     "formula": "Patreon payout"
+    },
+    {
+     "cell": "F10",
+     "formula": 1996.39
+    },
+    {
+     "cell": "G10",
+     "formula": 199.64
+    },
+    {
+     "cell": "H10",
+     "formula": "Platform + processing"
+    },
+    {
+     "cell": "B11",
+     "formula": "=DATE(2027,2,14)"
+    },
+    {
+     "cell": "C11",
+     "formula": "Merch"
+    },
+    {
+     "cell": "D11",
+     "formula": "Instagram"
+    },
+    {
+     "cell": "E11",
+     "formula": "Spring drop"
+    },
+    {
+     "cell": "F11",
+     "formula": 2840
+    },
+    {
+     "cell": "G11",
+     "formula": 1190
+    },
+    {
+     "cell": "H11",
+     "formula": "Printing + shipping"
+    },
+    {
+     "cell": "B12",
+     "formula": "=DATE(2027,2,15)"
+    },
+    {
+     "cell": "C12",
+     "formula": "Ad revenue"
+    },
+    {
+     "cell": "D12",
+     "formula": "TikTok"
+    },
+    {
+     "cell": "E12",
+     "formula": "Creator rewards"
+    },
+    {
+     "cell": "F12",
+     "formula": 223.7
+    },
+    {
+     "cell": "B13",
+     "formula": "=DATE(2027,2,21)"
+    },
+    {
+     "cell": "C13",
+     "formula": "Ad revenue"
+    },
+    {
+     "cell": "D13",
+     "formula": "YouTube"
+    },
+    {
+     "cell": "E13",
+     "formula": "AdSense"
+    },
+    {
+     "cell": "F13",
+     "formula": 1302.58
+    },
+    {
+     "cell": "B14",
+     "formula": "=DATE(2027,2,28)"
+    },
+    {
+     "cell": "C14",
+     "formula": "Affiliate"
+    },
+    {
+     "cell": "D14",
+     "formula": "YouTube"
+    },
+    {
+     "cell": "E14",
+     "formula": "Amazon Associates"
+    },
+    {
+     "cell": "F14",
+     "formula": 452.01
+    },
+    {
+     "cell": "B15",
+     "formula": "=DATE(2027,3,1)"
+    },
+    {
+     "cell": "C15",
+     "formula": "Memberships"
+    },
+    {
+     "cell": "D15",
+     "formula": "Patreon"
+    },
+    {
+     "cell": "E15",
+     "formula": "Patreon payout"
+    },
+    {
+     "cell": "F15",
+     "formula": 2256.43
+    },
+    {
+     "cell": "G15",
+     "formula": 225.64
+    },
+    {
+     "cell": "H15",
+     "formula": "Platform + processing"
+    },
+    {
+     "cell": "B16",
+     "formula": "=DATE(2027,3,3)"
+    },
+    {
+     "cell": "C16",
+     "formula": "Digital products"
+    },
+    {
+     "cell": "D16",
+     "formula": "Newsletter"
+    },
+    {
+     "cell": "E16",
+     "formula": "Preset pack"
+    },
+    {
+     "cell": "F16",
+     "formula": 1260
+    },
+    {
+     "cell": "G16",
+     "formula": 96
+    },
+    {
+     "cell": "H16",
+     "formula": "Gumroad fee"
+    },
+    {
+     "cell": "B17",
+     "formula": "=DATE(2027,3,15)"
+    },
+    {
+     "cell": "C17",
+     "formula": "Ad revenue"
+    },
+    {
+     "cell": "D17",
+     "formula": "TikTok"
+    },
+    {
+     "cell": "E17",
+     "formula": "Creator rewards"
+    },
+    {
+     "cell": "F17",
+     "formula": 227.51
+    },
+    {
+     "cell": "B18",
+     "formula": "=DATE(2027,3,21)"
+    },
+    {
+     "cell": "C18",
+     "formula": "Ad revenue"
+    },
+    {
+     "cell": "D18",
+     "formula": "YouTube"
+    },
+    {
+     "cell": "E18",
+     "formula": "AdSense"
+    },
+    {
+     "cell": "F18",
+     "formula": 944.08
+    },
+    {
+     "cell": "B19",
+     "formula": "=DATE(2027,3,28)"
+    },
+    {
+     "cell": "C19",
+     "formula": "Affiliate"
+    },
+    {
+     "cell": "D19",
+     "formula": "YouTube"
+    },
+    {
+     "cell": "E19",
+     "formula": "Amazon Associates"
+    },
+    {
+     "cell": "F19",
+     "formula": 196.28
+    },
+    {
+     "cell": "B20",
+     "formula": "=DATE(2027,4,1)"
+    },
+    {
+     "cell": "C20",
+     "formula": "Memberships"
+    },
+    {
+     "cell": "D20",
+     "formula": "Patreon"
+    },
+    {
+     "cell": "E20",
+     "formula": "Patreon payout"
+    },
+    {
+     "cell": "F20",
+     "formula": 2149.21
+    },
+    {
+     "cell": "G20",
+     "formula": 214.92
+    },
+    {
+     "cell": "H20",
+     "formula": "Platform + processing"
+    },
+    {
+     "cell": "B21",
+     "formula": "=DATE(2027,4,15)"
+    },
+    {
+     "cell": "C21",
+     "formula": "Ad revenue"
+    },
+    {
+     "cell": "D21",
+     "formula": "TikTok"
+    },
+    {
+     "cell": "E21",
+     "formula": "Creator rewards"
+    },
+    {
+     "cell": "F21",
+     "formula": 207.01
+    },
+    {
+     "cell": "B22",
+     "formula": "=DATE(2027,4,21)"
+    },
+    {
+     "cell": "C22",
+     "formula": "Ad revenue"
+    },
+    {
+     "cell": "D22",
+     "formula": "YouTube"
+    },
+    {
+     "cell": "E22",
+     "formula": "AdSense"
+    },
+    {
+     "cell": "F22",
+     "formula": 1420.89
+    },
+    {
+     "cell": "B23",
+     "formula": "=DATE(2027,4,22)"
+    },
+    {
+     "cell": "C23",
+     "formula": "Licensing"
+    },
+    {
+     "cell": "D23",
+     "formula": "TikTok"
+    },
+    {
+     "cell": "E23",
+     "formula": "Clip license"
+    },
+    {
+     "cell": "F23",
+     "formula": 450
+    },
+    {
+     "cell": "B24",
+     "formula": "=DATE(2027,4,28)"
+    },
+    {
+     "cell": "C24",
+     "formula": "Affiliate"
+    },
+    {
+     "cell": "D24",
+     "formula": "YouTube"
+    },
+    {
+     "cell": "E24",
+     "formula": "Amazon Associates"
+    },
+    {
+     "cell": "F24",
+     "formula": 285.2
+    },
+    {
+     "cell": "B25",
+     "formula": "=DATE(2027,5,1)"
+    },
+    {
+     "cell": "C25",
+     "formula": "Memberships"
+    },
+    {
+     "cell": "D25",
+     "formula": "Patreon"
+    },
+    {
+     "cell": "E25",
+     "formula": "Patreon payout"
+    },
+    {
+     "cell": "F25",
+     "formula": 1875.55
+    },
+    {
+     "cell": "G25",
+     "formula": 187.56
+    },
+    {
+     "cell": "H25",
+     "formula": "Platform + processing"
+    },
+    {
+     "cell": "B26",
+     "formula": "=DATE(2027,5,9)"
+    },
+    {
+     "cell": "C26",
+     "formula": "Tips & gifts"
+    },
+    {
+     "cell": "D26",
+     "formula": "TikTok"
+    },
+    {
+     "cell": "E26",
+     "formula": "LIVE gifts"
+    },
+    {
+     "cell": "F26",
+     "formula": 310
+    },
+    {
+     "cell": "B27",
+     "formula": "=DATE(2027,5,15)"
+    },
+    {
+     "cell": "C27",
+     "formula": "Ad revenue"
+    },
+    {
+     "cell": "D27",
+     "formula": "TikTok"
+    },
+    {
+     "cell": "E27",
+     "formula": "Creator rewards"
+    },
+    {
+     "cell": "F27",
+     "formula": 180.34
+    },
+    {
+     "cell": "B28",
+     "formula": "=DATE(2027,5,21)"
+    },
+    {
+     "cell": "C28",
+     "formula": "Ad revenue"
+    },
+    {
+     "cell": "D28",
+     "formula": "YouTube"
+    },
+    {
+     "cell": "E28",
+     "formula": "AdSense"
+    },
+    {
+     "cell": "F28",
+     "formula": 1012.13
+    },
+    {
+     "cell": "B29",
+     "formula": "=DATE(2027,5,28)"
+    },
+    {
+     "cell": "C29",
+     "formula": "Affiliate"
+    },
+    {
+     "cell": "D29",
+     "formula": "YouTube"
+    },
+    {
+     "cell": "E29",
+     "formula": "Amazon Associates"
+    },
+    {
+     "cell": "F29",
+     "formula": 244.12
+    },
+    {
+     "cell": "B30",
+     "formula": "=DATE(2027,6,1)"
+    },
+    {
+     "cell": "C30",
+     "formula": "Memberships"
+    },
+    {
+     "cell": "D30",
+     "formula": "Patreon"
+    },
+    {
+     "cell": "E30",
+     "formula": "Patreon payout"
+    },
+    {
+     "cell": "F30",
+     "formula": 2271.47
+    },
+    {
+     "cell": "G30",
+     "formula": 227.15
+    },
+    {
+     "cell": "H30",
+     "formula": "Platform + processing"
+    },
+    {
+     "cell": "B31",
+     "formula": "=DATE(2027,6,2)"
+    },
+    {
+     "cell": "C31",
+     "formula": "Digital products"
+    },
+    {
+     "cell": "D31",
+     "formula": "Newsletter"
+    },
+    {
+     "cell": "E31",
+     "formula": "Mini course"
+    },
+    {
+     "cell": "F31",
+     "formula": 2100
+    },
+    {
+     "cell": "G31",
+     "formula": 168
+    },
+    {
+     "cell": "H31",
+     "formula": "Platform fee"
+    },
+    {
+     "cell": "B32",
+     "formula": "=DATE(2027,6,15)"
+    },
+    {
+     "cell": "C32",
+     "formula": "Ad revenue"
+    },
+    {
+     "cell": "D32",
+     "formula": "TikTok"
+    },
+    {
+     "cell": "E32",
+     "formula": "Creator rewards"
+    },
+    {
+     "cell": "F32",
+     "formula": 313.76
+    },
+    {
+     "cell": "B33",
+     "formula": "=DATE(2027,6,21)"
+    },
+    {
+     "cell": "C33",
+     "formula": "Ad revenue"
+    },
+    {
+     "cell": "D33",
+     "formula": "YouTube"
+    },
+    {
+     "cell": "E33",
+     "formula": "AdSense"
+    },
+    {
+     "cell": "F33",
+     "formula": 1244.48
+    },
+    {
+     "cell": "B34",
+     "formula": "=DATE(2027,6,28)"
+    },
+    {
+     "cell": "C34",
+     "formula": "Affiliate"
+    },
+    {
+     "cell": "D34",
+     "formula": "YouTube"
+    },
+    {
+     "cell": "E34",
+     "formula": "Amazon Associates"
+    },
+    {
+     "cell": "F34",
+     "formula": 251.68
+    },
+    {
+     "col": "R",
+     "range_rows": [
+      6,
+      805
+     ],
+     "formula": "=IF(TRIM(C{row}&\"\")=\"\",8,IFERROR(MATCH(LOWER(TRIM(C{row}&\"\")),{\"ad revenue\",\"affiliate\",\"memberships\",\"tips & gifts\",\"merch\",\"digital products\",\"licensing\",\"other\"},0),8))"
+    },
+    {
+     "col": "S",
+     "range_rows": [
+      6,
+      805
+     ],
+     "formula": "=IF(TRIM(D{row}&\"\")=\"\",0,IFERROR(MATCH(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(LOWER(TRIM(D{row}&\"\")),\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"),'Platforms'!$R$6:$R$15,0),0))"
+    },
+    {
+     "col": "V",
+     "range_rows": [
+      6,
+      805
+     ],
+     "formula": "=IF(AND(ISNUMBER(B{row}),N(B{row})>=1,ISNUMBER(F{row})),1,0)"
+    },
+    {
+     "col": "I",
+     "range_rows": [
+      6,
+      805
+     ],
+     "formula": "=IF(V{row}=0,\"\",ROUND(F{row}-N(G{row}),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "T",
+     "range_rows": [
+      6,
+      805
+     ],
+     "formula": "=IF(V{row}=0,0,IF(YEAR(B{row})='Setup'!$R$4,MONTH(B{row}),0))"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "B6:H805",
+     "type": "formula",
+     "formula": [
+      "AND($V6=0,OR(TRIM($B6&\"\")<>\"\",TRIM($F6&\"\")<>\"\"))"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "D6:D805",
+     "type": "formula",
+     "formula": [
+      "AND(TRIM($D6&\"\")<>\"\",$S6=0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "F6:G805",
+     "type": "formula",
+     "formula": [
+      "OR(AND(F6<>\"\",NOT(ISNUMBER(F6))),N(F6)<0)"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B5:I5",
+     "color": "241B3A"
+    },
+    {
+     "range": "I6:I805",
+     "color": "F7F6FC"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:I805",
+     "color": "DCD6EE"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "241B3A"
+    },
+    {
+     "range": "B5:I5",
+     "wrap": true,
+     "bold": true,
+     "size": 9,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "B6:D805",
+     "align": "center"
+    },
+    {
+     "range": "F6:G805",
+     "align": "center"
+    },
+    {
+     "range": "I6:I805",
+     "bold": true,
+     "size": 10,
+     "color": "13B5C9",
+     "align": "center"
+    }
+   ],
+   "validations": [
+    {
+     "range": "C6:C805",
+     "type": "list",
+     "values": [
+      "Ad revenue",
+      "Affiliate",
+      "Memberships",
+      "Tips & gifts",
+      "Merch",
+      "Digital products",
+      "Licensing",
+      "Other"
+     ],
+     "strict": false
+    },
+    {
+     "range": "D6:D805",
+     "type": "list_range",
+     "source": "'Platforms'!$B$6:$B$15",
+     "strict": false
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "B6:B805",
+     "format": "mmm d, yyyy"
+    },
+    {
+     "range": "F6:G805",
+     "format": "$#,##0.00"
+    }
+   ],
+   "row_heights": {
+    "5": 30
+   }
+  },
+  {
+   "name": "Brand Deals",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "F2456E",
+   "grid_rows": 157,
+   "grid_cols": 24,
+   "freeze": "C6",
+   "column_widths": {
+    "A": 2.5,
+    "B": 18,
+    "C": 12,
+    "D": 22,
+    "E": 10,
+    "F": 8,
+    "G": 12,
+    "H": 12,
+    "I": 12,
+    "J": 11,
+    "K": 18,
+    "L": 2.5,
+    "S": 3,
+    "T": 3,
+    "U": 3,
+    "V": 3,
+    "W": 3
+   },
+   "hidden_columns": [
+    "S",
+    "T",
+    "U",
+    "V",
+    "W"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:K2",
+     "label": "BRAND DEALS",
+     "size": 16,
+     "color": "241B3A",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Your sponsorship pipeline. A deal counts as income once it has a Paid on date."
+    },
+    {
+     "cell": "B5",
+     "formula": "Brand"
+    },
+    {
+     "cell": "C5",
+     "formula": "Platform"
+    },
+    {
+     "cell": "D5",
+     "formula": "Deliverables"
+    },
+    {
+     "cell": "E5",
+     "formula": "Rate"
+    },
+    {
+     "cell": "F5",
+     "formula": "Agency %"
+    },
+    {
+     "cell": "G5",
+     "formula": "Status"
+    },
+    {
+     "cell": "H5",
+     "formula": "Content due"
+    },
+    {
+     "cell": "I5",
+     "formula": "Paid on"
+    },
+    {
+     "cell": "J5",
+     "formula": "Your take"
+    },
+    {
+     "cell": "K5",
+     "formula": "Next step"
+    },
+    {
+     "cell": "B6",
+     "formula": "Glow Skincare"
+    },
+    {
+     "cell": "C6",
+     "formula": "Instagram"
+    },
+    {
+     "cell": "D6",
+     "formula": "1 Reel + 3 Stories"
+    },
+    {
+     "cell": "E6",
+     "formula": 1800
+    },
+    {
+     "cell": "G6",
+     "formula": "Paid"
+    },
+    {
+     "cell": "H6",
+     "formula": "=DATE(2027,1,20)"
+    },
+    {
+     "cell": "I6",
+     "formula": "=DATE(2027,2,18)"
+    },
+    {
+     "cell": "B7",
+     "formula": "NordPeak VPN"
+    },
+    {
+     "cell": "C7",
+     "formula": "YouTube"
+    },
+    {
+     "cell": "D7",
+     "formula": "60s integration"
+    },
+    {
+     "cell": "E7",
+     "formula": 3200
+    },
+    {
+     "cell": "F7",
+     "formula": 15
+    },
+    {
+     "cell": "G7",
+     "formula": "Paid"
+    },
+    {
+     "cell": "H7",
+     "formula": "=DATE(2027,2,10)"
+    },
+    {
+     "cell": "I7",
+     "formula": "=DATE(2027,3,12)"
+    },
+    {
+     "cell": "B8",
+     "formula": "Brew & Co"
+    },
+    {
+     "cell": "C8",
+     "formula": "TikTok"
+    },
+    {
+     "cell": "D8",
+     "formula": "2 videos"
+    },
+    {
+     "cell": "E8",
+     "formula": 2400
+    },
+    {
+     "cell": "G8",
+     "formula": "Paid"
+    },
+    {
+     "cell": "H8",
+     "formula": "=DATE(2027,3,15)"
+    },
+    {
+     "cell": "I8",
+     "formula": "=DATE(2027,4,20)"
+    },
+    {
+     "cell": "B9",
+     "formula": "Fitly App"
+    },
+    {
+     "cell": "C9",
+     "formula": "YouTube"
+    },
+    {
+     "cell": "D9",
+     "formula": "Dedicated video"
+    },
+    {
+     "cell": "E9",
+     "formula": 5500
+    },
+    {
+     "cell": "F9",
+     "formula": 15
+    },
+    {
+     "cell": "G9",
+     "formula": "Paid"
+    },
+    {
+     "cell": "H9",
+     "formula": "=DATE(2027,4,25)"
+    },
+    {
+     "cell": "I9",
+     "formula": "=DATE(2027,5,30)"
+    },
+    {
+     "cell": "B10",
+     "formula": "Sunny Snacks"
+    },
+    {
+     "cell": "C10",
+     "formula": "TikTok"
+    },
+    {
+     "cell": "D10",
+     "formula": "3 videos"
+    },
+    {
+     "cell": "E10",
+     "formula": 3000
+    },
+    {
+     "cell": "G10",
+     "formula": "Delivered"
+    },
+    {
+     "cell": "H10",
+     "formula": "=DATE(2027,5,20)"
+    },
+    {
+     "cell": "B11",
+     "formula": "Pixel Cam"
+    },
+    {
+     "cell": "C11",
+     "formula": "YouTube"
+    },
+    {
+     "cell": "D11",
+     "formula": "Review video"
+    },
+    {
+     "cell": "E11",
+     "formula": 4200
+    },
+    {
+     "cell": "F11",
+     "formula": 15
+    },
+    {
+     "cell": "G11",
+     "formula": "Signed"
+    },
+    {
+     "cell": "H11",
+     "formula": "=DATE(2027,6,15)"
+    },
+    {
+     "cell": "B12",
+     "formula": "Moss Home"
+    },
+    {
+     "cell": "C12",
+     "formula": "Instagram"
+    },
+    {
+     "cell": "D12",
+     "formula": "Carousel + Reel"
+    },
+    {
+     "cell": "E12",
+     "formula": 1500
+    },
+    {
+     "cell": "G12",
+     "formula": "Signed"
+    },
+    {
+     "cell": "H12",
+     "formula": "=DATE(2027,7,10)"
+    },
+    {
+     "cell": "B13",
+     "formula": "Trail Co"
+    },
+    {
+     "cell": "C13",
+     "formula": "Newsletter"
+    },
+    {
+     "cell": "D13",
+     "formula": "2 sponsored issues"
+    },
+    {
+     "cell": "E13",
+     "formula": 1200
+    },
+    {
+     "cell": "G13",
+     "formula": "Negotiating"
+    },
+    {
+     "cell": "B14",
+     "formula": "BeatBox Audio"
+    },
+    {
+     "cell": "C14",
+     "formula": "YouTube"
+    },
+    {
+     "cell": "D14",
+     "formula": "Integration"
+    },
+    {
+     "cell": "E14",
+     "formula": 3500
+    },
+    {
+     "cell": "F14",
+     "formula": 15
+    },
+    {
+     "cell": "G14",
+     "formula": "Pitched"
+    },
+    {
+     "cell": "B15",
+     "formula": "Luxe Bags"
+    },
+    {
+     "cell": "C15",
+     "formula": "Instagram"
+    },
+    {
+     "cell": "D15",
+     "formula": "1 Reel"
+    },
+    {
+     "cell": "E15",
+     "formula": 900
+    },
+    {
+     "cell": "G15",
+     "formula": "Lost"
+    },
+    {
+     "col": "S",
+     "range_rows": [
+      6,
+      155
+     ],
+     "formula": "=IF(TRIM(C{row}&\"\")=\"\",0,IFERROR(MATCH(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(LOWER(TRIM(C{row}&\"\")),\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"),'Platforms'!$R$6:$R$15,0),0))"
+    },
+    {
+     "col": "T",
+     "range_rows": [
+      6,
+      155
+     ],
+     "formula": "=IF(AND(ISNUMBER(I{row}),N(I{row})>=1),5,IF(TRIM(G{row}&\"\")=\"\",1,IFERROR(MATCH(LOWER(TRIM(G{row}&\"\")),{\"pitched\",\"negotiating\",\"signed\",\"delivered\",\"paid\",\"lost\"},0),1)))"
+    },
+    {
+     "col": "J",
+     "range_rows": [
+      6,
+      155
+     ],
+     "formula": "=IF(OR(TRIM(B{row}&\"\")=\"\",NOT(ISNUMBER(E{row}))),\"\",ROUND(E{row}*(1-IF(TRIM(F{row}&\"\")=\"\",0,MIN(1,MAX(0,IF(N(F{row})>=1,N(F{row})/100,N(F{row})))))),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "U",
+     "range_rows": [
+      6,
+      155
+     ],
+     "formula": "=IF(AND(ISNUMBER(J{row}),AND(ISNUMBER(I{row}),N(I{row})>=1)),IF(YEAR(I{row})='Setup'!$R$4,MONTH(I{row}),0),0)"
+    },
+    {
+     "col": "V",
+     "range_rows": [
+      6,
+      155
+     ],
+     "formula": "=IF(AND(ISNUMBER(J{row}),OR(T{row}=3,T{row}=4)),J{row},0)"
+    },
+    {
+     "col": "W",
+     "range_rows": [
+      6,
+      155
+     ],
+     "formula": "=IF(AND(ISNUMBER(J{row}),T{row}=5),E{row},\"\")"
+    },
+    {
+     "col": "K",
+     "range_rows": [
+      6,
+      155
+     ],
+     "formula": "=IF(TRIM(B{row}&\"\")=\"\",\"\",IF(T{row}=5,IF(AND(ISNUMBER(I{row}),N(I{row})>=1),\"Paid\",\"Add paid date\"),IF(T{row}=6,\"Closed\",IF(T{row}=4,\"Waiting for payment\",IF(T{row}=3,IF(NOT(ISNUMBER(H{row})),\"Set a due date\",IF(H{row}<'Setup'!$R$5,\"Content overdue\",IF(H{row}='Setup'!$R$5,\"Due today\",\"Due in \"&(H{row}-'Setup'!$R$5)&\" days\"))),\"Follow up\")))))"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "K6:K155",
+     "type": "formula",
+     "formula": [
+      "$K6=\"Paid\""
+     ],
+     "fill": "D7EFDD"
+    },
+    {
+     "range": "K6:K155",
+     "type": "formula",
+     "formula": [
+      "$K6=\"Content overdue\""
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "K6:K155",
+     "type": "formula",
+     "formula": [
+      "$K6=\"Add paid date\""
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "K6:K155",
+     "type": "formula",
+     "formula": [
+      "$K6=\"Waiting for payment\""
+     ],
+     "fill": "FEF2D9"
+    },
+    {
+     "range": "K6:K155",
+     "type": "formula",
+     "formula": [
+      "$K6=\"Follow up\""
+     ],
+     "fill": "DDF5F8"
+    },
+    {
+     "range": "G6:G155",
+     "type": "formula",
+     "formula": [
+      "$G6=\"Lost\""
+     ],
+     "fill": "EEEEEE"
+    },
+    {
+     "range": "E6:F155",
+     "type": "formula",
+     "formula": [
+      "OR(AND(E6<>\"\",NOT(ISNUMBER(E6))),N(E6)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "H6:I155",
+     "type": "formula",
+     "formula": [
+      "AND(H6<>\"\",OR(NOT(ISNUMBER(H6)),N(H6)<1))"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B5:K5",
+     "color": "241B3A"
+    },
+    {
+     "range": "J6:K155",
+     "color": "F7F6FC"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:K155",
+     "color": "DCD6EE"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "241B3A"
+    },
+    {
+     "range": "B5:K5",
+     "wrap": true,
+     "bold": true,
+     "size": 9,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "B6:B155",
+     "bold": true,
+     "size": 10,
+     "color": "241B3A"
+    },
+    {
+     "range": "C6:C155",
+     "align": "center"
+    },
+    {
+     "range": "E6:K155",
+     "align": "center"
+    },
+    {
+     "range": "J6:J155",
+     "bold": true,
+     "size": 10,
+     "color": "F2456E",
+     "align": "center"
+    },
+    {
+     "range": "K6:K155",
+     "bold": true,
+     "size": 10,
+     "color": "241B3A",
+     "align": "center"
+    }
+   ],
+   "validations": [
+    {
+     "range": "C6:C155",
+     "type": "list_range",
+     "source": "'Platforms'!$B$6:$B$15",
+     "strict": false
+    },
+    {
+     "range": "G6:G155",
+     "type": "list",
+     "values": [
+      "Pitched",
+      "Negotiating",
+      "Signed",
+      "Delivered",
+      "Paid",
+      "Lost"
+     ],
+     "strict": false
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "E6:E155",
+     "format": "$#,##0.00"
+    },
+    {
+     "range": "F6:F155",
+     "format": "0.##"
+    },
+    {
+     "range": "H6:I155",
+     "format": "mmm d, yyyy"
+    }
+   ],
+   "row_heights": {
+    "5": 30
+   }
+  },
+  {
+   "name": "Expenses",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "F7B32B",
+   "grid_rows": 307,
+   "grid_cols": 19,
+   "freeze": "A6",
+   "column_widths": {
+    "A": 2.5,
+    "B": 12,
+    "C": 17,
+    "D": 26,
+    "E": 11,
+    "F": 3,
+    "G": 18,
+    "H": 13,
+    "I": 2.5,
+    "R": 3
+   },
+   "hidden_columns": [
+    "R"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:H2",
+     "label": "EXPENSES",
+     "size": 16,
+     "color": "241B3A",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "What it costs to create: gear, apps, editors, travel, promotion."
+    },
+    {
+     "cell": "B5",
+     "formula": "Date"
+    },
+    {
+     "cell": "C5",
+     "formula": "Category"
+    },
+    {
+     "cell": "D5",
+     "formula": "What"
+    },
+    {
+     "cell": "E5",
+     "formula": "Amount"
+    },
+    {
+     "cell": "B6",
+     "formula": "=DATE(2027,1,3)"
+    },
+    {
+     "cell": "C6",
+     "formula": "Software & apps"
+    },
+    {
+     "cell": "D6",
+     "formula": "Editing + design apps"
+    },
+    {
+     "cell": "E6",
+     "formula": 54.99
+    },
+    {
+     "cell": "B7",
+     "formula": "=DATE(2027,1,10)"
+    },
+    {
+     "cell": "C7",
+     "formula": "Editing help"
+    },
+    {
+     "cell": "D7",
+     "formula": "Freelance editor"
+    },
+    {
+     "cell": "E7",
+     "formula": 600
+    },
+    {
+     "cell": "B8",
+     "formula": "=DATE(2027,1,18)"
+    },
+    {
+     "cell": "C8",
+     "formula": "Camera & gear"
+    },
+    {
+     "cell": "D8",
+     "formula": "Mirrorless camera"
+    },
+    {
+     "cell": "E8",
+     "formula": 1899
+    },
+    {
+     "cell": "B9",
+     "formula": "=DATE(2027,2,3)"
+    },
+    {
+     "cell": "C9",
+     "formula": "Software & apps"
+    },
+    {
+     "cell": "D9",
+     "formula": "Editing + design apps"
+    },
+    {
+     "cell": "E9",
+     "formula": 54.99
+    },
+    {
+     "cell": "B10",
+     "formula": "=DATE(2027,2,6)"
+    },
+    {
+     "cell": "C10",
+     "formula": "Camera & gear"
+    },
+    {
+     "cell": "D10",
+     "formula": "Lights"
+    },
+    {
+     "cell": "E10",
+     "formula": 249
+    },
+    {
+     "cell": "B11",
+     "formula": "=DATE(2027,2,10)"
+    },
+    {
+     "cell": "C11",
+     "formula": "Editing help"
+    },
+    {
+     "cell": "D11",
+     "formula": "Freelance editor"
+    },
+    {
+     "cell": "E11",
+     "formula": 600
+    },
+    {
+     "cell": "B12",
+     "formula": "=DATE(2027,3,3)"
+    },
+    {
+     "cell": "C12",
+     "formula": "Software & apps"
+    },
+    {
+     "cell": "D12",
+     "formula": "Editing + design apps"
+    },
+    {
+     "cell": "E12",
+     "formula": 54.99
+    },
+    {
+     "cell": "B13",
+     "formula": "=DATE(2027,3,10)"
+    },
+    {
+     "cell": "C13",
+     "formula": "Editing help"
+    },
+    {
+     "cell": "D13",
+     "formula": "Freelance editor"
+    },
+    {
+     "cell": "E13",
+     "formula": 600
+    },
+    {
+     "cell": "B14",
+     "formula": "=DATE(2027,3,20)"
+    },
+    {
+     "cell": "C14",
+     "formula": "Props & sets"
+    },
+    {
+     "cell": "D14",
+     "formula": "Backdrop + props"
+    },
+    {
+     "cell": "E14",
+     "formula": 186
+    },
+    {
+     "cell": "B15",
+     "formula": "=DATE(2027,4,3)"
+    },
+    {
+     "cell": "C15",
+     "formula": "Software & apps"
+    },
+    {
+     "cell": "D15",
+     "formula": "Editing + design apps"
+    },
+    {
+     "cell": "E15",
+     "formula": 54.99
+    },
+    {
+     "cell": "B16",
+     "formula": "=DATE(2027,4,10)"
+    },
+    {
+     "cell": "C16",
+     "formula": "Editing help"
+    },
+    {
+     "cell": "D16",
+     "formula": "Freelance editor"
+    },
+    {
+     "cell": "E16",
+     "formula": 600
+    },
+    {
+     "cell": "B17",
+     "formula": "=DATE(2027,4,11)"
+    },
+    {
+     "cell": "C17",
+     "formula": "Travel"
+    },
+    {
+     "cell": "D17",
+     "formula": "Creator conference"
+    },
+    {
+     "cell": "E17",
+     "formula": 940
+    },
+    {
+     "cell": "B18",
+     "formula": "=DATE(2027,5,3)"
+    },
+    {
+     "cell": "C18",
+     "formula": "Software & apps"
+    },
+    {
+     "cell": "D18",
+     "formula": "Editing + design apps"
+    },
+    {
+     "cell": "E18",
+     "formula": 54.99
+    },
+    {
+     "cell": "B19",
+     "formula": "=DATE(2027,5,5)"
+    },
+    {
+     "cell": "C19",
+     "formula": "Ads & promotion"
+    },
+    {
+     "cell": "D19",
+     "formula": "Promote course"
+    },
+    {
+     "cell": "E19",
+     "formula": 300
+    },
+    {
+     "cell": "B20",
+     "formula": "=DATE(2027,5,10)"
+    },
+    {
+     "cell": "C20",
+     "formula": "Editing help"
+    },
+    {
+     "cell": "D20",
+     "formula": "Freelance editor"
+    },
+    {
+     "cell": "E20",
+     "formula": 600
+    },
+    {
+     "cell": "B21",
+     "formula": "=DATE(2027,6,3)"
+    },
+    {
+     "cell": "C21",
+     "formula": "Software & apps"
+    },
+    {
+     "cell": "D21",
+     "formula": "Editing + design apps"
+    },
+    {
+     "cell": "E21",
+     "formula": 54.99
+    },
+    {
+     "cell": "B22",
+     "formula": "=DATE(2027,6,8)"
+    },
+    {
+     "cell": "C22",
+     "formula": "Agency & legal"
+    },
+    {
+     "cell": "D22",
+     "formula": "Contract review"
+    },
+    {
+     "cell": "E22",
+     "formula": 250
+    },
+    {
+     "cell": "B23",
+     "formula": "=DATE(2027,6,10)"
+    },
+    {
+     "cell": "C23",
+     "formula": "Editing help"
+    },
+    {
+     "cell": "D23",
+     "formula": "Freelance editor"
+    },
+    {
+     "cell": "E23",
+     "formula": 600
+    },
+    {
+     "col": "R",
+     "range_rows": [
+      6,
+      305
+     ],
+     "formula": "=IF(AND(ISNUMBER(B{row}),N(B{row})>=1,ISNUMBER(E{row})),IF(YEAR(B{row})='Setup'!$R$4,MONTH(B{row}),0),0)"
+    },
+    {
+     "cell": "G5",
+     "formula": "Category"
+    },
+    {
+     "cell": "H5",
+     "formula": "This year"
+    },
+    {
+     "cell": "G6",
+     "formula": "Camera & gear"
+    },
+    {
+     "cell": "H6",
+     "formula": "=ROUND(SUMIFS(E6:E305,R6:R305,\">0\",C6:C305,G6),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G7",
+     "formula": "Software & apps"
+    },
+    {
+     "cell": "H7",
+     "formula": "=ROUND(SUMIFS(E6:E305,R6:R305,\">0\",C6:C305,G7),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G8",
+     "formula": "Editing help"
+    },
+    {
+     "cell": "H8",
+     "formula": "=ROUND(SUMIFS(E6:E305,R6:R305,\">0\",C6:C305,G8),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G9",
+     "formula": "Props & sets"
+    },
+    {
+     "cell": "H9",
+     "formula": "=ROUND(SUMIFS(E6:E305,R6:R305,\">0\",C6:C305,G9),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G10",
+     "formula": "Travel"
+    },
+    {
+     "cell": "H10",
+     "formula": "=ROUND(SUMIFS(E6:E305,R6:R305,\">0\",C6:C305,G10),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G11",
+     "formula": "Ads & promotion"
+    },
+    {
+     "cell": "H11",
+     "formula": "=ROUND(SUMIFS(E6:E305,R6:R305,\">0\",C6:C305,G11),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G12",
+     "formula": "Agency & legal"
+    },
+    {
+     "cell": "H12",
+     "formula": "=ROUND(SUMIFS(E6:E305,R6:R305,\">0\",C6:C305,G12),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G13",
+     "formula": "Education"
+    },
+    {
+     "cell": "H13",
+     "formula": "=ROUND(SUMIFS(E6:E305,R6:R305,\">0\",C6:C305,G13),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G14",
+     "formula": "Other"
+    },
+    {
+     "cell": "H14",
+     "formula": "=ROUND(SUMIFS(E6:E305,R6:R305,\">0\",C6:C305,G14),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G15",
+     "formula": "Total"
+    },
+    {
+     "cell": "H15",
+     "formula": "=ROUND(SUMIFS(E6:E305,R6:R305,\">0\"),2)",
+     "number_format": "$#,##0.00"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "E6:E305",
+     "type": "formula",
+     "formula": [
+      "OR(AND(E6<>\"\",NOT(ISNUMBER(E6))),N(E6)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "B6:B305",
+     "type": "formula",
+     "formula": [
+      "AND(B6<>\"\",OR(NOT(ISNUMBER(B6)),N(B6)<1))"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B5:E5",
+     "color": "241B3A"
+    },
+    {
+     "range": "G5:H5",
+     "color": "241B3A"
+    },
+    {
+     "range": "H6:H15",
+     "color": "F7F6FC"
+    },
+    {
+     "range": "G15:H15",
+     "color": "ECE6FB"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:E305",
+     "color": "DCD6EE"
+    },
+    {
+     "range": "G5:H15",
+     "color": "DCD6EE"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "241B3A"
+    },
+    {
+     "range": "B5:E5",
+     "bold": true,
+     "size": 10,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "G5:H5",
+     "bold": true,
+     "size": 10,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "B6:C305",
+     "align": "center"
+    },
+    {
+     "range": "E6:E305",
+     "align": "center"
+    },
+    {
+     "range": "G6:G15",
+     "bold": true,
+     "size": 10,
+     "color": "241B3A"
+    },
+    {
+     "range": "H6:H15",
+     "align": "center"
+    },
+    {
+     "range": "G15:H15",
+     "bold": true,
+     "size": 10,
+     "color": "241B3A"
+    }
+   ],
+   "validations": [
+    {
+     "range": "C6:C305",
+     "type": "list",
+     "values": [
+      "Camera & gear",
+      "Software & apps",
+      "Editing help",
+      "Props & sets",
+      "Travel",
+      "Ads & promotion",
+      "Agency & legal",
+      "Education",
+      "Other"
+     ],
+     "strict": false
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "B6:B305",
+     "format": "mmm d, yyyy"
+    },
+    {
+     "range": "E6:E305",
+     "format": "$#,##0.00"
+    }
+   ]
+  },
+  {
+   "name": "Monthly",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "6A3FD1",
+   "grid_rows": 30,
+   "grid_cols": 19,
+   "column_widths": {
+    "A": 2.5,
+    "B": 8,
+    "C": 12,
+    "D": 11,
+    "E": 10,
+    "F": 12,
+    "G": 11,
+    "H": 12,
+    "I": 10,
+    "J": 11,
+    "K": 11,
+    "L": 8,
+    "M": 2.5,
+    "R": 4
+   },
+   "hidden_columns": [
+    "R"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:L2",
+     "label": "MONTH BY MONTH",
+     "size": 16,
+     "color": "241B3A",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "=\"Money in and out by month for \"&'Setup'!$R$4&\". Income is after platform fees and agency cuts.\""
+    },
+    {
+     "cell": "B5",
+     "formula": "Month"
+    },
+    {
+     "cell": "C5",
+     "formula": "Sponsorships"
+    },
+    {
+     "cell": "D5",
+     "formula": "Ad revenue"
+    },
+    {
+     "cell": "E5",
+     "formula": "Affiliate"
+    },
+    {
+     "cell": "F5",
+     "formula": "Memberships"
+    },
+    {
+     "cell": "G5",
+     "formula": "Other income"
+    },
+    {
+     "cell": "H5",
+     "formula": "Total income"
+    },
+    {
+     "cell": "I5",
+     "formula": "Expenses"
+    },
+    {
+     "cell": "J5",
+     "formula": "Profit"
+    },
+    {
+     "cell": "K5",
+     "formula": "Tax set-aside"
+    },
+    {
+     "cell": "L5",
+     "formula": "Vs goal"
+    },
+    {
+     "cell": "B6",
+     "formula": "Jan"
+    },
+    {
+     "cell": "C6",
+     "formula": "=ROUND(SUMIFS('Brand Deals'!$J$6:$J$155,'Brand Deals'!$U$6:$U$155,1),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D6",
+     "formula": "=ROUND(SUMIFS('Income'!$I$6:$I$805,'Income'!$T$6:$T$805,1,'Income'!$R$6:$R$805,1),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E6",
+     "formula": "=ROUND(SUMIFS('Income'!$I$6:$I$805,'Income'!$T$6:$T$805,1,'Income'!$R$6:$R$805,2),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F6",
+     "formula": "=ROUND(SUMIFS('Income'!$I$6:$I$805,'Income'!$T$6:$T$805,1,'Income'!$R$6:$R$805,3),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G6",
+     "formula": "=ROUND(SUMIFS('Income'!$I$6:$I$805,'Income'!$T$6:$T$805,1,'Income'!$R$6:$R$805,\">3\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H6",
+     "formula": "=ROUND(SUM(C6:G6),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I6",
+     "formula": "=ROUND(SUMIFS('Expenses'!$E$6:$E$305,'Expenses'!$R$6:$R$305,1),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J6",
+     "formula": "=ROUND(H6-I6,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "K6",
+     "formula": "=ROUND(MAX(0,J6)*'Setup'!$R$8,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L6",
+     "formula": "=IF(OR('Setup'!$R$9=0,1>'Setup'!$R$6),\"\",H6/'Setup'!$R$9)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B7",
+     "formula": "Feb"
+    },
+    {
+     "cell": "C7",
+     "formula": "=ROUND(SUMIFS('Brand Deals'!$J$6:$J$155,'Brand Deals'!$U$6:$U$155,2),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D7",
+     "formula": "=ROUND(SUMIFS('Income'!$I$6:$I$805,'Income'!$T$6:$T$805,2,'Income'!$R$6:$R$805,1),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E7",
+     "formula": "=ROUND(SUMIFS('Income'!$I$6:$I$805,'Income'!$T$6:$T$805,2,'Income'!$R$6:$R$805,2),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F7",
+     "formula": "=ROUND(SUMIFS('Income'!$I$6:$I$805,'Income'!$T$6:$T$805,2,'Income'!$R$6:$R$805,3),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G7",
+     "formula": "=ROUND(SUMIFS('Income'!$I$6:$I$805,'Income'!$T$6:$T$805,2,'Income'!$R$6:$R$805,\">3\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H7",
+     "formula": "=ROUND(SUM(C7:G7),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I7",
+     "formula": "=ROUND(SUMIFS('Expenses'!$E$6:$E$305,'Expenses'!$R$6:$R$305,2),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J7",
+     "formula": "=ROUND(H7-I7,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "K7",
+     "formula": "=ROUND(MAX(0,J7)*'Setup'!$R$8,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L7",
+     "formula": "=IF(OR('Setup'!$R$9=0,2>'Setup'!$R$6),\"\",H7/'Setup'!$R$9)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B8",
+     "formula": "Mar"
+    },
+    {
+     "cell": "C8",
+     "formula": "=ROUND(SUMIFS('Brand Deals'!$J$6:$J$155,'Brand Deals'!$U$6:$U$155,3),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D8",
+     "formula": "=ROUND(SUMIFS('Income'!$I$6:$I$805,'Income'!$T$6:$T$805,3,'Income'!$R$6:$R$805,1),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E8",
+     "formula": "=ROUND(SUMIFS('Income'!$I$6:$I$805,'Income'!$T$6:$T$805,3,'Income'!$R$6:$R$805,2),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F8",
+     "formula": "=ROUND(SUMIFS('Income'!$I$6:$I$805,'Income'!$T$6:$T$805,3,'Income'!$R$6:$R$805,3),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G8",
+     "formula": "=ROUND(SUMIFS('Income'!$I$6:$I$805,'Income'!$T$6:$T$805,3,'Income'!$R$6:$R$805,\">3\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H8",
+     "formula": "=ROUND(SUM(C8:G8),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I8",
+     "formula": "=ROUND(SUMIFS('Expenses'!$E$6:$E$305,'Expenses'!$R$6:$R$305,3),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J8",
+     "formula": "=ROUND(H8-I8,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "K8",
+     "formula": "=ROUND(MAX(0,J8)*'Setup'!$R$8,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L8",
+     "formula": "=IF(OR('Setup'!$R$9=0,3>'Setup'!$R$6),\"\",H8/'Setup'!$R$9)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B9",
+     "formula": "Apr"
+    },
+    {
+     "cell": "C9",
+     "formula": "=ROUND(SUMIFS('Brand Deals'!$J$6:$J$155,'Brand Deals'!$U$6:$U$155,4),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D9",
+     "formula": "=ROUND(SUMIFS('Income'!$I$6:$I$805,'Income'!$T$6:$T$805,4,'Income'!$R$6:$R$805,1),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E9",
+     "formula": "=ROUND(SUMIFS('Income'!$I$6:$I$805,'Income'!$T$6:$T$805,4,'Income'!$R$6:$R$805,2),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F9",
+     "formula": "=ROUND(SUMIFS('Income'!$I$6:$I$805,'Income'!$T$6:$T$805,4,'Income'!$R$6:$R$805,3),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G9",
+     "formula": "=ROUND(SUMIFS('Income'!$I$6:$I$805,'Income'!$T$6:$T$805,4,'Income'!$R$6:$R$805,\">3\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H9",
+     "formula": "=ROUND(SUM(C9:G9),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I9",
+     "formula": "=ROUND(SUMIFS('Expenses'!$E$6:$E$305,'Expenses'!$R$6:$R$305,4),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J9",
+     "formula": "=ROUND(H9-I9,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "K9",
+     "formula": "=ROUND(MAX(0,J9)*'Setup'!$R$8,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L9",
+     "formula": "=IF(OR('Setup'!$R$9=0,4>'Setup'!$R$6),\"\",H9/'Setup'!$R$9)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B10",
+     "formula": "May"
+    },
+    {
+     "cell": "C10",
+     "formula": "=ROUND(SUMIFS('Brand Deals'!$J$6:$J$155,'Brand Deals'!$U$6:$U$155,5),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D10",
+     "formula": "=ROUND(SUMIFS('Income'!$I$6:$I$805,'Income'!$T$6:$T$805,5,'Income'!$R$6:$R$805,1),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E10",
+     "formula": "=ROUND(SUMIFS('Income'!$I$6:$I$805,'Income'!$T$6:$T$805,5,'Income'!$R$6:$R$805,2),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F10",
+     "formula": "=ROUND(SUMIFS('Income'!$I$6:$I$805,'Income'!$T$6:$T$805,5,'Income'!$R$6:$R$805,3),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G10",
+     "formula": "=ROUND(SUMIFS('Income'!$I$6:$I$805,'Income'!$T$6:$T$805,5,'Income'!$R$6:$R$805,\">3\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H10",
+     "formula": "=ROUND(SUM(C10:G10),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I10",
+     "formula": "=ROUND(SUMIFS('Expenses'!$E$6:$E$305,'Expenses'!$R$6:$R$305,5),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J10",
+     "formula": "=ROUND(H10-I10,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "K10",
+     "formula": "=ROUND(MAX(0,J10)*'Setup'!$R$8,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L10",
+     "formula": "=IF(OR('Setup'!$R$9=0,5>'Setup'!$R$6),\"\",H10/'Setup'!$R$9)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B11",
+     "formula": "Jun"
+    },
+    {
+     "cell": "C11",
+     "formula": "=ROUND(SUMIFS('Brand Deals'!$J$6:$J$155,'Brand Deals'!$U$6:$U$155,6),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D11",
+     "formula": "=ROUND(SUMIFS('Income'!$I$6:$I$805,'Income'!$T$6:$T$805,6,'Income'!$R$6:$R$805,1),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E11",
+     "formula": "=ROUND(SUMIFS('Income'!$I$6:$I$805,'Income'!$T$6:$T$805,6,'Income'!$R$6:$R$805,2),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F11",
+     "formula": "=ROUND(SUMIFS('Income'!$I$6:$I$805,'Income'!$T$6:$T$805,6,'Income'!$R$6:$R$805,3),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G11",
+     "formula": "=ROUND(SUMIFS('Income'!$I$6:$I$805,'Income'!$T$6:$T$805,6,'Income'!$R$6:$R$805,\">3\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H11",
+     "formula": "=ROUND(SUM(C11:G11),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I11",
+     "formula": "=ROUND(SUMIFS('Expenses'!$E$6:$E$305,'Expenses'!$R$6:$R$305,6),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J11",
+     "formula": "=ROUND(H11-I11,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "K11",
+     "formula": "=ROUND(MAX(0,J11)*'Setup'!$R$8,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L11",
+     "formula": "=IF(OR('Setup'!$R$9=0,6>'Setup'!$R$6),\"\",H11/'Setup'!$R$9)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B12",
+     "formula": "Jul"
+    },
+    {
+     "cell": "C12",
+     "formula": "=ROUND(SUMIFS('Brand Deals'!$J$6:$J$155,'Brand Deals'!$U$6:$U$155,7),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D12",
+     "formula": "=ROUND(SUMIFS('Income'!$I$6:$I$805,'Income'!$T$6:$T$805,7,'Income'!$R$6:$R$805,1),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E12",
+     "formula": "=ROUND(SUMIFS('Income'!$I$6:$I$805,'Income'!$T$6:$T$805,7,'Income'!$R$6:$R$805,2),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F12",
+     "formula": "=ROUND(SUMIFS('Income'!$I$6:$I$805,'Income'!$T$6:$T$805,7,'Income'!$R$6:$R$805,3),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G12",
+     "formula": "=ROUND(SUMIFS('Income'!$I$6:$I$805,'Income'!$T$6:$T$805,7,'Income'!$R$6:$R$805,\">3\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H12",
+     "formula": "=ROUND(SUM(C12:G12),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I12",
+     "formula": "=ROUND(SUMIFS('Expenses'!$E$6:$E$305,'Expenses'!$R$6:$R$305,7),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J12",
+     "formula": "=ROUND(H12-I12,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "K12",
+     "formula": "=ROUND(MAX(0,J12)*'Setup'!$R$8,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L12",
+     "formula": "=IF(OR('Setup'!$R$9=0,7>'Setup'!$R$6),\"\",H12/'Setup'!$R$9)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B13",
+     "formula": "Aug"
+    },
+    {
+     "cell": "C13",
+     "formula": "=ROUND(SUMIFS('Brand Deals'!$J$6:$J$155,'Brand Deals'!$U$6:$U$155,8),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D13",
+     "formula": "=ROUND(SUMIFS('Income'!$I$6:$I$805,'Income'!$T$6:$T$805,8,'Income'!$R$6:$R$805,1),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E13",
+     "formula": "=ROUND(SUMIFS('Income'!$I$6:$I$805,'Income'!$T$6:$T$805,8,'Income'!$R$6:$R$805,2),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F13",
+     "formula": "=ROUND(SUMIFS('Income'!$I$6:$I$805,'Income'!$T$6:$T$805,8,'Income'!$R$6:$R$805,3),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G13",
+     "formula": "=ROUND(SUMIFS('Income'!$I$6:$I$805,'Income'!$T$6:$T$805,8,'Income'!$R$6:$R$805,\">3\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H13",
+     "formula": "=ROUND(SUM(C13:G13),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I13",
+     "formula": "=ROUND(SUMIFS('Expenses'!$E$6:$E$305,'Expenses'!$R$6:$R$305,8),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J13",
+     "formula": "=ROUND(H13-I13,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "K13",
+     "formula": "=ROUND(MAX(0,J13)*'Setup'!$R$8,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L13",
+     "formula": "=IF(OR('Setup'!$R$9=0,8>'Setup'!$R$6),\"\",H13/'Setup'!$R$9)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B14",
+     "formula": "Sep"
+    },
+    {
+     "cell": "C14",
+     "formula": "=ROUND(SUMIFS('Brand Deals'!$J$6:$J$155,'Brand Deals'!$U$6:$U$155,9),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D14",
+     "formula": "=ROUND(SUMIFS('Income'!$I$6:$I$805,'Income'!$T$6:$T$805,9,'Income'!$R$6:$R$805,1),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E14",
+     "formula": "=ROUND(SUMIFS('Income'!$I$6:$I$805,'Income'!$T$6:$T$805,9,'Income'!$R$6:$R$805,2),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F14",
+     "formula": "=ROUND(SUMIFS('Income'!$I$6:$I$805,'Income'!$T$6:$T$805,9,'Income'!$R$6:$R$805,3),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G14",
+     "formula": "=ROUND(SUMIFS('Income'!$I$6:$I$805,'Income'!$T$6:$T$805,9,'Income'!$R$6:$R$805,\">3\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H14",
+     "formula": "=ROUND(SUM(C14:G14),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I14",
+     "formula": "=ROUND(SUMIFS('Expenses'!$E$6:$E$305,'Expenses'!$R$6:$R$305,9),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J14",
+     "formula": "=ROUND(H14-I14,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "K14",
+     "formula": "=ROUND(MAX(0,J14)*'Setup'!$R$8,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L14",
+     "formula": "=IF(OR('Setup'!$R$9=0,9>'Setup'!$R$6),\"\",H14/'Setup'!$R$9)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B15",
+     "formula": "Oct"
+    },
+    {
+     "cell": "C15",
+     "formula": "=ROUND(SUMIFS('Brand Deals'!$J$6:$J$155,'Brand Deals'!$U$6:$U$155,10),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D15",
+     "formula": "=ROUND(SUMIFS('Income'!$I$6:$I$805,'Income'!$T$6:$T$805,10,'Income'!$R$6:$R$805,1),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E15",
+     "formula": "=ROUND(SUMIFS('Income'!$I$6:$I$805,'Income'!$T$6:$T$805,10,'Income'!$R$6:$R$805,2),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F15",
+     "formula": "=ROUND(SUMIFS('Income'!$I$6:$I$805,'Income'!$T$6:$T$805,10,'Income'!$R$6:$R$805,3),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G15",
+     "formula": "=ROUND(SUMIFS('Income'!$I$6:$I$805,'Income'!$T$6:$T$805,10,'Income'!$R$6:$R$805,\">3\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H15",
+     "formula": "=ROUND(SUM(C15:G15),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I15",
+     "formula": "=ROUND(SUMIFS('Expenses'!$E$6:$E$305,'Expenses'!$R$6:$R$305,10),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J15",
+     "formula": "=ROUND(H15-I15,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "K15",
+     "formula": "=ROUND(MAX(0,J15)*'Setup'!$R$8,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L15",
+     "formula": "=IF(OR('Setup'!$R$9=0,10>'Setup'!$R$6),\"\",H15/'Setup'!$R$9)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B16",
+     "formula": "Nov"
+    },
+    {
+     "cell": "C16",
+     "formula": "=ROUND(SUMIFS('Brand Deals'!$J$6:$J$155,'Brand Deals'!$U$6:$U$155,11),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D16",
+     "formula": "=ROUND(SUMIFS('Income'!$I$6:$I$805,'Income'!$T$6:$T$805,11,'Income'!$R$6:$R$805,1),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E16",
+     "formula": "=ROUND(SUMIFS('Income'!$I$6:$I$805,'Income'!$T$6:$T$805,11,'Income'!$R$6:$R$805,2),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F16",
+     "formula": "=ROUND(SUMIFS('Income'!$I$6:$I$805,'Income'!$T$6:$T$805,11,'Income'!$R$6:$R$805,3),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G16",
+     "formula": "=ROUND(SUMIFS('Income'!$I$6:$I$805,'Income'!$T$6:$T$805,11,'Income'!$R$6:$R$805,\">3\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H16",
+     "formula": "=ROUND(SUM(C16:G16),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I16",
+     "formula": "=ROUND(SUMIFS('Expenses'!$E$6:$E$305,'Expenses'!$R$6:$R$305,11),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J16",
+     "formula": "=ROUND(H16-I16,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "K16",
+     "formula": "=ROUND(MAX(0,J16)*'Setup'!$R$8,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L16",
+     "formula": "=IF(OR('Setup'!$R$9=0,11>'Setup'!$R$6),\"\",H16/'Setup'!$R$9)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B17",
+     "formula": "Dec"
+    },
+    {
+     "cell": "C17",
+     "formula": "=ROUND(SUMIFS('Brand Deals'!$J$6:$J$155,'Brand Deals'!$U$6:$U$155,12),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D17",
+     "formula": "=ROUND(SUMIFS('Income'!$I$6:$I$805,'Income'!$T$6:$T$805,12,'Income'!$R$6:$R$805,1),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E17",
+     "formula": "=ROUND(SUMIFS('Income'!$I$6:$I$805,'Income'!$T$6:$T$805,12,'Income'!$R$6:$R$805,2),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F17",
+     "formula": "=ROUND(SUMIFS('Income'!$I$6:$I$805,'Income'!$T$6:$T$805,12,'Income'!$R$6:$R$805,3),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G17",
+     "formula": "=ROUND(SUMIFS('Income'!$I$6:$I$805,'Income'!$T$6:$T$805,12,'Income'!$R$6:$R$805,\">3\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H17",
+     "formula": "=ROUND(SUM(C17:G17),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I17",
+     "formula": "=ROUND(SUMIFS('Expenses'!$E$6:$E$305,'Expenses'!$R$6:$R$305,12),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J17",
+     "formula": "=ROUND(H17-I17,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "K17",
+     "formula": "=ROUND(MAX(0,J17)*'Setup'!$R$8,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L17",
+     "formula": "=IF(OR('Setup'!$R$9=0,12>'Setup'!$R$6),\"\",H17/'Setup'!$R$9)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B18",
+     "formula": "Year"
+    },
+    {
+     "cell": "C18",
+     "formula": "=ROUND(SUM(C6:C17),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D18",
+     "formula": "=ROUND(SUM(D6:D17),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E18",
+     "formula": "=ROUND(SUM(E6:E17),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F18",
+     "formula": "=ROUND(SUM(F6:F17),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G18",
+     "formula": "=ROUND(SUM(G6:G17),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H18",
+     "formula": "=ROUND(SUM(H6:H17),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I18",
+     "formula": "=ROUND(SUM(I6:I17),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J18",
+     "formula": "=ROUND(SUM(J6:J17),2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "K18",
+     "formula": "=ROUND(SUM(K6:K17),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R4",
+     "formula": "='Setup'!$R$6"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "J6:J18",
+     "type": "formula",
+     "formula": [
+      "J6<0"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "J6:J18",
+     "type": "formula",
+     "formula": [
+      "J6>0"
+     ],
+     "fill": "D7EFDD"
+    },
+    {
+     "range": "L6:L17",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER(L6),L6>=1)"
+     ],
+     "fill": "D7EFDD"
+    },
+    {
+     "range": "B6:B17",
+     "type": "formula",
+     "formula": [
+      "ROW()-5=$R$4"
+     ],
+     "fill": "F7B32B"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B5:L5",
+     "color": "241B3A"
+    },
+    {
+     "range": "B18:L18",
+     "color": "ECE6FB"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:L18",
+     "color": "DCD6EE"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "241B3A"
+    },
+    {
+     "range": "B5:L5",
+     "wrap": true,
+     "bold": true,
+     "size": 9,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "B6:L18",
+     "align": "center"
+    },
+    {
+     "range": "B6:B18",
+     "bold": true,
+     "size": 10,
+     "color": "241B3A",
+     "align": "center"
+    },
+    {
+     "range": "H6:H18",
+     "bold": true,
+     "size": 10,
+     "color": "6A3FD1",
+     "align": "center"
+    },
+    {
+     "range": "J6:J18",
+     "bold": true,
+     "size": 10,
+     "color": "13B5C9",
+     "align": "center"
+    },
+    {
+     "range": "B18:L18",
+     "bold": true,
+     "size": 10,
+     "color": "241B3A",
+     "align": "center"
+    }
+   ],
+   "row_heights": {
+    "5": 30
+   },
+   "charts": [
+    {
+     "type": "bar",
+     "anchor": "B20",
+     "data": "Monthly!C5:G17",
+     "categories": "Monthly!B6:B17",
+     "width": 22,
+     "height": 8,
+     "colors": [
+      "F2456E",
+      "6A3FD1",
+      "13B5C9",
+      "F7B32B",
+      "9B93B8"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Income Mix",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "13B5C9",
+   "grid_rows": 38,
+   "grid_cols": 10,
+   "column_widths": {
+    "A": 2.5,
+    "B": 18,
+    "C": 13,
+    "D": 9,
+    "E": 3,
+    "F": 16,
+    "G": 13,
+    "H": 9,
+    "I": 2.5
+   },
+   "section_bars": [
+    {
+     "range": "B2:H2",
+     "label": "INCOME MIX",
+     "size": 16,
+     "color": "241B3A",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "=\"Where your \"&'Setup'!$R$4&\" income comes from, after fees.\""
+    },
+    {
+     "cell": "B5",
+     "formula": "Income type"
+    },
+    {
+     "cell": "C5",
+     "formula": "This year"
+    },
+    {
+     "cell": "D5",
+     "formula": "Share"
+    },
+    {
+     "cell": "B6",
+     "formula": "Sponsorships"
+    },
+    {
+     "cell": "C6",
+     "formula": "=ROUND(SUMIFS('Brand Deals'!$J$6:$J$155,'Brand Deals'!$U$6:$U$155,\">0\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D6",
+     "formula": "=IF($C$15>0,C6/$C$15,\"\")",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B7",
+     "formula": "Ad revenue"
+    },
+    {
+     "cell": "C7",
+     "formula": "=ROUND(SUMIFS('Income'!$I$6:$I$805,'Income'!$T$6:$T$805,\">0\",'Income'!$R$6:$R$805,1),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D7",
+     "formula": "=IF($C$15>0,C7/$C$15,\"\")",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B8",
+     "formula": "Affiliate"
+    },
+    {
+     "cell": "C8",
+     "formula": "=ROUND(SUMIFS('Income'!$I$6:$I$805,'Income'!$T$6:$T$805,\">0\",'Income'!$R$6:$R$805,2),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D8",
+     "formula": "=IF($C$15>0,C8/$C$15,\"\")",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B9",
+     "formula": "Memberships"
+    },
+    {
+     "cell": "C9",
+     "formula": "=ROUND(SUMIFS('Income'!$I$6:$I$805,'Income'!$T$6:$T$805,\">0\",'Income'!$R$6:$R$805,3),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D9",
+     "formula": "=IF($C$15>0,C9/$C$15,\"\")",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B10",
+     "formula": "Tips & gifts"
+    },
+    {
+     "cell": "C10",
+     "formula": "=ROUND(SUMIFS('Income'!$I$6:$I$805,'Income'!$T$6:$T$805,\">0\",'Income'!$R$6:$R$805,4),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D10",
+     "formula": "=IF($C$15>0,C10/$C$15,\"\")",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B11",
+     "formula": "Merch"
+    },
+    {
+     "cell": "C11",
+     "formula": "=ROUND(SUMIFS('Income'!$I$6:$I$805,'Income'!$T$6:$T$805,\">0\",'Income'!$R$6:$R$805,5),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D11",
+     "formula": "=IF($C$15>0,C11/$C$15,\"\")",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B12",
+     "formula": "Digital products"
+    },
+    {
+     "cell": "C12",
+     "formula": "=ROUND(SUMIFS('Income'!$I$6:$I$805,'Income'!$T$6:$T$805,\">0\",'Income'!$R$6:$R$805,6),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D12",
+     "formula": "=IF($C$15>0,C12/$C$15,\"\")",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B13",
+     "formula": "Licensing"
+    },
+    {
+     "cell": "C13",
+     "formula": "=ROUND(SUMIFS('Income'!$I$6:$I$805,'Income'!$T$6:$T$805,\">0\",'Income'!$R$6:$R$805,7),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D13",
+     "formula": "=IF($C$15>0,C13/$C$15,\"\")",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B14",
+     "formula": "Other"
+    },
+    {
+     "cell": "C14",
+     "formula": "=ROUND(SUMIFS('Income'!$I$6:$I$805,'Income'!$T$6:$T$805,\">0\",'Income'!$R$6:$R$805,8),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D14",
+     "formula": "=IF($C$15>0,C14/$C$15,\"\")",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B15",
+     "formula": "Total"
+    },
+    {
+     "cell": "C15",
+     "formula": "=ROUND(SUM(C6:C14),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F5",
+     "formula": "Platform"
+    },
+    {
+     "cell": "G5",
+     "formula": "This year"
+    },
+    {
+     "cell": "H5",
+     "formula": "Share"
+    },
+    {
+     "cell": "F6",
+     "formula": "=IF(TRIM('Platforms'!B6&\"\")=\"\",\"\",TRIM('Platforms'!B6&\"\"))"
+    },
+    {
+     "cell": "G6",
+     "formula": "=IF(F6=\"\",\"\",N('Platforms'!I6))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H6",
+     "formula": "=IF(OR(F6=\"\",$G$17<=0),\"\",G6/$G$17)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "F7",
+     "formula": "=IF(TRIM('Platforms'!B7&\"\")=\"\",\"\",TRIM('Platforms'!B7&\"\"))"
+    },
+    {
+     "cell": "G7",
+     "formula": "=IF(F7=\"\",\"\",N('Platforms'!I7))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H7",
+     "formula": "=IF(OR(F7=\"\",$G$17<=0),\"\",G7/$G$17)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "F8",
+     "formula": "=IF(TRIM('Platforms'!B8&\"\")=\"\",\"\",TRIM('Platforms'!B8&\"\"))"
+    },
+    {
+     "cell": "G8",
+     "formula": "=IF(F8=\"\",\"\",N('Platforms'!I8))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H8",
+     "formula": "=IF(OR(F8=\"\",$G$17<=0),\"\",G8/$G$17)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "F9",
+     "formula": "=IF(TRIM('Platforms'!B9&\"\")=\"\",\"\",TRIM('Platforms'!B9&\"\"))"
+    },
+    {
+     "cell": "G9",
+     "formula": "=IF(F9=\"\",\"\",N('Platforms'!I9))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H9",
+     "formula": "=IF(OR(F9=\"\",$G$17<=0),\"\",G9/$G$17)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "F10",
+     "formula": "=IF(TRIM('Platforms'!B10&\"\")=\"\",\"\",TRIM('Platforms'!B10&\"\"))"
+    },
+    {
+     "cell": "G10",
+     "formula": "=IF(F10=\"\",\"\",N('Platforms'!I10))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H10",
+     "formula": "=IF(OR(F10=\"\",$G$17<=0),\"\",G10/$G$17)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "F11",
+     "formula": "=IF(TRIM('Platforms'!B11&\"\")=\"\",\"\",TRIM('Platforms'!B11&\"\"))"
+    },
+    {
+     "cell": "G11",
+     "formula": "=IF(F11=\"\",\"\",N('Platforms'!I11))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H11",
+     "formula": "=IF(OR(F11=\"\",$G$17<=0),\"\",G11/$G$17)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "F12",
+     "formula": "=IF(TRIM('Platforms'!B12&\"\")=\"\",\"\",TRIM('Platforms'!B12&\"\"))"
+    },
+    {
+     "cell": "G12",
+     "formula": "=IF(F12=\"\",\"\",N('Platforms'!I12))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H12",
+     "formula": "=IF(OR(F12=\"\",$G$17<=0),\"\",G12/$G$17)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "F13",
+     "formula": "=IF(TRIM('Platforms'!B13&\"\")=\"\",\"\",TRIM('Platforms'!B13&\"\"))"
+    },
+    {
+     "cell": "G13",
+     "formula": "=IF(F13=\"\",\"\",N('Platforms'!I13))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H13",
+     "formula": "=IF(OR(F13=\"\",$G$17<=0),\"\",G13/$G$17)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "F14",
+     "formula": "=IF(TRIM('Platforms'!B14&\"\")=\"\",\"\",TRIM('Platforms'!B14&\"\"))"
+    },
+    {
+     "cell": "G14",
+     "formula": "=IF(F14=\"\",\"\",N('Platforms'!I14))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H14",
+     "formula": "=IF(OR(F14=\"\",$G$17<=0),\"\",G14/$G$17)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "F15",
+     "formula": "=IF(TRIM('Platforms'!B15&\"\")=\"\",\"\",TRIM('Platforms'!B15&\"\"))"
+    },
+    {
+     "cell": "G15",
+     "formula": "=IF(F15=\"\",\"\",N('Platforms'!I15))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H15",
+     "formula": "=IF(OR(F15=\"\",$G$17<=0),\"\",G15/$G$17)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "F16",
+     "formula": "No platform"
+    },
+    {
+     "cell": "G16",
+     "formula": "=ROUND(SUMIFS('Income'!$I$6:$I$805,'Income'!$T$6:$T$805,\">0\",'Income'!$S$6:$S$805,0)+SUMIFS('Brand Deals'!$J$6:$J$155,'Brand Deals'!$U$6:$U$155,\">0\",'Brand Deals'!$S$6:$S$155,0),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H16",
+     "formula": "=IF($G$17<=0,\"\",G16/$G$17)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "F17",
+     "formula": "Total"
+    },
+    {
+     "cell": "G17",
+     "formula": "=ROUND(SUM(G6:G16),2)",
+     "number_format": "$#,##0.00"
+    }
+   ],
+   "conditional_formats": [],
+   "fills": [
+    {
+     "range": "B5:D5",
+     "color": "241B3A"
+    },
+    {
+     "range": "F5:H5",
+     "color": "241B3A"
+    },
+    {
+     "range": "B15:D15",
+     "color": "ECE6FB"
+    },
+    {
+     "range": "F17:H17",
+     "color": "ECE6FB"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:D15",
+     "color": "DCD6EE"
+    },
+    {
+     "range": "F5:H17",
+     "color": "DCD6EE"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "241B3A"
+    },
+    {
+     "range": "B5:D5",
+     "bold": true,
+     "size": 10,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "F5:H5",
+     "bold": true,
+     "size": 10,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "B6:B15",
+     "bold": true,
+     "size": 10,
+     "color": "241B3A"
+    },
+    {
+     "range": "F6:F17",
+     "bold": true,
+     "size": 10,
+     "color": "241B3A"
+    },
+    {
+     "range": "C6:D15",
+     "align": "center"
+    },
+    {
+     "range": "G6:H17",
+     "align": "center"
+    }
+   ],
+   "charts": [
+    {
+     "type": "doughnut",
+     "anchor": "B19",
+     "data": "Income Mix!C6:C14",
+     "categories": "Income Mix!B6:B14",
+     "width": 14,
+     "height": 8,
+     "titles_from_data": false,
+     "colors": [
+      "F2456E",
+      "6A3FD1",
+      "13B5C9",
+      "F7B32B",
+      "9B93B8",
+      "4FD1A5",
+      "F28C38",
+      "C9C3DE",
+      "6B6585"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Rate Card",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "F2456E",
+   "grid_rows": 19,
+   "grid_cols": 11,
+   "column_widths": {
+    "A": 2.5,
+    "B": 16,
+    "C": 12,
+    "D": 11,
+    "E": 12,
+    "F": 12,
+    "G": 13,
+    "H": 10,
+    "I": 10,
+    "J": 13,
+    "K": 2.5
+   },
+   "section_bars": [
+    {
+     "range": "B2:J2",
+     "label": "RATE CARD",
+     "size": 16,
+     "color": "241B3A",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "A starting price for one sponsored post. Suggested = the higher of the two methods. Rates per 1,000 are in Setup."
+    },
+    {
+     "cell": "B5",
+     "formula": "Platform"
+    },
+    {
+     "cell": "C5",
+     "formula": "Followers now"
+    },
+    {
+     "cell": "D5",
+     "formula": "Avg views"
+    },
+    {
+     "cell": "E5",
+     "formula": "By followers"
+    },
+    {
+     "cell": "F5",
+     "formula": "By views"
+    },
+    {
+     "cell": "G5",
+     "formula": "Suggested rate"
+    },
+    {
+     "cell": "H5",
+     "formula": "Low"
+    },
+    {
+     "cell": "I5",
+     "formula": "High"
+    },
+    {
+     "cell": "J5",
+     "formula": "Your avg paid deal"
+    },
+    {
+     "cell": "B6",
+     "formula": "=IF(TRIM('Platforms'!B6&\"\")=\"\",\"\",TRIM('Platforms'!B6&\"\"))"
+    },
+    {
+     "cell": "C6",
+     "formula": "=IF(TRIM('Platforms'!B6&\"\")=\"\",\"\",N('Platforms'!D6))",
+     "number_format": "#,##0"
+    },
+    {
+     "cell": "D6",
+     "formula": "=IF(TRIM('Platforms'!B6&\"\")=\"\",\"\",N('Platforms'!E6))",
+     "number_format": "#,##0"
+    },
+    {
+     "cell": "E6",
+     "formula": "=IF(TRIM('Platforms'!B6&\"\")=\"\",\"\",ROUND(C6/1000*'Setup'!$R$10,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F6",
+     "formula": "=IF(TRIM('Platforms'!B6&\"\")=\"\",\"\",ROUND(D6/1000*'Setup'!$R$11,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G6",
+     "formula": "=IF(TRIM('Platforms'!B6&\"\")=\"\",\"\",MAX(E6,F6))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H6",
+     "formula": "=IF(TRIM('Platforms'!B6&\"\")=\"\",\"\",ROUND(G6*0.8,0))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I6",
+     "formula": "=IF(TRIM('Platforms'!B6&\"\")=\"\",\"\",ROUND(G6*1.25,0))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J6",
+     "formula": "=IF(TRIM('Platforms'!B6&\"\")=\"\",\"\",IF(COUNTIFS('Brand Deals'!$S$6:$S$155,1,'Brand Deals'!$T$6:$T$155,5)=0,\"-\",ROUND(SUMIFS('Brand Deals'!$E$6:$E$155,'Brand Deals'!$S$6:$S$155,1,'Brand Deals'!$T$6:$T$155,5)/COUNTIFS('Brand Deals'!$S$6:$S$155,1,'Brand Deals'!$T$6:$T$155,5),2)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B7",
+     "formula": "=IF(TRIM('Platforms'!B7&\"\")=\"\",\"\",TRIM('Platforms'!B7&\"\"))"
+    },
+    {
+     "cell": "C7",
+     "formula": "=IF(TRIM('Platforms'!B7&\"\")=\"\",\"\",N('Platforms'!D7))",
+     "number_format": "#,##0"
+    },
+    {
+     "cell": "D7",
+     "formula": "=IF(TRIM('Platforms'!B7&\"\")=\"\",\"\",N('Platforms'!E7))",
+     "number_format": "#,##0"
+    },
+    {
+     "cell": "E7",
+     "formula": "=IF(TRIM('Platforms'!B7&\"\")=\"\",\"\",ROUND(C7/1000*'Setup'!$R$10,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F7",
+     "formula": "=IF(TRIM('Platforms'!B7&\"\")=\"\",\"\",ROUND(D7/1000*'Setup'!$R$11,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G7",
+     "formula": "=IF(TRIM('Platforms'!B7&\"\")=\"\",\"\",MAX(E7,F7))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H7",
+     "formula": "=IF(TRIM('Platforms'!B7&\"\")=\"\",\"\",ROUND(G7*0.8,0))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I7",
+     "formula": "=IF(TRIM('Platforms'!B7&\"\")=\"\",\"\",ROUND(G7*1.25,0))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J7",
+     "formula": "=IF(TRIM('Platforms'!B7&\"\")=\"\",\"\",IF(COUNTIFS('Brand Deals'!$S$6:$S$155,2,'Brand Deals'!$T$6:$T$155,5)=0,\"-\",ROUND(SUMIFS('Brand Deals'!$E$6:$E$155,'Brand Deals'!$S$6:$S$155,2,'Brand Deals'!$T$6:$T$155,5)/COUNTIFS('Brand Deals'!$S$6:$S$155,2,'Brand Deals'!$T$6:$T$155,5),2)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B8",
+     "formula": "=IF(TRIM('Platforms'!B8&\"\")=\"\",\"\",TRIM('Platforms'!B8&\"\"))"
+    },
+    {
+     "cell": "C8",
+     "formula": "=IF(TRIM('Platforms'!B8&\"\")=\"\",\"\",N('Platforms'!D8))",
+     "number_format": "#,##0"
+    },
+    {
+     "cell": "D8",
+     "formula": "=IF(TRIM('Platforms'!B8&\"\")=\"\",\"\",N('Platforms'!E8))",
+     "number_format": "#,##0"
+    },
+    {
+     "cell": "E8",
+     "formula": "=IF(TRIM('Platforms'!B8&\"\")=\"\",\"\",ROUND(C8/1000*'Setup'!$R$10,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F8",
+     "formula": "=IF(TRIM('Platforms'!B8&\"\")=\"\",\"\",ROUND(D8/1000*'Setup'!$R$11,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G8",
+     "formula": "=IF(TRIM('Platforms'!B8&\"\")=\"\",\"\",MAX(E8,F8))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H8",
+     "formula": "=IF(TRIM('Platforms'!B8&\"\")=\"\",\"\",ROUND(G8*0.8,0))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I8",
+     "formula": "=IF(TRIM('Platforms'!B8&\"\")=\"\",\"\",ROUND(G8*1.25,0))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J8",
+     "formula": "=IF(TRIM('Platforms'!B8&\"\")=\"\",\"\",IF(COUNTIFS('Brand Deals'!$S$6:$S$155,3,'Brand Deals'!$T$6:$T$155,5)=0,\"-\",ROUND(SUMIFS('Brand Deals'!$E$6:$E$155,'Brand Deals'!$S$6:$S$155,3,'Brand Deals'!$T$6:$T$155,5)/COUNTIFS('Brand Deals'!$S$6:$S$155,3,'Brand Deals'!$T$6:$T$155,5),2)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B9",
+     "formula": "=IF(TRIM('Platforms'!B9&\"\")=\"\",\"\",TRIM('Platforms'!B9&\"\"))"
+    },
+    {
+     "cell": "C9",
+     "formula": "=IF(TRIM('Platforms'!B9&\"\")=\"\",\"\",N('Platforms'!D9))",
+     "number_format": "#,##0"
+    },
+    {
+     "cell": "D9",
+     "formula": "=IF(TRIM('Platforms'!B9&\"\")=\"\",\"\",N('Platforms'!E9))",
+     "number_format": "#,##0"
+    },
+    {
+     "cell": "E9",
+     "formula": "=IF(TRIM('Platforms'!B9&\"\")=\"\",\"\",ROUND(C9/1000*'Setup'!$R$10,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F9",
+     "formula": "=IF(TRIM('Platforms'!B9&\"\")=\"\",\"\",ROUND(D9/1000*'Setup'!$R$11,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G9",
+     "formula": "=IF(TRIM('Platforms'!B9&\"\")=\"\",\"\",MAX(E9,F9))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H9",
+     "formula": "=IF(TRIM('Platforms'!B9&\"\")=\"\",\"\",ROUND(G9*0.8,0))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I9",
+     "formula": "=IF(TRIM('Platforms'!B9&\"\")=\"\",\"\",ROUND(G9*1.25,0))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J9",
+     "formula": "=IF(TRIM('Platforms'!B9&\"\")=\"\",\"\",IF(COUNTIFS('Brand Deals'!$S$6:$S$155,4,'Brand Deals'!$T$6:$T$155,5)=0,\"-\",ROUND(SUMIFS('Brand Deals'!$E$6:$E$155,'Brand Deals'!$S$6:$S$155,4,'Brand Deals'!$T$6:$T$155,5)/COUNTIFS('Brand Deals'!$S$6:$S$155,4,'Brand Deals'!$T$6:$T$155,5),2)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B10",
+     "formula": "=IF(TRIM('Platforms'!B10&\"\")=\"\",\"\",TRIM('Platforms'!B10&\"\"))"
+    },
+    {
+     "cell": "C10",
+     "formula": "=IF(TRIM('Platforms'!B10&\"\")=\"\",\"\",N('Platforms'!D10))",
+     "number_format": "#,##0"
+    },
+    {
+     "cell": "D10",
+     "formula": "=IF(TRIM('Platforms'!B10&\"\")=\"\",\"\",N('Platforms'!E10))",
+     "number_format": "#,##0"
+    },
+    {
+     "cell": "E10",
+     "formula": "=IF(TRIM('Platforms'!B10&\"\")=\"\",\"\",ROUND(C10/1000*'Setup'!$R$10,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F10",
+     "formula": "=IF(TRIM('Platforms'!B10&\"\")=\"\",\"\",ROUND(D10/1000*'Setup'!$R$11,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G10",
+     "formula": "=IF(TRIM('Platforms'!B10&\"\")=\"\",\"\",MAX(E10,F10))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H10",
+     "formula": "=IF(TRIM('Platforms'!B10&\"\")=\"\",\"\",ROUND(G10*0.8,0))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I10",
+     "formula": "=IF(TRIM('Platforms'!B10&\"\")=\"\",\"\",ROUND(G10*1.25,0))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J10",
+     "formula": "=IF(TRIM('Platforms'!B10&\"\")=\"\",\"\",IF(COUNTIFS('Brand Deals'!$S$6:$S$155,5,'Brand Deals'!$T$6:$T$155,5)=0,\"-\",ROUND(SUMIFS('Brand Deals'!$E$6:$E$155,'Brand Deals'!$S$6:$S$155,5,'Brand Deals'!$T$6:$T$155,5)/COUNTIFS('Brand Deals'!$S$6:$S$155,5,'Brand Deals'!$T$6:$T$155,5),2)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B11",
+     "formula": "=IF(TRIM('Platforms'!B11&\"\")=\"\",\"\",TRIM('Platforms'!B11&\"\"))"
+    },
+    {
+     "cell": "C11",
+     "formula": "=IF(TRIM('Platforms'!B11&\"\")=\"\",\"\",N('Platforms'!D11))",
+     "number_format": "#,##0"
+    },
+    {
+     "cell": "D11",
+     "formula": "=IF(TRIM('Platforms'!B11&\"\")=\"\",\"\",N('Platforms'!E11))",
+     "number_format": "#,##0"
+    },
+    {
+     "cell": "E11",
+     "formula": "=IF(TRIM('Platforms'!B11&\"\")=\"\",\"\",ROUND(C11/1000*'Setup'!$R$10,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F11",
+     "formula": "=IF(TRIM('Platforms'!B11&\"\")=\"\",\"\",ROUND(D11/1000*'Setup'!$R$11,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G11",
+     "formula": "=IF(TRIM('Platforms'!B11&\"\")=\"\",\"\",MAX(E11,F11))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H11",
+     "formula": "=IF(TRIM('Platforms'!B11&\"\")=\"\",\"\",ROUND(G11*0.8,0))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I11",
+     "formula": "=IF(TRIM('Platforms'!B11&\"\")=\"\",\"\",ROUND(G11*1.25,0))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J11",
+     "formula": "=IF(TRIM('Platforms'!B11&\"\")=\"\",\"\",IF(COUNTIFS('Brand Deals'!$S$6:$S$155,6,'Brand Deals'!$T$6:$T$155,5)=0,\"-\",ROUND(SUMIFS('Brand Deals'!$E$6:$E$155,'Brand Deals'!$S$6:$S$155,6,'Brand Deals'!$T$6:$T$155,5)/COUNTIFS('Brand Deals'!$S$6:$S$155,6,'Brand Deals'!$T$6:$T$155,5),2)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B12",
+     "formula": "=IF(TRIM('Platforms'!B12&\"\")=\"\",\"\",TRIM('Platforms'!B12&\"\"))"
+    },
+    {
+     "cell": "C12",
+     "formula": "=IF(TRIM('Platforms'!B12&\"\")=\"\",\"\",N('Platforms'!D12))",
+     "number_format": "#,##0"
+    },
+    {
+     "cell": "D12",
+     "formula": "=IF(TRIM('Platforms'!B12&\"\")=\"\",\"\",N('Platforms'!E12))",
+     "number_format": "#,##0"
+    },
+    {
+     "cell": "E12",
+     "formula": "=IF(TRIM('Platforms'!B12&\"\")=\"\",\"\",ROUND(C12/1000*'Setup'!$R$10,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F12",
+     "formula": "=IF(TRIM('Platforms'!B12&\"\")=\"\",\"\",ROUND(D12/1000*'Setup'!$R$11,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G12",
+     "formula": "=IF(TRIM('Platforms'!B12&\"\")=\"\",\"\",MAX(E12,F12))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H12",
+     "formula": "=IF(TRIM('Platforms'!B12&\"\")=\"\",\"\",ROUND(G12*0.8,0))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I12",
+     "formula": "=IF(TRIM('Platforms'!B12&\"\")=\"\",\"\",ROUND(G12*1.25,0))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J12",
+     "formula": "=IF(TRIM('Platforms'!B12&\"\")=\"\",\"\",IF(COUNTIFS('Brand Deals'!$S$6:$S$155,7,'Brand Deals'!$T$6:$T$155,5)=0,\"-\",ROUND(SUMIFS('Brand Deals'!$E$6:$E$155,'Brand Deals'!$S$6:$S$155,7,'Brand Deals'!$T$6:$T$155,5)/COUNTIFS('Brand Deals'!$S$6:$S$155,7,'Brand Deals'!$T$6:$T$155,5),2)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B13",
+     "formula": "=IF(TRIM('Platforms'!B13&\"\")=\"\",\"\",TRIM('Platforms'!B13&\"\"))"
+    },
+    {
+     "cell": "C13",
+     "formula": "=IF(TRIM('Platforms'!B13&\"\")=\"\",\"\",N('Platforms'!D13))",
+     "number_format": "#,##0"
+    },
+    {
+     "cell": "D13",
+     "formula": "=IF(TRIM('Platforms'!B13&\"\")=\"\",\"\",N('Platforms'!E13))",
+     "number_format": "#,##0"
+    },
+    {
+     "cell": "E13",
+     "formula": "=IF(TRIM('Platforms'!B13&\"\")=\"\",\"\",ROUND(C13/1000*'Setup'!$R$10,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F13",
+     "formula": "=IF(TRIM('Platforms'!B13&\"\")=\"\",\"\",ROUND(D13/1000*'Setup'!$R$11,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G13",
+     "formula": "=IF(TRIM('Platforms'!B13&\"\")=\"\",\"\",MAX(E13,F13))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H13",
+     "formula": "=IF(TRIM('Platforms'!B13&\"\")=\"\",\"\",ROUND(G13*0.8,0))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I13",
+     "formula": "=IF(TRIM('Platforms'!B13&\"\")=\"\",\"\",ROUND(G13*1.25,0))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J13",
+     "formula": "=IF(TRIM('Platforms'!B13&\"\")=\"\",\"\",IF(COUNTIFS('Brand Deals'!$S$6:$S$155,8,'Brand Deals'!$T$6:$T$155,5)=0,\"-\",ROUND(SUMIFS('Brand Deals'!$E$6:$E$155,'Brand Deals'!$S$6:$S$155,8,'Brand Deals'!$T$6:$T$155,5)/COUNTIFS('Brand Deals'!$S$6:$S$155,8,'Brand Deals'!$T$6:$T$155,5),2)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B14",
+     "formula": "=IF(TRIM('Platforms'!B14&\"\")=\"\",\"\",TRIM('Platforms'!B14&\"\"))"
+    },
+    {
+     "cell": "C14",
+     "formula": "=IF(TRIM('Platforms'!B14&\"\")=\"\",\"\",N('Platforms'!D14))",
+     "number_format": "#,##0"
+    },
+    {
+     "cell": "D14",
+     "formula": "=IF(TRIM('Platforms'!B14&\"\")=\"\",\"\",N('Platforms'!E14))",
+     "number_format": "#,##0"
+    },
+    {
+     "cell": "E14",
+     "formula": "=IF(TRIM('Platforms'!B14&\"\")=\"\",\"\",ROUND(C14/1000*'Setup'!$R$10,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F14",
+     "formula": "=IF(TRIM('Platforms'!B14&\"\")=\"\",\"\",ROUND(D14/1000*'Setup'!$R$11,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G14",
+     "formula": "=IF(TRIM('Platforms'!B14&\"\")=\"\",\"\",MAX(E14,F14))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H14",
+     "formula": "=IF(TRIM('Platforms'!B14&\"\")=\"\",\"\",ROUND(G14*0.8,0))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I14",
+     "formula": "=IF(TRIM('Platforms'!B14&\"\")=\"\",\"\",ROUND(G14*1.25,0))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J14",
+     "formula": "=IF(TRIM('Platforms'!B14&\"\")=\"\",\"\",IF(COUNTIFS('Brand Deals'!$S$6:$S$155,9,'Brand Deals'!$T$6:$T$155,5)=0,\"-\",ROUND(SUMIFS('Brand Deals'!$E$6:$E$155,'Brand Deals'!$S$6:$S$155,9,'Brand Deals'!$T$6:$T$155,5)/COUNTIFS('Brand Deals'!$S$6:$S$155,9,'Brand Deals'!$T$6:$T$155,5),2)))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B15",
+     "formula": "=IF(TRIM('Platforms'!B15&\"\")=\"\",\"\",TRIM('Platforms'!B15&\"\"))"
+    },
+    {
+     "cell": "C15",
+     "formula": "=IF(TRIM('Platforms'!B15&\"\")=\"\",\"\",N('Platforms'!D15))",
+     "number_format": "#,##0"
+    },
+    {
+     "cell": "D15",
+     "formula": "=IF(TRIM('Platforms'!B15&\"\")=\"\",\"\",N('Platforms'!E15))",
+     "number_format": "#,##0"
+    },
+    {
+     "cell": "E15",
+     "formula": "=IF(TRIM('Platforms'!B15&\"\")=\"\",\"\",ROUND(C15/1000*'Setup'!$R$10,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F15",
+     "formula": "=IF(TRIM('Platforms'!B15&\"\")=\"\",\"\",ROUND(D15/1000*'Setup'!$R$11,2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G15",
+     "formula": "=IF(TRIM('Platforms'!B15&\"\")=\"\",\"\",MAX(E15,F15))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H15",
+     "formula": "=IF(TRIM('Platforms'!B15&\"\")=\"\",\"\",ROUND(G15*0.8,0))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I15",
+     "formula": "=IF(TRIM('Platforms'!B15&\"\")=\"\",\"\",ROUND(G15*1.25,0))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J15",
+     "formula": "=IF(TRIM('Platforms'!B15&\"\")=\"\",\"\",IF(COUNTIFS('Brand Deals'!$S$6:$S$155,10,'Brand Deals'!$T$6:$T$155,5)=0,\"-\",ROUND(SUMIFS('Brand Deals'!$E$6:$E$155,'Brand Deals'!$S$6:$S$155,10,'Brand Deals'!$T$6:$T$155,5)/COUNTIFS('Brand Deals'!$S$6:$S$155,10,'Brand Deals'!$T$6:$T$155,5),2)))",
+     "number_format": "$#,##0.00"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "J6:J15",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER(J6),ISNUMBER(G6),J6<H6)"
+     ],
+     "fill": "FEF2D9"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B5:J5",
+     "color": "241B3A"
+    },
+    {
+     "range": "G6:G15",
+     "color": "FDE2E9"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:J15",
+     "color": "DCD6EE"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "241B3A"
+    },
+    {
+     "range": "B5:J5",
+     "wrap": true,
+     "bold": true,
+     "size": 9,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "B6:B15",
+     "bold": true,
+     "size": 10,
+     "color": "241B3A"
+    },
+    {
+     "range": "C6:J15",
+     "align": "center"
+    },
+    {
+     "range": "G6:G15",
+     "bold": true,
+     "size": 11,
+     "color": "F2456E",
+     "align": "center"
+    }
+   ],
+   "row_heights": {
+    "5": 30
+   }
+  }
+ ]
+}
