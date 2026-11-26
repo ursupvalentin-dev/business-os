@@ -1,0 +1,8505 @@
+{
+ "filename": "Cleaning Business Tracker",
+ "locale": "en_US",
+ "theme": {
+  "header_font": "FFFFFF",
+  "border": "CFE3E8",
+  "accent": "1A9FB5",
+  "section_colors": [
+   "1D3557",
+   "DDF3F6",
+   "FBF4D2"
+  ],
+  "chart_palette": [
+   "1A9FB5",
+   "1D3557",
+   "E9C531",
+   "E76F51"
+  ]
+ },
+ "tabs": [
+  {
+   "name": "Start Here",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "1A9FB5",
+   "grid_rows": 28,
+   "column_widths": {
+    "A": 2.5,
+    "B": 22,
+    "C": 100,
+    "D": 2.5
+   },
+   "section_bars": [
+    {
+     "range": "B2:C2",
+     "label": "CLEANING BUSINESS TRACKER",
+     "size": 18,
+     "color": "1D3557",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "B5:C5",
+     "label": "HOW TO USE IT",
+     "color": "DDF3F6",
+     "font_color": "1D3557",
+     "align": "left"
+    },
+    {
+     "range": "B12:C12",
+     "label": "GOOD TO KNOW",
+     "color": "1A9FB5",
+     "font_color": "FFFFFF",
+     "align": "left"
+    },
+    {
+     "range": "B18:C18",
+     "label": "COLOR GUIDE",
+     "color": "DDF3F6",
+     "font_color": "1D3557",
+     "align": "left"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Clients, jobs, crew pay and profit for your cleaning business."
+    },
+    {
+     "cell": "B6",
+     "formula": "Setup: business name, the year, your crew's usual pay, mileage rate, card fee, target margin and a monthly goal."
+    },
+    {
+     "cell": "B7",
+     "formula": "Clients: each customer with how often you clean and the usual price. Team: your cleaners and their hourly pay."
+    },
+    {
+     "cell": "B8",
+     "formula": "Jobs: one row per clean. Hours worked, extras, supplies and miles. Tick Paid when the money is in."
+    },
+    {
+     "cell": "B9",
+     "formula": "Expenses: bulk supplies, insurance, equipment and software."
+    },
+    {
+     "cell": "B10",
+     "formula": "Monthly, Price Quote and Dashboard show profit per job, per hour and what clients still owe."
+    },
+    {
+     "cell": "B13",
+     "formula": "Blank price"
+    },
+    {
+     "cell": "C13",
+     "formula": "Uses the client's usual price. Type a price for deep cleans and one-offs."
+    },
+    {
+     "cell": "B14",
+     "formula": "Blank cleaner"
+    },
+    {
+     "cell": "C14",
+     "formula": "Means you did it. Your own pay rate is in Setup (0 = profit includes your pay)."
+    },
+    {
+     "cell": "B15",
+     "formula": "Profit per hour"
+    },
+    {
+     "cell": "C15",
+     "formula": "What the business keeps for each hour worked, after pay and costs."
+    },
+    {
+     "cell": "B16",
+     "formula": "Quotes"
+    },
+    {
+     "cell": "C16",
+     "formula": "Price Quote estimates hours from size, rooms and job type. Adjust to your real speed."
+    },
+    {
+     "cell": "C19",
+     "formula": "White cells are for typing."
+    },
+    {
+     "cell": "C20",
+     "formula": "Grey cells calculate."
+    },
+    {
+     "cell": "C21",
+     "formula": "Green = paid or profitable."
+    },
+    {
+     "cell": "C22",
+     "formula": "Red = unpaid, loss or a typo."
+    },
+    {
+     "cell": "B24",
+     "formula": "Sparkling homes and a sparkling bottom line!"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B13:C16",
+     "color": "DDF3F6"
+    },
+    {
+     "range": "B19",
+     "color": "FFFFFF"
+    },
+    {
+     "range": "B20",
+     "color": "F5FAFB"
+    },
+    {
+     "range": "B21",
+     "color": "D7EFDD"
+    },
+    {
+     "range": "B22",
+     "color": "F6CACA"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B19",
+     "color": "CFE3E8"
+    },
+    {
+     "range": "B20",
+     "color": "CFE3E8"
+    },
+    {
+     "range": "B21",
+     "color": "CFE3E8"
+    },
+    {
+     "range": "B22",
+     "color": "CFE3E8"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 11,
+     "color": "1D3557"
+    },
+    {
+     "range": "B13:B16",
+     "bold": true,
+     "size": 11,
+     "color": "1D3557"
+    },
+    {
+     "range": "B24",
+     "italic": true,
+     "bold": true,
+     "size": 11,
+     "color": "1D3557"
+    }
+   ]
+  },
+  {
+   "name": "Dashboard",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "E9C531",
+   "grid_rows": 46,
+   "grid_cols": 19,
+   "column_widths": {
+    "A": 2.5,
+    "B": 18,
+    "C": 12,
+    "D": 14,
+    "E": 16,
+    "F": 16,
+    "G": 16,
+    "H": 16,
+    "I": 16,
+    "J": 2.5,
+    "R": 10
+   },
+   "hidden_columns": [
+    "R"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:I2",
+     "label": "CLEANING DASHBOARD",
+     "size": 16,
+     "color": "1D3557",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "B15:D15",
+     "label": "CLIENTS",
+     "color": "DDF3F6",
+     "font_color": "1D3557",
+     "align": "left"
+    },
+    {
+     "range": "E15:I15",
+     "label": "REVENUE VS CREW PAY BY MONTH",
+     "color": "DDF3F6",
+     "font_color": "1D3557",
+     "align": "left"
+    }
+   ],
+   "kpi_cards": [
+    {
+     "anchor": "B5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "REVENUE",
+     "value": "=R4",
+     "fill": "1A9FB5",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "D5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "PROFIT",
+     "value": "=R5",
+     "fill": "1D3557",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "anchor": "F5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "PROFIT MARGIN",
+     "value": "=R6",
+     "fill": "1A9FB5",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "0%"
+    },
+    {
+     "anchor": "H5",
+     "span": [
+      3,
+      2
+     ],
+     "label": "JOBS DONE",
+     "value": "=R7",
+     "fill": "1D3557",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "0"
+    },
+    {
+     "anchor": "B9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "PROFIT PER HOUR",
+     "value": "=R8",
+     "fill": "1D3557",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "D9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "CLIENTS OWE YOU",
+     "value": "=R9",
+     "fill": "E76F51",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "F9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "CREW PAY",
+     "value": "=R16",
+     "fill": "1A9FB5",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "anchor": "H9",
+     "span": [
+      3,
+      2
+     ],
+     "label": "SET ASIDE FOR TAX",
+     "value": "=R15",
+     "fill": "E76F51",
+     "font_color": "FFFFFF",
+     "value_size": 16,
+     "number_format": "$#,##0.00"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "=IF('Setup'!$R$7=\"\",\"\",'Setup'!$R$7&\"  |  \")&'Setup'!$R$4"
+    },
+    {
+     "cell": "R4",
+     "formula": "='Monthly'!E18",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R5",
+     "formula": "='Monthly'!I18",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "R6",
+     "formula": "=IF(R4>0,R5/R4,0)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "R7",
+     "formula": "='Monthly'!C18",
+     "number_format": "0"
+    },
+    {
+     "cell": "R8",
+     "formula": "='Monthly'!J18",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R9",
+     "formula": "=ROUND(SUM('Jobs'!$AC$6:$AC$1505),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R10",
+     "formula": "=COUNTIF('Clients'!M6:M105,\"Overdue\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "R11",
+     "formula": "=COUNTIFS('Jobs'!$T$6:$T$1505,2)",
+     "number_format": "0"
+    },
+    {
+     "cell": "R12",
+     "formula": "=IF('Setup'!$R$6=0,0,INDEX('Monthly'!E6:E17,'Setup'!$R$6))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R13",
+     "formula": "='Setup'!$R$14",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R14",
+     "formula": "=IF(R13>0,R12/R13,0)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "R15",
+     "formula": "=ROUND(MAX(0,R5)*'Setup'!$R$13,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R16",
+     "formula": "='Monthly'!F18",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "B13",
+     "formula": "=REPT(\"█\",ROUND(MIN(1,MAX(0,R14))*10,0))&REPT(\"░\",10-ROUND(MIN(1,MAX(0,R14))*10,0))&\"  This month: \"&TEXT(R12,\"$#,##0\")&\" of a \"&TEXT(R13,\"$#,##0\")&\" goal\""
+    },
+    {
+     "cell": "B14",
+     "formula": "=IF(R7=0,\"Add clients and your first job to start.\",IF(R9>0,\"Unpaid jobs: \"&TEXT(R9,\"$#,##0\")&\". Send those reminders.\",IF(R10>0,R10&IF(R10=1,\" client is\",\" clients are\")&\" overdue for a clean.\",\"All paid up with \"&R11&\" jobs on the schedule.\")))"
+    },
+    {
+     "cell": "B16",
+     "formula": "Client"
+    },
+    {
+     "cell": "C16",
+     "formula": "Revenue"
+    },
+    {
+     "cell": "D16",
+     "formula": "Status"
+    },
+    {
+     "cell": "B17",
+     "formula": "=IF(TRIM('Clients'!B6&\"\")=\"\",\"\",TRIM('Clients'!B6&\"\"))"
+    },
+    {
+     "cell": "C17",
+     "formula": "=IF(B17=\"\",\"\",N('Clients'!I6))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D17",
+     "formula": "=IF(B17=\"\",\"\",'Clients'!M6)"
+    },
+    {
+     "cell": "B18",
+     "formula": "=IF(TRIM('Clients'!B7&\"\")=\"\",\"\",TRIM('Clients'!B7&\"\"))"
+    },
+    {
+     "cell": "C18",
+     "formula": "=IF(B18=\"\",\"\",N('Clients'!I7))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D18",
+     "formula": "=IF(B18=\"\",\"\",'Clients'!M7)"
+    },
+    {
+     "cell": "B19",
+     "formula": "=IF(TRIM('Clients'!B8&\"\")=\"\",\"\",TRIM('Clients'!B8&\"\"))"
+    },
+    {
+     "cell": "C19",
+     "formula": "=IF(B19=\"\",\"\",N('Clients'!I8))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D19",
+     "formula": "=IF(B19=\"\",\"\",'Clients'!M8)"
+    },
+    {
+     "cell": "B20",
+     "formula": "=IF(TRIM('Clients'!B9&\"\")=\"\",\"\",TRIM('Clients'!B9&\"\"))"
+    },
+    {
+     "cell": "C20",
+     "formula": "=IF(B20=\"\",\"\",N('Clients'!I9))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D20",
+     "formula": "=IF(B20=\"\",\"\",'Clients'!M9)"
+    },
+    {
+     "cell": "B21",
+     "formula": "=IF(TRIM('Clients'!B10&\"\")=\"\",\"\",TRIM('Clients'!B10&\"\"))"
+    },
+    {
+     "cell": "C21",
+     "formula": "=IF(B21=\"\",\"\",N('Clients'!I10))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D21",
+     "formula": "=IF(B21=\"\",\"\",'Clients'!M10)"
+    },
+    {
+     "cell": "B22",
+     "formula": "=IF(TRIM('Clients'!B11&\"\")=\"\",\"\",TRIM('Clients'!B11&\"\"))"
+    },
+    {
+     "cell": "C22",
+     "formula": "=IF(B22=\"\",\"\",N('Clients'!I11))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D22",
+     "formula": "=IF(B22=\"\",\"\",'Clients'!M11)"
+    },
+    {
+     "cell": "B23",
+     "formula": "=IF(TRIM('Clients'!B12&\"\")=\"\",\"\",TRIM('Clients'!B12&\"\"))"
+    },
+    {
+     "cell": "C23",
+     "formula": "=IF(B23=\"\",\"\",N('Clients'!I12))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D23",
+     "formula": "=IF(B23=\"\",\"\",'Clients'!M12)"
+    },
+    {
+     "cell": "B24",
+     "formula": "=IF(TRIM('Clients'!B13&\"\")=\"\",\"\",TRIM('Clients'!B13&\"\"))"
+    },
+    {
+     "cell": "C24",
+     "formula": "=IF(B24=\"\",\"\",N('Clients'!I13))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D24",
+     "formula": "=IF(B24=\"\",\"\",'Clients'!M13)"
+    },
+    {
+     "cell": "B25",
+     "formula": "=IF(TRIM('Clients'!B14&\"\")=\"\",\"\",TRIM('Clients'!B14&\"\"))"
+    },
+    {
+     "cell": "C25",
+     "formula": "=IF(B25=\"\",\"\",N('Clients'!I14))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D25",
+     "formula": "=IF(B25=\"\",\"\",'Clients'!M14)"
+    },
+    {
+     "cell": "B26",
+     "formula": "=IF(TRIM('Clients'!B15&\"\")=\"\",\"\",TRIM('Clients'!B15&\"\"))"
+    },
+    {
+     "cell": "C26",
+     "formula": "=IF(B26=\"\",\"\",N('Clients'!I15))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "D26",
+     "formula": "=IF(B26=\"\",\"\",'Clients'!M15)"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "B14:I14",
+     "type": "formula",
+     "formula": [
+      "OR($R$9>0,$R$10>0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "B14:I14",
+     "type": "formula",
+     "formula": [
+      "LEFT($B$14,3)=\"All\""
+     ],
+     "fill": "D7EFDD"
+    },
+    {
+     "range": "D17:D26",
+     "type": "formula",
+     "formula": [
+      "$D17=\"Overdue\""
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "D17:D26",
+     "type": "formula",
+     "formula": [
+      "$D17=\"Scheduled\""
+     ],
+     "fill": "D7EFDD"
+    },
+    {
+     "range": "D17:D26",
+     "type": "formula",
+     "formula": [
+      "$D17=\"Due this week\""
+     ],
+     "fill": "FBF4D2"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B16:D16",
+     "color": "1D3557"
+    },
+    {
+     "range": "C17:D26",
+     "color": "F5FAFB"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:C7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "D5:E7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "F5:G7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "H5:I7",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "B9:C11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "D9:E11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "F9:G11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "H9:I11",
+     "color": "FFFFFF",
+     "style": "medium"
+    },
+    {
+     "range": "B16:D26",
+     "color": "CFE3E8"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 11,
+     "color": "1D3557"
+    },
+    {
+     "range": "B13",
+     "bold": true,
+     "size": 12,
+     "color": "1A9FB5"
+    },
+    {
+     "range": "B14",
+     "bold": true,
+     "size": 11,
+     "color": "1D3557"
+    },
+    {
+     "range": "B16:D16",
+     "bold": true,
+     "size": 10,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "B17:B26",
+     "bold": true,
+     "size": 10,
+     "color": "1D3557"
+    },
+    {
+     "range": "C17:D26",
+     "align": "center"
+    }
+   ],
+   "charts": [
+    {
+     "type": "bar",
+     "anchor": "E16",
+     "data": "Monthly!E5:F17",
+     "categories": "Monthly!B6:B17",
+     "width": 18,
+     "height": 9,
+     "colors": [
+      "1A9FB5",
+      "1D3557"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Setup",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "1D3557",
+   "grid_rows": 16,
+   "grid_cols": 19,
+   "column_widths": {
+    "A": 2.5,
+    "B": 24,
+    "C": 20,
+    "D": 38,
+    "E": 2.5,
+    "R": 10
+   },
+   "hidden_columns": [
+    "R"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:D2",
+     "label": "SETUP",
+     "size": 16,
+     "color": "1D3557",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B4",
+     "formula": "Setting"
+    },
+    {
+     "cell": "C4",
+     "formula": "Yours"
+    },
+    {
+     "cell": "D4",
+     "formula": "Note"
+    },
+    {
+     "cell": "B5",
+     "formula": "Business name"
+    },
+    {
+     "cell": "C5",
+     "formula": "Sparkle & Co Cleaning"
+    },
+    {
+     "cell": "B6",
+     "formula": "Year"
+    },
+    {
+     "cell": "C6",
+     "formula": 2027
+    },
+    {
+     "cell": "B7",
+     "formula": "Today"
+    },
+    {
+     "cell": "D7",
+     "formula": "Blank = today."
+    },
+    {
+     "cell": "C7",
+     "formula": "=DATE(2027,6,20)"
+    },
+    {
+     "cell": "B8",
+     "formula": "Crew pay per hour"
+    },
+    {
+     "cell": "D8",
+     "formula": "Used when a cleaner has no rate on Team."
+    },
+    {
+     "cell": "C8",
+     "formula": 20
+    },
+    {
+     "cell": "B9",
+     "formula": "Your own pay per hour"
+    },
+    {
+     "cell": "D9",
+     "formula": "For jobs you clean yourself."
+    },
+    {
+     "cell": "C9",
+     "formula": 0
+    },
+    {
+     "cell": "B10",
+     "formula": "Mileage rate ($ per mile)"
+    },
+    {
+     "cell": "C10",
+     "formula": 0.7
+    },
+    {
+     "cell": "B11",
+     "formula": "Card fee %"
+    },
+    {
+     "cell": "C11",
+     "formula": 2.9
+    },
+    {
+     "cell": "B12",
+     "formula": "Target margin %"
+    },
+    {
+     "cell": "D12",
+     "formula": "For quotes."
+    },
+    {
+     "cell": "C12",
+     "formula": 40
+    },
+    {
+     "cell": "B13",
+     "formula": "Tax set-aside %"
+    },
+    {
+     "cell": "C13",
+     "formula": 25
+    },
+    {
+     "cell": "B14",
+     "formula": "Monthly revenue goal"
+    },
+    {
+     "cell": "C14",
+     "formula": 12000
+    },
+    {
+     "cell": "R4",
+     "formula": "=IF(AND(ISNUMBER(C6),N(C6)>=1900,N(C6)<=9999),INT(C6),2027)"
+    },
+    {
+     "cell": "R5",
+     "formula": "=IF(AND(ISNUMBER(C7),N(C7)>=1),INT(C7),TODAY())",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "cell": "R6",
+     "formula": "=IF(YEAR(R5)=R4,MONTH(R5),IF(YEAR(R5)>R4,12,0))"
+    },
+    {
+     "cell": "R7",
+     "formula": "=TRIM(C5&\"\")"
+    },
+    {
+     "cell": "R8",
+     "formula": "=MAX(0,N(C8))"
+    },
+    {
+     "cell": "R9",
+     "formula": "=MAX(0,N(C9))"
+    },
+    {
+     "cell": "R10",
+     "formula": "=MAX(0,N(C10))"
+    },
+    {
+     "cell": "R11",
+     "formula": "=MAX(0,IF(N(C11)>=1,N(C11)/100,N(C11)))"
+    },
+    {
+     "cell": "R12",
+     "formula": "=MIN(0.95,MAX(0,IF(N(C12)>=1,N(C12)/100,N(C12))))"
+    },
+    {
+     "cell": "R13",
+     "formula": "=MIN(1,MAX(0,IF(N(C13)>=1,N(C13)/100,N(C13))))"
+    },
+    {
+     "cell": "R14",
+     "formula": "=MAX(0,N(C14))"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "C7",
+     "type": "formula",
+     "formula": [
+      "AND(C7<>\"\",OR(NOT(ISNUMBER(C7)),N(C7)<1))"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C8:C14",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C8<>\"\",NOT(ISNUMBER(C8))),N(C8)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C6",
+     "type": "formula",
+     "formula": [
+      "AND(C6<>\"\",OR(NOT(ISNUMBER(C6)),N(C6)<1900,N(C6)>9999))"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B4:D4",
+     "color": "DDF3F6"
+    },
+    {
+     "range": "C5:C14",
+     "color": "FFFFFF"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B4:D14",
+     "color": "CFE3E8"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B4:D4",
+     "bold": true,
+     "size": 10,
+     "color": "1D3557",
+     "align": "center"
+    },
+    {
+     "range": "B5:B14",
+     "bold": true,
+     "size": 10,
+     "color": "1D3557"
+    },
+    {
+     "range": "D5:D14",
+     "italic": true,
+     "size": 9,
+     "color": "1D3557"
+    },
+    {
+     "range": "C5:C14",
+     "bold": true,
+     "size": 11,
+     "color": "1A9FB5",
+     "align": "center"
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "C6",
+     "format": "0"
+    },
+    {
+     "range": "C7",
+     "format": "mmm d, yyyy"
+    },
+    {
+     "range": "C8",
+     "format": "$#,##0.00"
+    },
+    {
+     "range": "C9",
+     "format": "$#,##0.00"
+    },
+    {
+     "range": "C10",
+     "format": "$0.000"
+    },
+    {
+     "range": "C11",
+     "format": "0.##"
+    },
+    {
+     "range": "C12",
+     "format": "0.##"
+    },
+    {
+     "range": "C13",
+     "format": "0.##"
+    },
+    {
+     "range": "C14",
+     "format": "$#,##0.00"
+    }
+   ]
+  },
+  {
+   "name": "Clients",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "1A9FB5",
+   "grid_rows": 107,
+   "grid_cols": 21,
+   "freeze": "C6",
+   "column_widths": {
+    "A": 2.5,
+    "B": 18,
+    "C": 12,
+    "D": 13,
+    "E": 10,
+    "F": 8,
+    "G": 9,
+    "H": 9,
+    "I": 11,
+    "J": 10,
+    "K": 12,
+    "L": 12,
+    "M": 13,
+    "N": 2.5,
+    "R": 3,
+    "S": 3,
+    "T": 3
+   },
+   "hidden_columns": [
+    "R",
+    "S",
+    "T"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:M2",
+     "label": "CLIENTS",
+     "size": 16,
+     "color": "1D3557",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Your customers. Status looks at the last clean, how often they book and anything already scheduled."
+    },
+    {
+     "cell": "B5",
+     "formula": "Client"
+    },
+    {
+     "cell": "C5",
+     "formula": "Area"
+    },
+    {
+     "cell": "D5",
+     "formula": "How often"
+    },
+    {
+     "cell": "E5",
+     "formula": "Price per clean"
+    },
+    {
+     "cell": "F5",
+     "formula": "Usual hours"
+    },
+    {
+     "cell": "G5",
+     "formula": "Price per hour"
+    },
+    {
+     "cell": "H5",
+     "formula": "Cleans this year"
+    },
+    {
+     "cell": "I5",
+     "formula": "Revenue this year"
+    },
+    {
+     "cell": "J5",
+     "formula": "Owed"
+    },
+    {
+     "cell": "K5",
+     "formula": "Last clean"
+    },
+    {
+     "cell": "L5",
+     "formula": "Next clean due"
+    },
+    {
+     "cell": "M5",
+     "formula": "Status"
+    },
+    {
+     "cell": "B6",
+     "formula": "Johnson family"
+    },
+    {
+     "cell": "C6",
+     "formula": "Northside"
+    },
+    {
+     "cell": "D6",
+     "formula": "Every 2 weeks"
+    },
+    {
+     "cell": "E6",
+     "formula": 160
+    },
+    {
+     "cell": "F6",
+     "formula": 3
+    },
+    {
+     "cell": "B7",
+     "formula": "Lee residence"
+    },
+    {
+     "cell": "C7",
+     "formula": "Downtown"
+    },
+    {
+     "cell": "D7",
+     "formula": "Weekly"
+    },
+    {
+     "cell": "E7",
+     "formula": 120
+    },
+    {
+     "cell": "F7",
+     "formula": 2.5
+    },
+    {
+     "cell": "B8",
+     "formula": "Patel home"
+    },
+    {
+     "cell": "C8",
+     "formula": "Westwood"
+    },
+    {
+     "cell": "D8",
+     "formula": "Every 4 weeks"
+    },
+    {
+     "cell": "E8",
+     "formula": 190
+    },
+    {
+     "cell": "F8",
+     "formula": 3.5
+    },
+    {
+     "cell": "B9",
+     "formula": "Garcia family"
+    },
+    {
+     "cell": "C9",
+     "formula": "Northside"
+    },
+    {
+     "cell": "D9",
+     "formula": "Every 2 weeks"
+    },
+    {
+     "cell": "E9",
+     "formula": 145
+    },
+    {
+     "cell": "F9",
+     "formula": 3
+    },
+    {
+     "cell": "B10",
+     "formula": "Bright Dental"
+    },
+    {
+     "cell": "C10",
+     "formula": "Main St"
+    },
+    {
+     "cell": "D10",
+     "formula": "Weekly"
+    },
+    {
+     "cell": "E10",
+     "formula": 220
+    },
+    {
+     "cell": "F10",
+     "formula": 4
+    },
+    {
+     "cell": "B11",
+     "formula": "Kim condo"
+    },
+    {
+     "cell": "C11",
+     "formula": "Downtown"
+    },
+    {
+     "cell": "D11",
+     "formula": "Every 2 weeks"
+    },
+    {
+     "cell": "E11",
+     "formula": 110
+    },
+    {
+     "cell": "F11",
+     "formula": 2
+    },
+    {
+     "cell": "B12",
+     "formula": "Oak St Airbnb"
+    },
+    {
+     "cell": "C12",
+     "formula": "Eastside"
+    },
+    {
+     "cell": "D12",
+     "formula": "One-time"
+    },
+    {
+     "cell": "E12",
+     "formula": 95
+    },
+    {
+     "cell": "F12",
+     "formula": 2
+    },
+    {
+     "cell": "B13",
+     "formula": "Wilson home"
+    },
+    {
+     "cell": "C13",
+     "formula": "Westwood"
+    },
+    {
+     "cell": "D13",
+     "formula": "Monthly"
+    },
+    {
+     "cell": "E13",
+     "formula": 175
+    },
+    {
+     "cell": "F13",
+     "formula": 3.5
+    },
+    {
+     "cell": "B14",
+     "formula": "Nguyen family"
+    },
+    {
+     "cell": "C14",
+     "formula": "Southside"
+    },
+    {
+     "cell": "D14",
+     "formula": "Every 2 weeks"
+    },
+    {
+     "cell": "E14",
+     "formula": 150
+    },
+    {
+     "cell": "F14",
+     "formula": 3
+    },
+    {
+     "cell": "B15",
+     "formula": "Baker loft"
+    },
+    {
+     "cell": "C15",
+     "formula": "Downtown"
+    },
+    {
+     "cell": "D15",
+     "formula": "Every 4 weeks"
+    },
+    {
+     "cell": "E15",
+     "formula": 130
+    },
+    {
+     "cell": "F15",
+     "formula": 2.5
+    },
+    {
+     "col": "R",
+     "range_rows": [
+      6,
+      105
+     ],
+     "formula": "=LOWER(TRIM(B{row}&\"\"))"
+    },
+    {
+     "col": "S",
+     "range_rows": [
+      6,
+      105
+     ],
+     "formula": "=IF(TRIM(D{row}&\"\")=\"\",0,IFERROR(INDEX({7,14,28,30,0},MATCH(LOWER(TRIM(D{row}&\"\")),{\"weekly\",\"every 2 weeks\",\"every 4 weeks\",\"monthly\",\"one-time\"},0)),0))"
+    },
+    {
+     "col": "T",
+     "range_rows": [
+      6,
+      105
+     ],
+     "formula": "=IF(TRIM(B{row}&\"\")=\"\",0,SUMPRODUCT(MAX(('Jobs'!$R$6:$R$1505=ROW()-5)*'Jobs'!$AE$6:$AE$1505)))"
+    },
+    {
+     "col": "G",
+     "range_rows": [
+      6,
+      105
+     ],
+     "formula": "=IF(OR(TRIM(B{row}&\"\")=\"\",NOT(ISNUMBER(E{row})),N(F{row})<=0),\"\",ROUND(E{row}/F{row},2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "H",
+     "range_rows": [
+      6,
+      105
+     ],
+     "formula": "=IF(TRIM(B{row}&\"\")=\"\",\"\",COUNTIFS('Jobs'!$R$6:$R$1505,ROW()-5,'Jobs'!$T$6:$T$1505,1,'Jobs'!$U$6:$U$1505,\">0\"))",
+     "number_format": "0"
+    },
+    {
+     "col": "I",
+     "range_rows": [
+      6,
+      105
+     ],
+     "formula": "=IF(TRIM(B{row}&\"\")=\"\",\"\",ROUND(SUMIFS('Jobs'!$AA$6:$AA$1505,'Jobs'!$R$6:$R$1505,ROW()-5,'Jobs'!$T$6:$T$1505,1,'Jobs'!$U$6:$U$1505,\">0\"),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "J",
+     "range_rows": [
+      6,
+      105
+     ],
+     "formula": "=IF(TRIM(B{row}&\"\")=\"\",\"\",ROUND(SUMIFS('Jobs'!$AC$6:$AC$1505,'Jobs'!$R$6:$R$1505,ROW()-5),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "K",
+     "range_rows": [
+      6,
+      105
+     ],
+     "formula": "=IF(N(T{row})=0,\"\",T{row})",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "col": "L",
+     "range_rows": [
+      6,
+      105
+     ],
+     "formula": "=IF(OR(N(T{row})=0,S{row}=0),\"\",T{row}+S{row})",
+     "number_format": "mmm d, yyyy"
+    },
+    {
+     "col": "M",
+     "range_rows": [
+      6,
+      105
+     ],
+     "formula": "=IF(TRIM(B{row}&\"\")=\"\",\"\",IF(COUNTIFS('Jobs'!$R$6:$R$1505,ROW()-5,'Jobs'!$T$6:$T$1505,2)>0,\"Scheduled\",IF(N(T{row})=0,\"New\",IF(S{row}=0,\"One-time\",IF(L{row}<'Setup'!$R$5,\"Overdue\",IF(L{row}-'Setup'!$R$5<=7,\"Due this week\",\"OK\"))))))"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "M6:M105",
+     "type": "formula",
+     "formula": [
+      "$M6=\"Overdue\""
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "M6:M105",
+     "type": "formula",
+     "formula": [
+      "$M6=\"Due this week\""
+     ],
+     "fill": "FBF4D2"
+    },
+    {
+     "range": "M6:M105",
+     "type": "formula",
+     "formula": [
+      "$M6=\"Scheduled\""
+     ],
+     "fill": "D7EFDD"
+    },
+    {
+     "range": "E6:F105",
+     "type": "formula",
+     "formula": [
+      "OR(AND(E6<>\"\",NOT(ISNUMBER(E6))),N(E6)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "J6:J105",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER(J6),J6>0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "D6:D105",
+     "type": "formula",
+     "formula": [
+      "AND(TRIM($D6&\"\")<>\"\",$S6=0,LOWER(TRIM($D6&\"\"))<>\"one-time\")"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B5:M5",
+     "color": "1D3557"
+    },
+    {
+     "range": "B6:F105",
+     "color": "FFFFFF"
+    },
+    {
+     "range": "G6:M105",
+     "color": "F5FAFB"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:M105",
+     "color": "CFE3E8"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "1D3557"
+    },
+    {
+     "range": "B5:M5",
+     "wrap": true,
+     "bold": true,
+     "size": 9,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "B6:B105",
+     "bold": true,
+     "size": 10,
+     "color": "1D3557"
+    },
+    {
+     "range": "C6:M105",
+     "align": "center"
+    },
+    {
+     "range": "M6:M105",
+     "bold": true,
+     "size": 10,
+     "color": "1D3557",
+     "align": "center"
+    }
+   ],
+   "validations": [
+    {
+     "range": "D6:D105",
+     "type": "list",
+     "values": [
+      "Weekly",
+      "Every 2 weeks",
+      "Every 4 weeks",
+      "Monthly",
+      "One-time"
+     ],
+     "strict": false
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "E6:E105",
+     "format": "$#,##0.00"
+    },
+    {
+     "range": "F6:F105",
+     "format": "0.##"
+    }
+   ],
+   "row_heights": {
+    "5": 30
+   }
+  },
+  {
+   "name": "Jobs",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "E9C531",
+   "grid_rows": 1507,
+   "grid_cols": 34,
+   "freeze": "C6",
+   "column_widths": {
+    "A": 2.5,
+    "B": 12,
+    "C": 16,
+    "D": 13,
+    "E": 10,
+    "F": 7,
+    "G": 9,
+    "H": 8,
+    "I": 9,
+    "J": 7,
+    "K": 6,
+    "L": 11,
+    "M": 10,
+    "N": 10,
+    "O": 9,
+    "P": 10,
+    "Q": 9,
+    "R": 3,
+    "S": 3,
+    "T": 3,
+    "U": 3,
+    "V": 3,
+    "W": 3,
+    "X": 3,
+    "AA": 3,
+    "AB": 3,
+    "AC": 3,
+    "AD": 3,
+    "AE": 3,
+    "AG": 3
+   },
+   "hidden_columns": [
+    "R",
+    "S",
+    "T",
+    "U",
+    "V",
+    "W",
+    "X",
+    "AA",
+    "AB",
+    "AC",
+    "AD",
+    "AE",
+    "AG"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:Q2",
+     "label": "JOBS",
+     "size": 16,
+     "color": "1D3557",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Blank Price = client's usual price. Blank Cleaner = you. Future dates show as scheduled and count once the day comes."
+    },
+    {
+     "cell": "B5",
+     "formula": "Date"
+    },
+    {
+     "cell": "C5",
+     "formula": "Client"
+    },
+    {
+     "cell": "D5",
+     "formula": "Job type"
+    },
+    {
+     "cell": "E5",
+     "formula": "Cleaner"
+    },
+    {
+     "cell": "F5",
+     "formula": "Hours"
+    },
+    {
+     "cell": "G5",
+     "formula": "Price"
+    },
+    {
+     "cell": "H5",
+     "formula": "Extras"
+    },
+    {
+     "cell": "I5",
+     "formula": "Supplies used"
+    },
+    {
+     "cell": "J5",
+     "formula": "Miles"
+    },
+    {
+     "cell": "K5",
+     "formula": "Paid"
+    },
+    {
+     "cell": "L5",
+     "formula": "Paid by"
+    },
+    {
+     "cell": "M5",
+     "formula": "Revenue"
+    },
+    {
+     "cell": "N5",
+     "formula": "Crew pay"
+    },
+    {
+     "cell": "O5",
+     "formula": "Other costs"
+    },
+    {
+     "cell": "P5",
+     "formula": "Profit"
+    },
+    {
+     "cell": "Q5",
+     "formula": "Profit per hour"
+    },
+    {
+     "cell": "B6",
+     "formula": "=DATE(2027,1,4)"
+    },
+    {
+     "cell": "C6",
+     "formula": "Johnson family"
+    },
+    {
+     "cell": "D6",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E6",
+     "formula": "Tony"
+    },
+    {
+     "cell": "F6",
+     "formula": 3.0
+    },
+    {
+     "cell": "I6",
+     "formula": 8.83
+    },
+    {
+     "cell": "J6",
+     "formula": 7.9
+    },
+    {
+     "cell": "K6",
+     "formula": true
+    },
+    {
+     "cell": "L6",
+     "formula": "Card"
+    },
+    {
+     "cell": "B7",
+     "formula": "=DATE(2027,1,4)"
+    },
+    {
+     "cell": "C7",
+     "formula": "Kim condo"
+    },
+    {
+     "cell": "D7",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E7",
+     "formula": "Jess"
+    },
+    {
+     "cell": "F7",
+     "formula": 2.25
+    },
+    {
+     "cell": "I7",
+     "formula": 7.5
+    },
+    {
+     "cell": "J7",
+     "formula": 11.6
+    },
+    {
+     "cell": "K7",
+     "formula": true
+    },
+    {
+     "cell": "L7",
+     "formula": "Card"
+    },
+    {
+     "cell": "B8",
+     "formula": "=DATE(2027,1,5)"
+    },
+    {
+     "cell": "C8",
+     "formula": "Lee residence"
+    },
+    {
+     "cell": "D8",
+     "formula": "Standard"
+    },
+    {
+     "cell": "F8",
+     "formula": 2.5
+    },
+    {
+     "cell": "I8",
+     "formula": 5.88
+    },
+    {
+     "cell": "J8",
+     "formula": 13.0
+    },
+    {
+     "cell": "K8",
+     "formula": true
+    },
+    {
+     "cell": "L8",
+     "formula": "Zelle / app"
+    },
+    {
+     "cell": "B9",
+     "formula": "=DATE(2027,1,5)"
+    },
+    {
+     "cell": "C9",
+     "formula": "Oak St Airbnb"
+    },
+    {
+     "cell": "D9",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E9",
+     "formula": "Jess"
+    },
+    {
+     "cell": "F9",
+     "formula": 2.25
+    },
+    {
+     "cell": "I9",
+     "formula": 7.37
+    },
+    {
+     "cell": "J9",
+     "formula": 9.7
+    },
+    {
+     "cell": "K9",
+     "formula": true
+    },
+    {
+     "cell": "L9",
+     "formula": "Card"
+    },
+    {
+     "cell": "B10",
+     "formula": "=DATE(2027,1,6)"
+    },
+    {
+     "cell": "C10",
+     "formula": "Patel home"
+    },
+    {
+     "cell": "D10",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E10",
+     "formula": "Maria"
+    },
+    {
+     "cell": "F10",
+     "formula": 3.5
+    },
+    {
+     "cell": "I10",
+     "formula": 3.04
+    },
+    {
+     "cell": "J10",
+     "formula": 7.8
+    },
+    {
+     "cell": "K10",
+     "formula": true
+    },
+    {
+     "cell": "L10",
+     "formula": "Check"
+    },
+    {
+     "cell": "B11",
+     "formula": "=DATE(2027,1,6)"
+    },
+    {
+     "cell": "C11",
+     "formula": "Wilson home"
+    },
+    {
+     "cell": "D11",
+     "formula": "Deep"
+    },
+    {
+     "cell": "E11",
+     "formula": "Jess"
+    },
+    {
+     "cell": "F11",
+     "formula": 6.0
+    },
+    {
+     "cell": "G11",
+     "formula": 280.0
+    },
+    {
+     "cell": "I11",
+     "formula": 8.01
+    },
+    {
+     "cell": "J11",
+     "formula": 13.6
+    },
+    {
+     "cell": "K11",
+     "formula": true
+    },
+    {
+     "cell": "L11",
+     "formula": "Card"
+    },
+    {
+     "cell": "B12",
+     "formula": "=DATE(2027,1,7)"
+    },
+    {
+     "cell": "C12",
+     "formula": "Garcia family"
+    },
+    {
+     "cell": "D12",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E12",
+     "formula": "Jess"
+    },
+    {
+     "cell": "F12",
+     "formula": 3.25
+    },
+    {
+     "cell": "I12",
+     "formula": 3.28
+    },
+    {
+     "cell": "J12",
+     "formula": 4.2
+    },
+    {
+     "cell": "K12",
+     "formula": true
+    },
+    {
+     "cell": "L12",
+     "formula": "Cash"
+    },
+    {
+     "cell": "B13",
+     "formula": "=DATE(2027,1,7)"
+    },
+    {
+     "cell": "C13",
+     "formula": "Nguyen family"
+    },
+    {
+     "cell": "D13",
+     "formula": "Standard"
+    },
+    {
+     "cell": "F13",
+     "formula": 2.75
+    },
+    {
+     "cell": "I13",
+     "formula": 5.01
+    },
+    {
+     "cell": "J13",
+     "formula": 11.8
+    },
+    {
+     "cell": "K13",
+     "formula": true
+    },
+    {
+     "cell": "L13",
+     "formula": "Check"
+    },
+    {
+     "cell": "B14",
+     "formula": "=DATE(2027,1,8)"
+    },
+    {
+     "cell": "C14",
+     "formula": "Bright Dental"
+    },
+    {
+     "cell": "D14",
+     "formula": "Office"
+    },
+    {
+     "cell": "E14",
+     "formula": "Tony"
+    },
+    {
+     "cell": "F14",
+     "formula": 4.25
+    },
+    {
+     "cell": "I14",
+     "formula": 8.64
+    },
+    {
+     "cell": "J14",
+     "formula": 11.9
+    },
+    {
+     "cell": "K14",
+     "formula": true
+    },
+    {
+     "cell": "L14",
+     "formula": "Check"
+    },
+    {
+     "cell": "B15",
+     "formula": "=DATE(2027,1,8)"
+    },
+    {
+     "cell": "C15",
+     "formula": "Baker loft"
+    },
+    {
+     "cell": "D15",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E15",
+     "formula": "Tony"
+    },
+    {
+     "cell": "F15",
+     "formula": 2.25
+    },
+    {
+     "cell": "H15",
+     "formula": 25
+    },
+    {
+     "cell": "I15",
+     "formula": 4.57
+    },
+    {
+     "cell": "J15",
+     "formula": 9.8
+    },
+    {
+     "cell": "K15",
+     "formula": true
+    },
+    {
+     "cell": "L15",
+     "formula": "Card"
+    },
+    {
+     "cell": "B16",
+     "formula": "=DATE(2027,1,12)"
+    },
+    {
+     "cell": "C16",
+     "formula": "Lee residence"
+    },
+    {
+     "cell": "D16",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E16",
+     "formula": "Maria"
+    },
+    {
+     "cell": "F16",
+     "formula": 2.25
+    },
+    {
+     "cell": "I16",
+     "formula": 6.99
+    },
+    {
+     "cell": "J16",
+     "formula": 4.7
+    },
+    {
+     "cell": "K16",
+     "formula": true
+    },
+    {
+     "cell": "L16",
+     "formula": "Check"
+    },
+    {
+     "cell": "B17",
+     "formula": "=DATE(2027,1,15)"
+    },
+    {
+     "cell": "C17",
+     "formula": "Bright Dental"
+    },
+    {
+     "cell": "D17",
+     "formula": "Office"
+    },
+    {
+     "cell": "E17",
+     "formula": "Jess"
+    },
+    {
+     "cell": "F17",
+     "formula": 4.5
+    },
+    {
+     "cell": "I17",
+     "formula": 5.16
+    },
+    {
+     "cell": "J17",
+     "formula": 7.8
+    },
+    {
+     "cell": "K17",
+     "formula": true
+    },
+    {
+     "cell": "L17",
+     "formula": "Card"
+    },
+    {
+     "cell": "B18",
+     "formula": "=DATE(2027,1,18)"
+    },
+    {
+     "cell": "C18",
+     "formula": "Johnson family"
+    },
+    {
+     "cell": "D18",
+     "formula": "Standard"
+    },
+    {
+     "cell": "F18",
+     "formula": 2.75
+    },
+    {
+     "cell": "I18",
+     "formula": 8.88
+    },
+    {
+     "cell": "J18",
+     "formula": 13.9
+    },
+    {
+     "cell": "K18",
+     "formula": true
+    },
+    {
+     "cell": "L18",
+     "formula": "Check"
+    },
+    {
+     "cell": "B19",
+     "formula": "=DATE(2027,1,18)"
+    },
+    {
+     "cell": "C19",
+     "formula": "Kim condo"
+    },
+    {
+     "cell": "D19",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E19",
+     "formula": "Jess"
+    },
+    {
+     "cell": "F19",
+     "formula": 2.25
+    },
+    {
+     "cell": "H19",
+     "formula": 40
+    },
+    {
+     "cell": "I19",
+     "formula": 8.84
+    },
+    {
+     "cell": "J19",
+     "formula": 10.9
+    },
+    {
+     "cell": "K19",
+     "formula": true
+    },
+    {
+     "cell": "L19",
+     "formula": "Zelle / app"
+    },
+    {
+     "cell": "B20",
+     "formula": "=DATE(2027,1,19)"
+    },
+    {
+     "cell": "C20",
+     "formula": "Lee residence"
+    },
+    {
+     "cell": "D20",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E20",
+     "formula": "Tony"
+    },
+    {
+     "cell": "F20",
+     "formula": 2.75
+    },
+    {
+     "cell": "H20",
+     "formula": 25
+    },
+    {
+     "cell": "I20",
+     "formula": 4.11
+    },
+    {
+     "cell": "J20",
+     "formula": 5.8
+    },
+    {
+     "cell": "K20",
+     "formula": true
+    },
+    {
+     "cell": "L20",
+     "formula": "Check"
+    },
+    {
+     "cell": "B21",
+     "formula": "=DATE(2027,1,21)"
+    },
+    {
+     "cell": "C21",
+     "formula": "Garcia family"
+    },
+    {
+     "cell": "D21",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E21",
+     "formula": "Tony"
+    },
+    {
+     "cell": "F21",
+     "formula": 3.5
+    },
+    {
+     "cell": "I21",
+     "formula": 7.65
+    },
+    {
+     "cell": "J21",
+     "formula": 12.6
+    },
+    {
+     "cell": "K21",
+     "formula": true
+    },
+    {
+     "cell": "L21",
+     "formula": "Card"
+    },
+    {
+     "cell": "B22",
+     "formula": "=DATE(2027,1,21)"
+    },
+    {
+     "cell": "C22",
+     "formula": "Nguyen family"
+    },
+    {
+     "cell": "D22",
+     "formula": "Standard"
+    },
+    {
+     "cell": "F22",
+     "formula": 3.0
+    },
+    {
+     "cell": "I22",
+     "formula": 8.94
+    },
+    {
+     "cell": "J22",
+     "formula": 11.7
+    },
+    {
+     "cell": "K22",
+     "formula": true
+    },
+    {
+     "cell": "L22",
+     "formula": "Check"
+    },
+    {
+     "cell": "B23",
+     "formula": "=DATE(2027,1,22)"
+    },
+    {
+     "cell": "C23",
+     "formula": "Bright Dental"
+    },
+    {
+     "cell": "D23",
+     "formula": "Office"
+    },
+    {
+     "cell": "E23",
+     "formula": "Tony"
+    },
+    {
+     "cell": "F23",
+     "formula": 4.0
+    },
+    {
+     "cell": "I23",
+     "formula": 6.38
+    },
+    {
+     "cell": "J23",
+     "formula": 11.4
+    },
+    {
+     "cell": "K23",
+     "formula": true
+    },
+    {
+     "cell": "L23",
+     "formula": "Cash"
+    },
+    {
+     "cell": "B24",
+     "formula": "=DATE(2027,1,26)"
+    },
+    {
+     "cell": "C24",
+     "formula": "Lee residence"
+    },
+    {
+     "cell": "D24",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E24",
+     "formula": "Tony"
+    },
+    {
+     "cell": "F24",
+     "formula": 2.75
+    },
+    {
+     "cell": "H24",
+     "formula": 25
+    },
+    {
+     "cell": "I24",
+     "formula": 8.05
+    },
+    {
+     "cell": "J24",
+     "formula": 8.6
+    },
+    {
+     "cell": "K24",
+     "formula": true
+    },
+    {
+     "cell": "L24",
+     "formula": "Check"
+    },
+    {
+     "cell": "B25",
+     "formula": "=DATE(2027,1,29)"
+    },
+    {
+     "cell": "C25",
+     "formula": "Bright Dental"
+    },
+    {
+     "cell": "D25",
+     "formula": "Office"
+    },
+    {
+     "cell": "E25",
+     "formula": "Tony"
+    },
+    {
+     "cell": "F25",
+     "formula": 3.75
+    },
+    {
+     "cell": "I25",
+     "formula": 7.56
+    },
+    {
+     "cell": "J25",
+     "formula": 15.2
+    },
+    {
+     "cell": "K25",
+     "formula": true
+    },
+    {
+     "cell": "L25",
+     "formula": "Zelle / app"
+    },
+    {
+     "cell": "B26",
+     "formula": "=DATE(2027,2,1)"
+    },
+    {
+     "cell": "C26",
+     "formula": "Johnson family"
+    },
+    {
+     "cell": "D26",
+     "formula": "Deep"
+    },
+    {
+     "cell": "F26",
+     "formula": 5.25
+    },
+    {
+     "cell": "G26",
+     "formula": 256.0
+    },
+    {
+     "cell": "I26",
+     "formula": 5.01
+    },
+    {
+     "cell": "J26",
+     "formula": 13.0
+    },
+    {
+     "cell": "K26",
+     "formula": true
+    },
+    {
+     "cell": "L26",
+     "formula": "Zelle / app"
+    },
+    {
+     "cell": "B27",
+     "formula": "=DATE(2027,2,1)"
+    },
+    {
+     "cell": "C27",
+     "formula": "Kim condo"
+    },
+    {
+     "cell": "D27",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E27",
+     "formula": "Tony"
+    },
+    {
+     "cell": "F27",
+     "formula": 2.25
+    },
+    {
+     "cell": "I27",
+     "formula": 3.21
+    },
+    {
+     "cell": "J27",
+     "formula": 6.8
+    },
+    {
+     "cell": "K27",
+     "formula": true
+    },
+    {
+     "cell": "L27",
+     "formula": "Check"
+    },
+    {
+     "cell": "B28",
+     "formula": "=DATE(2027,2,2)"
+    },
+    {
+     "cell": "C28",
+     "formula": "Lee residence"
+    },
+    {
+     "cell": "D28",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E28",
+     "formula": "Jess"
+    },
+    {
+     "cell": "F28",
+     "formula": 2.25
+    },
+    {
+     "cell": "H28",
+     "formula": 40
+    },
+    {
+     "cell": "I28",
+     "formula": 3.04
+    },
+    {
+     "cell": "J28",
+     "formula": 10.5
+    },
+    {
+     "cell": "K28",
+     "formula": true
+    },
+    {
+     "cell": "L28",
+     "formula": "Card"
+    },
+    {
+     "cell": "B29",
+     "formula": "=DATE(2027,2,3)"
+    },
+    {
+     "cell": "C29",
+     "formula": "Patel home"
+    },
+    {
+     "cell": "D29",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E29",
+     "formula": "Tony"
+    },
+    {
+     "cell": "F29",
+     "formula": 4.0
+    },
+    {
+     "cell": "H29",
+     "formula": 25
+    },
+    {
+     "cell": "I29",
+     "formula": 4.23
+    },
+    {
+     "cell": "J29",
+     "formula": 13.7
+    },
+    {
+     "cell": "K29",
+     "formula": true
+    },
+    {
+     "cell": "L29",
+     "formula": "Check"
+    },
+    {
+     "cell": "B30",
+     "formula": "=DATE(2027,2,4)"
+    },
+    {
+     "cell": "C30",
+     "formula": "Garcia family"
+    },
+    {
+     "cell": "D30",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E30",
+     "formula": "Jess"
+    },
+    {
+     "cell": "F30",
+     "formula": 2.75
+    },
+    {
+     "cell": "I30",
+     "formula": 4.89
+    },
+    {
+     "cell": "J30",
+     "formula": 9.8
+    },
+    {
+     "cell": "K30",
+     "formula": true
+    },
+    {
+     "cell": "L30",
+     "formula": "Zelle / app"
+    },
+    {
+     "cell": "B31",
+     "formula": "=DATE(2027,2,4)"
+    },
+    {
+     "cell": "C31",
+     "formula": "Nguyen family"
+    },
+    {
+     "cell": "D31",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E31",
+     "formula": "Maria"
+    },
+    {
+     "cell": "F31",
+     "formula": 3.25
+    },
+    {
+     "cell": "H31",
+     "formula": 40
+    },
+    {
+     "cell": "I31",
+     "formula": 4.83
+    },
+    {
+     "cell": "J31",
+     "formula": 13.4
+    },
+    {
+     "cell": "K31",
+     "formula": true
+    },
+    {
+     "cell": "L31",
+     "formula": "Card"
+    },
+    {
+     "cell": "B32",
+     "formula": "=DATE(2027,2,5)"
+    },
+    {
+     "cell": "C32",
+     "formula": "Bright Dental"
+    },
+    {
+     "cell": "D32",
+     "formula": "Office"
+    },
+    {
+     "cell": "E32",
+     "formula": "Maria"
+    },
+    {
+     "cell": "F32",
+     "formula": 3.75
+    },
+    {
+     "cell": "H32",
+     "formula": 25
+    },
+    {
+     "cell": "I32",
+     "formula": 5.58
+    },
+    {
+     "cell": "J32",
+     "formula": 6.6
+    },
+    {
+     "cell": "K32",
+     "formula": true
+    },
+    {
+     "cell": "L32",
+     "formula": "Zelle / app"
+    },
+    {
+     "cell": "B33",
+     "formula": "=DATE(2027,2,5)"
+    },
+    {
+     "cell": "C33",
+     "formula": "Wilson home"
+    },
+    {
+     "cell": "D33",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E33",
+     "formula": "Jess"
+    },
+    {
+     "cell": "F33",
+     "formula": 3.25
+    },
+    {
+     "cell": "H33",
+     "formula": 40
+    },
+    {
+     "cell": "I33",
+     "formula": 7.91
+    },
+    {
+     "cell": "J33",
+     "formula": 10.9
+    },
+    {
+     "cell": "K33",
+     "formula": true
+    },
+    {
+     "cell": "L33",
+     "formula": "Cash"
+    },
+    {
+     "cell": "B34",
+     "formula": "=DATE(2027,2,5)"
+    },
+    {
+     "cell": "C34",
+     "formula": "Baker loft"
+    },
+    {
+     "cell": "D34",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E34",
+     "formula": "Maria"
+    },
+    {
+     "cell": "F34",
+     "formula": 2.75
+    },
+    {
+     "cell": "I34",
+     "formula": 6.04
+    },
+    {
+     "cell": "J34",
+     "formula": 5.0
+    },
+    {
+     "cell": "K34",
+     "formula": true
+    },
+    {
+     "cell": "L34",
+     "formula": "Check"
+    },
+    {
+     "cell": "B35",
+     "formula": "=DATE(2027,2,9)"
+    },
+    {
+     "cell": "C35",
+     "formula": "Lee residence"
+    },
+    {
+     "cell": "D35",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E35",
+     "formula": "Maria"
+    },
+    {
+     "cell": "F35",
+     "formula": 2.25
+    },
+    {
+     "cell": "I35",
+     "formula": 3.97
+    },
+    {
+     "cell": "J35",
+     "formula": 16.0
+    },
+    {
+     "cell": "K35",
+     "formula": true
+    },
+    {
+     "cell": "L35",
+     "formula": "Card"
+    },
+    {
+     "cell": "B36",
+     "formula": "=DATE(2027,2,12)"
+    },
+    {
+     "cell": "C36",
+     "formula": "Bright Dental"
+    },
+    {
+     "cell": "D36",
+     "formula": "Office"
+    },
+    {
+     "cell": "E36",
+     "formula": "Jess"
+    },
+    {
+     "cell": "F36",
+     "formula": 3.75
+    },
+    {
+     "cell": "I36",
+     "formula": 3.09
+    },
+    {
+     "cell": "J36",
+     "formula": 14.9
+    },
+    {
+     "cell": "K36",
+     "formula": true
+    },
+    {
+     "cell": "L36",
+     "formula": "Check"
+    },
+    {
+     "cell": "B37",
+     "formula": "=DATE(2027,2,15)"
+    },
+    {
+     "cell": "C37",
+     "formula": "Johnson family"
+    },
+    {
+     "cell": "D37",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E37",
+     "formula": "Jess"
+    },
+    {
+     "cell": "F37",
+     "formula": 3.0
+    },
+    {
+     "cell": "H37",
+     "formula": 25
+    },
+    {
+     "cell": "I37",
+     "formula": 6.42
+    },
+    {
+     "cell": "J37",
+     "formula": 15.4
+    },
+    {
+     "cell": "K37",
+     "formula": true
+    },
+    {
+     "cell": "L37",
+     "formula": "Check"
+    },
+    {
+     "cell": "B38",
+     "formula": "=DATE(2027,2,15)"
+    },
+    {
+     "cell": "C38",
+     "formula": "Kim condo"
+    },
+    {
+     "cell": "D38",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E38",
+     "formula": "Jess"
+    },
+    {
+     "cell": "F38",
+     "formula": 2.25
+    },
+    {
+     "cell": "I38",
+     "formula": 3.31
+    },
+    {
+     "cell": "J38",
+     "formula": 12.6
+    },
+    {
+     "cell": "K38",
+     "formula": true
+    },
+    {
+     "cell": "L38",
+     "formula": "Cash"
+    },
+    {
+     "cell": "B39",
+     "formula": "=DATE(2027,2,16)"
+    },
+    {
+     "cell": "C39",
+     "formula": "Lee residence"
+    },
+    {
+     "cell": "D39",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E39",
+     "formula": "Maria"
+    },
+    {
+     "cell": "F39",
+     "formula": 2.25
+    },
+    {
+     "cell": "I39",
+     "formula": 6.81
+    },
+    {
+     "cell": "J39",
+     "formula": 7.3
+    },
+    {
+     "cell": "K39",
+     "formula": true
+    },
+    {
+     "cell": "L39",
+     "formula": "Zelle / app"
+    },
+    {
+     "cell": "B40",
+     "formula": "=DATE(2027,2,18)"
+    },
+    {
+     "cell": "C40",
+     "formula": "Garcia family"
+    },
+    {
+     "cell": "D40",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E40",
+     "formula": "Jess"
+    },
+    {
+     "cell": "F40",
+     "formula": 3.25
+    },
+    {
+     "cell": "H40",
+     "formula": 40
+    },
+    {
+     "cell": "I40",
+     "formula": 4.13
+    },
+    {
+     "cell": "J40",
+     "formula": 9.3
+    },
+    {
+     "cell": "K40",
+     "formula": true
+    },
+    {
+     "cell": "L40",
+     "formula": "Cash"
+    },
+    {
+     "cell": "B41",
+     "formula": "=DATE(2027,2,18)"
+    },
+    {
+     "cell": "C41",
+     "formula": "Nguyen family"
+    },
+    {
+     "cell": "D41",
+     "formula": "Deep"
+    },
+    {
+     "cell": "E41",
+     "formula": "Jess"
+    },
+    {
+     "cell": "F41",
+     "formula": 4.75
+    },
+    {
+     "cell": "G41",
+     "formula": 240.0
+    },
+    {
+     "cell": "I41",
+     "formula": 8.73
+    },
+    {
+     "cell": "J41",
+     "formula": 6.6
+    },
+    {
+     "cell": "K41",
+     "formula": true
+    },
+    {
+     "cell": "L41",
+     "formula": "Card"
+    },
+    {
+     "cell": "B42",
+     "formula": "=DATE(2027,2,19)"
+    },
+    {
+     "cell": "C42",
+     "formula": "Bright Dental"
+    },
+    {
+     "cell": "D42",
+     "formula": "Office"
+    },
+    {
+     "cell": "F42",
+     "formula": 4.25
+    },
+    {
+     "cell": "I42",
+     "formula": 4.7
+    },
+    {
+     "cell": "J42",
+     "formula": 6.6
+    },
+    {
+     "cell": "K42",
+     "formula": true
+    },
+    {
+     "cell": "L42",
+     "formula": "Cash"
+    },
+    {
+     "cell": "B43",
+     "formula": "=DATE(2027,2,23)"
+    },
+    {
+     "cell": "C43",
+     "formula": "Lee residence"
+    },
+    {
+     "cell": "D43",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E43",
+     "formula": "Jess"
+    },
+    {
+     "cell": "F43",
+     "formula": 2.5
+    },
+    {
+     "cell": "I43",
+     "formula": 8.91
+    },
+    {
+     "cell": "J43",
+     "formula": 4.3
+    },
+    {
+     "cell": "K43",
+     "formula": true
+    },
+    {
+     "cell": "L43",
+     "formula": "Zelle / app"
+    },
+    {
+     "cell": "B44",
+     "formula": "=DATE(2027,2,26)"
+    },
+    {
+     "cell": "C44",
+     "formula": "Bright Dental"
+    },
+    {
+     "cell": "D44",
+     "formula": "Office"
+    },
+    {
+     "cell": "E44",
+     "formula": "Maria"
+    },
+    {
+     "cell": "F44",
+     "formula": 4.25
+    },
+    {
+     "cell": "I44",
+     "formula": 7.93
+    },
+    {
+     "cell": "J44",
+     "formula": 14.4
+    },
+    {
+     "cell": "K44",
+     "formula": true
+    },
+    {
+     "cell": "L44",
+     "formula": "Zelle / app"
+    },
+    {
+     "cell": "B45",
+     "formula": "=DATE(2027,3,1)"
+    },
+    {
+     "cell": "C45",
+     "formula": "Johnson family"
+    },
+    {
+     "cell": "D45",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E45",
+     "formula": "Jess"
+    },
+    {
+     "cell": "F45",
+     "formula": 3.0
+    },
+    {
+     "cell": "I45",
+     "formula": 7.15
+    },
+    {
+     "cell": "J45",
+     "formula": 9.7
+    },
+    {
+     "cell": "K45",
+     "formula": true
+    },
+    {
+     "cell": "L45",
+     "formula": "Card"
+    },
+    {
+     "cell": "B46",
+     "formula": "=DATE(2027,3,1)"
+    },
+    {
+     "cell": "C46",
+     "formula": "Kim condo"
+    },
+    {
+     "cell": "D46",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E46",
+     "formula": "Maria"
+    },
+    {
+     "cell": "F46",
+     "formula": 2.0
+    },
+    {
+     "cell": "I46",
+     "formula": 4.28
+    },
+    {
+     "cell": "J46",
+     "formula": 5.1
+    },
+    {
+     "cell": "K46",
+     "formula": true
+    },
+    {
+     "cell": "L46",
+     "formula": "Cash"
+    },
+    {
+     "cell": "B47",
+     "formula": "=DATE(2027,3,2)"
+    },
+    {
+     "cell": "C47",
+     "formula": "Lee residence"
+    },
+    {
+     "cell": "D47",
+     "formula": "Standard"
+    },
+    {
+     "cell": "F47",
+     "formula": 2.75
+    },
+    {
+     "cell": "I47",
+     "formula": 7.57
+    },
+    {
+     "cell": "J47",
+     "formula": 11.5
+    },
+    {
+     "cell": "K47",
+     "formula": true
+    },
+    {
+     "cell": "L47",
+     "formula": "Card"
+    },
+    {
+     "cell": "B48",
+     "formula": "=DATE(2027,3,3)"
+    },
+    {
+     "cell": "C48",
+     "formula": "Patel home"
+    },
+    {
+     "cell": "D48",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E48",
+     "formula": "Maria"
+    },
+    {
+     "cell": "F48",
+     "formula": 3.75
+    },
+    {
+     "cell": "H48",
+     "formula": 40
+    },
+    {
+     "cell": "I48",
+     "formula": 8.76
+    },
+    {
+     "cell": "J48",
+     "formula": 6.7
+    },
+    {
+     "cell": "K48",
+     "formula": true
+    },
+    {
+     "cell": "L48",
+     "formula": "Zelle / app"
+    },
+    {
+     "cell": "B49",
+     "formula": "=DATE(2027,3,4)"
+    },
+    {
+     "cell": "C49",
+     "formula": "Garcia family"
+    },
+    {
+     "cell": "D49",
+     "formula": "Standard"
+    },
+    {
+     "cell": "F49",
+     "formula": 3.0
+    },
+    {
+     "cell": "I49",
+     "formula": 8.96
+    },
+    {
+     "cell": "J49",
+     "formula": 18.0
+    },
+    {
+     "cell": "K49",
+     "formula": true
+    },
+    {
+     "cell": "L49",
+     "formula": "Zelle / app"
+    },
+    {
+     "cell": "B50",
+     "formula": "=DATE(2027,3,4)"
+    },
+    {
+     "cell": "C50",
+     "formula": "Nguyen family"
+    },
+    {
+     "cell": "D50",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E50",
+     "formula": "Tony"
+    },
+    {
+     "cell": "F50",
+     "formula": 3.25
+    },
+    {
+     "cell": "I50",
+     "formula": 5.73
+    },
+    {
+     "cell": "J50",
+     "formula": 5.5
+    },
+    {
+     "cell": "K50",
+     "formula": true
+    },
+    {
+     "cell": "L50",
+     "formula": "Check"
+    },
+    {
+     "cell": "B51",
+     "formula": "=DATE(2027,3,5)"
+    },
+    {
+     "cell": "C51",
+     "formula": "Bright Dental"
+    },
+    {
+     "cell": "D51",
+     "formula": "Office"
+    },
+    {
+     "cell": "E51",
+     "formula": "Jess"
+    },
+    {
+     "cell": "F51",
+     "formula": 4.5
+    },
+    {
+     "cell": "I51",
+     "formula": 6.79
+    },
+    {
+     "cell": "J51",
+     "formula": 11.4
+    },
+    {
+     "cell": "K51",
+     "formula": true
+    },
+    {
+     "cell": "L51",
+     "formula": "Zelle / app"
+    },
+    {
+     "cell": "B52",
+     "formula": "=DATE(2027,3,5)"
+    },
+    {
+     "cell": "C52",
+     "formula": "Baker loft"
+    },
+    {
+     "cell": "D52",
+     "formula": "Standard"
+    },
+    {
+     "cell": "F52",
+     "formula": 2.75
+    },
+    {
+     "cell": "I52",
+     "formula": 3.34
+    },
+    {
+     "cell": "J52",
+     "formula": 13.7
+    },
+    {
+     "cell": "K52",
+     "formula": true
+    },
+    {
+     "cell": "L52",
+     "formula": "Cash"
+    },
+    {
+     "cell": "B53",
+     "formula": "=DATE(2027,3,7)"
+    },
+    {
+     "cell": "C53",
+     "formula": "Wilson home"
+    },
+    {
+     "cell": "D53",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E53",
+     "formula": "Tony"
+    },
+    {
+     "cell": "F53",
+     "formula": 3.5
+    },
+    {
+     "cell": "I53",
+     "formula": 6.83
+    },
+    {
+     "cell": "J53",
+     "formula": 8.6
+    },
+    {
+     "cell": "K53",
+     "formula": true
+    },
+    {
+     "cell": "L53",
+     "formula": "Card"
+    },
+    {
+     "cell": "B54",
+     "formula": "=DATE(2027,3,9)"
+    },
+    {
+     "cell": "C54",
+     "formula": "Lee residence"
+    },
+    {
+     "cell": "D54",
+     "formula": "Standard"
+    },
+    {
+     "cell": "F54",
+     "formula": 2.5
+    },
+    {
+     "cell": "H54",
+     "formula": 25
+    },
+    {
+     "cell": "I54",
+     "formula": 6.1
+    },
+    {
+     "cell": "J54",
+     "formula": 8.1
+    },
+    {
+     "cell": "K54",
+     "formula": true
+    },
+    {
+     "cell": "L54",
+     "formula": "Zelle / app"
+    },
+    {
+     "cell": "B55",
+     "formula": "=DATE(2027,3,12)"
+    },
+    {
+     "cell": "C55",
+     "formula": "Bright Dental"
+    },
+    {
+     "cell": "D55",
+     "formula": "Office"
+    },
+    {
+     "cell": "E55",
+     "formula": "Maria"
+    },
+    {
+     "cell": "F55",
+     "formula": 4.5
+    },
+    {
+     "cell": "I55",
+     "formula": 8.66
+    },
+    {
+     "cell": "J55",
+     "formula": 16.1
+    },
+    {
+     "cell": "K55",
+     "formula": true
+    },
+    {
+     "cell": "L55",
+     "formula": "Card"
+    },
+    {
+     "cell": "B56",
+     "formula": "=DATE(2027,3,14)"
+    },
+    {
+     "cell": "C56",
+     "formula": "Oak St Airbnb"
+    },
+    {
+     "cell": "D56",
+     "formula": "Rental turnover"
+    },
+    {
+     "cell": "E56",
+     "formula": "Jess"
+    },
+    {
+     "cell": "F56",
+     "formula": 2
+    },
+    {
+     "cell": "I56",
+     "formula": 4
+    },
+    {
+     "cell": "J56",
+     "formula": 6
+    },
+    {
+     "cell": "K56",
+     "formula": true
+    },
+    {
+     "cell": "L56",
+     "formula": "Zelle / app"
+    },
+    {
+     "cell": "B57",
+     "formula": "=DATE(2027,3,15)"
+    },
+    {
+     "cell": "C57",
+     "formula": "Johnson family"
+    },
+    {
+     "cell": "D57",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E57",
+     "formula": "Jess"
+    },
+    {
+     "cell": "F57",
+     "formula": 3.25
+    },
+    {
+     "cell": "H57",
+     "formula": 25
+    },
+    {
+     "cell": "I57",
+     "formula": 3.95
+    },
+    {
+     "cell": "J57",
+     "formula": 18.0
+    },
+    {
+     "cell": "K57",
+     "formula": true
+    },
+    {
+     "cell": "L57",
+     "formula": "Zelle / app"
+    },
+    {
+     "cell": "B58",
+     "formula": "=DATE(2027,3,15)"
+    },
+    {
+     "cell": "C58",
+     "formula": "Kim condo"
+    },
+    {
+     "cell": "D58",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E58",
+     "formula": "Tony"
+    },
+    {
+     "cell": "F58",
+     "formula": 2.25
+    },
+    {
+     "cell": "H58",
+     "formula": 40
+    },
+    {
+     "cell": "I58",
+     "formula": 4.78
+    },
+    {
+     "cell": "J58",
+     "formula": 17.5
+    },
+    {
+     "cell": "K58",
+     "formula": true
+    },
+    {
+     "cell": "L58",
+     "formula": "Zelle / app"
+    },
+    {
+     "cell": "B59",
+     "formula": "=DATE(2027,3,16)"
+    },
+    {
+     "cell": "C59",
+     "formula": "Lee residence"
+    },
+    {
+     "cell": "D59",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E59",
+     "formula": "Jess"
+    },
+    {
+     "cell": "F59",
+     "formula": 2.75
+    },
+    {
+     "cell": "I59",
+     "formula": 7.72
+    },
+    {
+     "cell": "J59",
+     "formula": 16.4
+    },
+    {
+     "cell": "K59",
+     "formula": true
+    },
+    {
+     "cell": "L59",
+     "formula": "Check"
+    },
+    {
+     "cell": "B60",
+     "formula": "=DATE(2027,3,18)"
+    },
+    {
+     "cell": "C60",
+     "formula": "Garcia family"
+    },
+    {
+     "cell": "D60",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E60",
+     "formula": "Tony"
+    },
+    {
+     "cell": "F60",
+     "formula": 3.0
+    },
+    {
+     "cell": "I60",
+     "formula": 8.59
+    },
+    {
+     "cell": "J60",
+     "formula": 5.9
+    },
+    {
+     "cell": "K60",
+     "formula": true
+    },
+    {
+     "cell": "L60",
+     "formula": "Cash"
+    },
+    {
+     "cell": "B61",
+     "formula": "=DATE(2027,3,18)"
+    },
+    {
+     "cell": "C61",
+     "formula": "Nguyen family"
+    },
+    {
+     "cell": "D61",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E61",
+     "formula": "Maria"
+    },
+    {
+     "cell": "F61",
+     "formula": 3.5
+    },
+    {
+     "cell": "I61",
+     "formula": 5.68
+    },
+    {
+     "cell": "J61",
+     "formula": 16.6
+    },
+    {
+     "cell": "K61",
+     "formula": true
+    },
+    {
+     "cell": "L61",
+     "formula": "Check"
+    },
+    {
+     "cell": "B62",
+     "formula": "=DATE(2027,3,19)"
+    },
+    {
+     "cell": "C62",
+     "formula": "Bright Dental"
+    },
+    {
+     "cell": "D62",
+     "formula": "Office"
+    },
+    {
+     "cell": "E62",
+     "formula": "Maria"
+    },
+    {
+     "cell": "F62",
+     "formula": 4.5
+    },
+    {
+     "cell": "I62",
+     "formula": 6.99
+    },
+    {
+     "cell": "J62",
+     "formula": 10.0
+    },
+    {
+     "cell": "K62",
+     "formula": true
+    },
+    {
+     "cell": "L62",
+     "formula": "Zelle / app"
+    },
+    {
+     "cell": "B63",
+     "formula": "=DATE(2027,3,23)"
+    },
+    {
+     "cell": "C63",
+     "formula": "Lee residence"
+    },
+    {
+     "cell": "D63",
+     "formula": "Deep"
+    },
+    {
+     "cell": "F63",
+     "formula": 4.25
+    },
+    {
+     "cell": "G63",
+     "formula": 192.0
+    },
+    {
+     "cell": "I63",
+     "formula": 4.23
+    },
+    {
+     "cell": "J63",
+     "formula": 10.4
+    },
+    {
+     "cell": "K63",
+     "formula": true
+    },
+    {
+     "cell": "L63",
+     "formula": "Check"
+    },
+    {
+     "cell": "B64",
+     "formula": "=DATE(2027,3,26)"
+    },
+    {
+     "cell": "C64",
+     "formula": "Bright Dental"
+    },
+    {
+     "cell": "D64",
+     "formula": "Office"
+    },
+    {
+     "cell": "E64",
+     "formula": "Jess"
+    },
+    {
+     "cell": "F64",
+     "formula": 4.25
+    },
+    {
+     "cell": "I64",
+     "formula": 6.19
+    },
+    {
+     "cell": "J64",
+     "formula": 8.4
+    },
+    {
+     "cell": "K64",
+     "formula": true
+    },
+    {
+     "cell": "L64",
+     "formula": "Card"
+    },
+    {
+     "cell": "B65",
+     "formula": "=DATE(2027,3,29)"
+    },
+    {
+     "cell": "C65",
+     "formula": "Johnson family"
+    },
+    {
+     "cell": "D65",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E65",
+     "formula": "Maria"
+    },
+    {
+     "cell": "F65",
+     "formula": 3.25
+    },
+    {
+     "cell": "I65",
+     "formula": 4.11
+    },
+    {
+     "cell": "J65",
+     "formula": 4.7
+    },
+    {
+     "cell": "K65",
+     "formula": true
+    },
+    {
+     "cell": "L65",
+     "formula": "Zelle / app"
+    },
+    {
+     "cell": "B66",
+     "formula": "=DATE(2027,3,29)"
+    },
+    {
+     "cell": "C66",
+     "formula": "Kim condo"
+    },
+    {
+     "cell": "D66",
+     "formula": "Deep"
+    },
+    {
+     "cell": "E66",
+     "formula": "Jess"
+    },
+    {
+     "cell": "F66",
+     "formula": 3.25
+    },
+    {
+     "cell": "G66",
+     "formula": 176.0
+    },
+    {
+     "cell": "I66",
+     "formula": 4.54
+    },
+    {
+     "cell": "J66",
+     "formula": 7.9
+    },
+    {
+     "cell": "K66",
+     "formula": true
+    },
+    {
+     "cell": "L66",
+     "formula": "Check"
+    },
+    {
+     "cell": "B67",
+     "formula": "=DATE(2027,3,30)"
+    },
+    {
+     "cell": "C67",
+     "formula": "Lee residence"
+    },
+    {
+     "cell": "D67",
+     "formula": "Standard"
+    },
+    {
+     "cell": "F67",
+     "formula": 2.25
+    },
+    {
+     "cell": "I67",
+     "formula": 4.64
+    },
+    {
+     "cell": "J67",
+     "formula": 5.4
+    },
+    {
+     "cell": "K67",
+     "formula": true
+    },
+    {
+     "cell": "L67",
+     "formula": "Card"
+    },
+    {
+     "cell": "B68",
+     "formula": "=DATE(2027,3,31)"
+    },
+    {
+     "cell": "C68",
+     "formula": "Patel home"
+    },
+    {
+     "cell": "D68",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E68",
+     "formula": "Maria"
+    },
+    {
+     "cell": "F68",
+     "formula": 3.25
+    },
+    {
+     "cell": "I68",
+     "formula": 7.72
+    },
+    {
+     "cell": "J68",
+     "formula": 10.6
+    },
+    {
+     "cell": "K68",
+     "formula": true
+    },
+    {
+     "cell": "L68",
+     "formula": "Card"
+    },
+    {
+     "cell": "B69",
+     "formula": "=DATE(2027,4,1)"
+    },
+    {
+     "cell": "C69",
+     "formula": "Garcia family"
+    },
+    {
+     "cell": "D69",
+     "formula": "Standard"
+    },
+    {
+     "cell": "F69",
+     "formula": 3.25
+    },
+    {
+     "cell": "I69",
+     "formula": 6.72
+    },
+    {
+     "cell": "J69",
+     "formula": 15.3
+    },
+    {
+     "cell": "K69",
+     "formula": true
+    },
+    {
+     "cell": "L69",
+     "formula": "Cash"
+    },
+    {
+     "cell": "B70",
+     "formula": "=DATE(2027,4,1)"
+    },
+    {
+     "cell": "C70",
+     "formula": "Nguyen family"
+    },
+    {
+     "cell": "D70",
+     "formula": "Standard"
+    },
+    {
+     "cell": "F70",
+     "formula": 3.25
+    },
+    {
+     "cell": "H70",
+     "formula": 40
+    },
+    {
+     "cell": "I70",
+     "formula": 6.1
+    },
+    {
+     "cell": "J70",
+     "formula": 7.8
+    },
+    {
+     "cell": "K70",
+     "formula": true
+    },
+    {
+     "cell": "L70",
+     "formula": "Cash"
+    },
+    {
+     "cell": "B71",
+     "formula": "=DATE(2027,4,2)"
+    },
+    {
+     "cell": "C71",
+     "formula": "Bright Dental"
+    },
+    {
+     "cell": "D71",
+     "formula": "Office"
+    },
+    {
+     "cell": "E71",
+     "formula": "Jess"
+    },
+    {
+     "cell": "F71",
+     "formula": 4.0
+    },
+    {
+     "cell": "I71",
+     "formula": 4.72
+    },
+    {
+     "cell": "J71",
+     "formula": 13.4
+    },
+    {
+     "cell": "K71",
+     "formula": true
+    },
+    {
+     "cell": "L71",
+     "formula": "Cash"
+    },
+    {
+     "cell": "B72",
+     "formula": "=DATE(2027,4,2)"
+    },
+    {
+     "cell": "C72",
+     "formula": "Baker loft"
+    },
+    {
+     "cell": "D72",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E72",
+     "formula": "Maria"
+    },
+    {
+     "cell": "F72",
+     "formula": 2.5
+    },
+    {
+     "cell": "I72",
+     "formula": 8.12
+    },
+    {
+     "cell": "J72",
+     "formula": 12.3
+    },
+    {
+     "cell": "K72",
+     "formula": true
+    },
+    {
+     "cell": "L72",
+     "formula": "Cash"
+    },
+    {
+     "cell": "B73",
+     "formula": "=DATE(2027,4,6)"
+    },
+    {
+     "cell": "C73",
+     "formula": "Lee residence"
+    },
+    {
+     "cell": "D73",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E73",
+     "formula": "Maria"
+    },
+    {
+     "cell": "F73",
+     "formula": 2.75
+    },
+    {
+     "cell": "H73",
+     "formula": 40
+    },
+    {
+     "cell": "I73",
+     "formula": 3.87
+    },
+    {
+     "cell": "J73",
+     "formula": 8.5
+    },
+    {
+     "cell": "K73",
+     "formula": true
+    },
+    {
+     "cell": "L73",
+     "formula": "Cash"
+    },
+    {
+     "cell": "B74",
+     "formula": "=DATE(2027,4,6)"
+    },
+    {
+     "cell": "C74",
+     "formula": "Wilson home"
+    },
+    {
+     "cell": "D74",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E74",
+     "formula": "Maria"
+    },
+    {
+     "cell": "F74",
+     "formula": 3.5
+    },
+    {
+     "cell": "H74",
+     "formula": 40
+    },
+    {
+     "cell": "I74",
+     "formula": 6.83
+    },
+    {
+     "cell": "J74",
+     "formula": 11.6
+    },
+    {
+     "cell": "K74",
+     "formula": true
+    },
+    {
+     "cell": "L74",
+     "formula": "Card"
+    },
+    {
+     "cell": "B75",
+     "formula": "=DATE(2027,4,9)"
+    },
+    {
+     "cell": "C75",
+     "formula": "Bright Dental"
+    },
+    {
+     "cell": "D75",
+     "formula": "Office"
+    },
+    {
+     "cell": "E75",
+     "formula": "Jess"
+    },
+    {
+     "cell": "F75",
+     "formula": 4.5
+    },
+    {
+     "cell": "H75",
+     "formula": 25
+    },
+    {
+     "cell": "I75",
+     "formula": 6.91
+    },
+    {
+     "cell": "J75",
+     "formula": 4.5
+    },
+    {
+     "cell": "K75",
+     "formula": true
+    },
+    {
+     "cell": "L75",
+     "formula": "Check"
+    },
+    {
+     "cell": "B76",
+     "formula": "=DATE(2027,4,12)"
+    },
+    {
+     "cell": "C76",
+     "formula": "Johnson family"
+    },
+    {
+     "cell": "D76",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E76",
+     "formula": "Tony"
+    },
+    {
+     "cell": "F76",
+     "formula": 3.25
+    },
+    {
+     "cell": "H76",
+     "formula": 25
+    },
+    {
+     "cell": "I76",
+     "formula": 6.36
+    },
+    {
+     "cell": "J76",
+     "formula": 11.6
+    },
+    {
+     "cell": "K76",
+     "formula": true
+    },
+    {
+     "cell": "L76",
+     "formula": "Cash"
+    },
+    {
+     "cell": "B77",
+     "formula": "=DATE(2027,4,12)"
+    },
+    {
+     "cell": "C77",
+     "formula": "Kim condo"
+    },
+    {
+     "cell": "D77",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E77",
+     "formula": "Tony"
+    },
+    {
+     "cell": "F77",
+     "formula": 1.75
+    },
+    {
+     "cell": "I77",
+     "formula": 5.08
+    },
+    {
+     "cell": "J77",
+     "formula": 5.3
+    },
+    {
+     "cell": "K77",
+     "formula": true
+    },
+    {
+     "cell": "L77",
+     "formula": "Card"
+    },
+    {
+     "cell": "B78",
+     "formula": "=DATE(2027,4,13)"
+    },
+    {
+     "cell": "C78",
+     "formula": "Lee residence"
+    },
+    {
+     "cell": "D78",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E78",
+     "formula": "Jess"
+    },
+    {
+     "cell": "F78",
+     "formula": 2.5
+    },
+    {
+     "cell": "H78",
+     "formula": 25
+    },
+    {
+     "cell": "I78",
+     "formula": 6.36
+    },
+    {
+     "cell": "J78",
+     "formula": 8.2
+    },
+    {
+     "cell": "K78",
+     "formula": true
+    },
+    {
+     "cell": "L78",
+     "formula": "Check"
+    },
+    {
+     "cell": "B79",
+     "formula": "=DATE(2027,4,15)"
+    },
+    {
+     "cell": "C79",
+     "formula": "Garcia family"
+    },
+    {
+     "cell": "D79",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E79",
+     "formula": "Jess"
+    },
+    {
+     "cell": "F79",
+     "formula": 3.25
+    },
+    {
+     "cell": "I79",
+     "formula": 7.16
+    },
+    {
+     "cell": "J79",
+     "formula": 8.2
+    },
+    {
+     "cell": "K79",
+     "formula": true
+    },
+    {
+     "cell": "L79",
+     "formula": "Card"
+    },
+    {
+     "cell": "B80",
+     "formula": "=DATE(2027,4,15)"
+    },
+    {
+     "cell": "C80",
+     "formula": "Nguyen family"
+    },
+    {
+     "cell": "D80",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E80",
+     "formula": "Jess"
+    },
+    {
+     "cell": "F80",
+     "formula": 3.0
+    },
+    {
+     "cell": "I80",
+     "formula": 4.69
+    },
+    {
+     "cell": "J80",
+     "formula": 8.0
+    },
+    {
+     "cell": "K80",
+     "formula": true
+    },
+    {
+     "cell": "L80",
+     "formula": "Zelle / app"
+    },
+    {
+     "cell": "B81",
+     "formula": "=DATE(2027,4,16)"
+    },
+    {
+     "cell": "C81",
+     "formula": "Bright Dental"
+    },
+    {
+     "cell": "D81",
+     "formula": "Office"
+    },
+    {
+     "cell": "F81",
+     "formula": 4.25
+    },
+    {
+     "cell": "H81",
+     "formula": 25
+    },
+    {
+     "cell": "I81",
+     "formula": 6.48
+    },
+    {
+     "cell": "J81",
+     "formula": 4.6
+    },
+    {
+     "cell": "K81",
+     "formula": true
+    },
+    {
+     "cell": "L81",
+     "formula": "Card"
+    },
+    {
+     "cell": "B82",
+     "formula": "=DATE(2027,4,20)"
+    },
+    {
+     "cell": "C82",
+     "formula": "Lee residence"
+    },
+    {
+     "cell": "D82",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E82",
+     "formula": "Jess"
+    },
+    {
+     "cell": "F82",
+     "formula": 2.75
+    },
+    {
+     "cell": "I82",
+     "formula": 8.53
+    },
+    {
+     "cell": "J82",
+     "formula": 11.4
+    },
+    {
+     "cell": "K82",
+     "formula": true
+    },
+    {
+     "cell": "L82",
+     "formula": "Card"
+    },
+    {
+     "cell": "B83",
+     "formula": "=DATE(2027,4,23)"
+    },
+    {
+     "cell": "C83",
+     "formula": "Bright Dental"
+    },
+    {
+     "cell": "D83",
+     "formula": "Office"
+    },
+    {
+     "cell": "E83",
+     "formula": "Maria"
+    },
+    {
+     "cell": "F83",
+     "formula": 4.25
+    },
+    {
+     "cell": "I83",
+     "formula": 3.08
+    },
+    {
+     "cell": "J83",
+     "formula": 8.9
+    },
+    {
+     "cell": "K83",
+     "formula": true
+    },
+    {
+     "cell": "L83",
+     "formula": "Zelle / app"
+    },
+    {
+     "cell": "B84",
+     "formula": "=DATE(2027,4,26)"
+    },
+    {
+     "cell": "C84",
+     "formula": "Johnson family"
+    },
+    {
+     "cell": "D84",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E84",
+     "formula": "Tony"
+    },
+    {
+     "cell": "F84",
+     "formula": 2.75
+    },
+    {
+     "cell": "I84",
+     "formula": 6.64
+    },
+    {
+     "cell": "J84",
+     "formula": 4.5
+    },
+    {
+     "cell": "K84",
+     "formula": true
+    },
+    {
+     "cell": "L84",
+     "formula": "Zelle / app"
+    },
+    {
+     "cell": "B85",
+     "formula": "=DATE(2027,4,26)"
+    },
+    {
+     "cell": "C85",
+     "formula": "Kim condo"
+    },
+    {
+     "cell": "D85",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E85",
+     "formula": "Tony"
+    },
+    {
+     "cell": "F85",
+     "formula": 2.25
+    },
+    {
+     "cell": "I85",
+     "formula": 8.11
+    },
+    {
+     "cell": "J85",
+     "formula": 12.8
+    },
+    {
+     "cell": "K85",
+     "formula": true
+    },
+    {
+     "cell": "L85",
+     "formula": "Check"
+    },
+    {
+     "cell": "B86",
+     "formula": "=DATE(2027,4,27)"
+    },
+    {
+     "cell": "C86",
+     "formula": "Lee residence"
+    },
+    {
+     "cell": "D86",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E86",
+     "formula": "Tony"
+    },
+    {
+     "cell": "F86",
+     "formula": 2.25
+    },
+    {
+     "cell": "I86",
+     "formula": 3.25
+    },
+    {
+     "cell": "J86",
+     "formula": 4.4
+    },
+    {
+     "cell": "K86",
+     "formula": true
+    },
+    {
+     "cell": "L86",
+     "formula": "Cash"
+    },
+    {
+     "cell": "B87",
+     "formula": "=DATE(2027,4,28)"
+    },
+    {
+     "cell": "C87",
+     "formula": "Patel home"
+    },
+    {
+     "cell": "D87",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E87",
+     "formula": "Jess"
+    },
+    {
+     "cell": "F87",
+     "formula": 3.5
+    },
+    {
+     "cell": "I87",
+     "formula": 4.17
+    },
+    {
+     "cell": "J87",
+     "formula": 15.3
+    },
+    {
+     "cell": "K87",
+     "formula": true
+    },
+    {
+     "cell": "L87",
+     "formula": "Zelle / app"
+    },
+    {
+     "cell": "B88",
+     "formula": "=DATE(2027,4,29)"
+    },
+    {
+     "cell": "C88",
+     "formula": "Garcia family"
+    },
+    {
+     "cell": "D88",
+     "formula": "Standard"
+    },
+    {
+     "cell": "F88",
+     "formula": 3.0
+    },
+    {
+     "cell": "I88",
+     "formula": 3.71
+    },
+    {
+     "cell": "J88",
+     "formula": 5.1
+    },
+    {
+     "cell": "K88",
+     "formula": true
+    },
+    {
+     "cell": "L88",
+     "formula": "Cash"
+    },
+    {
+     "cell": "B89",
+     "formula": "=DATE(2027,4,29)"
+    },
+    {
+     "cell": "C89",
+     "formula": "Nguyen family"
+    },
+    {
+     "cell": "D89",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E89",
+     "formula": "Tony"
+    },
+    {
+     "cell": "F89",
+     "formula": 3.0
+    },
+    {
+     "cell": "H89",
+     "formula": 40
+    },
+    {
+     "cell": "I89",
+     "formula": 4.26
+    },
+    {
+     "cell": "J89",
+     "formula": 8.9
+    },
+    {
+     "cell": "K89",
+     "formula": true
+    },
+    {
+     "cell": "L89",
+     "formula": "Check"
+    },
+    {
+     "cell": "B90",
+     "formula": "=DATE(2027,4,30)"
+    },
+    {
+     "cell": "C90",
+     "formula": "Bright Dental"
+    },
+    {
+     "cell": "D90",
+     "formula": "Office"
+    },
+    {
+     "cell": "E90",
+     "formula": "Jess"
+    },
+    {
+     "cell": "F90",
+     "formula": 4.5
+    },
+    {
+     "cell": "I90",
+     "formula": 3.79
+    },
+    {
+     "cell": "J90",
+     "formula": 5.3
+    },
+    {
+     "cell": "K90",
+     "formula": true
+    },
+    {
+     "cell": "L90",
+     "formula": "Zelle / app"
+    },
+    {
+     "cell": "B91",
+     "formula": "=DATE(2027,4,30)"
+    },
+    {
+     "cell": "C91",
+     "formula": "Baker loft"
+    },
+    {
+     "cell": "D91",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E91",
+     "formula": "Jess"
+    },
+    {
+     "cell": "F91",
+     "formula": 2.75
+    },
+    {
+     "cell": "H91",
+     "formula": 25
+    },
+    {
+     "cell": "I91",
+     "formula": 6.0
+    },
+    {
+     "cell": "J91",
+     "formula": 5.7
+    },
+    {
+     "cell": "K91",
+     "formula": true
+    },
+    {
+     "cell": "L91",
+     "formula": "Check"
+    },
+    {
+     "cell": "B92",
+     "formula": "=DATE(2027,5,4)"
+    },
+    {
+     "cell": "C92",
+     "formula": "Lee residence"
+    },
+    {
+     "cell": "D92",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E92",
+     "formula": "Maria"
+    },
+    {
+     "cell": "F92",
+     "formula": 2.5
+    },
+    {
+     "cell": "I92",
+     "formula": 6.97
+    },
+    {
+     "cell": "J92",
+     "formula": 15.6
+    },
+    {
+     "cell": "K92",
+     "formula": true
+    },
+    {
+     "cell": "L92",
+     "formula": "Cash"
+    },
+    {
+     "cell": "B93",
+     "formula": "=DATE(2027,5,6)"
+    },
+    {
+     "cell": "C93",
+     "formula": "Wilson home"
+    },
+    {
+     "cell": "D93",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E93",
+     "formula": "Tony"
+    },
+    {
+     "cell": "F93",
+     "formula": 3.75
+    },
+    {
+     "cell": "I93",
+     "formula": 6.86
+    },
+    {
+     "cell": "J93",
+     "formula": 11.8
+    },
+    {
+     "cell": "K93",
+     "formula": true
+    },
+    {
+     "cell": "L93",
+     "formula": "Cash"
+    },
+    {
+     "cell": "B94",
+     "formula": "=DATE(2027,5,7)"
+    },
+    {
+     "cell": "C94",
+     "formula": "Bright Dental"
+    },
+    {
+     "cell": "D94",
+     "formula": "Office"
+    },
+    {
+     "cell": "F94",
+     "formula": 4.25
+    },
+    {
+     "cell": "H94",
+     "formula": 40
+    },
+    {
+     "cell": "I94",
+     "formula": 3.95
+    },
+    {
+     "cell": "J94",
+     "formula": 13.4
+    },
+    {
+     "cell": "K94",
+     "formula": true
+    },
+    {
+     "cell": "L94",
+     "formula": "Check"
+    },
+    {
+     "cell": "B95",
+     "formula": "=DATE(2027,5,10)"
+    },
+    {
+     "cell": "C95",
+     "formula": "Johnson family"
+    },
+    {
+     "cell": "D95",
+     "formula": "Standard"
+    },
+    {
+     "cell": "F95",
+     "formula": 2.75
+    },
+    {
+     "cell": "I95",
+     "formula": 7.41
+    },
+    {
+     "cell": "J95",
+     "formula": 13.6
+    },
+    {
+     "cell": "K95",
+     "formula": true
+    },
+    {
+     "cell": "L95",
+     "formula": "Check"
+    },
+    {
+     "cell": "B96",
+     "formula": "=DATE(2027,5,10)"
+    },
+    {
+     "cell": "C96",
+     "formula": "Kim condo"
+    },
+    {
+     "cell": "D96",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E96",
+     "formula": "Maria"
+    },
+    {
+     "cell": "F96",
+     "formula": 2.0
+    },
+    {
+     "cell": "I96",
+     "formula": 3.36
+    },
+    {
+     "cell": "J96",
+     "formula": 6.3
+    },
+    {
+     "cell": "K96",
+     "formula": true
+    },
+    {
+     "cell": "L96",
+     "formula": "Check"
+    },
+    {
+     "cell": "B97",
+     "formula": "=DATE(2027,5,11)"
+    },
+    {
+     "cell": "C97",
+     "formula": "Lee residence"
+    },
+    {
+     "cell": "D97",
+     "formula": "Standard"
+    },
+    {
+     "cell": "F97",
+     "formula": 2.5
+    },
+    {
+     "cell": "I97",
+     "formula": 3.17
+    },
+    {
+     "cell": "J97",
+     "formula": 8.2
+    },
+    {
+     "cell": "K97",
+     "formula": true
+    },
+    {
+     "cell": "L97",
+     "formula": "Check"
+    },
+    {
+     "cell": "B98",
+     "formula": "=DATE(2027,5,13)"
+    },
+    {
+     "cell": "C98",
+     "formula": "Garcia family"
+    },
+    {
+     "cell": "D98",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E98",
+     "formula": "Jess"
+    },
+    {
+     "cell": "F98",
+     "formula": 3.25
+    },
+    {
+     "cell": "I98",
+     "formula": 4.38
+    },
+    {
+     "cell": "J98",
+     "formula": 10.2
+    },
+    {
+     "cell": "K98",
+     "formula": true
+    },
+    {
+     "cell": "L98",
+     "formula": "Zelle / app"
+    },
+    {
+     "cell": "B99",
+     "formula": "=DATE(2027,5,13)"
+    },
+    {
+     "cell": "C99",
+     "formula": "Nguyen family"
+    },
+    {
+     "cell": "D99",
+     "formula": "Deep"
+    },
+    {
+     "cell": "E99",
+     "formula": "Jess"
+    },
+    {
+     "cell": "F99",
+     "formula": 5.25
+    },
+    {
+     "cell": "G99",
+     "formula": 240.0
+    },
+    {
+     "cell": "I99",
+     "formula": 8.14
+    },
+    {
+     "cell": "J99",
+     "formula": 13.7
+    },
+    {
+     "cell": "K99",
+     "formula": true
+    },
+    {
+     "cell": "L99",
+     "formula": "Check"
+    },
+    {
+     "cell": "B100",
+     "formula": "=DATE(2027,5,14)"
+    },
+    {
+     "cell": "C100",
+     "formula": "Bright Dental"
+    },
+    {
+     "cell": "D100",
+     "formula": "Office"
+    },
+    {
+     "cell": "E100",
+     "formula": "Jess"
+    },
+    {
+     "cell": "F100",
+     "formula": 4.0
+    },
+    {
+     "cell": "I100",
+     "formula": 3.74
+    },
+    {
+     "cell": "J100",
+     "formula": 15.9
+    },
+    {
+     "cell": "K100",
+     "formula": true
+    },
+    {
+     "cell": "L100",
+     "formula": "Cash"
+    },
+    {
+     "cell": "B101",
+     "formula": "=DATE(2027,5,18)"
+    },
+    {
+     "cell": "C101",
+     "formula": "Lee residence"
+    },
+    {
+     "cell": "D101",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E101",
+     "formula": "Tony"
+    },
+    {
+     "cell": "F101",
+     "formula": 2.75
+    },
+    {
+     "cell": "I101",
+     "formula": 7.5
+    },
+    {
+     "cell": "J101",
+     "formula": 11.9
+    },
+    {
+     "cell": "K101",
+     "formula": true
+    },
+    {
+     "cell": "L101",
+     "formula": "Card"
+    },
+    {
+     "cell": "B102",
+     "formula": "=DATE(2027,5,21)"
+    },
+    {
+     "cell": "C102",
+     "formula": "Bright Dental"
+    },
+    {
+     "cell": "D102",
+     "formula": "Office"
+    },
+    {
+     "cell": "E102",
+     "formula": "Tony"
+    },
+    {
+     "cell": "F102",
+     "formula": 4.25
+    },
+    {
+     "cell": "H102",
+     "formula": 40
+    },
+    {
+     "cell": "I102",
+     "formula": 8.45
+    },
+    {
+     "cell": "J102",
+     "formula": 17.4
+    },
+    {
+     "cell": "K102",
+     "formula": true
+    },
+    {
+     "cell": "L102",
+     "formula": "Card"
+    },
+    {
+     "cell": "B103",
+     "formula": "=DATE(2027,5,24)"
+    },
+    {
+     "cell": "C103",
+     "formula": "Johnson family"
+    },
+    {
+     "cell": "D103",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E103",
+     "formula": "Tony"
+    },
+    {
+     "cell": "F103",
+     "formula": 3.25
+    },
+    {
+     "cell": "I103",
+     "formula": 3.06
+    },
+    {
+     "cell": "J103",
+     "formula": 8.5
+    },
+    {
+     "cell": "K103",
+     "formula": true
+    },
+    {
+     "cell": "L103",
+     "formula": "Card"
+    },
+    {
+     "cell": "B104",
+     "formula": "=DATE(2027,5,24)"
+    },
+    {
+     "cell": "C104",
+     "formula": "Kim condo"
+    },
+    {
+     "cell": "D104",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E104",
+     "formula": "Tony"
+    },
+    {
+     "cell": "F104",
+     "formula": 1.75
+    },
+    {
+     "cell": "I104",
+     "formula": 6.74
+    },
+    {
+     "cell": "J104",
+     "formula": 17.8
+    },
+    {
+     "cell": "K104",
+     "formula": true
+    },
+    {
+     "cell": "L104",
+     "formula": "Zelle / app"
+    },
+    {
+     "cell": "B105",
+     "formula": "=DATE(2027,5,25)"
+    },
+    {
+     "cell": "C105",
+     "formula": "Lee residence"
+    },
+    {
+     "cell": "D105",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E105",
+     "formula": "Maria"
+    },
+    {
+     "cell": "F105",
+     "formula": 2.25
+    },
+    {
+     "cell": "I105",
+     "formula": 3.97
+    },
+    {
+     "cell": "J105",
+     "formula": 12.5
+    },
+    {
+     "cell": "K105",
+     "formula": true
+    },
+    {
+     "cell": "L105",
+     "formula": "Card"
+    },
+    {
+     "cell": "B106",
+     "formula": "=DATE(2027,5,26)"
+    },
+    {
+     "cell": "C106",
+     "formula": "Patel home"
+    },
+    {
+     "cell": "D106",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E106",
+     "formula": "Jess"
+    },
+    {
+     "cell": "F106",
+     "formula": 3.75
+    },
+    {
+     "cell": "I106",
+     "formula": 6.86
+    },
+    {
+     "cell": "J106",
+     "formula": 13.2
+    },
+    {
+     "cell": "K106",
+     "formula": true
+    },
+    {
+     "cell": "L106",
+     "formula": "Card"
+    },
+    {
+     "cell": "B107",
+     "formula": "=DATE(2027,5,27)"
+    },
+    {
+     "cell": "C107",
+     "formula": "Garcia family"
+    },
+    {
+     "cell": "D107",
+     "formula": "Standard"
+    },
+    {
+     "cell": "F107",
+     "formula": 3.0
+    },
+    {
+     "cell": "I107",
+     "formula": 4.47
+    },
+    {
+     "cell": "J107",
+     "formula": 4.1
+    },
+    {
+     "cell": "K107",
+     "formula": true
+    },
+    {
+     "cell": "L107",
+     "formula": "Card"
+    },
+    {
+     "cell": "B108",
+     "formula": "=DATE(2027,5,27)"
+    },
+    {
+     "cell": "C108",
+     "formula": "Nguyen family"
+    },
+    {
+     "cell": "D108",
+     "formula": "Standard"
+    },
+    {
+     "cell": "F108",
+     "formula": 3.5
+    },
+    {
+     "cell": "I108",
+     "formula": 5.71
+    },
+    {
+     "cell": "J108",
+     "formula": 8.8
+    },
+    {
+     "cell": "K108",
+     "formula": true
+    },
+    {
+     "cell": "L108",
+     "formula": "Check"
+    },
+    {
+     "cell": "B109",
+     "formula": "=DATE(2027,5,28)"
+    },
+    {
+     "cell": "C109",
+     "formula": "Bright Dental"
+    },
+    {
+     "cell": "D109",
+     "formula": "Office"
+    },
+    {
+     "cell": "E109",
+     "formula": "Tony"
+    },
+    {
+     "cell": "F109",
+     "formula": 4.0
+    },
+    {
+     "cell": "I109",
+     "formula": 8.02
+    },
+    {
+     "cell": "J109",
+     "formula": 15.5
+    },
+    {
+     "cell": "K109",
+     "formula": true
+    },
+    {
+     "cell": "L109",
+     "formula": "Check"
+    },
+    {
+     "cell": "B110",
+     "formula": "=DATE(2027,5,28)"
+    },
+    {
+     "cell": "C110",
+     "formula": "Baker loft"
+    },
+    {
+     "cell": "D110",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E110",
+     "formula": "Maria"
+    },
+    {
+     "cell": "F110",
+     "formula": 2.25
+    },
+    {
+     "cell": "H110",
+     "formula": 40
+    },
+    {
+     "cell": "I110",
+     "formula": 3.76
+    },
+    {
+     "cell": "J110",
+     "formula": 8.6
+    },
+    {
+     "cell": "K110",
+     "formula": true
+    },
+    {
+     "cell": "L110",
+     "formula": "Cash"
+    },
+    {
+     "cell": "B111",
+     "formula": "=DATE(2027,5,30)"
+    },
+    {
+     "cell": "C111",
+     "formula": "Oak St Airbnb"
+    },
+    {
+     "cell": "D111",
+     "formula": "Move-out"
+    },
+    {
+     "cell": "E111",
+     "formula": "Maria"
+    },
+    {
+     "cell": "F111",
+     "formula": 6
+    },
+    {
+     "cell": "G111",
+     "formula": 420
+    },
+    {
+     "cell": "I111",
+     "formula": 14
+    },
+    {
+     "cell": "J111",
+     "formula": 6
+    },
+    {
+     "cell": "K111",
+     "formula": true
+    },
+    {
+     "cell": "L111",
+     "formula": "Card"
+    },
+    {
+     "cell": "B112",
+     "formula": "=DATE(2027,6,1)"
+    },
+    {
+     "cell": "C112",
+     "formula": "Lee residence"
+    },
+    {
+     "cell": "D112",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E112",
+     "formula": "Tony"
+    },
+    {
+     "cell": "F112",
+     "formula": 2.5
+    },
+    {
+     "cell": "I112",
+     "formula": 8.73
+    },
+    {
+     "cell": "J112",
+     "formula": 14.4
+    },
+    {
+     "cell": "K112",
+     "formula": true
+    },
+    {
+     "cell": "L112",
+     "formula": "Zelle / app"
+    },
+    {
+     "cell": "B113",
+     "formula": "=DATE(2027,6,4)"
+    },
+    {
+     "cell": "C113",
+     "formula": "Bright Dental"
+    },
+    {
+     "cell": "D113",
+     "formula": "Office"
+    },
+    {
+     "cell": "E113",
+     "formula": "Jess"
+    },
+    {
+     "cell": "F113",
+     "formula": 4.5
+    },
+    {
+     "cell": "I113",
+     "formula": 5.35
+    },
+    {
+     "cell": "J113",
+     "formula": 8.1
+    },
+    {
+     "cell": "K113",
+     "formula": true
+    },
+    {
+     "cell": "L113",
+     "formula": "Card"
+    },
+    {
+     "cell": "B114",
+     "formula": "=DATE(2027,6,5)"
+    },
+    {
+     "cell": "C114",
+     "formula": "Wilson home"
+    },
+    {
+     "cell": "D114",
+     "formula": "Standard"
+    },
+    {
+     "cell": "F114",
+     "formula": 4.0
+    },
+    {
+     "cell": "H114",
+     "formula": 25
+    },
+    {
+     "cell": "I114",
+     "formula": 4.34
+    },
+    {
+     "cell": "J114",
+     "formula": 9.3
+    },
+    {
+     "cell": "K114",
+     "formula": true
+    },
+    {
+     "cell": "L114",
+     "formula": "Zelle / app"
+    },
+    {
+     "cell": "B115",
+     "formula": "=DATE(2027,6,7)"
+    },
+    {
+     "cell": "C115",
+     "formula": "Johnson family"
+    },
+    {
+     "cell": "D115",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E115",
+     "formula": "Jess"
+    },
+    {
+     "cell": "F115",
+     "formula": 3.25
+    },
+    {
+     "cell": "I115",
+     "formula": 3.59
+    },
+    {
+     "cell": "J115",
+     "formula": 5.2
+    },
+    {
+     "cell": "K115",
+     "formula": true
+    },
+    {
+     "cell": "L115",
+     "formula": "Card"
+    },
+    {
+     "cell": "B116",
+     "formula": "=DATE(2027,6,7)"
+    },
+    {
+     "cell": "C116",
+     "formula": "Kim condo"
+    },
+    {
+     "cell": "D116",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E116",
+     "formula": "Jess"
+    },
+    {
+     "cell": "F116",
+     "formula": 2.0
+    },
+    {
+     "cell": "I116",
+     "formula": 8.6
+    },
+    {
+     "cell": "J116",
+     "formula": 7.3
+    },
+    {
+     "cell": "K116",
+     "formula": true
+    },
+    {
+     "cell": "L116",
+     "formula": "Zelle / app"
+    },
+    {
+     "cell": "B117",
+     "formula": "=DATE(2027,6,8)"
+    },
+    {
+     "cell": "C117",
+     "formula": "Lee residence"
+    },
+    {
+     "cell": "D117",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E117",
+     "formula": "Tony"
+    },
+    {
+     "cell": "F117",
+     "formula": 2.75
+    },
+    {
+     "cell": "H117",
+     "formula": 40
+    },
+    {
+     "cell": "I117",
+     "formula": 3.23
+    },
+    {
+     "cell": "J117",
+     "formula": 12.3
+    },
+    {
+     "cell": "K117",
+     "formula": true
+    },
+    {
+     "cell": "L117",
+     "formula": "Zelle / app"
+    },
+    {
+     "cell": "B118",
+     "formula": "=DATE(2027,6,10)"
+    },
+    {
+     "cell": "C118",
+     "formula": "Garcia family"
+    },
+    {
+     "cell": "D118",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E118",
+     "formula": "Jess"
+    },
+    {
+     "cell": "F118",
+     "formula": 3.0
+    },
+    {
+     "cell": "I118",
+     "formula": 6.21
+    },
+    {
+     "cell": "J118",
+     "formula": 17.7
+    },
+    {
+     "cell": "K118",
+     "formula": true
+    },
+    {
+     "cell": "L118",
+     "formula": "Zelle / app"
+    },
+    {
+     "cell": "B119",
+     "formula": "=DATE(2027,6,10)"
+    },
+    {
+     "cell": "C119",
+     "formula": "Nguyen family"
+    },
+    {
+     "cell": "D119",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E119",
+     "formula": "Jess"
+    },
+    {
+     "cell": "F119",
+     "formula": 2.75
+    },
+    {
+     "cell": "H119",
+     "formula": 25
+    },
+    {
+     "cell": "I119",
+     "formula": 4.38
+    },
+    {
+     "cell": "J119",
+     "formula": 4.9
+    },
+    {
+     "cell": "K119",
+     "formula": true
+    },
+    {
+     "cell": "L119",
+     "formula": "Card"
+    },
+    {
+     "cell": "B120",
+     "formula": "=DATE(2027,6,11)"
+    },
+    {
+     "cell": "C120",
+     "formula": "Bright Dental"
+    },
+    {
+     "cell": "D120",
+     "formula": "Office"
+    },
+    {
+     "cell": "E120",
+     "formula": "Jess"
+    },
+    {
+     "cell": "F120",
+     "formula": 4.25
+    },
+    {
+     "cell": "H120",
+     "formula": 40
+    },
+    {
+     "cell": "I120",
+     "formula": 6.38
+    },
+    {
+     "cell": "J120",
+     "formula": 8.8
+    },
+    {
+     "cell": "L120",
+     "formula": "Cash"
+    },
+    {
+     "cell": "B121",
+     "formula": "=DATE(2027,6,15)"
+    },
+    {
+     "cell": "C121",
+     "formula": "Lee residence"
+    },
+    {
+     "cell": "D121",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E121",
+     "formula": "Tony"
+    },
+    {
+     "cell": "F121",
+     "formula": 2.5
+    },
+    {
+     "cell": "H121",
+     "formula": 25
+    },
+    {
+     "cell": "I121",
+     "formula": 3.27
+    },
+    {
+     "cell": "J121",
+     "formula": 15.6
+    },
+    {
+     "cell": "K121",
+     "formula": true
+    },
+    {
+     "cell": "L121",
+     "formula": "Cash"
+    },
+    {
+     "cell": "B122",
+     "formula": "=DATE(2027,6,18)"
+    },
+    {
+     "cell": "C122",
+     "formula": "Bright Dental"
+    },
+    {
+     "cell": "D122",
+     "formula": "Office"
+    },
+    {
+     "cell": "E122",
+     "formula": "Tony"
+    },
+    {
+     "cell": "F122",
+     "formula": 4.0
+    },
+    {
+     "cell": "H122",
+     "formula": 25
+    },
+    {
+     "cell": "I122",
+     "formula": 4.75
+    },
+    {
+     "cell": "J122",
+     "formula": 5.9
+    },
+    {
+     "cell": "L122",
+     "formula": "Check"
+    },
+    {
+     "cell": "B123",
+     "formula": "=DATE(2027,6,21)"
+    },
+    {
+     "cell": "C123",
+     "formula": "Johnson family"
+    },
+    {
+     "cell": "D123",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E123",
+     "formula": "Jess"
+    },
+    {
+     "cell": "J123",
+     "formula": 14.4
+    },
+    {
+     "cell": "L123",
+     "formula": "Zelle / app"
+    },
+    {
+     "cell": "B124",
+     "formula": "=DATE(2027,6,21)"
+    },
+    {
+     "cell": "C124",
+     "formula": "Kim condo"
+    },
+    {
+     "cell": "D124",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E124",
+     "formula": "Jess"
+    },
+    {
+     "cell": "J124",
+     "formula": 11.7
+    },
+    {
+     "cell": "L124",
+     "formula": "Cash"
+    },
+    {
+     "cell": "B125",
+     "formula": "=DATE(2027,6,22)"
+    },
+    {
+     "cell": "C125",
+     "formula": "Lee residence"
+    },
+    {
+     "cell": "D125",
+     "formula": "Deep"
+    },
+    {
+     "cell": "E125",
+     "formula": "Maria"
+    },
+    {
+     "cell": "G125",
+     "formula": 192.0
+    },
+    {
+     "cell": "J125",
+     "formula": 17.5
+    },
+    {
+     "cell": "L125",
+     "formula": "Card"
+    },
+    {
+     "cell": "B126",
+     "formula": "=DATE(2027,6,23)"
+    },
+    {
+     "cell": "C126",
+     "formula": "Patel home"
+    },
+    {
+     "cell": "D126",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E126",
+     "formula": "Jess"
+    },
+    {
+     "cell": "J126",
+     "formula": 5.5
+    },
+    {
+     "cell": "L126",
+     "formula": "Zelle / app"
+    },
+    {
+     "cell": "B127",
+     "formula": "=DATE(2027,6,24)"
+    },
+    {
+     "cell": "C127",
+     "formula": "Garcia family"
+    },
+    {
+     "cell": "D127",
+     "formula": "Standard"
+    },
+    {
+     "cell": "J127",
+     "formula": 6.2
+    },
+    {
+     "cell": "L127",
+     "formula": "Zelle / app"
+    },
+    {
+     "cell": "B128",
+     "formula": "=DATE(2027,6,24)"
+    },
+    {
+     "cell": "C128",
+     "formula": "Nguyen family"
+    },
+    {
+     "cell": "D128",
+     "formula": "Deep"
+    },
+    {
+     "cell": "E128",
+     "formula": "Tony"
+    },
+    {
+     "cell": "G128",
+     "formula": 240.0
+    },
+    {
+     "cell": "J128",
+     "formula": 16.7
+    },
+    {
+     "cell": "L128",
+     "formula": "Zelle / app"
+    },
+    {
+     "cell": "B129",
+     "formula": "=DATE(2027,6,25)"
+    },
+    {
+     "cell": "C129",
+     "formula": "Bright Dental"
+    },
+    {
+     "cell": "D129",
+     "formula": "Office"
+    },
+    {
+     "cell": "E129",
+     "formula": "Tony"
+    },
+    {
+     "cell": "J129",
+     "formula": 6.4
+    },
+    {
+     "cell": "L129",
+     "formula": "Card"
+    },
+    {
+     "cell": "B130",
+     "formula": "=DATE(2027,6,25)"
+    },
+    {
+     "cell": "C130",
+     "formula": "Baker loft"
+    },
+    {
+     "cell": "D130",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E130",
+     "formula": "Maria"
+    },
+    {
+     "cell": "J130",
+     "formula": 5.4
+    },
+    {
+     "cell": "L130",
+     "formula": "Zelle / app"
+    },
+    {
+     "cell": "B131",
+     "formula": "=DATE(2027,6,29)"
+    },
+    {
+     "cell": "C131",
+     "formula": "Lee residence"
+    },
+    {
+     "cell": "D131",
+     "formula": "Standard"
+    },
+    {
+     "cell": "E131",
+     "formula": "Jess"
+    },
+    {
+     "cell": "J131",
+     "formula": 12.5
+    },
+    {
+     "cell": "L131",
+     "formula": "Cash"
+    },
+    {
+     "col": "R",
+     "range_rows": [
+      6,
+      1505
+     ],
+     "formula": "=IF(TRIM(C{row}&\"\")=\"\",0,IFERROR(MATCH(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(LOWER(TRIM(C{row}&\"\")),\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"),'Clients'!$R$6:$R$105,0),0))"
+    },
+    {
+     "col": "S",
+     "range_rows": [
+      6,
+      1505
+     ],
+     "formula": "=IF(TRIM(E{row}&\"\")=\"\",0,IFERROR(MATCH(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(LOWER(TRIM(E{row}&\"\")),\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"),'Team'!$R$6:$R$20,0),-1))"
+    },
+    {
+     "col": "V",
+     "range_rows": [
+      6,
+      1505
+     ],
+     "formula": "=IF(TRIM(G{row}&\"\")<>\"\",G{row},IF(R{row}=0,\"\",N(INDEX('Clients'!$E$6:$E$105,R{row}))))"
+    },
+    {
+     "col": "T",
+     "range_rows": [
+      6,
+      1505
+     ],
+     "formula": "=IF(AND(ISNUMBER(B{row}),N(B{row})>=1,R{row}>0,ISNUMBER(V{row}),S{row}>=0),IF(B{row}>'Setup'!$R$5,2,1),0)"
+    },
+    {
+     "col": "U",
+     "range_rows": [
+      6,
+      1505
+     ],
+     "formula": "=IF(T{row}<>1,0,IF(YEAR(B{row})='Setup'!$R$4,MONTH(B{row}),0))"
+    },
+    {
+     "col": "W",
+     "range_rows": [
+      6,
+      1505
+     ],
+     "formula": "=IF(S{row}=0,'Setup'!$R$9,IF(S{row}<0,0,IF(ISNUMBER(INDEX('Team'!$C$6:$C$20,S{row})),INDEX('Team'!$C$6:$C$20,S{row}),'Setup'!$R$8)))"
+    },
+    {
+     "col": "AD",
+     "range_rows": [
+      6,
+      1505
+     ],
+     "formula": "=IF(T{row}<>1,0,N(F{row}))"
+    },
+    {
+     "col": "AA",
+     "range_rows": [
+      6,
+      1505
+     ],
+     "formula": "=IF(T{row}<>1,0,ROUND(V{row}+N(H{row}),2))"
+    },
+    {
+     "col": "AB",
+     "range_rows": [
+      6,
+      1505
+     ],
+     "formula": "=IF(T{row}<>1,0,ROUND(AD{row}*W{row},2))"
+    },
+    {
+     "col": "X",
+     "range_rows": [
+      6,
+      1505
+     ],
+     "formula": "=IF(T{row}<>1,0,ROUND(N(I{row})+N(J{row})*'Setup'!$R$10+IF(AND(K{row}=TRUE,LOWER(TRIM(L{row}&\"\"))=\"card\"),AA{row}*'Setup'!$R$11,0),2))"
+    },
+    {
+     "col": "AC",
+     "range_rows": [
+      6,
+      1505
+     ],
+     "formula": "=IF(AND(T{row}=1,K{row}<>TRUE),AA{row},0)"
+    },
+    {
+     "col": "AE",
+     "range_rows": [
+      6,
+      1505
+     ],
+     "formula": "=IF(T{row}=1,B{row},0)"
+    },
+    {
+     "col": "M",
+     "range_rows": [
+      6,
+      1505
+     ],
+     "formula": "=IF(T{row}<>1,\"\",AA{row})",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "N",
+     "range_rows": [
+      6,
+      1505
+     ],
+     "formula": "=IF(T{row}<>1,\"\",AB{row})",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "O",
+     "range_rows": [
+      6,
+      1505
+     ],
+     "formula": "=IF(T{row}<>1,\"\",X{row})",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "P",
+     "range_rows": [
+      6,
+      1505
+     ],
+     "formula": "=IF(T{row}<>1,\"\",ROUND(AA{row}-AB{row}-X{row},2))",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "col": "Q",
+     "range_rows": [
+      6,
+      1505
+     ],
+     "formula": "=IF(OR(T{row}<>1,AD{row}<=0),\"\",ROUND(P{row}/AD{row},2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "AG4",
+     "formula": "='Setup'!$R$5"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "B6:L1505",
+     "type": "formula",
+     "formula": [
+      "AND($T6=0,OR(TRIM($B6&\"\")<>\"\",TRIM($C6&\"\")<>\"\"))"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "B6:L1505",
+     "type": "formula",
+     "formula": [
+      "$T6=2"
+     ],
+     "fill": "FBF4D2"
+    },
+    {
+     "range": "K6:K1505",
+     "type": "formula",
+     "formula": [
+      "AND($T6=1,K6<>TRUE)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "K6:K1505",
+     "type": "formula",
+     "formula": [
+      "K6=TRUE"
+     ],
+     "fill": "D7EFDD"
+    },
+    {
+     "range": "P6:P1505",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER(P6),P6<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "E6:E1505",
+     "type": "formula",
+     "formula": [
+      "$S6<0"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "F6:J1505",
+     "type": "formula",
+     "formula": [
+      "OR(AND(F6<>\"\",NOT(ISNUMBER(F6))),N(F6)<0)"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B5:Q5",
+     "color": "1D3557"
+    },
+    {
+     "range": "M6:Q1505",
+     "color": "F5FAFB"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:Q1505",
+     "color": "CFE3E8"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "1D3557"
+    },
+    {
+     "range": "B5:Q5",
+     "wrap": true,
+     "bold": true,
+     "size": 9,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "B6:B1505",
+     "align": "center"
+    },
+    {
+     "range": "D6:Q1505",
+     "align": "center"
+    },
+    {
+     "range": "P6:P1505",
+     "bold": true,
+     "size": 10,
+     "color": "1A9FB5",
+     "align": "center"
+    }
+   ],
+   "validations": [
+    {
+     "range": "C6:C1505",
+     "type": "list_range",
+     "source": "'Clients'!$B$6:$B$105",
+     "strict": false
+    },
+    {
+     "range": "D6:D1505",
+     "type": "list",
+     "values": [
+      "Standard",
+      "Deep",
+      "Move-out",
+      "Office",
+      "Rental turnover"
+     ],
+     "strict": false
+    },
+    {
+     "range": "E6:E1505",
+     "type": "list_range",
+     "source": "'Team'!$B$6:$B$20",
+     "strict": false
+    },
+    {
+     "range": "K6:K1505",
+     "type": "checkbox"
+    },
+    {
+     "range": "L6:L1505",
+     "type": "list",
+     "values": [
+      "Card",
+      "Cash",
+      "Check",
+      "Zelle / app"
+     ],
+     "strict": false
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "B6:B1505",
+     "format": "ddd mmm d"
+    },
+    {
+     "range": "F6:F1505",
+     "format": "0.##"
+    },
+    {
+     "range": "G6:I1505",
+     "format": "$#,##0.00"
+    },
+    {
+     "range": "J6:J1505",
+     "format": "0.#"
+    },
+    {
+     "range": "AE6:AE1505",
+     "format": "0"
+    }
+   ],
+   "row_heights": {
+    "5": 30
+   }
+  },
+  {
+   "name": "Team",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "1D3557",
+   "grid_rows": 24,
+   "grid_cols": 19,
+   "column_widths": {
+    "A": 2.5,
+    "B": 18,
+    "C": 11,
+    "D": 9,
+    "E": 9,
+    "F": 12,
+    "G": 13,
+    "H": 13,
+    "I": 2.5,
+    "R": 3
+   },
+   "hidden_columns": [
+    "R"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:H2",
+     "label": "TEAM",
+     "size": 16,
+     "color": "1D3557",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Your crew. Blank pay = the crew rate in Setup. Jobs you clean yourself are under You."
+    },
+    {
+     "cell": "B5",
+     "formula": "Cleaner"
+    },
+    {
+     "cell": "C5",
+     "formula": "Pay per hour"
+    },
+    {
+     "cell": "D5",
+     "formula": "Jobs this year"
+    },
+    {
+     "cell": "E5",
+     "formula": "Hours"
+    },
+    {
+     "cell": "F5",
+     "formula": "Pay earned"
+    },
+    {
+     "cell": "G5",
+     "formula": "Revenue from their jobs"
+    },
+    {
+     "cell": "H5",
+     "formula": "Profit from their jobs"
+    },
+    {
+     "cell": "B6",
+     "formula": "Maria"
+    },
+    {
+     "cell": "C6",
+     "formula": 21
+    },
+    {
+     "cell": "B7",
+     "formula": "Jess"
+    },
+    {
+     "cell": "C7",
+     "formula": 19
+    },
+    {
+     "cell": "B8",
+     "formula": "Tony"
+    },
+    {
+     "cell": "C8",
+     "formula": 20
+    },
+    {
+     "col": "R",
+     "range_rows": [
+      6,
+      20
+     ],
+     "formula": "=LOWER(TRIM(B{row}&\"\"))"
+    },
+    {
+     "col": "D",
+     "range_rows": [
+      6,
+      20
+     ],
+     "formula": "=IF(TRIM(B{row}&\"\")=\"\",\"\",COUNTIFS('Jobs'!$S$6:$S$1505,ROW()-5,'Jobs'!$U$6:$U$1505,\">0\"))",
+     "number_format": "0"
+    },
+    {
+     "col": "E",
+     "range_rows": [
+      6,
+      20
+     ],
+     "formula": "=IF(TRIM(B{row}&\"\")=\"\",\"\",SUMIFS('Jobs'!$AD$6:$AD$1505,'Jobs'!$S$6:$S$1505,ROW()-5,'Jobs'!$U$6:$U$1505,\">0\"))",
+     "number_format": "0.##"
+    },
+    {
+     "col": "F",
+     "range_rows": [
+      6,
+      20
+     ],
+     "formula": "=IF(TRIM(B{row}&\"\")=\"\",\"\",ROUND(SUMIFS('Jobs'!$AB$6:$AB$1505,'Jobs'!$S$6:$S$1505,ROW()-5,'Jobs'!$U$6:$U$1505,\">0\"),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "G",
+     "range_rows": [
+      6,
+      20
+     ],
+     "formula": "=IF(TRIM(B{row}&\"\")=\"\",\"\",ROUND(SUMIFS('Jobs'!$AA$6:$AA$1505,'Jobs'!$S$6:$S$1505,ROW()-5,'Jobs'!$U$6:$U$1505,\">0\"),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "col": "H",
+     "range_rows": [
+      6,
+      20
+     ],
+     "formula": "=IF(TRIM(B{row}&\"\")=\"\",\"\",ROUND(SUMIFS('Jobs'!$AA$6:$AA$1505,'Jobs'!$S$6:$S$1505,ROW()-5,'Jobs'!$U$6:$U$1505,\">0\")-SUMIFS('Jobs'!$AB$6:$AB$1505,'Jobs'!$S$6:$S$1505,ROW()-5,'Jobs'!$U$6:$U$1505,\">0\")-SUMIFS('Jobs'!$X$6:$X$1505,'Jobs'!$S$6:$S$1505,ROW()-5,'Jobs'!$U$6:$U$1505,\">0\"),2))",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "B21",
+     "formula": "You"
+    },
+    {
+     "cell": "D21",
+     "formula": "=COUNTIFS('Jobs'!$S$6:$S$1505,0,'Jobs'!$U$6:$U$1505,\">0\")",
+     "number_format": "0"
+    },
+    {
+     "cell": "E21",
+     "formula": "=SUMIFS('Jobs'!$AD$6:$AD$1505,'Jobs'!$S$6:$S$1505,0,'Jobs'!$U$6:$U$1505,\">0\")",
+     "number_format": "0.##"
+    },
+    {
+     "cell": "F21",
+     "formula": "=ROUND(SUMIFS('Jobs'!$AB$6:$AB$1505,'Jobs'!$S$6:$S$1505,0,'Jobs'!$U$6:$U$1505,\">0\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G21",
+     "formula": "=ROUND(SUMIFS('Jobs'!$AA$6:$AA$1505,'Jobs'!$S$6:$S$1505,0,'Jobs'!$U$6:$U$1505,\">0\"),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H21",
+     "formula": "=ROUND(SUMIFS('Jobs'!$AA$6:$AA$1505,'Jobs'!$S$6:$S$1505,0,'Jobs'!$U$6:$U$1505,\">0\")-SUMIFS('Jobs'!$AB$6:$AB$1505,'Jobs'!$S$6:$S$1505,0,'Jobs'!$U$6:$U$1505,\">0\")-SUMIFS('Jobs'!$X$6:$X$1505,'Jobs'!$S$6:$S$1505,0,'Jobs'!$U$6:$U$1505,\">0\"),2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "B22",
+     "formula": "Everyone"
+    },
+    {
+     "cell": "D22",
+     "formula": "=SUM(D6:D21)",
+     "number_format": "0"
+    },
+    {
+     "cell": "E22",
+     "formula": "=SUM(E6:E21)",
+     "number_format": "0.##"
+    },
+    {
+     "cell": "F22",
+     "formula": "=ROUND(SUM(F6:F21),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G22",
+     "formula": "=ROUND(SUM(G6:G21),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H22",
+     "formula": "=ROUND(SUM(H6:H21),2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "C6:C20",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C6<>\"\",NOT(ISNUMBER(C6))),N(C6)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "H6:H22",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER(H6),H6<0)"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B5:H5",
+     "color": "1D3557"
+    },
+    {
+     "range": "B6:C20",
+     "color": "FFFFFF"
+    },
+    {
+     "range": "D6:H20",
+     "color": "F5FAFB"
+    },
+    {
+     "range": "B21:H21",
+     "color": "FBF4D2"
+    },
+    {
+     "range": "B22:H22",
+     "color": "DDF3F6"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:H22",
+     "color": "CFE3E8"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "1D3557"
+    },
+    {
+     "range": "B5:H5",
+     "wrap": true,
+     "bold": true,
+     "size": 9,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "B6:B22",
+     "bold": true,
+     "size": 10,
+     "color": "1D3557"
+    },
+    {
+     "range": "C6:H22",
+     "align": "center"
+    },
+    {
+     "range": "H6:H22",
+     "bold": true,
+     "size": 10,
+     "color": "1A9FB5",
+     "align": "center"
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "C6:C20",
+     "format": "$#,##0.00"
+    }
+   ],
+   "row_heights": {
+    "5": 30
+   }
+  },
+  {
+   "name": "Expenses",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "E76F51",
+   "grid_rows": 307,
+   "grid_cols": 19,
+   "freeze": "A6",
+   "column_widths": {
+    "A": 2.5,
+    "B": 12,
+    "C": 19,
+    "D": 26,
+    "E": 11,
+    "F": 3,
+    "G": 20,
+    "H": 13,
+    "I": 2.5,
+    "R": 3
+   },
+   "hidden_columns": [
+    "R"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:H2",
+     "label": "EXPENSES",
+     "size": 16,
+     "color": "1D3557",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Costs not tied to one job. Mileage is counted on Jobs, so don't add gas here if you use the mileage rate."
+    },
+    {
+     "cell": "B5",
+     "formula": "Date"
+    },
+    {
+     "cell": "C5",
+     "formula": "Category"
+    },
+    {
+     "cell": "D5",
+     "formula": "What"
+    },
+    {
+     "cell": "E5",
+     "formula": "Amount"
+    },
+    {
+     "cell": "B6",
+     "formula": "=DATE(2027,1,2)"
+    },
+    {
+     "cell": "C6",
+     "formula": "Software"
+    },
+    {
+     "cell": "D6",
+     "formula": "Scheduling app"
+    },
+    {
+     "cell": "E6",
+     "formula": 39
+    },
+    {
+     "cell": "B7",
+     "formula": "=DATE(2027,1,5)"
+    },
+    {
+     "cell": "C7",
+     "formula": "Supplies"
+    },
+    {
+     "cell": "D7",
+     "formula": "Bulk supplies order"
+    },
+    {
+     "cell": "E7",
+     "formula": 129.71
+    },
+    {
+     "cell": "B8",
+     "formula": "=DATE(2027,1,10)"
+    },
+    {
+     "cell": "C8",
+     "formula": "Insurance & bonding"
+    },
+    {
+     "cell": "D8",
+     "formula": "Liability + bond (year)"
+    },
+    {
+     "cell": "E8",
+     "formula": 960
+    },
+    {
+     "cell": "B9",
+     "formula": "=DATE(2027,2,2)"
+    },
+    {
+     "cell": "C9",
+     "formula": "Software"
+    },
+    {
+     "cell": "D9",
+     "formula": "Scheduling app"
+    },
+    {
+     "cell": "E9",
+     "formula": 39
+    },
+    {
+     "cell": "B10",
+     "formula": "=DATE(2027,2,2)"
+    },
+    {
+     "cell": "C10",
+     "formula": "Equipment"
+    },
+    {
+     "cell": "D10",
+     "formula": "HEPA vacuum"
+    },
+    {
+     "cell": "E10",
+     "formula": 389
+    },
+    {
+     "cell": "B11",
+     "formula": "=DATE(2027,2,5)"
+    },
+    {
+     "cell": "C11",
+     "formula": "Supplies"
+    },
+    {
+     "cell": "D11",
+     "formula": "Bulk supplies order"
+    },
+    {
+     "cell": "E11",
+     "formula": 126.94
+    },
+    {
+     "cell": "B12",
+     "formula": "=DATE(2027,3,2)"
+    },
+    {
+     "cell": "C12",
+     "formula": "Software"
+    },
+    {
+     "cell": "D12",
+     "formula": "Scheduling app"
+    },
+    {
+     "cell": "E12",
+     "formula": 39
+    },
+    {
+     "cell": "B13",
+     "formula": "=DATE(2027,3,5)"
+    },
+    {
+     "cell": "C13",
+     "formula": "Supplies"
+    },
+    {
+     "cell": "D13",
+     "formula": "Bulk supplies order"
+    },
+    {
+     "cell": "E13",
+     "formula": 156.36
+    },
+    {
+     "cell": "B14",
+     "formula": "=DATE(2027,3,12)"
+    },
+    {
+     "cell": "C14",
+     "formula": "Uniforms"
+    },
+    {
+     "cell": "D14",
+     "formula": "Shirts x 6"
+    },
+    {
+     "cell": "E14",
+     "formula": 108
+    },
+    {
+     "cell": "B15",
+     "formula": "=DATE(2027,4,2)"
+    },
+    {
+     "cell": "C15",
+     "formula": "Software"
+    },
+    {
+     "cell": "D15",
+     "formula": "Scheduling app"
+    },
+    {
+     "cell": "E15",
+     "formula": 39
+    },
+    {
+     "cell": "B16",
+     "formula": "=DATE(2027,4,4)"
+    },
+    {
+     "cell": "C16",
+     "formula": "Marketing"
+    },
+    {
+     "cell": "D16",
+     "formula": "Door hangers"
+    },
+    {
+     "cell": "E16",
+     "formula": 145
+    },
+    {
+     "cell": "B17",
+     "formula": "=DATE(2027,4,5)"
+    },
+    {
+     "cell": "C17",
+     "formula": "Supplies"
+    },
+    {
+     "cell": "D17",
+     "formula": "Bulk supplies order"
+    },
+    {
+     "cell": "E17",
+     "formula": 181.84
+    },
+    {
+     "cell": "B18",
+     "formula": "=DATE(2027,5,2)"
+    },
+    {
+     "cell": "C18",
+     "formula": "Software"
+    },
+    {
+     "cell": "D18",
+     "formula": "Scheduling app"
+    },
+    {
+     "cell": "E18",
+     "formula": 39
+    },
+    {
+     "cell": "B19",
+     "formula": "=DATE(2027,5,5)"
+    },
+    {
+     "cell": "C19",
+     "formula": "Supplies"
+    },
+    {
+     "cell": "D19",
+     "formula": "Bulk supplies order"
+    },
+    {
+     "cell": "E19",
+     "formula": 138.73
+    },
+    {
+     "cell": "B20",
+     "formula": "=DATE(2027,5,20)"
+    },
+    {
+     "cell": "C20",
+     "formula": "Licenses"
+    },
+    {
+     "cell": "D20",
+     "formula": "City license"
+    },
+    {
+     "cell": "E20",
+     "formula": 90
+    },
+    {
+     "cell": "B21",
+     "formula": "=DATE(2027,6,2)"
+    },
+    {
+     "cell": "C21",
+     "formula": "Software"
+    },
+    {
+     "cell": "D21",
+     "formula": "Scheduling app"
+    },
+    {
+     "cell": "E21",
+     "formula": 39
+    },
+    {
+     "cell": "B22",
+     "formula": "=DATE(2027,6,5)"
+    },
+    {
+     "cell": "C22",
+     "formula": "Supplies"
+    },
+    {
+     "cell": "D22",
+     "formula": "Bulk supplies order"
+    },
+    {
+     "cell": "E22",
+     "formula": 133.25
+    },
+    {
+     "col": "R",
+     "range_rows": [
+      6,
+      305
+     ],
+     "formula": "=IF(AND(ISNUMBER(B{row}),N(B{row})>=1,ISNUMBER(E{row})),IF(YEAR(B{row})='Setup'!$R$4,MONTH(B{row}),0),0)"
+    },
+    {
+     "cell": "G5",
+     "formula": "Category"
+    },
+    {
+     "cell": "H5",
+     "formula": "This year"
+    },
+    {
+     "cell": "G6",
+     "formula": "Supplies"
+    },
+    {
+     "cell": "H6",
+     "formula": "=ROUND(SUMIFS(E6:E305,R6:R305,\">0\",C6:C305,G6),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G7",
+     "formula": "Equipment"
+    },
+    {
+     "cell": "H7",
+     "formula": "=ROUND(SUMIFS(E6:E305,R6:R305,\">0\",C6:C305,G7),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G8",
+     "formula": "Insurance & bonding"
+    },
+    {
+     "cell": "H8",
+     "formula": "=ROUND(SUMIFS(E6:E305,R6:R305,\">0\",C6:C305,G8),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G9",
+     "formula": "Vehicle"
+    },
+    {
+     "cell": "H9",
+     "formula": "=ROUND(SUMIFS(E6:E305,R6:R305,\">0\",C6:C305,G9),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G10",
+     "formula": "Marketing"
+    },
+    {
+     "cell": "H10",
+     "formula": "=ROUND(SUMIFS(E6:E305,R6:R305,\">0\",C6:C305,G10),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G11",
+     "formula": "Software"
+    },
+    {
+     "cell": "H11",
+     "formula": "=ROUND(SUMIFS(E6:E305,R6:R305,\">0\",C6:C305,G11),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G12",
+     "formula": "Licenses"
+    },
+    {
+     "cell": "H12",
+     "formula": "=ROUND(SUMIFS(E6:E305,R6:R305,\">0\",C6:C305,G12),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G13",
+     "formula": "Uniforms"
+    },
+    {
+     "cell": "H13",
+     "formula": "=ROUND(SUMIFS(E6:E305,R6:R305,\">0\",C6:C305,G13),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G14",
+     "formula": "Other"
+    },
+    {
+     "cell": "H14",
+     "formula": "=ROUND(SUMIFS(E6:E305,R6:R305,\">0\",C6:C305,G14),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G15",
+     "formula": "Total"
+    },
+    {
+     "cell": "H15",
+     "formula": "=ROUND(SUMIFS(E6:E305,R6:R305,\">0\"),2)",
+     "number_format": "$#,##0.00"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "E6:E305",
+     "type": "formula",
+     "formula": [
+      "OR(AND(E6<>\"\",NOT(ISNUMBER(E6))),N(E6)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "B6:B305",
+     "type": "formula",
+     "formula": [
+      "AND(B6<>\"\",OR(NOT(ISNUMBER(B6)),N(B6)<1))"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B5:E5",
+     "color": "1D3557"
+    },
+    {
+     "range": "G5:H5",
+     "color": "1D3557"
+    },
+    {
+     "range": "H6:H15",
+     "color": "F5FAFB"
+    },
+    {
+     "range": "G15:H15",
+     "color": "DDF3F6"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:E305",
+     "color": "CFE3E8"
+    },
+    {
+     "range": "G5:H15",
+     "color": "CFE3E8"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "1D3557"
+    },
+    {
+     "range": "B5:E5",
+     "bold": true,
+     "size": 10,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "G5:H5",
+     "bold": true,
+     "size": 10,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "B6:C305",
+     "align": "center"
+    },
+    {
+     "range": "E6:E305",
+     "align": "center"
+    },
+    {
+     "range": "G6:G15",
+     "bold": true,
+     "size": 10,
+     "color": "1D3557"
+    },
+    {
+     "range": "H6:H15",
+     "align": "center"
+    },
+    {
+     "range": "G15:H15",
+     "bold": true,
+     "size": 10,
+     "color": "1D3557"
+    }
+   ],
+   "validations": [
+    {
+     "range": "C6:C305",
+     "type": "list",
+     "values": [
+      "Supplies",
+      "Equipment",
+      "Insurance & bonding",
+      "Vehicle",
+      "Marketing",
+      "Software",
+      "Licenses",
+      "Uniforms",
+      "Other"
+     ],
+     "strict": false
+    }
+   ],
+   "number_formats": [
+    {
+     "range": "B6:B305",
+     "format": "mmm d, yyyy"
+    },
+    {
+     "range": "E6:E305",
+     "format": "$#,##0.00"
+    }
+   ]
+  },
+  {
+   "name": "Monthly",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "1A9FB5",
+   "grid_rows": 30,
+   "grid_cols": 19,
+   "column_widths": {
+    "A": 2.5,
+    "B": 8,
+    "C": 7,
+    "D": 8,
+    "E": 12,
+    "F": 11,
+    "G": 10,
+    "H": 11,
+    "I": 12,
+    "J": 10,
+    "K": 10,
+    "L": 8,
+    "M": 2.5,
+    "R": 4
+   },
+   "hidden_columns": [
+    "R"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:L2",
+     "label": "MONTH BY MONTH",
+     "size": 16,
+     "color": "1D3557",
+     "font_color": "FFFFFF"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "=\"Finished jobs and expenses in \"&'Setup'!$R$4&\". Job costs = supplies, mileage and card fees.\""
+    },
+    {
+     "cell": "B5",
+     "formula": "Month"
+    },
+    {
+     "cell": "C5",
+     "formula": "Jobs"
+    },
+    {
+     "cell": "D5",
+     "formula": "Hours"
+    },
+    {
+     "cell": "E5",
+     "formula": "Revenue"
+    },
+    {
+     "cell": "F5",
+     "formula": "Crew pay"
+    },
+    {
+     "cell": "G5",
+     "formula": "Job costs"
+    },
+    {
+     "cell": "H5",
+     "formula": "Expenses"
+    },
+    {
+     "cell": "I5",
+     "formula": "Profit"
+    },
+    {
+     "cell": "J5",
+     "formula": "Profit per hour"
+    },
+    {
+     "cell": "K5",
+     "formula": "Still owed"
+    },
+    {
+     "cell": "L5",
+     "formula": "Vs goal"
+    },
+    {
+     "cell": "B6",
+     "formula": "Jan"
+    },
+    {
+     "cell": "C6",
+     "formula": "=COUNTIFS('Jobs'!$U$6:$U$1505,1)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D6",
+     "formula": "=SUMIFS('Jobs'!$AD$6:$AD$1505,'Jobs'!$U$6:$U$1505,1)",
+     "number_format": "0.##"
+    },
+    {
+     "cell": "E6",
+     "formula": "=ROUND(SUMIFS('Jobs'!$AA$6:$AA$1505,'Jobs'!$U$6:$U$1505,1),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F6",
+     "formula": "=ROUND(SUMIFS('Jobs'!$AB$6:$AB$1505,'Jobs'!$U$6:$U$1505,1),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G6",
+     "formula": "=ROUND(SUMIFS('Jobs'!$X$6:$X$1505,'Jobs'!$U$6:$U$1505,1),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H6",
+     "formula": "=ROUND(SUMIFS('Expenses'!$E$6:$E$305,'Expenses'!$R$6:$R$305,1),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I6",
+     "formula": "=ROUND(E6-F6-G6-H6,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "J6",
+     "formula": "=IF(D6>0,ROUND(I6/D6,2),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K6",
+     "formula": "=ROUND(SUMIFS('Jobs'!$AC$6:$AC$1505,'Jobs'!$U$6:$U$1505,1),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L6",
+     "formula": "=IF(OR('Setup'!$R$14=0,1>'Setup'!$R$6),\"\",E6/'Setup'!$R$14)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B7",
+     "formula": "Feb"
+    },
+    {
+     "cell": "C7",
+     "formula": "=COUNTIFS('Jobs'!$U$6:$U$1505,2)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D7",
+     "formula": "=SUMIFS('Jobs'!$AD$6:$AD$1505,'Jobs'!$U$6:$U$1505,2)",
+     "number_format": "0.##"
+    },
+    {
+     "cell": "E7",
+     "formula": "=ROUND(SUMIFS('Jobs'!$AA$6:$AA$1505,'Jobs'!$U$6:$U$1505,2),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F7",
+     "formula": "=ROUND(SUMIFS('Jobs'!$AB$6:$AB$1505,'Jobs'!$U$6:$U$1505,2),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G7",
+     "formula": "=ROUND(SUMIFS('Jobs'!$X$6:$X$1505,'Jobs'!$U$6:$U$1505,2),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H7",
+     "formula": "=ROUND(SUMIFS('Expenses'!$E$6:$E$305,'Expenses'!$R$6:$R$305,2),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I7",
+     "formula": "=ROUND(E7-F7-G7-H7,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "J7",
+     "formula": "=IF(D7>0,ROUND(I7/D7,2),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K7",
+     "formula": "=ROUND(SUMIFS('Jobs'!$AC$6:$AC$1505,'Jobs'!$U$6:$U$1505,2),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L7",
+     "formula": "=IF(OR('Setup'!$R$14=0,2>'Setup'!$R$6),\"\",E7/'Setup'!$R$14)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B8",
+     "formula": "Mar"
+    },
+    {
+     "cell": "C8",
+     "formula": "=COUNTIFS('Jobs'!$U$6:$U$1505,3)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D8",
+     "formula": "=SUMIFS('Jobs'!$AD$6:$AD$1505,'Jobs'!$U$6:$U$1505,3)",
+     "number_format": "0.##"
+    },
+    {
+     "cell": "E8",
+     "formula": "=ROUND(SUMIFS('Jobs'!$AA$6:$AA$1505,'Jobs'!$U$6:$U$1505,3),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F8",
+     "formula": "=ROUND(SUMIFS('Jobs'!$AB$6:$AB$1505,'Jobs'!$U$6:$U$1505,3),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G8",
+     "formula": "=ROUND(SUMIFS('Jobs'!$X$6:$X$1505,'Jobs'!$U$6:$U$1505,3),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H8",
+     "formula": "=ROUND(SUMIFS('Expenses'!$E$6:$E$305,'Expenses'!$R$6:$R$305,3),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I8",
+     "formula": "=ROUND(E8-F8-G8-H8,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "J8",
+     "formula": "=IF(D8>0,ROUND(I8/D8,2),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K8",
+     "formula": "=ROUND(SUMIFS('Jobs'!$AC$6:$AC$1505,'Jobs'!$U$6:$U$1505,3),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L8",
+     "formula": "=IF(OR('Setup'!$R$14=0,3>'Setup'!$R$6),\"\",E8/'Setup'!$R$14)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B9",
+     "formula": "Apr"
+    },
+    {
+     "cell": "C9",
+     "formula": "=COUNTIFS('Jobs'!$U$6:$U$1505,4)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D9",
+     "formula": "=SUMIFS('Jobs'!$AD$6:$AD$1505,'Jobs'!$U$6:$U$1505,4)",
+     "number_format": "0.##"
+    },
+    {
+     "cell": "E9",
+     "formula": "=ROUND(SUMIFS('Jobs'!$AA$6:$AA$1505,'Jobs'!$U$6:$U$1505,4),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F9",
+     "formula": "=ROUND(SUMIFS('Jobs'!$AB$6:$AB$1505,'Jobs'!$U$6:$U$1505,4),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G9",
+     "formula": "=ROUND(SUMIFS('Jobs'!$X$6:$X$1505,'Jobs'!$U$6:$U$1505,4),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H9",
+     "formula": "=ROUND(SUMIFS('Expenses'!$E$6:$E$305,'Expenses'!$R$6:$R$305,4),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I9",
+     "formula": "=ROUND(E9-F9-G9-H9,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "J9",
+     "formula": "=IF(D9>0,ROUND(I9/D9,2),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K9",
+     "formula": "=ROUND(SUMIFS('Jobs'!$AC$6:$AC$1505,'Jobs'!$U$6:$U$1505,4),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L9",
+     "formula": "=IF(OR('Setup'!$R$14=0,4>'Setup'!$R$6),\"\",E9/'Setup'!$R$14)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B10",
+     "formula": "May"
+    },
+    {
+     "cell": "C10",
+     "formula": "=COUNTIFS('Jobs'!$U$6:$U$1505,5)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D10",
+     "formula": "=SUMIFS('Jobs'!$AD$6:$AD$1505,'Jobs'!$U$6:$U$1505,5)",
+     "number_format": "0.##"
+    },
+    {
+     "cell": "E10",
+     "formula": "=ROUND(SUMIFS('Jobs'!$AA$6:$AA$1505,'Jobs'!$U$6:$U$1505,5),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F10",
+     "formula": "=ROUND(SUMIFS('Jobs'!$AB$6:$AB$1505,'Jobs'!$U$6:$U$1505,5),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G10",
+     "formula": "=ROUND(SUMIFS('Jobs'!$X$6:$X$1505,'Jobs'!$U$6:$U$1505,5),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H10",
+     "formula": "=ROUND(SUMIFS('Expenses'!$E$6:$E$305,'Expenses'!$R$6:$R$305,5),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I10",
+     "formula": "=ROUND(E10-F10-G10-H10,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "J10",
+     "formula": "=IF(D10>0,ROUND(I10/D10,2),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K10",
+     "formula": "=ROUND(SUMIFS('Jobs'!$AC$6:$AC$1505,'Jobs'!$U$6:$U$1505,5),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L10",
+     "formula": "=IF(OR('Setup'!$R$14=0,5>'Setup'!$R$6),\"\",E10/'Setup'!$R$14)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B11",
+     "formula": "Jun"
+    },
+    {
+     "cell": "C11",
+     "formula": "=COUNTIFS('Jobs'!$U$6:$U$1505,6)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D11",
+     "formula": "=SUMIFS('Jobs'!$AD$6:$AD$1505,'Jobs'!$U$6:$U$1505,6)",
+     "number_format": "0.##"
+    },
+    {
+     "cell": "E11",
+     "formula": "=ROUND(SUMIFS('Jobs'!$AA$6:$AA$1505,'Jobs'!$U$6:$U$1505,6),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F11",
+     "formula": "=ROUND(SUMIFS('Jobs'!$AB$6:$AB$1505,'Jobs'!$U$6:$U$1505,6),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G11",
+     "formula": "=ROUND(SUMIFS('Jobs'!$X$6:$X$1505,'Jobs'!$U$6:$U$1505,6),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H11",
+     "formula": "=ROUND(SUMIFS('Expenses'!$E$6:$E$305,'Expenses'!$R$6:$R$305,6),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I11",
+     "formula": "=ROUND(E11-F11-G11-H11,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "J11",
+     "formula": "=IF(D11>0,ROUND(I11/D11,2),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K11",
+     "formula": "=ROUND(SUMIFS('Jobs'!$AC$6:$AC$1505,'Jobs'!$U$6:$U$1505,6),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L11",
+     "formula": "=IF(OR('Setup'!$R$14=0,6>'Setup'!$R$6),\"\",E11/'Setup'!$R$14)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B12",
+     "formula": "Jul"
+    },
+    {
+     "cell": "C12",
+     "formula": "=COUNTIFS('Jobs'!$U$6:$U$1505,7)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D12",
+     "formula": "=SUMIFS('Jobs'!$AD$6:$AD$1505,'Jobs'!$U$6:$U$1505,7)",
+     "number_format": "0.##"
+    },
+    {
+     "cell": "E12",
+     "formula": "=ROUND(SUMIFS('Jobs'!$AA$6:$AA$1505,'Jobs'!$U$6:$U$1505,7),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F12",
+     "formula": "=ROUND(SUMIFS('Jobs'!$AB$6:$AB$1505,'Jobs'!$U$6:$U$1505,7),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G12",
+     "formula": "=ROUND(SUMIFS('Jobs'!$X$6:$X$1505,'Jobs'!$U$6:$U$1505,7),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H12",
+     "formula": "=ROUND(SUMIFS('Expenses'!$E$6:$E$305,'Expenses'!$R$6:$R$305,7),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I12",
+     "formula": "=ROUND(E12-F12-G12-H12,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "J12",
+     "formula": "=IF(D12>0,ROUND(I12/D12,2),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K12",
+     "formula": "=ROUND(SUMIFS('Jobs'!$AC$6:$AC$1505,'Jobs'!$U$6:$U$1505,7),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L12",
+     "formula": "=IF(OR('Setup'!$R$14=0,7>'Setup'!$R$6),\"\",E12/'Setup'!$R$14)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B13",
+     "formula": "Aug"
+    },
+    {
+     "cell": "C13",
+     "formula": "=COUNTIFS('Jobs'!$U$6:$U$1505,8)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D13",
+     "formula": "=SUMIFS('Jobs'!$AD$6:$AD$1505,'Jobs'!$U$6:$U$1505,8)",
+     "number_format": "0.##"
+    },
+    {
+     "cell": "E13",
+     "formula": "=ROUND(SUMIFS('Jobs'!$AA$6:$AA$1505,'Jobs'!$U$6:$U$1505,8),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F13",
+     "formula": "=ROUND(SUMIFS('Jobs'!$AB$6:$AB$1505,'Jobs'!$U$6:$U$1505,8),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G13",
+     "formula": "=ROUND(SUMIFS('Jobs'!$X$6:$X$1505,'Jobs'!$U$6:$U$1505,8),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H13",
+     "formula": "=ROUND(SUMIFS('Expenses'!$E$6:$E$305,'Expenses'!$R$6:$R$305,8),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I13",
+     "formula": "=ROUND(E13-F13-G13-H13,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "J13",
+     "formula": "=IF(D13>0,ROUND(I13/D13,2),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K13",
+     "formula": "=ROUND(SUMIFS('Jobs'!$AC$6:$AC$1505,'Jobs'!$U$6:$U$1505,8),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L13",
+     "formula": "=IF(OR('Setup'!$R$14=0,8>'Setup'!$R$6),\"\",E13/'Setup'!$R$14)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B14",
+     "formula": "Sep"
+    },
+    {
+     "cell": "C14",
+     "formula": "=COUNTIFS('Jobs'!$U$6:$U$1505,9)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D14",
+     "formula": "=SUMIFS('Jobs'!$AD$6:$AD$1505,'Jobs'!$U$6:$U$1505,9)",
+     "number_format": "0.##"
+    },
+    {
+     "cell": "E14",
+     "formula": "=ROUND(SUMIFS('Jobs'!$AA$6:$AA$1505,'Jobs'!$U$6:$U$1505,9),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F14",
+     "formula": "=ROUND(SUMIFS('Jobs'!$AB$6:$AB$1505,'Jobs'!$U$6:$U$1505,9),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G14",
+     "formula": "=ROUND(SUMIFS('Jobs'!$X$6:$X$1505,'Jobs'!$U$6:$U$1505,9),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H14",
+     "formula": "=ROUND(SUMIFS('Expenses'!$E$6:$E$305,'Expenses'!$R$6:$R$305,9),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I14",
+     "formula": "=ROUND(E14-F14-G14-H14,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "J14",
+     "formula": "=IF(D14>0,ROUND(I14/D14,2),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K14",
+     "formula": "=ROUND(SUMIFS('Jobs'!$AC$6:$AC$1505,'Jobs'!$U$6:$U$1505,9),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L14",
+     "formula": "=IF(OR('Setup'!$R$14=0,9>'Setup'!$R$6),\"\",E14/'Setup'!$R$14)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B15",
+     "formula": "Oct"
+    },
+    {
+     "cell": "C15",
+     "formula": "=COUNTIFS('Jobs'!$U$6:$U$1505,10)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D15",
+     "formula": "=SUMIFS('Jobs'!$AD$6:$AD$1505,'Jobs'!$U$6:$U$1505,10)",
+     "number_format": "0.##"
+    },
+    {
+     "cell": "E15",
+     "formula": "=ROUND(SUMIFS('Jobs'!$AA$6:$AA$1505,'Jobs'!$U$6:$U$1505,10),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F15",
+     "formula": "=ROUND(SUMIFS('Jobs'!$AB$6:$AB$1505,'Jobs'!$U$6:$U$1505,10),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G15",
+     "formula": "=ROUND(SUMIFS('Jobs'!$X$6:$X$1505,'Jobs'!$U$6:$U$1505,10),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H15",
+     "formula": "=ROUND(SUMIFS('Expenses'!$E$6:$E$305,'Expenses'!$R$6:$R$305,10),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I15",
+     "formula": "=ROUND(E15-F15-G15-H15,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "J15",
+     "formula": "=IF(D15>0,ROUND(I15/D15,2),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K15",
+     "formula": "=ROUND(SUMIFS('Jobs'!$AC$6:$AC$1505,'Jobs'!$U$6:$U$1505,10),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L15",
+     "formula": "=IF(OR('Setup'!$R$14=0,10>'Setup'!$R$6),\"\",E15/'Setup'!$R$14)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B16",
+     "formula": "Nov"
+    },
+    {
+     "cell": "C16",
+     "formula": "=COUNTIFS('Jobs'!$U$6:$U$1505,11)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D16",
+     "formula": "=SUMIFS('Jobs'!$AD$6:$AD$1505,'Jobs'!$U$6:$U$1505,11)",
+     "number_format": "0.##"
+    },
+    {
+     "cell": "E16",
+     "formula": "=ROUND(SUMIFS('Jobs'!$AA$6:$AA$1505,'Jobs'!$U$6:$U$1505,11),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F16",
+     "formula": "=ROUND(SUMIFS('Jobs'!$AB$6:$AB$1505,'Jobs'!$U$6:$U$1505,11),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G16",
+     "formula": "=ROUND(SUMIFS('Jobs'!$X$6:$X$1505,'Jobs'!$U$6:$U$1505,11),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H16",
+     "formula": "=ROUND(SUMIFS('Expenses'!$E$6:$E$305,'Expenses'!$R$6:$R$305,11),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I16",
+     "formula": "=ROUND(E16-F16-G16-H16,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "J16",
+     "formula": "=IF(D16>0,ROUND(I16/D16,2),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K16",
+     "formula": "=ROUND(SUMIFS('Jobs'!$AC$6:$AC$1505,'Jobs'!$U$6:$U$1505,11),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L16",
+     "formula": "=IF(OR('Setup'!$R$14=0,11>'Setup'!$R$6),\"\",E16/'Setup'!$R$14)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B17",
+     "formula": "Dec"
+    },
+    {
+     "cell": "C17",
+     "formula": "=COUNTIFS('Jobs'!$U$6:$U$1505,12)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D17",
+     "formula": "=SUMIFS('Jobs'!$AD$6:$AD$1505,'Jobs'!$U$6:$U$1505,12)",
+     "number_format": "0.##"
+    },
+    {
+     "cell": "E17",
+     "formula": "=ROUND(SUMIFS('Jobs'!$AA$6:$AA$1505,'Jobs'!$U$6:$U$1505,12),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F17",
+     "formula": "=ROUND(SUMIFS('Jobs'!$AB$6:$AB$1505,'Jobs'!$U$6:$U$1505,12),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G17",
+     "formula": "=ROUND(SUMIFS('Jobs'!$X$6:$X$1505,'Jobs'!$U$6:$U$1505,12),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H17",
+     "formula": "=ROUND(SUMIFS('Expenses'!$E$6:$E$305,'Expenses'!$R$6:$R$305,12),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I17",
+     "formula": "=ROUND(E17-F17-G17-H17,2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "J17",
+     "formula": "=IF(D17>0,ROUND(I17/D17,2),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "K17",
+     "formula": "=ROUND(SUMIFS('Jobs'!$AC$6:$AC$1505,'Jobs'!$U$6:$U$1505,12),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "L17",
+     "formula": "=IF(OR('Setup'!$R$14=0,12>'Setup'!$R$6),\"\",E17/'Setup'!$R$14)",
+     "number_format": "0%"
+    },
+    {
+     "cell": "B18",
+     "formula": "Year"
+    },
+    {
+     "cell": "C18",
+     "formula": "=SUM(C6:C17)",
+     "number_format": "0"
+    },
+    {
+     "cell": "D18",
+     "formula": "=SUM(D6:D17)",
+     "number_format": "0.##"
+    },
+    {
+     "cell": "E18",
+     "formula": "=ROUND(SUM(E6:E17),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "F18",
+     "formula": "=ROUND(SUM(F6:F17),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "G18",
+     "formula": "=ROUND(SUM(G6:G17),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "H18",
+     "formula": "=ROUND(SUM(H6:H17),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "I18",
+     "formula": "=ROUND(SUM(I6:I17),2)",
+     "number_format": "$#,##0.00;-$#,##0.00;$0.00"
+    },
+    {
+     "cell": "K18",
+     "formula": "=ROUND(SUM(K6:K17),2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "J18",
+     "formula": "=IF(D18>0,ROUND(I18/D18,2),\"\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R4",
+     "formula": "='Setup'!$R$6"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "I6:I18",
+     "type": "formula",
+     "formula": [
+      "I6<0"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "I6:I18",
+     "type": "formula",
+     "formula": [
+      "I6>0"
+     ],
+     "fill": "D7EFDD"
+    },
+    {
+     "range": "K6:K18",
+     "type": "formula",
+     "formula": [
+      "K6>0"
+     ],
+     "fill": "FBF4D2"
+    },
+    {
+     "range": "L6:L17",
+     "type": "formula",
+     "formula": [
+      "AND(ISNUMBER(L6),L6>=1)"
+     ],
+     "fill": "D7EFDD"
+    },
+    {
+     "range": "B6:B17",
+     "type": "formula",
+     "formula": [
+      "ROW()-5=$R$4"
+     ],
+     "fill": "E9C531"
+    }
+   ],
+   "fills": [
+    {
+     "range": "B5:L5",
+     "color": "1D3557"
+    },
+    {
+     "range": "B18:L18",
+     "color": "DDF3F6"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:L18",
+     "color": "CFE3E8"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "1D3557"
+    },
+    {
+     "range": "B5:L5",
+     "wrap": true,
+     "bold": true,
+     "size": 9,
+     "color": "FFFFFF",
+     "align": "center"
+    },
+    {
+     "range": "B6:L18",
+     "align": "center"
+    },
+    {
+     "range": "B6:B18",
+     "bold": true,
+     "size": 10,
+     "color": "1D3557",
+     "align": "center"
+    },
+    {
+     "range": "I6:I18",
+     "bold": true,
+     "size": 10,
+     "color": "1A9FB5",
+     "align": "center"
+    },
+    {
+     "range": "B18:L18",
+     "bold": true,
+     "size": 10,
+     "color": "1D3557",
+     "align": "center"
+    }
+   ],
+   "row_heights": {
+    "5": 30
+   },
+   "charts": [
+    {
+     "type": "bar",
+     "anchor": "B20",
+     "data": "Monthly!E5:F17",
+     "categories": "Monthly!B6:B17",
+     "width": 20,
+     "height": 7,
+     "colors": [
+      "1A9FB5",
+      "1D3557"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Price Quote",
+   "columns": [],
+   "hide_gridlines": true,
+   "tab_color": "E76F51",
+   "grid_rows": 15,
+   "grid_cols": 19,
+   "column_widths": {
+    "A": 2.5,
+    "B": 22,
+    "C": 13,
+    "D": 3,
+    "E": 22,
+    "F": 14,
+    "G": 2.5,
+    "R": 6
+   },
+   "hidden_columns": [
+    "R"
+   ],
+   "section_bars": [
+    {
+     "range": "B2:F2",
+     "label": "PRICE QUOTE",
+     "size": 16,
+     "color": "1D3557",
+     "font_color": "FFFFFF"
+    },
+    {
+     "range": "B4:C4",
+     "label": "THE JOB",
+     "color": "DDF3F6",
+     "font_color": "1D3557",
+     "align": "left"
+    },
+    {
+     "range": "E5:F5",
+     "label": "QUOTE",
+     "color": "DDF3F6",
+     "font_color": "1D3557",
+     "align": "left"
+    }
+   ],
+   "formulas": [
+    {
+     "cell": "B3",
+     "formula": "Quick quote for a new client. Hours are an estimate: 1 hour per 1,000 sq ft, plus rooms, times the job type."
+    },
+    {
+     "cell": "B5",
+     "formula": "Square feet"
+    },
+    {
+     "cell": "C5",
+     "formula": 1800,
+     "number_format": "#,##0"
+    },
+    {
+     "cell": "B6",
+     "formula": "Bedrooms"
+    },
+    {
+     "cell": "C6",
+     "formula": 3,
+     "number_format": "0"
+    },
+    {
+     "cell": "B7",
+     "formula": "Bathrooms"
+    },
+    {
+     "cell": "C7",
+     "formula": 2,
+     "number_format": "0.#"
+    },
+    {
+     "cell": "B8",
+     "formula": "Job type"
+    },
+    {
+     "cell": "C8",
+     "formula": "Deep"
+    },
+    {
+     "cell": "B9",
+     "formula": "Pets?"
+    },
+    {
+     "cell": "C9",
+     "formula": "Yes"
+    },
+    {
+     "cell": "B10",
+     "formula": "Supplies for this job"
+    },
+    {
+     "cell": "C10",
+     "formula": 8,
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "R5",
+     "formula": "=IFERROR(INDEX({1,1.6,2,1.1,0.8},MATCH(LOWER(TRIM(C8&\"\")),{\"standard\",\"deep\",\"move-out\",\"office\",\"rental turnover\"},0)),1)"
+    },
+    {
+     "cell": "R6",
+     "formula": "=IF(LOWER(TRIM(C9&\"\"))=\"yes\",1.1,1)"
+    },
+    {
+     "cell": "E5",
+     "formula": "Quote"
+    },
+    {
+     "cell": "E6",
+     "formula": "Estimated hours"
+    },
+    {
+     "cell": "F6",
+     "formula": "=ROUND((MAX(0,N(C5))/1000+MAX(0,N(C6))*0.25+MAX(0,N(C7))*0.5)*R5*R6*4,0)/4",
+     "number_format": "0.##"
+    },
+    {
+     "cell": "E7",
+     "formula": "Crew pay"
+    },
+    {
+     "cell": "F7",
+     "formula": "=ROUND(F6*'Setup'!$R$8,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E8",
+     "formula": "Supplies"
+    },
+    {
+     "cell": "F8",
+     "formula": "=MAX(0,N(C10))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E9",
+     "formula": "Total cost"
+    },
+    {
+     "cell": "F9",
+     "formula": "=ROUND(F7+F8,2)",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E10",
+     "formula": "Price for your margin"
+    },
+    {
+     "cell": "F10",
+     "formula": "=IF(F9<=0,\"-\",ROUND(F9/(1-'Setup'!$R$12)/(1-'Setup'!$R$11),2))",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E11",
+     "formula": "Rounded quote"
+    },
+    {
+     "cell": "F11",
+     "formula": "=IF(ISNUMBER(F10),CEILING(F10,5),\"-\")",
+     "number_format": "$#,##0.00"
+    },
+    {
+     "cell": "E12",
+     "formula": "That's per hour"
+    },
+    {
+     "cell": "F12",
+     "formula": "=IF(AND(ISNUMBER(F11),F6>0),ROUND(F11/F6,2),\"-\")",
+     "number_format": "$#,##0.00"
+    }
+   ],
+   "conditional_formats": [
+    {
+     "range": "C5:C7",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C5<>\"\",NOT(ISNUMBER(C5))),N(C5)<0)"
+     ],
+     "fill": "F6CACA"
+    },
+    {
+     "range": "C10",
+     "type": "formula",
+     "formula": [
+      "OR(AND(C10<>\"\",NOT(ISNUMBER(C10))),N(C10)<0)"
+     ],
+     "fill": "F6CACA"
+    }
+   ],
+   "fills": [
+    {
+     "range": "C5:C10",
+     "color": "FFFFFF"
+    },
+    {
+     "range": "F6:F12",
+     "color": "F5FAFB"
+    },
+    {
+     "range": "E10:F11",
+     "color": "FBF4D2"
+    }
+   ],
+   "borders": [
+    {
+     "range": "B5:C10",
+     "color": "CFE3E8"
+    },
+    {
+     "range": "E6:F12",
+     "color": "CFE3E8"
+    }
+   ],
+   "text_styles": [
+    {
+     "range": "B3",
+     "italic": true,
+     "size": 10,
+     "color": "1D3557"
+    },
+    {
+     "range": "B5:B10",
+     "bold": true,
+     "size": 10,
+     "color": "1D3557"
+    },
+    {
+     "range": "C5:C10",
+     "bold": true,
+     "size": 11,
+     "color": "1D3557",
+     "align": "center"
+    },
+    {
+     "range": "E6:E12",
+     "bold": true,
+     "size": 10,
+     "color": "1D3557"
+    },
+    {
+     "range": "F6:F12",
+     "bold": true,
+     "size": 11,
+     "color": "1A9FB5",
+     "align": "center"
+    },
+    {
+     "range": "F11",
+     "bold": true,
+     "size": 14,
+     "color": "E76F51",
+     "align": "center"
+    }
+   ],
+   "validations": [
+    {
+     "range": "C8",
+     "type": "list",
+     "values": [
+      "Standard",
+      "Deep",
+      "Move-out",
+      "Office",
+      "Rental turnover"
+     ],
+     "strict": false
+    },
+    {
+     "range": "C9",
+     "type": "list",
+     "values": [
+      "Yes",
+      "No"
+     ],
+     "strict": false
+    }
+   ]
+  }
+ ]
+}
